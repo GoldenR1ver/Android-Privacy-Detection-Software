@@ -5,4 +5,4 @@
 \beamer@sectionintoc {3}{Soul隐私政策解读}{9}{0}{3}
 \beamer@sectionintoc {4}{Soul违规问题分析}{12}{0}{4}
 \beamer@sectionintoc {5}{五款App对比分析}{14}{0}{5}
-\beamer@sectionintoc {6}{研究结论}{17}{0}{6}
+\beamer@sectionintoc {6}{研究结论}{18}{0}{6}

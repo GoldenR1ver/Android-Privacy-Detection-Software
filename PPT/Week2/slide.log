@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.29)  16 MAR 2026 18:36
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.29)  16 MAR 2026 20:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1994,7 +1994,7 @@ Underfull \hbox (badness 10000) in alignment at lines 312--312
 
 ]
 LaTeX Font Info:    Font shape `TU/DroidSans(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 363.
+(Font)              scaled to size 8.0pt on input line 345.
 Requested font "[DroidSans-Bold.ttf]/OT:script=latn;language=dflt;mapping=tex-t
 ext;" at 8.0pt
  -> d:/texlive/2024/texmf-dist/fonts/truetype/ascender/droid/droidsans/DroidSan
@@ -2003,15 +2003,13 @@ Requested font "KaiTi/OT:script=hani;language=dflt;embolden=4;" at 8.0pt
  -> C:/WINDOWS/fonts/simkai.ttf
 Requested font "pzdr" at 6.0pt
  -> d:/texlive/2024/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
+ [14
 
-Overfull \vbox (45.42279pt too high) detected at line 363
- []
-
-[14
+] [15
 
 ]
 LaTeX Font Info:    Font shape `TU/DroidSans(0)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 397.
+(Font)              scaled to size 9.0pt on input line 411.
 Requested font "[DroidSans-Bold.ttf]/OT:script=latn;language=dflt;mapping=tex-t
 ext;" at 9.0pt
  -> d:/texlive/2024/texmf-dist/fonts/truetype/ascender/droid/droidsans/DroidSan
@@ -2020,11 +2018,11 @@ Requested font "KaiTi/OT:script=hani;language=dflt;embolden=4;" at 9.0pt
  -> C:/WINDOWS/fonts/simkai.ttf
 Requested font "pzdr" at 9.0pt
  -> d:/texlive/2024/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
- [15
+ [16
 
 ]
 LaTeX Font Info:    Font shape `TU/DroidSans(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 420.
+(Font)              scaled to size 12.0pt on input line 434.
 Requested font "[DroidSans.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
  at 12.0pt
  -> d:/texlive/2024/texmf-dist/fonts/truetype/ascender/droid/droidsans/DroidSan
@@ -2032,16 +2030,14 @@ s.ttf
 Requested font "Microsoft YaHei/OT:script=hani;language=dflt;" at 12.0pt
  -> C:/WINDOWS/fonts/msyh.ttc
 LaTeX Font Info:    Font shape `TU/DroidSans(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 420.
+(Font)              scaled to size 10.0pt on input line 434.
 Requested font "[DroidSans-Bold.ttf]/OT:script=latn;language=dflt;mapping=tex-t
 ext;" at 10.0pt
  -> d:/texlive/2024/texmf-dist/fonts/truetype/ascender/droid/droidsans/DroidSan
 s-Bold.ttf
 Requested font "KaiTi/OT:script=hani;language=dflt;embolden=4;" at 10.0pt
  -> C:/WINDOWS/fonts/simkai.ttf
- [16
-
-] [17
+ [17
 
 ] [18
 
@@ -2049,16 +2045,18 @@ Requested font "KaiTi/OT:script=hani;language=dflt;embolden=4;" at 10.0pt
 
 ] [20
 
+] [21
+
 ]
 LaTeX Font Info:    Font shape `TU/DroidSans(0)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 473.
+(Font)              scaled to size 24.88pt on input line 487.
 Requested font "[DroidSans.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
  at 24.88pt
  -> d:/texlive/2024/texmf-dist/fonts/truetype/ascender/droid/droidsans/DroidSan
 s.ttf
 Requested font "KaiTi/OT:script=hani;language=dflt;" at 24.88pt
  -> C:/WINDOWS/fonts/simkai.ttf
- [21
+ [22
 
 ]
 \tf@nav=\write6
@@ -2079,12 +2077,12 @@ Package rerunfilecheck Info: File `slide.out' has not changed.
 (rerunfilecheck)             Checksum: 4703B672AF061DB603B4CC25B3BD1FFE;902.
  ) 
 Here is how much of TeX's memory you used:
- 34835 strings out of 474773
- 764228 string characters out of 5761288
- 1951842 words of memory out of 5000000
- 56248 multiletter control sequences out of 15000+600000
+ 34837 strings out of 474773
+ 764244 string characters out of 5761288
+ 1943842 words of memory out of 5000000
+ 56250 multiletter control sequences out of 15000+600000
  581771 words of font info for 158 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,11n,123p,435b,783s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on slide.pdf (21 pages).
+Output written on slide.pdf (22 pages).
