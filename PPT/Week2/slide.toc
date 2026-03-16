@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{研究背景}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{为何聚焦社交类App隐私政策？}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{为什么选择Soul作为代表研究对象}{4}{0}{1}
+\beamer@sectionintoc {2}{分析标准}{5}{0}{2}
+\beamer@sectionintoc {3}{Soul隐私政策解读}{9}{0}{3}
+\beamer@sectionintoc {4}{Soul违规问题分析}{12}{0}{4}
+\beamer@sectionintoc {5}{五款App对比分析}{14}{0}{5}
+\beamer@sectionintoc {6}{研究结论}{17}{0}{6}
