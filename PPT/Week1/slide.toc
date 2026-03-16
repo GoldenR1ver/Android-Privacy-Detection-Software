@@ -1,0 +1,12 @@
+\beamer@sectionintoc {1}{研究方法}{3}{0}{1}
+\beamer@sectionintoc {2}{研究目的}{4}{0}{2}
+\beamer@sectionintoc {3}{研究内容}{5}{0}{3}
+\beamer@sectionintoc {4}{研究结果}{7}{0}{4}
+\beamer@subsectionintoc {4}{1}{基础概念与适用范围}{7}{0}{4}
+\beamer@subsectionintoc {4}{2}{处理的核心原则与合法性}{10}{0}{4}
+\beamer@subsectionintoc {4}{3}{数据主体的权利}{14}{0}{4}
+\beamer@subsectionintoc {4}{4}{处理者的义务与合规}{18}{0}{4}
+\beamer@subsectionintoc {4}{5}{数据的跨境流动}{22}{0}{4}
+\beamer@subsectionintoc {4}{6}{监管与法律责任}{25}{0}{4}
+\beamer@subsectionintoc {4}{7}{综合对比}{29}{0}{4}
+\beamer@sectionintoc {5}{结论与展望}{31}{0}{5}
