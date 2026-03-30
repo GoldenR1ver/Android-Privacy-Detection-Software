@@ -1,0 +1,8 @@
+transformers
+numpy
+jupyter
+bitsandbytes
+torch
+pandas
+scikit-learn
+matplotlib

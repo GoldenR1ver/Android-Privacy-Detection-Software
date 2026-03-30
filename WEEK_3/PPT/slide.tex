@@ -1,0 +1,295 @@
+\documentclass[AutoFakeBold,AutoFakeSlant]{beamer}
+\usepackage{ctex}
+\usepackage{hyperref}
+\bibliographystyle{plain}
+\usepackage[defaultsans]{droidsans}
+\usepackage{fontspec}
+\usepackage{newtxmath}
+\usepackage{latexsym,amsmath,xcolor,multicol,booktabs,calligra,tcolorbox}
+\usepackage{graphicx,tabularx,multirow,makecell}
+\usepackage{pifont}
+
+% 主题设置（使用干净简洁的Madrid主题）
+\usetheme{Madrid}
+\usecolortheme{default}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+% 定义新命令
+\newcommand{\ba}{\backslash}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\rank}{\text{rank}}
+
+% 定义符号命令
+\newcommand{\cmark}{\textcolor{green}{\ding{51}}}
+\newcommand{\xmark}{\textcolor{red}{\ding{55}}}
+\newcommand{\wmark}{\textcolor{orange}{\ding{72}}}
+
+% 列表设置
+\usepackage{listings}
+\lstset{
+    columns = fixed,
+    basewidth = {0.5em},
+    breaklines = true,
+    backgroundcolor = \color{white},
+    keywordstyle = \color{blue},
+    numberstyle = \footnotesize\color{darkgray},
+    commentstyle = \ttfamily\color{violet},
+    basicstyle = \small\ttfamily,
+    stringstyle = \ttfamily\color{green!40!black},
+    showstringspaces = false,
+}
+
+% 作者信息
+\author{李禹江，张博涵，蒋兴宇}
+\title{Android隐私一致性审计实验汇报}
+\subtitle{Lab2：Data Safety 与 Privacy Policy 自动比对}
+\institute{我的刀盾队}
+\date{\today}
+
+\begin{document}
+\kaishu
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\begin{frame}
+    \frametitle{目录}
+    \tableofcontents
+\end{frame}
+
+\section{实验背景与目标}
+\begin{frame}
+    \frametitle{实验背景}
+    \begin{itemize}
+        \item \textbf{实验任务}
+        \begin{itemize}
+            \item 对比 Android 应用 \texttt{Data Safety} 与 \texttt{Privacy Policy}
+            \item 利用 LLM 自动识别合规风险标签
+        \end{itemize}
+        \item \textbf{输出标签（三分类）}
+        \begin{itemize}
+            \item \texttt{incorrect}：Data Safety 未声明，但隐私政策提到
+            \item \texttt{incomplete}：Data Safety 有声明，但细节不完整
+            \item \texttt{inconsistent}：两者都提到，但描述冲突
+        \end{itemize}
+        \item \textbf{实验价值}
+        \begin{itemize}
+            \item 构建“模型初筛 + 人工复核”的隐私审计流程
+            \item 将输出结果映射到你们既有22项合规框架
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{实验目标}
+    \begin{itemize}
+        \item \textbf{目标1：流程可复现}
+        \begin{itemize}
+            \item 在 \texttt{example.csv} 上验证审计、后处理、评估全链路
+        \end{itemize}
+        \item \textbf{目标2：全量性能评估}
+        \begin{itemize}
+            \item 在 \texttt{all\_data\_150.csv} 上产出 Precision/Recall/F1/Accuracy
+        \end{itemize}
+        \item \textbf{目标3：形成合规解释}
+        \begin{itemize}
+            \item 给出典型误判样本与改进方案
+            \item 关联《个保法》22项维度输出结论
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\section{实验设置}
+\begin{frame}
+    \frametitle{环境与模型配置}
+    \begin{itemize}
+        \item \textbf{运行环境}
+        \begin{itemize}
+            \item OS：Windows（PowerShell）
+            \item Python：3.10（Conda 环境：\texttt{android\_privacy\_lab}）
+        \end{itemize}
+        \item \textbf{核心依赖}
+        \begin{itemize}
+            \item \texttt{transformers / torch / pandas / scikit-learn / matplotlib}
+        \end{itemize}
+        \item \textbf{后端模式}
+        \begin{itemize}
+            \item \texttt{local}（本地模型）、\texttt{deepseek}（API）、\texttt{mock}（快速验证）
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{关键命令（实际运行）}
+    \tiny
+\begin{lstlisting}[language=bash]
+conda run -n android_privacy_lab python run_audit.py full \
+  --provider deepseek \
+  --input-csv data/all_data_150.csv \
+  --groundtruth-csv data/all_data_150_groundtruth.csv \
+  --raw-output-csv results/all_data_150_results_cli.csv \
+  --processed-output-csv results/all_data_150_results_processed_cli.csv \
+  --metrics-output-csv results/metrics_summary_all_data_150_cli.csv \
+  --figures-dir results/figures_cli_all_data_150
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}
+    \frametitle{数据与输出文件}
+    \scriptsize
+    \begin{tabularx}{\textwidth}{|p{2.3cm}|X|p{2.5cm}|}
+        \toprule
+        \textbf{类别} & \textbf{文件} & \textbf{用途} \\
+        \midrule
+        输入数据 & \texttt{data/example.csv} / \texttt{data/all\_data\_150.csv} & 审计输入 \\
+        \midrule
+        真值标签 & \texttt{example\_groudtruth.csv} / \texttt{all\_data\_150\_groundtruth.csv} & 评估基准 \\
+        \midrule
+        原始输出 & \texttt{results/*\_results*.csv} & 包含原始 \texttt{result} 字段 \\
+        \midrule
+        后处理输出 & \texttt{results/*\_processed*.csv} & 三类标签（0/1） \\
+        \midrule
+        指标输出 & \texttt{results/metrics\_summary*.csv} & 指标汇总 \\
+        \bottomrule
+    \end{tabularx}
+\end{frame}
+
+\begin{frame}
+    \frametitle{实验流程}
+    \begin{enumerate}
+        \item 审计推理：生成 \texttt{result} JSON
+        \item 结果后处理：拆成三类标签列
+        \item 对齐真值：与 groundtruth 合并
+        \item 指标计算：Precision / Recall / F1 / Accuracy
+        \item 可视化与解释：混淆矩阵 + 合规分析
+    \end{enumerate}
+\end{frame}
+
+\section{实验结果}
+\begin{frame}
+    \frametitle{指标汇总（全量150样本）}
+    \scriptsize
+    \begin{tabularx}{\textwidth}{|p{2.0cm}|c|c|c|c|X|}
+        \toprule
+        \textbf{标签} & \textbf{P} & \textbf{R} & \textbf{F1} & \textbf{Acc} & \textbf{说明} \\
+        \midrule
+        incorrect & 0.909 & 0.365 & 0.521 & 0.387 & 精确率高但召回率低，漏检较多 \\
+        \midrule
+        incomplete & 0.836 & 0.380 & 0.523 & 0.440 & 与incorrect相近，仍以漏检为主 \\
+        \midrule
+        inconsistent & 0.000 & 0.000 & 0.000 & 0.653 & 未识别出正类冲突样本，需重点改进 \\
+        \bottomrule
+    \end{tabularx}
+\end{frame}
+
+\begin{frame}
+    \frametitle{混淆矩阵（全量150样本）}
+    \begin{columns}
+        \begin{column}{0.32\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{../src/2-2/results/figures_cli_all_data_150/cm_incorrect.png}
+        \end{column}
+        \begin{column}{0.32\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{../src/2-2/results/figures_cli_all_data_150/cm_incomplete.png}
+        \end{column}
+        \begin{column}{0.32\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{../src/2-2/results/figures_cli_all_data_150/cm_inconsistent.png}
+        \end{column}
+    \end{columns}
+    \vspace{0.6em}
+    \footnotesize 图源：\texttt{src/2-2/results/figures\_cli\_all\_data\_150}
+\end{frame}
+
+\begin{frame}
+    \frametitle{典型样本分析}
+    \small
+    \begin{block}{案例1：误判样本}
+        样本ID：12（Employee Card Maker）；标签：\texttt{inconsistent}；真值：1；预测：0。\\
+        误判原因：Data Safety与隐私政策的冲突表达较隐式，模型更偏向保守预测0。
+    \end{block}
+    \begin{block}{案例2：正确样本}
+        样本ID：1（Text On Photo Photo Per Status）；预测与真值均为(incorrect=1, incomplete=1, inconsistent=0)。\\
+        关键证据：Data Safety几乎为空，但隐私政策明确提到数据共享与数据收集。
+    \end{block}
+    \begin{block}{小结}
+        模型对“显式缺失声明”识别较稳定；对“文本冲突”类型仍需人工复核。
+    \end{block}
+\end{frame}
+
+\section{合规解释与讨论}
+\begin{frame}
+    \frametitle{标签到22项标准的映射}
+    \begin{itemize}
+        \item \textbf{\texttt{incorrect}}：优先关联第2、9、13、20项（缺失声明风险）
+        \item \textbf{\texttt{incomplete}}：保存期限、接收方信息、用户权利路径粒度不足
+        \item \textbf{\texttt{inconsistent}}：重点核查跨境传输与第三方共享冲突
+        \item 本实验结果与Week2结论部分一致：声明缺失更易检出，复杂冲突仍是主要难点
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{关键发现}
+    \begin{itemize}
+        \item \textbf{发现1}：\texttt{incorrect}/\texttt{incomplete} 均为高Precision、低Recall，说明“命中较准但漏检明显”
+        \item \textbf{发现2}：\texttt{inconsistent} 的 P/R/F1 为0，表明当前模型对冲突语义识别能力不足
+        \item \textbf{发现3}：需结合混淆矩阵解读，不能仅依据Accuracy判断模型可用性
+        \item \textbf{发现4}：现阶段流程适合做合规初筛，不适合直接替代人工审计
+    \end{itemize}
+\end{frame}
+
+\section{结论与改进}
+\begin{frame}
+    \frametitle{实验结论}
+    \begin{itemize}
+        \item 结论1：实验流程在150条样本上可复现并稳定运行，输出结构完整可评估
+        \item 结论2：当前表现最佳标签为\texttt{incomplete}（F1=0.523），最难标签为\texttt{inconsistent}（F1=0）
+        \item 结论3：与Week2的22项研究结论部分一致：显式缺失较易识别，复杂合规冲突更难自动检测
+        \item 结论4：推荐采用“LLM初筛 + 人工复核”的工程化方案
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{改进方向}
+    \begin{itemize}
+        \item 模型：继续对比 Phi/Qwen/DeepSeek，并重点优化\texttt{inconsistent}标签
+        \item Prompt：加入冲突判定few-shot样例，明确“矛盾表达”判断规则
+        \item 数据：扩充冲突类样本并平衡标签分布，降低模型偏向负类的风险
+        \item 工程：增加异常重试、JSON校验与复核队列，形成稳定审计流水线
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{分工与复现说明}
+    \scriptsize
+    \begin{tabularx}{\textwidth}{|p{1.8cm}|p{2.6cm}|p{2.8cm}|X|}
+        \toprule
+        \textbf{成员} & \textbf{模块} & \textbf{工作} & \textbf{产出} \\
+        \midrule
+        李禹江 & 运行与日志 & 跑通全流程命令 & 结果CSV、日志 \\
+        \midrule
+        张博涵 & 评估与可视化 & 计算指标、绘制混淆矩阵 & 指标表、图表 \\
+        \midrule
+        蒋兴宇 & 合规分析 & 映射22项并撰写结论 & 发现与建议页 \\
+        \bottomrule
+    \end{tabularx}
+\end{frame}
+
+\begin{frame}
+    \begin{center}
+        {\Huge 感谢聆听！}
+
+        \vspace{0.8em}
+        \large Q\&A
+    \end{center}
+\end{frame}
+
+\end{document}

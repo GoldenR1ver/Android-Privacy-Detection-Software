@@ -1,0 +1,12 @@
+\frametitle{关键命令（实际运行）}
+    \tiny
+\begin{lstlisting}[language=bash]
+conda run -n android_privacy_lab python run_audit.py full \
+  --provider deepseek \
+  --input-csv data/all_data_150.csv \
+  --groundtruth-csv data/all_data_150_groundtruth.csv \
+  --raw-output-csv results/all_data_150_results_cli.csv \
+  --processed-output-csv results/all_data_150_results_processed_cli.csv \
+  --metrics-output-csv results/metrics_summary_all_data_150_cli.csv \
+  --figures-dir results/figures_cli_all_data_150
+\end{lstlisting}

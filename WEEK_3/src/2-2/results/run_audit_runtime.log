@@ -1,0 +1,648 @@
+[2026-03-30 18:47:39] [main] command=full
+[2026-03-30 18:47:39] [audit] start: input=data\all_data_150.csv, output=results\all_data_150_results_deepseek.csv, limit=None
+[2026-03-30 18:47:39] [audit] row 1: request model inference
+[2026-03-30 18:48:22] [audit] row 1: inference finished
+[2026-03-30 18:48:22] [audit] processed row 1
+[2026-03-30 18:48:22] [audit] row 2: request model inference
+[2026-03-30 18:49:51] [audit] row 2: inference finished
+[2026-03-30 18:49:51] [audit] processed row 2
+[2026-03-30 18:49:51] [audit] row 3: request model inference
+[2026-03-30 18:51:34] [audit] row 3: inference finished
+[2026-03-30 18:51:34] [audit] processed row 3
+[2026-03-30 18:51:34] [audit] row 4: request model inference
+[2026-03-30 18:53:04] [audit] row 4: inference finished
+[2026-03-30 18:53:04] [audit] processed row 4
+[2026-03-30 18:53:04] [audit] row 5: request model inference
+[2026-03-30 18:53:31] [audit] row 5: inference finished
+[2026-03-30 18:53:31] [audit] processed row 5
+[2026-03-30 18:53:31] [audit] row 6: request model inference
+[2026-03-30 18:54:28] [audit] row 6: inference finished
+[2026-03-30 18:54:28] [audit] processed row 6
+[2026-03-30 18:54:28] [audit] row 7: request model inference
+[2026-03-30 18:55:17] [audit] row 7: inference finished
+[2026-03-30 18:55:17] [audit] processed row 7
+[2026-03-30 18:55:17] [audit] row 8: request model inference
+[2026-03-30 19:00:12] [main] command=full
+[2026-03-30 19:00:12] [audit] start: input=data\all_data_150.csv, output=results\all_data_150_results_deepseek.csv, limit=None, resume=False, resume_from=None
+[2026-03-30 19:00:12] [audit] row 1: request model inference
+[2026-03-30 19:01:19] [audit] row 1: inference finished
+[2026-03-30 19:01:19] [audit] processed row 1
+[2026-03-30 19:01:19] [audit] row 2: request model inference
+[2026-03-30 19:02:47] [audit] row 2: inference finished
+[2026-03-30 19:02:47] [audit] processed row 2
+[2026-03-30 19:02:47] [audit] row 3: request model inference
+[2026-03-30 19:04:04] [audit] row 3: inference finished
+[2026-03-30 19:04:04] [audit] processed row 3
+[2026-03-30 19:04:04] [audit] row 4: request model inference
+[2026-03-30 19:04:43] [audit] row 4: inference finished
+[2026-03-30 19:04:43] [audit] processed row 4
+[2026-03-30 19:04:43] [audit] row 5: request model inference
+[2026-03-30 19:05:21] [audit] row 5: inference finished
+[2026-03-30 19:05:21] [audit] processed row 5
+[2026-03-30 19:05:21] [audit] row 6: request model inference
+[2026-03-30 19:06:49] [audit] row 6: inference finished
+[2026-03-30 19:06:49] [audit] processed row 6
+[2026-03-30 19:06:49] [audit] row 7: request model inference
+[2026-03-30 19:07:55] [audit] row 7: inference finished
+[2026-03-30 19:07:55] [audit] processed row 7
+[2026-03-30 19:07:55] [audit] row 8: request model inference
+[2026-03-30 19:08:35] [audit] row 8: inference finished
+[2026-03-30 19:08:35] [audit] processed row 8
+[2026-03-30 19:08:35] [audit] row 9: request model inference
+[2026-03-30 19:09:09] [audit] row 9: inference finished
+[2026-03-30 19:09:09] [audit] processed row 9
+[2026-03-30 19:09:09] [audit] row 10: request model inference
+[2026-03-30 19:10:10] [audit] row 10: inference finished
+[2026-03-30 19:10:10] [audit] processed row 10
+[2026-03-30 19:10:10] [audit] row 11: request model inference
+[2026-03-30 19:11:57] [audit] row 11: inference finished
+[2026-03-30 19:11:57] [audit] processed row 11
+[2026-03-30 19:11:57] [audit] row 12: request model inference
+[2026-03-30 19:13:23] [audit] row 12: inference finished
+[2026-03-30 19:13:23] [audit] processed row 12
+[2026-03-30 19:13:23] [audit] row 13: request model inference
+[2026-03-30 19:15:01] [audit] row 13: inference finished
+[2026-03-30 19:15:01] [audit] processed row 13
+[2026-03-30 19:15:01] [audit] row 14: request model inference
+[2026-03-30 19:16:20] [audit] row 14: inference finished
+[2026-03-30 19:16:20] [audit] processed row 14
+[2026-03-30 19:16:20] [audit] row 15: request model inference
+[2026-03-30 19:17:19] [audit] row 15: inference finished
+[2026-03-30 19:17:19] [audit] processed row 15
+[2026-03-30 19:17:19] [audit] row 16: request model inference
+[2026-03-30 19:18:45] [audit] row 16: inference finished
+[2026-03-30 19:18:45] [audit] processed row 16
+[2026-03-30 19:18:45] [audit] row 17: request model inference
+[2026-03-30 19:19:57] [audit] row 17: inference finished
+[2026-03-30 19:19:57] [audit] processed row 17
+[2026-03-30 19:19:57] [audit] row 18: request model inference
+[2026-03-30 19:21:18] [audit] row 18: inference finished
+[2026-03-30 19:21:18] [audit] processed row 18
+[2026-03-30 19:21:18] [audit] row 19: request model inference
+[2026-03-30 19:22:54] [audit] row 19: inference finished
+[2026-03-30 19:22:54] [audit] processed row 19
+[2026-03-30 19:22:54] [audit] row 20: request model inference
+[2026-03-30 19:23:57] [audit] row 20: inference finished
+[2026-03-30 19:23:57] [audit] processed row 20
+[2026-03-30 19:23:57] [audit] row 21: request model inference
+[2026-03-30 19:24:46] [audit] row 21: inference finished
+[2026-03-30 19:24:46] [audit] processed row 21
+[2026-03-30 19:24:46] [audit] row 22: request model inference
+[2026-03-30 19:26:40] [audit] row 22: inference finished
+[2026-03-30 19:26:40] [audit] processed row 22
+[2026-03-30 19:26:40] [audit] row 23: request model inference
+[2026-03-30 19:28:07] [audit] row 23: inference finished
+[2026-03-30 19:28:07] [audit] processed row 23
+[2026-03-30 19:28:07] [audit] row 24: request model inference
+[2026-03-30 19:29:29] [audit] row 24: inference finished
+[2026-03-30 19:29:29] [audit] processed row 24
+[2026-03-30 19:29:29] [audit] row 25: request model inference
+[2026-03-30 19:30:24] [audit] row 25: inference finished
+[2026-03-30 19:30:24] [audit] processed row 25
+[2026-03-30 19:30:24] [audit] row 26: request model inference
+[2026-03-30 19:31:54] [audit] row 26: inference finished
+[2026-03-30 19:31:54] [audit] processed row 26
+[2026-03-30 19:31:54] [audit] row 27: request model inference
+[2026-03-30 19:32:53] [audit] row 27: inference finished
+[2026-03-30 19:32:53] [audit] processed row 27
+[2026-03-30 19:32:53] [audit] row 28: request model inference
+[2026-03-30 19:34:07] [audit] row 28: inference finished
+[2026-03-30 19:34:07] [audit] processed row 28
+[2026-03-30 19:34:07] [audit] row 29: request model inference
+[2026-03-30 19:34:56] [audit] row 29: inference finished
+[2026-03-30 19:34:56] [audit] processed row 29
+[2026-03-30 19:34:56] [audit] row 30: request model inference
+[2026-03-30 19:35:58] [audit] row 30: inference finished
+[2026-03-30 19:35:58] [audit] processed row 30
+[2026-03-30 19:35:58] [audit] row 31: request model inference
+[2026-03-30 19:37:10] [audit] row 31: inference finished
+[2026-03-30 19:37:10] [audit] processed row 31
+[2026-03-30 19:37:10] [audit] row 32: request model inference
+[2026-03-30 19:37:57] [audit] row 32: inference finished
+[2026-03-30 19:37:57] [audit] processed row 32
+[2026-03-30 19:37:57] [audit] row 33: request model inference
+[2026-03-30 19:38:51] [audit] row 33: inference finished
+[2026-03-30 19:38:51] [audit] processed row 33
+[2026-03-30 19:38:51] [audit] row 34: request model inference
+[2026-03-30 19:40:24] [audit] row 34: inference finished
+[2026-03-30 19:40:24] [audit] processed row 34
+[2026-03-30 19:40:24] [audit] row 35: request model inference
+[2026-03-30 19:42:08] [audit] row 35: inference finished
+[2026-03-30 19:42:08] [audit] processed row 35
+[2026-03-30 19:42:08] [audit] row 36: request model inference
+[2026-03-30 19:43:05] [audit] row 36: inference finished
+[2026-03-30 19:43:05] [audit] processed row 36
+[2026-03-30 19:43:05] [audit] row 37: request model inference
+[2026-03-30 19:44:05] [audit] row 37: inference finished
+[2026-03-30 19:44:05] [audit] processed row 37
+[2026-03-30 19:44:05] [audit] row 38: request model inference
+[2026-03-30 19:45:22] [audit] row 38: inference finished
+[2026-03-30 19:45:22] [audit] processed row 38
+[2026-03-30 19:45:22] [audit] row 39: request model inference
+[2026-03-30 19:46:10] [audit] row 39: inference finished
+[2026-03-30 19:46:10] [audit] processed row 39
+[2026-03-30 19:46:10] [audit] row 40: request model inference
+[2026-03-30 19:47:10] [audit] row 40: inference finished
+[2026-03-30 19:47:10] [audit] processed row 40
+[2026-03-30 19:47:10] [audit] row 41: request model inference
+[2026-03-30 19:48:23] [audit] row 41: inference finished
+[2026-03-30 19:48:23] [audit] processed row 41
+[2026-03-30 19:48:23] [audit] row 42: request model inference
+[2026-03-30 19:49:35] [audit] row 42: inference finished
+[2026-03-30 19:49:35] [audit] processed row 42
+[2026-03-30 19:49:35] [audit] row 43: request model inference
+[2026-03-30 19:50:51] [audit] row 43: inference finished
+[2026-03-30 19:50:51] [audit] processed row 43
+[2026-03-30 19:50:51] [audit] row 44: request model inference
+[2026-03-30 19:52:09] [audit] row 44: inference finished
+[2026-03-30 19:52:09] [audit] processed row 44
+[2026-03-30 19:52:09] [audit] row 45: request model inference
+[2026-03-30 19:53:50] [audit] row 45: inference finished
+[2026-03-30 19:53:50] [audit] processed row 45
+[2026-03-30 19:53:50] [audit] row 46: request model inference
+[2026-03-30 19:55:28] [audit] row 46: inference finished
+[2026-03-30 19:55:28] [audit] processed row 46
+[2026-03-30 19:55:28] [audit] row 47: request model inference
+[2026-03-30 19:56:29] [audit] row 47: inference finished
+[2026-03-30 19:56:29] [audit] processed row 47
+[2026-03-30 19:56:29] [audit] row 48: request model inference
+[2026-03-30 19:57:15] [audit] row 48: inference finished
+[2026-03-30 19:57:15] [audit] processed row 48
+[2026-03-30 19:57:15] [audit] row 49: request model inference
+[2026-03-30 19:58:26] [audit] row 49: inference finished
+[2026-03-30 19:58:26] [audit] processed row 49
+[2026-03-30 19:58:26] [audit] row 50: request model inference
+[2026-03-30 19:59:57] [audit] row 50: inference finished
+[2026-03-30 19:59:57] [audit] processed row 50
+[2026-03-30 19:59:57] [audit] row 51: request model inference
+[2026-03-30 20:00:33] [audit] row 51: inference finished
+[2026-03-30 20:00:33] [audit] processed row 51
+[2026-03-30 20:00:33] [audit] row 52: request model inference
+[2026-03-30 20:01:37] [audit] row 52: inference finished
+[2026-03-30 20:01:37] [audit] processed row 52
+[2026-03-30 20:01:37] [audit] row 53: request model inference
+[2026-03-30 20:04:09] [audit] row 53: inference finished
+[2026-03-30 20:04:09] [audit] processed row 53
+[2026-03-30 20:04:09] [audit] row 54: request model inference
+[2026-03-30 20:05:17] [audit] row 54: inference finished
+[2026-03-30 20:05:17] [audit] processed row 54
+[2026-03-30 20:05:17] [audit] row 55: request model inference
+[2026-03-30 20:06:44] [audit] row 55: inference finished
+[2026-03-30 20:06:44] [audit] processed row 55
+[2026-03-30 20:06:44] [audit] row 56: request model inference
+[2026-03-30 20:08:16] [audit] row 56: inference finished
+[2026-03-30 20:08:16] [audit] processed row 56
+[2026-03-30 20:08:16] [audit] row 57: request model inference
+[2026-03-30 20:09:11] [audit] row 57: inference finished
+[2026-03-30 20:09:11] [audit] processed row 57
+[2026-03-30 20:09:11] [audit] row 58: request model inference
+[2026-03-30 20:10:13] [audit] row 58: inference finished
+[2026-03-30 20:10:13] [audit] processed row 58
+[2026-03-30 20:10:13] [audit] row 59: request model inference
+[2026-03-30 20:11:41] [audit] row 59: inference finished
+[2026-03-30 20:11:41] [audit] processed row 59
+[2026-03-30 20:11:41] [audit] row 60: request model inference
+[2026-03-30 20:13:46] [audit] row 60: inference finished
+[2026-03-30 20:13:46] [audit] processed row 60
+[2026-03-30 20:13:46] [audit] row 61: request model inference
+[2026-03-30 20:15:29] [audit] row 61: inference finished
+[2026-03-30 20:15:29] [audit] processed row 61
+[2026-03-30 20:15:29] [audit] row 62: request model inference
+[2026-03-30 20:16:40] [audit] row 62: inference finished
+[2026-03-30 20:16:40] [audit] processed row 62
+[2026-03-30 20:16:40] [audit] row 63: request model inference
+[2026-03-30 20:17:43] [audit] row 63: inference finished
+[2026-03-30 20:17:43] [audit] processed row 63
+[2026-03-30 20:17:43] [audit] row 64: request model inference
+[2026-03-30 20:19:12] [audit] row 64: inference finished
+[2026-03-30 20:19:12] [audit] processed row 64
+[2026-03-30 20:19:12] [audit] row 65: request model inference
+[2026-03-30 20:20:31] [audit] row 65: inference finished
+[2026-03-30 20:20:31] [audit] processed row 65
+[2026-03-30 20:20:31] [audit] row 66: request model inference
+[2026-03-30 20:20:53] [audit] row 66: inference finished
+[2026-03-30 20:20:53] [audit] processed row 66
+[2026-03-30 20:20:53] [audit] row 67: request model inference
+[2026-03-30 20:22:30] [audit] row 67: inference finished
+[2026-03-30 20:22:30] [audit] processed row 67
+[2026-03-30 20:22:30] [audit] row 68: request model inference
+[2026-03-30 20:23:20] [audit] row 68: inference finished
+[2026-03-30 20:23:20] [audit] processed row 68
+[2026-03-30 20:23:20] [audit] row 69: request model inference
+[2026-03-30 20:24:46] [audit] row 69: inference finished
+[2026-03-30 20:24:46] [audit] processed row 69
+[2026-03-30 20:24:46] [audit] row 70: request model inference
+[2026-03-30 20:26:15] [audit] row 70: inference finished
+[2026-03-30 20:26:15] [audit] processed row 70
+[2026-03-30 20:26:15] [audit] row 71: request model inference
+[2026-03-30 20:27:13] [audit] row 71: inference finished
+[2026-03-30 20:27:13] [audit] processed row 71
+[2026-03-30 20:27:13] [audit] row 72: request model inference
+[2026-03-30 20:28:05] [audit] row 72: inference finished
+[2026-03-30 20:28:05] [audit] processed row 72
+[2026-03-30 20:28:05] [audit] row 73: request model inference
+[2026-03-30 20:29:42] [audit] row 73: inference finished
+[2026-03-30 20:29:42] [audit] processed row 73
+[2026-03-30 20:29:42] [audit] row 74: request model inference
+[2026-03-30 20:31:15] [audit] row 74: inference finished
+[2026-03-30 20:31:15] [audit] processed row 74
+[2026-03-30 20:31:15] [audit] row 75: request model inference
+[2026-03-30 20:33:07] [audit] row 75: inference finished
+[2026-03-30 20:33:07] [audit] processed row 75
+[2026-03-30 20:33:07] [audit] row 76: request model inference
+[2026-03-30 20:34:42] [audit] row 76: inference finished
+[2026-03-30 20:34:42] [audit] processed row 76
+[2026-03-30 20:34:42] [audit] row 77: request model inference
+[2026-03-30 20:35:48] [audit] row 77: inference finished
+[2026-03-30 20:35:48] [audit] processed row 77
+[2026-03-30 20:35:48] [audit] row 78: request model inference
+[2026-03-30 20:36:35] [audit] row 78: inference finished
+[2026-03-30 20:36:35] [audit] processed row 78
+[2026-03-30 20:36:35] [audit] row 79: request model inference
+[2026-03-30 20:37:45] [audit] row 79: inference finished
+[2026-03-30 20:37:45] [audit] processed row 79
+[2026-03-30 20:37:45] [audit] row 80: request model inference
+[2026-03-30 20:38:29] [audit] row 80: inference finished
+[2026-03-30 20:38:29] [audit] processed row 80
+[2026-03-30 20:38:29] [audit] row 81: request model inference
+[2026-03-30 20:39:39] [audit] row 81: inference finished
+[2026-03-30 20:39:39] [audit] processed row 81
+[2026-03-30 20:39:39] [audit] row 82: request model inference
+[2026-03-30 20:41:41] [audit] row 82: inference finished
+[2026-03-30 20:41:41] [audit] processed row 82
+[2026-03-30 20:41:41] [audit] row 83: request model inference
+[2026-03-30 20:43:11] [audit] row 83: inference finished
+[2026-03-30 20:43:11] [audit] processed row 83
+[2026-03-30 20:43:11] [audit] row 84: request model inference
+[2026-03-30 20:44:10] [audit] row 84: inference finished
+[2026-03-30 20:44:10] [audit] processed row 84
+[2026-03-30 20:44:10] [audit] row 85: request model inference
+[2026-03-30 20:45:36] [audit] row 85: inference finished
+[2026-03-30 20:45:36] [audit] processed row 85
+[2026-03-30 20:45:36] [audit] row 86: request model inference
+[2026-03-30 20:48:20] [audit] row 86: inference finished
+[2026-03-30 20:48:20] [audit] processed row 86
+[2026-03-30 20:48:20] [audit] row 87: request model inference
+[2026-03-30 20:49:26] [audit] row 87: inference finished
+[2026-03-30 20:49:26] [audit] processed row 87
+[2026-03-30 20:49:26] [audit] row 88: request model inference
+[2026-03-30 20:50:28] [audit] row 88: inference finished
+[2026-03-30 20:50:28] [audit] processed row 88
+[2026-03-30 20:50:28] [audit] row 89: request model inference
+[2026-03-30 20:51:25] [audit] row 89: inference finished
+[2026-03-30 20:51:25] [audit] processed row 89
+[2026-03-30 20:51:25] [audit] row 90: request model inference
+[2026-03-30 20:52:20] [audit] row 90: inference finished
+[2026-03-30 20:52:20] [audit] processed row 90
+[2026-03-30 20:52:20] [audit] row 91: request model inference
+[2026-03-30 20:53:08] [audit] row 91: inference finished
+[2026-03-30 20:53:08] [audit] processed row 91
+[2026-03-30 20:53:08] [audit] row 92: request model inference
+[2026-03-30 20:54:46] [audit] row 92: inference finished
+[2026-03-30 20:54:46] [audit] processed row 92
+[2026-03-30 20:54:46] [audit] row 93: request model inference
+[2026-03-30 20:55:11] [audit] row 93: inference finished
+[2026-03-30 20:55:11] [audit] processed row 93
+[2026-03-30 20:55:11] [audit] row 94: request model inference
+[2026-03-30 20:56:04] [audit] row 94: inference finished
+[2026-03-30 20:56:04] [audit] processed row 94
+[2026-03-30 20:56:04] [audit] row 95: request model inference
+[2026-03-30 20:57:05] [audit] row 95: inference finished
+[2026-03-30 20:57:05] [audit] processed row 95
+[2026-03-30 20:57:05] [audit] row 96: request model inference
+[2026-03-30 20:58:11] [audit] row 96: inference finished
+[2026-03-30 20:58:11] [audit] processed row 96
+[2026-03-30 20:58:11] [audit] row 97: request model inference
+[2026-03-30 20:59:07] [audit] row 97: inference finished
+[2026-03-30 20:59:07] [audit] processed row 97
+[2026-03-30 20:59:07] [audit] row 98: request model inference
+[2026-03-30 20:59:59] [audit] row 98: inference finished
+[2026-03-30 20:59:59] [audit] processed row 98
+[2026-03-30 20:59:59] [audit] row 99: request model inference
+[2026-03-30 21:01:26] [audit] row 99: inference finished
+[2026-03-30 21:01:26] [audit] processed row 99
+[2026-03-30 21:01:26] [audit] row 100: request model inference
+[2026-03-30 21:03:03] [audit] row 100: inference finished
+[2026-03-30 21:03:03] [audit] processed row 100
+[2026-03-30 21:03:03] [audit] row 101: request model inference
+[2026-03-30 21:04:13] [audit] row 101: inference finished
+[2026-03-30 21:04:13] [audit] processed row 101
+[2026-03-30 21:04:13] [audit] row 102: request model inference
+[2026-03-30 21:05:42] [audit] row 102: inference finished
+[2026-03-30 21:05:42] [audit] processed row 102
+[2026-03-30 21:05:42] [audit] row 103: request model inference
+[2026-03-30 21:07:37] [audit] row 103: inference finished
+[2026-03-30 21:07:37] [audit] processed row 103
+[2026-03-30 21:07:37] [audit] row 104: request model inference
+[2026-03-30 21:08:48] [audit] row 104: inference finished
+[2026-03-30 21:08:48] [audit] processed row 104
+[2026-03-30 21:08:48] [audit] row 105: request model inference
+[2026-03-30 21:10:10] [audit] row 105: inference finished
+[2026-03-30 21:10:10] [audit] processed row 105
+[2026-03-30 21:10:10] [audit] row 106: request model inference
+[2026-03-30 21:11:17] [audit] row 106: inference finished
+[2026-03-30 21:11:17] [audit] processed row 106
+[2026-03-30 21:11:17] [audit] row 107: request model inference
+[2026-03-30 21:12:26] [audit] row 107: inference finished
+[2026-03-30 21:12:26] [audit] processed row 107
+[2026-03-30 21:12:26] [audit] row 108: request model inference
+[2026-03-30 21:13:27] [audit] row 108: inference finished
+[2026-03-30 21:13:27] [audit] processed row 108
+[2026-03-30 21:13:27] [audit] row 109: request model inference
+[2026-03-30 21:14:44] [audit] row 109: inference finished
+[2026-03-30 21:14:44] [audit] processed row 109
+[2026-03-30 21:14:44] [audit] row 110: request model inference
+[2026-03-30 21:16:08] [audit] row 110: inference finished
+[2026-03-30 21:16:08] [audit] processed row 110
+[2026-03-30 21:16:08] [audit] row 111: request model inference
+[2026-03-30 21:18:21] [audit] row 111: inference finished
+[2026-03-30 21:18:21] [audit] processed row 111
+[2026-03-30 21:18:21] [audit] row 112: request model inference
+[2026-03-30 21:19:15] [audit] row 112: inference finished
+[2026-03-30 21:19:15] [audit] processed row 112
+[2026-03-30 21:19:15] [audit] row 113: request model inference
+[2026-03-30 21:21:32] [audit] row 113: inference finished
+[2026-03-30 21:21:32] [audit] processed row 113
+[2026-03-30 21:21:32] [audit] row 114: request model inference
+[2026-03-30 21:22:49] [audit] row 114: inference finished
+[2026-03-30 21:22:49] [audit] processed row 114
+[2026-03-30 21:22:49] [audit] row 115: request model inference
+[2026-03-30 21:24:00] [audit] row 115: inference finished
+[2026-03-30 21:24:00] [audit] processed row 115
+[2026-03-30 21:24:00] [audit] row 116: request model inference
+[2026-03-30 21:25:37] [audit] row 116: inference finished
+[2026-03-30 21:25:37] [audit] processed row 116
+[2026-03-30 21:25:37] [audit] row 117: request model inference
+[2026-03-30 21:26:18] [audit] row 117: inference finished
+[2026-03-30 21:26:18] [audit] processed row 117
+[2026-03-30 21:26:18] [audit] row 118: request model inference
+[2026-03-30 21:27:53] [audit] row 118: inference finished
+[2026-03-30 21:27:53] [audit] processed row 118
+[2026-03-30 21:27:53] [audit] row 119: request model inference
+[2026-03-30 21:29:06] [audit] row 119: inference finished
+[2026-03-30 21:29:06] [audit] processed row 119
+[2026-03-30 21:29:06] [audit] row 120: request model inference
+[2026-03-30 21:30:43] [audit] row 120: inference finished
+[2026-03-30 21:30:43] [audit] processed row 120
+[2026-03-30 21:30:43] [audit] row 121: request model inference
+[2026-03-30 21:32:08] [audit] row 121: inference finished
+[2026-03-30 21:32:08] [audit] processed row 121
+[2026-03-30 21:32:08] [audit] row 122: request model inference
+[2026-03-30 21:33:57] [audit] row 122: inference finished
+[2026-03-30 21:33:57] [audit] processed row 122
+[2026-03-30 21:33:57] [audit] row 123: request model inference
+[2026-03-30 21:34:54] [audit] row 123: inference finished
+[2026-03-30 21:34:54] [audit] processed row 123
+[2026-03-30 21:34:54] [audit] row 124: request model inference
+[2026-03-30 21:36:00] [audit] row 124: inference finished
+[2026-03-30 21:36:00] [audit] processed row 124
+[2026-03-30 21:36:00] [audit] row 125: request model inference
+[2026-03-30 21:37:21] [audit] row 125: inference finished
+[2026-03-30 21:37:21] [audit] processed row 125
+[2026-03-30 21:37:21] [audit] row 126: request model inference
+[2026-03-30 21:38:20] [audit] row 126: inference finished
+[2026-03-30 21:38:20] [audit] processed row 126
+[2026-03-30 21:38:20] [audit] row 127: request model inference
+[2026-03-30 21:39:15] [audit] row 127: inference finished
+[2026-03-30 21:39:15] [audit] processed row 127
+[2026-03-30 21:39:15] [audit] row 128: request model inference
+[2026-03-30 21:40:05] [audit] row 128: inference finished
+[2026-03-30 21:40:05] [audit] processed row 128
+[2026-03-30 21:40:05] [audit] row 129: request model inference
+[2026-03-30 21:40:48] [audit] row 129: inference finished
+[2026-03-30 21:40:48] [audit] processed row 129
+[2026-03-30 21:40:48] [audit] row 130: request model inference
+[2026-03-30 21:41:22] [audit] row 130: inference finished
+[2026-03-30 21:41:22] [audit] processed row 130
+[2026-03-30 21:41:22] [audit] row 131: request model inference
+[2026-03-30 21:43:00] [audit] row 131: inference finished
+[2026-03-30 21:43:00] [audit] processed row 131
+[2026-03-30 21:43:00] [audit] row 132: request model inference
+[2026-03-30 21:44:44] [audit] row 132: inference finished
+[2026-03-30 21:44:44] [audit] processed row 132
+[2026-03-30 21:44:44] [audit] row 133: request model inference
+[2026-03-30 21:45:27] [audit] row 133: inference finished
+[2026-03-30 21:45:27] [audit] processed row 133
+[2026-03-30 21:45:27] [audit] row 134: request model inference
+[2026-03-30 21:46:48] [audit] row 134: inference finished
+[2026-03-30 21:46:48] [audit] processed row 134
+[2026-03-30 21:46:48] [audit] row 135: request model inference
+[2026-03-30 21:48:28] [audit] row 135: inference finished
+[2026-03-30 21:48:28] [audit] processed row 135
+[2026-03-30 21:48:28] [audit] row 136: request model inference
+[2026-03-30 21:49:33] [audit] row 136: inference finished
+[2026-03-30 21:49:33] [audit] processed row 136
+[2026-03-30 21:49:33] [audit] row 137: request model inference
+[2026-03-30 21:51:18] [audit] row 137: inference finished
+[2026-03-30 21:51:18] [audit] processed row 137
+[2026-03-30 21:51:18] [audit] row 138: request model inference
+[2026-03-30 21:52:55] [audit] row 138: inference finished
+[2026-03-30 21:52:55] [audit] processed row 138
+[2026-03-30 21:52:55] [audit] row 139: request model inference
+[2026-03-30 21:53:43] [audit] row 139: inference finished
+[2026-03-30 21:53:43] [audit] processed row 139
+[2026-03-30 21:53:43] [audit] row 140: request model inference
+[2026-03-30 21:55:15] [audit] row 140: inference finished
+[2026-03-30 21:55:15] [audit] processed row 140
+[2026-03-30 21:55:15] [audit] row 141: request model inference
+[2026-03-30 21:56:10] [audit] row 141: inference finished
+[2026-03-30 21:56:10] [audit] processed row 141
+[2026-03-30 21:56:10] [audit] row 142: request model inference
+[2026-03-30 21:57:02] [audit] row 142: inference finished
+[2026-03-30 21:57:02] [audit] processed row 142
+[2026-03-30 21:57:02] [audit] row 143: request model inference
+[2026-03-30 21:58:10] [audit] row 143: inference finished
+[2026-03-30 21:58:10] [audit] processed row 143
+[2026-03-30 21:58:10] [audit] row 144: request model inference
+[2026-03-30 21:59:54] [audit] row 144: inference finished
+[2026-03-30 21:59:54] [audit] processed row 144
+[2026-03-30 21:59:54] [audit] row 145: request model inference
+[2026-03-30 22:01:33] [audit] row 145: inference finished
+[2026-03-30 22:01:33] [audit] processed row 145
+[2026-03-30 22:01:33] [audit] row 146: request model inference
+[2026-03-30 22:03:15] [audit] row 146: inference finished
+[2026-03-30 22:03:15] [audit] processed row 146
+[2026-03-30 22:03:15] [audit] row 147: request model inference
+[2026-03-30 22:04:08] [audit] row 147: inference finished
+[2026-03-30 22:04:08] [audit] processed row 147
+[2026-03-30 22:04:08] [audit] row 148: request model inference
+[2026-03-30 22:05:11] [audit] row 148: inference finished
+[2026-03-30 22:05:11] [audit] processed row 148
+[2026-03-30 22:05:11] [audit] row 149: request model inference
+[2026-03-30 22:06:55] [audit] row 149: inference finished
+[2026-03-30 22:06:55] [audit] processed row 149
+[2026-03-30 22:06:55] [audit] row 150: request model inference
+[2026-03-30 22:08:34] [audit] row 150: inference finished
+[2026-03-30 22:08:34] [audit] processed row 150
+[2026-03-30 22:08:34] [audit] completed: processed_in_this_run=150, last_input_row_seen=150
+[2026-03-30 22:08:34] [postprocess] start: input=results\all_data_150_results_deepseek.csv, output=results\all_data_150_results_processed_deepseek.csv
+[2026-03-30 22:08:34] [postprocess] processed row 1
+[2026-03-30 22:08:34] [postprocess] processed row 2
+[2026-03-30 22:08:34] [postprocess] processed row 3
+[2026-03-30 22:08:34] [postprocess] processed row 4
+[2026-03-30 22:08:34] [postprocess] processed row 5
+[2026-03-30 22:08:34] [postprocess] processed row 6
+[2026-03-30 22:08:34] [postprocess] processed row 7
+[2026-03-30 22:08:34] [postprocess] processed row 8
+[2026-03-30 22:08:34] [postprocess] processed row 9
+[2026-03-30 22:08:34] [postprocess] processed row 10
+[2026-03-30 22:08:34] [postprocess] processed row 11
+[2026-03-30 22:08:34] [postprocess] processed row 12
+[2026-03-30 22:08:34] [postprocess] processed row 13
+[2026-03-30 22:08:34] [postprocess] processed row 14
+[2026-03-30 22:08:34] [postprocess] processed row 15
+[2026-03-30 22:08:34] [postprocess] processed row 16
+[2026-03-30 22:08:34] [postprocess] processed row 17
+[2026-03-30 22:08:34] [postprocess] processed row 18
+[2026-03-30 22:08:34] [postprocess] processed row 19
+[2026-03-30 22:08:34] [postprocess] processed row 20
+[2026-03-30 22:08:34] [postprocess] processed row 21
+[2026-03-30 22:08:34] [postprocess] processed row 22
+[2026-03-30 22:08:34] [postprocess] processed row 23
+[2026-03-30 22:08:34] [postprocess] processed row 24
+[2026-03-30 22:08:34] [postprocess] processed row 25
+[2026-03-30 22:08:34] [postprocess] processed row 26
+[2026-03-30 22:08:34] [postprocess] processed row 27
+[2026-03-30 22:08:34] [postprocess] processed row 28
+[2026-03-30 22:08:34] [postprocess] processed row 29
+[2026-03-30 22:08:34] [postprocess] processed row 30
+[2026-03-30 22:08:34] [postprocess] processed row 31
+[2026-03-30 22:08:34] [postprocess] processed row 32
+[2026-03-30 22:08:34] [postprocess] processed row 33
+[2026-03-30 22:08:34] [postprocess] processed row 34
+[2026-03-30 22:08:34] [postprocess] processed row 35
+[2026-03-30 22:08:34] [postprocess] processed row 36
+[2026-03-30 22:08:34] [postprocess] processed row 37
+[2026-03-30 22:08:34] [postprocess] processed row 38
+[2026-03-30 22:08:34] [postprocess] processed row 39
+[2026-03-30 22:08:34] [postprocess] processed row 40
+[2026-03-30 22:08:34] [postprocess] processed row 41
+[2026-03-30 22:08:34] [postprocess] processed row 42
+[2026-03-30 22:08:34] [postprocess] processed row 43
+[2026-03-30 22:08:34] [postprocess] processed row 44
+[2026-03-30 22:08:34] [postprocess] processed row 45
+[2026-03-30 22:08:34] [postprocess] processed row 46
+[2026-03-30 22:08:34] [postprocess] processed row 47
+[2026-03-30 22:08:34] [postprocess] processed row 48
+[2026-03-30 22:08:34] [postprocess] processed row 49
+[2026-03-30 22:08:34] [postprocess] processed row 50
+[2026-03-30 22:08:34] [postprocess] processed row 51
+[2026-03-30 22:08:34] [postprocess] processed row 52
+[2026-03-30 22:08:34] [postprocess] processed row 53
+[2026-03-30 22:08:34] [postprocess] processed row 54
+[2026-03-30 22:08:34] [postprocess] processed row 55
+[2026-03-30 22:08:34] [postprocess] processed row 56
+[2026-03-30 22:08:34] [postprocess] processed row 57
+[2026-03-30 22:08:34] [postprocess] processed row 58
+[2026-03-30 22:08:34] [postprocess] processed row 59
+[2026-03-30 22:08:34] [postprocess] processed row 60
+[2026-03-30 22:08:34] [postprocess] processed row 61
+[2026-03-30 22:08:34] [postprocess] processed row 62
+[2026-03-30 22:08:34] [postprocess] processed row 63
+[2026-03-30 22:08:34] [postprocess] processed row 64
+[2026-03-30 22:08:34] [postprocess] processed row 65
+[2026-03-30 22:08:34] [postprocess] processed row 66
+[2026-03-30 22:08:34] [postprocess] processed row 67
+[2026-03-30 22:08:34] [postprocess] processed row 68
+[2026-03-30 22:08:34] [postprocess] processed row 69
+[2026-03-30 22:08:34] [postprocess] processed row 70
+[2026-03-30 22:08:34] [postprocess] processed row 71
+[2026-03-30 22:08:34] [postprocess] processed row 72
+[2026-03-30 22:08:34] [postprocess] processed row 73
+[2026-03-30 22:08:34] [postprocess] processed row 74
+[2026-03-30 22:08:34] [postprocess] processed row 75
+[2026-03-30 22:08:34] [postprocess] processed row 76
+[2026-03-30 22:08:34] [postprocess] processed row 77
+[2026-03-30 22:08:34] [postprocess] processed row 78
+[2026-03-30 22:08:34] [postprocess] processed row 79
+[2026-03-30 22:08:34] [postprocess] processed row 80
+[2026-03-30 22:08:34] [postprocess] processed row 81
+[2026-03-30 22:08:34] [postprocess] processed row 82
+[2026-03-30 22:08:34] [postprocess] processed row 83
+[2026-03-30 22:08:34] [postprocess] processed row 84
+[2026-03-30 22:08:34] [postprocess] processed row 85
+[2026-03-30 22:08:34] [postprocess] processed row 86
+[2026-03-30 22:08:34] [postprocess] processed row 87
+[2026-03-30 22:08:34] [postprocess] processed row 88
+[2026-03-30 22:08:34] [postprocess] processed row 89
+[2026-03-30 22:08:34] [postprocess] processed row 90
+[2026-03-30 22:08:34] [postprocess] processed row 91
+[2026-03-30 22:08:34] [postprocess] processed row 92
+[2026-03-30 22:08:34] [postprocess] processed row 93
+[2026-03-30 22:08:34] [postprocess] processed row 94
+[2026-03-30 22:08:34] [postprocess] processed row 95
+[2026-03-30 22:08:34] [postprocess] processed row 96
+[2026-03-30 22:08:34] [postprocess] processed row 97
+[2026-03-30 22:08:34] [postprocess] processed row 98
+[2026-03-30 22:08:34] [postprocess] processed row 99
+[2026-03-30 22:08:34] [postprocess] processed row 100
+[2026-03-30 22:08:34] [postprocess] processed row 101
+[2026-03-30 22:08:34] [postprocess] processed row 102
+[2026-03-30 22:08:34] [postprocess] processed row 103
+[2026-03-30 22:08:34] [postprocess] processed row 104
+[2026-03-30 22:08:34] [postprocess] processed row 105
+[2026-03-30 22:08:34] [postprocess] processed row 106
+[2026-03-30 22:08:34] [postprocess] processed row 107
+[2026-03-30 22:08:34] [postprocess] processed row 108
+[2026-03-30 22:08:34] [postprocess] processed row 109
+[2026-03-30 22:08:34] [postprocess] processed row 110
+[2026-03-30 22:08:34] [postprocess] processed row 111
+[2026-03-30 22:08:34] [postprocess] processed row 112
+[2026-03-30 22:08:34] [postprocess] processed row 113
+[2026-03-30 22:08:34] [postprocess] processed row 114
+[2026-03-30 22:08:34] [postprocess] processed row 115
+[2026-03-30 22:08:34] [postprocess] processed row 116
+[2026-03-30 22:08:34] [postprocess] processed row 117
+[2026-03-30 22:08:34] [postprocess] processed row 118
+[2026-03-30 22:08:34] [postprocess] processed row 119
+[2026-03-30 22:08:34] [postprocess] processed row 120
+[2026-03-30 22:08:34] [postprocess] processed row 121
+[2026-03-30 22:08:34] [postprocess] processed row 122
+[2026-03-30 22:08:34] [postprocess] processed row 123
+[2026-03-30 22:08:34] [postprocess] processed row 124
+[2026-03-30 22:08:34] [postprocess] processed row 125
+[2026-03-30 22:08:34] [postprocess] processed row 126
+[2026-03-30 22:08:34] [postprocess] processed row 127
+[2026-03-30 22:08:34] [postprocess] processed row 128
+[2026-03-30 22:08:34] [postprocess] processed row 129
+[2026-03-30 22:08:34] [postprocess] processed row 130
+[2026-03-30 22:08:34] [postprocess] processed row 131
+[2026-03-30 22:08:34] [postprocess] processed row 132
+[2026-03-30 22:08:34] [postprocess] processed row 133
+[2026-03-30 22:08:34] [postprocess] processed row 134
+[2026-03-30 22:08:34] [postprocess] processed row 135
+[2026-03-30 22:08:34] [postprocess] processed row 136
+[2026-03-30 22:08:34] [postprocess] processed row 137
+[2026-03-30 22:08:34] [postprocess] processed row 138
+[2026-03-30 22:08:34] [postprocess] processed row 139
+[2026-03-30 22:08:34] [postprocess] processed row 140
+[2026-03-30 22:08:34] [postprocess] processed row 141
+[2026-03-30 22:08:34] [postprocess] processed row 142
+[2026-03-30 22:08:34] [postprocess] processed row 143
+[2026-03-30 22:08:34] [postprocess] processed row 144
+[2026-03-30 22:08:34] [postprocess] processed row 145
+[2026-03-30 22:08:34] [postprocess] processed row 146
+[2026-03-30 22:08:34] [postprocess] processed row 147
+[2026-03-30 22:08:34] [postprocess] processed row 148
+[2026-03-30 22:08:34] [postprocess] processed row 149
+[2026-03-30 22:08:34] [postprocess] processed row 150
+[2026-03-30 22:08:34] [postprocess] completed
+[2026-03-30 22:08:34] [evaluate] start: prediction=results\all_data_150_results_processed_deepseek.csv, groundtruth=data\all_data_150_groundtruth.csv, metrics=results\metrics_summary_all_data_150_deepseek.csv, figures_dir=results\figures_deepseek_all_data_150
+[2026-03-30 22:08:34] [main] finished
+[2026-03-30 22:11:10] [main] command=evaluate
+[2026-03-30 22:11:10] [evaluate] start: prediction=data\all_data_150_results_processed_cli.csv, groundtruth=data\all_data_150_groundtruth.csv, metrics=results\metrics_summary_all_data_150_cli.csv, figures_dir=results\figures_cli_all_data_150
+[2026-03-30 22:11:10] [main] finished
+[2026-03-30 22:12:18] [main] command=evaluate
+[2026-03-30 22:12:18] [evaluate] start: prediction=data\all_data_150_results_processed_cli.csv, groundtruth=data\all_data_150_groundtruth.csv, metrics=results\metrics_summary_all_data_150_cli.csv, figures_dir=results\figures_cli_all_data_150
+[2026-03-30 22:12:19] [main] finished
+[2026-03-30 22:15:40] [main] command=evaluate
+[2026-03-30 22:15:40] [evaluate] start: prediction=data\all_data_150_results_processed_cli.csv, groundtruth=data\all_data_150_groundtruth.csv, metrics=results\metrics_summary_all_data_150_cli.csv, figures_dir=results\figures_cli_all_data_150
+[2026-03-30 22:15:43] [main] finished
+[2026-03-30 22:18:00] [main] command=evaluate
+[2026-03-30 22:18:00] [evaluate] start: prediction=results\all_data_150_results_processed_cli.csv, groundtruth=data\all_data_150_groundtruth.csv, metrics=results\metrics_summary_all_data_150_cli.csv, figures_dir=results\figures_cli_all_data_150
+[2026-03-30 22:18:03] [evaluate] incorrect: precision=0.9091, recall=0.3650, f1=0.5208, accuracy=0.3867
+[2026-03-30 22:18:03] [evaluate] incomplete: precision=0.8364, recall=0.3802, f1=0.5227, accuracy=0.4400
+[2026-03-30 22:18:03] [evaluate] inconsistent: precision=0.0000, recall=0.0000, f1=0.0000, accuracy=0.6533
+[2026-03-30 22:18:03] [evaluate] metrics written to: results\metrics_summary_all_data_150_cli.csv
+[2026-03-30 22:18:03] [evaluate] completed
+[2026-03-30 22:18:03] [main] finished

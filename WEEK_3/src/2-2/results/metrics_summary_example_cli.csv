@@ -1,0 +1,4 @@
+label,precision,recall,f1,accuracy,tn,fp,fn,tp
+incorrect,1.0,1.0,1.0,1.0,0,0,0,2
+incomplete,1.0,1.0,1.0,1.0,0,0,0,2
+inconsistent,0.0,0.0,0.0,1.0,2,0,0,0
