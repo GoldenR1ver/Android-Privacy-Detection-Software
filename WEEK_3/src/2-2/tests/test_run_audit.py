@@ -22,6 +22,17 @@ class TestJsonExtraction(unittest.TestCase):
         self.assertEqual(got, {"incorrect": 0, "incomplete": 0, "inconsistent": 0})
 
 
+class TestPromptTemplate(unittest.TestCase):
+    def test_prompt_includes_three_label_few_shot_conflict_examples(self):
+        prompt = run_audit.build_user_prompt("DS_EXAMPLE", "PP_EXAMPLE")
+        self.assertIn("[incorrect example -> 1]", prompt)
+        self.assertIn("[incomplete example -> 1]", prompt)
+        self.assertIn("[inconsistent example -> 1]", prompt)
+        self.assertIn("Output format strictly as JSON", prompt)
+        self.assertIn("DS_EXAMPLE", prompt)
+        self.assertIn("PP_EXAMPLE", prompt)
+
+
 class TestPipelineWithMock(unittest.TestCase):
     def test_mock_audit_postprocess(self):
         with tempfile.TemporaryDirectory() as td:
@@ -51,8 +62,10 @@ class TestPipelineWithMock(unittest.TestCase):
                 )
 
             provider = run_audit.MockProvider()
-            run_audit.run_audit(in_csv, raw_csv, provider, limit=None)
-            run_audit.postprocess_results(raw_csv, processed_csv)
+            logger = run_audit.RuntimeLogger(None)
+            run_audit.run_audit(in_csv, raw_csv, provider, limit=None, logger=logger, log_every=1)
+            run_audit.postprocess_results(raw_csv, processed_csv, logger=logger)
+            logger.close()
 
             with processed_csv.open("r", newline="", encoding="utf-8") as f:
                 rows = list(csv.DictReader(f))

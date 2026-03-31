@@ -1,0 +1,19 @@
+[2026-03-31 13:48:33] [main] command=evaluate
+[2026-03-31 13:48:33] [evaluate] start: prediction=results\all_data_random20_results_processed_deepseek_chat.csv, groundtruth=data\all_data_150_groundtruth.csv, metrics=results\metrics_summary_random20_deepseek_chat.csv, figures_dir=results\figures_random20_deepseek_chat
+[2026-03-31 13:48:36] [main] finished
+[2026-03-31 13:49:41] [main] command=evaluate
+[2026-03-31 13:49:41] [evaluate] start: prediction=results\all_data_random20_results_processed_deepseek_chat.csv, groundtruth=data\all_data_random20_groundtruth.csv, metrics=results\metrics_summary_random20_deepseek_chat.csv, figures_dir=results\figures_random20_deepseek_chat
+[2026-03-31 13:49:43] [evaluate] incorrect: precision=1.0000, recall=0.8947, f1=0.9444, accuracy=0.9000
+[2026-03-31 13:49:43] [evaluate] incomplete: precision=1.0000, recall=0.5714, f1=0.7273, accuracy=0.7000
+[2026-03-31 13:49:43] [evaluate] inconsistent: precision=0.5000, recall=0.2857, f1=0.3636, accuracy=0.6500
+[2026-03-31 13:49:43] [evaluate] metrics written to: results\metrics_summary_random20_deepseek_chat.csv
+[2026-03-31 13:49:43] [evaluate] completed
+[2026-03-31 13:49:43] [main] finished
+[2026-03-31 13:52:07] [main] command=evaluate
+[2026-03-31 13:52:07] [evaluate] start: prediction=results\all_data_random20_results_processed_deepseek_chat.csv, groundtruth=data\all_data_random20_groundtruth.csv, metrics=results\metrics_summary_random20_deepseek_chat.csv, figures_dir=results\figures_random20_deepseek_chat
+[2026-03-31 13:52:09] [evaluate] incorrect: precision=1.0000, recall=0.8947, f1=0.9444, accuracy=0.9000
+[2026-03-31 13:52:09] [evaluate] incomplete: precision=1.0000, recall=0.5714, f1=0.7273, accuracy=0.7000
+[2026-03-31 13:52:09] [evaluate] inconsistent: precision=0.5000, recall=0.2857, f1=0.3636, accuracy=0.6500
+[2026-03-31 13:52:09] [evaluate] metrics written to: results\metrics_summary_random20_deepseek_chat.csv
+[2026-03-31 13:52:09] [evaluate] completed
+[2026-03-31 13:52:09] [main] finished

@@ -24,6 +24,44 @@ Classify three labels:
 2) incomplete: Data Safety provides information, but less complete than Privacy Policy.
 3) inconsistent: Data Safety is provided, but conflicts with Privacy Policy.
 
+Few-shot examples for conflict judgment of each label:
+
+[incorrect example -> 1]
+Data Safety: "No data shared. No data collected."
+Privacy Policy: "We collect device identifiers and share them with analytics providers."
+Reason: Data Safety omits a data practice explicitly stated in Privacy Policy.
+Output: {{"incorrect": 1, "incomplete": 0, "inconsistent": 0}}
+
+[incorrect example -> 0]
+Data Safety: "Location is collected."
+Privacy Policy: "We collect approximate location."
+Reason: Both mention collection; this is not a missing-disclosure conflict.
+Output: {{"incorrect": 0, "incomplete": 0, "inconsistent": 0}}
+
+[incomplete example -> 1]
+Data Safety: "Personal info is collected for app functionality."
+Privacy Policy: "We collect name, email, phone, and address for account, support, and fraud prevention."
+Reason: Data Safety has the same direction but clearly less complete coverage.
+Output: {{"incorrect": 0, "incomplete": 1, "inconsistent": 0}}
+
+[incomplete example -> 0]
+Data Safety: "Contacts are collected for social features."
+Privacy Policy: "Contacts are collected for social features."
+Reason: Information granularity is aligned.
+Output: {{"incorrect": 0, "incomplete": 0, "inconsistent": 0}}
+
+[inconsistent example -> 1]
+Data Safety: "No location data is collected."
+Privacy Policy: "We collect precise GPS location."
+Reason: Direct contradiction between two sources.
+Output: {{"incorrect": 0, "incomplete": 0, "inconsistent": 1}}
+
+[inconsistent example -> 0]
+Data Safety: "Device ID is collected and shared with advertisers."
+Privacy Policy: "We collect device ID and share with ad partners."
+Reason: Statements are mutually consistent.
+Output: {{"incorrect": 0, "incomplete": 0, "inconsistent": 0}}
+
 Output format strictly as JSON:
 {{"incorrect": 0 or 1, "incomplete": 0 or 1, "inconsistent": 0 or 1}}
 Return JSON only.
@@ -34,6 +72,13 @@ Data Safety:
 Privacy Policy:
 {privacy_policy}
 """
+
+
+def build_user_prompt(data_safety: str, privacy_policy: str) -> str:
+    return USER_PROMPT_TEMPLATE.format(
+        data_safety=data_safety,
+        privacy_policy=privacy_policy,
+    )
 
 
 def ensure_parent_dir(path: Path) -> None:
@@ -150,10 +195,7 @@ class DeepSeekProvider(BaseProvider):
         self.timeout = timeout
 
     def infer(self, data_safety: str, privacy_policy: str) -> Dict[str, int]:
-        user_prompt = USER_PROMPT_TEMPLATE.format(
-            data_safety=data_safety,
-            privacy_policy=privacy_policy,
-        )
+        user_prompt = build_user_prompt(data_safety, privacy_policy)
         payload = {
             "model": self.model,
             "messages": [
@@ -214,10 +256,7 @@ class LocalHFProvider(BaseProvider):
         )
 
     def infer(self, data_safety: str, privacy_policy: str) -> Dict[str, int]:
-        user_prompt = USER_PROMPT_TEMPLATE.format(
-            data_safety=data_safety,
-            privacy_policy=privacy_policy,
-        )
+        user_prompt = build_user_prompt(data_safety, privacy_policy)
 
         try:
             prompt = self.tokenizer.apply_chat_template(
