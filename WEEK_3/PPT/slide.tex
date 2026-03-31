@@ -64,7 +64,7 @@
     \tableofcontents
 \end{frame}
 
-\section{实验背景与目标}
+\section{实验背景}
 \begin{frame}
     \frametitle{实验背景}
     \begin{itemize}
@@ -87,28 +87,10 @@
     \end{itemize}
 \end{frame}
 
-\begin{frame}
-    \frametitle{实验目标}
-    \begin{itemize}
-        \item \textbf{目标1：流程可复现}
-        \begin{itemize}
-            \item 在 \texttt{example.csv} 上验证审计、后处理、评估全链路
-        \end{itemize}
-        \item \textbf{目标2：全量性能评估}
-        \begin{itemize}
-            \item 在 \texttt{all\_data\_150.csv} 上产出 Precision/Recall/F1/Accuracy
-        \end{itemize}
-        \item \textbf{目标3：形成合规解释}
-        \begin{itemize}
-            \item 给出典型误判样本与改进方案
-            \item 关联《个保法》22项维度输出结论
-        \end{itemize}
-    \end{itemize}
-\end{frame}
 
-\section{实验设置}
+\section{代码实现与工程化}
 \begin{frame}
-    \frametitle{环境与模型配置}
+    \frametitle{环境与运行入口}
     \begin{itemize}
         \item \textbf{运行环境}
         \begin{itemize}
@@ -119,57 +101,80 @@
         \begin{itemize}
             \item \texttt{transformers / torch / pandas / scikit-learn / matplotlib}
         \end{itemize}
-        \item \textbf{后端模式}
+        \item \textbf{统一入口脚本}
         \begin{itemize}
-            \item \texttt{local}（本地模型）、\texttt{deepseek}（API）、\texttt{mock}（快速验证）
+            \item \texttt{run\_audit.py} 提供四个子命令：\texttt{audit / postprocess / evaluate / full}
         \end{itemize}
     \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile]
-    \frametitle{关键命令（实际运行）}
-    \tiny
-\begin{lstlisting}[language=bash]
-conda run -n android_privacy_lab python run_audit.py full \
-  --provider deepseek \
-  --input-csv data/all_data_150.csv \
-  --groundtruth-csv data/all_data_150_groundtruth.csv \
-  --raw-output-csv results/all_data_150_results_cli.csv \
-  --processed-output-csv results/all_data_150_results_processed_cli.csv \
-  --metrics-output-csv results/metrics_summary_all_data_150_cli.csv \
-  --figures-dir results/figures_cli_all_data_150
+    \frametitle{Prompt 怎么写（代码中的真实模板）}
+    \scriptsize
+\begin{lstlisting}[language=python]
+SYSTEM_PROMPT = "You are an expert in analyzing..."
+
+USER_PROMPT_TEMPLATE = """
+Classify three labels:
+1) incorrect ...
+2) incomplete ...
+3) inconsistent ...
+
+Output format strictly as JSON:
+{"incorrect": 0 or 1, "incomplete": 0 or 1, "inconsistent": 0 or 1}
+Return JSON only.
+
+Data Safety:
+{data_safety}
+Privacy Policy:
+{privacy_policy}
+"""
 \end{lstlisting}
+    \vspace{-0.4em}
+    \begin{itemize}
+        \item \textbf{设计思路}：角色约束（system）+ 任务约束（user）+ 格式约束（JSON only）
+        \item \textbf{工程设置}：\texttt{temperature=0}，降低随机性，提高可复现性
+    \end{itemize}
 \end{frame}
 
 \begin{frame}
-    \frametitle{数据与输出文件}
+    \frametitle{五个模块与代码函数映射}
     \scriptsize
-    \begin{tabularx}{\textwidth}{|p{2.3cm}|X|p{2.5cm}|}
+    \begin{tabularx}{\textwidth}{|p{1.9cm}|p{3.1cm}|X|}
         \toprule
-        \textbf{类别} & \textbf{文件} & \textbf{用途} \\
+        \textbf{模块} & \textbf{核心函数/类} & \textbf{职责说明} \\
         \midrule
-        输入数据 & \texttt{data/example.csv} / \texttt{data/all\_data\_150.csv} & 审计输入 \\
+        Provider 层 & \texttt{BaseProvider / make\_provider} & 统一 \texttt{infer()} 接口，屏蔽模型差异 \\
         \midrule
-        真值标签 & \texttt{example\_groudtruth.csv} / \texttt{all\_data\_150\_groundtruth.csv} & 评估基准 \\
+        Audit 层 & \texttt{run\_audit(...)} & 逐行读取 CSV，调用 \texttt{provider.infer()}，写入 \texttt{result} 字段 \\
         \midrule
-        原始输出 & \texttt{results/*\_results*.csv} & 包含原始 \texttt{result} 字段 \\
+        Postprocess 层 & \texttt{extract\_json\_dict + postprocess\_results} & 解析模型文本并标准化为三列 0/1 标签 \\
         \midrule
-        后处理输出 & \texttt{results/*\_processed*.csv} & 三类标签（0/1） \\
+        Evaluate 层 & \texttt{evaluate\_results(...)} & 计算 Precision/Recall/F1/Accuracy，输出指标 CSV 与混淆矩阵 \\
         \midrule
-        指标输出 & \texttt{results/metrics\_summary*.csv} & 指标汇总 \\
+        可恢复运行 & \texttt{count\_data\_rows + --resume/--resume-from} & 自动/手动续跑，避免大任务中断后重复计算 \\
         \bottomrule
     \end{tabularx}
 \end{frame}
 
 \begin{frame}
-    \frametitle{实验流程}
-    \begin{enumerate}
-        \item 审计推理：生成 \texttt{result} JSON
-        \item 结果后处理：拆成三类标签列
-        \item 对齐真值：与 groundtruth 合并
-        \item 指标计算：Precision / Recall / F1 / Accuracy
-        \item 可视化与解释：混淆矩阵 + 合规分析
-    \end{enumerate}
+    \frametitle{输入输出如何处理（I/O 规范）}
+    \scriptsize
+    \begin{tabularx}{\textwidth}{|p{1.5cm}|p{4cm}|p{5cm}|}
+        \toprule
+        \textbf{阶段} & \textbf{输入} & \textbf{输出} \\
+        \midrule
+        audit & \texttt{data\_safety\_content + privacy\_policy\_content} & \texttt{result=\{"incorrect":x,...\}} \\
+        \midrule
+        postprocess & 含 \texttt{result} 的原始 CSV & 三列标签：\texttt{incorrect/incomplete/inconsistent} \\
+        \midrule
+        evaluate & 预测 CSV + groundtruth CSV & \texttt{metrics\_summary.csv} + confusion matrix 图 \\
+        \bottomrule
+    \end{tabularx}
+    \vspace{0.4em}
+    \begin{itemize}
+        \item \textbf{鲁棒性处理}：解析失败默认全0，保证流程不中断
+    \end{itemize}
 \end{frame}
 
 \section{实验结果}
@@ -206,7 +211,6 @@ conda run -n android_privacy_lab python run_audit.py full \
         \end{column}
     \end{columns}
     \vspace{0.6em}
-    \footnotesize 图源：\texttt{src/2-2/results/figures\_cli\_all\_data\_150}
 \end{frame}
 
 \begin{frame}
@@ -260,7 +264,7 @@ conda run -n android_privacy_lab python run_audit.py full \
 \begin{frame}
     \frametitle{改进方向}
     \begin{itemize}
-        \item 模型：继续对比 Phi/Qwen/DeepSeek，并重点优化\texttt{inconsistent}标签
+        \item 模型：继续对比 Qwen/DeepSeek，并重点优化\texttt{inconsistent}标签
         \item Prompt：加入冲突判定few-shot样例，明确“矛盾表达”判断规则
         \item 数据：扩充冲突类样本并平衡标签分布，降低模型偏向负类的风险
         \item 工程：增加异常重试、JSON校验与复核队列，形成稳定审计流水线
@@ -268,27 +272,8 @@ conda run -n android_privacy_lab python run_audit.py full \
 \end{frame}
 
 \begin{frame}
-    \frametitle{分工与复现说明}
-    \scriptsize
-    \begin{tabularx}{\textwidth}{|p{1.8cm}|p{2.6cm}|p{2.8cm}|X|}
-        \toprule
-        \textbf{成员} & \textbf{模块} & \textbf{工作} & \textbf{产出} \\
-        \midrule
-        李禹江 & 运行与日志 & 跑通全流程命令 & 结果CSV、日志 \\
-        \midrule
-        张博涵 & 评估与可视化 & 计算指标、绘制混淆矩阵 & 指标表、图表 \\
-        \midrule
-        蒋兴宇 & 合规分析 & 映射22项并撰写结论 & 发现与建议页 \\
-        \bottomrule
-    \end{tabularx}
-\end{frame}
-
-\begin{frame}
     \begin{center}
         {\Huge 感谢聆听！}
-
-        \vspace{0.8em}
-        \large Q\&A
     \end{center}
 \end{frame}
 

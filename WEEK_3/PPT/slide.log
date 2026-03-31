@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.29)  30 MAR 2026 22:34
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.29)  30 MAR 2026 23:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1745,18 +1745,23 @@ Requested font "[lmmono10-regular]:" at 10.0pt
 
 ] [4
 
-] [5
-
 ]
 \openout4 = `slide.vrb'.
 
-
-(./slide.vrb (d:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+ (./slide.vrb (d:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
 )
-(d:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/02/21 1.10 listings language file
-)) [6
+LaTeX Font Info:    Font shape `TU/DroidSans(0)/b/n' will be
+(Font)              scaled to size 8.0pt on input line 24.
+Requested font "[DroidSans-Bold.ttf]/OT:script=latn;language=dflt;mapping=tex-t
+ext;" at 8.0pt
+ -> d:/texlive/2024/texmf-dist/fonts/truetype/ascender/droid/droidsans/DroidSan
+s-Bold.ttf
+Requested font "KaiTi/OT:script=hani;language=dflt;embolden=4;" at 8.0pt
+ -> C:/WINDOWS/fonts/simkai.ttf
+Requested font "[lmmono8-regular]:" at 8.0pt
+ -> d:/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf
+) [5
 
 ]
 Requested font "cmss8" at 8.0pt
@@ -1855,24 +1860,56 @@ Requested font "[DroidSans.ttf]/OT:script=latn;language=dflt;slant=0.213;mappin
 g=tex-text;" at 5.5pt
  -> d:/texlive/2024/texmf-dist/fonts/truetype/ascender/droid/droidsans/DroidSan
 s.ttf
-Requested font "[DroidSans-Bold.ttf]/OT:script=latn;language=dflt;mapping=tex-t
-ext;" at 8.0pt
- -> d:/texlive/2024/texmf-dist/fonts/truetype/ascender/droid/droidsans/DroidSan
-s-Bold.ttf
-Requested font "KaiTi/OT:script=hani;language=dflt;embolden=4;" at 8.0pt
- -> C:/WINDOWS/fonts/simkai.ttf
-Requested font "[lmmono8-regular]:" at 8.0pt
- -> d:/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
-[]|\TU/lmtt/m/n/8 example_groudtruth.csv \TU/DroidSans(0)/m/n/8 /
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+[]|\TU/lmtt/m/n/8 BaseProvider /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+[]|\TU/lmtt/m/n/8 extract_json_dict +
+ []
+
+
+Overfull \hbox (1.0043pt too wide) in paragraph at lines 158--158
+[]|\TU/lmtt/m/n/8 evaluate_results(...)| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+[]|\TU/lmtt/m/n/8 count_data_rows +
+ []
+
+
+Overfull \hbox (5.2523pt too wide) in paragraph at lines 158--158
+\TU/lmtt/m/n/8 --resume/--resume-from| 
+ []
+
+[6
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
+[]|\TU/lmtt/m/n/8 data_safety_content +
+ []
+
+
+Overfull \hbox (0.6451pt too wide) in paragraph at lines 178--178
+[]|\TU/DroidSans(0)/m/n/8 postprocess| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
+[]|\TU/KaiTi(0)/m/n/8 三 列 标 签：|
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 178--178
+[][][] 
  []
 
 [7
 
 ] [8
-
-] [9
 
 ]
 File: ../src/2-2/results/figures_cli_all_data_150/cm_incorrect.png Graphic file
@@ -1923,19 +1960,19 @@ Requested font "lasy10" at 10.95pt
 Requested font "lasy6" at 6.1pt
  -> d:/texlive/2024/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm
 LaTeX Font Info:    Font shape `TU/DroidSans(0)/m/n' will be
-(Font)              scaled to size 6.1pt on input line 210.
+(Font)              scaled to size 6.1pt on input line 214.
 Requested font "[DroidSans.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
  at 6.1pt
  -> d:/texlive/2024/texmf-dist/fonts/truetype/ascender/droid/droidsans/DroidSan
 s.ttf
 LaTeX Font Info:    Font shape `TU/DroidSans(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 210.
+(Font)              scaled to size 10.95pt on input line 214.
 Requested font "[DroidSans.ttf]/OT:script=latn;language=dflt;slant=0.213;mappin
 g=tex-text;" at 10.95pt
  -> d:/texlive/2024/texmf-dist/fonts/truetype/ascender/droid/droidsans/DroidSan
 s.ttf
 LaTeX Font Info:    Font shape `TU/DroidSans(0)/m/it' will be
-(Font)              scaled to size 6.1pt on input line 210.
+(Font)              scaled to size 6.1pt on input line 214.
 Requested font "[DroidSans.ttf]/OT:script=latn;language=dflt;slant=0.213;mappin
 g=tex-text;" at 6.1pt
  -> d:/texlive/2024/texmf-dist/fonts/truetype/ascender/droid/droidsans/DroidSan
@@ -1946,54 +1983,42 @@ e (type bmp)
 File: ../src/2-2/results/figures_cli_all_data_150/cm_inconsistent.png Graphic f
 ile (type bmp)
 <../src/2-2/results/figures_cli_all_data_150/cm_inconsistent.png>
-LaTeX Font Info:    Font shape `TU/DroidSans(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 210.
-Requested font "[DroidSans.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
- at 9.0pt
- -> d:/texlive/2024/texmf-dist/fonts/truetype/ascender/droid/droidsans/DroidSan
-s.ttf
-Requested font "KaiTi/OT:script=hani;language=dflt;" at 9.0pt
- -> C:/WINDOWS/fonts/simkai.ttf
-Requested font "[lmmono9-regular]:" at 9.0pt
- -> d:/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono9-regular.otf
- [10
+ [9
 
 ]
 LaTeX Font Info:    Font shape `TU/DroidSans(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 226.
+(Font)              scaled to size 12.0pt on input line 230.
 Requested font "[DroidSans.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
  at 12.0pt
  -> d:/texlive/2024/texmf-dist/fonts/truetype/ascender/droid/droidsans/DroidSan
 s.ttf
 Requested font "Microsoft YaHei/OT:script=hani;language=dflt;" at 12.0pt
  -> C:/WINDOWS/fonts/msyh.ttc
- [11
+ [10
 
 ]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 237.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 241.
 Requested font "[lmmonolt10-bold]:" at 10.95pt
  -> d:/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf
- [12
+ [11
+
+] [12
 
 ] [13
 
 ] [14
 
-] [15
-
-] [16
-
 ]
 LaTeX Font Info:    Font shape `TU/DroidSans(0)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 293.
+(Font)              scaled to size 24.88pt on input line 278.
 Requested font "[DroidSans.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
  at 24.88pt
  -> d:/texlive/2024/texmf-dist/fonts/truetype/ascender/droid/droidsans/DroidSan
 s.ttf
 Requested font "KaiTi/OT:script=hani;language=dflt;" at 24.88pt
  -> C:/WINDOWS/fonts/simkai.ttf
- [17
+ [15
 
 ]
 \tf@nav=\write6
@@ -2011,15 +2036,15 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
  ***********
 Package rerunfilecheck Info: File `slide.out' has not changed.
-(rerunfilecheck)             Checksum: 297B49F1172B5D0DCB6B0BF60117CC2B;431.
+(rerunfilecheck)             Checksum: 559F8B12CF68F9CF9EC627F4A97442AF;439.
  ) 
 Here is how much of TeX's memory you used:
- 34812 strings out of 474773
- 755015 string characters out of 5761288
- 2001842 words of memory out of 5000000
- 56206 multiletter control sequences out of 15000+600000
- 581061 words of font info for 157 fonts, out of 8000000 for 9000
+ 34736 strings out of 474773
+ 750212 string characters out of 5761288
+ 2008842 words of memory out of 5000000
+ 56136 multiletter control sequences out of 15000+600000
+ 581037 words of font info for 154 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,11n,123p,435b,1251s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,11n,123p,435b,1434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on slide.pdf (17 pages).
+Output written on slide.pdf (15 pages).
