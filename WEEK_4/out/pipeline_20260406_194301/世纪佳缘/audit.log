@@ -1,0 +1,65 @@
+[2026-04-06 19:47:21] [main] command=audit
+[2026-04-06 19:47:21] [audit] start: input=D:\LEARNING_RESOURCE\AndroidPDS\gitRepository\Android-Privacy-Detection-Software\WEEK_4\out\pipeline_20260406_194301\世纪佳缘\sentences_week3_2_2.csv, output=D:\LEARNING_RESOURCE\AndroidPDS\gitRepository\Android-Privacy-Detection-Software\WEEK_4\out\pipeline_20260406_194301\世纪佳缘\audit_raw.csv, limit=20, resume=False, resume_from=None
+[2026-04-06 19:47:21] [audit] row 1: request model inference
+[2026-04-06 19:47:23] [audit] row 1: inference finished
+[2026-04-06 19:47:23] [audit] processed row 1
+[2026-04-06 19:47:23] [audit] row 2: request model inference
+[2026-04-06 19:47:24] [audit] row 2: inference finished
+[2026-04-06 19:47:24] [audit] processed row 2
+[2026-04-06 19:47:24] [audit] row 3: request model inference
+[2026-04-06 19:47:26] [audit] row 3: inference finished
+[2026-04-06 19:47:26] [audit] processed row 3
+[2026-04-06 19:47:26] [audit] row 4: request model inference
+[2026-04-06 19:47:27] [audit] row 4: inference finished
+[2026-04-06 19:47:27] [audit] processed row 4
+[2026-04-06 19:47:27] [audit] row 5: request model inference
+[2026-04-06 19:47:29] [audit] row 5: inference finished
+[2026-04-06 19:47:29] [audit] processed row 5
+[2026-04-06 19:47:29] [audit] row 6: request model inference
+[2026-04-06 19:47:31] [audit] row 6: inference finished
+[2026-04-06 19:47:31] [audit] processed row 6
+[2026-04-06 19:47:31] [audit] row 7: request model inference
+[2026-04-06 19:47:33] [audit] row 7: inference finished
+[2026-04-06 19:47:33] [audit] processed row 7
+[2026-04-06 19:47:33] [audit] row 8: request model inference
+[2026-04-06 19:47:34] [audit] row 8: inference finished
+[2026-04-06 19:47:34] [audit] processed row 8
+[2026-04-06 19:47:34] [audit] row 9: request model inference
+[2026-04-06 19:47:35] [audit] row 9: inference finished
+[2026-04-06 19:47:35] [audit] processed row 9
+[2026-04-06 19:47:35] [audit] row 10: request model inference
+[2026-04-06 19:47:37] [audit] row 10: inference finished
+[2026-04-06 19:47:37] [audit] processed row 10
+[2026-04-06 19:47:37] [audit] row 11: request model inference
+[2026-04-06 19:47:39] [audit] row 11: inference finished
+[2026-04-06 19:47:39] [audit] processed row 11
+[2026-04-06 19:47:39] [audit] row 12: request model inference
+[2026-04-06 19:47:40] [audit] row 12: inference finished
+[2026-04-06 19:47:40] [audit] processed row 12
+[2026-04-06 19:47:40] [audit] row 13: request model inference
+[2026-04-06 19:47:42] [audit] row 13: inference finished
+[2026-04-06 19:47:42] [audit] processed row 13
+[2026-04-06 19:47:42] [audit] row 14: request model inference
+[2026-04-06 19:47:44] [audit] row 14: inference finished
+[2026-04-06 19:47:44] [audit] processed row 14
+[2026-04-06 19:47:44] [audit] row 15: request model inference
+[2026-04-06 19:47:46] [audit] row 15: inference finished
+[2026-04-06 19:47:46] [audit] processed row 15
+[2026-04-06 19:47:46] [audit] row 16: request model inference
+[2026-04-06 19:47:47] [audit] row 16: inference finished
+[2026-04-06 19:47:47] [audit] processed row 16
+[2026-04-06 19:47:47] [audit] row 17: request model inference
+[2026-04-06 19:47:49] [audit] row 17: inference finished
+[2026-04-06 19:47:49] [audit] processed row 17
+[2026-04-06 19:47:49] [audit] row 18: request model inference
+[2026-04-06 19:47:50] [audit] row 18: inference finished
+[2026-04-06 19:47:50] [audit] processed row 18
+[2026-04-06 19:47:50] [audit] row 19: request model inference
+[2026-04-06 19:47:52] [audit] row 19: inference finished
+[2026-04-06 19:47:52] [audit] processed row 19
+[2026-04-06 19:47:52] [audit] row 20: request model inference
+[2026-04-06 19:47:53] [audit] row 20: inference finished
+[2026-04-06 19:47:53] [audit] processed row 20
+[2026-04-06 19:47:53] [audit] reached limit=20, stop
+[2026-04-06 19:47:53] [audit] completed: processed_in_this_run=20, last_input_row_seen=21
+[2026-04-06 19:47:53] [main] finished

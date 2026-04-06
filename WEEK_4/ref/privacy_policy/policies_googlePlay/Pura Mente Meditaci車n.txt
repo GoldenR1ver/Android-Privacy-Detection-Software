@@ -1,0 +1,69 @@
+Menu
+Menu
+Política de privacidad 
+Política de privacidad. ESTE DOCUMENTO INDICA CÓMO PURA MENTE UTILIZARÁ Y PROTEGERÁ SUS DATOS PERSONALES MIENTRAS NAVEGA EN SU WEB.
+ESTE DOCUMENTO INDICA CÓMO PURA MENTE UTILIZARÁ Y PROTEGERÁ SUS DATOS PERSONALES. MIENTRAS NAVEGA EN SU WEB, APP O PLATAFORMA. USTED AUTOMÁTICAMENTE ACEPTA LAS NORMAS DE USO, PROTECCIÓN Y SEGURIDAD AQUÍ ESTABLECIDAS. SI UD. NO AUTORIZASE LA RECOPILACIÓN, USO Y/O DIVULGACIÓN DE SU INFORMACIÓN EN LA FORMA DESCRITA EN ESTA POLÍTICA, POR FAVOR NO UTILICE LOS SITIOS DE INTERNET DE PURA MENTE.
+PURA MENTE es una empresa que de manera proactiva procura la máxima seguridad de los datos personales de sus clientes y usuarios, velando por la protección, transparencia, resguardo y cumplimiento de las normas nacionales e internacionales que protegen dichos derechos, tomando como principal modelo de referencia al Reglamento General de Protección de Datos de la Unión Europea.
+PURA MENTE es el responsable del tratamiento de los datos personales de sus usuarios, habiendo designado a Germán Andrés Grisotto, DNI: 172.703, como Data Privacy Officer para velar por el cumplimiento de la normativa sobre protección de datos. Ante cualquier solicitud concerniente a datos personales se debe comunicar con él al correo hola@puramente.app o german@puramente.app.
+MARCO REGULATORIO
+Las cláusulas incluidas en dicho apartado ofrecen las garantías adecuadas con respecto a la protección de la vida privada y libertades fundamentales de todos los usuarios de PURA MENTE, así como respecto al ejercicio de los correspondientes derechos. En este sentido, las normas y ordenamientos jurídicos que protegen dichos derechos se encuentran descritos en estas Política de Privacidad de Pura Mente.
+TRANSPARENCIA DE LOS DATOS
+Los datos que se solicitan a sus usuarios son: NOMBRE, APELLIDO y MAIL O CORREO ELECTRÓNICO. La única manera de recolección de dichos datos será a través de la registración voluntaria por parte de los usuarios en la app de Pura Mente.. 
+FINALIDAD
+Los datos personales descritos en el apartado anterior son utilizados únicamente para permitir una mejor experiencia al usuario sobre los servicios prestados en la plataforma, fundamentalmente enfocados en fortalecer la creación del hábito de la meditación, y bajo ningún supuesto podrán ser utilizados para la venta, comercialización, y comportamiento que se desvíe de la naturaleza misma de PURA MENTE.
+Los datos requeridos y/o solicitados a los usuarios serán, en cada caso, utilizados con la única y exclusiva finalidad con la que fueron recabados. La información respecto de la finalidad para la cual se obtienen será dada en cada caso, al momento de brindar el titular sus datos personales, o se podrán recabar de los Términos y Condiciones y la Política de Privacidad de Pura Mente.
+En la medida que así lo requieran las leyes vigentes, siempre que Pura Mente recopile información personal en una de sus bases de datos a través de su web, aplicación o plataforma recopilará, usará, divulgará y transferirá su información personal sólo con su consentimiento, que podrá ser explícito o implícito, según la sensibilidad de la información personal, los requisitos legales y otros factores.
+En la medida que así lo requieran las leyes vigentes, siempre que Pura Mente recopile información personal en una de sus bases de datos a través de su web, aplicación o plataforma recopilará su información personal sólo para fines específicos y limitados. La información que recopilemos será pertinente, adecuada y no excesiva respecto de las multas para los que se recopilen.
+En la medida que así lo requieran las leyes vigentes, siempre que Pura Mente recopile información personal en una de sus bases de datos a través de su web, aplicación o plataforma procesará su información personal de manera coherente con los requisitos para los cuales se solicitó originalmente o para los que usted otorgó posteriormente su consentimiento.
+En la medida que así lo requieran las leyes vigentes, siempre que Pura Mente recopile información personal en una de sus bases de datos a través de su web, aplicación o plataforma tomará medidas razonables a fin de garantizar que la información personal sea confiable para el uso propuesto, exacta, completa y que, cuando sea necesario, se mantenga actualizada; y
+En la medida que así lo requieran las leyes vigentes, siempre que Pura Mente recopile información personal en una de sus bases de datos a través de su web, aplicación o plataforma tomará medidas específicas, por medio de contratos o de algún otro modo, para brindar una protección adecuada a la información personal que se revela a un tercero o se transfiere a otro de los "sujetos intervinientes".
+PLAZOS DE CONSERVACIÓN
+PURA MENTE conservará los datos mientras dure la relación entre el USUARIOS y PURA MENTE, y sea condescendiente con la finalidad desarrollada en el apartado anterior. Se entiende por finalización de la relación cuando el usuario elimina la app de su store y notifica la decisión de darse de baja de todos los servicios de Pura Mente. 
+EJERCICIO DE LOS DERECHOS DE ACCESO, RECTIFICACIÓN, CANCELACIÓN U OPOSICIÓN (ARCO)
+PURA MENTE garantiza a el USUARIO el derecho de acceso a todos los datos que le concierne y que estén siendo tratados, así como el derecho a rectificar, suprimir o bloquear dichos datos, poniendo a su disposición todos los canales de comunicación disponibles para ejercerlos. Asimismo, El USUARIO podrá contactarse con hola@puramente.app o directamente con el Delegado de Protección de datos, Germán Andrés Grisotto, a su correo german@puramente.app, para ejercer sus derechos relativos a la privacidad.
+SEGURIDAD Y CONFIDENCIALIDAD
+El responsable del tratamiento de los datos adopta las siguientes medidas técnicas y de organización apropiadas para la seguridad frente a los riesgos que presente el tratamiento.
+La infraestructura tecnológica se encuentra basada en servidores de Google Cloud Platform, entidad certificada en el marco del Escudo de Privacidad UE-EE. UU. Decisión 2016/1250 de la Comisión, de 12 de julio de 2016 (Privacy Shield).
+Se utiliza la tecnología de two-factor authentication en todos los proveedores de servicios tecnológicos para garantizar la máxima seguridad de acceso.
+Las personas que actúen bajo la autoridad del responsable del tratamiento, incluyendo el encargado del tratamiento, no tratarán los datos a menos que reciban instrucciones del responsable.
+Pura Mente mantiene medidas preventivas razonables para proteger la seguridad, confidencialidad e integridad de su información personal. Limitamos el acceso a la información personal a aquellos que tengan una necesidad comercial.
+Si bien utilizamos medidas de seguridad para ayudar a proteger su información personal contra divulgaciones no autorizadas, uso indebido o alteración, tenga en cuenta que ninguna transmisión de Internet es completamente segura o libre de errores. Pura Mente no será responsable de las violaciones a la seguridad que estén fuera de nuestro control en una medida razonable.
+ENLACES A SITIOS DE INTERNET DE TERCEROS
+En el sitio web, app, o plataforma propiedad de Pura Mente podrá encontrar enlaces o link que lo conduzcan a sitios externos de los cuales no hay responsabilidad por parte de la empresa. Dichos sitios web están gestionados y administrados por otras personas, por lo cual la actuación de Pura Mente se limita simplemente a informarle a todos los usuarios de la web, app o plataforma sobre la responsabilidad que los usuarios tienen al navegar en dichas plataformas.
+MENORES
+No podrán utilizar los servicios las personas menores de edad que no cuenten con la debida representación legal de un mayor de edad que pueda demostrar esa capacidad legal.
+CAMBIOS EN ESTA POLÍTICA Y NUESTRAS DECLARACIONES DE PRIVACIDAD
+Los cambios que se realicen en esta Política de Privacidad se publicarán en este sitio. Pura Mente se reserva el derecho de actualizar o modificar esta Política de Privacidad del sitio web, app o plataforma propiedad de Pura Mente en cualquier momento y sin previo aviso. Las modificaciones se aplicarán sólo a la información personal que recopilemos después de esta publicación.
+COOKIES
+QUE SON?
+Una cookie es un pequeño fragmento de texto que los sitios web que visita envían al navegador y que permite que el sitio web, app o plataforma recuerde información sobre su visita, como su idioma preferido y otras opciones, con el fin de facilitar su próxima visita y hacer que el sitio le resulte más útil
+ACEPTACIÓN Y CONSENTIMIENTO
+El hecho de continuar navegando implica la aceptación de la instalación de las cookies indicadas. En este sentido, "continuar navegando" significa hacer clic en cualquier botón, check box o link, hacer "scroll", así como descargar cualquier contenido ofrecido en el mismo.
+TIPOS DE COOKIES
+Por su duración las cookies pueden ser Cookies de sesión: son cookies temporales que serán almacenadas en el navegador hasta que abandone la página web. Este tipo de cookies sirven para mantener un seguimiento de los movimientos del usuario en el sitio web, de forma que evitará que se pida información que ha sido proporcionada con anterioridad.
+Por su duración las cookies pueden ser Cookies persistentes: son almacenadas en el disco duro y nuestra web las lee cada vez que el Usuario acceda a este sitio web. Estas cookies permanecerán almacenadas en el equipo informático del usuario hasta su fecha de expiración. Todas las cookies cuentan con una fecha de expiración determinada en la cual la misma deja de funcionar. Una cookie persistente posee una fecha de expiración. Tienen por finalidad facilitar servicios de compra y registro.
+Los tipos de cookies con los que cuenta este sitio web son Cookies técnicas: son aquéllas que permiten la navegación por el sitio web y la utilización de las diferentes opciones o servicios que ofrecemos a través de ella, como por ejemplo, controlar el tráfico y la comunicación de datos, identificar la sesión, realizar una solicitud de inscripción, utilizar elementos de seguridad durante la navegación, etc. Estas cookies son necesarias para garantizar el correcto funcionamiento del sitio web.
+Los tipos de cookies con los que cuenta este sitio web son Cookies de terceros: son aquéllas que son enviadas al equipo del usuario desde un equipo o dominio que no es gestionado por el titular de este sitio web, sino por un tercero que tratará los datos obtenidos a través de estas cookies.
+Los tipos de cookies con los que cuenta este sitio web son Cookies de análisis: son aquéllas que son bien tratadas por nosotros, bien por terceros, que permiten cuantificar el número de usuarios que acceden a la web y así realizar la medición y análisis estadístico del uso de la misma. Para esto se analiza la navegación del usuario en el sitio web con la finalidad de mejorar la oferta de productos o servicios que ofrecemos.
+Los tipos de cookies con los que cuenta este sitio web son DERECHOS
+Los usuarios pueden bloquear o eliminar las cookies instaladas en su equipo mediante la configuración de las opciones del navegador instalado en el mismo. Por favor, consulte las instrucciones y manuales de su navegador para ampliar esta información.
+Usted o su representante legal podrá ejercer cualquiera de los derechos de acceso, rectificación, cancelación u oposición, así como revocar su consentimiento para el tratamiento de sus datos personales enviando un correo electrónico a la dirección de correo electrónico hola@puramente.app.
+Política de privacidad.
+Descubre los beneficios que la meditación tiene para tu equipo 
+Empieza ahora a construirla con Pura Mente.
+pura mente
+La app de meditación mejor valorada en español
+Instagram
+Facebook-square
+Youtube
+Linkedin-in
+Blog
+Empresas
+Regala Pura Mente
+Premium
+FAQs
+Trabaja en Pura Mente
+Términos y condiciones
+Política de privacidad
+Pura Mente 2021 Todos los derechos reservados
+Avisos

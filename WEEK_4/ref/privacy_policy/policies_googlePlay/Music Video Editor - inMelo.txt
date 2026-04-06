@@ -1,0 +1,63 @@
+Privacy Policy
+Effective date: April 28, 2023
+Updated date: April 28, 2023
+We, inMelo, Music Video Editor is a video editing application offered by Music Video Editor with Effects & Slideshow. inMelo attach great importance to users' personal privacy. We strongly advise you to read this policy carefully to fully understand how we use and protect your interests. If you have any questions, please contact us at service.inmelo@gmail.com.
+Disclaimer: Please note that we are not affiliated with or authorized by any government institutions. Our app is entirely developed by private groups.
+1. The information you give to us or give us permission to obtain it
+Storage permission
+1. When you want to select the photos or videos or save your completed work, we may need storage permission to read and save your work on your device.
+2. When you want to use the app feature of Album Face Recognition, we need storage permission to scan the photo album on your device. It's only used for helping you to quickly find the photos with human faces, and we will not delete or store any content of your local photo album.
+Camera permission
+When you want to take photos or videos in the app, we need your permission to access and use the camera.
+2. The technical information we get, or the third party may get when you use our app
+Log data
+When you emailed us, we will receive the log data that the system automatically sent to us. This log data includes your name, email address, device information, location information and your response.
+Usage data
+We may work with the third party such as Google Firebase to collect information about your activity on our app, like service-related and performance information. This includes information about how you use our app, the time, frequency, and duration of your activities. Based on the information we collect from your activity, we could analyze usage trends for the services to improve our service.
+The information you provide
+When you use some photo effects we provide including cartoon and sketch, we may upload your photographs to our server for photo processing, and we will delete your photos in our server as soon as the photo processing is complete. Please note that we do not store your photos, regardless of which photo editing features you use in our application.
+3. What we do with the information we collect
+To serve you with our app.
+To improve user experience.
+To communicate with you.
+To comply with your requests.
+4. The rights you have about your information
+We respect the rights you have about your information. Under the applicable law in your jurisdiction, you may have one or more rights we list below, unless otherwise specified (the California residents or the residents of the EEA please refer to the specific section).
+The right to know, what information we collect from you, how we use it and who we shared with.
+The right to correct, if you found that your information that we collect is inaccurate or incomplete.
+The right to delete.
+The right to revoke, if you don't want us to access your device.
+The right to opt out, if you don't want to receive personalized ads (if we display the personalized ads on our app).
+You could exercise your rights by emailing us at service.inmelo@gmail.com or by yourself through our app service or the setting on your device.
+5. How we share, transfer and disclose your information
+How we share
+We will not share your information except for the specified situations below.
+1）To comply with your request
+How we transfer
+We will not transfer your information to any company, organization or individual, except for the requirements of laws and regulations, mandatory administrative law enforcement, judicial or regulatory requirements.
+How we disclose
+We will not disclose your information except for the specified situations below.
+1）To comply with your request
+6. How long we store your information
+Our app does not store any information from you.
+7. Safeguards
+We will try our best to secure your information to keep them private and complete. We protect them by the information security and access policies that limit unauthorized access to our systems, and technological protection measures such as encryption that ensure confidentiality of your information during analyzing or transmission.
+However, please understand that any transmission of information via internet is not 100% secure. In other word, we can't guarantee that we can protect your information any loss, misuse, unauthorized access, disclosure through our app with error-free.
+8. Policy on children's information 
+Our app is design for user over 13 (or such applicable age of majority under relevant local laws of the user) ["specific age"]. If you are the user who is under the specific age and need to handle some permission consent from our app, please do it with the help of your parents or the guardian. If we are notified that we have accidentally collected children's information in a manner inconsistent with the laws, we will delete it as soon as we can.
+9. For California residents
+The California Consumer Privacy Act requires us to communicate information about rights California residents have under California law. You may exercise the following rights: Right to know and access. You may submit a verifiable request for information regarding the: categories of Personal Information we collect, use, or share; purposes for which categories of Personal Information are collected or used by us; categories of sources from which we collect Personal Information; and specific pieces of Personal Information we have collected about you.
+The California Consumer Privacy Act requires us to communicate information about rights California residents have under California law. You may exercise the following rights: Right to equal service. We will not discriminate against you if you exercise your privacy rights.
+The California Consumer Privacy Act requires us to communicate information about rights California residents have under California law. You may exercise the following rights: Right to delete. You may submit a verifiable request to delete personal information about you that we have collected.
+10. For the residents of the EEA
+The General Data Protection Regulation ("GDPR") requires us to communicate information about rights the residents of the EEA.
+Right of access by the data subject.
+Right to rectification.
+Right to erasure ('right to be forgotten').
+Right to restriction of processing.
+Right to data portability.
+Right to object.
+11. Changes to our policy
+We may change this policy from time to time and if we do. If you continue to use our app after those changes are in effect, you agree to the new policy. If the changes are significant, we may display a popup to notice or get your consent, as required by law.
+12. Contact us
+If you have any questions on our policy, please feel free to contact us by emailing at: service.inmelo@gmail.com.

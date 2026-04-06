@@ -232,6 +232,42 @@ class DeepSeekProvider(BaseProvider):
         return extract_json_dict(content)
 
 
+class OllamaProvider(BaseProvider):
+    def __init__(
+        self,
+        model: str = "qwen3.5:9b",
+        base_url: str = "http://127.0.0.1:11434/api/chat",
+        timeout: int = 120,
+    ) -> None:
+        self.model = model
+        self.base_url = base_url
+        self.timeout = timeout
+
+    def infer(self, data_safety: str, privacy_policy: str) -> Dict[str, int]:
+        user_prompt = build_user_prompt(data_safety, privacy_policy)
+        payload = {
+            "model": self.model,
+            "messages": [
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": user_prompt},
+            ],
+            "stream": False,
+            "options": {"temperature": 0},
+        }
+        body = json.dumps(payload).encode("utf-8")
+        req = request.Request(
+            self.base_url,
+            data=body,
+            method="POST",
+            headers={"Content-Type": "application/json"},
+        )
+        with request.urlopen(req, timeout=self.timeout) as resp:
+            raw = resp.read().decode("utf-8")
+        obj = json.loads(raw)
+        content = obj.get("message", {}).get("content", "")
+        return extract_json_dict(content)
+
+
 class LocalHFProvider(BaseProvider):
     def __init__(
         self,
@@ -291,6 +327,12 @@ def make_provider(args: argparse.Namespace) -> BaseProvider:
             api_key=api_key,
             model=args.deepseek_model,
             base_url=args.base_url,
+            timeout=args.timeout,
+        )
+    if args.provider == "ollama":
+        return OllamaProvider(
+            model=args.ollama_model,
+            base_url=args.ollama_base_url,
             timeout=args.timeout,
         )
     raise ValueError(f"Unknown provider: {args.provider}")
@@ -418,6 +460,10 @@ def evaluate_results(
         matplotlib.use("Agg")
         import matplotlib.pyplot as _plt
 
+        import matplotlib_zh
+
+        matplotlib_zh.configure_matplotlib_chinese_font()
+
         plt = _plt
 
     labels = ["incorrect", "incomplete", "inconsistent"]
@@ -511,7 +557,7 @@ def build_parser() -> argparse.ArgumentParser:
     common_llm = argparse.ArgumentParser(add_help=False)
     common_llm.add_argument(
         "--provider",
-        choices=["local", "deepseek", "mock"],
+        choices=["local", "deepseek", "ollama", "mock"],
         default="mock",
         help="LLM backend provider",
     )
@@ -520,6 +566,8 @@ def build_parser() -> argparse.ArgumentParser:
     common_llm.add_argument("--api-key", default=None, help="DeepSeek API key")
     common_llm.add_argument("--deepseek-model", default="deepseek-reasoner")
     common_llm.add_argument("--base-url", default="https://api.deepseek.com/chat/completions")
+    common_llm.add_argument("--ollama-model", default="qwen3.5:9b")
+    common_llm.add_argument("--ollama-base-url", default="http://127.0.0.1:11434/api/chat")
     common_llm.add_argument("--timeout", type=int, default=120)
 
     p_audit = sub.add_parser(

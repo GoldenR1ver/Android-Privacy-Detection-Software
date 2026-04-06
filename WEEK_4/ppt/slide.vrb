@@ -1,0 +1,12 @@
+\frametitle{关键词弱信号：\texttt{keyword\_hint} 规则}
+    \scriptsize
+    对每条句子用正则子串匹配；任一词干出现则 \texttt{keyword\_hint=true}，统计入绿色柱的「命中占比」。
+    \vspace{0.35em}
+\begin{lstlisting}[language=Python, alsoletter={|}, morekeywords={Pattern}]
+_HINT_RE: Pattern[str] = re.compile(
+    r"(个人信息|个人敏感信息|隐私|收集|处理|使用|存储|保存|共享|转让|"
+    r"披露|委托|跨境|第三方|SDK|权限|设备信息|位置|通讯录|相册|相机|"
+    r"麦克风|日志|Cookie|标识符|IMEI|OAID|IDFA|MAC|IP|账号|手机号|"
+    r"实名|注销|撤回|删除|更正|复制|查阅|未成年人|儿童|敏感)"
+)
+\end{lstlisting}

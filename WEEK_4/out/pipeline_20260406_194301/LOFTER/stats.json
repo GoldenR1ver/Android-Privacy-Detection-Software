@@ -1,0 +1,17 @@
+{
+  "total_sentences": 227,
+  "pii_related": {
+    "true": 12,
+    "false": 8,
+    "null": 207,
+    "ratio_of_total": null,
+    "ratio_of_labeled": 0.6,
+    "note": "pii_related_ratio_of_total is None when any sentence is unclassified; use ratio_of_labeled or run classify on all sentences."
+  },
+  "keyword_hint": {
+    "true": 136,
+    "false": 91,
+    "ratio_of_total": 0.5991189427312775
+  },
+  "doc_id": "LOFTER"
+}

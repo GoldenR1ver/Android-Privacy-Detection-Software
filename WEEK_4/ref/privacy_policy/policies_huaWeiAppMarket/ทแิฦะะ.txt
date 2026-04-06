@@ -1,0 +1,446 @@
+本版更新日期：2023年9月28日版
+广汽丰田会在相关产品或服务平台(如官方网站、丰云行APP、丰云惠、车友会、小程序等，以下简称"服务平台")上登载本政策。希望您在使用我们的产品或服务前仔细阅读，并确认您已经充分理解本政策所载明的内容，并让您可以按照本政策的指引做出您认为适当的选择。当您使用或在我们更新本政策后继续使用（我们会及时提示您更新的情况）我们的产品或服务时，即视为您已经阅读、理解并同意本政策及其更新的版本，同意我们按照本政策的约定收集和处理您的个人信息。
+八、我们对Cookies和同类技术的使用
+服务平台：指广汽丰田用来为客户提供产品或服务的网站和系统，包括广汽丰田官方网站、丰云行APP、、丰云惠商城、车友会、小程序等。
+设备信息 ：包括设备型号、设备制造商、唯一设备标识符（Android ID / IDFA / IDFV / OPENUDID / OAID / IMSI 信息）、IP、设备序列号、SSID、任务信息、操作系统类型及型号、屏幕分辨率、电信运营商、软件安装列表、软件版本号、系统语言、SD卡容量。
+1、为实现我们向您提供服务的基本功能，您须授权我们收集、处理的必要信息。
+2、为实现我们向您提供服务的附加功能，您可以授权我们收集、处理的信息。这些信息并非服务运行所必需，但这些信息对改善服务质量、研发新产品或服务具有非常重要的意义。如您拒绝提供，您将无法正常使用相关附加功能或无法达到该服务的最佳效果，但不会影响使用该服务的基本功能。
+1、注册
+2、识别身份
+如果您使用"微信登录"方式登录我们的网络平台，我们还需要获取您在微信平台的OpenID、 UnionID, 我们以此识别您在我们所提供网络平台的身份，并为您提供服务。
+3、车主/车辆实名认证
+当您想要使用服务平台的与您车辆相关的服务时，为了向您提供您所选择的服务内容，除前述注册信息外，您还需要进一步向我们提供姓名、身份证/居住证/护照 先实名认证；再提供 车辆识别代号（VIN）、发动机号/电机号、手机号/身份证号、车辆行驶证/驾驶证/机动车登记证 做车主认证后即可享受车主相关的服务功能。如果您不使用与您车辆相关的特定产品和服务，则无需提供上述信息。
+4、新能源汽车数据上传
+为了保障您的新能源车辆及电池安全，根据法律法规要求，对车辆静态信息、VIN、发动机号、车牌号、车辆动态数据、驱动电池数据、车辆位置信息、进行监控或获取，并将其接入新能源汽车数据政府采集/监测平台。
+5、下单
+6、支付功能
+7、客服与售后功能
+为了能够解决您的问题以及提供更优质的服务，我们的电话客服和售后功能可能会使用您的姓名、联系电话、车辆信息（包括车辆识别代号（VIN）、发动机号、车牌号、年款、版本、外观、内饰、轮毂、选装）、位置信息、车牌号、车辆发动机号、账号信息、订单信息。
+8、活动参与
+9、向您提供商品或服务信息
+为向您提供更符合您和您车辆需求的信息，我们会为您提供定向推送（个性化推荐）服务，我们会收集您的姓名、手机号码、电子邮件、身份证照片、行驶证照片、车辆识别代号（VIN）、发动机号、车辆信息（包括车牌号、版本、外观、内饰、轮毂、选装）、设备信息(Android ID / IDFA / OPENUDID / OAID / IMSI信息)，以实现上述个性化推荐的分析和计算，系统会根据计算结果自动筛选出您可能更感兴趣的内容进行推送，我们会根据您使用产品过程中的浏览行为，对推荐模型进行实时反馈，不断调整优化推荐结果。
+为了更好地协助您管理定向推送（个性化推荐）的内容，您可以在APP"我的-隐私设置-个性化推荐设置"中对"首页资讯推荐"与"自选保养推荐"进行关闭。您选择关闭后，我们仍会向您推荐相关信息，但与您的关联度会降低。
+车主资讯阅读推荐(APP推荐板块包含个性化推送)
+用户ID、绑定车辆，位置信息、专属店信息
+用户ID、车辆vin、选择门店、选择保养类型、选择公里数
+10、向您提供与您和您的车辆相关的服务
+姓名、电话号码、购车方式、看车时间,保险方案信息,购车计划，位置信息、专属店信息、身份证号、身份证照片、地址信息、企业名称、企业代码、车型、称谓、微信头像、微信昵称、微信openid、微信unionID
+姓名、身份证/护照/通行证、手机号码、行驶证照片、机动车登记证、车辆识别代号（VIN）、车牌号、发动机号、车辆位置、位置信息
+姓名、身份证/护照照片、手机号码、位置信息、行驶证照片，车辆识别代号（VIN）、车牌号、发动机号、车辆位置
+车辆识别代号（VIN）、车辆发动机号、购车手机号码、购车身份证号/组织机构代码
+姓名、手机号、邮箱地址、证件类型、证件号码、车牌号、品牌型号、车辆识别代码（VIN）、车辆发动机号、注册日期,行驶里程、购车日期、延保类型
+姓名、手机号、车牌号、车辆识别代码（VIN）和车辆发动机号
+车辆识别代号（VIN）、姓名、手机号、地址
+品牌型号、车牌号、车辆识别代号（VIN）、姓名、手机号、位置信息
+姓名、身份证/护照照片、手机号码、位置信息、行驶证照片，车辆识别代号（VIN）、车牌号、发动机号
+姓名、手机号码、车型、车牌号、车辆识别代码（VIN）
+姓名、手机号码、车型、车牌号、车辆识别代码（VIN）
+姓名、身份证/护照照片、手机号码、行驶证照片，车辆识别代号（VIN）、车牌号、发动机号、机动车登记证照片
+电话号码、微信头像、微信昵称、微信openid、微信unionID
+可查看车型相关PGC和UGC内容和转评赞互动，并支持用户发布内容 
+姓名、身份证/护照照片、手机号码、行驶证照片，车辆识别代号（VIN）、车牌号、发动机号、机动车登记证照片
+姓名、手机号码、车型、车牌号、车辆识别代码(VIN）
+诸如资讯、活动等，收集设备信息，位置信息、用户及车型信息、微信头像、微信昵称、微信openid、微信unionID等
+11、对您设备的访问权限
+为了保证您在文章分享、课程分享到其他平台、资讯内保存图片的功能，我们需要您授权存储使用权限。
+为了保证您能够录制视频，便于分享更好的视频内容在社区资讯上，我们需要您授权我们获取您的录音权限。
+为了保证您能正常使用我们的城市定位、高德地图，百度地图（救援出险，经销商地图模式，悦享停车，附近加油站等）的功能，我们需要您授权我们获取您的位置信息使用权限。
+为了保证您能正常使用本客户端的扫一扫、拍摄您的证件信息和爱车照片用于验证功能、车主安全认证的功能，我们会在您授权后获取您的相机使用权限。
+（5）为了判断账户与设备的关联关系，通过技术与风控规则提高登录与交易安全性，我们会在您授权后获取您的读取手机状态权限，用于获取IMSI。除此之外，我们还可能会获取其它设备信息（Android ID、OAID、IP 地址、设备序列号、 DEVICEID、手机型号、手机品牌、Android 系统版本、厂商系统版本）用于监控账户与使用设备的安全。
+（6）在您分享或接收被分享的信息、参加活动情形下，我们需要在本地访问你的剪切板，读取其中包含的口令、分享码、链接，以实现跳转、分享、活动联动功能或服务。我们仅在本地识别出剪切板内容属于跳转、分享、活动联动指令时才会将其上传我们的服务器。除此之外，我们不会上传你剪切板的其他信息至我们的服务器。另外，我们可能需要读取你的手机相册以便于你分享或接收被分享的视频和图片。
+（7）当您分享活动口令与链接时，我们将收集您的头像、昵称，并调用您的剪切板功能以判断是否有相关口令码信息，我们收集该信息在服务器做校验后向您反馈您所需的内容或绑定相关权益。我们不会存储您剪切板的其他信息。
+（8）在你使用第三方帐号进行登录时，我们会将为实现登录所必需的信息在剪切板中写入与读取。这些信息仅供实现登录相关的目的所使用，不会收集你的隐私信息。
+（9）在您发帖选择图片文件上传时，需要您授权同意我们获取"访问存储"权限，读取SD卡信息。
+在您查看隐私协议时，安卓设备系统浏览器AndroidChromium组件会触发获取传感器信息，包括Android_ID、BSSID、SSID（前台后台收集）网络设备制造商、Countrylso国家识别码、网络信息、修改系统设置、SIM卡序列号、MEID，但我们并不会收集前述信息。
+(10)在负一屏为您展示当前城市的天气、油价、限行情况时，我们会获取您的地理位置权限用于查询附近城市、天气、油价、限行情况。如您未授权，可通过手工切换城市来展示对应城市的天气、油价、限行情况。
+您可以在您的设备中通过"设置"（如：iOS系统中的"设置-隐私"及Android系统中的"设置-应用权限"）逐项查看您上述权限的开启状态，并可以决定将这些权限随时开启或关闭。请您注意，您自主选择开启这些权限即代表您明确同意授权我们可以收集和处理这些个人信息来实现上述功能，您关闭权限即代表您取消了这些授权，则我们将不再继续收集和处理您的这些个人信息，也无法为您提供上述与这些授权所对应的功能。您关闭权限的决定不会影响此前基于您的授权所进行的个人信息的收集和处理。
+12、事先征得授权同意的例外
+（1）与我们履行法律法规规定的义务相关的；
+（2）为订立、履行个人作为一方当事人的合同所必需，或者按照依法制定的劳动规章制度和依法签订的集体合同实施人力资源管理所必需；
+（3）为应对突发公共卫生事件，或者紧急情况下为保护自然人的生命健康和财产安全所必需
+（4）为公共利益实施新闻报道、舆论监督行为，在合理的范围内处理个人信息；
+（5）在合理的范围内处理个人自行公开或者其他已经合法公开的个人信息；
+（6）法律法规规定的其他情形。
+13、我们从第三方获得您个人信息的情形
+14、产品安全保障功能
+我们为了更好的保障您使用我们的产品与/或服务时的账号与系统安全，并协助提升我们的产品与/服务的安全性和可靠性，以防产生任何危害用户、广汽丰田汽车有限公司、社会的行为，包括您的如下个人信息：个人常用设备信息(Android ID / IDFA / OPENUDID / OAID / IMSI信息)、IP、设备型号、设备制造商、设备序列号、SSID、任务信息、操作系统类型及型号、屏幕分辨率、电信运营商、软件安装列表、软件版本号、系统语言、SD卡容量、手机CPU、进程信息、BSSID（内置浏览器收集）、WIFI信息、SIM卡序列号(ICCID)、idfv，以及个人敏感信息：交易信息、实名认证信息。我们会根据上述信息来综合判断您账号、账户及交易风险、进行身份验证、客户服务、检测及防范安全事件、诈骗监测、存档和备份用途，并依法采取必要的记录、审计、分析、处置措施，一旦我们检测出存在或疑似存在账号安全风险时，我们会使用相关信息进行安全验证与风险排除，确保我们向您提供的产品和服务的安全性，以用来保障您的权益不受侵害。同时，当发生账号或系统安全问题时，我们会收集这些信息来优化我们的产品和服务。
+当我们要将信息用于本政策未载明的其它用途时，会事先征求您的同意。当我们要将基于特定目的收集而来的信息用于其他目的时，除非有本政策（二）12条载明的例外情况，否则，我们会事先征求您的同意。
+1.我们使用符合业界标准的、一切合理可行的安全防护措施保护您提供的个人信息，防止数据被未经授权访问、公开披露、使用、修改、损坏或丢失。例如，我们会使用加密技术确保数据的保密性；我们会使用受信赖的保护机制防止数据遭到恶意攻击；我们会设定访问控制权限，确保只有授权人员才可访问个人信息，并且留存访问编辑记录；以及我们会举办安全和隐私保护培训课程，加强广汽丰田员工对于保护个人信息重要性的认识。
+2．我们会采取一切合理可行的措施，确保不会收集无关的个人信息。我们只会在达成本政策所述目的所需的期限内保留您的个人信息，除非需要延长保留期或受到法律的允许。
+3．我们将定期开展安全风险、个人信息安全影响评估有关内容。
+4．请使用复杂密码，协助我们保证您的账号安全。
+为应对个人信息泄露、毁损、丢失可能出现的安全风险，我们已经在公司范围内颁布多项制度，包括安全事件应急预案和补救措施；
+一旦发生安全事件，我们将及时向您告知事件基本情况和风险，我们已经采取或将要采取的措施，您如何自行降低风险的建议；
+3.我们将及时以推送通知、信函或电话方式将安全事件情况通报受影响的用户。当我们难以逐一告知个人信息主体时，我们会采取合理、有效的方式发布公告。我们也会按照安全事件的情况，依据法律法规的要求向监管机构进行通报。
+当您发现我们处理的关于您的个人信息有错误或者不完整时，经对您的身份进行验证，且更正或补充不影响信息的客观性和准确性的情况下，您有权对错误或不完整的信息做出更正或补充。您可以通过本隐私政策"联系我们"部分的联系方式向我们提出更正或补充请求，或者对于通过广汽丰田丰云行APP收集的个人信息您可以通过登录广汽丰田丰云行APP账户在如下功能更正或补充您的相关个人信息：
+更正或补充个人信息：在[我的]→[个人头像]→右上角[编辑]中更正或补充您的头像、昵称
+后续功能完善后再添加
+1.如果我们处理个人信息的行为违反法律法规；
+2.如果我们在未征得您同意的情况下收集、处理您的个人信息；
+3.如果我们处理个人信息的行为违反本政策；
+4.如果您不再使用我们的产品或服务，或您注销了账号；
+5.如果我们不再为您提供产品或服务。
+6.若我们决定响应您的删除请求，我们还将同时通知通过我们获得您的个人信息的第三方，要求其及时删除，除非法律法规另有规定，或其已获得您的独立授权。
+对于您敏感个人信息的删除要求，我们会做10个工作日之内删除。
+您随时可注销已注册的账户，如果您需要注销您的账号，请在相应APP、小程序中【我的-设置-账号与安全-账号注销】中提交申请。在注销账户之后，我们将停止为您提供产品或服务，并依据适用法律的要求，删除您的个人信息或对其进行匿名化处理。
+您可以通过以下途径向我们提交上述权利请求：联系购买时的授权经销商、注册官方APP及拨打客服电话。为保障安全，您可能需要以书面方式提交上述请求，同时，为了避免您的信息被盗用，我们可能会先要求您验证自己的身份，然后再处理您的请求 。
+联系购买车辆时的广汽丰田授权经销商，客服电话：400-830-8888。
+1.与我们履行法律法规规定的义务相关的；
+2.与国家安全、国防安全直接相关的；
+3.与公共安全、公共卫生、重大公共利益直接相关的；
+4.与刑事犯罪侦查、起诉、审判和执行判决直接相关的；
+5.有充分证据表明个人信息主体存在主观恶意或者滥用权利的；
+6.出于维护个人信息主体或者其他个人的生命、财产重大合法权益但又很难得到本人授权同意的；
+7.响应您的请求将导致您或者其他个人、组织的合法权益受到严重损害的；
+8．涉及商业秘密的。
+获得您的单独同意后，我们会向其他方提供您的个人信息。
+根据法律法规规定、按行政、司法机关依法提出的要求，提供您的个人信息。
+3.因业务开展需要，您的个人信息会提供给平台的服务提供者。
+4.为促进合作、推出优质及更新的产品及服务，我们可能会向第三方合作伙伴提供您的必要的个人信息。我们的授权合作伙伴无权将共享的个人信息用于任何其他用途。
+广汽丰田授权经销商：我们会向他们提供完成售前和售后服务所必要的个人信息。
+金融机构、车辆保险相关的公司、二手车公司、产品延长保修期运作公司：根据您的授权或实际业务需要，我们有可能向他们提供您的车辆融资相关的个人信息、二手车评估及销售相关的个人信息、 产品延长保修期相关的个人信息。
+我们聘请的第三方服务提供者（如供应商、服务外包商）为我们的客户提供相关服务，包括但不限于购车贷款、车辆保险、车载信息、路边救援、电话回访、召回通知、发送信函、电子邮件或短信、 清理客户信息、分析数据、提供市场营销帮助、客户满意度调查、接受客户咨询以及处理客户请求等等。
+1）获得您的明确同意后，我们会向其他方转让您的个人信息；
+2）在涉及合并、分立、解散、被宣告破产时，如涉及到个人信息转移，我们会向您告知接收方的名称或者姓名和联系方式。要求新的持有您个人信息的公司、组织继续受本政策的约束，否则我们将要求该公司、组织重新向您征求授权同意。
+1.与我们履行法定职责或法律法规规定的义务相关的；
+2.为订立、履行个人作为一方当事人的合同所必需，或者按照依法制定的劳动规章制度和依法签订的集体合同实施人力资源管理所必需；
+3.为应对突发公共卫生事件，或者紧急情况下为保护自然人的生命健康和财产安全所必需；
+4.为公共利益实施新闻报道、舆论监督行为，在合理的范围内处理个人信息；
+5.依照本法规定在合理的范围内处理个人自行公开或者其他已经合法公开的个人信息；
+6.其他法律法规规定的情形。
+八、我们对Cookies和其他技术的使用
+（一） Cookie的使用
+我们会通过Cookies和其他追踪技术了解您使用我们网站的情况。Cookies是一种能够识别您设备的特定识别符号，通过识别您的设备，我们可以为您推荐个性化商品和广告（包括由本网站提供广告内容的联盟网站）。通过Cookies收集的信息属于不能单独使用的个人信息，您理解并同意我们将通过 Cookies收集的信息与您的其他信息结合使用。大部分网页浏览器会自动打开Cookies,您可以随时调整您的浏览器设置，选择关闭Cookies。然而，Cookies能让您享受我们更优质、更个性化的服务，如果您关闭了Cookies,可能无法完全体验我们网站上提供的所有服务，所以我们建议您将其设置为打开状态。
+（二）网络Beacon和同类技术的使用
+除Cookies外，我们还会在网页上使用网络Beacon技术，在移动客户端应用平台上使用AOP raspect- Oriented Programming技术。您可以通过浏览器设置拒绝或管理网络Beacon。但请注意，如果停用网络Beacon，您有可能无法享受最佳的服务体验，某些服务也可能无法正常使用。
+网络Beacon是一种嵌入到网页中的透明图像，网页中常会包含一些电子图像（称为"单像素"GIF文件或"网络Beacon"）。例如，在打开我们的网站时，如果您点击网站的内容，我们则会跟踪此次点击，帮助我们了解您对产品或服务偏好以便于我们主动改善客户服务体验。
+AOP（面向切面编程）是一种通过预编译方式和运行期动态代理实现移动客户端应用平台使用行为数据收集的技术实现方式。
+为了能够更高效地完成我们的产品研发，为用户提供更为多元化的服务，我们在产品中采用了第三方提供的软件开发工具包。这种工具包通常称为SDK（Software Development Kit），是指用于为特定的软件包、软件框架、硬件平台、操作系统等创建应用软件的开发工具的集合。我们使用的SDK包括 以下类型：
+1.用于支持快捷注册或登录的 SDK
+2.用于信息传播功能的 SDK
+3.用于提供支付功能的 SDK
+4.用于故障收集分析的 SDK
+5.身份验证的 SDK
+6.用于内容投放的SDK
+7.用于提供地图服务的SDK
+以下是我们使用的第三方SDK的清单： 
+第三方SDK名称
+sdk隐私政策链接
+神策 SDK（神策数据SDK、TheOfficialAndroidSDKForSensorsAnalytics）
+调用sdk初始化自动采集
+用于App数据分析
+设备信息，Android ID，IP地址，网络信息，APP包名，APP版本
+website_url_lnk
+website_url_lnk 
+百度地图 SDK（Android地图SDK、iOS地图SDK）
+设备信息，操作系统版本、地理位置信息、请求使用定位权限、手机状态、SSID、BSSID、 WiFi 信息（WiFi_name）、访问存储SD卡信息
+website_url_lnk
+website_url_lnk 
+百度定位 SDK（Android定位SDK、iOS定位SDK）
+获取用户地理位置使用地图、定位相关功能时，SDK请求权限，用于定位您的位置信息，以便您能完成参与活动功能。
+调用sdk初始化自动采集
+位置信息（包括IP地址、WLAN热点、BSSID、SSID、以及其他能够用于定位的传感器信息）、设备信息（包含IDFV、OAID、MEID、IMSI）、操作系统版本、设备品牌及型号、设备配置、运营商类型、 WiFi 信息（WiFi_name）、访问存储SD卡信息
+website_url_lnk
+website_url_lnk 
+腾讯SDK（buglySDK、QQSDK、人脸识别（腾讯云）SDK、腾讯x5浏览器SDK、腾讯TBS浏览服务SDK）
+Crash 监控类
+分析和统计系统错误、收集app崩溃信息，解决app闪退问题
+调用sdk初始化自动采集
+用于App数据分析
+设备信息（Android如Android ID、IMSI）、设备硬件序列号、手机型号、手机品牌、Android系统版本、Android系统api级、厂商系统版本、cpu架构类型、设备是否root、磁盘空间占用大小、SD卡空间占用大小、内存空间占用大小、网络类型
+website_url_lnk
+website_url_lnk 
+微信 SDK
+设备标识符（Android如、Android ID、Serial）、WLAN接入点、分享图片或内容
+website_url_lnk
+website_url_lnk 
+QQ SDK
+支持 QQ 分享
+分享文件到qq、qq登录
+三方登陆：qq登陆，三方分享：qq分享
+设备信息[ 设备信息包括：设备标识符（IDFA、Android ID、OAID、IMSI）
+website_url_lnk
+website_url_lnk 
+微博 SDK
+设备信息[ 设备信息包括：设备标识符（IDFA、Android ID、OAID、IMSI）、读取外置存储卡、写入外部存储卡、剪切板信息
+website_url_lnk
+website_url_lnk 
+极光SDK（极光推送SDK、极光IM SDK、cn.jmessage.biz、SDKlibobjc. A.dylib）
+调用sdk初始化自动采集
+用户手机接收 App 推送消息
+设备信息[ 设备信息包括：设备标识符（IDFA、Android ID、OAID、IMSI）、应用信息（应用崩溃信息、通知开关状态、软件列表）、设备参数及系统信息（设备类型、设备型号、操作系统及硬件相关信息）、 
+MEID、SIM 卡序列号（ICCID）]、网络信息[ 网络信息包括：，IP地址，WiFi信息，基站信息。 ]地理位置信息，已安装包名列表
+website_url_lnk
+website_url_lnk 
+支付宝 SDK
+设备标识符（Android如MEID、IMSI、Android ID、Serial、ICCID，iOS如IDFV、IDFA）、IP地址、WLAN接入点、设备传感器数据、软件安装列表
+website_url_lnk
+website_url_lnk 
+友盟分享 SDK
+快速集成第三方分享，微信登录，Crash监控
+设备信息（Android ID/IDFA/OpenUDID/GUID/SIM卡IMSI/地理位置等）
+website_url_lnk
+website_url_lnk 
+hypers SDK
+调用sdk初始化自动采集
+用于App数据分析
+设备信息，IP地址，网络信息，地理位置信息，APP包名，APP版本，应用崩溃信息，VIN，车牌号，订单号，订单信息，车型，保险方案信息，延保类型，
+website_url_lnk
+website_url_lnk 
+人脸识别（腾讯云）SDK
+website_url_lnk
+website_url_lnk 
+银联支付SDK
+website_url_lnk
+website_url_lnk 
+萤石云视频SDK
+设备信息[ 设备信息包括：设备标识符（IDFA、Android ID、OAID、IMSI）
+website_url_lnk
+website_url_lnk 
+小米 SDK
+调用sdk初始化自动采集
+APP对小米系统手机对消息推送
+小米手机用户接收 App 推送消息
+设备信息[ 设备信息包括：设备标识符（IDFA、Android ID、OAID、IMSI），运营商信息，SD卡信息
+website_url_lnk
+website_url_lnk 
+VIVO SDK
+调用sdk初始化自动采集
+APP对vivo系统手机对消息推送
+vivo手机用户接收 App 推送消息
+设备信息[ 设备信息包括：设备标识符（IDFA、Android ID、OAID、IMSI）
+website_url_lnk
+website_url_lnk 
+秒针分析SDK
+部分h5活动浏览的分析统计
+用于App数据分析
+设备生产商、设备品牌、设备型号、操作系统、操作系统版本号、客户端、客户端类型、客户端引擎、网络类型、系统语言类型、屏幕分辨率、去标识化的 ID（如cookie/openid/unionid）、账户公开信息（如昵称/头像/性别/地区/语言）、地区/语言、IP 信息
+website_url_lnk
+website_url_lnk 
+app手机号码一键登录
+website_url_lnk
+website_url_lnk 
+libOpenInstallSDK
+从外部浏览器唤起app
+外部浏览器唤起app，比如从微信启动app
+外部浏览器唤起app，比如从微信启动app
+设备品牌，设备型号，操作系统版本，IP地址、IDFA、OAID
+website_url_lnk
+website_url_lnk 
+website_url_lnk
+website_url_lnk 
+监测APP性能
+调用sdk初始化自动采集
+监控app网络、卡顿、错误等性能问题
+用于App数据分析
+设备信息、Android ID、蓝牙信息、应用信息、系统和网络识别信息
+website_url_lnk
+website_url_lnk 
+腾讯x5浏览器SDK
+在app内展示网页浏览
+在app内访问H5链接的页面展示
+用于App数据分析
+设备品牌，设备型号，操作系统版本，IP地址
+website_url_lnk
+website_url_lnk 
+芝麻服务SDK
+website_url_lnk
+website_url_lnk 
+高德地图SDK
+website_url_lnk
+website_url_lnk 
+有赞APP开店SDK
+website_url_lnk 
+有赞App开店SDK合规性接入说明：website_url_lnk 
+有赞saas的隐私说明：website_url_lnk
+website_url_lnk 
+有赞H5商城埋点统计上报 
+用于App数据分析
+website_url_lnk
+website_url_lnk 
+百度SKD
+在H5内获取访问信息记录
+浏览h5页面时统计访问信息
+用于App数据分析
+设备信息（包括MEID、Android ID、IMSI），应用信息（包括应用程序列表）
+website_url_lnk
+website_url_lnk 
+快递100
+website_url_lnk
+website_url_lnk 
+滴滴SDK
+website_url_lnk
+website_url_lnk 
+华付人脸识别SDK
+通过人脸方式做实名认证或登录APP
+website_url_lnk
+website_url_lnk 
+荣耀推送SDK
+调用sdk初始化自动采集
+APP对荣耀系统手机对消息推送
+荣耀手机用户接收 App 推送消息
+设备信息[ 设备信息包括：设备标识符（IDFA、Android ID、OAID、IMSI）
+website_url_lnk
+website_url_lnk 
+魅族推送SDK
+调用sdk初始化自动采集
+APP对魅族系统手机对消息推送
+魅族手机用户接收 App 推送消息
+设备信息[ 设备信息包括：设备标识符（IDFA、Android ID、OAID、IMSI）
+website_url_lnk
+website_url_lnk 
+OPPO推送SDK（OPPO推送SDK、GpushOPPOSDK、com.heytap.msp）
+调用sdk初始化自动采集
+APP对oppo系统手机对消息推送
+OPPO手机用户接收 App 推送消息
+设备信息[ 设备信息包括：设备标识符（IDFA、Android ID、OAID、IMSI等相关信息）、已安装应用列表，运营商信息，SD卡信息
+website_url_lnk
+website_url_lnk 
+华为推送HMS服务SDK
+调用sdk初始化自动采集
+APP对华为系统手机对消息推送
+华为手机用户接收 App 推送消息
+设备信息[ 设备信息包括：设备标识符（IDFA、Android ID、OAID、IMSI）
+website_url_lnk
+website_url_lnk 
+腾讯TBS浏览服务SDK
+在app内展示网页浏览
+调用sdk初始化自动采集
+用于App数据分析
+Wifi信息，Android ID、IMSI、bssid、设备序列号、DEVICEID
+website_url_lnk
+website_url_lnk 
+Glide图片加载框架SDK
+调用sdk初始化自动采集
+app图片展示
+用于App数据分析
+website_url_lnk
+website_url_lnk 
+okhttp网络框架SDK
+调用sdk初始化自动采集
+app网络使用
+用于App数据分析
+website_url_lnk
+website_url_lnk 
+百度oauth SDK
+用于App数据分析
+website_url_lnk
+website_url_lnk 
+chromium
+Google Inc
+调用sdk初始化自动采集
+安卓app的框架搭建使用
+用于App数据分析
+设备版本、IMSI、设备应用安装列表、网络设备制造商
+website_url_lnk
+website_url_lnk 
+海康威视视频SDK
+提供Android版本的实时视频预览、录像回放功能。
+设备信息[ 设备信息包括：设备标识符（IDFA、Android ID、OAID、IMSI）
+website_url_lnk
+website_url_lnk 
+萤石直播UIKit
+UIKit，是基于萤石开放平台OpenSDK封装的UI组件，使用过程中不必学习专业的业务概念，更不用调用繁琐的接口，能够以极简的嵌入方式，快速在您的应用中集成视频功能。
+设备信息[ 设备信息包括：设备标识符（IDFA、Android ID、OAID、IMSI）
+website_url_lnk
+website_url_lnk 
+百度卡证文字识别SDK
+设备信息[ 设备信息包括：设备标识符（IDFA、Android ID、OAID、IMSI）
+website_url_lnk
+website_url_lnk 
+蓝牙数字钥匙SDK（IA5）
+Vin码、车辆状态信息、蓝牙mac地址、位置信息
+蓝牙数字钥匙SDK（丰田车型）
+Vin码、车辆状态信息、蓝牙mac地址、位置信息
+qrcodecore/AndroidQRCodeCoreLibrary
+QRCode 扫描二维码、扫描条形码、相册获取图片后识别、生成带 Logo 二维码、支持微博微信 QQ 二维码扫描样式
+website_url_lnk
+common-base
+website_url_lnk
+android.support.v7
+应用低版本兼容API
+应用低版本兼容API
+website_url_lnk
+QQ互联SDK
+快速集成第三方登录和分享：QQ登录、分享
+QQ登录、分享
+设备信息（Android ID/IDFA/OpenUDID/GUID/SIM卡IMSI/地理位置）
+SubsamplingScaleImageView
+davemorrissey
+A custom image view for Android, designed for photo galleries and displaying huge images (e.g. maps and building plans) without OutOfMemoryErrors. Includes pinch to zoom, panning, rotation and animation support, and allows easy extension so you can add your own overlays and touch event detection. 
+The view optionally uses subsampling and tiles to support very large images, a low resolution base layer is loaded and as you zoom in, it is overlaid with smaller high resolution tiles for the visible area. This avoids holding too much data in memory. It's ideal for displaying large images while allowing you to zoom in to the high resolution details. You can disable tiling for smaller images and when displaying a bitmap object. There are some advantages and disadvantages to disabling tiling so to decide which is best, see the wiki.
+website_url_lnk
+rxpermissions
+Abel Hu(个人)
+Android runtime permissions powered by RxJava2
+website_url_lnk
+Blankj/AndroidUtilCode
+Blankj
+AndroidUtilCode is a powerful & easy to use library for Android. This library encapsulates the functions that commonly used in Android development which have complete demo and unit test. By using it's encapsulated APIs, you can greatly improve the development efficiency. The program mainly consists of two modules which is utilcode, which is commonly used in development, and subutil which is rarely used in development, but the utils can be beneficial to simplify the main module.
+website_url_lnk
+RxAndroid
+ReactiveX
+Android specific bindings for RxJava 3. 
+This module adds the minimum classes to RxJava that make writing reactive components in Android applications easy and hassle-free. More specifically, it provides a Scheduler that schedules on the main thread or any given Looper. 
+Since RxAndroid is part of the RxJava family the communication channels are similar
+website_url_lnk
+设备网络SDK_Android
+设备信息[ 设备信息包括：设备标识符（IDFA、Android ID、OAID、IMSI）
+website_url_lnk
+FlycoTabLayout
+H07000223（个人）
+An Android TabLayout Lib
+website_url_lnk
+Jpush
+pkjueying（个人）
+该模块主要使用来执行脚本, 将push库文件同步到jcenter上.
+website_url_lnk
+ijkplayerSDK
+ijkplayer是一个基于FFmpeg的轻量级Android/iOS视频播放器。FFmpeg的是全球领先的多媒体框架，能够解码，编码， 转码，复用，解复用，流，过滤器和播放大部分的视频格式。
+设备信息[ 设备信息包括：设备标识符（IDFA、Android ID、OAID、IMSI）
+website_url_lnk
+subsampling-scale-image-view
+davemorrissey
+Android library (AAR). Highly configurable, easily extendable deep zoom view for displaying huge images without loss of detail. Perfect for photo galleries, maps, building plans etc.
+website_url_lnk
+blankj工具库
+Blankj
+在 Android 平台上使用的工具类库，它提供了各种常用工具类和方法，如日期时间处理、文件操作、加密解密、设备信息等。该库旨在帮助开发者减少重复性代码，提高开发效率。
+Okio
+Square
+A modern I/O API for Java
+website_url_lnk
+腾讯TBS浏览服务
+腾讯浏览服务是致力于优化移动端webview体验的整套解决方案。该方案由SDK、手机QQ浏览器X5内核和X5云端服务组成，解决移动端webview使用过程中出现的一切问题，优化用户的浏览体验。同时，腾讯还将持续提供后续的更新和优化，为开发者提供最新最优秀的功能和服务。
+website_url_lnk
+Android Support Library V4
+website_url_lnk
+xutils
+wyouflf(个人)
+Android orm, bitmap, http, view inject...
+website_url_lnk
+Android Multi Dex Library
+Google
+Library for legacy multi-dex support
+website_url_lnk
+ReactiveX响应式编程框架
+是一个响应式编程框架，它基于 Reactive Extensions（Rx）思想，并在此基础上扩展和优化了一些功能。使用 io.reactivex 可以方便地实现异步事件驱动的编程模型，从而提高程序的响应速度、并发性能和可读性。
+GoogleJSON
+GoogleInc.
+Google JSON工具类
+website_url_lnk
+BumpTechGlide
+BumpTechnologies
+Glide is a fast and efficient open source media management and image loading framework for Android that wraps media decoding, memory and disk caching, and resource pooling into a simple and easy to use interface.
+website_url_lnk
+RxJavaFX
+ReactiveX
+RxJavaFX is a lightweight library to convert JavaFX events into RxJava Observables/Flowables and vice versa. It also has a Scheduler to safely move emissions to the JavaFX Event Dispatch Thread.
+website_url_lnk
+我们的产品、网站和服务主要面向成人。如果没有父母或监护人的明示同意，未满14岁的儿童不得创建自己的用户账户。 对于经父母同意而收集的儿童个人信息，我们只会在法律允许、父母或监护人明确同意或者保护儿童所必要的情况下处理此个人信息。
+我们的服务模式发生重大变化。如处理个人信息的目的、处理的个人信息的类型、个人信息的处理方式；
+我们在公司结构、组织架构方面发生重大变化，如业务调整、破产并购引起的信息控制者变更；
+个人信息提供、转移或公开披露的主要对象发生变化；
+您参与个人信息处理方面的权利及其行使方式发生重大变化；
+我们负责处理个人信息安全的责任部门、联络方式及投诉渠道发生变化时。
+您可以通过我们的广汽丰田顾客服务中心，电话：400-830-8888，办公地址：中国广州市南沙区市南大道8号与我们联系。一般情况下，我们将在十五天内回复。

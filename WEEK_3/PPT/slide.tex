@@ -272,6 +272,68 @@ Privacy Policy:
 \end{frame}
 
 \begin{frame}
+    \frametitle{改进结果（DeepSeek Chat，随机20样本）}
+    \scriptsize
+    \begin{tabularx}{\textwidth}{|p{1.9cm}|c|c|c|c|}
+        \toprule
+        \textbf{标签} & \textbf{P} & \textbf{R} & \textbf{F1} & \textbf{Acc} \\
+        \midrule
+        incorrect & 1.000 & 0.895 & 0.944 & 0.900 \\
+        \midrule
+        incomplete & 1.000 & 0.571 & 0.727 & 0.700 \\
+        \midrule
+        inconsistent & 0.500 & 0.286 & 0.364 & 0.650 \\
+        \bottomrule
+    \end{tabularx}
+    \vspace{0.6em}
+    \begin{itemize}
+        \item 数据来源：\texttt{results/metrics\_summary\_random20\_deepseek\_chat.csv}
+        \item 相比全量150样本基线：三类标签F1均提升，尤其\texttt{inconsistent}从0提升到0.364
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{改进效果对比（F1）}
+    \small
+    \begin{tabularx}{\textwidth}{|p{2.2cm}|c|c|c|}
+        \toprule
+        \textbf{标签} & \textbf{全量150基线} & \textbf{随机20改进} & \textbf{提升} \\
+        \midrule
+        incorrect & 0.521 & 0.944 & +0.423 \\
+        \midrule
+        incomplete & 0.523 & 0.727 & +0.204 \\
+        \midrule
+        inconsistent & 0.000 & 0.364 & +0.364 \\
+        \bottomrule
+    \end{tabularx}
+    \vspace{0.7em}
+    \begin{block}{解读}
+        few-shot冲突样例与\texttt{deepseek-chat}组合后，模型对冲突标签的可识别性明显增强；但该结果基于20样本，仍需在更大样本上复验稳定性。
+    \end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{改进后混淆矩阵（随机20样本）}
+    \begin{columns}
+        \begin{column}{0.32\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{../src/2-2/results/figures_random20_deepseek_chat/cm_incorrect.png}
+        \end{column}
+        \begin{column}{0.32\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{../src/2-2/results/figures_random20_deepseek_chat/cm_incomplete.png}
+        \end{column}
+        \begin{column}{0.32\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{../src/2-2/results/figures_random20_deepseek_chat/cm_inconsistent.png}
+        \end{column}
+    \end{columns}
+    \vspace{0.6em}
+    \scriptsize
+    图源：\texttt{results/figures\_random20\_deepseek\_chat/}
+\end{frame}
+
+\begin{frame}
     \begin{center}
         {\Huge 感谢聆听！}
     \end{center}

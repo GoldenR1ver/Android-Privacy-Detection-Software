@@ -1,0 +1,116 @@
+Facebook
+Join or Log Into Facebook 
+Email or phone
+Password
+Forgot account?
+Log In
+Do you want to join Facebook?
+Sign Up
+Sign Up
+Effective January 1, 2023.
+Messenger Kids Privacy Policy
+Messenger Kids from Meta is a messaging and video calling app for children that helps them communicate with family and friends in a fun and age-appropriate environment. Messenger Kids is designed to give you control over how and when your child shares data and who they can communicate with. It also gives you insights into how your child uses the app, including access to the information your child shares and receives. Please review this Privacy Policy together with your child to ensure you both understand what information we collect when your child uses Messenger Kids and how we use and share that information. 
+Some of the features this Privacy Policy describes are optional and may be available to your child only if you choose to enable them. 
+When you and other Facebook account holders interact with your child on Messenger Kids, the Meta Privacy Policy shall continue to apply to you and them. 
+What kinds of information do we collect? 
+We collect the following information from children and their parents or guardians when they sign up for and use Messenger Kids.
+Messenger Kids Account Details: Depending on the features you and your child use, we collect the following information: 
+Your child's full name.
+Your child's profile picture.
+Any log-in details you or your child provide.
+Your child's demographic information, such as gender and birthday, if you choose to provide them; 
+Unique identifiers for your child, like a Messenger Kids username.
+Your child's connection to their parents or guardians on Messenger Kids; and
+Additional information about your child that you or your child may provide.
+Use of Messenger Kids: We collect the following types of information about your child's use of Messenger Kids: 
+Content and Communications: We collect the content and type of messages, including stickers, gifs, photos, or videos, your child shares from both sent and received messages in Messenger Kids. These may include your child's image or voice if provided. We also collect information about this content, like metadata, which can include information like file size, name of a photo or video, and date or time the photo was taken.
+Contacts: We collect information about your child's contacts on Messenger Kids and how your child interacts with them-for example, their most frequent contacts.
+Usage: We collect information about how your child uses Messenger Kids, such as the features they use, use of audio or video calling, game play, and how they engage with the app. 
+Contact forms and surveys: We collect information your child provides to us through surveys and contact forms, for example product features or bug reports in the Messenger Kids App.
+Device Information: We collect information about the phone or device your child uses to access Messenger Kids. This information includes: 
+Device attributes: information like the operating system, hardware and software versions, and available storage space.
+Identifiers: unique identifiers, device IDs, and Meta Family Device IDs (or other identifiers unique to Meta Company Products associated with the same device or account).
+Data from device settings: information provided through device settings you or your child turns on, like time zone and access to your camera, photos, or microphone.
+Network and connections: information like language, IP address, and connection speed.
+How do we use this information?
+Enable your child to communicate: We use the information we have about you and your child to enable them to connect and communicate with others. 
+Personalize your child's Messenger Kids experience: We use the information we have to optimize Messenger Kids for your child and others, including personalization of product features and suggesting contacts for your child. This includes placing the people your child communicates with the most at the top of their contact list, recommending features like a new sticker pack, or suggesting other Messenger Kids connections. 
+Enhance our services: We use the information we have to evaluate, troubleshoot, improve, create, and develop our products and to help make Messenger Kids a safer, more secure and more fun place for children. This includes conducting research and analysis using information we collect in order to improve or develop Meta Products.
+Communicate with parents or guardians and their children: We use the information we have to communicate with you and any other parent or guardian managing your child's account. We may also use this information to communicate with your child. For instance, our communications may include information about your child's activities and connections, updates to the Messenger Kids product, and information about our policies, terms, and practices. When you or your child contact us, we also use this information to respond to those communications. 
+Advance safety and security on and off Messenger Kids: We use the information we have to improve safety for our users on and off the product. This includes investigating suspicious activity, reported content, violations of our terms or policies, preventing spam and other bad experiences, combating harmful conduct, verifying accounts and activities, and maintaining the integrity of Messenger Kids. We may accomplish this through human review, automated systems, and machine learning.
+How is this information shared? 
+Your Child's Contacts.
+You have control over who can communicate with your child through Messenger Kids. You can approve each connection request individually, or you can choose to allow your child to make and accept connection requests on their own without your approving each one. You may also enable your child to join group conversations with Messenger or Messenger Kids users who are not individually approved. If you allow your child to make and accept connection requests or join group conversations, you will still retain the ability to review and remove contacts. You will have to opt in to these functionalities on behalf of your child, and you can opt out of them at any time.
+Your child's name, profile picture, active status, and relationship to you and other managing account holders are shared with the people your child communicates with. You can exercise controls available in the Parent Dashboard to decide whether your child's contacts see additional account details from your child's account (like birthday). 
+The people your child communicates with see the content your child shares with them. You should carefully consider your child's contacts and permissions, because people who can see their messages may choose to share them with others who have not been approved to communicate with your child. For example, your child's contacts can download, screenshot, or reshare content from your child's messages with others across Messenger Kids or other products.
+Parents and Guardians.
+Through the Parent Dashboard, you, as the parent or guardian can download or view video and photo messages your child sends or receives on Messenger Kids. You can also review your child's account details and account activity. Remember, parents or guardians of other Messenger Kids users can always see the information your child shares with their child. 
+Other children, parents or guardians:
+Your Facebook friends who manage a Messenger Kids account and people you invite to create a Messenger Kids account can see your child's name, profile picture, and relationship to you and any other managing parents or guardians. 
+We want to help your child find their friends on Messenger Kids. To do that, you can choose to allow your child's information to be visible to additional people subject to your control on the Parent Dashboard. 
+Our vendors and service providers. We may transfer information we collect to service providers that are needed to support Messenger Kids, such as companies that provide technical infrastructure and support (like a content delivery network) or customer service, or that analyze how Messenger Kids is being used to help us improve the service. These partners must adhere to strict data confidentiality and security obligations, such as restrictions on how they can use the data. We don't sell any of your or your child's information to anyone and we never will.
+Meta Companies. Messenger Kids is offered by Meta, and we may share the information we collect in Messenger Kids with the Meta Companies to support the uses described above and to improve the services provided by the Meta Companies. For example, when parents use Messenger to communicate with their children on Messenger Kids, Meta will use information from Messenger Kids to support seamless cross-service communication.
+New Owners. If the ownership or control of all or part of Messenger Kids changes, we may transfer information to the new owner.
+Law enforcement or legal requests. We share information with law enforcement or in response to legal requests in the circumstances outlined below.
+How can parents access, manage, and delete information about their child?
+You can manage and review information about your child in the Parent Dashboard, which is located in your Facebook account. This Parent Dashboard allows you to make changes to your child's Messenger Kids profile, remove contacts, change permissions you have opted into, and see images or videos your child sends or receives. In addition, you can see your child's messages on Messenger Kids and their account information by downloading a copy of their information from the Parent Dashboard.
+To stop Meta from collecting and using your child's personal information on Messenger Kids, you can delete your child's Messenger Kids Account through our Help Center. If you delete your child's account, we will delete their Messenger Kids profile information, information about their activity and contacts, device information, and their copy of messages, as described above. However, messages and content sent or received by your child before their account was deleted will remain visible to those users who, as noted above, may reshare it with others.
+We store information until it is no longer necessary to provide our services, or until your child's account is deleted, whichever comes first. This is a case-by-case determination that depends on things like the nature of the data, why it is collected and processed, and relevant legal or operational retention needs. For example, we may retain registration information subject to law enforcement requests in order to help make the Messenger Kids community safer.
+Reporting Suspicious Activity 
+As described above, we use the information we have to promote children's safety on Messenger Kids, but we also provide a reporting tool for them to use when needed. Through their Messenger Kids account, your child can report inappropriate content (including harassing, bullying, sexual or violent content) or suspicious activity (for example, if they think someone else is impersonating their friend or family member) and can immediately block the offending individual on Messenger Kids. If your child reports someone, we will notify you that they did so. 
+How do we respond to legal requests or prevent harm? 
+We access, preserve and share your child's information with regulators, law enforcement or others in response to a legal request, if we have a good-faith belief that the law requires us to do so. We can also respond to legal requests when we have a good-faith belief that the response is required by law in that jurisdiction, affects users in that jurisdiction, and is consistent with internationally recognized standards.
+We access, preserve and share your child's information with regulators, law enforcement or others when we have a good-faith belief it is necessary to: detect, prevent and address fraud, unauthorized use of Messenger Kids, violations of our terms or policies, or other harmful or illegal activity; to protect ourselves (including our rights, property or products), you or others, including as part of investigations or regulatory inquiries; or to prevent death or imminent bodily harm. 
+Information we receive about you or your child can be accessed and preserved for an extended period when it is the subject of a legal request or obligation, governmental investigation, or investigations of possible violations of our terms or policies, or otherwise to prevent harm. We also retain information from accounts that have been disabled for terms violations for at least a year to prevent repeat abuse or other term violations.
+How do we operate and transfer data as part of our global services?
+We share information globally, both internally within the Meta Companies, and externally with our partners and with those you connect and share with around the world in accordance with this policy. Your information may, for example, be transferred or transmitted to, or stored and processed in the United States or other countries outside of where you live for the purposes as described in this policy. These data transfers are necessary to provide the services set forth in the Messenger Kids Terms and to globally operate and provide our products to you. We utilize standard contract clauses, rely on the European Commission's adequacy decisions about certain countries, as applicable, and obtain your consent for these data transfers to the United States and other countries.
+Updates and Changes to this Policy
+Before we make changes to our data collection, use, or sharing practices as reflected in this Policy, we will notify you as parent or guardian of a child with a Messenger Kids account and provide you with the opportunity to review the changes before they go into effect for your child.
+Contacting Meta 
+If you have questions about this policy, please contact Meta Platforms, Inc. through our Help Center or at meta Platforms, Inc.
+1601 Willow Road 
+Menlo Park, CA 94025 
+mkids-privacy@fb.com 
+(650) 543-4800
+Date of Last Revision: December 15, 2022 
+English (US)
+Türkçe
+Deutsch
+Français (France)
+Polski
+Svenska
+Azərbaycan dili
+Español
+Português (Brasil)
+Sign Up
+Log In
+Messenger
+Facebook Lite
+Video
+Places
+Games
+Marketplace
+Meta Pay
+Meta Store
+Meta Quest
+Instagram
+Threads
+Fundraisers
+Services
+Voting Information Center
+Privacy Policy
+Privacy Center
+Groups
+About
+Create ad
+Create Page
+Developers
+Careers
+Cookies
+Ad choices
+Terms
+Help
+Contact Uploading & Non-Users
+Settings
+Activity log
+Meta 2023

@@ -1,0 +1,429 @@
+VIBE_BLUE_SVG VIBE_WHITE_SVG Created with Sketch.
+Menu
+Competitions and offers 
+Contact us 
+Travel help hub 
+Deals 
+Download 
+Find hotel / destination 
+Free Child Places 
+Manage my booking 
+Shortlists 
+0800 408 0778
+Call today from 8:30am-8:30pm
+Speak to one of our travel experts in our UK Call Centre opening times mon-Fri 8:30am-8.30pm
+Saturday & Sunday 8:30am-7:30pm 
+Please only call a number listed on our website or you can find a travel agent near you.
+Manage My Booking 
+Online check in Add Holiday Essentials
+Account
+Sign in. Create account 
+Bookings
+View and manage your bookings
+Offers
+Exclusive account offers
+Group quotes
+Quotes for 10+ passengers
+Shortlists
+Save and share holidays
+Personal details
+Edit your saved information
+Download our FREE app
+UX team. replace inside this template tag for spinner 
+spinner end 
+My Shortlists
+Save and share holidays
+You can now access Shortlists through a myJet2 account. So, as well as being able to save, share and compare holidays, you'll also benefit from... 
+Save and share shortlists
+Exclusive discounts
+Tailored holidays inspiration
+Create Account
+Already a member? Log in
+Returning to shortlists
+Sign up with Facebook
+Don't worry, we'll never post anything without your permission
+OR
+Email Address
+{{ errors.first('shortlist-menu-sign-in-email') }}
+Password Show Hide
+{{ errors.first('shortlist-menu-sign-in-password') }}
+Login
+Error occurred while trying to login using Facebook. Please try again, or alternatively you can create a Jet2holidays account using your preferred email address.
+Facebook Declined Email Error
+Sorry, we were unable to log you in. Please check your email and password are correct.
+Forgotten your password?
+New to shortlists
+Sign up with Facebook
+Don't worry, we'll never post anything without your permission
+OR
+Email Address
+{{ errors.first('shortlist-menu-sign-up-email') }}
+Password Show Hide
+{{ errors.first('shortlist-menu-sign-up-password') }}
+Confirm Password Show Hide
+{{ errors.first('shortlist-menu-sign-up-password-confirm') }}
+Sign up
+Error occurred while trying to login using Facebook. Please try again, or alternatively you can create a Jet2holidays account using your preferred email address.
+Facebook Declined Email Error
+Sorry, we were unable to sign you up.
+This email address is already being used. You may have previously registered or have a myJet2 account.
+By submitting this form I am agreeing to receive marketing emails from Jet2Holidays. You can let us know at any time if you no longer want to receive emails by unsubscribing here.
+We process your data in accordance to our Privacy Policy.
+Forgotten Password 
+Forgotten Password
+Email Address
+{{ errors.first('shortlist-menu-forgotten-password-email') }}
+{{ successMessageFormatted }}
+Sorry, we were unable to find your email address.
+Send password reset
+Account
+Sign in. Create account 
+Bookings
+View and manage your bookings
+Offers
+Exclusive account offers
+Group quotes
+Quotes for 10+ passengers
+Shortlists
+Save and share holidays
+Personal details
+Edit your saved information
+Menu
+Search hotels or destinations
+Privacy Policy
+Home
+Privacy policy
+About this policy 
+Who is the controller of your data? 
+What personal data do we process? 
+Where does your personal data come from? 
+Do you have to provide your personal data? 
+What do we use your personal data for? 
+What are the legal grounds for processing your personal data? 
+Who do we share your personal data with? 
+How long do we keep your personal data? 
+What are your rights? 
+About this policy 
+At Jet2.com and Jet2holidays, we are committed to only collecting, using and disclosing your personal data in ways that you expect, or have consented to or as we are required or permitted to by law. This policy explains how we use your information and applies to all Jet2.com and Jet2holidays customers and visitors to our apps and our websites (together our "websites"). 
+We understand that not everybody needs or wants to know how we use their information in the same level of detail, so we have created two levels of information for you. If you just want to know the basics, please read the 'essential information' section for each topic. If you want to know more, please read the 'detailed information' section so that you can learn more about a particular issue. 
+back to the top
+Who is the controller of your data? 
+Where you book a flight with us, Jet2.com Limited is the controller of your personal data and where you book your package holiday, Jet2holidays Limited is the relevant controller. 
+Jet2.com Limited together with Jet2holidays Limited will act as joint controllers for the purposes of displaying details about your upcoming flights and holidays on our app or Myjet2 customer account or/ and managing your MyJet2 customer account. 
+If you are using our websites, please note that some of the products and services advertised are provided by third parties. These partners will be the controllers of any information about you that they process in connection with the products and services they provide, and you should read the privacy policy which is available on each of their websites to find out how they will use your data. 
+If you have any further questions please contact our Data Protection Officer here: privacy@jet2.com. 
+back to the top
+What do we use your personal data for? 
+Essential Information 
+The main way we use your personal data is to fulfil your booking (be it a flight booking or a holiday booking) to help us understand your needs and to provide you with a better service. If you create a Myjet2 account and update your personal details in the account details section we will also use your personal data to maintain this account. We may store information about your travel history and your preferences. We may also use your personal data for marketing purposes, but we will make sure to not send you emails with offers and information if you have told us you would prefer not to receive these. 
+Detailed Information 
+As well as to fulfil your flight or holiday booking and to provide you with updates about your booking, we use your information in the following ways: marketing communications
+As well as to fulfil your flight or holiday booking and to provide you with updates about your booking, we use your information in the following ways: marketing via SMS, email, letter or phone: We (including our group companies) may use your personal data to inform you, by email, letter or phone or SMS, about offers, products and services that we think may be of interest to you and we may tell you about other organisations' products and services. We will tell you about this when we collect your information and if you do not wish to receive these communications, please let us know. You can change your mind at any time by visiting our unsubscribe page here website_url_lnk or website_url_lnk can also unsubscribe following the instructions that we will include in any communication, such as email or text, we send to you; 
+As well as to fulfil your flight or holiday booking and to provide you with updates about your booking, we use your information in the following ways: Please note that if you sign up to our Myjet2 account and opt-in to email marketing, you will receive emails from Myjet2, Jet2.com and Jet2holidays for both flights and holidays, however if you sign up only to Jet2.com marketing emails or Jet2holidays emails, you will only receive emails directly from that brand. 
+As well as to fulfil your flight or holiday booking and to provide you with updates about your booking, we use your information in the following ways: for marketing purposes with social media: We may use your personal data to generate targeted marketing on various social media sites, for example but not limited to, Facebook. We recommend you routinely review the privacy notices and preference settings that are available to you on social media platforms. If you do not wish to receive such targeted marketing generally, you are able to switch this off within the social media site. If you do not want to receive such targeted marketing from us, you can contact us at: privacy@jet2.com.
+As well as to fulfil your flight or holiday booking and to provide you with updates about your booking, we use your information in the following ways: for marketing on other media: We may use your personal data to generate targeted marketing via other media platforms (such as TV On Demand services). If you do not want to receive such targeted marketing from us, you can contact us at: privacy@jet2.com.
+As well as to fulfil your flight or holiday booking and to provide you with updates about your booking, we use your information in the following ways: for communication and marketing purposes via push notifications: We may use your personal data to generate targeted messages or marketing where you receive notifications directly from applications on your mobile device. If you do not want to receive such push notifications from us, you can change your permissions via your mobile device settings at any time.
+Marketing Analysis or research
+to develop our customer insights: we use personal data you have provided to us through your interactions with us (eg. through booking your holiday or flight with us, or using our website or interacting with our emails), or which we have received from one of our partners to develop a single view of you as our customer, improve the products and services we provide and keep you informed about offerings that may be of interest to you. This also helps inform business decisions, for example to ensure that we are providing holidays or flights that our customers want; 
+we may use your personal data to measure the effectiveness of our marketing campaigns so we can make sure that our advertising reaches our customers; 
+for market research: from time to time, we may also use your information to contact you by letter, phone, SMS or email to conduct customer satisfaction surveys or similar market research exercises; 
+to help us design our websites and improve your experience: we may collect information about the way you use and access our websites. Our web system collects information about each visitor, including IP address, the length of time spent on the website and the order in which pages are visited. Our website may use technologies to help analyse how users navigate our web pages, links and forms and helps us provide you with a good experience when you browse our websites and improve the content of our marketing. You can change the way your browser manages cookies, which may be used to deliver online advertising, by following the settings on your browser. This is explained in more detail in the cookies section here.
+To speak to you regarding your booking or any other enquiry we may use your personal data to respond to and deal with any complaint or query or request which you contact us with. As part of our customer care procedures, we may also follow-up, either by letter, phone, SMS, email, or via social media, with customers who have travelled with us, for example to resolve a complaint or to ask for a testimonial.
+To speak to you regarding your booking or any other enquiry to comply with your requests to exercise your rights under data protection legislation such as when you request access to your personal data.
+Other purposes: We may use your personal data to administer promotions and competitions which we run from time to time.
+Other purposes: We may use your personal data for the purposes of ensuring safety and security on our flights and in our resorts.
+Other purposes: We may use your personal data for fraud prevention: to protect our customers and us from fraud and theft, we may look at information that we get from identity checks along with information in our customer records and other information which is publicly available (including on social media).
+Other purposes: We may use your personal data for meeting our regulatory obligations, including liaising with regulatory authorities and for our own internal audit purposes.
+Other purposes: We may use your personal data for complying with applicable laws and regulations.
+Other purposes: We may use your personal data for training and quality purposes to make sure we continue to deliver the standard of service that you expect from us.
+Other purposes: We may use your personal data to comply with lawful requests by public authorities, health authorities, discovery requests, or where otherwise required or permitted by applicable laws, court orders, government regulations, or regulatory authorities.
+Other purposes: We may use your personal data for the purposes of safeguarding children (up to 18 years) on our flights and in our resorts.
+Other purposes: We may use your personal data to enforce our legal rights and obligations and for any purposes in connection with any legal claims made by or involving you including reviewing information which you have made publicly available and which may be relevant to any claim (including information available on social media sites); and
+Other purposes: We may use your personal data for planning, due diligence and implementation in relation to a commercial transaction or service transfer that affects customers, for example mergers and acquisitions or a sale of all or part of our business. 
+back to the top
+Where does your personal data come from? 
+Essential Information 
+Most of the data we process about you comes from you, for example, information you provide to us so that we can fulfil your travel booking. 
+Other information is gathered during your use of our websites or App (e.g. IP addresses or information obtained via cookies) and from your interaction with us at airports and hotels (e.g. data we may receive from airport check-in systems). If you have a Myjet2 account, we will retain information about your visit, for example when you last logged in. 
+Detailed Information 
+A lot of the data we process is data which you provide to us, such as your name, contact details, payment card information, date of birth etc. You usually provide this information when you make a booking via our websites or call centre, or when you contact us via email, letter or phone. You also have the option to provide this information if you set up a myJet2 account, all of which you can update yourself in your account. 
+We may also obtain your personal data from other companies that we partner with, such as retail partners (for example for travel insurance or car hire) or other third parties that we use to provide us or you services. We may also use personal data from other sources which supply publicly available information. 
+If you use social media sites such as Facebook, Twitter and Instagram, booking engines or personal banking sites, these sites are operated by third party providers and they may share your personal data with us. We recommend you routinely review the privacy notices and preference settings of such information sharing platforms. We will respect any permissions you have set on those platforms regarding our use of your personal information. 
+Cookies 
+Essential Information 
+Similar to other commercial websites, our websites utilise a standard technology to collect information about how our website is used by individual computers connected to the internet. 
+This information is gathered through "Cookies" (or similar technologies). Cookies are small files of letters and numbers that we put on your computer's hard drive. Cookies may collect personal information about you. These small files allow us to distinguish you from other users of our website, monitor website traffic and to personalise the content of the site for you. This ultimately helps us provide you with a good experience when you browse our websites and improve the content of our marketing and allows us to improve our site going forward. 
+To find out more about our use of cookies please read our cookies policy here. 
+back to the top
+Do you have to provide your personal data? 
+Essential Information 
+In most cases, providing your personal data to us is optional, however, if you do not provide it, we will probably not be able to fulfil your booking. For example, if you book a flight with us, we need details such as your name and passport details to be able to complete your booking and we will need your payment card details to take your payment. When you make a booking, we will only collect information which is required for the purpose of your booking. In other cases, you have a choice over whether we collect your personal data, for example, you can turn off cookies on your browser and we will not place any cookies on your device or computer (although in this case you may not be able to use all parts of our website). Sometimes, we are required by law to collect certain data for border control purposes and where you have booked a flight with us you cannot prevent this collection of data other than by choosing not to check-in for this flight. 
+back to the top
+What personal data do we process? 
+Essential Information 
+We process information about you that you give us when you make a flight or holiday booking with us or purchase any other product or service from us, such as your name, date of birth, billing and home addresses, booking reference, email address, telephone number and payment card details. You may also create a user name and password if you choose to create a myJet2 profile. You may also create a user name and password if you choose to create a myJet2 profile. Where necessary we will also collect your passport and other travel authorisation documents such as visas. When you visit our websites we also automatically receive your IP address which is a unique identifier for your computer or other device you are using to access our site. 
+You may provide us with limited details about other people (e.g. where you make a travel or holiday booking on behalf of a group or where you provide us with the name and contact details of a third party who we may contact in an emergency). Where you provide the details of other individuals you should ensure you are have their permission to do so. Please tell these people to read this policy if they want to find out more about our data protection practices. 
+Detailed Information 
+A more detailed description of the information we process about you can be found below. 
+User name and password, you have the option to create these when you create a myJet2 account; 
+Contact details, your name, home and billing addresses, postcode, email address and telephone numbers and social media details; 
+Age / date of birth, you will need to provide this information as part of the booking and check-in process; 
+Payment card details, card number, security code, expiry date, issue number and name of card holder; 
+Booking history, details of bookings you have previously made via our websites, our contact centre or via travel agents; 
+Booking Reference, to allow us to identify your booking in order to manage any changes to it; 
+Device details, information about the device (e.g. computer, mobile phone) that you use to access our websites; 
+CCTV images, your image may be captured on CCTV footage whilst at airports from which we operate; 
+Call Recordings, if you call our contact centre we may record your call for training and quality monitoring purposes to improve our services. We may also analyse the call to measure customer response. You will be informed when making a call if it is being recorded; 
+Information contained in enquiries or complaints, if you make a complaint about a booking, product or service, or call our customer helpline (either before or during your holiday), you will provide us with associated information which might in some cases include special categories of data such as information about health (e.g. where you notify us of any requirement of disabled passengers) or religion (e.g. where you request a specific meal choice); 
+Identity documents, we require details included on your passport in order to allow us to process your booking. Also, if you exercise any of your rights under data protection laws such as requesting information about your personal data that we hold, we may ask for proof of your identity such as a copy of your passport or driving licence; 
+IP address and cookie data, When you visit our websites we also automatically receive your IP address which is a unique identifier for your computer or other device you are using to access our site. Our websites also use cookies and similar technologies, please click here for further information. We may also collect other information via the cookies which enables us to identify you and understand how you have used our website and what you have looked at. If you have a Myjet2 account, we will collect information about your use of the website whilst you are logged in; and 
+Special categories of data, We may also process information about you that the law considers to fall within special categories, such as information about your health or disabilities, racial or ethnic origin, religious or other beliefs or sexual orientation. This information is known as "special categories of data" and receives extra protection under data protection laws. We may collect this to ensure we can meet any specific health requirements you have when travelling or to ensure we provide meals which meet any religious based dietary requirements. In other cases, we may need this information about you to fulfil your order, answer a complaint, respond to a safeguarding concern about a child, or defend a legal claim from you or we may be able to assume some information about you from what you tell us. 
+back to the top
+What are the legal grounds for processing your personal data? 
+Essential Information 
+Data protection laws require us to tell you what legal basis we use for processing your personal data. These bases are set out in the applicable data protection law. We generally use the following grounds: the processing is necessary to perform a contract with you (i.e. the contract for the sale and purchase of your flight or holiday), or to take steps requested by you before entering into this contract; 
+Data protection laws require us to tell you what legal basis we use for processing your personal data. These bases are set out in the applicable data protection law. We generally use the following grounds: the processing is in our or someone else's legitimate interests, and these interests are not overridden by your interests or rights in the protection of your personal data; 
+Data protection laws require us to tell you what legal basis we use for processing your personal data. These bases are set out in the applicable data protection law. We generally use the following grounds: you have given your consent to the processing of your data; or 
+Data protection laws require us to tell you what legal basis we use for processing your personal data. These bases are set out in the applicable data protection law. We generally use the following grounds: the processing is necessary to meet a legal obligation which applies to us. 
+Sometimes we process data about you which the law considers to fall within special categories (see section "What personal data do we process?" for more details), in which case, we use one of the following grounds: the processing is necessary to protect your vital interests or those of another person where you are physically or legally incapable of giving consent (e.g. in the event of a medical emergency); 
+Sometimes we process data about you which the law considers to fall within special categories (see section "What personal data do we process?" for more details), in which case, we use one of the following grounds: the processing is necessary for the establishment, exercise or defence of legal claims; 
+Sometimes we process data about you which the law considers to fall within special categories (see section "What personal data do we process?" for more details), in which case, we use one of the following grounds: the processing is necessary for reasons of substantial public interest on the basis of EU or domestic law; or 
+Sometimes we process data about you which the law considers to fall within special categories (see section "What personal data do we process?" for more details), in which case, we use one of the following grounds: you have freely given your consent to the processing. 
+Please see the table below if you want to know which particular grounds we use for each particular processing activity. 
+Detailed Information 
+We explain below which particular ground we use for each activity. Where we rely on the ground that the processing is in our or someone else's legitimate interests, we explain what those interests are (data protection laws require us to tell you about this). 
+Type of data/ processing activity. Ground relied on. Ground relied on for special category data. Details about the legitimate interest where this ground relied upon 
+Compliance with a legal obligation
+Perform-ance of a contract
+Jet2.com's/ Jet2holidays legitimate interests
+Consent 
+To make bookings for flights or holidays.. -.. -. -. N/A. N/A 
+To amend bookings and answer queries relating to existing bookings.
+-.. -. -. N/A. N/A 
+Payment data gathered in the course of making and receiving payments.
+-.. -. -. N/A. N/A 
+Marketing of flights and holidays to our customers.. -. -... N/A. 
+To market flights and holidays to customers who have a relationship with Jet2.com or Jet2holidays and are likely to be interested in hearing about future offers.
+This may fall within the category of consent or legitimate interest dependant on the type of marketing. 
+Develop a single view of our customers. -. -.. -. N/A. 
+To improve Jet2.com and Jet2holidays products and services and better understand customer needs. 
+Providing and Managing your Myjet2 account. -. -.. -. N/A. 
+To manage all of your bookings in one place, update your details and understand your needs.. 
+Emails and SMS messages providing updates relating to flight and holiday details.
+-.. -. -. N/A. To provide flight and holiday updates to customers relating to their bookings. 
+Answering customer complaints and queries.. -. -.. -. 
+Specific consent where special category data is provided as part of a query / complaint.
+To investigate and respond to complaints and queries about our products and services. 
+To conduct satisfaction surveys with customers.. -. -.. -. N/A. To allow Jet2.com and Jet2holidays to improve the quality of the products and services which it provides to customers. 
+To manage safety of customers and report safety incidents... -. -. -. Necessary for reasons of substantial public interest.. To ensure safety of customers and to manage aircraft and resort safety. 
+Printing and posting travel tickets to customers. -.. -. -. N/A. N/A 
+To safeguard and protect children.. -.. -. -. Necessary for reasons of substantial public interest.. To ensure child guests are safeguarded and protected from harm. 
+Managing boarding and departures of aircraft.. -.. -. -. N/A. N/A 
+To log and manage incidents of disruptive passengers.. -. -.. -. N/A. To comply with our responsibility to ensure safety of flights and inform any potential sanction decisions. 
+Manging sales made within airports (e.g. excess baggage).. -.. -. -. N/A. N/A 
+To locate lost baggage.. -.. -. -. N/A. N/A 
+Tailoring Jet2.com and Jet2holidays website content to customers.. -. -.. -. N/A. To assist Jet2.com and Jet2holidays in designing their website and improving the customer experience. 
+Selling excursions to Jet2.com and Jet2holidays customers before departure or in resort.
+-.. -. -. N/A. N/A 
+Management of any customer health and safety issues.. -. -.. -. Specific consent where required.. To manage and record passenger medical issues. 
+For training and quality purposes.. -. -.. -. N/A. Processing of customer data as part of our ongoing training programme for our team. 
+Detection and prevention of fraud.. -. -.. -. N/A. To protect Jet2.com and Jet2holidays and its customers against fraudulent activity 
+To manage payment of compensation under The Flight Compensation Regulation 261/2004.
+. -. -. -. N/A. 
+To respond to Subject Access Requests... -. -. -. Specific consent as required to process Subject Access Requests. N/A 
+To assess and defend claims made against Jet2.com and Jet2holidays
+-. -.. -. As necessary to defend claim.. To investigate and manage legal claims. 
+To assist law enforcement bodies with their functions.. -. -.. -. N/A. To comply with lawful requests by law enforcement bodies. 
+back to the top
+Who do we share your personal data with? 
+Essential Information 
+We share your personal information with our chosen third party suppliers who provide services to you and us (for example, hotels, tour operators etc); with local border control and law enforcement agencies (for example for fraud prevention or immigration control); and to other companies within the Jet2 group. 
+Some of these organisations may be located outside of the UK and therefore your personal data may be transferred between the UK and other countries. Where this happens, we have safeguards in place to ensure that your data is protected. 
+We are committed to the health and safety of our customers in managing the coronavirus (COVID-19) outbreak and will be working closely with health authorities, government agencies and our local agents, hotels and suppliers to secure appropriate assistance and support. As part of these efforts, we may ask for or share information with these third parties about customers who are in, or who may have travelled through, impacted areas. We will do this solely as necessary to help manage your safety and the safety of others. 
+Detailed Information 
+The types of third party service providers who we share your data with include; 
+Third party suppliers that we work with to provide your flight, holiday or any other service you buy from us (e.g. hotels, transport companies, local operators excursion/attraction providers, car hire companies, travel insurance providers). We provide these parties only with the essential personal information about you that is needed to make sure your holiday runs smoothly together with any follow up information that may need to be shared to deal with incidents, complaints or feedback. We always have contracts in place with these third parties which require them to properly protect your data and only use it for the purposes of providing the particular service. Where those parties are using your personal information to provide their own services to you separate from your booking with us (for example, your chosen hotel may collect your address for their own local booking requirements or your car hire company may collect your driving licence details to meet local legal requirements) , they will be separate data controllers of that information. We would encourage you to read the individual hotel/attraction provider/etc privacy policy to understand how they handle your information and how to exercise your rights. If you purchase car hire through Jet2holidays or Jet2.com we will transfer your personal data to Rental Cars (Travel Jigsaw Limited) to provide you with car hire services. Jet2holidays and Rental Cars will be independent data controllers in respect of that information. Rental Cars will use the information in accordance with their privacy policy website_url_lnk 
+Third party providers we are using to provide us services, for example, to help us understand our customer behaviour or help improve our website (e.g. marketing agencies, IT developers). 
+Immigration/border control, local airports, Border agencies in certain countries require us to provide certain information such as your name and passport details as a condition of you travelling to that country. This will vary, depending on the country to which you are travelling, for example, for passengers travelling to the United States or America ("US"), we are required to transfer to the US Department of Homeland Security ("DHS") certain travel and reservation data about passengers flying between the European Union and the US in accordance with an International Agreement. US authorities use this information for preventing and combating terrorism and other transnational serious crimes. For further information please see : website_url_lnk and this PDF. 
+Law enforcement, government agencies, emergency services, If there are any incidents with disruptive passengers on board our flights, we may share personal data with law enforcement agencies. In the event of a medical emergency during a flight we may share personal data with third party service providers to call for advice for the purposes of managing and recording passenger medical issues. We also share personal information with law enforcement agencies and other organisations involved in fraud prevention and detection (such as third party fraud management solution providers, banks and financial institutions) in order to identify potentially fraudulent bookings. We may also share your information with law enforcement and government agencies where this is reasonable for the prevention and detection of crime or if we believe a claim is being made fraudulently or if we have a safeguarding concern about a child. 
+Courts, legal advisers, claims handlers, in order to assess and defend any legal claims made against us, we may share your personal information with our legal advisors and claims handlers. 
+Third party successors to our business, If we sell or buy any business or assets, we will disclose your personal data to the prospective seller or buyer of such business or assets, and if we or part of our business is acquired by a third party, personal data about our customers will be transferred to that third party. 
+ABTA or the CAA, In the event of our insolvency we, or any appointed insolvency practitioner, may disclose your personal information to the CAA, and ABTA so that they can assess the status of your booking and advise you on the appropriate course of action under any scheme of financial protection. The CAA's General Privacy Notice is at website_url_lnk ABTA's Privacy Notice is at website_url_lnk 
+Within the Jet2 group 
+We may routinely share data with Jet2 group companies based in the EU, for example with our representatives in local countries. To protect your personal data in these circumstances, we have put in place internal data protection arrangements, which include contractual protections approved by the EU for the transfer of your data. 
+If we transfer personal data to another country where the recipient is outside of the Jet2 group, we will only do this where we are required to do so by law, or where the country is recognised as providing an adequate level of legal protection, or where we are satisfied that alternative arrangements (such as direct contractual commitments and assurances from those third parties) are in place to protect your privacy rights. 
+back to the top
+How long do we keep your personal data for? 
+Essential Information 
+We will store your personal information for as long as is reasonably necessary for the purposes for which it was collected, as explained in this Privacy Policy. In some cases we may store your personal information for longer periods of time where we need to maintain an accurate record of your dealings with us to help manage complaints or claims you or others may raise, or otherwise comply with legal or regulatory requirements. If you would like to know more about how long we retain information please contact us. 
+back to the top
+What are your rights? 
+Essential Information 
+You have several rights in relation to your personal data. These include accessing your data, correcting any mistakes, having your data erased, restricting the processing of your data, objecting to the processing of your data, data portability, and rights relating to automated decision making and profiling. In most cases there are conditions attached to these rights. Please see the relevant sections below if you want to find out more. 
+To exercise your rights please contact us via our online form which can be found here: website_url_lnk or via email at: privacy@jet2.com or, to make a request to access your data, follow the instructions below. 
+Detailed Information 
+Accessing your data 
+You can ask us to confirm whether we are processing your personal data and to give you a copy of that data along with further information about how we use your personal data. 
+You can request your data in writing or over the phone. To make a request in writing, please send your request to: Privacy Team, Legal Services, Jet2.com Limited, PO Box 284, Leeds, LS11 1GE; or electronically to us via our online form which can be found here: website_url_lnk Please include details of the personal data you require in your request (along with any further details which may help us to identify you, such as dates and times of flights, destination and booking reference number if you know this). To make a request over the phone, please call our contact centre, who will send your request onto us on your behalf. 
+Once we have received your request, we may seek to verify your identity through appropriate checks (which may include security questions or evidence of identification such as a copy of your passport). 
+If you are requesting a copy of personal data on behalf of a third party, please also send to us written authority from the individual whose data is required and a copy of their passport or driving licence. If the third party is a child under the age of 16, the written authority should come from a person with parental responsibility (along with a copy of the child's passport). 
+You do not have to pay a fee for a copy of your information unless your request is unfounded, repetitive or excessive, in which case we will charge a reasonable amount in the circumstances. We will let you know of any charges before completing your request. 
+We aim to respond to you within 1 month of receiving your request unless it is particularly complicated or you have made several requests, in which case we aim to respond within 3 months. We will let you know if we are going to take longer than 1 month in dealing with your request. If we have a lot of information about you we might ask you if you can tell us what exactly you want to receive. This will help us action your request more quickly. 
+Correcting your data 
+You can ask us to correct any data which is inaccurate or incomplete. This is free of charge. 
+We aim to deal with requests for correction within 1 month, although it might take us up to 3 months if your request is particularly complicated. 
+If we can't action a request to correct your data, we will let you know and explain why this is. 
+Erasing your data 
+This right is sometimes referred to as "the right to be forgotten". This is not an absolute right but you have the right to have your data erased, free of charge, in certain circumstances. 
+There are some exceptions to this right. If one of these applies, we will confirm this to you and we do not have to delete the data. 
+You can request your data to be deleted in writing or over the phone. To make a request in writing, please send your request to: Privacy Team, Legal Services, Jet2.com Limited, PO Box 284, Leeds, LS11 1GE; or electronically to us via our online form which can be found here: website_url_lnk
+Restricting the processing of your data 
+You can ask us to restrict the processing of your personal data in some circumstances, free of charge. This is not an absolute right. If processing is restricted we can store the data and retain enough information to make sure the restriction is respected, but we cannot further process your data. 
+We will tell you if we decide to lift a restriction on processing your data. 
+Objecting to the processing of your data 
+Objecting to the processing of your data is free of charge. It is not an absolute right but you can object to our processing of your data where it is: based on the legitimate interests ground; or 
+Objecting to the processing of your data is free of charge. It is not an absolute right but you can object to our processing of your data where it is: for the purposes of scientific/historical research and statistics. 
+We will stop processing your personal data unless we have compelling legitimate grounds for the processing which override your interests and rights, or unless we are processing the data for the establishment, exercise or defence of legal claims. 
+You can require us to stop using your data for direct marketing purposes. We will process your request as soon as it is received but it may take up to 14 days for this to be effective. There are no exemptions or reasons for us to refuse. 
+Data Portability 
+This allows you to obtain and reuse your personal data for your own purposes across different services. It applies where the following conditions are met: you provided the personal data to us yourself; 
+This allows you to obtain and reuse your personal data for your own purposes across different services. It applies where the following conditions are met: we are processing the data either based on your consent or because it is necessary for the performance of a contract; and 
+This allows you to obtain and reuse your personal data for your own purposes across different services. It applies where the following conditions are met: the processing is carried out by automated means. 
+We will provide your data free of charge in a structured, commonly used and machine readable form. We aim to provide your data within 1 month of receiving your request unless it is particularly complicated or you have made several requests, in which case we aim to respond within 3 months. If we are going to take longer than 1 month we will let you know and explain why we need more time. If we consider that we cannot provide you with your data, we will contact you and explain why this is. 
+Contact and complaints 
+Jet2.com and Jet2 holidays operate both within the UK and the EU. 
+If you are in the UK if you have any questions about this policy or about how we use your personal data please contact the Data Protection Officer at: privacy@jet2.com.
+If you are in the UK if you are a resident in the EU the controller in relation to your personal data is Jet2.com Limited when you book a flight with us and Jet2Holidays when you book one of our holidays. Our representative is Jet2 Support Services Limited and can be contacted at privacy@jet2.com.
+If you are in the UK if you're unhappy about how we are processing your data or how we have responded to request or complaint, you have the right to make a complaint to our regulator. This is the Information Commissioner's Office unless you are an EU resident, in which case the relevant authority is the Agencia Española de Protección de Datos ("AEPD"). You can find more details about how to contact the ICO at website_url_lnk or AEPD at: website_url_lnk
+back to the top
+Last Updated 09th August 2023 
+Sign up for our email service
+Please enter your details
+Sign up
+By submitting this form, you are agreeing to receive marketing emails from Jet2holidays. You can unsubscribe at any time.
+We process your data in accordance to our Privacy Policy.
+View Full Prize Draw Terms & Conditons
+Looking for something else?
+Looking to book?
+Beach holidays
+City breaks
+Villa holidays
+VIBE
+Indulgent Escapes
+Free Child Places
+Flights only
+All Inclusive holidays
+Family holidays
+Adult Only holidays
+Single parent holidays
+Solo holidays
+Group holidays
+Last-minute holidays
+Great-value deals
+Need more information?
+Our destinations
+FAQs
+Baggage
+Transfers
+About us
+Reviews and awards
+Contact us
+Special assistance
+Essential holiday information
+Jet2Blog
+Ways to Pay
+Careers
+Affiliate Program
+Influencer Hub
+Brochures
+Already booked?
+Manage My Booking
+Online check-in
+Travel help hub
+Health and safety
+Latest travel information
+Airport information
+Our app
+Holiday Essentials
+Travel Insurance
+Car hire
+Onboard shopping
+In-flight champagne
+Airport fast track
+Airport hotels
+Back to top
+Save and share holidays 
+You can now access Shortlists through a myJet2 account. So, as well as being able to save, share and compare holidays, you'll also benefit from...
+Save and share shortlists
+Exclusive discounts
+Tailored holidays inspiration
+Sign in
+Need an account? Create one here
+Close Need some help? WhatsApp or call us
+Choose one of the options below fAQs
+Choose one of the options below need help making a booking?
+Choose one of the options below whatsApp
+Choose one of the options below message us online
+Choose one of the options below contact us
+Choose one of the options below find out how to get in touch
+Privacy Preference Center
+Your Privacy
+Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and change our default settings. However, blocking some types of cookies may impact your experience of the site and the services we are able to offer.
+Strictly Necessary Cookies
+Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details 
+Performance Cookies
+Performance Cookies
+Performance Cookies
+These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.
+Cookies Details 
+Functional Cookies
+Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details 
+Targeting Cookies
+Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details 
+Select All Vendors
+Select All Hosts
+Select All
+REPLACE-WITH-DYANMIC-HOST-ID
+33Across
+33Across
+View Third Party Cookies
+Name
+cookie name
+Host
+cookie host
+Duration
+cookie duration
+Type
+cookie type
+Category
+cookie category
+Description
+cookie category
+REPLACE-WITH-DYANMIC-VENDOR-ID
+33Across
+3 Purposes
+View Privacy Notice
+Consent Purposes
+Location Based Ads
+Consent Allowed
+Legitimate Interest Purposes
+Personalize
+Require Opt-Out
+Features
+Location Based Ads
+Clear Fliters
+Information storage and access
+Apply
+Allow all Confirm my choices
+We use cookies to understand how you use our site and to improve your experience. Click 'Ok, got it' to accept or learn more about managing your cookies.
+Learn more Ok, got it

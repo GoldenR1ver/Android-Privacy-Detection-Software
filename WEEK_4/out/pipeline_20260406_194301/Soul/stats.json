@@ -1,0 +1,17 @@
+{
+  "total_sentences": 347,
+  "pii_related": {
+    "true": 12,
+    "false": 8,
+    "null": 327,
+    "ratio_of_total": null,
+    "ratio_of_labeled": 0.6,
+    "note": "pii_related_ratio_of_total is None when any sentence is unclassified; use ratio_of_labeled or run classify on all sentences."
+  },
+  "keyword_hint": {
+    "true": 231,
+    "false": 116,
+    "ratio_of_total": 0.6657060518731989
+  },
+  "doc_id": "Soul"
+}

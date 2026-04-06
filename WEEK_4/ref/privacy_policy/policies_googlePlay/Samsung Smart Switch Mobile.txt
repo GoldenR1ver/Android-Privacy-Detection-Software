@@ -1,0 +1,21 @@
+iam.01. Common. Title. Manage.cookies
+iam.01. Common. Text. We.use.cookies.to.improve.your.experience.on.our.website.and.to.show.you.relevant.ads
+iam.01. Common. Title. Essential.cookies
+iam.01. Common. Text. These.cookies.are.required.to.browse.our.website
+iam.01. Common. Button. View.cookies 
+EUAWSIAMSESSIONID account.samsung.com
+stk account.samsung.com
+EUAWSMBRSESSIONID account.samsung.com
+XSRF-TOKEN account.samsung.com
+scloud_did.samsung.com
+_common_physicalAddressText.samsung.com
+_common_pwAfterFewMonth.samsung.com
+_common_suggest2sv.samsung.com
+ga_disable.account.samsung.com
+iam.01. Common. Title. Analytical.or.performance.cookies
+iam.01. Common. Text. These.cookies.help.us.understand.how.you.use.our.site 
+iam.01. Common. Button. View.cookies 
+_ga Google Analytics
+_gat Google Analytics
+_gid Google Analytics
+iam.01. Common. Button. CANCELiam.01. Common. Button. Agree.and.continue

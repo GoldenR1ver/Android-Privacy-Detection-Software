@@ -1,0 +1,179 @@
+_360eyes Privacy Policy
+Updated May 31, 2018
+respects your concerns about privacy. This Privacy Policy describes the types of personal information we collect and how we may use the information, with whom we may share it, and the choices available regarding our use of the information. The Privacy Policy also describes the measures we take to safeguard the personal information and how individuals can contact us about our privacy practices.
+Our collection of information:
+Information about you
+When you use our platform service, we may ask you for personal information to sign up an account on our App or connect a device online. The types of personal information we collect include Email address or mobile phone number
+When you use our platform service, we may ask you for personal information to sign up an account on our App or connect a device online. The types of personal information we collect include Country information
+When you use our platform service, we may ask you for personal information to sign up an account on our App or connect a device online. The types of personal information we collect include WiFi SSID and password
+When you use our platform service, we may ask you for personal information to sign up an account on our App or connect a device online. The types of personal information we collect include Payment method
+Information collected by automated means
+When you communicate with our products or services, we collect necessary information by automated means including Mac address and digital certification of the device
+When you communicate with our products or services, we collect necessary information by automated means including Encrypted video and audio content
+When you communicate with our products or services, we collect necessary information by automated means including Operation log
+When you communicate with our products or services, we collect necessary information by automated means including IMEI
+Information we collect via technical support means
+Account information and country
+Device configuration
+Operation log
+How we use the information we collect:
+Establish an account for you and manage your account such as sending verification code to your email box or mobile phone when you need to modify the login password of your account. Once you do not need our service, you may choose to delete your account, thus all related information would be removed from cloud server within 15 working days.
+Provide you best service of cloud server after collecting your country information, which would be stored both in mobile phone and device. You may decline our request of location information, however, you have to provide country information manually in order to have normal service.
+Verify the legality of the device you are using via collecting the MAC address and digital certification. The information is automated collected and stored on cloud, which will not be shared to any third party in any situation.
+WiFi SSID and password is collected to enable the device connected to the Internet. WiFi SSID is stored in the device, which will be used to process the binding operation by uploading to the cloud for verification only. Once the process is finished, the information of SSID won't be stored on cloud or shared to any third party. The WiFi password is only stored in the device locally, which would not be known by any third party or us.
+When you are visiting a device via Internet, the content of video and audio is forwarded by cloud to your mobile phone in encrypted way. The content is not stored on cloud and cache will be removed away once you stop visiting the device. When you are visiting a device via Internet, the content of video and audio is forwarded by cloud to your mobile phone in encrypted way. The content is not stored on cloud and cache will be removed away once you stop visiting the device.
+When you are using cloud storage service, the encrypted video and audio content will be stored on cloud in the way of files during your recording subscription period so you can access your content during that time period. You may delete your recordings from the Cloud Service at any time by accessing your account. Once the cloud service expires, all related information would be deleted automatically.
+Operation log contains the information as below, 
+Account: account name, IP address of mobile phone, port, App version, server location, time record of login or sign up, time of bind, unbind or share a device.
+Device: device MAC address. IP address and port of the device, device certification and time of application, device model, device name, the owner's account ID, firmware version, firmware update information, login time on server, server location and time record of video play, and disconnection from server.
+All above information will be only stored on cloud for no more than 30 days before it's removed away automatically. Once you delete your account, related information will be removed away within 15 working days automatically. 
+Our website and mobile App may provide links to other online services for your convenience and information, and may include third-party features such as payment services (e.g., PayPal). Except for necessary information of purchasing order such as transaction amount, time, status and payment account, we will not collect or keep any other payment information.
+When you contact us via in-app instant technical support or send feedback email in App, we will collect information of your App account, country, device configuration and operation log or the information will be sent as email attachment for us to understand the situation you are dealing with. After the instant technical support, related information would not be stored on cloud, while the feedback attachment would be stored on cloud no more than 30 days.
+Third parties
+Except for the limited circumstances described in this Privacy Policy or your applicable agreement / terms of service, we do not provide your information to third parties. 
+We operate the platform using third party-AWS. AWS will host the platform and push notification message from its data centers throughout the world.
+We use a third party-PayPal to process subscription payments. 
+We use Mailgun to send information such as verification code or notification.
+While we provide these third parties with no more information than is necessary to enable these third-parties to provide the services to us, any information that you provide these services independently is subject to their respective privacy policies and practices.
+In certain situations, we may be required to disclose personal data in response to lawful requests by public authorities to meet national security or law enforcement requirements.
+We fully cooperate with law enforcement agencies in identifying those who use the Services for illegal activities, and we may report to law enforcement any activities that we believe in good faith are unlawful. We may need to release the information we collect to third parties when we believe it is appropriate to comply with the law, to enforce our legal rights, to protect the rights, safety or property of our business and support auditing, compliance, and corporate governance functions.
+How We Protect Personal Information
+The security of your personal information is important to us. We follow generally accepted standards to protect the personal information submitted to us or automated collected. We maintain administrative, technical and physical safeguards designed to protect personal information against accidental, unlawful or unauthorized destruction, loss, alteration, access, disclosure or use.
+Updates to our Privacy Policy
+This Privacy Policy may be updated periodically and without prior notice to you to reflect changes in our personal information practices. We will post a notice on our website and mobile App to notify you of the significant changes to our Privacy Policy and indicate at the top of the notice when it was most recently updated.
+How to contact us
+If you have any questions about this Privacy Policy, or if you would like us to update information we have about you, change your preferences or exercise other applicable data protection rights, please contact us by e-mail at cloud@puwell.com
+_360eyes隐私政策
+本隐私政策规定了深圳市达瑞电子科技有限公司（下文简称"我们"）如何收集、使用、披露、处理和保护您在使用我们的产品和服务时通过APP提供给我们的信息。若我们要求您提供某些信息，以便在使用我们产品和服务时验证您的身份，我们将严格遵守本隐私政策和/或我们的用户条款与条件来使用这些信息。
+您需要提供的信息
+电子邮件地址或手机号码
+国家信息
+WiFi SSID和密码
+购买APP指定服务的付款方式
+通过自动方式收集的信息
+Mac地址和设备的数字认证
+加密的视频和音频内容
+用户操作日志
+IMEI
+手机上的软件安装列表
+手机运行中的进程信息
+读取位置信息等个人信息
+我们通过售后技术支持手段可能会收集的信息
+帐号信息和国家
+设备配置
+操作日志
+第三方sdk可能搜集的信息
+【设备信息】：系统版本名、系统版本号、设备型号、分辨率、屏幕DPI、设备生产商、网络类型、系统语言、时区、时间戳、User Agent信息、屏幕方向、传感器（加速传感器、陀螺仪）、wifi状态、IMSI.
+【应用信息】当前应用包名、应用版本名、应用版本号等信息；应用安装信息（仅Android）
+【设备标识信息】设备id(android_id)、IMEI（用户授权才收集）、OAID、Mac地址、IDFA
+【地理位置信息】（用户授权才收集）
+广告行为(如广告加载、展示、点击等）数据
+【运行进程信息】(仅Android，且Android 6.0以上系统仅能获取宿主应用信息)
+诊断数据【双端】如崩溃数据、性能数据
+三、Android版本权限使用规则
+为了提供包括但不限于如下功能，我们需要访问您的地理位置权限：获得手机当前使用的无线WiFi名称，用于将此信息传输给摄像机，使得摄像机可以连接到指定路由器。
+为了提供包括但不限于如下功能，我们应用中的第三个方个推需要添加自启动权限：集成第三方消息推送SDK，在摄像机有相关告警的时候推送告警消息到指定的手机。
+为了提供包括但不限于如下功能，我们需要访问Wi-Fi网络信息：获得手机当前使用的无线WiFi名称，用于将此信息传输给摄像机，使得摄像机可以连接到指定路由器。
+经授权的访问、公开披露、使用、修改、损坏或丢失。我们努力使用各种合理的制度、技术、程序以及物理层面的措施来保护您的个人信息，包括但不限于防火墙、加密（例如SSL）、去标识化或匿名化处理、访问控制措施等。
+当您需要修改帐号的登录密码时，或者为您建立一个帐号并管理您的帐户，例如将验证码发送到您的邮箱或手机。一旦您不需要我们的服务，您可以选择删除您的帐号，因此所有相关信息将在15个工作日内从云服务器中删除。
+收集您的定位信息后，为您提供最佳的云服务器服务，该信息将存储在手机和设备中。您可拒绝我们对位置信息的请求，但是，您必须手动提供国家/地区信息才能正常使用。
+通过收集MAC地址和数字证书来验证所使用设备的合法性。信息将自动收集并存储在云中，在任何情况下都不会共享给任何第三方。
+收集WiFi SSID和密码以保证设备（如摄像机）能够连接到Internet。 WiFi SSID存储在设备中，该设备将通过上传到云中进行验证来用于处理绑定操作。该过程完成后，SSID信息将不会存储在云中或共享给任何第三方。 WiFi密码仅存储在本地设备中，任何第三方或我们都不知道。为了在添加设备的过程中，自动获得您要使用的WiFi名称（SSID），按照谷歌和苹果的操作系统要求，我们需要获得定位权限。你可以在操作结束以后，在系统设置中关闭此项权限。
+5.当您通过Internet访问设备时，视频和音频的内容会通过云以加密方式转发到您的手机。内容未存储在云中，一旦您停止访问设备，缓存将被删除。当您通过Internet访问设备时，视频和音频的内容会通过云以加密方式转发到您的手机。内容未存储在云中，一旦您停止访问设备，缓存将被删除。
+使用云存储服务时，加密的视频和音频内容将在服务期间以文件方式存储在云中，以便您可以在该时间段内访问内容。您可以随时通过APP删除记录。云服务过期后，所有相关内容将自动删除。
+操作日志包含以下信息，
+帐户：帐户名称，手机IP地址，端口，应用程序版本，服务器位置，登录或注册时间记录，绑定，取消绑定或共享设备的时间；
+设备信息：设备的MAC地址。设备的IP地址和端口，设备证书和申请时间，设备型号，设备名称，所有者的帐户ID，固件版本，固件更新信息，服务器上的登录时间，服务器位置和视频播放的时间记录以及与设备的断开连接服务器。
+收集的用户个人信息可能用于定向推送优惠活动、精准营销，推荐适合用户的产品或服务；个性化关闭按钮：我的->设置->个性化推荐，可开启或关闭个性化推荐产品或服务功能
+以上所有信息将仅在云中存储最多30天，然后自动将其删除。删除帐户后，相关信息将在15个工作日内自动删除。
+我们使用第三方基于腾讯云、七牛云的基础云服务来操作该平台；
+我们使用第三方支付宝和微信处理服务付款；
+我们使用了腾讯使用的信鸽推送服务以及百度提供的百度推送服务，实现摄像机的告警消息推送服务；
+我们使用了微信登录库实现可能的微信第三方登陆功能；
+我们使用了高德地图工具，获取所在位置的地名信息。
+我们使用了个推，在摄像机有相关告警的时候推送告警消息到指定的手机。
+在某些情况下，产品服务可能由独立第三合作方提供，我们要求我们的合作方无权将共享的个人信息用于任何其他用途。当您查看第三方创建的网页或使用第三方开发的应用程序时，这些第三方可能会放置他们自己的 Cookie 或使用其他技术手段，这些技术手段不受我们的控制，且它们的使用不受本政策的约束。合作方可能有其独立的个人信息保护政策和用户协议，我们建议您阅读并遵守第三方的个人信息保护政策及用户协议。
+为实现外部处理的目的和向你提供服务，我们可能会与关联公司或其他第三方合作伙伴分享你的个人信息，让他们按照我们的说明、隐私政策以及其他相关的保密和安全措施来为我们处理上述信息。我们会采取严格的技术手段保障你的信息安全。当我们的服务需求或业务功能变更时，我们会修改本清单，以向你说明最新情况。
+APP接入的第三方SDK收集和使用用户信息的具体情况：
+腾讯Bugly
+数据类型：联网信息、APP闪退情况、日志信息（包括：第三方开发者自定义日志、Logcat日志以及APP崩溃堆栈信息）、设备ID（包括：android ID以及IDFA、iccid）、系统名称、系统版本及国家码
+SDK提供方：腾讯科技（深圳）有限公司
+官网链接：website_url_lnk
+小米推送SDK（仅Android端)
+数据类型：联网信息、设备标识信息，包括IMEI /OAID（适用于Android 10以上系统）、IMEI MD5/MEIDMD5、Android ID、VAID、AAID、bssid、IMSI，以及您的MID（适用于MIUI系统）、设备型号、Mac地址
+SDK提供方：小米科技有限责任公司
+官网链接：website_url_lnk
+华为推送SDK（仅Android端)
+SDK提供方：华为软件技术有限公司
+官网链接：website_url_lnk
+SDK提供方：华为软件技术有限公司
+官网链接：website_url_lnk
+穿山甲SDK
+SDK提供方：北京巨量引擎网络技术有限公司
+官网链接：website_url_lnk
+VIVO推送SDK（仅Android端)
+SDK提供方：广东天宸网络科技有限公司
+官网链接：website_url_lnk
+OPPO推送SDK（仅Android端)
+SDK提供方：广东欢太科技有限公司
+官网链接：website_url_lnk
+微信SDK
+数据类型：联网信息、Mac地址、设备信息
+SDK提供方：深圳市腾讯计算机系统有限公司
+官网链接：website_url_lnk
+个推SDK
+数据类型：Android ID、Mac地址、应用列表
+SDK提供方：每日互动股份有限公司
+官网链接：website_url_lnk
+ADmobile 聚合 Suyiad SDK 、天目广告 SDK
+① 使用ADmobile的广告聚合服务，聚合多家广告平台进行变现；
+①【设备信息】：系统版本名、系统版本号、设备型号、分辨率、屏幕DPI、设备生产商、网络类型、系统语言、时区、时间戳、User Agent信息、屏幕方向、传感器（加速传感器、陀螺仪）、wifi状态、IMSI.
+②【应用信息】当前应用包名、应用版本名、应用版本号等信息；应用安装信息（仅Android）。
+③【设备标识信息】设备id(android_id)、IMEI（用户授权才收集）、OAID、Mac地址、IDFA
+⑥ 【运行进程信息】(仅Android，且Android 6.0以上系统仅能获取宿主应用信息)
+SDK收集用户信息的目的：
+⑤ 进程信息用于校验SDK是否处于主进程用于保障业务稳定
+⑥ 减少App崩溃、提供稳定可靠的服务
+SDK提供方：杭州艾狄墨搏信息服务有限公司 
+官网链接：website_url_lnk
+BeiZi SDK
+⑤ 通过崩溃信息，以此来优化代码缺陷，最大程度减少App崩溃
+⑥ 通过收集SDK运行过程中性能数据，以优化SDK的性能
+设备品牌、设备型号、设备时区、设备语言、系统版本、开发者应用名、应用版本号、应用包名、网络类型、UserAgent信息、网络状态、崩溃信息、性能数据、屏幕高宽、屏幕方向、屏幕DPI信息、系统更新时间、开机时间、USB调试模式、运营商、cpu、应用的进程名称、应用的进程信息、运行状态、磁盘空间、物理内存、设备ID（OAID、GAID）、IMEI
+访问互联网、网络状态、手机WiFi状态、安装应用
+SDK提供方：BeiZi 
+官方链接：website_url_lnk
+使用目的：保障应用代码安全、数据安全及运行安全，包括Android及iOS应用加固服务、SDK加固服务、安全组件服务。
+数据类型：设备信息，包括 设备唯一识别码（设备序列号、IMEI、MAC地址、AndroidID、MEID、IDFV、IDFA）、设备品牌、设备名称、设备型号及 设备系统类型、详细设置及版本信息
+SDK提供方：杭州网易智企科技有限公司 
+官方链接：website_url_lnk
+使用目的：保障应用代码安全、数据安全及运行安全，包括Android及iOS应用加固服务、SDK加固服务、安全组件服务。
+数据类型：设备信息，包括 设备唯一识别码（设备序列号、IMEI、MAC地址、AndroidID、MEID、IDFV、IDFA）、设备品牌、设备名称、设备型号及 设备系统类型、详细设置及版本信息
+SDK提供方：杭州网易质云科技有限公司 
+官方链接：website_url_lnk
+数据类型：设备信息、网络信息、位置信息、IMEI、MAC、AndroidID、OAID、IDFA、OpenUDID、GUID
+SDK提供方：友盟同欣(北京)科技有限公司、北京锐讯灵通科技有限公司 
+官方链接：website_url_lnk
+腾讯优量汇SDK
+使用目的：用于统计广告数据。广告投放合作、监测归因、反作弊，广告主统计投放结果，最大程度减少App崩溃、确保服务器正常运行、提升可扩展性和性能
+数据类型：收集IMEI和MAC地址信息、SD卡数据
+SDK提供方：腾讯控股有限公司 
+官方链接：website_url_lnk
+上述SDK收集使用个人信息的方式：由SDK通过APP直接向用户收集，按照上述各SDK所列使用目的进行使用。
+访问和更新您的信息
+修改、删除或转移您的信息
+账号注销以及时限：
+您可以通过联系官方客服进行注销账号，当您注销账户后，除法律法规要求我们保存相关信息的情况外，我们将停止为您提供相应的产品（或服务），并在10个工作日内删除或匿名化您的个人信息。
+即使您使用相同的电话号码或邮箱地址注册新账户，也将被视为是与原账户没有关联的新账户。
+若已购买了云存储服务，则将删除与之相关的内容和订单。如果仍然需要请再次购买。
+注销账号后，可以马上重新注册新账号。
+对于本隐私政策的重大变更，我们还会提供显著的通知（例如，在APP改版或升级、或您重新登录时，以弹窗形式对您进行及时通知）。
+我们的服务模式发生重大变化。如处理个人信息的目的、处理的个人信息类型、个人信息的使用方式等；
+我们在控制权等方面发生重大变化。如并购重组等引起的所有者变更等；
+个人信息共享、转让或公开披露的主要对象发生变化；
+您参与个人信息处理方面的权利及其行使方式发生重大变化；
+我们负责处理个人信息安全的责任部门、联络方式及投诉渠道发生变化时；
+个人信息安全影响评估报告表明存在高风险时。
+联系邮箱：chenbin@puwell.com
+在一般情况下，我们会在15个工作日内对您的请求予以答复。
+本政策版本更新日期为2023年10月18日，将于2023年10月18日正式生效。

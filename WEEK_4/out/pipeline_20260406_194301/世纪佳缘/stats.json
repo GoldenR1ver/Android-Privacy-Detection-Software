@@ -1,0 +1,17 @@
+{
+  "total_sentences": 323,
+  "pii_related": {
+    "true": 16,
+    "false": 4,
+    "null": 303,
+    "ratio_of_total": null,
+    "ratio_of_labeled": 0.8,
+    "note": "pii_related_ratio_of_total is None when any sentence is unclassified; use ratio_of_labeled or run classify on all sentences."
+  },
+  "keyword_hint": {
+    "true": 204,
+    "false": 119,
+    "ratio_of_total": 0.631578947368421
+  },
+  "doc_id": "世纪佳缘"
+}

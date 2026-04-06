@@ -1,0 +1,8 @@
+Petrol Spy Privacy Policy
+Last updated: 27 Feb 2022
+Information Collection And Use
+We collect and store your email address and account name related to your App profile, which you voluntarily give us upon sign-up. 
+Petrol Spy accesses your location to move the map to your current location and then load fuel station data around you. 
+Petrol Spy keeps record of scores that you earn by updating fuel prices under your account name. Please note that the number of scores is publicly available to anyone on the App's leaderboard. For logged in users we retain information about where fuel prices get updated from. This information is used exclusivly (and only in rare cases) for the purpose of confirming validity of suspicious price updates. It is stored for no longer than two weeks. 
+Petrol Spy accesses the local storage on you device to save your account details. Additionally it saves your latest location when you exit the App. On resume the App accesses that saved information to resume itself from the latest known location. 
+Petrol Spy accesses Internet connection on your device to receive and update fuel station data, manage your account information and show maps. 

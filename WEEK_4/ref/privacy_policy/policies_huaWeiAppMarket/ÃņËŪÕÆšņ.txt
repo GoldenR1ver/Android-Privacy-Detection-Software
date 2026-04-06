@@ -1,0 +1,98 @@
+更新日期：2023年11月02日
+生效日期：2023年11月02日
+1.本隐私政策将依次向您说明"民宿掌柜"的每项功能收集的个人信息范围、收集目的、收集方式，以及拒绝提供个人信息导致的结果。我们将严格遵循合法、正当、必要的原则，收集、使用用户信息。
+2.本隐私政策将向您说明"民宿掌柜"需要调取的手机权限、对应的业务功能、调用目的、调用前是否询问以及用户关闭相应权限的方式。您同意本隐私政策后，相应手机权限并不会默认开启，当涉及重要或敏感的手机权限时，我们会在您使用到相应功能时，另行弹窗再次征得您的同意后开启。权限开启后，您还可以随时通过设备设置权限关闭。
+3.您可以通过本指引所列途径访问、更正、删除您的个人信息，也可以撤回同意、注销账号、投诉咨询功能。
+4.我们将严格按照本隐私政策说明的场景使用或者共享您的个人信息，如果超出本隐私政策说明的范围，我们会再次向您告知并征得您的明示同意。
+5.本隐私政策将向您说明我们如何保护个人信息安全、如何储存个人信息、如何处理未成年人的个人信息。
+6.我们的产品基于DCloud uni-app(5+ App/Wap2App)开发，应用运行期间需要收集您的设备唯一识别码（IMEI/android ID/DEVICE_ID/IDFA、SIM 卡 IMSI 信息、OAID）以提供统计分析服务，并通过应用启动数据及异常错误日志分析改进性能和用户体验，为用户提供更好的服务。详情内容请访问《DCloud用户服务条款》。
+7.为识别您的设备ID并预防恶意程序及反作弊、提高服务安全性、保障运营质量及效率，我们会收集您的设备信息（包括IMEI、MEID、Android ID、IMSI、GUID、MAC地址）、您安装的应用信息或运行中的进程信息。
+8.为对民宿掌柜错误异常进行监控，以及对平台进行优化升级，我们将收集应用软件运行异常信息。
+9.为实现运行故障报错及分析和解决您的在使用民宿掌柜过程中所遇到的问题，我们将收集您的设备信息（GUID、MAC地址）、浏览和操作记录。
+二、我们如何使用Cookie和同类技术
+1.个人信息的定义与范围
+个人信息，是指以电子或者其他方式记录的能够单独或者与其他信息结合识别自然人个人身份的各种信息，在本隐私政策中包括：姓名、手机号码、用户密码、身份信息、面部识别特征、性别、年龄、驾驶证、行驶证、常用地址、通讯地址、收货地址等位置信息、订单信息及交易状态、支付信息、评价信息、日志信息、设备信息、IP地址。
+个人敏感信息，是指一旦泄露、非法提供或滥用会危害人身和财产安全，极易导致个人名誉、身心健康受到损害或歧视性待遇等的个人信息，在本隐私政策中包括：个人基本信息（包括手机号码、姓名、昵称、头像和用户密码）、个人网络身份标识信息（包括账号、IP地址、微信OpenID、微信昵称和微信头像）、通讯录、个人终端设备信息（包括硬件型号、设备MAC地址、操作系统类型、软件列表唯一设备识别码（如IMEI/androidID/IDFA/OPENUDID/ GUID、SIM卡IMSI信息等在内的描述个人常用设备基本情况的信息））、位置信息和支付信息。
+匿名化处理后的信息，即通过对个人信息的技术处理，使得个人信息主体无法被识别，且处理后不能被复原的信息，匿名化处理后的信息不属于个人信息。
+其他无法识别特定自然人身份或者反映特定自然人活动情况的信息不属于个人信息。
+以上"个人信息"、"个人敏感信息""匿名化处理"定义及所包含内容出自于GB/T35273《个人信息安全规范》。
+2.基本业务功能需要收集和使用您的个人信息
+当您注册账号时，我们需要收集您的手机号码、密码，以便为您创建使用"民宿掌柜"的账号；
+当您使用保洁管理功能时，我们需要收集您的位置信息，以便确认您是在相应房间开展保洁工作；
+当您使用店员管理功能时，为了"民宿掌柜"在房态管理和保洁管理功能中能够判断出发生相应操作的是否为店员，我们需要收集个人网络身份标识信息和个人终端设备信息；
+当您购买服务支付费用时，您使用第三方支付功能进行支付，我们将获取您的支付工具、支付状态、及支付记录标识信息，用于确保相关订单完成费用支付。
+3.扩展业务功能需收集和使用的信息
+当您使用个人资料编辑功能时，我们调用您手机的相机或图库以便收集照片或图片作为您的个人头像；
+当您使用店员管理功能时，为便捷的填写待增加店员的手机号，我们需要调用您的通讯录。您可以选择不授权通讯录调用权限，而采用键盘输入方式完成手机号的录入。
+4.事先征得授权同意的例外
+5.个人信息收集与使用说明
+SDK名称. 包名信息. 使用目的. 使用的权限. 涉及个人信息. 隐私权政策链接/官网 
+uni-app(5+、web2app). io.dcloud. 基础模块. android.permission. INTERNET android.permission. ACCESS_NETWORK_STATE android.permission. WRITE_EXTERNAL_STORAGE android.permission. READ_EXTERNAL_STORAG android.permission. READ_PHONE_STATE. 存储的个人文件，设备信息（IMEI、ANDROID_ID、DEVICE_ID、IMSI），网络信息. 
+阿里weexSDK. com.taobao. uni-app基础模块默认集成，用于渲染uniapp的nvue页面引擎. android.permission. WRITE_EXTERNAL_STORAGE android.permission. READ_EXTERNAL_STORAG. 存储的个人文件. website_url_lnk 
+Fresco图库. com.facebook.fresco. 用于nvue页面加载图片使用. android.permission. WRITE_EXTERNAL_STORAGE android.permission. READ_EXTERNAL_STORAG. 存储的个人文件. website_url_lnk 
+glide图库. com.bumptech.glide. 用于图片预览使用. android.permission. WRITE_EXTERNAL_STORAGE android.permission. READ_EXTERNAL_STORAG. 存储的个人文件. website_url_lnk 
+gif-drawable. pl.droidsonroids.gif. 加载gif图. android.permission. WRITE_EXTERNAL_STORAGE android.permission. READ_EXTERNAL_STORAG. 存储文件. website_url_lnk 
+fastjson. com.alibaba.fastjson. JSON解析. 无. 无. website_url_lnk 
+移动安全联盟 OAID. com.bun.miitmdid、com.zui.opendeviceidlibrary、com.netease.nis、com.samsung.android、com.huawei.hms. 获取oaid. 无. 设备信息. website_url_lnk 
+个推；个数应用统计，个像，个验. com.getui. 用于消息推送，获取设备标识，实现精准推送及聊天信息的推送，并进行关联自启动，仅限于本APP内使用. android.permission. ACCESS_NETWORK_STATE android.permission. ACCESS_WIFI_STATE android.permission. READ_PHONE_STATE android.permission. WRITE_EXTERNAL_STORAGE android.permission. VIBRATE android.permission. GET_TASKS android.permission. QUERY_ALL_PACKAGES. 获取网络状态、访问Wi-Fi状态、设备MAC地址、获取BSSID，SSID个人信息、读取手机状态和身份. website_url_lnk 
+华为 HMS push. com.huawei.hms. 华为手机厂商推送. android.permission. ACCESS_NETWORK_STATE android.permission. ACCESS_WIFI_STATE android.permission. REQUEST_INSTALL_PACKAGES android.permission. FOREGROUND_SERVICE android.permission. READ_PHONE_STATE. 设备信息（IMEI、ANDROID_ID、DEVICE_ID、IMSI）、应用已安装列表、网络信息. 推送隐私声明 
+友盟统计. com.uc.crashsdk、com.efs、com.umeng. 提供统计分析服务，并通过地理位置校准报表数据准确性，提供基础反作弊能力. android.permission. ACCESS_NETWORK_STATE android.permission. ACCESS_WIFI_STATE android.permission. READ_PHONE_STATE. 设备信息（IMEI、ANDROID_ID、DEVICE_ID、IMSI）、应用已安装列表、网络信息. website_url_lnk 
+微信开放平台. com.tencent.mm. 微信分享注册店员二维码. android.permission. ACCESS_NETWORK_STATE android.permission. ACCESS_WIFI_STATE. 存储的个人文件、网络信息. 微信隐私协议 
+个验一键登录. com.g.elogin、com.g.gysdk、cn.com.chinatelecom. 一键登录能力. android.permission. READ_PHONE_STATE android.permission. READ_EXTERNAL_STORAGE android.permission. WRITE_EXTERNAL_STORAGE android.permission. ACCESS_NETWORK_STATE android.permission. ACCESS_WIFI_STATE android.permission. CHANGE_NETWORK_STATE. 设备信息（IMEI、MAC、ANDROID_ID、DEVICE_ID、IMSI）存储的个人文件、读取手机状态和身份、网络信息、应用已安装列表. 个验中国移动认证服务条款 联通统一认证服务条款 天翼账号服务与隐私协议 
+高德开放平台. com.amap.api, com.loc, com.autonavi. 为提供更友好服务定位酒店位置. android.permission. ACCESS_COARSE_LOCATION android.permission. ACCESS_FINE_LOCATION android.permission. ACCESS_NETWORK_STATE android.permission. ACCESS_WIFI_STATE android.permission. CHANGE_WIFI_STATE android.permission. READ_PHONE_STATE android.permission. WRITE_EXTERNAL_STORAGE android.permission. ACCESS_LOCATION_EXTRA_COMMANDS. 存储的个人文件、位置信息、读取手机状态和身份、网络信息、传感器信息、Android ID. website_url_lnk 
+6.设备权限调用
+使用网络权限，属于应用基础权限；
+读写SD卡权限，系统授权提示需要"访问设备上的照片、媒体内容和文件"；
+读取设备标识使用，用于uni统计服务；
+安装apk需要的权限，应用中使用plus.runtime.install升级应用则需要此权限；
+获取设备标识信息oaid在华硕设备上需要用到的权限；
+设置应用角标功能在华为设备上需要用到的权限；
+创建桌面快捷方式权限，应用中使用plus.navigator.createShortcut创建桌面快捷方式则需要此权限；
+删除桌面快捷方式权限，应用中使用native.js删除桌面快捷方式则需要此权限；
+"民宿掌柜"为提供更好的服务会调用您的一些设备权限，包括相机、通讯录、位置、电话、存储、网络等权限，您可以在设备的设置功能中选择关闭部分或全部权限，从而拒绝"民宿掌柜"收集相应的个人信息；
+二、我们如何使用Cookie和同类技术
+1.我们使用 cookie 、标签和脚本等同类终端收集和存储技术。这些技术用于为使您获得更轻松安全的访问体验，改善产品服务及用户体验，或及时发现并防范安全风险，为您提供更好的服务。这些缓存信息主要包括用户账号信息、密码信息、个人配置信息、APP临时运行参数信息。
+2.日志文件：和大部分网站和移动应用一样，我们收集特定信息并保存在日志文件中。此类信息包括互联网政策 (IP)地址、互联网服务供应商 (ISP)、操作系统、日期/时间戳和/或点击流数据。我们不会将自动收集的数据链接到我们收集的关于您的其他信息之中。
+3.移动应用分析：在"民宿掌柜"移动应用中，我们使用移动分析软件，以更好地了解我们的移动软件在您的手机中的功能。此款软件会记录以下信息，如您使用该应用程序的频率、该应用程序内发生的事件、累计使用、性能数据及应用程序崩溃发生的位置。我们不会将存储于分析软件内的信息链接到您在移动应用程序中提交的任何个人信息。
+1.共享
+我们不会向任何第三方公司、组织和个人共享您的个人信息，但以下情况除外：
+我们会将您的个人信息与我们的关联方共享。但我们只会共享必要的个人信息，且受本隐私政策中所声明目的的约束。我们的关联方如要改变个人信息的处理目的，将再次征求您的授权同意；
+我们会向合作伙伴等第三方共享您的账户信息、设备信息以及位置信息，以保障为您提供的服务顺利完成。但我们仅会出于合法、正当、必要、特定、明确的目的共享您的个人信息，并且只会共享提供产品/与或服务所必要的个人信息。我们的合作伙伴无权将共享的个人信息用于任何其他用途。 我们的合作伙伴包括以下类型：
+对我们与之共享个人信息的公司、组织和个人，我们会与其签署严格的保密协定，要求他们按照我们的说明、本隐私政策以及其他任何相关的保密和安全措施来处理个人信息；
+为了遵守法律、执行或适用我们的使用条件和其他协议，或者为了保护成都埃欧体、您或"民宿掌柜"其他用户的权利及其财产或安全，比如为防止欺诈等违法活动和减少信用风险，而与其他公司和组织交换信息。不过，这并不包括违反本隐私政策中所作的承诺而为获利目的出售、出租、共享或以其它方式披露的个人信息。
+2.转让
+3.公开披露
+1.保存地域
+2.保存期限
+在用户使用"民宿掌柜"服务期间，我们会持续保存用户的个人信息。
+当您申请删除个人信息或注销账户，我们将按照法律、法规规定的最短期限保留您的现有个人信息，在法律法规要求的最短保存期限内，我们将不再对您的个人信息进行商业化使用。当您的个人信息超出上述保存期限，我们将会对其进行匿名化处理。
+a.为配合人民检察院、公安机关、国家安全机关侦查用户使用"民宿掌柜"服务过程中产生的犯罪行为，更好保护其他用户生命财产安全，当用户自主删除个人信息或注销账户，我们将在刑法规定的犯罪追诉时效期间内，加密隔离存档用户个人信息，不再使用于任何商业目的处理。
+b.如您使用"民宿掌柜"平台服务的过程中，存在严重违反法律法规、平台协议、平台规则等情形，您的违法记录及相应的平台信用记录，将被永久保存。
+3.安全措施
+"民宿掌柜"采取以下安全技术措施保护您的个人信息：
+a.数据传输过程中使用加密传输协议；
+b.严格控制数据访问权限，特别是对批量数据操作权限的控制和审查；
+c.对应用系统上线经过漏洞扫描、渗透测试等进行安全测试，并对相关风险进行整改；
+d.对数据的定期备份，及相关恢复可用性测试。
+"民宿掌柜"同时采取其他安全措施保护您的个人信息：
+a.建立公司保密及信息安全委员会，统一协调信息安全工作，推动各项信息安全活动；
+b.系统上线前或重大功能变更前对数据安全（包括用户个人信息数据）进行个人信息影响评估；
+c.与全体员工及服务外包人员签署保密协议，并严格按照工作职责分配数据访问权限；
+d.定期开展面向公司全体员工及外包服务人员的信息安全教育及培训。
+安全事件处置
+a.为应对个人信息泄露、毁损、丢失等出现的安全风险，我们建立系统上线前的安全测试流程，以及内部处理流程（包括应急响应流程）和补救措施。
+b.一旦发生安全事件，我们将及时向您告知事件基本情况和风险、我们已经采取或将要采取的措施、您如何自行降低风险的建议等。
+c.我们将及时以推送通知、信函或电话等方式将安全事件情况通知受影响的用户。当难以逐一告知用户时，我们将通过发布平台公告的方式发布警示信息。
+1.访问、变更您的个人信息
+访问您的个人信息。您可以通过"民宿掌柜"个人中心访问您的个人账户资料信息；
+更正个人信息。当您需要更新您的个人信息，或发现"民宿掌柜"收集、存储的个人信息有错误时，您有权做出更正或更新。您可以通过 "民宿掌柜"个人中心，自行更正或修改个人账号信息、修改密码、及变更手机号等。
+2.改变您授权同意的范围或收回您的授权同意
+3.删除您的个人信息
+4.账户注销 
+5.申诉咨询及客户响应
+我们将在30个工作日内做出答复。如您不满意，还可以过本隐私政策第十条"如何联系我们"所列的联系方式向我们进行投诉。
+在以下情形中，按照法律法规要求，我们将无法按照您的请求进行操作，但我们会在30个工作日内向您说明原因：
+1.适用法律
+2.争议解决
+客服电话：028-87665366
+部分情况下，为保障您个人信息的安全，我们需要您提供书面请求，或以其他方式证明您的身份。我们将在收到您的反馈并验证您的身份后30工作日内答复您的相关请求。

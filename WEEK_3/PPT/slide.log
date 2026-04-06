@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.29)  30 MAR 2026 23:56
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.29)  31 MAR 2026 13:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2010,15 +2010,104 @@ Requested font "[lmmonolt10-bold]:" at 10.95pt
 ] [14
 
 ]
+Underfull \hbox (badness 10000) in alignment at lines 293--293
+[][][][][] 
+ []
+
+[15
+
+]
+Requested font "cmss10" at 10.0pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
+Requested font "cmss8" at 7.3pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
+Requested font "ntxmi" at 10.0pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
+Requested font "ntxmi7" at 7.3pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntxmi7.tfm
+Requested font "ntxsy" at 10.0pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
+Requested font "ntxsy7" at 7.3pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntxsy7.tfm
+Requested font "ntxexx" at 10.0pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
+Requested font "ntxexx" at 7.3pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
+Requested font "msam10" at 10.0pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+Requested font "msam7" at 7.3pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+Requested font "msbm10" at 10.0pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+Requested font "msbm7" at 7.3pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+Requested font "ntxmia" at 10.0pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
+Requested font "ntxmia" at 7.3pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
+Requested font "ntxsym" at 10.0pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
+Requested font "ntxsym" at 7.3pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
+Requested font "ntxsyc" at 10.0pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
+Requested font "ntxsyc" at 7.3pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
+Requested font "ntxexa" at 10.0pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
+Requested font "ntxexa" at 7.3pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
+Requested font "lasy10" at 10.0pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
+Requested font "lasy7" at 7.3pt
+ -> d:/texlive/2024/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm
+Requested font "[DroidSans.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
+ at 7.3pt
+ -> d:/texlive/2024/texmf-dist/fonts/truetype/ascender/droid/droidsans/DroidSan
+s.ttf
+Requested font "[DroidSans.ttf]/OT:script=latn;language=dflt;slant=0.213;mappin
+g=tex-text;" at 10.0pt
+ -> d:/texlive/2024/texmf-dist/fonts/truetype/ascender/droid/droidsans/DroidSan
+s.ttf
+Requested font "[DroidSans.ttf]/OT:script=latn;language=dflt;slant=0.213;mappin
+g=tex-text;" at 7.3pt
+ -> d:/texlive/2024/texmf-dist/fonts/truetype/ascender/droid/droidsans/DroidSan
+s.ttf
+Requested font "[DroidSans-Bold.ttf]/OT:script=latn;language=dflt;mapping=tex-t
+ext;" at 10.0pt
+ -> d:/texlive/2024/texmf-dist/fonts/truetype/ascender/droid/droidsans/DroidSan
+s-Bold.ttf
+Requested font "KaiTi/OT:script=hani;language=dflt;embolden=4;" at 10.0pt
+ -> C:/WINDOWS/fonts/simkai.ttf
+
+Underfull \hbox (badness 10000) in alignment at lines 313--313
+[][][][] 
+ []
+
+[16
+
+]
+File: ../src/2-2/results/figures_random20_deepseek_chat/cm_incorrect.png Graphi
+c file (type bmp)
+<../src/2-2/results/figures_random20_deepseek_chat/cm_incorrect.png>
+File: ../src/2-2/results/figures_random20_deepseek_chat/cm_incomplete.png Graph
+ic file (type bmp)
+<../src/2-2/results/figures_random20_deepseek_chat/cm_incomplete.png>
+File: ../src/2-2/results/figures_random20_deepseek_chat/cm_inconsistent.png Gra
+phic file (type bmp)
+<../src/2-2/results/figures_random20_deepseek_chat/cm_inconsistent.png>
+ [17
+
+]
 LaTeX Font Info:    Font shape `TU/DroidSans(0)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 278.
+(Font)              scaled to size 24.88pt on input line 340.
 Requested font "[DroidSans.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
  at 24.88pt
  -> d:/texlive/2024/texmf-dist/fonts/truetype/ascender/droid/droidsans/DroidSan
 s.ttf
 Requested font "KaiTi/OT:script=hani;language=dflt;" at 24.88pt
  -> C:/WINDOWS/fonts/simkai.ttf
- [15
+ [18
 
 ]
 \tf@nav=\write6
@@ -2039,12 +2128,12 @@ Package rerunfilecheck Info: File `slide.out' has not changed.
 (rerunfilecheck)             Checksum: 559F8B12CF68F9CF9EC627F4A97442AF;439.
  ) 
 Here is how much of TeX's memory you used:
- 34736 strings out of 474773
- 750212 string characters out of 5761288
+ 34817 strings out of 474773
+ 753963 string characters out of 5761288
  2008842 words of memory out of 5000000
- 56136 multiletter control sequences out of 15000+600000
- 581037 words of font info for 154 fonts, out of 8000000 for 9000
+ 56210 multiletter control sequences out of 15000+600000
+ 589132 words of font info for 181 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,11n,123p,435b,1434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on slide.pdf (15 pages).
+Output written on slide.pdf (18 pages).

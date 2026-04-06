@@ -1,0 +1,56 @@
+Log inFor Business
+Privacy policy
+LAST UPDATE ON 03-09-2020
+About Our Privacy Policy
+Hello! Welcome to the Papumba Privacy Policy.
+At Papumba (owned and managed by Papumba S. R. L) we are committed to guarding your privacy. Our apps have been developed with young kids and their parents in mind, while our website website_url_lnk is meant for use by adults. At Papumba, we take your privacy very seriously and this policy document aims to explain more about the kind of information we collect from you and how we use it.
+In addition, Papumba's Privacy Policy outlines the Terms of Use that informs you about your rights and responsibilities, and those of Papumba, when you are using our Apps and website.
+If you are not in full agreement with the content of Papumba's Privacy Policy or the Terms of Use, please do not engage with our sites and services.
+If you've got any queries or issues about Papumba's privacy practices, get in contact with us at hello@papumba.com.
+About the Information We Collect
+Papumba collects no personal data of the kid's experience from its apps. As parents you provide Papumba with the direct data we collect. This is the type of personal data we collect from responsible adults and parents name (nickname or alias); Address (for billing); User password; Phone number; Payment details; Email; Information regarding interests, if they desire; First name of child if they desire; Date of birth, if they desire; Information regarding the interests of the child, if they desire. We also collect the subsequent information once you have installed and start using our apps: Unique device identifier; IP address; Browser type and version; Mobile carrier; Level of game progress; Playing time; Key achievements.
+We can also use cookies and beacons to assist us in delivering and analyzing the services (e.g., how many times a webpage or ad is viewed). Cookies can also be used to customize our content or the ads we display.
+Collecting and Managing Your Data
+Papumba never collects any personal data on the kid's experience within our apps.
+We do collect and manage personal information when adults voluntarily open a Papumba account online by registering or using our Apps.
+We do collect and manage personal information when adults voluntarily make a digital subscription; Pay for our products.
+We do collect and manage personal information when adults voluntarily fill out a client survey or give us product feedback.
+We do collect and manage personal information when adults voluntarily subscribe to our alerts or newsletters.
+We do collect and manage personal information when adults voluntarily request technical or customer support.
+We collect and manage personal data when we use third-party services for operations like technical support, sending shipping notices, email marketing, order and payment processing.
+These are the third-party services Papumba uses: Firebase (firebase.google.com/support/privacy); Bluesnap (website_url_lnk
+We collect and manage data of a non-personal type when you engage with our website and engage with our apps.
+Papumba can also receive data of a non-personal type about you via third-party analytics providers, indirectly. Your data is not shared with us and this information is used only to support our apps (and the privacy policies of these providers are listed here): Google Analytics (policies.google.com/privacy); Facebook Analytics (facebook.com/policy.php); Unity (unity3d.com/legal/privacy-policy); Mixpanel (mixpanel.com/legal/privacy-policy/).
+The following external attribution platforms are used to monitor installations of our apps, gauge the parental experience and track events in-app in the parental zone of the apps (see the following privacy policy): Appsflyer (appsflyer.com/privacy-policy).
+How We Use Your Data
+We only collaborate with third-party companies that agree to respect this privacy policy and to not use your data for any other reasons.
+The information we collect from you is used to manage your orders and administer your account.
+The information we collect from you is used to give technical support.
+The information we collect from you is used to better understand how you use our apps and website.
+The information we collect from you is used to analyze and improve our digital services.
+The information we collect from you is used to get in touch about new features and services that may interest you.
+The information we collect from you is used to send you push notifications (only if you have given consent).
+The information we collect from you is used to tell you about new deals or services or products of possible interest to you.
+The information we collect from you is used to personalize the content viewed when kids use our educational services to ensure their experience fits their skill level.
+Remember a kid's game history, preferred settings and content.
+We will never use any kid's personal data for marketing or online advertising purposes.
+How We Keep Your Data Safe
+At Papumba, we are wholly committed to keeping your information and that of your child 100% safe. We have adopted reasonable technical, administrative, and physical procedures to help protect this information from loss, misuse, and alteration, including encryption as appropriate. It should be noted that no data transmission or storage procedure can be guaranteed to be completely foolproof. We hope you will feel confident using the Services, but we are unable to guarantee the security of any data either you or your child transmits to us.
+How long do we store your data?
+We only store your personal data for the time necessary for the purposes set out in this privacy policy unless a longer retention period is required or allowed by law (for example, for tax, accounting or other legal purposes). Your personal data will not be held for longer than the period in which you have an account open with us.
+Once we no longer have a legitimate business reason to process your personal data, we will delete or anonymize it. If this is not possible (perhaps because your personal data has been backed-up in storage archives), we will proceed to safely store your personal information and free from any further processing until final deletion is possible.
+Where We Safely Store Your Data
+The information can be stored in the United States and Canada as well as in other countries. To comply with the products and services we provide and the external services we use, such as processing payments, the data you share with us can be transferred to other countries.
+If we do transfer your data to other countries, we will take the necessary steps to guarantee that all personal information you have provided will continue to be properly safeguarded. By engaging with our site and using our services, you provide your consent to any data transfer as needed.
+Other Website Privacy Policies
+Sometimes we share links to other websites or services. Papumba has no responsibility over these companies or the services they provide and sharing a link to them does not constitute any endorsement by us. Papumba's privacy policy only applies to our website and when you visit another website via a link from us, we recommend you also revise that sites privacy policy.
+By using Papumba's services you may also be subject to the terms of use and privacy practices of third-party services not controlled by Papumba. Mobile app stores, software platforms, online social media and payment processors are just some examples.
+How to Update or Remove Your Data
+Papumba stores your data only for as long as we need to provide its services. If you would like to opt-out of any or all our services, review or erase either your own or your kid's information, please get in touch with us at hello@papumba.com.
+In certain geographic regions, like the European Economic Area, you have entitlement under applicable data protection laws. These may include the right to request access and obtain a copy of your personal data, to request rectification or erasure; to restrict the processing of your personal information; and if applicable, to data portability. In certain circumstances, you may also have the right to object to the processing of your personal information. To make such a request, please use the contact details provided below. We will consider and act upon any request in accordance with applicable data protection laws.
+Legal Disclosures
+As explained above, we only collect limited personal information from adults and parents who are willing to share it with us, as well as nonpersonal type data for use internally or in collaboration with third parties who help us to analyze, manage and optimize our services. If required by law, we may have to disclose either your personal or non-personal data to third parties, for example to comply with a judicial investigation, to protect Papumba's rights and properties, for fraud investigations, infringement of intellectual property, and any other potentially illegal conduct that exposes Papumba or its users to any legal liability.
+If Papumba were to change company ownership, or even propose a change in ownership, we may need to disclose your information, for example in the event of a corporate sale, merger or bankruptcy.
+Can this Policy be updated?
+From time to time we may update this privacy policy. The "Revised" version will be indicated by date and will be effective as soon as it becomes accessible. In the event we make major modifications to this policy, we may alert you by either posting a prominent notice of the changes or perhaps sending you a notification. You are strongly encouraged to review this privacy policy regularly and remain informed about how we are safeguarding your information.
+Your message was sent successfully 👍

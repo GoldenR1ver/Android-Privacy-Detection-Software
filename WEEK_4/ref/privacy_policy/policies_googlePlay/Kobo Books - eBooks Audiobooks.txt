@@ -1,0 +1,396 @@
+RAKUTEN KOBO INC.
+PRIVACY POLICY
+Last updated: August 15, 2023 
+Rakuten Kobo Inc. and its subsidiaries are part of the Rakuten Group, which includes the affiliates and subsidiaries of our parent company Rakuten Group, Inc., based in Tokyo, Japan (hereafter, "Kobo", "we" "our" and "us"). More information about Rakuten is available at website_url_lnk 
+We operate websites, mobile applications, a digital reading platform that enables customers to acquire and read or listen to written works (through ebooks, audiobooks, or podcasts) using a variety of electronic devices, software applications, and other services (collectively, the "Kobo Services") and the account you use in association with the Kobo Services (the "Kobo Account"). 
+This Privacy Policy ("Policy") describes how we collect, use, and disclose Personal Information (as defined below) about you when you use your Kobo Account or any Kobo Services that link to this Policy, including Kobo Writing Life, the author self-publishing service. 
+Collection of personal information.
+Generally, we collect, process, and use your Personal Information when you register for a Kobo Account or log into an existing account.
+Generally, we collect, process, and use your Personal Information when you interact with the Kobo Services or our marketing.
+Generally, we collect, process, and use your Personal Information when you order products or content from us.
+Generally, we collect, process, and use your Personal Information when you use the Kobo Services to access electronic content; or
+Generally, we collect, process, and use your Personal Information when you contact us for customer care.
+You may in some cases have the option to decline providing us information. However, your choice to not provide information may impact your use of certain features or services.
+"Personal Information" is any information or a combination of pieces of information that can reasonably permit you to be identified, or that can reasonably be linked to you. "Sensitive Personal Information" includes certain types of Personal Information that have been designated in various privacy and data protection laws as "sensitive' or belonging to "special categories" due to their ability to be used by unauthorized recipients to perpetrate fraud, theft, or discriminatory treatment of individuals, such as financial account information, username/password combinations, health data, religion, political affiliation or union membership, and demographic information such as race, ethnicity, or sexual orientation. Kobo does not collect or store any Sensitive Personal Information except your Kobo Account credentials and payment information, unless you choose to provide this type of information about yourself in your profile, comments, or reviews. Information that is aggregated or de-identified so it is no longer reasonably associated with an identified or identifiable person is not Personal Information, and we may use such aggregated or de-identified information for any business purpose, without attempting to re-identify it. 
+Categories of Personal Information we collect. 
+The types of Personal Information we collect from your engagement in the above activities includes identifiers: For example, your name, email address, postal address, username, password, IP address, and online identifiers.
+The types of Personal Information we collect from your engagement in the above activities includes demographics: Such as your age and gender, if you choose to provide them (optional).
+The types of Personal Information we collect from your engagement in the above activities includes transactional information: Such as the products you purchase, access, or review; subscriptions; payment methods; and discount programs.
+The types of Personal Information we collect from your engagement in the above activities includes online activities: For example, browsing and search history; interactions with web or other digital content; whether you open, interact with, or forward our electronic communications; and how you interact with advertisements offered by us or third parties.
+The types of Personal Information we collect from your engagement in the above activities includes billing location information: Based on the information you provide or inferred from your IP address, to ensure we have the right to sell you the books you wish to purchase.
+The types of Personal Information we collect from your engagement in the above activities includes inferences: We may use the information we collect to identify your potential preferences, characteristics, predispositions, behaviours, attitudes, abilities, and aptitudes.
+The types of Personal Information we collect from your engagement in the above activities includes no data from known children: Users must be at least 16 years old or older to register for a Kobo Account to use the Kobo Services. Kobo does not knowingly collect, use, process, sell, or share any Personal Information from children under the age of 16. If you are a parent or guardian who believes your child under the age of 16 has improperly provided Kobo with their Personal Information, please contact us at privacy@kobo.com to remedy the situation. 
+Categories of sources from which we collect Personal Information.
+We collect Personal Information about you from a variety of sources. We collect information from you directly (e.g., when you contact us or create an account with us), automatically, (e.g., data collected via cookies and similar technologies when you use the Kobo Services; please see our Cookie and Tracking Technology Policy for more information), and from other sources, including commercially available sources, such as public databases (where permitted by law).
+Information we collect from you directly.
+Registration and account information: When you create an account, you voluntarily provide us with certain Personal Information, such as your email address and password.
+Profile information: You may also complete an optional registration profile, which may include your name, gender, birth date, contact phone number and any additional optional information you choose to provide.
+Payment information: We collect your payment information when you purchase e-content or sign up for subscription-based services. We also collect deposit account information when you are due payments from self-published works in Kobo Writing Life program. 
+Communications: We may also collect information you provide in your communications to us, such as when you fill out a form or contact us with a question, comment, or request.
+Content and opinions: You may choose to provide us with certain Personal Information when you upload authored e-content to the Services as a member of Kobo Writing Life, respond to a survey or provide feedback, submit ratings and reviews, post comments, or participate in promotions or contests. 
+Information we collect automatically
+Usage information: We collect Personal Information when you use or otherwise interact with the Kobo Services or our marketing and communications. For example, we collect information about how you use the Kobo Services, such as pages you view, the rate at which you consume e-content (how often and for how long), genres, authors or subject matter you read or listen to frequently and searches you make or share, the ebooks or audiobooks you rated, where you left comments and websites you viewed through links in the comments. We collect this information across the various devices, applications, and other tools via which you access and interact with the Kobo Services.
+Device information: We collect certain technical information about your device, such as your IP address, device type, device model and manufacturer, device identifier and your device operating system type and version.
+Transactional information: We automatically collect certain information about your transactions on the Services such as amount charged, date and time, and use of promotions including affiliations with any retailer partners.
+Information we collect from other sources.
+Third-party authorization services: We provide you with the option to sign-in to the Kobo Services using an account you already have with another provider (such as: Facebook, Google or Rakuten ID). In such case, these third-party services may provide us with information such as your name, email address, profile picture, device information and contact lists (note: whether this information is provided is controlled by the third-party services or as authorized by you via your privacy settings on the third-party services).
+Third-party partners and advertisers: We may receive additional information about you, such as demographic data and your activities on and off the Kobo Services through partnerships, retail partners, and our third-party advertisers.
+Data providers and public sources: We may supplement the information we collect from other sources with information received from data suppliers and commercially available resources (e.g., demographic information and additional contact information).
+Information we create or generate. 
+We may assign you internal customer IDs or other identifiers with which we associate your account on the Kobo Services. In addition, we may link together your activity across the Kobo Services and the devices you use to access them.
+We may use the Personal Information we collect to draw inferences about your preferences and characteristics to develop a record of your potential preferences, characteristics, predispositions, behaviour, attitudes, abilities, and aptitudes. We do not, however, collect, process, use, or disclose Sensitive Personal Information to infer characteristics about you.
+How and why we use the information we collect.
+We may use your Personal Information for the following purposes: identification and authentication: We use your identifiers to verify your identity when you access your account and to ensure the security of your Personal Information.
+We may use your Personal Information for the following purposes: operating the Kobo Services: We process your Personal Information to provide you with access to the Kobo Services and to process your transactions, as you have requested. We use Personal Information, such as your location to identify whether content is available in your region. And we use information to provide and improve the Kobo Services, identify and troubleshoot errors, and analyze the Kobo Services.
+We may use your Personal Information for the following purposes: managing your account: We use Personal Information to create, maintain, and monitor your account. 
+We may use your Personal Information for the following purposes: improving the Kobo Services: We analyze information about how you use the Kobo Services to provide an improved experience for all users; 
+We may use your Personal Information for the following purposes: communicating with you: We may use your Personal Information to communicate with you, for example if we are providing information about changes to the terms and conditions, to issue security alerts or reminders, or if you contact us with questions.
+We may use your Personal Information for the following purposes: marketing: We may use your Personal Information to learn about the interests of our customers, to build a profile about you and place you into particular marketing segments, and to identify the devices you use to access digital content and the Kobo Services in order to understand your preferences better and to appropriately personalize the marketing messages we send to you. We may also use your identifiers to send you marketing communications about the Kobo Services and other products or services that may be of interest to you, subject to any consent or opt-out that may be required under applicable law.
+We may use your Personal Information for the following purposes: personalized Advertising and Re-marketing: Subject to any consent or opt-out that may be required under applicable law, Kobo uses Personal Information to: serve you with personalized advertising that may interest you based on your device activity and inferred interests measure the effectiveness of personalized advertising, and understand the usage of our Services. 
+We may use your Personal Information for the following purposes: managing contests: From time to time, Kobo may invite you to enter various contests or promotions. If you choose to participate in a contest or promotion, your Personal Information may be used to administer the contest, as specified in applicable terms. 
+We may use your Personal Information for the following purposes: exercising our rights: We may use your Personal Information to exercise or protect our legal rights where it is necessary to do so, for example to detect, prevent and respond to fraud claims, intellectual property infringement claims or violations of law or our terms and conditions, to respond to requests from law enforcement or other third parties, and to secure the Kobo Services.
+We may use your Personal Information for the following purposes: complying with our obligations: We may process your Personal Information to comply with legal or regulatory requirements, where this is required by law, such as in response to court orders or to comply with privacy or financial regulations.
+We may use your Personal Information for the following purposes: customizing your experience: When you use the Kobo Services, we may use your Personal Information to improve your experience, such as by providing interactive or personalized elements and providing you with content based on your interests; and
+We may use your Personal Information for the following purposes: protecting against harm: We may use Personal Information as necessary to protect the rights and safety of us, you, or others such as security, fraud prevention and incident detection.
+How we may share the information we collect with others.
+Retailer partners
+Kobo partners with retailers in your country, to enhance our ereading platform. If you use the retailer platform to access Kobo services, we may share Personal Information with these retailers. Our retailer partners on the list below are those third-party business partners that have fully integrated their online catalogues and purchase paths with the Kobo Platform. Under U. S. State privacy law or European law, these are businesses and joint-controllers, not service providers or processors. Other retailer partners that are not fully integrated with the Kobo Platform but link their purchase paths to ours are not co- or joint-controllers of collected data. 
+Partner: Bol. Com BV 
+Country: Netherlands 
+Contact URL: website_url_lnk 
+Partner: FNAC-Darty 
+Country: France 
+Contact URL: website_url_lnk 
+Partner: Grandes Almacenes FNAC España S. A. U. 
+Country: Spain 
+Contact URL: website_url_lnk 
+Partner: FNAC PORTUGAL, Actividades Culturais e Distribuição de Livros, Discos, Multimédia e Produtos Técnicos Lda 
+Country: Portugal 
+Contact URL: website_url_lnk 
+Partner: Turkuvaz Müzik Kitap Mağazacılık Pazarlama A.Ş. 
+Country: Turkey 
+Contact URL: website_url_lnk website_url_lnk 
+Partner: EFFE 2005 Gruppo Feltrinelli S.p. A., laFeltrinelli, Libraccio, and ibs 
+Country: Italy 
+Contact URL: website_url_lnk website_url_lnk website_url_lnk 
+Partner: Booktopia Pty Ltd. 
+Country: Australia 
+Contact URL: website_url_lnk 
+For any additional or other terms disclosed to you in association with a particular country's retail partner, please follow the relevant links on the list and review Annex 1 to this policy, below, for additional privacy terms applicable to certain retail partners. In the case of our European partners, each have entered joint-controllership agreements with Kobo to maintain a level of data handling and security standards that complies with applicable law. 
+Service Providers and Business Partners
+To support our business purposes, we disclose your Personal Information to service providers and business partners who are data processors. We disclose your Personal Information with our service providers that perform business services and operations on our behalf or under our instructions. 
+For example, we may partner with other companies to process secure payments, provide authentication services, optimize Kobo Services, fulfill orders, perform analytics, send our newsletters and marketing emails, support email and messaging services, administer our promotions, and provide sweepstakes, contests, and surveys. Some of our service providers or business partners may engage their own service providers or business partners to further assist us. Unless otherwise specified, we require these companies to use Personal Information only for the purposes described in this Policy. 
+Marketing and Advertising Partners and Companies
+We may disclose certain Personal Information to send you marketing communications about the Kobo Services and other products or services that may be of interest to you. This may include information regarding services and offers associated with our affiliates (within the Rakuten Group) and our retail partners. You may withdraw any consent you have provided at any time. 
+We may share information with certain cookie and tracker third parties that are data controllers (see Cookie and Tracking Technology Policy). You can limit this sharing in your Privacy Settings. 
+Kobo's third-party advertisers may use Personal Information (such as cookies, platform device identifiers, software agents, and IP address) they collect about your behavior on other sites and services, as well as Personal Information we share with them about your activity on the Kobo Services, to deliver targeted advertisements, measure their effectiveness, and to understand the usage and visitation of our Services. We do not have access to or control over the information they collect about you on other sites or services, but you can manage your consent or opt-out of our sharing of your Kobo Services activity. If you are in the European Economic Area, you can manage your consent to how such data is collected and how Kobo shares Personal Information for re-marketing or re-targeting advertising using the View Privacy Settings button on our website banner to access our cookie preferences area. If you are in the USA, please see Section 6, below, for how to opt-out of targeted advertising. 
+Rakuten Group Companies data sharing
+Rakuten ID, The Rakuten Group aims to provide you with a common service experience through the "Rakuten ID," a program that enables you to use the same log in credentials with participating Rakuten Group services you choose to connect. If you choose to connect to another Rakuten ID participating service in addition to Rakuten Kobo, you authorize certain of your Personal Information (your account credentials and profile information (address and date of birth, where provided)) to be shared from Rakuten Kobo to the Rakuten ID program and the other Rakuten service with which you connected according to the terms of and for the purposes explained in our joint Rakuten ID Privacy Policy here: website_url_lnk 
+Law enforcement agencies, courts, regulators and government authorities
+We may share the information we collect, including Personal Information, with law enforcement or to otherwise comply with any statutory or regulatory requirement or the order of a court or other public authority agency, regulator, government authority or other third party where we believe this is necessary to comply with a legal or regulatory obligation, or otherwise to protect our rights or the rights of any third party. 
+In the context of a transaction
+We may share the information we collect, including Personal Information, with any third party that purchases, or to which we transfer, all or substantially all of our assets and business. Should such a sale or transfer occur, we will use reasonable efforts to try to ensure that the entity to which we transfer your Personal Information uses it in a manner that is consistent with this Privacy Policy. 
+International Data Transfer 
+We may transfer your Personal Information to Rakuten Group entities and service providers located outside of your home country, including to countries outside the EEA for the purposes described in the subsections above ("How we may share the information we collect"). Your Personal Information may need to be processed in countries where data protection and privacy regulations may not offer the same level of protection as in your home country. Please note that we may be transferring your Personal Information to the United States of America, Canada, Mexico, France, the Netherlands, Ireland and Japan as well as other countries where we have active retailer partners and third-party business partners or service providers who may be data processors. In such cases, we will require the recipient to provide appropriate protection for the Personal Information disclosed to it, in compliance with applicable data protection laws. 
+We take great care in protecting your Personal Information and have put in place mechanisms to protect it when it is transferred internationally, consistent with applicable law. We have put in place appropriate safeguards (such as contractual commitments) in accordance with applicable legal requirements to ensure that your data is adequately protected. For more information on the appropriate safeguards in place, please contact us at privacy@kobo.com. 
+As part of the Rakuten Group, Kobo relies on Rakuten's EU and UK Binding Corporate Rules ("BCRs") to legitimize international data transfers within the group. The Rakuten EU BCRs have been approved by the CNPD, the Data Protection Authority of Luxembourg acting as the lead authority under GDPR and the UK BCRs have been approved by the ICO, the Data Protection Authority of the UK. Both can be found at website_url_lnk 
+Additionally, for the transfers to Canada we rely on the Commission Decision 2002/2/EC granting adequate protection for personal data in Canada processed pursuant to the Personal Information Protection and Electronic Documents Act, S. C. 2000, c.5., as amended ("PIPEDA"), and Canada's anti-spam legislation, amending the Canadian Radio-television and Telecommunications Commission Act, the Competition Act, PIPEDA and the Telecommunications Act (S. C. 2010, c. 23), as well as the Digital Privacy Act (S. C. 2015, c. and certain provincial legislation deemed substantially similar to PIPEDA and any amending or successor legislation. 
+Legal basis for using your Personal Information.
+If you use the Kobo Services while in the European Economic Area (EEA), UK, or any other jurisdiction with laws similar to the General Data Protection Regulation , we must have a legal basis to process your Personal Information for the purposes above, including data received from social media platforms, data received from other sources used for statistics or data shared with third party advertisers. There are different legal bases that we rely on to collect and use your Personal Information, namely performance of a contract, The use of your Personal Information may be necessary to maintain your account, offer services and send you Emails and messages concerning the administration and operation of your Kobo Account and the Kobo Services.
+If you use the Kobo Services while in the European Economic Area (EEA), UK, or any other jurisdiction with laws similar to the General Data Protection Regulation , we must have a legal basis to process your Personal Information for the purposes above, including data received from social media platforms, data received from other sources used for statistics or data shared with third party advertisers. There are different legal bases that we rely on to collect and use your Personal Information, namely consent, We will rely on your consent to use technical information related to cookies; and your Personal Information for marketing and advertising purposes. You may withdraw your consent at any time by following an unsubscribe link in any marketing communication you receive from us or adjusting your cookie preferences in our tool.
+If you use the Kobo Services while in the European Economic Area (EEA), UK, or any other jurisdiction with laws similar to the General Data Protection Regulation , we must have a legal basis to process your Personal Information for the purposes above, including data received from social media platforms, data received from other sources used for statistics or data shared with third party advertisers. There are different legal bases that we rely on to collect and use your Personal Information, namely legitimate interests, We may use your Personal Information for our legitimate interests to improve our products and services and the content available on the Kobo Platform. These improvements are dependent on analyzing (for example) how you use the Services, such as pages you view, the rate at which you consume e-content (how often, and for how long), genres, authors or subject matter you prefer and searches you make or share, the ebooks or audiobooks you have liked, comments you have left, websites you have viewed through links, the success rates of any promotion or event, certain technical information about your device, or when you access our application through a certain device, purchase path or transactional data and customer care interactions. We will also use your Personal Information for security purposes, and to share information with our affiliates for internal administration based on legitimate interest. If we process your Personal Information on the basis of our legitimate interests, we put in place robust safeguards to ensure that your privacy is protected our legitimate interests do not override your data protection interests or fundamental rights and freedoms. 
+If you use the Kobo Services while in the European Economic Area (EEA), UK, or any other jurisdiction with laws similar to the General Data Protection Regulation , we must have a legal basis to process your Personal Information for the purposes above, including data received from social media platforms, data received from other sources used for statistics or data shared with third party advertisers. There are different legal bases that we rely on to collect and use your Personal Information, namely legal obligation and public interest, Where compelled by applicable law, we may also have a legal obligation to collect your Personal Information or may otherwise need your Personal Information to protect your vital interests or those of another person.
+If we need to further process your Personal Information, we will let you know if there is a different legal basis for that further processing that is not compatible with the notices and consents that we have already from you, and we will provide you with any relevant further information and consent options. 
+Your choices and rights over your Personal Information.
+You have certain rights with respect to your Personal Information based on where you reside, in accordance with applicable domestic law and limitations, as follows
+If you are visiting a Kobo website from the EEA, UK, or any other jurisdiction with laws similar to the General Data Protection Regulation (GDPR): 
+Right to restrict our use of your Personal Information; 
+Right to rectify the Personal Information we hold about you.
+Right of access and disclosure of Personal Information: Users exercising this right may request access to the categories and specific pieces of their Personal Information we hold.
+Right to data portability: Users exercising this right may receive their Personal Information in a usable electronic format and transmit it to a third party.
+Right to object to our use of your Personal Information; and 
+Right to data deletion (erasure), or in GPDR jurisdictions, the "right to be forgotten". 
+If you are visiting a Kobo website from the USA: 
+Right to know about our processing of your Personal Information: you may request that we inform you of the categories of Personal Information we have collected about you; the categories of sources from which we collected the information; our purpose for collecting the information; the categories of third parties to which we disclosed your personal information; and the categories of your Personal Information that we disclosed for a business purpose, sold or shared and our purpose for doing so.
+Right to access specific pieces of Personal Information that we collect about you, including in a portable and usable electronic format that allows you to transmit it to another entity.
+Right to delete your Personal Information provided to us.
+Right to opt-out of sales, sharing, and processing your Personal Information for targeted advertising: You have the right to opt-out of any disclosure to a third party or exchange of your Personal Information for monetary or other value or for the purposes of cross-context behavioral advertising or targeted advertising. In association with our personalized advertising and re-marketing activities, we may share Personal Information such as online identifiers, cookie information, and information about your online activity with advertisers, digital advertising companies, and other entities that support our targeted advertising activities. You may register your opt-out by clicking here [website_url_lnk or by selecting the button at the bottom right of any of our web pages labelled either "Do Not Sell or Share My Personal Information (Personal Data Opt-Out)" for users with US-based IP addresses or "Privacy Settings" for IP addresses based outside of the United States. 
+Right to correct inaccurate or incomplete Personal Information that we maintain about you. You can self-correct your Personal Information in your account settings and or profile pages at any time.
+Right to learn about certain disclosures: In addition to your right to know the categories of Personal Information we sell or disclose for a business purpose, and the categories of third parties to whom we disclose your Personal Information, under California's "Shine the Light" law you may request information once per calendar year about our disclosures of certain categories of your personally identifiable information to third parties for their direct marketing purposes.
+Right to be free from discrimination: You may freely exercise these privacy rights without fear of being denied goods or services. We may, however, provide a different level of service where such personal data is necessary to provide the additional features or functionality.
+How to exercise your Privacy Rights:
+Please contact us at privacy@kobo.com to exercise any statutory right you may have. An agent may submit requests on your behalf, provided you or your agent provide proof that the agent is authorized to act on your behalf. Please note that we may require additional information from you in order to validate your identity and honour your request. We may decline your request as permitted under applicable law, and in some U. S. jurisdictions you have the right to appeal our decision on your request by contacting privacy@kobo.com. If contacting us does not resolve your complaint, you may have the right to make a complaint to your data protection authority (if one exists in your country). In the case of any rejection resulting from automated fraud analysis, you may contact our Customer Care department at website_url_lnk 
+Additional Disclosures and User rights
+You can unsubscribe or opt-out of receiving direct marketing communications from us in your settings by clicking "Account Settings" under "My Account" once logged into your Kobo account. Or you can click the "Unsubscribe" link at the bottom of an automatic email. You can also deactivate your Kobo Account at website_url_lnk Please note that even if you opt-out of receiving marketing communication, we may continue to send you non-marketing emails and other types of communications, as permitted by law, such as responses to your support requests, or service email relating to your account. 
+You can change information about your account by connecting to your Kobo Account and modifying the information listed in the "Account Settings" function at website_url_lnk Some of this information is optional and you are not required to provide it to us; however, other information such as payment information is required for Kobo to be able to provide you with our services. You are not required to provide any information to us that is unnecessary to provide the Kobo Services.
+In addition to adjusting your cookie preferences in the Privacy Settings section on our website, you may control the use of cookies at the browser level. If you choose to completely disable cookies, it may limit your use of certain features or functions on our Services. For more information on how we use cookies and how you can manage them please see our Cookie and Tracking Technology Policy.
+Notice of Financial Incentives: We may provide an opportunity to sign up to receive interest-based content via email by providing us your name, email address, or other personal contact information. There is no obligation to opt-in, and you may unsubscribe at any time by following the instructions in the mailing. From time to time, we may offer a financial incentive to those who sign up for or remain on our mailing list, complete a market research survey, make a purchase, or do not complete a purchase that was begun, such as a discount coupon or an opportunity to win a prize or giveaway in a random drawing. The details of each incentive program will be contained in the program terms. We offer these programs, among other things, to enhance our relationship with you, to provide you with content that may be of interest to you, and so you can enjoy more of our products/services at a lower price. The CCPA requires certain disclosures related to financial incentive offerings, including in relation to the value of your consumer data to our business. Although we do not calculate the value of consumer data to our business in our accounting statements, we make this good faith estimate for California residents to use in making an informed decision whether or not to take advantage of any financial incentive or price or service difference we may offer that relates to the collection, retention or sale of your personal information. The value of this customer data would vary from program to program and among individuals, but our method for calculating this value and its reasonable relation to any price or service difference offered would be, for each program, and in the aggregate, whether and by what amount the sales generated by the programs exceed the cost to us of offering them, which would include costs associated with any financial incentives that are paid to consumers; the cost of the marketing and distribution of the offer; our marketing team's efforts to enhance the resulting consumer data through campaign optimization and consumer engagement at sufficient scale; leveraging our past investments in understanding consumers as our existing and future customers; collecting and maintaining data as intellectual property; and all other costs reasonably related to the programs. 
+Third party Websites.
+The Kobo Services may contain links to websites not owned or controlled by Kobo. We encourage you to be aware of when you are visiting these other third-party websites and to understand their privacy statements, as we cannot control and are not responsible for privacy policies or practices of third-party websites you may choose to visit. This Privacy Policy applies solely to the information collected by Kobo. Please review the Terms of Use for more information. 
+Security and Data Retention.
+We care about the security of your Personal Information. We deploy administrative, technical, and physical measures designed to ensure a level of security appropriate to the risk of processing to the Personal Information we collect. We evaluate these safeguards on an ongoing basis to help minimize risks from new security threats as they become known. However, no information system can be 100% secure. Moreover, we are not responsible for the security of information you transmit to us over networks that we do not control, including the Internet and wireless networks. We need your help too: it is your responsibility to make sure that your Personal Information is accurate and we encourage you to ensure that your password is unique, secure and not shared with third parties. 
+We retain the information collected via the Kobo Services for as long as we have a relationship with you, and until such time as you choose to close your Kobo Account, subject to a reasonable retention period as may be required by law. After that time, we will only retain your Personal Information if we are required to do so to comply with local law, or if there are outstanding claims or complaints that will reasonably require your Personal Information to be retained. We may also anonymize and aggregate the data and retain the data in that form for analytical purposes. 
+Changes to this Privacy Policy.
+We may update this Privacy Policy from time to time. The effective date of the current Privacy Policy is noted at the top of this page. We may notify you in writing where we materially change these terms, for example, by posting a banner on the Services, however we encourage you to periodically review this Policy for updated terms. 
+12. How to contact us.
+If you would like to contact us with questions about our privacy or data protection practices, please contact us at privacy@kobo.com. 
+Annex 1, PRIVACY POLICY ADDITIONAL PARTNER TERMS
+If you are a Kobo by Fnac User
+In addition to this Kobo Privacy Policy (if you have a Kobo account) and to FNAC's privacy policy at website_url_lnk (if you have a FNAC account) the following applies where you are a user of "Kobo by FNAC", an e-book download service jointly offered by Kobo and FNAC DARTY PARTICIPATIONS ET SERVICES, 9 rue des bateaux-lavoirs, 94200 Ivry-sur-Seine, France). You can access the service "Kobo by FNAC" with a Kobo account or a FNAC account. Your information and data are collected and processed electronically by Kobo and FNAC acting as joint controllers, regardless of the account used for access. In this context, Kobo and FNAC will share some of your information for the purpose of allowing your authentication and delivering the Kobo by FNAC services. This information will then be used by each of Kobo and FNAC for their own purposes. 
+Your information and data collected within the framework of the Kobo by FNAC services are contractually required in order to provide the services associated with your account and, pursuant to our legitimate interest, to monitor and manage the services, for security purposes, and (unless you do not consent ) , to enable Kobo and FNAC, as applicable, to improve and personalize the services offered to you and the information sent to you. This information will be processed by Kobo and by FNAC, respectively, for up to 3 years for client communication purposes and held for 5 years, for data retention purposes. 
+Depending on the choices made when creating your account or access to your account, you can receive offers from FNAC or Kobo. If you no longer wish to receive these offers, you can at any time ask to no longer receive them, change your choices in the management of your account or ask Kobo or FNAC, as the case may be, to make the necessary changes to your account. 
+Whether you use the Kobo by FNAC service with your Kobo or FNAC account, your information will be made available to Kobo in Europe and Canada (countries whose legislation on the protection of personal data has been recognized as adequate by the European Commission on December 20 2001), Japan (the country whose legislation on the protection of personal data was recognized as adequate by the European Commission on 23 January 2019), the United States and Brazil (on the basis of Rakuten's binding corporate rules which have been approved by the Luxembourg Data Protection Authority and are summarized at website_url_lnk FNAC will also transfer your data outside Europe, including Morocco, Madagascar and the United States (based on the appropriate guarantee mechanism of the European Commission's standard contractual clauses). 
+In accordance with the regulation 2016/679 of 27 April 2016 relating to the processing of personal data and the Data Protection Act of 6 January 1978, you have a right of access, rectification, erasure, limitation of treatment, opposition, portability, and, if you reside in France, to define the processing of personal data held by FNAC or Kobo, as the case may be, after your death. Most of these rights can be exercised on your account. You can also write us. 
+by e-mail at the following addresses: kOBO: help@kobo.com
+by e-mail at the following addresses: fNAC: digitalbooks@fnac.com
+by mail to the following address: rakuten Kobo Inc., 150 John St., 5th Floor, Toronto, ON M5V 3E3
+by mail to the following address: fNAC customer service, customer service, the Flavia, 9 rue des Bateaux Lavoirs, 94768 Ivry-sur-Seine France.
+Please include your name, e-mail address and / or postal address (depending on how you wish us to respond) and your customer reference number, if applicable. If so, please include a summary of the reasons for exercising your rights under the law). An answer will be sent to you within one month of receiving your request.
+If you have any other questions or concerns regarding the use of your data in the "Kobo by FNAC" service, please contact one of the respective Data Protection Officers as follows for FNAC: dpo@fnacdarty.com
+If you have any other questions or concerns regarding the use of your data in the "Kobo by FNAC" service, please contact one of the respective Data Protection Officers as follows for Kobo: privacy@kobo.com
+You can submit a complaint to a data protection authority in France: CNIL, website website_url_lnk
+If you are a user of an integrated partner service in Italy
+Personal information is collected and processed electronically by Kobo and our Italian business partners, each for their account, regardless of the account used to log in. This information is requested by Kobo and our partners in Italy for the management of services, the monitoring of commercial and security relationships and to allow Kobo and our partners to improve and personalize the services offered and the information that is sent.
+Depending on the choices made when you create your account or when you log into your account, you may receive offers from our partners. If you no longer wish to receive such offers, you can at any time request us to make the necessary changes to your account. Information collected directly by Kobo during the provision of the Service in Italy will be sent to our partners for the purpose of managing, monitoring the e-book download service and administering business relationships with each partner.
+In accordance with the Regulation 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of individuals with regard to the processing of personal data, as well as the free movement of such data and repealing Directive 95/46 / EC (general data protection regulation, GDPR) you have the right to access, rectify, cancel, limit the processing, portability and objection to your personal data held by our partners and Kobo.
+RAKUTEN KOBO INC.
+COOKIE AND TRACKING TECHNOLOGIES POLICY
+Last updated: December 29, 2022
+Rakuten Kobo Inc. ("Kobo," "we," "our," or "us") maintain our websites including website_url_lnk website_url_lnk and our other related websites, mobile applications, eReaders, and other services (collectively, the "Services"). We, along with our vendors, use a variety of technologies to learn more about how people use the Services. You can find out more about these technologies and how to control them below and by reviewing our Privacy Policy. 
+Cookies & Other Tracking Technologies: How We Use Them
+Like most companies, we use cookies and similar technologies such as cookie IDs and settings, and tracker software tools ("cookies"). We may use cookies for a variety of purposes and to enhance your online experience, for example, by remembering your log-in status. 
+We use both session and persistent tracking technologies. Tracking technologies can either be persistent (i.e., they remain on your computer until you delete them) or temporary (i.e., they last only until you close your browser). 
+We also use first and third-party cookies. First party cookies are used and controlled by us to provide services for the Services. Third-party cookies are controlled by third-parties, mostly for analytics purposes. 
+We and our third-party service providers or business partners may collect information about you automatically through the use of cookies and similar technologies, including information over time and across different websites or online services. We may collect such information when you access content, advertising, sites, interactive widgets, applications, and other products (both on and off of our Kobo Services) where Kobo's data collection technologies (such as web development tools, cookies and other technologies) are present, including in the emails we send to you. We use browser cookies and similar technologies such as cookie IDs and settings, and tracker software tools (collectively, "cookies") to collect and store certain information when you use, access or interact with Kobo Services. These data collection technologies allow us to understand your activity on and off our Kobo Services and to collect and store information when you interact with Kobo Services we offer to partners. We and our retail partners automatically collect information from cookies and similar technologies to recognize you, learn how you interact with the Kobo Services and use your devices, and to serve you with surveys, tailored promotions and other marketing and content recommendations. 
+Our Services use the following categories of cookies: strictly Necessary Cookies (Class A): These are cookies which are needed to provide services and features you have specifically requested. We may use cookies and tracking technologies for system administration and to allow you to make use of shopping-cart functionality. We are not required to obtain your consent for cookies that are strictly necessary. 
+Our Services use the following categories of cookies: analytics and Performance-Related Cookies (Class B, Class C): We may use cookies to assess the performance of our Services, including as part of our analytics practices to improve the selection of content recommended to you through the Services. 
+Our Services use the following categories of cookies: functionality-Related Cookies (Class B, Class C): We may use cookies to tell us, for example, whether you have visited the Services before or if you are a new visitor and to help us identify the features in which you may have the greatest interest. 
+Our Services use the following categories of cookies: targeting-Related Cookies (Class D): We may use cookies to deliver content, including ads, relevant to your interests on our Services. The content may run on our site or on third-party sites. 
+Type: Class A: Essential Usage 
+Gathered: Only during the execution of core use cases necessary for the running of the service or through explicitly entered preferences by the user. 
+Used: Only during the execution of core use cases necessary for the running of the service. 
+Examples: 
+Authentication and Session management.
+Explicitly Entered Preferences
+Tracking consent status
+Shopping Cart Functionality
+Purchase Records
+Entitlement state
+User generated data (notes, highlights, bookmarks etc.)
+Type: Class B: First Party Personalization 
+Gathered: Inferred from data gathered during core use cases or explicitly entered by the user 
+Used: Only during the executing of personalization features in the Kobo website or apps or for during communications with the customer from Kobo 
+Examples: 
+Personalized Recommendations
+Personalized Lists or Page Layouts
+CRM Emails and Push Messaging from Kobo
+Type: Class C: First Party Analytics 
+Gathered: Data tracked by Kobo during usage of the kobo website or apps 
+Used: Offline for analytical purposes within Kobo or to offer personalized experiences within the Kobo experience 
+Examples: 
+Click tracking
+A/B testing
+Product usage analytics
+Type: Class D: Third Party Targeting 
+Gathered: Data tracked by 3rd parties during the usage of kobo's website or applications or Class A, B, or C data passed to third parties. 
+Used: Offline for analytical purposes outside of Kobo or to offer personalized advertising or experiences outside of the Kobo ecosystem 
+Examples: 
+Pixel tracking
+Ad retargeting
+Social tracking
+Your Cookie Choices
+In the EEA, you must consent to cookies before we set them, via our website banner or Privacy Settings area. You can set your selections, opt-out, or withdraw your consent to the use of category B, C, and D cookies in whole or part, at any time, by adjusting your preferences in the Privacy Settings area on our website. Please allow 24 hours for changes to take effect. 
+You may also be able to delete and disable cookies globally in your browser settings. Most browsers are initially set up to accept HTTP cookies. The "help" feature of the menu bar on most browsers will tell you how to stop accepting new cookies, how to receive notification of new cookies and how to disable existing cookies. Controlling the HTML5 local storage on your browser depends on which browser you use. For more information regarding your specific browser please consult the browser's website (often in the Help section). Please note, however, that without HTTP cookies and HTML5 local storage, you may not be able to take full advantage of all the features of our Services and some parts of the Services may not function properly.
+You can also disable analytics for mobile apps from the settings screen on your mobile device.
+Subject to local law, you may have certain rights regarding information related to you that we collect from cookies. Please refer to our Privacy Policy for more information about the rights you may have and how to exercise them.
+Cookies and Tracking Technologies Used on Kobo's Services
+Table A below sets out details of the individual cookies and tracking solutions that we currently use with our devices, website and applications, including mobile applications, and the purposes for which we use them. 
+Table A contains a list of third parties that collect information from you on the Kobo Services and that have provided notices where you may obtain information on their policies and practices and in some instances, opt-out of certain of their activities directly. We provide Table A, below, as a courtesy for all users independent of any rights you may have to consent to the use of cookies, otherwise. We will update it periodically, however we do not warrant that it will be up-to-date, or the linked third-party information will be up-to-date, when you view it. We are not responsible for third-party sites and their privacy practices as they relate to any opt-outs from tracking activities that may exist on these sites, many of which may not be compliant for users on our sites who are from the European Economic Area, and in such case these third-party sites will be disabled for those users. 
+We may share information with certain cookie and tracker third parties that are data controllers. 
+Reading Activity
+We keep track of your reading activity to provide you with information such as reading statistics, and improve personalized book recommendations. If you would like to turn it off on your eReader, you may do so by visiting website_url_lnk 
+Contact Us
+For any queries in relation to this Cookies and Tracking Technologies Policy please contact us at privacy@kobo.com. 
+TABLE A, COOKIES LIST 
+Third Party: Google Adwords / DoubleClick 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+To opt-out, visit: website_url_lnk 
+Third Party: Facebook Connect 
+Service: Widgets, Social 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+To opt-out, visit: website_url_lnk 
+Third Party: Google Analytics 
+Service: Google Analytics for Display Advertisers, Ads Preferences Manager, and Google Analytics Opt-out Browser Add-on 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+To opt-out install the plug-in: website_url_lnk 
+Third Party: Google Tag Manager 
+Service: Widgets, Tag Manager 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+Third Party: Google+ Platform 
+Service: Widgets, Social 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+Third Party: Twitter Button 
+Service: Widgets, Social 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+To opt-out, visit: website_url_lnk 
+Third Party: Adjust 
+Service: Installs of applications, in app usage, conversion tracking, fraud prevention 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+To opt out: website_url_lnk 
+Third Party: Maxymiser 
+Service: Beacons, A/B Testing, Site Optimization 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+Third Party: Crashlytics 
+Service: App performance tracker 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+Third Party: Hotjar 
+Service: Website tracking 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+To opt out, visit: website_url_lnk 
+Third Party: Facebook 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+Third Party: Criteo 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+Third Party: Bing 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+Third Party: Talkable 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+Third Party: Pinterest 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+Third Party: Rakuten Linkshare 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+Third Party: Awin 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+Third Party: Branch 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+To opt-out, visit: website_url_lnk 
+Third Party: Firebase 
+Service: App, Crash reporting and usage information 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+Third Party: Button 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+Third Party: Rakuten Advertising 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+Third Party: LinkedIn 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+Third Party: Drop 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+Third Party: iChannels 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: For privacy information, go to: website_url_lnk 
+Third Party: Responsys 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: website_url_lnk 
+Third Party: eBay 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: eBay Cookie Notice: website_url_lnk 
+Third Party: Verizon Media Group (Walmart, Hybrid retail partner) 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: website_url_lnk 
+Third Party: Teads 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: website_url_lnk 
+Third Party: OneTag 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: website_url_lnk 
+Third Party: RTB House 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: website_url_lnk 
+Third Party: Cision 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: website_url_lnk 
+Third Party: Hachette/Xandr 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: website_url_lnk 
+Third Party: Adform 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: website_url_lnk 
+Third Party: Attentive Messaging 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: website_url_lnk 
+Third Party: Quantcast 
+Service: Advertising 
+For More Information: website_url_lnk 
+Use of Tracking Technologies: Yes 
+Privacy Choices: website_url_lnk 

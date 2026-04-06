@@ -1,0 +1,17 @@
+{
+  "total_sentences": 192,
+  "pii_related": {
+    "true": 15,
+    "false": 5,
+    "null": 172,
+    "ratio_of_total": null,
+    "ratio_of_labeled": 0.75,
+    "note": "pii_related_ratio_of_total is None when any sentence is unclassified; use ratio_of_labeled or run classify on all sentences."
+  },
+  "keyword_hint": {
+    "true": 122,
+    "false": 70,
+    "ratio_of_total": 0.6354166666666666
+  },
+  "doc_id": "Blued极速版"
+}

@@ -1,0 +1,336 @@
+1、 本政策适用于境内注册并使用云闪付APP的用户（港澳台地区除外）。 
+2、 本政策仅适用于 中国银联股份有限公司（"我们"或"银联"） 运营银联云闪付APP提供相关产品和服务 。 
+更新日期：2023年11月22日 
+生效日期：2023年11月27日 
+联系电话：95516 
+电子邮件：privacy@unionpay.com 
+联系地址：中国上海市浦东新区国展路1899号云闪付部APP数据支持与治理团队 
+■Cookie 和同类技术应用 
+我们深知个人信息对您而言的重要性，并会尽全力保护您的个人信息，也感谢您对我们的信任。我们承诺将按业界成熟的安全标准，采取相应的安全保护措施来保护您的个人信息，尽力采用通俗易懂的文字表述向您进行说明和告知，并就本政策中可能与您的合法利益存在重大关系的条款，采用字体加粗的方式以提请您的注意。我们强烈建议您在使用我们的服务前，仔细阅读并完全理解本政策中的全部内容。我们将根据您的选择，为您提供云闪付APP产品及服务。本政策适用于在中华人民共和国境内 (为了本隐私政策的目的，港、澳、台地区除外) 收集、使用、存储及对外提供您的个人信息的行为。 
+个人金融鉴别信息 （登陆密码、查询密码、交易密码、动态口令、短信验证码、安全问题、卡片CVN2）。个人金融鉴别信息属于敏感个人信息。 
+使用信息 有关您在产品上的活动和产品使用和浏览的日志的信息，例如服务内的 APP 启动信息（时间、地点），包括浏览历史记录、搜索历史记录、收藏记录、软件使用记录、产品交互、崩溃信息、性能和其他诊断信息。 
+设备信息 可用于识别你设备的数据 ,如设备识别信息（设备型号、设备名称、序列号、设备MAC地址、操作系统类型、IMEI）、Android ID、Android OAID、IDFA、OpenID、GUID、SIM卡IMSI信息等在内的描述个人常用设备基本情况的信息。 
+位置信息 精确位置、大致位置、IP地址。精准位置信息属于敏感个人信息。 
+权限信息 设备里的权限信息，包括通讯录信息、位置信息、相机、手机相册、运动与健身等。如您是ios系统，点击路径为您设备中的"设置-隐私"，如您是安卓系统，点击路径为您设备中的"设置-隐私-权限管理"。 
+云闪付APP是一款集合了银行卡功能使用及管理的综合性支付应用软件，我们主要向您提供的基础业务功能围绕 账户注册、登录、支付、银行卡管理、查询银行优惠、积分管理 等功能，同时您还可以根据特定需要如 购物娱乐、财富管理、云闪付小程序 等使用我们的扩展业务功能。我们对于信息的收集和使用都将遵循法律法规所明示的合法性基础。 
+我们提供的基本业务功能，需要依赖必要信息才得以运行，必要信息是指在保障APP基本功能服务正常运行所必需的个人信息， 您选择使用云闪付APP提供的基本业务功能，则需要向我们提供或允许我们收集与使用必要个人信息，如您不同意，您将无法使用我们的基础产品服务 。关于基本业务功能个人信息处理详情， 详见附件一 。 
+您选择使用云闪付APP提供的扩展业务功能，需要向我们提供或允许我们收集相应的个人信息用于扩展产品和服务的使用，如您不同意不影响使用我们的基本业务功能，关于扩展业务功能收集详情， 详见附件二 。 
+1、委托处理 
+云闪付APP中的云闪付商城服务的部分模块和功能由上海荣数信息技术有限公司(注册地址/常用办公地址：中国(上海)自由贸易试验区马吉路2号第6层08室，联系方式：【 021-60606711】）提供。我们已与其签署严格的数据处理协议，要求他们按照我们的要求、本政策以及其他任何相关的保密和安全措施来处理您的个人信息，未经您的授权及我们同意，他们将不会委托其他人处理个人信息或变更数据处理方式、目的等，我们将会采取必要的措施对其个人信息处理活动开展监督。 
+2、对外提供 
+3、转让 
+4、公开 
+5、关于第三方向您收集信息的提示 
+云闪付包含第三方产品和服务，该第三方产品和服务在使用前，您需要跳转到相应的云闪付小程序或第三方页面。您使用的第三方服务将受到第三方的服务条款及隐私政策（而非本政策）约束，您需要仔细阅读其条款并决定是否接受。本隐私政策仅适用于我们为您提供云闪付APP产品及服务的需要处理您的个人信息，第三方处理您的个人信息时的行为由其自行负责。 
+第三方SDK服务商 
+我们的产品包含第三方SDK，如您在我们的平台上使用相关服务，您知悉由其直接收集和处理您的个人信息，我们会约束该类第三方严格按照合法、正当、必要的原则进行处理，您可以通过 点击此处 查阅我们的产品包含的第三方SDK服务。 
+云闪付APP小程序功能向第三方提供接入服务，该类第三方将在其平台内对您的个人信息承担管理职责。您可以通过 点击此处 查看我们的第三方接入名录。 
+1、存储 
+存储期限 我们仅在为您提供云闪付APP产品及服务之目的所必需且合理的期限内或法律法规及监管规定的时限内留存您的个人信息，例如，根据《银行卡组织和资金清算中心反洗钱和反恐怖融资指引》的规定，您注销云闪付APP用户后，我们将根据法律法规或监管规定，对您的个人身份信息保存5年，交易信息保存5年，对银联清算核心业务系统中的您的个人身份信息及清算业务数据保存15年，上述存储期限届满后，我们将删除或对您的个人身份信息和交易信息进行匿名化处理。 
+2、安全资质 
+我们已经取得了以下认证：我们的核心业务系统通过了中华人民共和国信息系统等级保护四级认证，云闪付业务系统通过了中华人民共和国信息系统等级保护三级认证。我们的云闪付APP获得由中国网络安全审查技术与认证中心颁发的移动互联网应用程序（APP）安全认证证书。 
+3、内部管理措施 
+4、技术保障 
+在不幸发生个人信息安全事件后，我们将按照法律法规的要求，及时向您告知：安全事件的基本情况和可能的影响、我们已采取或将要采取的处置措施、您可自主防范和降低风险的建议、对您的补救措施等。我们将及时将事件相关情况以APP推送通知、发送邮件/短消息、电话等方式告知您，难以逐一告知个人信息主体时，我们会采取合理、有效的方式发布公告。同时，我们还将按照监管部门要求，主动上报个人信息安全事件的处置情况。若您的合法权益受损，我们将承担相应的法律责任。 
+您可以通过云闪付APP"我的-个人中心"访问、查阅您的姓名、身份证信息（掩码），或通过客服热线95516联系我们，法律法规规定的例外情况除外。 点击查看相关路径。 
+当您发现我们处理的关于您的个人信息有错误时，您有权要求我们做出更正，您可以通过客服热线95516向我们提出更正个人信息的需求。 点击查看相关路径。 
+当您对您在云闪付APP中的个人信息有转移需求且符合网信部门规定的条件时，您有权要求我们提供信息转移的途径，并可以通过拨打客服电话95516向我们提出具体的个人信息转移需求。 
+您可以在以下情形中，直接拨打客服电话95516向我们提出删除个人信息的需求，法律法规另行规定的除外： 
+（1）如果我们处理个人信息的行为，未征得您的同意或违反了与您的约定； 
+（2）如果我们处理个人信息的行为违反法律法规； 
+（3）如果您不再使用我们的产品或服务，或您注销了账号，或者个人信息保存期限已届满； 
+（4）我们处理您的个人信息目的已实现、无法实现或者为实现处理目的不再必要（如破产、停止运营等），并将及时告知您； 
+（5）您向我们撤回您的授权同意。 
+1、您可以通过注销云闪付APP账户，撤回我们继续收集您个人信息的全部授权。 
+2、您可以在APP内通过以下路径改变授权同意的范围： 
+（1）第三方的账号管理："我的-设置-隐私设置-账号授权"； 
+（2）系统权限管理："我的-设置-隐私设置-权限管理"; 
+（3）信用卡账单授权管理："我的-设置-隐私设置-银行卡信息查询授权管理-账单查询授权管理"； 
+（4）消息推送管理："我的-设置-通用设置-新消息通知-营销类通知/提醒类通知"； 
+（5）商业性短信推送：如您不同意银联向您推送商业性短信，您可致电95516或者在云闪付APP-"我的"-"隐私设置"-"商业性短信管理"页面解除该短信推送服务，解除状态会在24小时内生效。解除该短信推送服务后，您不会再收到银联向您推送的商业性短信，但为保证您账户和交易安全，交易验证码、业务提醒等通知类短信将不受影响。 
+（6）外呼调研回访：如您不同意银联向您外呼调研回访类内容，您可在接到调研回访类电话的通话过程中明确表示拒绝接收此类电话，或致电95516反馈您诉求的方式解除该外呼服务，解除状态会在24小时内生效。解除该外呼服务后，您不会再收到银联向您外呼调研回访类内容，但为保证您账户和交易安全，客诉反馈、风险控制提醒等服务延续类场景外呼将不受影响。 
+3、请您理解，每个业务功能需要一些基本的个人信息才能得以完成，当您撤回同意或授权后，我们无法继续为您提供撤回同意或授权所对应的服务，也不再处理您相应的个人信息。但您撤回同意或授权的决定，不会影响此前基于您的授权而开展的个人信息处理。 
+当您符合约定的注销条件时，您可以随时注销此前注册的账户，具体路径为"我的→设置→安全中心→注销账户"。系统将根据您当前所处的环境进行风险识别，通过 人脸识别 ，或 短信 加 登录密码 进行注销操作，如果因特殊原因无法注销成功，您也可以通过拨打95516人工客服进行注销。 
+您有权获取您的个人信息类型副本。您可以通过拨打95516人工客服获取您确认的云闪付个人信息副本，以了解您在云闪付APP的个人信息使用情况。 
+1、我们为您提供的自动化决策服务指使用您允许我们处理的相关信息，利用计算机程序对您的偏好、习惯等特征进行自动化分析与决策。我们不会在仅使用算法或分析程序，且不提供人工审查机会的情况下作出任何会对您产生重大影响的决策。 
+2、为向您提供更便捷、更符合您个性化需求的信息展示、搜索及推送服务，我们会根据您的设备信息、服务日志信息、区域信息、浏览点击记录、交易记录等提取您的偏好特征，并基于特征标签产出间接人群画像，用于向您提供精准化信息展示、推送服务、优惠展示 
+3、您可以在APP内通过以下路径关闭自动化决策功能： 
+（1）开启/关闭个性化展示设置:"我的-设置-隐私设置-【个性化推荐设置】"; 
+（2）开启/关闭个性化广告跟踪设置:"我的-设置-隐私设置-广告权限管理"。 
+您的任何疑问、建议、意见及投诉，可以通过拨打客服热线95516联系我们的客服提交，或通过"我的→在线客服"提交，为保障安全，我们将在必要的身份验证通过后进行处理，除法律法规另有规定外，一般情况下，我们将在15个工作日内完成处理。 
+在您选择95516等服务热线联系我们时，为保障服务质量，我们可能需要对客服电话内容进行录音；在录音开始前我们会向您进行必要的提示，充分保障您的知情权与选择权。 
+1、我们根据法律法规的合法性基础收集和使用您的敏感个人信息。我们仅在向您提供云闪付产品和服务具有特定的目的和充分的必要性下，并采取严格保护措施的情形下，处理您的敏感个人信息。 
+2、我们向您收集的敏感个人信息包括生物识别信息、特定身份信息、金融账户信息以及不满十四周岁儿童的个人信息。例如，在业务核身场景下，触发人脸使用的规则为根据该业务功能的必需时，我们会要求您提供 人脸信息 ，以验证您的身份，如果您拒绝同意，您将无法使用该业务功能。 
+3、对于敏感个人信息的特殊处理要求，如生物识别信息，在使用服务之前，我们会向您获取 单独同意 并告知您的 敏感个人信息 使用规则。在传输和存储敏感个人信息方面，我们会采用加密等安全措施，同时，我们会将您的生物识别信息与您的个人身份信息分开存储，并且原则上不会存储您原始的生物识别信息，仅存储您的生物识别信息的摘要信息。此外，我们不会留存您的个人金融鉴别信息。 
+我们的云闪付APP支持完成银联卡跨境支付服务，在此服务下，我们将把您用于支付的 手机号码、银行卡号、CVN2、银行卡有效期 向专门从事银联卡跨境交易处理的关联公司提供，该关联公司位于境内，为完成银行卡跨境交易之必要性，其需要将您的相关个人信息传输至境外合作机构，您可以 点击此处 查看详情或根据本隐私政策提供的联系方式与我们沟通。 
+此外，我们的云闪付APP境外服务主要由关联公司及其合作的第三方提供，涉及向境外合作方传输信息的业务情况，您可以 点击此处 查看详情。 
+六、Cookie 和同类技术应用 
+为确保您获得更为流畅、轻松的使用体验，在您使用云闪付APP及相关服务时，我们可能会通过小型数据文件"Cookie"识别您的身份，以帮助您减少信息录入的次数和频率，或协助判断您账户的安全状况。Cookie 通常包含标识符、站点名称以及一些号码和字符，借助于 Cookie，网站能够存储您的偏好或购物篮内的商品等数据。我们也将借助Cookie，用于传输设备标识，便于您参加云闪付APP的营销活动。 
+除了Cookie，我们同时使用了电子图像技术（简称Web Beacon）。我们可能通过Web Beacon来统计匿名访问的数据，用于计算用户访问数量、停留时间、访问的页面地址、显示设定等，让您能享受到更多的个性化服务，且这些统计信息不包含您的个人信息。 
+云闪付用户去世后，您作为近亲属为了自身的合法、正当利益，可以通过本隐私政策的联系方式联系我们，对去世用户在云闪付APP产生的个人信息行使查阅、复制、更正、删除等权利。需要特别提示，如查询云闪付用户银行卡账户信息，请联系银行卡账户银行。 
+您可以在云闪付APP通过"我的→设置→隐私设置→隐私政策"中查看本政策。如果您对本隐私政策或您个人信息的相关事宜有任何问题、意见或建议，请通过拨打客服热线95516、或通过"我的→在线客服"邮箱：privacy@unionpay.com与其联系等多种方式与我们联系。一般情况下，我们将在十五个工作日内完成处理。如果您对我们的响应情况不满意，可先友好协商，再次沟通，您有权利通过上海市浦东新区人民法院或监管机构寻求解决方案。 
+注：本《隐私政策》版本更新日期为 2023年11月22日 
+1、更新已故人员银行卡账户线索查询、信用卡现金分期等业务相关描述 
+2、更新访问、查阅相关个人信息具体渠道和路径 
+3、调整补充数美SDK相关描述 
+1、个人信息是指以电子或者其他方式记录的与已识别或者可识别的自然人有关的各种信息，不包括匿名化处理后的信息。 
+2、敏感个人信息是指一旦泄露或者非法使用，容易导致自然人的人格尊严受到侵害或者人身、财产安全受到危害的个人信息，包括生物识别、宗教信仰、特定身份、医疗健康、金融账户、行踪轨迹等信息，以及不满十四周岁未成年人的个人信息。 
+3、银联卡是指按照银联（中国银联及银联国际）的技术标准和业务规范发行，BIN号由银联分配或管理，或卡面带有"银联"标识的支付卡以及与支付卡相应对的支付账号。 
+4、关联公司：本隐私政策下，我们的关联公司指银联国际有限公司，地址中国上海市浦东新区东方路6号保利广场B栋2-7楼，联系方式021-20265666 ，邮箱upidataprivacy@unionpayintl.com 。 
+5、合法性基础：本隐私政策下关于您的个人信息所有处理环节的合法性基础指《个人信息保护法》第十三条所列之情形。 
+6、必要信息：必要信息是指在保障APP基本功能服务正常运行所必需的个人信息，缺少该信息APP将无法实现基本功能服务。 
+7、自动化决策：指通过计算机程序自动分析、评估个人的行为习惯、兴趣爱好或者经济、健康、信用状况等，并进行决策的活动。 
+8、去标识化：指个人信息经过处理，使其在不借助额外信息的情况下无法识别特定自然人的过程。 
+9、SDK：Software Development Kit,软件工具开发包，一种嵌入式的为某个功能提供接口或采集信息的技术工具。 
+10、Cookies：一种记录用户ID、浏览信息、停留时长的技术工具。 
+11、Web Beacon：网络信标，是可以暗藏在任何网页元素或邮件内的1像素大小的图片，常用来收集目标电脑用户的上网习惯等数据，并将这些数据写入Cookie。 
+12、境内注册：为了本隐私政策的目的，指在境内（港、澳、台地区除外）使用通信运营商网络提供的手机号完成注册。 
+1.概述
+銀聯國際是一家根據中華人民共和國("中國")法律設立的公司, 其註冊地址為中國上海市浦東新區東方路6號2-7樓。
+如果您對數據保護事宜有任何疑問, 您可來信至上述位址或致電銀聯官方熱線800-967-222。
+2.您的個人數據處理目的
+3.我們處理的有關您個人資料及個人數據的類別
+4.我們處理您個人數據的法律依據
+5.您的權利
+這可能意味著我們將無法執行必要的操作, 以達到上文所述的為您處理數據的目的(請參見第2條), 且您可能無法使用我們的服務。
+如果您在任何時候希望行使上述任何權利,您可以致電銀聯官方熱線800-967-222。
+6.您的個人數據接收方及跨境傳輸
+7.直接營銷
+致電銀聯官方熱線800-967-222。, 或
+8.安全
+9. Cookies 
+如您想瞭解詳細信息, 請參閱銀聯國際的Cookie政策。
+10.數據儲存
+11.與其他網站的鏈接
+12.隱私政策的變更
+COOKIE政策
+繼續訪問我們的網站, 即表示您同意Cookies的使用(尤其是為市場營銷之目的)。瞭解更多信息, 請閱讀我們的Cookie政策。
+1.何為Cookie?
+Cookie是儲存在您設備(如手機)中的由字母和數位組成的並由銀聯手機應用程式用於向您的流覽器(該流覽器應被允許向銀聯手機應用程式反饋信息)發送信息的一個小數據文件。
+Cookie分為不同類型.
+臨時會話Cookie將在用戶關閉網站時消失.
+永久性Cookie將保留在用戶的設備上, 直至其失效或用戶在流覽器設置中刪除該等Cookie。
+2.銀聯國際的網站使用何種Cookies?
+銀聯手機應用程式使用三種類型的Cookie。
+使用銀聯手機應用程式所需的Cookies
+該等Cookies是不可或缺的, 其將保證您充分體驗銀聯手機應用程式提供的所有服務,例如訪問您的個人賬戶。
+禁用此類Cookies, 您將無法使用基本產品和功能, 從而導致用戶體驗變差且效率降低。
+通過該等Cookies收集的信息僅用於此目的, 且不會共享或出售給第三方。
+改善銀聯手機應用程式所需的Cookies
+銀聯國際使用Cookies收集的匿名信息以瞭解訪問者如何使用銀聯手機應用程式, 並且監控用戶在使用銀聯手機應用程式時可能遇到的任何故障。該等Cookies是改善銀聯手機應用程式並提升用戶體驗所必需的。
+通過該等Cookies收集的信息僅用於此目的, 且不會共享或出售給第三方。
+目標定位的Cookies
+該等Cookies將由銀聯國際用於管理、提升其廣告活動的投放效果, 精准定位廣告投放的目標, 從而確保銀聯國際可以向每一用戶推送與其最相關的內容。通過該等Cookies收集的數據均為匿名的。
+3.如何管理銀聯手機應用程式上Cookies的使用?
+您可以通過激活流覽器(該流覽器應允許您通過以下步驟拒絕所有或部分Cookies的設置)上的設置來禁用Cookies。
+1.概述
+銀聯國際是一家根據中華人民共和國("中國")法律設立的公司, 其註冊地址為中國上海市浦東新區東方路6號2-7樓。
+如果您對數據保護事宜有任何疑問, 您可來信至上述位址或發送電子郵件至legalteam@unionpayintl.com。
+2.您的個人數據處理目的
+3.我們處理的有關您個人資料及個人數據的類別
+4.我們處理您個人數據的法律依據
+5.您的權利
+如果您不希望收到銀聯國際的營銷信息,您可以電銀聯客服熱線0800-801。您始終有權接受或拒絕來自銀聯國際的任何形式的通信。您可以通過選擇此類通信中包含的"取消訂閱"鏈接隨時取消訂閱電子營銷通信。
+這可能意味著我們將無法執行必要的操作, 以達到上文所述的為您處理數據的目的(請參見第2條), 且您可能無法使用我們的服務。
+如果您在任何時候希望行使上述任何權利,您可以電銀聯客服熱線0800-801。
+6.將數據傳輸到澳門以外的區域
+您同意並確認您的個人信息可能會被共享、披露或傳輸給第7條所述的接收方, 該等接收方可能位於澳門特別行政區以外的區域, 即香港和中國大陸。
+7.您的個人數據接收方及跨境傳輸
+8.安全
+9. Cookies 
+如您想瞭解詳細信息, 請參閱銀聯國際的Cookie政策。
+10.數據儲存
+11.與其他網站的鏈接
+12.隱私政策的變更
+COOKIE政策
+繼續訪問我們的網站, 即表示您同意Cookies的使用(尤其是為市場營銷之目的)。瞭解更多信息, 請閱讀我們的Cookie政策。
+1.何為Cookie?
+Cookie是儲存在您設備(如手機)中的由字母和數位組成的並由銀聯手機應用程式用於向您的流覽器(該流覽器應被允許向銀聯手機應用程式反饋信息)發送信息的一個小數據文件。
+Cookie分為不同類型.
+臨時會話Cookie將在用戶關閉網站時消失.
+永久性Cookie將保留在用戶的設備上, 直至其失效或用戶在流覽器設置中刪除該等Cookie。
+2.銀聯國際的網站使用何種Cookies?
+銀聯手機應用程式使用三種類型的Cookie。
+使用銀聯手機應用程式所需的Cookies
+該等Cookies是不可或缺的, 其將保證您充分體驗銀聯手機應用程式提供的所有服務,例如訪問您的個人賬戶。
+禁用此類Cookies, 您將無法使用基本產品和功能, 從而導致用戶體驗變差且效率降低。
+通過該等Cookies收集的信息僅用於此目的, 且不會共享或出售給第三方。
+改善銀聯手機應用程式所需的Cookies
+銀聯國際使用Cookies收集的匿名信息以瞭解訪問者如何使用銀聯手機應用程式, 並且監控用戶在使用銀聯手機應用程式時可能遇到的任何故障。該等Cookies是改善銀聯手機應用程式並提升用戶體驗所必需的。
+通過該等Cookies收集的信息僅用於此目的, 且不會共享或出售給第三方。
+目標定位的Cookies
+該等Cookies將由銀聯國際用於管理、提升其廣告活動的投放效果, 精准定位廣告投放的目標, 從而確保銀聯國際可以向每一用戶推送與其最相關的內容。通過該等Cookies收集的數據均為匿名的。
+3.如何管理銀聯手機應用程式上Cookies的使用?
+您可以通過激活流覽器(該流覽器應允許您通過以下步驟拒絕所有或部分Cookies的設置)上的設置來禁用Cookies。
+Effective date: May 6,2019
+UNIONPAY INTERNATIONAL
+Privacy Notice (United States)
+1. In a nutshell
+This privacy notice (the "Privacy Notice" or "Notice") explains why and how UnionPay International Co. Ltd ("UPI" or "we") may process your personal information when you use the UnionPay mobile wallet application (the "UnionPay App")
+What does "personal information" mean?
+Personal information means any information that can be linked directly or indirectly to identified or identifiable individuals.
+Who is UPI?
+UPI is a company incorporated under the laws of the People's Republic of China ("PRC") with its registered office at Floor 2-7, No.6 Dongfang Road, Pudong New District, Shanghai, PRC.
+If you have any questions in relation to data protection matters, you can contact us by email at apphelp@unionpayintl.com or call the UnionPay official hotline at 866-567-5516.
+Why does UPI process personal information
+UPI operates the UnionPay App for providing payment and other related services to users. 
+Do you have a UPI account? View our Gramm-Leach-Bliley Consumer Notice below.
+If you have created an account with us, our Gramm-Leach-Bliley Consumer Privacy Notice (the "GLB Notice") applies to you. The GLB Notice contains important information about your choices regarding how we share non-public information for marketing purposes, and how you can limit such sharing. Please consult the GLB Notice below, right at the end of this Privacy Notice. 
+What information is contained in this Privacy Notice?
+You will find relevant information on the personal data we process about you, the purposes and legal bases for the processing of this data and your rights. 
+2. The purposes for which we Collect your personal information
+You will find below the purposes for which UPI collects personal information, Processing your registration with us as a user of UnionPay App and creating and maintaining your account with us; 
+You will find below the purposes for which UPI collects personal information, Verifying your identity when binding cards to UnionPay App; 
+You will find below the purposes for which UPI collects personal information, Providing you with relevant products or services in UnionPay App; 
+You will find below the purposes for which UPI collects personal information, Marketing activities, including marketing by us, our affiliates, and our partners in the UnionPay App, online, via email or SMS, or otherwise; 
+You will find below the purposes for which UPI collects personal information, Providing you with location-specific options, functionalities, or offers; 
+You will find below the purposes for which UPI collects personal information, Communicating with you and responding to your requests, including by providing customer support and enabling you to interact with UPI through social media; 
+You will find below the purposes for which UPI collects personal information, Operating, evaluating, and improving our business, including improving our services and developing new functions; 
+You will find below the purposes for which UPI collects personal information, Doing internal research, reporting and analysis; 
+You will find below the purposes for which UPI collects personal information, Protecting against, identifying and preventing fraud and other prohibited or illegal activity, claims and other liabilities; 
+You will find below the purposes for which UPI collects personal information, Establishing, exercising, and defending legal claims; 
+Monitoring compliance issues and ensure compliance with our policies, terms, and obligations, including conducting internal investigations and audits
+Compliance with our obligations, applicable laws and regulations, and subpoenas, court orders or other legal process or requirements applicable to us.
+3. The categories of personal Information we process about you
+The types of personal information we process are the following: Registration and account information (including name, phone number, email address, machine or mobile ID, password); 
+The types of personal information we process are the following: Card Information for binding cards (including card number, expiration date, card verification code (CVC), and tokenized versions of the foregoing); 
+The types of personal information we process are the following: Transaction data and commercial information collected when you make payments with the UnionPay App or purchase items within the UnionPay App (i.e., personal account number, date/time/amount of the transaction, name and location of merchant, items purchased, and shipping and billing addresses); 
+The types of personal information we process are the following: Information about your interaction with the UnionPay App collected automatically by the UnionPay App when you use the App (including geolocation data, device type, device identification number, time zone, language setting, browser type, and IP address); 
+The types of personal information we process are the following: Information about your use of participation in coupons or promotional offers available in the UnionPay App; Information collected in connection with verifying your identity and preventing suspicious activities or fraud; 
+The types of personal information we process are the following: Any information you provide to us when you communicate with us, including audio recordings when you call us as permitted by law; 
+Social networking information and information from your social media profiles, if you interact with us through social media. 
+Inferences drawn from any of the information identified above about you, your activity, or your preferences.
+4.sources of personal information
+We collect personal information about you from the following categories of sources: Directly from you, for example when you provide personal information to us (such as a credit card number) or use the UnionPay App.
+We collect personal information about you from the following categories of sources: From our service providers, such as providers who assist us with tokenizing your payment information.
+We collect personal information about you from the following categories of sources: From persons who help you make payments through the UnionPay App, such as financial institutions, credit or debit card brands, payment processors, or merchants.
+We collect personal information about you from the following categories of sources: From partners who help us provide advertising or promotions to you.
+We collect personal information about you from the following categories of sources: From social media platforms, if you interact with us through social media.
+5. Your rights
+Accessing your personal data 
+We understand that you may like to know what personal data we hold about you. We are happy to assist you with your request. To protect your personal data, however, we require that you prove your identity to us at the time your request is made: you can contact us in writing via email at apphelp@unionpayintl.com or letter including your signature and a copy of a signed government issued identification document.
+UPI reserves the right to decline access to your personal data under certain circumstances as permitted by law. If your personal data is not disclosed to you, you will be provided with the reasons for this non-disclosure.
+Other rights
+You may also be entitled to ̵ object to the processing of your personal data; 
+You may also be entitled to ̵ request the restriction of the processing of your personal data; 
+You may also be entitled to ̵ request the correction and deletion of your personal data; 
+You may also be entitled to ̵ withdraw your consent to the processing of your personal data (where UPI is processing your personal information based on your consent); 
+You may also be entitled to ̵ lodge a complaint with a supervisory authority; 
+Where you are given the option to share personal data with UPI, you can always choose not to do so.
+If you object to the processing of your personal data, or if you have provided your consent to processing and you later choose to withdraw it, we will respect that choice.
+This could mean that we will be unable to perform the actions necessary to achieve the purposes of processing data for you as described above (see article 2) and that you may be unable to use our services.
+After you have chosen to withdraw your consent, UPI may be able to continue to process your personal data to the extent required or otherwise permitted by law.
+If at any time you wish to exercise any of these rights, you can contact us by email at apphelp@unionpayintl.com or call the UnionPay official hotline at 866-567-5516.
+6. The recipients of your personal Information
+The recipients of your personal information may include, UPI's establishments and affiliates; 
+The recipients of your personal information may include, UPI's processors and other contractors, suppliers and service providers; 
+The recipients of your personal information may include, Companies that may assist us in analyzing personal information, improving the UnionPay App or your experience on it, marketing products or services, or providing promotions to you; 
+The recipients of your personal information may include, Other financial institutions we have partnered with to jointly create and offer products or services; 
+The recipients of your personal information may include, Companies involved in helping you make payments with the UnionPay App, including acquiring banks (such as the bank you are withdrawing cash from, or the bank of the merchant you are paying in exchange for goods or services), the issuing banks (such as the bank that issued your card), credit card brands, payment processors, and merchants; 
+The recipients of your personal information may include, Law enforcement authorities or other public or governmental agencies, bodies, or officials, or other third parties pursuant to a subpoena, a court order or other legal process or requirement applicable to UPI or UPI's affiliates; 
+With other third parties for our business purposes or as permitted or required by law.
+We make efforts designed to ensure that such recipients undertake measures to keep your personal data confidential.
+7. Direct Marketing
+UPI may use your personal information (including your contact numbers) for direct marketing to you, as permitted by applicable law. This includes sending you marketing communications about updates, and the latest offers and promotions about UPI's goods, services, or activities or, as appropriate, those of UPI affiliates or other companies with whom UPI has partnered. UnionPay may not so use or provide your personal data except as permitted by applicable law. 
+These communications may be sent by app, in accordance with applicable laws. If you create an account with UPI, you have the option to stop us from sharing your personal information with affiliates and non-affiliates for marketing purposes. Please see our GLB Notice below to find out what sharing you can stop, and how to exercise your right to stop such sharing. 
+8. Security
+UPI has installed security measures designed to prevent access to your personal information by unauthorized persons. We have authorised and trained staff for processing personal information. As such, staff of UPI and third parties who are authorized to have access to your personal information are required to comply with non-disclosure obligations. 
+Technical and organisational measures have been implemented that are designed to prevent from unauthorised or unlawful processing of personal information and against accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to personal information. 
+9. Cookies, Tracking Technology, and online behavioral advertising
+The UnionPay App may use cookies and tracking technologies to operate the App and to target advertising that may be of interest to you. For further information, please refer to UPI's cookie policy. 
+10. Data retention
+Your personal information will be stored for the period of time required or permitted by applicable law. This may involve retaining information following your transaction. We make efforts to delete your personal information once it is no longer required for any of the purposes described above.
+In order to determine the amount of time we will store your personal information we take into consideration the role and function of the information, type of products and services, nature of the relationship between you and us, and statutory requirements of retention period made by applicable laws and regulations.
+11. Links to other websites
+You may find links to access the websites of other companies or app on UnionPay App. We recommend that you read the privacy policies of these other websites or app, as this Privacy Notice does not apply to the processing of your personal information by them and UPI is not responsible for the processing of your personal information on external websites.
+12.do not track disclosure
+The UPI Mobile App is not designed to respond to "Do Not Track" requests.
+13. Changes in Privacy Notice
+We may update this Privacy Notice from time to time, in particular in case of changes to our business or practices, changes of law, in response to guidance from competent authorities or as required by UPI's internal policies. The updated Privacy Statement will be effective as of the published effective date. We may also share with you the updated Privacy Notice through the UnionPay App.
+Effective date: May 6,2019
+GRAMM-LEACH-BLILEY CONSUMER PRIVACY NOTICE
+FOR UPI ACCOUNT-HOLDERS
+WHAT DOES UNIONPAY INTERNATIONAL DO WITH YOUR PERSONAL INFORMATION?
+Why?
+Financial companies like UnionPay International, Ltd. ("UPI") can choose how they share your personal information. Federal law gives consumers the right to limit some but not all sharing. Federal law also requires us to tell you how we collect, share, and protect your personal information. Please read this notice carefully to understand what we do.
+What?
+The types of personal information we collect and share depend on the product or service you have with us. This information can include payment history or transaction history.
+How?
+All ﬁnancial companies need to share personal information to run their everyday business. In the section below, we list the reasons we share personal information; the reasons UPI chooses to share; and whether you can limit this sharing.
+Reasons we can share your personal information
+■ For our everyday business purposes, such as to process your transactions, maintain your accounts, respond to court orders and legal investigations, or report to credit bureaus
+Does UPI share? Yes
+Can you limit this sharing? No
+■ For our marketing purposes- to offer our products and services to you
+Does UPI share? Yes
+Can you limit this sharing? No
+■ For joint marketing with other ﬁnancial companies
+Does UPI share? Yes
+Can you limit this sharing? No
+■ For our afﬁliates' everyday business purposes- information about your transactions and experiences
+Does UPI share? Yes
+Can you limit this sharing? No
+■ For our afﬁliates' everyday business purposes- information about your creditworthiness
+Does UPI share? No
+Can you limit this sharing? N/A
+■ For our afﬁliates to market to you
+Does UPI share? No
+Can you limit this sharing? Yes
+■ For nonafﬁliates to market to you
+Does UPI share? No
+Can you limit this sharing? N/A
+To limit our sharing
+Contact us by email at apphelp@unionpayintl.com or call the UnionPay official hotline at 866-567-5516.
+Please note.
+If you are a new customer, we can begin sharing your information from the date we sent this Notice. When you are no longer our customer, we continue to share your information as described in this notice.
+However, you can contact us at any time to limit our sharing.
+Please note.
+Questions
+Contact us by email at apphelp@unionpayintl.com or call the UnionPay official hotline at 866-567-5516.
+Who is providing this notice?
+This Privacy Notice is provided by UnionPay International Co. Ltd. in connection with its provision of the mobile wallet and related services of the UnionPay App, and is applicable to your personal UPI account.
+How does UPI protect my personal information?
+To protect your personal information from unauthorized access and use, we use security measures that comply with federal law. These measures include computer safeguards and secured ﬁles and buildings.
+How does UPI collect my personal information?
+We collect your personal information, for example, when you
+■ Open an account or provide account information
+■ Link a credit or debit card to your UPI account or give us your contact information
+■ Use your UPI account to make payments
+Why can't I limit all sharing?
+Federal law gives you the right to limit only
+■ sharing for afﬁliates' everyday business purposes-information about your creditworthiness
+■ afﬁliates from using your information to market to you
+■ sharing for nonafﬁliates to market to you
+State laws and individual companies may give you additional rights to limit sharing. See below for more information on your rights under state law.
+What happens when I limit sharing for an account I hold jointly with someone else? 
+Your choices will apply to everyone on your account.
+Definition
+■ Afﬁliates : Companies related by common ownership or control. They can be ﬁnancial and nonﬁnancial companies. Our affiliates include China UnionPay USA, LLC.
+■ Nonafﬁliates: Companies not related by common ownership or control. They can be ﬁnancial and nonﬁnancial companies. Nonaffiliates with which we share personal information include service providers that perform services or functions on our behalf.
+■ Joint marketing: A formal agreement between nonafﬁliated ﬁnancial companies that together market ﬁnancial products or services to you. Our joint marketing partners may include financial companies.
+Other important information
+We may transfer personal information to other countries, for example, for customer service or to process transactions.
+California and Vermont Residents Only: We will not share your information except for our everyday business purposes, for marketing our products and services to you, or as required or permitted by law or with your consent. 
+Nevada Residents Only: This notice is provided to you pursuant to state law. To stop marketing calls from us follow the directions in the section "To limit our sharing" to be placed on the UPI do not call list. Nevada law requires that we also provide you with the following contact information: Nevada Bureau of Consumer Protection, Office of the Nevada Attorney General, 555 E. Washington Ave., Ste 3900, Las Vegas, NV 89101; telephone: 702-486-3132; email: aginfo@ag.nv.gov.
+Cookie Policy
+By using the UnionPay App, you consent to the use of cookies and tracking technologies, in particular for marketing purposes. To learn more, read this Cookie Policy.
+1. What is a cookie?
+A cookie is a small file of letters and numbers that is stored on your device (e.g. phone), and used by the UnionPay App to return information to UPI or other parties.
+There are different types of cookies, Session cookies which disappear as soon as the user leaves the website or the App; 
+Permanent cookies which remain on the user's device until they expire or until the user deletes the cookies. 
+2. What cookies are used on UPI's website?
+The UnionPay App uses 3 types of cookies.
+Cookies necessary to use UnionPay App
+These cookies are essential as they enable you to fully experience the possibilities offered by UnionPay App, such as accessing to your personal account. 
+By disabling the use of such cookies, you will no longer be able to use the basic features and functionalities resulting in a slower and less efficient user experience. 
+Cookies necessary to improve UnionPay App
+These cookies are used to collect anonymous information and enable UPI to understand how visitors use UnionPay APP and monitor any errors that users may be experiencing. These cookies are necessary to improve UnionPay APP and provide a better user experience. 
+Targeting cookies
+These cookies are used to enable UPI to manage and improve the effectiveness of the delivery of advertising campaigns and to refine the targeting of these campaigns so that UPI can display the most relevant content for each user. 
+3. How to manage the use of cookies on UnionPay App?
+You can block cookies by activating the settings on your browser that enable you to refuse the all or some cookies. You can delete personal information collected via cookies or similar tracking technologies by the following steps. 
+Choosing "My Account".
+Selecting "More Settings".
+Selecting "Delete Personal Data".
+After the UnionPay App displays the notification asking if you want to delete your personal information, click "Confirm".
+The data would be deleted and you will logged out of the account.

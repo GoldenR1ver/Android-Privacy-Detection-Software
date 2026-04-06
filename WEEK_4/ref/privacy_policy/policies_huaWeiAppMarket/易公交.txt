@@ -1,0 +1,82 @@
+北京中航讯科技股份有限公司（以下简称"我们"）制定本隐私政策（以下简称"本政策"），来解释我们如何收集、保存使用由我们的产品、服务和网站（以下合称"我们的服务"）收集的信息。 应用"易公交"适用于以下协议，本协议自2021年11月1日生效。 
+（1）设备属性，包括但不限于IP地址、网卡（MAC）地址、开放性独特设备标识符和广告识别符 或其他永久性或非永久性设备标识符（"设备标识符"）； 
+（2）设备软件平台和固件； 
+（3）手机运营商； 
+（4）邮政编码、地域码、粗略定位等地理数据； 
+（5）游戏进程、游戏时间、得分和成绩； 
+（6）其他我们为提升我们的服务和其他服务和产品而合理需要的非个人信息。 
+我们保留由我们或我们的合作伙伴和受托人出于广告的目的使用和披露被收集的非个人信息的权利。我们可能采用第三方广告投放技术。该技术使用某些方法在通过我们的服务投放广告的过程中收集信息。我们或者运行广告投放技术的第三方可能使用人口学和定位信息以及从您的硬件或设备获取的日志信息来确保在我们的服务中呈现适宜的广告。我们或第三方为此可能收集包括但不限于IP地址（包括但不限于为您粗略定位的目的）、设备标识符、MAC、软件、应用、硬件、浏览器信息、互联网和在线使用信息及游戏内信息。上述信息可根据本政策和提供广告投放技术的公司的隐私政策来使用和披露。 
+如果您所使用的我们的服务支持定位，我们就可能收集并处理您的定位数据，以提供与您位置相关的服务和广告。例如，有些附加组件或优惠是针对特定地点提供的。我们可能用GPS、Wi-Fi、IP地址等网络数据或其他技术进行定位。未经您同意，我们不会访问您的GPS位置信息。除了我们的合作伙伴提供与定位相关的我们的服务，我们不会将您的GPS位置信息在未经您同意的情况下与第三方共享。如果我们根据本政策与第三方共享GPS位置信息，我们会匿名提供这些信息。请注意，我们可能与我们的合作伙伴匿名共享您的粗略定位信息。 
+（1）注册我们的服务； 
+（2）用社交网站； 
+（3）请求技术支持； 
+（4）使用要求提供个人信息才能使用和/或参加的我们的服务。 
+七、cookies、网络信标和跟踪 
+我们的服务可能使用cookies和像素标签（pixel tags）、本地共享对象、网络信标（clear GIFs）和网络信标（web beacons）等技术。我们将cookies和类似技术收集来的信息当做非个人信息来处理。 
+cookies： 
+"cookies"是网站经常存储于用户电脑上的少量记录信息。我们的cookies不会包括个人信息，一般用于快速识别您的设备并"记住"您。您可以取消cookies，或把您的浏览器设置成为向您发送cookies就会提示您的模式。但取消cookies可能会影响您使用我们的服务。 
+Flash cookies和HTML5： 
+我们可能使用Flash cookies（本地共享对象）和HTML5（本地存储对象）。本地共享对象只以整合的方式收集数据。 
+"网络信标"或"像素标签"是让我们能计算网页访问数量或广告浏览量的电子图像。类似于cookies，网络信标不包含个人信息。我们向您发送的电子邮件等电子通讯可能包含像素标签或网络标签，使我们能追踪通讯的使用情况，如是否打开过通讯、点击了哪个链接等。 
+我们按照行业通行标准合理保护信息的安全、完整和秘密。您个人信息的访问权限仅限于为根据本政策完成工作任务或进行技术维护工作需要处理您个人信息的人员。我们收集的个人信息保存于不向公众开放的安全运行环境之中。为避免未经授权访问您的个人信息，我们将其保存在有防火墙保护并可能加密的服务器之中。但是，没有什么系统是100%安全的。即使我们做出了合理努力，仍可能有人未经允许访问您的个人信息。此外，人们的言行可能不可靠，或具有误导性、非法性。我们无法告诉您别的用户说的是否属实。如果您使用我们的服务，您要自担以上数据失窃或被误导、被欺诈、被违法侵害的风险。 
+十三、集成与第三方SDK应用
+为实现本应用的功能，需集成部分第三方应用。其中包括： 1 高德地图 
+使用SDK名称：高德开放平台定位SDK 
+SDK包名：com.amap.api 第三方名称：高德软件有限公司 
+android.permission. ACCESS_COARSE_LOCATION 
+android.permission. ACCESS_FINE_LOCATION 
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. ACCESS_WIFI_STATE 
+android.permission. CHANGE_WIFI_STATE 
+android.permission. READ_PHONE_STATE 
+android.permission. WRITE_EXTERNAL_STORAGE 
+android.permission. ACCESS_LOCATION_EXTRA_COMMANDS 
+收集个人信息：位置信息（经纬度、精确位置、粗略位置）【通过IP 地址、GNSS信息、WiFi状态、WiFi参数、WiFi列表、基站信息、信号强度的信息、蓝牙信息、传感器信息（矢量、加速度、压力）、设备信号强度信息获取】、设备标识信息（IMEI、IDFA、IDFV、Android ID、MEID、MAC地址、OAID、IMSI、硬件序列号）、当前应用信息（应用名、应用版本号）、设备参数及系统信息（系统属性、设备型号、操作系统）。 
+2 腾讯X5浏览器内核 
+使用SDK名称：腾讯浏览服务SDK 
+SDK包名：com.tencent.smtt、com.tencent.tbs 
+android.permission. WRITE_EXTERNAL_STORAGE 
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. ACCESS_WIFI_STATE 
+android.permission. READ_PHONE_STATE 
+使用目的：使用x5内核渲染webview，为了使用不同版本的手机设备体现出同样的浏览效果，解决不同版本手机系统内核的兼容性 
+收集个人信息：设备信息（设备型号、操作系统、CPU类型），Wi-Fi状态和参数，位置信息、附近的Wi-Fi、CellID，通过通过去标识化、加密传输和处理的安全处理方式用来处理浏览器内核升级和禁用细化控制，判断Wi-Fi是否连接，进行网络优化，用户主动打开第三方网页且网页自身需要定位位置时触发 
+腾讯X5浏览器隐私权政策链接 
+3 友盟 
+使用SDK名称：友盟SDK 
+SDK包名：com.uc.crashsdk、com.efs、com.umeng、com.ut 
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. ACCESS_WIFI_STATE 
+android.permission. READ_PHONE_STATE 
+收集个人信息：设备信息（IMEI/MAC/Android ID/IDFA/OAID/OpenUDID/GUID/SIM卡IMSI/ICCID）、位置信息、网络信息 
+4 微信 
+使用SDK名称：微信开放平台 SDK包名：com.tencent 
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. ACCESS_WIFI_STATE 
+android.permission. READ_PHONE_STATE 
+收集个人信息：设备信息（IMEI、ANDROID_ID、DEVICE_ID、IMSI）、应用已安装列表、网络信息、存储的个人文件、网络信息等。 
+5 广点通、优量汇、腾讯广告 
+使用SDK名称：优量汇SDK SDK名：GdtAd 
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. ACCESS_WIFI_STATE 
+android.permission. READ_PHONE_STATE 
+1 粗略位置信息 
+【仅 Android】基站、附近的WIFI、连接的WIFI第三方开发者可以选择是否向本SDK提供如下信息： 
+2 设备/网络/系统信息 
+【双端】设备制造商、品牌、设备型号、操作系统版本、屏幕分辨率、屏幕方向、屏幕DPI、IP地址、时区、网络类型、运营商 
+【仅Android】磁力、加速度、重力、陀螺仪传感器 
+【仅iOS】设备名称、系统启动时间、系统语言、磁盘空间、设备姿态、压力传感器等基础信息 
+3 标识符 
+【仅Android】OAID 
+第三方开发者可以选择是否授权本SDK收集如下信息： 
+【仅Android】 IMEI、Android_ID 
+【仅iOS】IDFV、 IDFA 
+4 应用信息 
+【仅Android】 宿主应用的进程名称、运行状态、可疑行为 
+第三方开发者可以选择是否授权本SDK收集如下信息： 
+5 使用数据 
+6 诊断数据 
+收集个人信息：位置信息（经纬度、精确位置、粗略位置）【通过IP 地址、GNSS信息、WiFi状态、WiFi参数、WiFi列表、基站信息、信号强度的信息、蓝牙信息、传感器信息（矢量、加速度、压力）、设备信号强度信息获取】、设备标识信息（IMEI、IDFA、IDFV、Android ID、MEID、MAC地址、OAID、IMSI、硬件序列号）、当前应用信息（应用名、应用版本号）、设备参数及系统信息（系统属性、设备型号、操作系统）、获取加速度传感器, BSSID个人信息。 
+联系地址：北京市海淀区西小口路66号中关村东升科技园 ˙北领地B-2号楼6层C610 
+联系电话：010-80771477 
+2023年6月1日

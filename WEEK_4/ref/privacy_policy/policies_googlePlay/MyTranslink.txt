@@ -1,0 +1,67 @@
+Right arrow
+Privacy policy
+Translink abides by the Information Privacy Act 2009 when managing personal information. To help improve the app and Translink services more generally, Translink may, from time-to-time, record information about your use of the app. This information may include: 
+the random, auto-generated user account number created when the app is first launched and associated with your device.
+when and how the app is used.
+the pages accessed and the types of functions used.
+your location when using a map, stop alarm or 'stops near you' feature; and
+your device type and information required in order to deliver push notifications to you, when enabled.
+Translink (and its contractors) may use the information recorded about your use of the app to contact you and invite you to participate in surveys and to otherwise improve the app and Translink services more generally.
+The MyTranslink app requires permission to access to certain device settings to function. The permissions are displayed in the App Store and Google Play Store, and when you download and install the app. 
+Notifications: By downloading the Translink app and 'enabling' each push notifications function in the app settings on your device, you consent to Translink delivering push notifications to your device to: 
+notify you of current or upcoming journey or route disruptions; and 
+invite you to participate in Translink customer surveys. 
+If you do not wish to receive either or both types of push notifications from Translink you may disable either or both types of push notification functions in the app settings on your device.
+Location: By enabling location, you consent to the app using location data for: 
+stops near you and journey planning using 'my current location'; and 
+stop alarm and trip announcer when the app is closed or not in use.
+If you choose not to accept any of the permissions, some features of the app may not work.
+If you provide feedback or an enquiry to Translink through use of the app, Translink may collect and use your personal information in accordance with its privacy policy.
+Unless otherwise stated in these conditions of use, no attempt will be made to identify users or users' activities, unless Translink is required by law to do so.
+Terms & Conditions
+The MyTranslink application ("the app") is created and developed by the State of Queensland acting through the Translink Division of the Department of Transport and Main Roads ("Translink").
+Compatible devices
+The app is designed for Android and iOS mobile devices. Support is provided for Android operating system version 6 and up, and Apple iOS version and up.
+Support is not provided for earlier operating systems or other mobile devices. Translink may, at its sole discretion, discontinue support for the app, or a particular version of it, at any time and without notice.
+Your use of the app
+Translink grants to you a non-exclusive, non-transferable licence to download, install and use the app on your compatible mobile device or tablet in accordance with these conditions of use and subject to you complying with them. If you do not accept or agree to these conditions of use you should not proceed to download, install or use the app.
+You acknowledge and understand that Translink may from time-to-time update these conditions of use (without notification to you) and you agree that you are obliged to ensure that your use of the app complies with the conditions of use that are published and in force at the relevant time.
+You acknowledge and agree: 
+to only use the app to obtain information about public passenger services in Queensland, to accept any information or invitations we may send or make available to you including by push notifications and to provide feedback or an enquiry to Translink through the app ("the intended purpose").
+not to attempt to reverse engineer, modify, copy, transfer, sell, disseminate, distribute, decompile, or disassemble any of the data, software, code, information or material made available or accessible; and
+the app is provided free of charge and use of the app for commercial gain is strictly prohibited.
+Data charges and access
+The app requires a functional internet data connection, both for the initial installation and for use.
+Depending on your specific circumstances, your telecommunications provider may charge you a fee for downloading, installing and using the app. You acknowledge and agree you are entirely responsible for any such costs.
+Translink disclaims any and all responsibility for or associated with your arrangements with your telecommunications provider including network access and data allowances.
+Intellectual property
+You do not own the app or any information that is provided to you through it.
+The licence to download, install and use the app does not, and is not intended to, grant you any interest or right with respect to any intellectual property in the app, associated services or any other information or data.
+Translink reserves all its rights in the intellectual property residing in the app and the data and information generated or produced by the app, including without limitation, copyright, trademarks and designs.
+If you provide feedback or an enquiry to Translink through use of the app, you grant Translink a worldwide perpetual irrevocable licence to use and disseminate your feedback or enquiry for the purposes of improving Translink's services and to respond to your enquiry if you request a response. You agree to provide the mandatory information as requested by Translink in its feedback and enquiry form and to not insert or send any malicious, harmful, derogatory, unlawful or defamatory content in connection with this from or the app.
+No warranty
+The app is provided 'as is' and Translink does not expressly or implicitly warrant that the app is fit for any particular purpose, including the intended purpose.
+Additionally, Translink does not warrant: 
+the accuracy, reliability, adequacy or completeness of the app or the data and information it contains or provides.
+the app will be error free or available for use at any particular time without interruption.
+the app will meet your requirements or apply to your circumstances; or
+that any website including any third-party app store is free from any viruses or malicious software or code which may be transmitted to a mobile device in connection with the download and installation of the app.
+Limitation of liability and indemnity
+To the maximum extent permitted by law, Translink disclaims and excludes all liability for any claim, liability, loss (including loss of profit, revenue, goodwill or business opportunities, damage to reputation and any indirect or consequential loss), damage or expense of any kind, however caused (including by negligence), arising out of or in connection with the app including its download, installation and use.
+You hereby release discharge, indemnify and hold harmless Translink and each of its officers and employees from and against any claim (including by you) which may be brought against or made upon or incurred by any of them in connection with: 
+your use of the app (whether or not that use is for the intended purpose).
+your breach of these conditions of use.
+a breach of any law associated with the use of the app; or
+your infringement of the intellectual property rights or moral rights of any third party.
+Updates & availability
+From time-to-time, Translink may issue updates to the app and the continued functionality of the app may depend on you downloading the relevant update.
+Support & communications
+If you have any questions or comments concerning the app, please contact us and we will endeavour to respond to you as soon as possible.
+Severability
+If any part of these conditions of use are determined to be invalid, unlawful or unenforceable for any reason then that part, to the extent of the invalidity, unlawfulness or unenforceability, will be severed from the rest of the conditions of use and the remaining terms and conditions will continue to be valid and enforceable to the fullest extent permitted by law.
+Governing law
+These conditions of use are governed by and construed in accordance with the laws of Queensland and the in the event a dispute arises from these conditions of use you submit to the non-exclusive jurisdiction of the courts of Queensland.
+Last updated: 10 June 2022
+Was this page helpful? Required field
+Yes No 
+Why ? 

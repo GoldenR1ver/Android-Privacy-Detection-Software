@@ -1,0 +1,332 @@
+Skip to main content 
+Home
+Tickets and Opal
+Opal
+Opal privacy policy 
+Opal privacy policy
+The personal information collected for the purposes of the Opal Ticketing System will be treated in accordance with the Privacy Personal Information Protection Act 1998 (PPIPA).
+Background 
+The Opal Ticketing System 
+Transport for NSW provides an electronic ticketing system (Opal Ticketing System) for travel on public transport in the greater Sydney area. In this privacy policy, a reference to us, we or our is a reference to TfNSW.
+The Opal Ticketing System uses an Opal card for ticketing and payment. An Opal card includes a contactless smartcard which is a physical Opal card or a Opal Digital Card; and 
+The Opal Ticketing System uses an Opal card for ticketing and payment. An Opal card includes an Approved Payment Device which includes a debit, credit, prepaid card or smart device of a class approved by TfNSW.
+Device that can be used include a contactless credit card, debit card, prepaid card, smartphone or other device which can emulate a contactless payment card. Different Devices may be linked to the same payment method and are treated as the same payment card.
+Some Opal cards function as an electronic purse from which fares can be deducted and which can be "topped up". A physical Opal card which functions as an electronic purse contains a computer chip which stores value (a dollar amount), limited transaction history and a code that enables the correct fare to be charged. Other Opal cards do not function as an electronic purse and cannot be "topped up". 
+The computer chip component of all Opal cards can be read when tapping on or off at Opal card readers installed in or around public transport locations or vehicles. Opal Digital Cards and Devices use the computer chip embedded in the Device. The chip in any Opal card, including physical Opal cards, Opal Digital cards and approved payment devices, can also be read by devices used by Transport Officers as part of revenue protection activities.
+Transport Connect is a TfNSW account-based digital ticketing and payments platform. By registering for Transport Connect customers set up an account which they can use to register for and manage Opal Services. Opal Services includes On Demand Travel Credit, Opal Digital Card, CTP Registration, and Park & Ride.
+Channels for acquiring Opal cards 
+Under the Opal Ticketing System customers are able to acquire Opal cards through various channels as and when they are established (Opal Channels) including via opal.com.au (Opal Website), a call centre (Opal Customer Care), approved retailers (Opal Retailers), any Opal service centre and through the Opal Digital Card app.
+TfNSW 
+We are the lead agency of the New South Wales transport portfolio with primary responsibility for transport coordination, transport and policy planning, transport services, transport infrastructure, freight and marine pollution response.
+Our goal with the Opal Ticketing System is to provide customers with a secure, effective and efficient public transport electronic ticketing system which complies with our obligations under applicable privacy legislation.
+Our name and contact address is transport for NSW
+PO Box K659 
+Haymarket NSW 1240
+Telephone: Transport Info 131 500
+Scope of Policy 
+Application privacy legislation 
+As a public sector agency that will be collecting personal information from customers, TfNSW is required to comply with the Privacy and Personal Information Protection Act 1998 and the Health Records and Information Privacy Act 2002 (HRIPA).
+This policy addresses our privacy obligations under PPIPA and HRIPA and is intended to inform customers of the circumstances in which we will be collecting, using and disclosing personal information in relation to their use of the Opal Ticketing System. This policy has been developed in consultation with privacy consultants and legal advisors.
+This Policy covers customers who use the Opal card and the Opal Ticketing System. (A reference to a "customer" is a reference to any person who uses the Opal card or the Opal Ticketing System including any person who uses an Opal card that was acquired for them by another person.)
+It also covers the Opal Website and the Opal Travel Application available for download via the App Store or Google Play (Opal Travel App).
+Incremental introduction 
+The Opal Ticketing System is being continually developed and new elements are introduced progressively over a period of time. The provisions of this policy relate to the elements that have been introduced to date. The policy will be updated as each new element is introduced.
+Amendments 
+We may make amendments to this privacy policy and our information handling practices from time to time. We will publish those changes on opal.com.au, if those changes are significant, and we will update this privacy policy to reflect any changes. In implementing any changes in information handling practices we will ensure compliance with PPIPA and HRIPA while considering our customers' expectations at the time personal information was collected.
+Personal information and the Opal Ticketing System 
+We are collecting personal information 
+Under the Opal Ticketing System, we are collecting, storing, disclosing and using information relating to customers, some of which is personal information.
+Some of the information being collected, when taken on its own, may not be personal information. For example, travel history alone does not allow an individual to be identified. However, it can be linked to customer details that we hold.
+Purpose of collection 
+We will be collecting information that is necessary for the purpose of managing and operating the Opal Ticketing System; 
+We will be collecting information that is necessary for the purpose of supporting our responsibilities for coordination, planning and policy development for transport, transport services and transport infrastructure.
+In so doing, information collected will be used to supply physical Opal cards to customers; 
+In so doing, information collected will be used to provide services and support to customers including services related to Opal card ordering, setting up payment or notification preferences, adding value to Opal card balances and viewing travel history; 
+In so doing, information collected will be used to manage fare calculations and associated transactions; 
+In so doing, information collected will be used to determine your eligibility for discounted parking in a Park & Ride car park; 
+In so doing, information collected will be used to determine your eligibility for and calculate On Demand travel credits; 
+In so doing, information collected will be used to support the administration and management of public transport concessions; 
+In so doing, information collected will be used to maintain and operate the Opal Website, Opal Travel App and other Opal Channels; 
+In so doing, information collected will be used to undertake planning, reporting, policy development and statistical analysis for transport, transport services and transport infrastructure; 
+In so doing, information collected will be used to engage in marketing and disseminating information regarding services and products to customers who choose to receive such information; 
+support the provision of secure, effective and efficient transport services, including measures to protect public revenue; and 
+carry out surveys to obtain customer feedback.
+Open Data 
+De-identified (non-personal) Opal card use data as set out in clause may be released to the public in accordance with and to meet the objectives of TfNSW's Open Data Policy and the broader NSW Government Open Data Policy.
+Opal data released as Open Data does not contain any personal information and will only be released after assessing any risk of potential re-identification and taking steps to address that risk.
+Opal cards and information collected under the Opal Ticketing System 
+Opal cards 
+Opal cards are a form of ticketing and payment for travel on public transport in the greater Sydney area.
+Each Opal card has its own unique card identification number (Opal card number). Except for some Opal cards that are personalised (see below), the Opal card and its Opal card number does not, of itself, convey any personal information about a customer. The physical Opal card number is stored on the chip of the Opal card and is also printed on the Opal card. The Opal card number is used in routine communications with customers through channels such as Opal Customer Care or a Customer Service Centre.
+The chip of the physical Opal card stores data relating to the most recent transactions connected to the Opal card. The distinction between different categories of Opal cards and different categories of concession entitlements is also electronically encoded on the Opal card chip so that fare calculations are made at the applicable rate. Opal cards may also have visually distinctive features or colours depending on their type. These distinctions in design are necessary for administrative and revenue protection purposes. For example, when customers tap on a card reader with an Opal card that is concessional, a distinctive light may appear on the card reader that is tapped.
+Although the Opal card does not store a customer's personal information, we are able to connect the Opal card number to the customer's details that we hold in relation to a registered Opal card or a concessional Opal card. This is not the case for unregistered non-concessional Opal cards, where providing personal information for the purposes of the Opal Ticketing System is voluntary. For more information see section 5.
+Devices 
+Devices may be used as a form of ticketing and payment for travel on public transport by validating the Device on approved Opal card Readers on which the Device is an accepted form of fare payment.
+If you use a Device to pay for travel on the Opal Ticketing System, TfNSW may use your personal information to provide you with journey and charging history associated with your device and to respond to any specific enquiries you may have regarding the use of your Device to pay for travel. Information about a Device is encrypted and stored in accordance with payment card industry security standards.
+Our collection of information 
+The nature of the personal information that we collect under the Opal Ticketing System and the way we collect it depends on the type of Opal card, how a customer acquires, adds value to or uses the Opal card, and whether the Opal card is registered.
+In relation to registered and concessional Opal card holders, we only collect information that is reasonably necessary for the purpose of providing and managing the Opal Ticketing system having regard to the Card type. Before using the information, we take reasonable steps to ensure that it is relevant, correct, not misleading and up to date having regard to the purpose for which it is to be used.
+However, we rely on customers to provide us with accurate and up to date personal information. Information provided in support of an application for certain categories of concessional Opal cards is validated by or on behalf of us.
+Customers must notify us when personal information that they have supplied to us has changed. This is to ensure that their entitlements are not inadvertently cancelled or adversely affected.
+The following is an outline of the personal information we collect and the circumstances in which we collect personal information
+Unregistered cards
+Customers are able to acquire Adult and Child/Youth physical Opal cards without registering them through Opal Retailers or a Customer Service Centre. In such circumstances, customers will obtain immediate possession of the physical Opal card and neither we nor the Opal Retailer will collect any personal information from the customer at that point.
+Refer to section for details of information collected when value is added to an Opal card.
+Registered cards
+Full-fare and Concession physical Opal cards may be acquired and registered through the following Opal Channels: Opal Website.
+Full-fare and Concession physical Opal cards may be acquired and registered through the following Opal Channels: Opal Customer Care; and
+Full-fare and Concession physical Opal cards may be acquired and registered through the following Opal Channels: an Opal kiosk or Customer Service Centre.
+If a customer wishes to do so, an Adult or Child/Youth unregistered physical Opal card can be registered at any time after it is acquired.
+When a customer registers a physical Opal card, a customer profile is created that is then linked to that Opal card. In creating a customer profile we collect the following information
+Customer profile, general information required
+The required information collected for a customer profile is 1. the customer's title, first name and last name.
+The required information collected for a customer profile is 2. the customer's account address.
+The required information collected for a customer profile is 3. the customer's personal identification number for the Opal card being registered; and
+The required information collected for a customer profile is 4. the customer's answer to a security question.
+Customer profile, required information if registered online
+If a customer registers the physical Opal card online, the information collected in their customer profile also includes 1. their username.
+If a customer registers the physical Opal card online, the information collected in their customer profile also includes 2. their password; and
+If a customer registers the physical Opal card online, the information collected in their customer profile also includes 3. for certain concessional Opal cards which are required to be registered, an entitlement identifier.
+Optional customer profile information
+The customer is also invited to provide the following optional information for their customer profile: the customer's date of birth (to assist in customer authentication).
+The customer is also invited to provide the following optional information for their customer profile: the customer's mobile number (to assist in customer communication).
+The customer is also invited to provide the following optional information for their customer profile: the customer's email address (to assist in customer communication); and
+The customer is also invited to provide the following optional information for their customer profile: if a customer wishes to establish an auto-load facility (also called an "auto top up") for a registered Opal card, or to store their payment details for a registered Opal card on the Opal Ticketing System, such bank account, credit card and payment details as may be necessary to establish the auto-load facility or to store the payment details.
+The customer profile is stored on a central usage database (Customer Relationship Management Database) and we are able to link that information to 1. the Opal card number of the registered Opal card; and
+The customer profile is stored on a central usage database (Customer Relationship Management Database) and we are able to link that information to 2. information about how, when and where a registered Opal card has been used.
+Transport Connect and Opal Services
+TfNSW collects your personal information to administer, manage and operate Transport Connect and Opal Services.
+If a customer registers for Transport Connect and Opal Services, the information collected includes 1. name.
+If a customer registers for Transport Connect and Opal Services, the information collected includes 2. email address.
+If a customer registers for Transport Connect and Opal Services, the information collected includes 3. username.
+If a customer registers for Transport Connect and Opal Services, the information collected includes 4. password.
+If a customer registers for Transport Connect and Opal Services, the information collected includes 5. mobile number.
+If a customer registers for Transport Connect and Opal Services, the information collected includes 6. delivery address.
+If a customer registers for Transport Connect and Opal Services, the information collected includes 7. physical Opal card details.
+If a customer registers for Transport Connect and Opal Services, the information collected includes 8. payment method (contactless credit card, debit card, prepaid card).
+If a customer registers for Transport Connect and Opal Services, the information collected includes 9. details of a recent trip (used as multi-factor verification of your use of the card payment method in (h)); and
+If a customer registers for Transport Connect and Opal Services, the information collected includes 10. vehicle number plate.
+TfNSW only collects information necessary for an Opal Service. TfNSW will not re-collect information already collected for Transport Connect or an Opal Service but may require a customer to re-enter data in order to verify customer or account details.
+Information collected when the Opal card is used
+We collect information about journeys made with an Opal card in order to account for fares charged, to make payments to transport operators and to manage the Opal Ticketing System. The information collected with respect to each Opal card is 1. the Opal card number of the Opal card that is used.
+We collect information about journeys made with an Opal card in order to account for fares charged, to make payments to transport operators and to manage the Opal Ticketing System. The information collected with respect to each Opal card is 2. the time and date of tap on and tap off of the Opal card.
+We collect information about journeys made with an Opal card in order to account for fares charged, to make payments to transport operators and to manage the Opal Ticketing System. The information collected with respect to each Opal card is 3. start and end location.
+We collect information about journeys made with an Opal card in order to account for fares charged, to make payments to transport operators and to manage the Opal Ticketing System. The information collected with respect to each Opal card is 4. route identifiers.
+We collect information about journeys made with an Opal card in order to account for fares charged, to make payments to transport operators and to manage the Opal Ticketing System. The information collected with respect to each Opal card is 5. journey transfers (if any).
+We collect information about journeys made with an Opal card in order to account for fares charged, to make payments to transport operators and to manage the Opal Ticketing System. The information collected with respect to each Opal card is 6. the discount (if any); and
+We collect information about journeys made with an Opal card in order to account for fares charged, to make payments to transport operators and to manage the Opal Ticketing System. The information collected with respect to each Opal card is 7. the fare charged on the Opal card.
+Further, the information collected when a customer adds value, or "tops up" an Opal card is 1. the location or channel through which value was added to the Opal card.
+Further, the information collected when a customer adds value, or "tops up" an Opal card is 2. the amount of the transaction; and
+Further, the information collected when a customer adds value, or "tops up" an Opal card is 3. the date and time of the transaction.
+If a customer chooses to register for Park & Ride TfNSW will also collect number plate details for each vehicle the customer links to their Park & Ride account.
+Services available to registered Opal cards
+Customers have the ability to take advantage of services and facilities that enable them to manage and view or find information, obtain activity statements, manage payments and establish an auto-load facility for their registered Opal cards. To enable customers to do these things, we will retain the personal information necessary to provide such services and facilities. If a customer wishes to manage such services and facilities online, the customer must provide us with their Opal card number of their registered Opal card or the username and password connected to their customer profile.
+Registration on behalf of others
+When registering an Opal card on behalf of another customer over the age of 16 1. the person making such registration must ensure that the other customer knows, understands and consents to the provision of their personal information to us and its use in accordance with this privacy policy.
+When registering an Opal card on behalf of another customer over the age of 16 2. we will be assuming that such consent has been obtained and that the other customer has read and agrees with this privacy policy, or that the person is applying on behalf of another person as their authorised representative; and
+When registering an Opal card on behalf of another customer over the age of 16 3. if the other customer's personal information has been collected or disclosed without their consent, they can contact us at any time and request that we de-register their Opal card.
+A customer may only register an Opal card belonging to a child under the age of 16, if the person is the parent or guardian of that child.
+Linking registered Opal cards to a common customer profile
+Linking generally
+Under the Opal Ticketing System customers have the ability to link one or more registered physical Opal cards (Linked Opal cards) so that they can conveniently manage the usage, payment and information connected to those physical Opal cards under one customer profile. For example, one family member will be able to manage all the family's Opal cards under one customer profile. In such circumstances, the Opal card number of all relevant registered Opal cards will be linked within the Customer Relationship Management Database and the one family member will be able to access registration details and card usage information for all those Linked Opal cards.
+When customers establish Linked Opal cards, we link their specific customer profile to 1. the Opal card number of those Linked Opal cards; and
+When customers establish Linked Opal cards, we link their specific customer profile to 2. information about how, when and where those Linked Opal cards have been used, notwithstanding the fact that those Linked Opal cards may be used and possessed by other customers.
+Customers are also advised that 1. we may disclose certain personal information about the customer profile an Opal card has been linked to (including the identity of the customer to whom that customer profile belongs, but not the payment or travel history of that customer) to any other customer who uses or possesses an Opal card linked to that customer profile; and
+Customers are also advised that 2. in some of the circumstances set out in section we may be required to disclose the fact that Linked Opal cards and the Opal card number of those cards and related usage data are linked to a particular customer profile.
+Customer obligations when linking Opal cards
+When linking an Opal card used by another customer over the age of 16 1. the customer must ensure that the other customer over the age of 16 knows, understands and consents to 1. the provision of their personal information to us and its use in accordance with this privacy policy; and
+When linking an Opal card used by another customer over the age of 16 1. the customer must ensure that the other customer over the age of 16 knows, understands and consents to 2. the disclosure of their personal information (including information about how, when and where their Linked Opal card has been used) to the customer in accordance with this privacy policy.
+the disclosure of their personal information (including information about how, when and where their Linked Opal card has been used) to the customer in accordance with this privacy policy.
+we will be assuming that such consent has been obtained and that the other customer over the age of 16 has read and agrees with this privacy policy; and
+if the personal information of the other customer over the age of 16 has been collected or disclosed without their consent, they can contact us at any time and request that we de-register their Opal card.
+A customer must only link an Opal card belonging to a child under the age of 16, if the customer is the parent or guardian of that child.
+Adding value to an Opal card, general
+When a customer adds value to an Opal card (whether registered or unregistered) by using a credit card or debit card, the customer will be providing personal information required for making a credit card or debit card payment. TfNSW does not retain identifiable payment card information. This information is instead passed directly to the relevant financial institution for processing.
+Refunds or balance transfers/adjustments
+Customers are entitled to obtain a refund, transfer or adjustment of the balance of their Opal card in certain circumstances. To enable us to respond to the customer's requests for a refund, balance transfer or balance adjustment, we may obtain personal information (normally, a name, contact number, address and email address) from the customer.
+Opal Concession cards
+The Opal Ticketing System accommodates various concessions that depend on a customer's fare entitlement status. Before a concession card is issued, the customer's eligibility status is verified (with the customer's consent) against information held or provided by various agencies and organisations such as universities, the Services Australia and Service NSW.
+Customers who use a concessional fare Opal card for travel will not have the option of using that Opal card without registering it. They must also produce the approved proof of concession eligibility on demand if required by authorised revenue protection officers or other authorised officers when they use a concessional Opal card.
+Free Opal cards
+From December 2015, Free Opal cards will be available that enable free travel for eligible customers including vision Impaired Persons
+From December 2015, Free Opal cards will be available that enable free travel for eligible customers including ex-members of the Defence Force
+Existing customers who have already been assessed as eligible will be provided with Opal cards without needing to apply or provide any additional personal information. New applicants will apply either online or by filling out a paper-based form similar to the current application process. Eligibility of new applicants will be verified with the relevant third party Certifying Authority.
+Journey data will be collected once the Opal card is used.
+Customers must also produce the approved proof of concession eligibility on demand if required by authorised revenue protection officers or other authorised officers.
+School Student Transport Subsidy
+Starting with the 2016 school year, primary and secondary school students and school-aged TAFE students eligible for free or subsidised travel to and from school or TAFE under the School Students Transport Subsidy scheme will receive school Opal cards. These cards will replace the printed school travel passes.
+Students who have already been assessed as eligible will be provided with school Opal cards without needing to apply or provide additional personal information. New applicants can apply either online or by filling out a paper-based form similar to the current application process. Eligibility will be verified by the relevant third party Certifying Authority.
+Journey data will be collected once the Opal card is used.
+Card personalisation
+Some Opal cards contain personalisation, meaning that they have the first and last name of the card holder printed on the card and in some cases "Attendant". This occurs for free Opal cards which includes but is not limited to the free travel Opal card and school Opal card. The information that appears on these Opal cards is less than the information previously printed on paper passes.
+Contacting customers
+If a customer provides us with a contact number, address or email address, the customer is consenting to us using that information to contact them and communicate with them for the purposes stated in section 3.2. This includes us contacting the customer in the event that we have an issue (such as billing or the processing of a transaction) relating to the Opal Ticketing System or an Opal card.
+Enquiries or complaints
+Personal information (normally a name, contact number, address and email address) will be obtained from a customer in order to enable us to respond to the customer's enquiries or complaints.
+Emails
+When a customer sends an email to us, we record their email address. Emails sent via opal.com.au are treated as state records and will be retained in compliance with relevant legislation. Email messages may be monitored for system troubleshooting and maintenance purposes.
+Health or other sensitive information 
+The following health information is collected in relation to customers entitled to particular concessions based on health or disability-related grounds: information to substantiate an applicant's eligibility for a Vision Impaired Person's concession or ex-Defence concession.
+The following health information is collected in relation to customers entitled to particular concessions based on health or disability-related grounds: information about School Students Transport Subsidy applicants who are not eligible for concession entitlements because they are within the geographical boundary but seek entitlement for health or disability requirements.
+We do not collect sensitive information, such as ethnic or racial origin, political opinions, religious or philosophical beliefs, trade union membership or sexual activities that attract particular protection under PPIPA or HRIPA. We do not collect any information about a customer's criminal record.
+Travel using unregistered cards 
+Choice in providing personal information 
+Adult full-fare and Child / Youth half-fare customers may choose not to register their Opal cards. For travel on unregistered physical Opal cards, providing personal information for the purposes of the Opal Ticketing System is voluntary.
+Customers who wish to travel anonymously may do so by 1. using a physical Opal card that has been acquired and topped up with cash and has not been registered; or
+Customers who wish to travel anonymously may do so by 2. using an Opal Single Trip Ticket and paying cash for it.
+Use of a physical Opal card to pay for public transport fares will be anonymous for customers who do not register their Opal card and always top up with cash. However, we will have non-personal information relating to travel connected to an unregistered physical Opal card using the card's Opal card number and we could potentially be required to disclose that information in the manner described in section 6 below.
+Unregistered card: what is collected? 
+When a customer uses an unregistered physical Opal card for travel, the Opal Ticketing System will have a record of the Opal card number and the travel associated with that card. If an unregistered physical Opal card was acquired and topped up with cash, we will not have collected or hold any personal information about the customer, nor will we have a record of the identity of the customer who made the top up.
+However, if required or authorised by law or in other circumstances described in section 6, we may be required to disclose the Opal Channel through which an unregistered physical Opal card was acquired and the travel history connected to an unregistered physical Opal card. The unregistered physical Opal card and its related activity may be matched to a customer (for example by law enforcement agencies) by using other evidence such as video footage or a camera image of the customer.
+Facilities available to holders of unregistered cards 
+Notwithstanding the above, customers using unregistered Opal cards may check the balance of their unregistered physical Opal card by tapping it on at an Opal card reader; 
+Notwithstanding the above, customers using unregistered Opal cards may check the balance of their unregistered physical Opal card or information on recent activity through any Opal Channel, by providing the Opal card number of the unregistered physical Opal card and, in some cases, the card security code (a four digit number that appears after the padlock icon on the back of the Opal card) of the unregistered Opal card.
+Notwithstanding the above, customers using unregistered Opal cards may view the last 10 Opal card activities
+Benefits available only to holders of registered cards 
+Where customers choose to provide their personal information and register their Opal cards, they will be able to take advantage of the services, facilities and balance protection available for registered Opal cards. The advantages of registering an Opal card are that 1. the balance of a registered physical Opal card that is lost or stolen will be protected, while the balance of an unregistered physical Opal card that is lost or stolen will not be protected; and
+Where customers choose to provide their personal information and register their Opal cards, they will be able to take advantage of the services, facilities and balance protection available for registered Opal cards. The advantages of registering an Opal card are that 2. customers will be able to use services related to card ordering, setting up payment or notification preferences, adding value to Opal card balances automatically through stored payment details, setting up payment or notification preferences and viewing detailed travel history, these services are not available for unregistered cards.
+Travel using CTP 
+Viewing activity 
+Viewing activity on an unregistered CTP account
+When using an unregistered view of CTP activity, customers will be able to view mode of transport
+When using an unregistered view of CTP activity, customers will be able to view tap on/tap off time
+When using an unregistered view of CTP activity, customers will be able to view date of travel
+When using an unregistered view of CTP activity, customers will be able to view fare cost
+When using an unregistered view of CTP activity, customers will be able to view the number of trips displayed will be limited to either those trips undertaken in the last single reconciliation period (i.e a day) or the last 10 trips (whichever is greater).
+Viewing activity on a registered CTP account
+For a registered customer, trip history will no longer be available without logging into the associated Transport Connect account (as is the case with Opal) (i.e. a customer who has already registered their CTP card will not be able to access the unregistered view)
+Use and disclosure of personal information 
+Use of personal information 
+We will use the personal information we collect for the purposes set out in section and as otherwise set out in this policy.
+Contractors
+TfNSW engages contractors to deliver aspects of the Opal Ticketing System on TfNSW's behalf. We need to exchange personal information with those contractors. The main contractor engaged by us to implement, manage and operate the Opal Ticketing System is Cubic Transport Systems Pty Limited (Cubic). Cubic is the lead contractor for the Pearl Consortium which also includes the Commonwealth Bank of Australia, Flowbird Pty Ltd and Epay Australia Pty Ltd.
+The main contractors engaged by us to implement, manage and operate the Opal Digital Card are MasterCard Australia, EML Payments, and the Commonwealth Bank of Australia.
+TfNSW is responsible for ensuring that contractual arrangements with these and other contractors include appropriate privacy provisions to protect customers' personal information and enable TfNSW to meet its obligations under privacy law.
+Park & Ride
+Access to some TfNSW-operated commuter carparks is now discounted for commuters travelling on any public transport mode, except for the Route F1: Manly Ferry Eligibility for discounted parking is subject to certain conditions, including having tapped off a public transport journey using an accepted Opal card within 18 hours after entering the carpark.
+When exiting the carpark, commuters tap their Opal cards on the Opal reader located on the ticket machine at the car park exit. The machine reads the data stored on the Opal Card to validate that a valid journey has occurred. If so, commuters receive discounted parking. If not, the full parking charge will apply.
+The Opal card number is hashed by the machine reader as soon as it is received and validated against the journey information.
+Hashed Opal card numbers and de-identified journey data may be stored by TfNSW and used for internal planning and research purposes.
+Entry to a TfNSW-operated commuter carpark is conditional on consent to the use of Opal card tap-off information being used in the way described to validate eligibility for free parking. Opal cards may be registered or unregistered for this purpose.
+See the Transportnsw.info website for more information about Conditions of Entry to commuter carparks.
+Disclosure to third parties 
+Personal information about customers may also be disclosed to third parties with customer consent, or in the following circumstances in accordance with PPIPA.
+A bank or financial institution
+For customers who top up online, who establish an auto-load facility, or who register for Opal Digital Card, their personal and account information is provided to financial institutions in order to facilitate payments.
+Other government agencies
+We will disclose certain personal information to other government agencies to validate customer entitlement to concession Opal cards. Those agencies include the Services Australia and Service NSW. In addition, if functions relating to the Opal Ticketing System (such as information services or software development) are performed by other government agencies (whether State or Commonwealth), or statutory bodies such as IPART, we may need to disclose personal information to them.
+Passenger Transport Operators
+We will disclose certain information collected when the Opal card is used as set out in clause (excluding Opal card numbers, but including Opal card type) to 1. other Transport cluster agencies (including Sydney Trains, NSW Trains and Sydney Metro) for the purpose of these agencies meeting their statutory objectives of delivering safe and reliable passenger services in an efficient and effective manner; and
+We will disclose certain information collected when the Opal card is used as set out in clause (excluding Opal card numbers, but including Opal card type) to 2. private bus and ferry operators for the purpose of these operators meeting their contractual obligations and objectives to deliver safe, efficient and reliable passenger services.
+On Demand Transport Operators
+We will disclose certain information collected when a customer links their Opal Demand Travel Credit account with their On Demand Travel Service account. We disclose this information for the purpose of providing On Demand Travel Credits to participants when they change modes of transport within 60 minutes. On Demand Travel Credits can be used to pay for future On Demand Travel services.
+Research organisations
+De-identified information may be disclosed to research organisations for the purpose of analysing data about our services to assist in improving the delivery of our functions and activities. Public transport operators may also obtain de-identified information from us for the purposes set out in section which includes planning and management purposes.
+Revenue protection
+Authorised revenue protection officers and NSW Police Transport Command are responsible for enforcing ticketing compliance and monitoring public transport fare evasion. Some of them will be using hand held Opal card readers in order to read an Opal card balance, recent transaction history and the concession status of the Opal card. If required, we and they may combine this information with other personal information obtained directly from a customer in order to generate a compliance report for enforcement purposes.
+These officers may also check the travel history connected to a customer's concessional or free travel Opal card in order to ascertain whether that customer has complied with the travel conditions or rules applicable to the use of that concessional or free travel Opal card.
+Law enforcement
+We may disclose personal information or travel history for law enforcement purposes, for the investigation of an offence, for the enforcement of criminal law or to law enforcement agencies to assist in locating a missing person.
+While this is permitted under PPIPA, we have introduced the following additional governance mechanisms for disclosure of Opal information to law enforcement agencies to ensure that information is only disclosed in relation to legitimate enforcement or investigation of serious offences where there is a public interest in such disclosure: a Memorandum of Understanding between TfNSW and NSW Police governing exchange of Opal information.
+While this is permitted under PPIPA, we have introduced the following additional governance mechanisms for disclosure of Opal information to law enforcement agencies to ensure that information is only disclosed in relation to legitimate enforcement or investigation of serious offences where there is a public interest in such disclosure: business Rules placing limitations on the circumstances in which information will be disclosed and the amount of information that will be disclosed.
+While this is permitted under PPIPA, we have introduced the following additional governance mechanisms for disclosure of Opal information to law enforcement agencies to ensure that information is only disclosed in relation to legitimate enforcement or investigation of serious offences where there is a public interest in such disclosure: requirements that law enforcement agencies obtain the proper authorisation from an officer of Inspector level or above before requests can be submitted or considered.
+While this is permitted under PPIPA, we have introduced the following additional governance mechanisms for disclosure of Opal information to law enforcement agencies to ensure that information is only disclosed in relation to legitimate enforcement or investigation of serious offences where there is a public interest in such disclosure: audit provisions.
+Disclosure decisions are made on a case by case basis. Law enforcement agencies do not have direct access to Opal customer information.
+Requirement by law
+We may disclose personal information to third parties when we are permitted or required to do so by law. For example, we may disclose personal information in response to a warrant or subpoena.
+Threat to life or health
+We may disclose personal information to third parties where we reasonably believe that the disclosure is necessary to prevent or lessen a serious and imminent threat to the life or health of a person.
+Contactless Payments
+To process a customer refund for Opal Ticketing System travel paid for with a Device, TfNSW will need to disclose certain de-identified information about the Device and the transaction to the issuing financial institution. The information disclosed to the issuing financial institution will be encrypted.
+While the Device and the transaction information is not personal information, the payment card Scheme is designed so that the issuing financial institution may re-identify the customer through cross-matching with personal information already held by the issuing financial institution (as the customer is the issuer's customer), in order to correctly attribute the expenditure to the customer.
+Marketing 
+We will only send marketing materials to customers who have consented to receiving them by ticking the box in the relevant online form on the Opal Website, by calling Opal Customer Care or by contacting a Customer Service Centre.
+Accuracy, data storage and security 
+Reliance on customer for accuracy of information 
+While we take such steps as are reasonable in the circumstances to ensure that, having regard to the purpose for which it is to be used, the information we collect is relevant, correct, not misleading and up to date, we will be relying on our customers to provide us with accurate and up to date personal information. It is in each customer's best interests for their address to be correct, for them to be readily contactable and for there to be clarity over their identity or personal information.
+The steps we take in the collection of personal information include training staff about collection of personal information from customers and adopting processes for customers to update or correct their personal information.
+Central usage databases 
+Personal information on the use of Opal cards will be periodically uploaded to various databases including the Customer Relationship Management Database, a travel history database and a card issuance database. This information will be retained in a way that can link personal information to a customer's Opal card for as long as is reasonably needed to answer questions from the customer, to reconcile any payments and in any event will be retained for the period required by law. We de-identify personal information before using it for transport planning and statistical purposes.
+Security 
+We are committed to protecting the privacy and security of the personal information provided to us.
+We adopt relevant industry standards, such as the NSW Government Cloud Services Policy and Guidelines; Payment Card Industry Data Security Standard (PCI DSS); State Records Standard on Records Management to protect our customers' personal information from misuse, loss and unauthorised access, modification or disclosure.
+Customers are also required to assist us by complying with security measures designed to protect their Opal cards, usernames (and other identification codes) and passwords that are set out in the Opal Terms of Use which can be viewed via opal.com.au.
+Online 
+Collection of information via Opal Website or Opal Travel App 
+Opal Website
+We will be collecting information through the use of cookies on the activity on the Opal Website. Information about cookies is in section below. This information includes 1. the number of users visiting the Opal Website and other TfNSW websites which the Opal Website may rely on to provide information relevant to customers.
+We will be collecting information through the use of cookies on the activity on the Opal Website. Information about cookies is in section below. This information includes 2. the date and time of those visits.
+We will be collecting information through the use of cookies on the activity on the Opal Website. Information about cookies is in section below. This information includes 3. the number of pages that customers view.
+We will be collecting information through the use of cookies on the activity on the Opal Website. Information about cookies is in section below. This information includes 4. customers' web navigation patterns.
+We will be collecting information through the use of cookies on the activity on the Opal Website. Information about cookies is in section below. This information includes 5. the countries from which customers accessed the Opal Website; and
+We will be collecting information through the use of cookies on the activity on the Opal Website. Information about cookies is in section below. This information includes 6. when entering any third party website, the address of that website.
+Opal Travel App
+We will be collecting personal information from registered Opal card users who provide and update their personal information through the Opal Travel App.
+We will also be collecting cookies and other metadata about the activity of users through the Opal Travel App. Information about cookies is in section below.
+We do not collect any health information or sensitive information via the Opal Travel App.
+Location Data
+The Opal Travel App makes use of location data to enhance the trip planning service. You can turn off this functionality at any time by turning off the location services settings for the Opal Travel App on Your device.
+Cookies 
+A 'cookie' is a packet of information that allows the server (the computer that hosts the website) to identify and interact more effectively with the customer's computer.
+When a customer uses the Opal Website or the Opal Travel App, we send them a cookie that gives them a unique identification number. A different identification number is sent each time the Opal Website or Opal Travel App is used. Cookies do not identify individual users, although they do identify a user's browser type and the customer's Internet Service Provider (ISP).
+Customers can configure browsers to accept all cookies, reject all cookies or notify them when a cookie is sent. Customers can refer to browser instructions or help screens on the computer to learn more about these functions.
+Purpose of collection 
+Cookies and other metadata
+Cookies and other metadata obtained through the Opal Website and the Opal Travel App is collected and used by us to evaluate how users interact and use the Opal Website and the Opal Travel App and so that we can assess and improve the effectiveness of the Opal Website and the Opal Travel App.
+Other Travel App information
+Opal Travel App information is collected by us for the following purposes: to facilitate your use of the Opal card and the Opal Travel App; and
+Opal Travel App information is collected by us for the following purposes: to facilitate your ability to manage and update your Opal account details such as your address details.
+Disclosure or use by third parties 
+Cookies and other metadata
+To evaluate the effectiveness of the Opal Website and the Opal Travel App we may use third parties, including Google Analytics to collect statistical data and reports about your activity and usage of the Opal Website and Opal Travel App. Google Analytics is a service provided by Google Inc (Google). This information does not identify individual users by name but may identify information about your device or use of the Opal Website or Opal Travel App, such as your IP address.
+The data generated by Google through Google Analytics may be transmitted and stored on servers located overseas. You can obtain more information about Google Analytics by visiting website_url_lnk
+Opal Travel App
+In order for certain Opal Travel App functionalities to work and to enable the correction and update of registered Opal card users' information through the Opal Travel App, the Opal Travel App needs to exchange information with the Electronic Ticketing System. The Electronic Ticketing System is administered by a third party, Cubic.
+Links to other websites 
+The Opal Website and the Opal Travel App may contain links to other non-TfNSW websites. Whilst such links are provided for convenience, customers should be aware that the information handling practices of the linked websites might not be the same as ours.
+Marketing 
+We will only send marketing materials to customers who have opted in to receiving them by ticking the box in the relevant online form on the Opal Website, by calling Opal Customer Care or by contacting a Customer Service Centre.
+Access to personal information 
+Accessing and correcting personal information 
+Customers can access, review or correct the below personal information by 1. logging into their account at the Opal Website and following the procedure for accessing, reviewing and correcting their information contained in their customer profile, if they have established an online Opal card account.
+Customers can access, review or correct the below personal information by 2. logging into or accessing the Opal Travel App as detailed below; or
+Customers can access, review or correct the below personal information by 3. contacting Opal Customer Care or enquiring at a Customer Service Centre to access, review or correct the above personal information and any other personal information and health information collected or obtained by TfNSW in connection with the Opal card and the Opal Ticketing System.
+Customers may be asked questions about their account or to provide other information in order to identify themselves before being allowed to access, review or correct their personal information.
+We will enable you to access and correct your personal information and health information in accordance with the PPIPA and HRIPA.
+Opal Travel App 
+The Opal Travel App facilitates the ability for registered Opal card customers to access, view and correct information related to their Opal card account by logging into their Opal card account. The following information may be accessed via the Opal Travel App: name.
+The Opal Travel App facilitates the ability for registered Opal card customers to access, view and correct information related to their Opal card account by logging into their Opal card account. The following information may be accessed via the Opal Travel App: Opal card identification number .
+The Opal Travel App facilitates the ability for registered Opal card customers to access, view and correct information related to their Opal card account by logging into their Opal card account. The following information may be accessed via the Opal Travel App: address.
+The Opal Travel App facilitates the ability for registered Opal card customers to access, view and correct information related to their Opal card account by logging into their Opal card account. The following information may be accessed via the Opal Travel App: billing details (including payment card number and card verification value or CVV) for the purposes of automated top-up of Opal cards; and
+The Opal Travel App facilitates the ability for registered Opal card customers to access, view and correct information related to their Opal card account by logging into their Opal card account. The following information may be accessed via the Opal Travel App: Opal card balance and some travel history.
+Opal card customers (whether their Opal card is registered or not) may also access information about their Opal card use (including limited travel history) if they have NFC functionality enabled. NFC functionality enables Android users to scan their Opal card against their device to obtain certain limited information about their Opal Card, including 1. details of the last transaction (that is, whether it was a tap on or tap off, when and on which mode of transport- for example, tapped on at 12:37, 18 January 2016 on ferry).
+Opal card customers (whether their Opal card is registered or not) may also access information about their Opal card use (including limited travel history) if they have NFC functionality enabled. NFC functionality enables Android users to scan their Opal card against their device to obtain certain limited information about their Opal Card, including 2. CIN.
+Opal card customers (whether their Opal card is registered or not) may also access information about their Opal card use (including limited travel history) if they have NFC functionality enabled. NFC functionality enables Android users to scan their Opal card against their device to obtain certain limited information about their Opal Card, including 3. the last transaction number; and
+Opal card customers (whether their Opal card is registered or not) may also access information about their Opal card use (including limited travel history) if they have NFC functionality enabled. NFC functionality enables Android users to scan their Opal card against their device to obtain certain limited information about their Opal Card, including 4. the journey count (the number of journeys taken since 4 am on Monday).
+The only information that may be corrected or updated via the Opal Travel App is the information that you have provided to us as opposed to information related to your use of the Opal card. For example, you may correct your name, address and billing details. However, you cannot correct your travel history via the Opal Travel App.
+Privacy officer 
+We have appointed a privacy officer as a person to handle privacy issues under this policy.
+The contact details of our privacy officer are the Opal Privacy Officer
+Transport for NSW 
+PO Box K659 
+Haymarket NSW 1240 
+Email: opalprivacy@transport.nsw.gov.au
+Complaints 
+Complaints procedure 
+We are committed to protecting customer privacy and complying with PPIPA and HRIPA. We aim to deal with all matters quickly and we encourage customers to raise privacy issues with a Customer Service Centre first so we can resolve issues if possible.
+Customers can make a privacy enquiry or complaint by 1. speaking to Opal Customer Care by calling 13 6725 (13 OPAL).
+Customers can make a privacy enquiry or complaint by 2. writing to our privacy officer at the address specified in section 9.3; or
+Customers can make a privacy enquiry or complaint by 3. completing our enquiry form online at the Opal Website and indicating that the enquiry relates to privacy and sending it to us (see our contact details set out in section 10).
+Internal reviews 
+If a customer's complaint is not resolved or a customer is aggrieved by our actions in handling personal information, they have a right to request an internal review.
+An internal review is an internal investigation that we conduct into a complaint pursuant to PPIPA. In the review we will assess whether or not we have complied with our privacy obligations and then advise the customer of our findings and what we will do as a result. We will also notify the NSW Privacy Commissioner about the review and its outcomes.
+If the customer is not satisfied with the outcome of an internal review they can appeal to the NSW Civil and Administrative Tribunal.
+A request for an internal review should be made in writing to tfNSW's Privacy Officer
+Transport for NSW 
+PO Box K659 
+Haymarket NSW 1240
+Email: privacy@transport.nsw.gov.au
+Notifying customers about security breaches relating to privacy 
+We will take reasonable steps to protect personal information from loss, unauthorised access, unauthorised use or disclosure. In the event of a security breach that affects a customer's personal information, we will act in accordance with the Transport-wide procedure for responding to privacy breaches involving personal information.
+Effective date: This policy is effective from 20 September 2022. This privacy policy can be accessed by customers via transportnsw.info/opal
+Share Tweet 

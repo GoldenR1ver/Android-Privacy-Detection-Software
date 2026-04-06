@@ -1,0 +1,91 @@
+Legal notice apps
+Publisher
+Technische Universität Ilmenau 
+Der Präsident 
+Ehrenbergstrasse 29 
+98693 Ilmenau
+Contact
+Tel.: +49 3677 69-0 
+Fax: +49 3677 69-1701
+The TU Ilmenau is a public corporation. It is legally represented by the provisional director, Prof. Univ.-Prof. Dr.-Ing. habil. Kai-Uwe Sattler.
+VAT identification-No. after § 27 a UStG: DE 195 822 483
+Regulatory agency
+Thüringer Ministerium für Wirtschaft, Wissenschaft und Digitale Gesellschaft Max-Reger-Str. 4-8 99096 Erfurt
+Further information and contact persons for questions and suggestions can be found on the Internet at website_url_lnk TU-Ilmenau is not liable for incorrect information, transmission errors, technical availability or consequential damages of any kind. All information without guarantee.
+Privacy policy
+We are aware of how important the careful handling of your personal data is. We are pleased about your use of the apps "Flora Incognita" and "Flora Capture" and would like to show you transparently if and when your personal data is collected, processed and used. We ensure that we comply fully with data protection regulations at all times.
+Data collection and processing
+All data collection and use is carried out for the purpose of making a scientific contribution to the "Flora Incocnita" project. Which data is collected and to what extent can result from technical necessities or explicit user requests. This will be explained in more detail below.
+Which data are collected?
+When using this app, the following data are collected and stored on the project server (location project server: Campus of TU Ilmenau/Ilmenau/Germany): user name and password within the scope of registration
+When using this app, the following data are collected and stored on the project server (location project server: Campus of TU Ilmenau/Ilmenau/Germany): observation details
+When using this app, the following data are collected and stored on the project server (location project server: Campus of TU Ilmenau/Ilmenau/Germany): recorded images
+When using this app, the following data are collected and stored on the project server (location project server: Campus of TU Ilmenau/Ilmenau/Germany): meta data of the images according to the end device (recording coordinates, recording time, recording parameters, type of end device)
+When using this app, the following data are collected and stored on the project server (location project server: Campus of TU Ilmenau/Ilmenau/Germany): identification of the user (user name) during transmission as registered user or randomly generated user ID (during transmission as guest)
+When using this app, the following data are collected and stored on the project server (location project server: Campus of TU Ilmenau/Ilmenau/Germany): iP address of the terminal device during transmission
+When using this app, the following data are collected and stored on the project server (location project server: Campus of TU Ilmenau/Ilmenau/Germany): device type/device model and operating system version
+When using this app, the following data are collected and stored on the project server (location project server: Campus of TU Ilmenau/Ilmenau/Germany): when the app is started, the species list and statistics are synchronized with the observations made so far. The IP address of the terminal device is stored in the log data of the server.
+Collection of own location data
+In order to determine the species as accurately as possible, we need access to the location of your device. When creating the plant images, we collect your current location via GPS with your consent in order to obtain information about the location of the plant. The transmission takes place only if you grant the appropriate authorizations. Data on your location will only be used to create a new plant observation. The transmission of your location data takes place via an encrypted connection. Your location data will be anonymized after synchronizing the images and statistically evaluated for our scientific work. Location data of your plant observations are very important for our scientific work. This is the only way to document distribution patterns and flowering periods. With your plant observations you make a decisive contribution to science and nature conservation.
+Depending on the operating system, your consent can be obtained after downloading the app or by a dialogue during the runtime of the app. You can deactivate access to the location data in the device settings. You can read the data protection declaration at any time in the menu item "Imprint & data protection declaration".
+How do we use the information we collect?
+At the start of the app, the species list and statistics are synchronized with the observations made so far. In the long run, the data will be anonymized and transferred to a data set which we may want to make freely available for research purposes and nature conservation authorities in the long run.
+We have the possibility to send you information by e-mail in order to inform you about project specific news. You can unsubscribe at any time without any problems, which does not affect further use of the apps.
+Responsibilities and rights of data subjects
+Responsible office and contact
+TU Ilmenau is responsible for collecting and using your data. If you have any questions, suggestions and criticism regarding the app, please contact support@floraincognita.com.
+For questions and suggestions regarding data protection, you can send an e-mail to: support@floraincognita.com
+Rights of data subjects
+You can request information about which data are stored about you.
+You can request correction, deletion and blocking if there is a legal basis for it.
+If you have set up a customer account, you can have it deleted.
+To exercise your rights, simply send a letter by post to
+Prof. Dr. Patrick Mäder Technical University Ilmenau P. O. Box 100565 98684 Ilmenau, Germany or email to support@floraincognita.com
+Encryption
+To protect the data in your user account, the connection to the user account is always encrypted. Since the confidentiality of the information transmitted during transmission is not guaranteed when you contact us by e-mail, we recommend that you send confidential information only by letter.
+Disclosure of data
+We do not pass on any personal data to third parties. If we use subcontractors, they will be contractually bound by us and obliged to comply with data protection regulations. We will only transmit personal data if we have expressly informed you beforehand and you have given us your consent. In the long term, the data will be anonymised and transferred to a data set which we may wish to make freely available for research purposes and nature conservation authorities.
+Information on the use of the plants
+The information on the use of plants for medicinal or culinary purposes is partly taken over from the sources given without verification. An automatic determination is no encouragement, permission or suggestion to continue using the plant. Please inform yourself in more detail if you intend to do so.
+Project partner and funding
+The Flora Incognita apps are a common effort of the Technical University Ilmenau and the Max Planck Institute for Biogeochemistry Jena. Their development was funded by the Federal Ministry of Education and Research, the Federal Agency for Nature Conservation with funds from the Federal Ministry for the Environment, Nature Conservation and Nuclear Safety as well as the Thuringian Ministry for Environment, Energy and Nature Conservation and the Thuringia Nature Conservation Foundation. The project was recognized as an official project of the "UN Decade of Biodiversity".
+The app is currently available in 18 languages. We ourselves are not that eloquent, so we would like to express our gratitude to the numerous translators at this point. We thank A. Bebber (English), J. Pacheco and L. Estupinan-Suarez (Spanish), C. Sacher and S. Vautelin (French), D. Martini and M. Migliavacca (Italian), M. Chen (Chinese), M. Todorova Tomova (Bulgarian), J. Pärtel (Estonian), M. Schulz and B. Färber (Norwegian), D. Florea (Romanian), R. Styszyski (Polish), A. Kunnari (Finnish), M. Pallaandt (Dutch), M. Franze (Swedish), P. Dérer (Hungarian), V. Ishchuk (Ukrainian), G. Matthies and J. Kubi­k (Czech).
+Social media
+Twitter
+Mastodon
+Facebook
+Instagram
+YouTube
+Latest News
+Ilmenau Science Night and Max Planck Day 202324. August 2023, 12:57
+How to export your Flora Incognita records to a custom map (Google Maps, QGIS and R) 5. July 2023, 16:24
+Press Release: New AI for Flora Incognita18. April 2023, 10:51
+Project management
+Prof. Dr. Patrick Mäder 
+Technische Universität Ilmenau
+Dr. Jana Wäldchen 
+Max-Planck-Institut für Biogeochemie
+Contact
+support@floraincognita.com
+Impressum
+Scroll to top
+Diese Webseite nutzt Cookies. Standardmäßig verwenden wir nur technisch notwendige Cookies.
+Technisch notwendige Cookies erlaubenAlle Cookies erlaubenEinstellungen
+Cookie and Privacy Settings
+Wie wir Cookies verwenden
+2
+3
+4
+5
+Wie wir Cookies verwenden
+Die Flora Incognita-Website verwendet Cookies, die für den technischen Betrieb notwendig sind. Darüber hinaus werden Cookies für komfortablere Website-Einstellungen verwendet. Du kannst frei entscheiden, welche dieser Cookies Du zulassen möchtest. Eine erteilte Einwilligung kann jederzeit widerrufen werden. Weitere Informationen sind in unserer Datenschutzrichtlinie zu finden. 
+Google Webfont Einstellungen.
+Click to enable/disable Google Webfonts.
+Vimeo und YouTube Einstellungen click to enable/disable video embeds.
+2
+3
+4
+5
+Einstellungen akzeptieren
+Check to enable permanent hiding of message bar and refuse all cookies if you do not opt in. We need 2 cookies to store this setting. Otherwise you will be prompted again when opening a new browser window or new a tab.
+Click to enable/disable essential site cookies.

@@ -1,0 +1,128 @@
+（备案号：粤ICP备15084417号-2A） 
+HealthWear是"深圳市玉成创新科技有限公司"自主研发的一款软件。HealthWear尊重并保护所有使用服务用户的个人隐私权。HealthWear会按照本隐私权政策的规定使用和披露您的个人信息。但HealthWear将以高度的勤勉、审慎义务对待这些信息。除本隐私权政策另有规定外，在未征得您事先许可的情况下，HealthWear不会将这些信息对外披露或向第三方提供。HealthWear会不时更新本隐私权政策。您在同意HealthWear服务使用协议之时，即视为您已经同意本隐私权政策全部内容。本隐私权政策属于HealthWear服务使用协议不可分割的一部分。 
+1.适用范围
+(a)在您注册HealthWear帐号时，您根据HealthWear要求提供的个人注册信息（例如姓名、出生日期、性别、个人资料）； 
+(b)您的设备收集数据来估计各种指标，例如您所走的步数、行走的距离、燃烧的卡路里、体重、心率、睡眠阶段、活跃分钟数和位置。收集的数据因您使用的设备而异。 (c)在您使用HealthWear网络服务，或访问HealthWear平台网页时，HealthWear自动接收并记录的您的浏览器和计算机上的信息，包括但不限于您的IP地址、浏览器的类型、使用的语言、访问日期和时间、软硬件特征信息及您需求的网页记录等数据； 
+HealthWear通过合法途径从商业伙伴处取得的用户个人数据。 
+2.您了解并同意，以下信息不适用本隐私权政策：
+(a)您在使用HealthWear平台提供的搜索服务时输入的关键字信息； 
+HealthWear收集到的您在HealthWear发布的有关信息数据，包括但不限于参与活动、成交信息及评价详情； 
+(c)违反法律规定或违反HealthWear规则行为及HealthWear已对您采取的措施。 
+3.信息使用：
+HealthWear不会向任何无关第三方提供、出售、出租、分享或交易您的个人信息，除非事先得到您的许可，或该第三方和HealthWear（含HealthWear关联公司）单独或共同为您提供服务，且在该服务结束后，其将被禁止访问包括其以前能够访问的所有这些资料。 
+HealthWear亦不允许任何第三方以任何手段收集、编辑、出售或者无偿传播您的个人信息。任何HealthWear平台用户如从事上述活动，一经发现，HealthWear有权立即终止与该用户的服务协议。 
+(c)使用我们收集的信息，我们能够向您提供服务并履行我们与您签订的服务条款合同。例如，我们需要使用您的信息为您提供HealthWear仪表板，跟踪您的锻炼、活动和其他趋势；对于服务的社区功能，我们可能会使用您的信息来帮助您找到其他用户并与其他用户联系，并允许其他用户找到您并与您联系。例如，您的帐户联系信息允许其他用户将您添加为朋友。 (d)我们还使用您的信息进行推断并向您展示更多相关内容。这里有些例子： 
+4.信息披露：
+在如下情况下，HealthWear将依据您的个人意愿或法律的规定全部或部分的披露您的个人信息： 
+(a)经您事先同意，向第三方披露； 
+(b)为提供您所要求的产品和服务，而必须和第三方分享您的个人信息； 
+(c)根据法律的有关规定，或者行政或司法机构的要求，向第三方或者行政、司法机构披露； 
+(d)如您出现违反中国有关法律、法规或者HealthWear服务协议或相关规则的情况，需要向第三方披露； 
+(e)如您是适格的知识产权投诉人并已提起投诉，应被投诉人要求，向被投诉人披露，以便双方处理可能的权利纠纷； 
+(f)在HealthWear平台上创建的某一交易中，如交易任何一方履行或部分履行了交易义务并提出信息披露请求的，HealthWear有权决定向该用户提供其交易对方的联络方式等必要信息，以促成交易的完成或纠纷的解决。 
+(g)其它HealthWear根据法律、法规或者网站政策认为合适的披露。 
+5.信息存储和交换：
+HealthWear收集的有关您的信息和资料将保存在HealthWear及（或）其关联公司的服务器上，这些信息和资料可能传送至您所在国家、地区或HealthWear收集信息和资料所在地的境外并在境外被访问、存储和展示。 
+6.信息安全：
+HealthWear帐号均有安全保护功能，请妥善保管您的用户名及密码信息。HealthWear将通过对用户密码进行加密等安全措施确保您的信息不丢失，不被滥用和变造。尽管有前述安全措施，但同时也请您注意在信息网络上不存在"完善的安全措施"。 
+(b)在使用HealthWear网络服务进行网上交易时，您不可避免的要向交易对方或潜在的交易对方披露自己的个人信息，如联络方式或者邮政地址。请您妥善保护自己的个人信息，仅在必要的情形下向他人提供。如您发现自己的个人信息泄密，尤其是HealthWear用户名及密码发生泄露，请您立即联络HealthWear客服，以便HealthWear采取相应措施。 
+7.自启动和关联启动说明：
+(a)为确保本应用处于关闭或后台运行状态下可正常接收到客户端推送的广播信息，本应用须使用(自启动)能力，将存在一定频率通过系统发送广播唤醒本应用自启动或关联启动行为，是因实现功能及服务所必要的。 
+8.如何处理儿童的个人信息
+我们的产品、网站和服务主要面向成年人设计。未经父母或监护人同意，任何儿童不得自行创建个人信息主体帐户。如果儿童的个人信息是在征得其父母同意的情况下收集的，我们将仅在法律允许、儿童的父母或监护人明确同意或者为保护儿童而有必要的情况下使用或公开披露这些信息。 我们将 16 岁以下的未成年人视为儿童，无论当地法律和当地习俗对儿童的定义是否不同。如果我们发现我们在未经儿童父母事先、可证明同意的情况下收集了儿童的个人信息，我们将尽最大努力尽快删除相关信息。 
+9.注销账号
+您可以通过路径："HealthWear-我的-安全设置-注销账号"注销您的HealthWear账号 
+在您注销HealthWear账号后，我们将停止为您提供HealthWear的全部产品和/或服务，并衣服法律法规相关要求通过匿名化等方式处理您的个人信息，或删除与您账号相关的个人信息，但法律法规或监管机构对用户信息存储时间另有规定的除外。 
+10.本隐私政策的更改：
+(a)如果决定更改隐私政策，我们会在本政策中、本公司网站中以及我们认为适当的位置发布这些更改，以便您了解我们如何收集、使用您的个人信息，哪些人可以访问这些信息，以及在什么情况下我们会透露这些信息。 
+(b)本公司保留随时修改本政策的权利，因此请经常查看。如对本政策作出重大更改，本公司会通过网站通知的形式告知。 
+请您妥善保护自己的个人信息，仅在必要的情形下向他人提供。如您发现自己的个人信息泄密，尤其是HealthWear用户名及密码发生泄露，请您立即联络HealthWear客服，以便HealthWear采取相应措施。 如您对本政策或其他相关事宜有疑问，请通过邮箱发送至postmaster@ycinnovate.com与我们联系。 
+APK获取的敏感隐私权限，在下表中填写对应权限的使用场景和相关说明。权限名称和权限说明请见附录A。 
+应用名称： HealthWear 
+应用包名： com.yucheng.healthwear 
+附录A 
+android.permission. BLUETOOTH android.permission. ACCESS_BACKGROUND_LOCATION android.permission. ACCESS_FINE_LOCATION android.permission. ACCESS_COARSE_LOCATION android.permission. BLUETOOTH_ADMIN. 应用需要获取用户位置信息，以计算跑动距离. 搜索Ble 手环也需用到.退到后台也需要定位,最后画出轨迹。. 应用首页->"运动"tab页->跑步. 
+android.permission. READ_SMS android.permission. CALL_PHONE android.permission. ACCESS_NOTIFICATION_POLICY android.permission. WRITE_CONTACTS android.permission. RECEIVE_SMS. 应用需要获取手机电话,短信,通知栏等信息，以推送到穿戴式设备上显示. 应用首页->"我的"tab页->设置->已连接设备. 
+android.permission. CAMERA. 典型场景举例： 
+1、美颜拍照； 
+2、扫描二维码、条形码； 
+3、录像； 
+4、人脸识别； 
+5、智能识图； 
+6、分享，用于发朋友圈；. 相机：拍摄照片和视频. 
+android.permission. READ_CONTACTS. 典型场景举例： 
+1、通过通讯录添加好友； 
+2、备份克隆联系人； 
+3、电话本管理； 
+4、添加获取联系人 
+android.permission. WRITE_CONTACTS. 典型场景举例： 
+1、通过通讯录添加好友； 
+2、备份克隆联系人； 
+3、电话本管理； 
+4、添加获取联系人 
+android.permission. ACCESS_COARSE_LOCATION android.permission. ACCESS_FINE_LOCATION android.permission. ACCESS_BACKGROUND_LOCATION. 用于获取大概的、精准的位置，以及在后台获取定位 
+1、步行、骑行、架车等轨迹场景； 
+2、跑步、健走等运动健康场景；. 位置. 
+android.permission. RECORD_AUDIO. 典型场景举例： 
+1、录音机； 
+2、语音助手功能，语音导航； 
+3、语音通话 
+4、录屏 
+5、发音学习. 录音： 授权应用可以使用麦克风。. 
+android.permission. READ_PHONE_STATE. 授权应用可以获取设备imsi、imei、sn等设备信息。 
+例如来电、响铃中、通话中等不推荐使用此权限， 请使用Android id或 广告id等替代 
+android.permission. READ_CALL_LOG android.permission. WRITE_CALL_LOG. 权限定义： 授权应用可以读取用户通话记录信息。 
+1、备份 
+2、通话记录管理功能 
+3、骚扰拦截：一般情况下会删除通话记录 
+android.permission. CALL_PHONE. 权限定义： 授权应用可以不经过用户点击授权，直接拨打号码。 
+1、通讯录中直接拨打电话； 
+2、浏览器中直接拨打电话； 
+3、联系客服； 
+android.permission. PROCESS_OUTGOING_CALLS. 权限定义：重新设置呼出的手机号码，可以监听呼出的通话状态 
+1、呼出电话监听场景，通讯录 
+2、儿童手表 
+android.permission. READ_PHONE_NUMBERS. 权限定义： 读取手机号码 
+android.permission. ANSWER_PHONE_CALLS. 权限定义：授权应用可以接听来电 
+android.permission. BODY_SENSORS. 权限定义：授权应用访问那些被用于测量用户身体内部状况的传感器数据。一般特指心率传感器数据。 
+1、运动/健康相关,用于显示用户的心率状况 
+2、可穿戴设备应用 
+android.permission. SEND_SMS. 权限定义：授权应用发送SMS短信。 
+1、短信管理应用,如中国移动 
+2、手机号码注册或登陆时的验证码场景,如AcFun应用,允许通过手机号+接收到的验证码来注册用户 
+2、游戏软件中的短信支付场景 
+android.permission. RECEIVE_SMS. 权限定义：授权应用读取SMS短信。 
+1、短信管理类应用，如中国移动，Go短信； 
+2、手机号码注册或登陆时的验证码场景，如AcFun应用，允许通过手机号+接收到的验证码来注册用户。. 短信:接收短信. 
+android.permission. READ_SMS. 权限定义： 授权应用读取SMS短信。 
+1、短信管理类应用，如中国移动，Go短信； 
+2、手机号码注册或登陆时的验证码场景，如AcFun应用，允许通过手机号+接收到的验证码来注册用户。. 读取您的文字讯息 (短信或彩信). 
+android.permission. RECEIVE_WAP_PUSH. 权限定义： 授权应用接收WAP推送信息。 
+1、短信管理类应用，如中国移动，Go短信；. 接收文字讯息 (WAP). 
+android.permission. RECEIVE_MMS. 权限定义： 授权应用监听到来的彩信业务，拦截彩信接收信息。 
+1、短信管理应用，如中国移动，运营商系列应用；. 接收文字讯息 (彩信). 
+android.permission. READ_EXTERNAL_STORAGE android.permission. WRITE_EXTERNAL_STORAGE. 权限定义：授权应用读取.改或删除SD卡中的内容。 
+1、下载文件场景，如浏览器从网络中下载文件到手机中。 
+2、拍照场景，需要存储图片或打开照片。以及修改或删除 SD 卡中的内容. 存储/读取您的SD卡中的内容. 
+android.permission. BIND_DEVICE_ADMIN. 在其他应用上显示定义：该功能需要激活后生效，入口在设置中搜索（设备管理器）可以查看到该功能； 
+1、删除设备数据 
+2、设置锁屏密码规则； 
+3、屏幕上锁 
+1、手机找回/查找我的手机功能，用于远程控制设备，恢复出厂设置等；. 设备管理器. 
+android.permission. BIND_NOTIFICATION_LISTENER_SERVICE. 监听通知服务定义：监听其他应用的通知栏显示内容 
+1、手表手环穿戴应用，需要将通知栏信息引导到穿戴设备 
+androidx.work.impl.background.systemalarm. RescheduleReceiver android.intent.action. BOOT_COMPLETED. 监听通知服务定义：监听其他应用的通知栏显示内容 
+1、手表手环穿戴应用，需要将通知栏信息引导到穿戴设备 
+READ_PHONE_STATE. SDK存在收集IMEI、设备MAC地址和软件安装列表、通讯录和短信的行为 
+1、当谷歌登录时，会把谷歌账号和手机绑定在一起，下次登录会自动完成。 
+2、中国大陆地区以外时，需要用到谷歌地图。. Google Play服务. 
+READ_PHONE_STATE. SDK存在收集IMEI、设备MAC地址和软件安装列表、通讯录和短信的行为 
+1、当程序闪退时，bugly会自动捕捉异常并收集手机的相关信息一起上传到腾讯服务器。方便开发人员排查问题。. 腾讯Bugly. 
+READ_PHONE_STATE ACCESS_FINE_LOCATION ACCESS_COARSE_LOCATION ACCESS_BACKGROUND_LOCATION WRITE_EXTERNAL_STORAGE. 1、《高德开放平台隐私权政策》链接：website_url_lnk 
+2、使用的高德SDK名称为:AMap3DMap_7.5.0_AMapSearch_7.3.0_AMapLocation_5.0.0_20200610.jar、SDK提供方名称（即高德软件有限公司）、收集个人信息的使用目的、 高德SDK收集的个人信息。 详见《SDK合规使用方案（website_url_lnk. 高德SDK. 
+ACCESS_NETWORK_STATE. 1、《微信Open SDK个人信息处理规则》链接：website_url_lnk 
+1、当微信登录时，会把微信账号和手机绑定在一起，下次登录会自动完成。. 微信openSdk. 
+ACCESS_NETWORK_STATE. 1、《qq互联sdk隐私保护声明》链接：website_url_lnk 
+使用的qq互联sdk名称为:open_sdk_3.5.13.83_rc564928_lite.jar 
+1、当QQ登录时，会把QQ账号和手机绑定在一起，下次登录会自动完成。. QQ Sdk. 
+更新日期：2023-11-06

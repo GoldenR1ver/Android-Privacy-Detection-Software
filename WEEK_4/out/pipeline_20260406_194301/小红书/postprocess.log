@@ -1,0 +1,24 @@
+[2026-04-06 19:49:02] [main] command=postprocess
+[2026-04-06 19:49:02] [postprocess] start: input=D:\LEARNING_RESOURCE\AndroidPDS\gitRepository\Android-Privacy-Detection-Software\WEEK_4\out\pipeline_20260406_194301\小红书\audit_raw.csv, output=D:\LEARNING_RESOURCE\AndroidPDS\gitRepository\Android-Privacy-Detection-Software\WEEK_4\out\pipeline_20260406_194301\小红书\audit_processed.csv
+[2026-04-06 19:49:02] [postprocess] processed row 1
+[2026-04-06 19:49:02] [postprocess] processed row 2
+[2026-04-06 19:49:02] [postprocess] processed row 3
+[2026-04-06 19:49:02] [postprocess] processed row 4
+[2026-04-06 19:49:02] [postprocess] processed row 5
+[2026-04-06 19:49:02] [postprocess] processed row 6
+[2026-04-06 19:49:02] [postprocess] processed row 7
+[2026-04-06 19:49:02] [postprocess] processed row 8
+[2026-04-06 19:49:02] [postprocess] processed row 9
+[2026-04-06 19:49:02] [postprocess] processed row 10
+[2026-04-06 19:49:02] [postprocess] processed row 11
+[2026-04-06 19:49:02] [postprocess] processed row 12
+[2026-04-06 19:49:02] [postprocess] processed row 13
+[2026-04-06 19:49:02] [postprocess] processed row 14
+[2026-04-06 19:49:02] [postprocess] processed row 15
+[2026-04-06 19:49:02] [postprocess] processed row 16
+[2026-04-06 19:49:02] [postprocess] processed row 17
+[2026-04-06 19:49:02] [postprocess] processed row 18
+[2026-04-06 19:49:02] [postprocess] processed row 19
+[2026-04-06 19:49:02] [postprocess] processed row 20
+[2026-04-06 19:49:02] [postprocess] completed
+[2026-04-06 19:49:02] [main] finished

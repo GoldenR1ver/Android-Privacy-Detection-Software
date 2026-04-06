@@ -1,0 +1,209 @@
+AI创作专家 / Chat创作大师 隐私协议政策
+更新日期： 2023 年 06 月 0 1 日
+发布日期： 2023 年 06 月 0 1 日
+生效日期： 2023 年 06 月 0 1 日
+自启动和关联启动说明：为便于平台分析华为归因数据，本应用将在运行期间获取华为商店App的归因数据，是因实现功能及服务所需要的。 
+平台采用微信 / QQ / 手机号码等方式注册登录，用于保留用户资料相关数据。如用户不再使用平台，可在App中的"设置页 -> 账号注销"处点击后，根据指引注销您的平台账号。 
+我们获取了您手机的相册权限：用于上传头像 / 上传DIY应用图标；
+我们获取了您手机的访问手机账户/应用权限：用于获取用户是否安装微信或QQ，以便展示或隐藏微信QQ登录/分享按钮；
+SDK名称
+uni-app(5+、web2app)
+io.dcloud
+android.permission. INTERNET 
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. WRITE_EXTERNAL_STORAGE 
+android.permission. READ_EXTERNAL_STORAG 
+android.permission. READ_PHONE_STATE 
+存储的个人文件，设备信息（IMEI、MAC、ANDROID_ID、DEVICE_ID、IMSI），网络信息
+website_url_lnk
+阿里weexSDK
+com.taobao
+uni-app基础模块默认集成，用于渲染uniapp的nvue页面引擎
+android.permission. WRITE_EXTERNAL_STORAGE 
+android.permission. READ_EXTERNAL_STORAG 
+website_url_lnk
+Fresco图库
+com.facebook.fresco
+用于nvue页面加载图片使用
+android.permission. WRITE_EXTERNAL_STORAGE 
+android.permission. READ_EXTERNAL_STORAG 
+website_url_lnk
+glide图库
+com.bumptech.glide
+android.permission. WRITE_EXTERNAL_STORAGE 
+android.permission. READ_EXTERNAL_STORAG 
+website_url_lnk
+gif-drawable
+pl.droidsonroids.gif
+加载gif图
+android.permission. WRITE_EXTERNAL_STORAGE 
+android.permission. READ_EXTERNAL_STORAG 
+website_url_lnk
+fastjson
+com.alibaba.fastjson
+JSON解析
+website_url_lnk
+移动安全联盟 OAID
+com.bun.miitmdid、com.zui.opendeviceidlibrary 
+获取oaid
+website_url_lnk
+com.tencent.mm
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. ACCESS_WIFI_STATE 
+website_url_lnk
+QQ开放平台
+com.tencent.open
+android.permission. MODIFY_AUDIO_SETTINGS 
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. ACCESS_WIFI_STATE 
+website_url_lnk 
+uni-app(5+、web2app)
+io.dcloud
+android.permission. INTERNET 
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. WRITE_EXTERNAL_STORAGE 
+android.permission. READ_EXTERNAL_STORAG 
+android.permission. READ_PHONE_STATE 
+存储的个人文件，设备信息（IMEI、MAC、ANDROID_ID、DEVICE_ID、IMSI），网络信息
+website_url_lnk
+com.uc.crashsdk、com.efs、com.umeng
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. ACCESS_WIFI_STATE 
+android.permission. READ_PHONE_STATE 
+设备信息（IMEI、ANDROID_ID、DEVICE_ID、IMSI）、应用已安装列表、网络信息
+官网链接: website_url_lnk
+华为 HMS push
+com.huawei.hms
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. ACCESS_WIFI_STATE 
+android.permission. REQUEST_INSTALL_PACKAGES 
+android.permission. FOREGROUND_SERVICE 
+android.permission. READ_PHONE_STATE 
+设备信息（IMEI、ANDROID_ID、DEVICE_ID、IMSI）、应用已安装列表、网络信息
+官网链接: website_url_lnk 
+com.igexin、com.igexin.push、com.getui.gs
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. ACCESS_WIFI_STATE 
+android.permission. READ_PHONE_STATE 
+android.permission. WRITE_EXTERNAL_STORAGE 
+android.permission. VIBRATE 
+android.permission. GET_TASKS 
+android.permission. QUERY_ALL_PACKAGES 
+存储的个人文件、设备信息（IMEI、MAC、ANDROID_ID、DEVICE_ID、IMSI）、应用已安装列表、网络信息 
+官网链接: website_url_lnk
+com.g.elogin、com.g.gysdk、cn.com.chinatelecom、com.cmic.sso
+android.permission. READ_PHONE_STATE 
+android.permission. READ_EXTERNAL_STORAGE 
+android.permission. WRITE_EXTERNAL_STORAGE 
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. ACCESS_WIFI_STATE 
+android.permission. CHANGE_NETWORK_STATE 
+设备信息（IMEI、MAC、ANDROID_ID、DEVICE_ID、IMSI）存储的个人文件、读取手机状态和身份、网络信息、应用已安装列表 
+个推：website_url_lnk 
+移动：website_url_lnk 
+联通：website_url_lnk 
+电信：website_url_lnk 
+移动账号认证SDK
+com.cmic.sso
+为App提供风控和认证服务
+android.permission. READ_PHONE_STATE 
+android.permission. READ_EXTERNAL_STORAGE 
+android.permission. WRITE_EXTERNAL_STORAGE 
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. ACCESS_WIFI_STATE 
+android.permission. CHANGE_NETWORK_STATE 
+website_url_lnk 
+联通账号认证SDK
+com.unicom.xiaowo.login
+为App提供风控和认证服务
+android.permission. READ_PHONE_STATE 
+android.permission. READ_EXTERNAL_STORAGE 
+android.permission. WRITE_EXTERNAL_STORAGE 
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. ACCESS_WIFI_STATE 
+android.permission. CHANGE_NETWORK_STATE 
+website_url_lnk 
+电信（天翼）账号认证SDK
+cn.com.chinatelecom
+为App提供风控和认证服务
+android.permission. READ_PHONE_STATE 
+android.permission. READ_EXTERNAL_STORAGE 
+android.permission. WRITE_EXTERNAL_STORAGE 
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. ACCESS_WIFI_STATE 
+android.permission. CHANGE_NETWORK_STATE 
+网络IP地址、网络类型、注册手机号码、本机号码、国际移动用户标识码、应用进程信息、网络连接类型、网络状态信息、网络地址、运营商类型、手机设备类型、手机设备厂商、手机操作系统类型及版本 
+website_url_lnk 
+com.alipay
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. ACCESS_WIFI_STATE 
+网络信息 设备id IP地址 OAID IMSI 
+官网链接: website_url_lnk 
+华为推送 SDK
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. ACCESS_WIFI_STATE 
+设备信息【包括：设备型号、设备名称、SIM卡序列号、设备唯一标识符（IMEI、IMSI、AndroidID、IDFA、OAID），以下同】、网络信息 
+官网链接: website_url_lnk 
+小米推送 SDK
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. ACCESS_WIFI_STATE 
+设备标识符（如 Android ID、OAID、GAID）、设备信息 
+官网链接: website_url_lnk
+OPPO 推送 SDK
+用于oppo手机的消息推送
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. ACCESS_WIFI_STATE 
+设备标识符（如 IMEI、ICCID、IMSI、Android ID、GAID）、应用信息（如应用包名、版本号和运行状态）、网络信息（如 IP 或域名连接结果，当前网络类型） 
+官网链接: website_url_lnk
+vivo 推送 SDK
+用于vivo手机的消息推送 
+android.permission. ACCESS_NETWORK_STATE 
+android.permission. ACCESS_WIFI_STATE 
+官网链接: website_url_lnk
+我们的产品集成友盟+SDK，友盟+SDK需要收集您的设备Mac地址、唯一设备识别码（IMEI/android ID/IDFA/OPENUDID/GUID/BSSID/SSID/ICCID、SIM 卡 IMSI 信息）以提供统计分析服务，并通过地理位置校准报表数据准确性，提供基础反作弊能力。 
+"我们的产品或服务可能包括第三方的产品或服务，当您使用这些产品或服务时，也可能收集并使用您的信息以为您提供服务。 例如，当您使用本产品集成的小米推送服务时，小米将作为数据处理者，按照本公司的指示收集处理您的数据，小米将按照隐私政策保护用户的隐私数据，具体请参见： website_url_lnk " 
+消息推送服务供应商：由每日互动股份有限公司提供推送技术服务，我们可能会将您的设备平台、设备厂商、设备品牌、设备识别码等设备信息，应用列表信息、网络信息以及位置相关信息提供给每日互动股份有限公司，用于为您提供消息推送技术服务。我们在向您推送消息时，我们可能会授权每日互动股份有限公司进行链路调节，相互促活被关闭的SDK推送进程，保障您可以及时接收到我们向您推送的消息。详细内容请访问《个推用户隐私政策》（需将《个推用户隐私政策》超链至：website_url_lnk 
+我们会收集哪些信息：
+（ 1 ）您在注册账户时，向我们提供的相关个人信息，例如电话号码、姓名、电子邮件等 .
+（ 2 ）您在使用产品或服务时提供的数据，例如您上传的头像，分享的照片等 .
+（ 3 ）您通过我们的客服或参加我们举办的活动时所提交的信息。例如，您参与我们线上活动时填写的调查问卷中可能包含您的姓名、电话、家庭地址等信息；
+（ 4 ）设备信息。例如，设备型号、操作系统版本、唯一设备标识符、电池、信号强度等信息 .
+（ 5 ）软件信息。例如，软件的版本号、浏览器类型和版本 .
+（ 6 ） IP 地址 .
+（ 7 ）位置信息。当您使用与位置有关的服务时，我们可能会记录您设备所在的位置信息，以便为您提供相关服务；
+（ 8 ）本地文件上传，可将本地音频文件上传到云端，非游客登陆时可以在不同设备访问到同样的文件；
+我们将如何使用收集的信息：
+（ 1 ）向您提供服务，并维护、改进这些服务；
+（ 2 ）产品开发和服务优化。例如，当我们的系统发生故障时，我们会记录和分析系统故障时产生的信息，优化我们的服务；
+（ 3 ）软件认证或管理软件升级；
+（ 4 ）我们可能使用您的个人信息以预防、发现、调查欺诈、危害安全、非法或违反与我们或其关联方协议、政策或规则的行为，以保护您、我们的其他用户、我们或我们关联方的合法权益；
+（ 5 ）安全保障。例如，我们会将您的信息用于身份验证、安全防范、反诈骗监测、存档备份、客户的安全服务等用途；
+（ 6 ）我们可能会使用您在该应用上传的数据为您发掘更多服务；
+（ 7 ）经您许可的其他用途。
+1 、我们致力于打造多样的产品和服务以满足您的需求。因我们向您提供的产品和服务种类众多，且不同用户选择使用的具体产品 / 服务范围存在差异，相应的，基本 / 附加功能及收集使用的个人信息类型、范围会有所区别，请以具体的产品 / 服务功能为准；
+2 、为给您带来更好的产品和服务体验，我们在持续努力改进我们的技术，随之我们可能会不时推出新的或优化后的功能，可能需要收集、使用新的个人信息或变更个人信息使用目的或方式。对此，我们将通过更新本政策、弹窗、站内信通知方式另行向您说明对应信息的收集目的、范围及使用方式，并为您提供自主选择同意的方式，且在征得您明示同意后收集、使用。在此过程中，如果您有任何疑问、意见或建议的，您可通过我们提供的各种联系方式与我们联系，我们会尽快为您作出解答。
+二、我们如何使用 Cookie
+我们或我们的第三方合作伙伴，可能会通过 Cookie 及相关技术收集用户的一些个人信息，包括：用户访问、用户的浏览信息、用户的登录信息， Cookie 及相关技术收集该类信息是为了用户使用我们的产品、技术 我们会严格要求第三方合作伙伴遵守本政策的相关规定。您也可以通过浏览器设置管理 Cookie 。但您需理解并知悉：这一举动在某些情况下可能会影响您正常使用我们的产品、技术和 / 或服务，或无法获得最佳的服务体验，同时也可能会对您的信息保护和账号安全性造成一定的影响。
+事先获得用户明确的同意或授权或用户主动选择的情况下共享；
+应用户的监护人的合法要求而提供用户的信息；
+实现本《隐私政策》第一条 " 我们如何收集和使用信息 " 部分所述目的；
+履行我们在本《隐私政策》或我们与用户达成的其他协议中的义务和行使我们的权利；
+理解、维护和改善我们的服务。
+与国家安全、国防安全直接相关的；
+与公共安全、公共卫生、重大公共利益直接相关的；
+与犯罪侦查、起诉、审判和判决执行等直接相关的；或根据法律法规的要求、行政机关或公检法或其他有权机关的要求的；
+出于维护您或其他个人的生命、财产等重大合法权益但又很难得到本人同意的；
+您自行向社会公众公开的个人信息；
+从合法公开披露的信息中收集个人信息的，如合法的新闻报道、政府信息公开等渠道；
+7 、与我们履行法律法规规定的义务相关的。
+我们非常重视您的个人信息安全，将努力采取合理的安全措施（包括技术方面和管理方面）来保护您的个人信息，防止您提供的个人信息被不当使用或在未经授权的情况下被访问、公开披露、使用、修改、损坏、丢失或泄露。
+我们会使用不低于行业同行的加密技术、匿名化处理及相关合理可行的手段保护您的个人信息，并使用安全保护机制防止您的个人信息遭到恶意攻击。
+我们采取严格的数据使用和访问制度，确保只有授权人员才可访问您的个人信息，并适时对数据和技术进行安全审计。
+尽管已经采取了上述合理有效措施，并已经遵守了相关法律规定要求的标准，但请您理解，由于技术的限制以及可能存在的各种恶意手段，在互联网行业，即便竭尽所能加强安全措施，也不可能始终保证信息百分之百的安全，我们将尽力确保您提供给我们的个人信息的安全性。
+您一旦离开我们的产品服务，浏览或使用其他网站、服务及内容资源，我们将没有能力和直接义务保护您在我们的产品之外的软件、网站提交的任何个人信息，无论您登录、浏览或使用上述软件、网站是否基于我们的产品链接或引导。
+您有权访问、更正、删除您的个人信息；但相关信息的删除或修改可能会影响您对相关产品或服务的使用或导致部分功能的实现。
+我们将按照本政策所述，仅为实现我们产品或服务的功能，收集、使用您的信息。如您发现我们违反法律、行政法规的规定或者双方的约定收集、使用您的个人信息，您可以要求我们删除。如您发现我们收集、存储的您的个人信息有错误的，您也可以要求我们更正。请通过本政策列明的联系方式与我们联系。
+我们非常重视对未成年人个人信息的保护。根据相关法律法规的规定，若您是 18 周岁以下的未成年人，在使用我们的产品和服务前，应事先取得您的家长或法定监护人的同意。
+若您是未满 14 周岁的儿童，须在监护人的陪同下阅读本隐私政策或相应产品或服务的隐私政策，决定是否使用我们的产品或服务。如获得产品和服务需要提交个人信息，请取得监护人的同意，并在监护人的指导下完成。
+本隐私政策更新后，我们会在产品网站发出更新版本，如该等变更会导致用户在本政策项下权利的实质减损，我们将在变更生效前，通过官方网站 website_url_lnk 提醒您更新的内容，以便您及时了解本隐私政策的最新版本。
+如果您对个人信息保护问题有投诉、建议、疑问，您可以将问题发送至邮箱 shengshengmas@163.com ，我们会尽快审核所涉及问题，并在验证您的用户身份后的一个工作日内回复。

@@ -1,0 +1,299 @@
+At Tesco, we're working hard to serve our customers, communities and planet a little better every day. To do this, we need to be able to offer you products and services that meet these goals. Looking after the data you share with us is a hugely important part of this. We want you to be confident that your data is safe and secure with us, and that you understand how we use it to offer you a better and more relevant shopping experience.
+Overview (including what is personal data and why it's important)
+When you shop with us online or in-store, or communicate with us, we collect and create personal data about you.
+This policy does the following:
+sets out the different ways you interact with us and the types of personal data that we collect
+explains the reasons why we use the data we collect
+explains when and why we'll share personal data within the Tesco Group and with other organisations
+explains the rights and choices you have when it comes to your personal data (including your marketing and cookie preferences).
+What does Tesco know about me?
+Tesco will collect and create different types of data. These include the following broad types of data.
+Aggregated data
+We try and remove personal data we don't need. If we remove enough personal data, it becomes anonymous. This means that you can't be identified.
+We might also take data we hold and remove certain information and replace it with other non-identifying information, such as an ID number or reference number. This is an extra technique we use to protect data. We normally use these techniques to look at large amounts of individuals such as our Clubcard customers.
+Identity and contact data (name, address, Clubcard number)
+This is information that helps us identify who you are and how we can contact you. This includes your name, title, Clubcard number, address, email, and telephone number.
+Financial and transactional data (purchase information, banking and payment details)
+This is information about your bank account and payment card details, as well as information about your purchase of a product or service from us. This includes when, where, what and how you purchased that product or service. It'll also include where we sent that product or service and any Clubcard points or other benefits collected as part of the transaction.
+User and interaction data (how you interact with products and services online and in-store)
+User data is information collected about you as a user of our stores, products and services. This may include where you engage with Tesco Stores Limited in a survey; provide feedback on your shopping experience; are captured by CCTV or other camera technologies, such as queue monitoring or number plate recognition.
+We'll also collect information about you that allows us to create an analysis of you as a customer. This is to better judge what products and services to offer you.
+Interaction data is information about how you interact with our products and services, namely what you click on and interact with on our sites and app, or products in-store. This includes data about the order and time you scan products when using our Scan as you Shop service.
+Marketing data
+This is information about your marketing preferences and your interaction with online marketing. For example, we can see when you open marketing emails from Tesco (you can opt out of marketing at any time by telling us). This also includes if you interact with adverts from Tesco while browsing the internet. This enables us to judge its effectiveness when we compare your interactions with what you've purchased.
+Location data
+In some cases, our app might ask for your location information to better serve you information about your local store. If we're collecting this data, we'll make you aware of this at the time.
+Technical device data
+This is information about the device you use to access our sites and app. This could be information that identifies your device, its operating system, internet address, your sign-in data, browser and plug-ins, location, where you came to our site from and where you go when you leave, as well as how often you visit. If you use our in-store WIFI, we'll collect information about where and when you accessed our network. This is done via the use of cookies which is covered further down in this notice.
+Special category data
+This is special information that the law says is more sensitive (sometimes it's referred to as 'sensitive personal data') and it needs more protection. For Tesco Stores Limited, this is principally health information if you use our pharmacy services.
+If we collect sensitive personal data in our interactions with you (for example, if you're making a complaint to us), we'll clearly explain what we're doing and we'll only collect the data with your consent.
+Why do you need to know this about me?
+We've carefully considered the reasons for collecting and creating this data. Here's a summary of when and why we believe it's appropriate.
+To make our services available to you
+This means that processing your personal data allows us to:
+manage the accounts you hold with us, including your Clubcard account
+process your orders and refunds.
+Why do we process your personal data in this way?
+We need to process your personal data so that we can manage your customer accounts, provide you with the goods and services you want to buy, and help you with any orders and refunds you may ask for.
+Why we're using this data (legal basis)
+Contractual necessity, at the time we collect it (purchase data, contact details, delivery/collection details)
+Legitimate interests, following fulfilment of your order
+We won't be able to provide you with your products or services if you don't provide us with this data.
+To manage and improve our day-to-day operations
+Help to develop and improve our product range, services (digital and physical), stores, information technology systems, know-how and the way we communicate with you.
+Why do we process your personal data in this way?
+We rely on the use of personal data to carry out market research and internal research and development. It also helps us to improve our information technology systems (including security), our product range, services and stores. This allows us to serve you better as a customer.
+Detect and prevent fraud or other crime.
+Why do we process your personal data in this way?
+It's important for us to monitor how our services are used to detect and prevent fraud, other crimes and the misuse of services. This helps us to make sure that you can safely use our services.
+Why we're using this data (legal basis)
+Legitimate interests
+To personalise your Tesco experience
+Manage and improve our websites and mobile app.
+Why do we process your personal data in this way?
+We use cookies and similar technologies on our websites and mobile app to improve your experience.
+Some cookies are necessary so you shouldn't disable these if you want to be able to use all the features of our websites and mobile app. You can disable other cookies but this may affect your experience. For more information about cookies and how you can disable them, see the cookies and similar technologies section.
+Use your online browsing behaviour, as well as your in-store and online purchases (including Clubcard transactions), to help us better understand you as a customer and provide you with personalised offers and services.
+Why do we process your personal data in this way?
+We use basic data about your general shopping habits (and those of similar households) to group customers into different segments such as 'Tesco families'. This allows us to personalise our offers and services for you (including in our marketing communications).
+Provide you with relevant marketing communications, relating to our products and services, and those of our suppliers, retail partners and the Tesco Group.
+If we or our retail partners run online advertising, this may be displayed on websites across the Tesco Group, non-Tesco websites and other media platforms (including Sky AdSmart and platforms such as Facebook, Snapchat and TikTok).
+We may also measure the effectiveness of this advertising. To do this, we may use certain basic data about your in-store and online purchases (for example if you bought a particular product that was featured in an advert). However, we limit this to what is necessary, and it is always obscured or anonymised to protect your identity. When we share your data in this way, it won't be used by those platforms for their own purposes and will be deleted shortly after.
+Why do we process your personal data in this way?
+We want to make sure that we provide you with marketing communications, including online advertising, that are relevant to your interests. To achieve this, we measure your responses to marketing communications relating to products and services that we and our retail partners offer. This means that when you're offered products and services, they best meet your needs as a customer.
+Why we're using this data (legal basis)
+Legitimate interests
+Consent (where we need this from you)
+To contact and interact with you
+Contact you about our services, for example by phone, email or post, or by responding to social media posts that you've directed at us.
+Why do we process your personal data in this way?
+We want to serve you better as a customer, so we use personal data to provide you with clear information or help in response to your communications.
+Manage promotions and competitions you take part in.
+Why do we process your personal data in this way?
+We need to process your personal data, so that we can manage the promotions and competitions you choose to enter.
+Invite you to take part in and manage customer surveys, reviews and other market research activities carried out by the Tesco Group and by other organisations on our behalf.
+Why do we process your personal data in this way?
+We carry out market research to improve our services. However, if we contact you about this, you don't have to take part in the activities. If you tell us that you don't want us to contact you for market research, we'll respect your choice. This won't affect your ability to use our services or your Clubcard. If this research is through our Tesco Home Panel service, we'll give you additional information about how we use your data when you sign up for this service.
+Why we're using this data (legal basis)
+Legitimate interests
+To resolve legal claims or disputes
+Why do we process your personal data in this way?
+This might be needed if you have an accident or there's an incident at our stores, for example. This could include medical reports.
+Why we're using this data (legal basis)
+Bringing or defending legal claims
+To use CCTV to protect our stores to prevent and detect crime and anti-social behaviour
+If you park in our car parks, we may use Automatic Number Plate Recognition Technologies to identify if your vehicle has complied with our parking rules. Where there's a security or claim incident involving a vehicle, we may use ANPR to assist in our investigation into those incidents.
+We also use body-worn cameras to protect staff and customers, and record footage in the same way as we do with other forms of CCTV.
+Why do we process your personal data in this way?
+In order to protect our business, the local community, customers and colleagues.
+Why are we using this data (legal basis)
+Legitimate interests
+Exercising our legal rights
+To make sure we deliver healthcare services safely at Tesco Pharmacies
+Why do we process your personal data in this way?
+We need to process your personal data, including your medical information, to make sure we provide you with the highest standard of care or as required by the NHS. Your prescriptions information won't be used for any other purpose than to enable your care.
+Information about non-prescription medicine sales (e.g. paracetamol) and pharmacy services (e.g. flu and travel vaccinations) will be used to measure and plan these healthcare services.
+Health data is considered sensitive, and we provide additional protection in how we store and use this data and collect it only with your consent. 
+You may choose to opt out of the NHS using your data for planning and research purposes, details are obtained by:
+visiting the nhs.uk/yournhsdatamatters website portal
+using the NHS App
+calling the NHS Digital contact centre on 0300 303 5678
+Why we're using this data (legal basis)
+Consent (where we need this from you)
+There are legal and regulatory obligations to the NHS
+It is necessary for the purposes of providing medical care or treatment
+Why are you allowed to use my data in this way?
+Whenever an organisation uses data, they must have a reason to use it. The law gives certain reasons for the use of data and Tesco will always use data according to one of those reasons. In the section 'Why do you need to know this about me?' we've stated the different reasons that we might hold data.
+In this section, we explain why we think those reasons are suitable and what this means for you.
+There's often a focus on consent to use personal data but, in many circumstances, consent wouldn't be appropriate. For example, a shoplifter withdrawing consent to be filmed with CCTV would increase risk to you and our colleagues; or a customer withdrawing consent to process their payment information.
+Therefore, in many situations, Tesco relies upon two other legal reasons. The first, relates to needing data to fulfil a 'contract' with you. At the point of you buying goods and services from Tesco, a contract is created and any data we collect to allow us to deliver or provide those services or goods can be used and kept to make sure we fulfil our contract. The second is a concept called 'legitimate interests'. This is when there are legitimate and reasonable reasons Tesco might collect and use data. For example, collecting information through your Clubcard is beneficial to both Tesco and you because we can understand what products you're interested in and make sure the products we offer match that need.
+Our use of your personal data when based on 'legitimate interests' are to:
+meet our customers' needs, including delivering our products and services
+promote and market our products and services, and those of our retail partners, media partners and service providers
+service your account (such as your Clubcard account), manage complaints and resolve any disputes
+understand our customers including their patterns and behaviours, as well as their likes and dislikes
+protect and support our business, colleagues, customers and shareholders
+prevent and detect anti-social behaviour, fraud and other crime
+test and develop new products and services as well as improve existing ones.
+We've assessed these fundamental reasons against the fundamental rights and freedoms provided to you under the law and balanced them up against the benefit both you and Tesco might receive from this data being used.
+GetGo stores
+In our GetGo enabled stores, we use a camera and measurement technology that records you as you move around the store interacting with our products, this allows us to identify which products you pick up and leave the store with (without the need for you to go through a checkout at the end of your shop).
+The technology captures you whether you're a GetGo user (using the "frictionless" GetGo service to check out), or whether you're a non-GetGo user (meaning you check out in a GetGo store using our ordinary checkouts).
+The images from these cameras are then analysed so we know which particular products you've interacted with and selected for your basket. These images (and any information that comes from analysing them) are usually deleted within 5 days.
+If you're a GetGo user, we'll use the products you've selected for your basket, as identified by the GetGo system, together with your account and payment information within the Tesco app, so we know who you are and can charge you the right amount. If you're a non-GetGo user, we won't be able to identify you, and your data will be deleted as soon as possible but within 5 days.
+Personal data collected by the GetGo system is not used for any purpose other than providing the GetGo service, to distinguish between who is a GetGo user and who is a non-GetGo user, and where you are a GetGo user, to charge you correctly for your shop. Where you're a non-GetGo user, the data collected by the GetGo system is only used for the purpose of troubleshooting and improving the accuracy of the system.
+The GetGo system is provided by our third-party partner. However, we don't share any additional personal data about you with them, so they won't know who you are.
+If you're shopping with other people as part of a group, they'll be treated as non-GetGo users (meaning we won't be able to identify them) and their data will be treated as described above.
+Data collected from third parties
+We may also use personal data from other sources, such as specialist companies, media partners, retail partners and public registers (such as the electoral register).
+When we work with specialist companies that provide us with personal data about you, they'll have told you about this data sharing at the time it was collected. We use this and our own data to better understand our customers.
+We also use this personal data to make sure we have up-to-date details about you. We don't give personal data we've collected or created from you back to these companies.
+How does Tesco look after my data?
+We know how important it is to protect and manage your personal data. This section sets out some of the measures we have in place.
+We make sure staff are trained and rules are in place to make sure that data is used properly.
+We have physical protections and digital/electronic systems in place to keep what we hold secure.
+When data is moved or transferred, we make sure it's encrypted (scrambled).
+We use computer safeguards such as firewalls and data encryption to keep this data safe when it's not being moved.
+We only allow access to colleagues and trusted partners.
+We regularly watch our systems for possible weaknesses and attacks, and we carry out tests (penetration testing) to see what can be improved.
+We'll ask for proof of identity before we share your personal data with you.
+We'll reveal only the last four digits of your payment card number when confirming an order.
+Your personal data may be transferred outside the UK. It may also be processed by companies outside the UK who work for us (or for one of our service providers). When we do this, your personal data will be subject to appropriate protections. If we do transfer personal data to outside of the UK, it'll be protected in the same way as if it was being used in the UK. To do this, we use one of the following safeguards:
+We transfer to a non-UK country whose privacy laws ensure an appropriate level of protection for personal data.
+We put in place a contract with a third party that means they must protect personal data to the same standards as the UK.
+We transfer personal data to organisations that are part of specific agreements on cross-border data transfers with the UK.
+Do you keep my data forever?
+We won't keep your personal data longer than we need to. In most circumstances, this means we won't keep your personal data for more than 7 years after the end of your relationship with us. For certain data sets, we have the following specific retention periods:
+Tesco Pharmacy customer records will be deleted 10 years after the end of your relationship with us.
+Information about purchases and the payment information relating to those purchases might be kept for up to 7 years after the transaction to allow us to investigate fraud and handle legal claims.
+Customer complaints and feedback will be deleted 4 years after the date of the last communication.
+Information you submit when participating in research panels/market surveys will be deleted 3 years after its creation.
+CCTV data will be kept no longer than 1 month after its creation.
+Health and safety records (for example, incident reports) will be deleted 7 years after their creation.
+Where your personal data is needed because of a serious dispute (such as litigation) or investigation, your personal data will be deleted 7 years after the matter is closed.
+Do you share my data?
+We may share personal data with other organisations (including Tesco Group partners as listed below) in the following circumstances:
+to deliver the products and services we have offered to you
+with our retail partners, media partners and service providers (as explained elsewhere)
+to establish, exercise or defend our legal rights or we need to by law (this includes for the purposes of preventing fraud)
+where we restructure, sell, or transfer our business (or a part of it). For example, in connection with a takeover or merger.
+Retail partners
+We work with several retail partners who sell products via Tesco or offer products, services or the ability to earn Clubcard points (Clubcard Reward Partners). We only share personal data that enable our retail partners to provide services you've requested.
+Service providers
+These are organisations that help us to deliver and improve the services we offer to you. For example:
+technology and data services (such as storing, combining and analysing data, and processing payments) 
+fulfilment of orders
+legal or other professional services.
+We only share personal data that enable our service providers to provide their services and they only use it for purposes agreed with us. We may also combine service providers data with data held by Tesco to understand your purchases and interactions with us better.
+Media partners
+We work with certain media partners in connection with online and other digital media services. They place relevant advertising for us and our retail partners online and through other digital media services. For example, you may see an advert for our products and services when you use a particular platform or watch television through your pay TV account. Examples of our media partners include Facebook, Google, dunnhumby and LiveRamp.
+Some examples of the ways we work with our media partners are listed below:
+Sky AdSmart
+If you're a Sky or a Virgin Media customer and you're also a Tesco customer (and you're opted into marketing for both Sky/Virgin and Tesco), you may see tailored TV advertising when using those platforms, based on your general shopping habits (and those of similar households). For example, you may be in a group of households which is shown an advertisement for coffee, having previously bought coffee at Tesco with your Clubcard.
+We don't share any information which directly identifies you (such your name and Clubcard number or address) nor do we share your purchases.
+You can opt out of Sky's tailored TV advertising at any time:
+via your Sky or My Virgin Media account or by contacting Sky or Virgin Media directly (see their websites for further details); and/or
+by opting out of all direct marketing from Tesco via your tesco.com account or unsubscribing from our marketing emails.
+Further information about Sky AdSmart can be found in Sky's privacy notice (see the section 'How we use your information').
+Advertising to "lookalikes"
+We work with our retail partners to find potential customers who "look like" our existing customers on platforms such as Facebook and Google for advertising purposes ('platform').
+To do this, we use information about your general shopping habits (and those of similar households) to create large groups of customers that may be interested in seeing different advertisements of retail partners. If you're within one of these groups for a given campaign, we may share some basic data about you (and the other customers in the group) with the platform. This is so that the platform can find and show adverts to other users of its platform who have similar interests to you.
+The data we share for these purposes is always obscured to protect your identity and is promptly deleted.
+You can stop our use of your data in this way by opting out of all marketing from Tesco via your tesco.com account or unsubscribing from our marketing emails. You can also opt out of being included in a platform's lookalike audiences directly via them.
+What about other companies in the Tesco Group?
+Tesco Bank
+Tesco Bank is part of our Tesco Group and works with us to serve Tesco's shoppers by bringing them banking and insurance products. They use information we hold at Tesco to prepopulate application forms to make the process easier for you. You'll always have the chance to update your information.
+We make Clubcard data (including your shopping habits and the types of purchases you or your household make) and information about your online behaviour we've collected through cookies available to Tesco Bank. This helps them to improve their service, understand the relationship of their customers across the Tesco Group, and make their marketing communications more relevant to you.
+If you use a price comparison website, they may use your Clubcard data to work out if Tesco Bank can offer you a better price.
+Tesco Bank uses Clubcard data to try to bring you better terms, deals, offers or support than you'd get if they didn't use the data. They do this by looking at the data using algorithms and computer programs to create customer segments and scores. This includes how likely they think you are to pay back money they lend you, how often you use other Tesco products and services, and how you prefer to shop. This helps them to create a number of scores, which they can then use as one of the factors in their automated decision-making process. They also take into account whether or not you're a Clubcard customer or have an existing Tesco Bank product.
+Clubcard data allows them to give Tesco customers better prices on insurance products. Discounts and offers will vary from customer to customer, but all Clubcard customers will receive a discount within a range. Clubcard data also enables them to improve the likelihood of being able to accept a Tesco customer's application for a loan or a credit card.
+Clubcard is a loyalty scheme and customers trust us to use their Clubcard data to reward them with offers. Tesco Bank only uses Clubcard data to give better prices or offers and never to increase insurance prices or decline an application. They use Clubcard data when you apply directly to them or when you visit a price comparison website that lists Tesco Bank products.
+Tesco Bank uses data that you provide, such as your name and address, to find any Clubcards that are linked to your surname and address. That might be your Clubcard or that of a family member living in the same house as you. When they do this, they aim to use the Clubcard linked to your address which gives you the best terms, deals or offers.
+We may also use data provided to us by Tesco Bank, for example, information about the Tesco Bank products you hold, to improve our service and make our marketing communications more relevant to you. When we share data across the Group, we only share the minimum amount needed.
+You can find more information about the way in which Tesco Bank use your data in their privacy and cookies policy.
+Tesco Mobile
+We make Clubcard information available to Tesco Mobile. This includes information about purchases when you use your Clubcard, and information about your online behaviour we've collected through cookies. This helps them to improve their service and make their marketing communications more relevant to you.
+You can find more information about the way in which Tesco Mobile use your data in their privacy and cookies policy.
+dunnhumby
+dunnhumby, part of the Tesco Group, is also one of our main service providers. dunnhumby help us to use personal data to help improve our understanding of customers and personalise your customer experience. Find out more about what dunnhumby do.
+Booker
+Booker, part of the Tesco Group, provides wholesale goods. Find out more about Booker.
+One Stop
+One Stop is part of the Tesco Group, and is a convenience franchise operator and retailer. From time to time, we may share your information with One Stop so they can tell you about One Stop stores in your area.
+You can find more information about the way in which One Stop use your data in their privacy and cookies policy.
+Cookies
+We and our partners use cookies and similar technologies, such as tags and pixels ('cookies'), to personalise and improve your customer experience as you use our websites and mobile app, and to provide you with relevant online advertising. This section provides more information about cookies, including how we use them and how you can make choices about our use of cookies.
+How we use cookies
+Cookies are small text files containing a unique identifier, which are stored on your computer or mobile device so that your device can be recognised when you're using a particular website or mobile app. Some cookies may be used only for the duration of your visit, and others may be used to measure how you interact with services and content over time. 
+Cookies help to provide important features and functionality on our websites and mobile app, and to improve your experience. Cookies can also be used to help us detect fraudulent activity or to prevent security breaches, so we may record information about your device within the cookie. The reasons we use cookies are as follows:
+Improve the way our websites and mobile app work
+Cookies allow us to improve the way our websites and mobile app work, so that we can personalise your experience and allow you to use many of their useful features. For example, we use cookies so we can remember your preferences and the contents of your shopping basket when you return to our websites and mobile app.
+Improve the performance of our websites and mobile app
+Cookies can help us to understand how our websites and mobile app are being used. For example, by telling us if you get an error message as you browse. These cookies collect data that is mostly aggregated and anonymous.
+Deliver relevant online advertising, including via social media
+We use cookies to help us deliver online advertising that we believe is most relevant to you on our websites and other organisations' websites, and using social media.
+Cookies used for this purpose are often placed on our websites by companies providing specialist services to us. These cookies may collect information about your online behaviour, such as your IP address, the website you arrived from, and information about your purchase history or the content of your shopping basket. This means that you may see our adverts on our websites and on other organisations' websites. You may also see adverts for other organisations on our websites.
+To help us to deliver online advertising that's relevant to you, we may also combine data we collect through cookies placed on our website or on your device with other data that we've collected. For example, information about your use of Clubcard and in-store purchases.
+Measuring the effectiveness of our marketing communications, including online advertising
+Cookies can tell us if you've seen a specific advert, and how long it's been since you've seen it. This information allows us to measure the effectiveness of our online advertising campaigns (and those of our retail partners) and control the number of times you're shown an advert.
+We also use cookies to measure the effectiveness of our marketing communications. For example, when you purchase a product from us online we can see if you saw an advert for that product elsewhere.
+Our key partners are listed below with information about the services they provide to us. This list is not exhaustive but it does include partners who we have an established relationship with and whose cookie technologies are most frequently deployed through our services.
+Measurement and personalisation of our services
+To analyse how our services are used, including to test different content versions. This data may also be used to enable us to personalise our services and the marketing of our services. Examples of the cookies we use include:
+Adobe
+Optimizely
+Google
+Integral Ad Science
+Leanplum
+Product recommendations
+To enrich your shopping experience by delivering personalised recommendations to you on some of our websites. For example, on F&F Clothing. Examples of the cookies we use include:
+Rich Relevance
+Online advertising (including on behalf of our retail partners)
+To personalise adverts for Tesco and our retail partners which are shown to you via our website and on other websites based on your interactions with Tesco (as described elsewhere). We measure the effectiveness of adverts (as described elsewhere). Examples of the cookies we use include:
+Google
+Bing
+Social media
+To market to you via media platforms and to enable social sharing and engagement on our websites. These companies may use your data for their own purposes, including to profile and target you with other advertising. Examples of the cookies we use include:
+Facebook
+Twitter
+RadiumOne (po.st)
+Commenting
+To power commenting on our websites, such as Tesco Real Food. Examples of the cookies we use include:
+Disqus
+Security of our websites and apps
+To enable us to ensure your use of our sites and apps keeps you and your data safe and secure. Examples of the cookies we use include:
+Akamai
+Your choices when it comes to cookies
+Web browser cookies
+You can use your browser settings to accept or reject new cookies and to delete existing cookies. You can also set your browser to notify you each time new cookies are placed on your computer or other device. You can find more detailed information about how you can manage cookies through your browser's help function.
+If you choose to disable some or all cookies, you may not be able to make full use of our websites. For example, you may not be able to add items to your shopping basket, proceed to checkout, or use any of our products and services that require you to sign in.
+You can also manage advertising-related cookies used on our services by opting out through the service providers listed in the table above or by visiting the YourOnlineChoices website. Where we display personalised adverts on other organisations' websites, the AdChoices icon will usually be displayed. Clicking on this icon will provide you with specific guidance on how to control your online advertising preferences. More information is available on the YourAdChoices website.
+Mobile app
+Cookies work differently on our mobile app, as they're coded into the app itself and will use a unique identifier created by your mobile device for use for advertising activities. You can turn off or reset this advertising identifier through your mobile device's privacy settings.
+Managing your cookie preferences
+We use cookies to improve your experience on our website. However, your consent is needed for certain cookies before they can be used. You can also choose which cookies you allow us to use, apart from essential cookies, which can't be turned off.
+Check out our cookie preferences page for more information, along with options on managing your preferences.
+What rights do I have (including subject access)?
+Subject access
+You have the right to see the personal data we hold about you. This is called a subject access request or SAR.
+If you'd like a copy of the personal data we hold about you, please email us at subjectaccess.request@tesco.com
+Inaccurate data
+If you believe we hold inaccurate or incomplete data, please let us know and we'll correct it.
+Withdrawal of consent
+Where you gave us information based upon your consent, if you withdraw that consent we'll stop using that data.
+Objection to our use of your data
+We'll consider your objection to our use of your personal data. If, on balance, your rights outweigh our interests in using your personal data, then you can ask us to either restrict our use of it or delete it. In almost all cases relating to marketing, we'll stop using that data at your request.
+Restriction to use your data
+There are several situations when you can restrict our use of your personal data. This includes (but is not limited to):
+You've successfully made a general objection (as above).
+You're challenging the accuracy of the personal data we hold.
+We've used your personal data unlawfully, but you don't want us to delete it.
+Deletion
+There are several situations when you can have us delete your personal data. This includes (but is not limited to):
+We no longer need to keep your personal data.
+You've successfully made a general objection (as above).
+You've withdrawn your consent to us using your personal data (and we don't have any other grounds to use it).
+We've unlawfully processed your personal data.
+Transfer/Portability
+You can find out more information on your right of data portability here.
+Complain to the data protection regulator (ICO)
+We'd like the chance to resolve any complaints you have. However, you also have the right to complain to the UK data protection regulator (the 'ICO') about how we've used your personal data.
+More information on your data protection rights
+The ICO website also contains more detail on the data protection rights mentioned above, or if you'd like to speak to us about these rights in more detail, see the 'how to contact us' section below.
+How can I contact Tesco about my data?
+If you have any questions or complaints about how Tesco uses your personal data, please contact us.
+Phone:
+0800 50 5555
+0330 123 4055
+Mail:
+Tesco Customer Service Centre 
+Baird Avenue 
+Dundee 
+DD1 9NF 
+Email:
+DPO@Tesco.com
+This email address is only for data protection queries. We're unable to answer any other queries at this email address. If you'd like to get in touch for any other reason, please go to our contact us page.
+Print
+We reserve the right to change the policy at any time, so please check back regularly to keep informed of updates to this Policy. 
+Close

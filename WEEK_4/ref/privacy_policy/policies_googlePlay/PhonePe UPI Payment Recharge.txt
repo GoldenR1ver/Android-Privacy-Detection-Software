@@ -1,0 +1,206 @@
+Business SolutionsPressCareersAbout UsBlogContact UsTrust & Safety
+HomeBusiness SolutionsPressCareersAbout UsBlogContact UsTrust & Safety
+Privacy 
+Policy
+Englishગુજરાતીதமிழ்తెలుగుमराठीമലയാളംবাংলাहिंदीಕನ್ನಡଓଡ଼ିଆ
+Privacy Policy
+Information Collection
+Purpose and Use of Information
+Cookies or Similar Technologies 
+Information Sharing and Disclosures
+Storage and Retention
+Reasonable Security Practices
+Third-Party Products, Services, or Websites
+Your Consent
+Choice/Opt-out
+Personal Information Access/Rectification and Consent
+Children Information
+Changes to Policy
+Contact Us
+Updated 16th April 2023
+This policy applies to PhonePe Private Limited a company incorporated under the Companies Act, 1956 with its registered office at Unit No.001, Ground Floor, Boston House, Suren Road, Off. Andheri-Kurla Road, Andheri Mumbai, 400 093, India and its Entities/Subsidiaries including but not limited to PhonePe Private Limited, PhonePe Insurance Broking Services Private Limited, PhonePe Wealth Broking Private Limited, PhonePe Technology Services Private Limited ("PhonePe AA"), PhonePe Shopping Solutions Private Limited (Formally PhonePe Payment Technology Services Private Limited), Wealth Technology & Services Private Limited (collectively "PhonePe", "we", "our", or "us" as the context may require).
+This policy describes how PhonePe collects, stores, uses and otherwise processes your Personal Information through PhonePe websites, PhonePe Applications, m-sites, chatbots, notifications or any other medium used by PhonePe to provide its services to you (hereinafter referred to as the "Platform"). By visiting, downloading, using PhonePe Platform, and/or, providing your information or availing our product/services, you expressly agree to be bound by this Privacy Policy ("Policy") and the applicable service/product terms and conditions. We value the trust you place in us and respect your privacy, maintaining the highest standards for secure transactions and protection of your personal information. 
+This Privacy Policy is published and shall be construed in accordance with the provisions of Indian laws and regulations including the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011 under the Information Technology Act, 2000, the Aadhaar Act, 2016 and its Amendments, including the Aadhaar Regulations; that require publishing of the privacy policy for collection, use, storage, transfer, disclosure of Personal Information. Personal Information means and includes all information that can be linked to a specific individual and also includes Sensitive Personal Information (all Personal Information which requires heightened data protection measures due to its sensitive and personal nature), both, hereinafter referred to as "Personal Information", excluding any information that is freely available or accessible in public domain. Please note, we do not offer any product/service under our Platform outside India. If you do not agree with this Privacy Policy, please do not use or access our Platform.
+Information Collection
+We may collect your Personal Information when you use our services or Platform or otherwise interact with us during the course of our relationship. We collect Personal Information which is relevant and absolutely necessary for providing the services requested by you and to continually improve the PhonePe Platform.
+Personal and Sensitive Personal Information collected, as applicable, includes, but are not limited to name, age, gender, photo, address, phone number, e-mail id, your contacts and nominee details
+Personal and Sensitive Personal Information collected, as applicable, includes, but are not limited to pAN card number, KYC related information such as videos or other online/ offline verification documents as mandated by relevant regulatory authorities, your business-related information
+Personal and Sensitive Personal Information collected, as applicable, includes, but are not limited to aadhaar information including Aadhaar number or Virtual ID for the purposes of e-KYC authentication with the Unique Identification Authority of India (UIDAI). Note that submission of Aadhaar information is not mandatory for e-KYC authentication, you can also use other types of information, such as your PAN or GST number
+Personal and Sensitive Personal Information collected, as applicable, includes, but are not limited to oTP sent to you by your bank or PhonePe
+Personal and Sensitive Personal Information collected, as applicable, includes, but are not limited to balance, transaction history and value, bank account details, wallet balance, investment details and transactions, service or transaction related communication, order details, service fulfilment details, part of your card details for smooth transaction using PhonePe or any of the services
+Personal and Sensitive Personal Information collected, as applicable, includes, but are not limited to your device details such as device identifier, internet bandwidth, mobile device model, browser plug-ins, and cookies or similar technologies that may identify your browser/PhonePe Applications and plug-ins, and time spent, IP address and location
+Personal and Sensitive Personal Information collected, as applicable, includes, but are not limited to your Short Messaging Service (SMS(es)) that are stored on your device for the purposes of, including but not limited to, registering you and your device for payments services, OTPs for logins and payments, enhancing your security, bill payments and recharge reminders
+Information may be collected at various stages of your usage of the PhonePe Platform such as visiting PhonePe Platform
+Information may be collected at various stages of your usage of the PhonePe Platform such as registering on PhonePe Platform as an "user" or "merchant" or any other relationship that may be governed by terms and conditions listed on PhonePe Platform
+Information may be collected at various stages of your usage of the PhonePe Platform such as transacting or attempting to transact on PhonePe Platform
+Information may be collected at various stages of your usage of the PhonePe Platform such as accessing links, e-mails, chat conversations, feedbacks, notifications sent or owned by PhonePe Platform and if you opt to participate in our occasional surveys
+Information may be collected at various stages of your usage of the PhonePe Platform such as otherwise dealing with any of the PhonePe Entities/Subsidiaries
+Information may be collected at various stages of your usage of the PhonePe Platform such as while applying for career opportunities with PhonePe 
+We and our service providers or business partners may also collect your Personal Information from third parties or information made publicly available, as applicable, including but not limited to financial history and other information for the purpose of verifying and authenticating an investment transaction request you place with us to prevent suspicious transactions, or to comply with court judgements and bankruptcies, from credit reference and fraud prevention agencies.
+We and our service providers or business partners may also collect your Personal Information from third parties or information made publicly available, as applicable, including but not limited to vehicle-related information when you opt for vehicle insurance
+We and our service providers or business partners may also collect your Personal Information from third parties or information made publicly available, as applicable, including but not limited to your resume, your past employment and educational qualification for background checks and verifications, through online or offline databases that are otherwise legitimately obtained in case you apply for employment opportunities with PhonePe
+We and our service providers or business partners may also collect your Personal Information from third parties or information made publicly available, as applicable, including but not limited to your demographic and photo information including but not limited to Aadhaar number, address, gender, and date of birth as a response received from UIDAI upon successful Aadhaar e-KYC
+Purpose and Use of Information
+PhonePe may process your Personal Information for the following purposes: creation of your account and verification of your identity and access privileges
+PhonePe may process your Personal Information for the following purposes: provide you access to the products and services being offered by us, merchants, entities, subsidiaries, sellers, logistic partners, or business partners
+PhonePe may process your Personal Information for the following purposes: fulfil your service request
+PhonePe may process your Personal Information for the following purposes: to conduct the KYC compliance process as a mandatory prerequisite as per the requirements of various regulatory bodies, including UIDAI under the Aadhaar Act and its Regulations
+PhonePe may process your Personal Information for the following purposes: to validate, process and share your KYC information, nominee details with other intermediaries, Regulated Entities or AMCs or financial institutions or with any other service providers as may be required
+PhonePe may process your Personal Information for the following purposes: to process payments on your behalf and on your instructions; communicate with you for your queries, transactions, and any other regulatory requirement, etc.
+PhonePe may process your Personal Information for the following purposes: to authenticate a transaction request; validate a standing instruction for a Systematic Investment Plan or confirm a payment made via the services
+PhonePe may process your Personal Information for the following purposes: enhancing your user experience in various processes/submission of applications/availment of product/service offerings by analysing user behaviour on an aggregated basis
+PhonePe may process your Personal Information for the following purposes: to monitor and review products/services from time to time; customize the services to make your experience safer and easier, and conducting audits
+PhonePe may process your Personal Information for the following purposes: to allow third parties to contact you for products and services availed/requested by you on PhonePe Platform or third-party links
+PhonePe may process your Personal Information for the following purposes: to carry credit checks, screenings or due diligence checks as lawfully required by us; detect and protect us against error, fraud, money laundering and other criminal activity; enforce our terms and conditions
+PhonePe may process your Personal Information for the following purposes: to inform you about online and offline offers, products, services, and updates; customizing and improving your experience by marketing, presenting advertising, and offering tailored products and offers
+PhonePe may process your Personal Information for the following purposes: to resolve disputes; troubleshoot problems; technical support and fixing bugs; help promote a safe service
+PhonePe may process your Personal Information for the following purposes: to identify security breaches and attacks; investigating, preventing, and taking action on illegal or suspected fraud or money laundering activities and conducting forensic audits as part of internal or external audit or investigation by PhonePe or government agencies located within India or outside the Indian jurisdiction
+PhonePe may process your Personal Information for the following purposes: to meet legal obligations
+While we may also process your Personal Information for other legitimate business cases, we ensure to take appropriate steps to minimize the processing to the extent possible, making it less intrusive to your privacy.
+Please note that when providing you with account aggregator services, we do not store, use, process, or have access to any financial information that you choose to transmit under our services.
+Cookies or Similar Technologies 
+We use data collection devices such as "cookies" or similar technologies on certain pages of the Platform to help analyse our web page flow, measure promotional effectiveness, and promote trust and safety. "Cookies" are small files placed on your device hard-drive/storage that assist us in providing our services. Cookies do not contain any of your Personal Information. We offer certain features that are only available through the use of a "cookie" or similar technologies. We also use cookies to allow you to enter your password less frequently during a session. Cookies or similar technologies can also help us provide information that is targeted to your interests. Most cookies are "session cookies," meaning that they are automatically deleted from your device hard-drive/storage at the end of a session. You are always free to decline/delete our cookies or similar technologies if your browser/device permits, although in that case you may not be able to use certain features on the Platform and you may be required to re-enter your password more frequently during a session. Additionally, you may encounter "cookies" or other similar technologies on certain pages of the Platform that are placed by third parties. We do not control the use of cookies by third parties.
+Information Sharing and Disclosures
+Your Personal Information is shared as allowed under applicable laws, after following due diligence and in line with the purposes set out in this Policy.
+We may share your Personal Information in the course of your transaction with different categories of recipients such as business partners, service providers, sellers, logistic partners, merchants, entities, subsidiaries, legally recognized authorities, regulatory bodies, governmental authorities, financial institutions, internal teams such as marketing, security, investigation team, etc. 
+Personal Information will be shared, as applicable, on need-to-know basis, for the following purposes: for enabling the provision of the products/services availed by you and facilitating the services between you and the service provider, sellers, logistic partners, as requested
+Personal Information will be shared, as applicable, on need-to-know basis, for the following purposes: for the Aadhaar authentication process by submitting Aadhaar information to Central Identities Data Repository and National Securities Depository Limited (NSDL)
+Personal Information will be shared, as applicable, on need-to-know basis, for the following purposes: for complying with applicable laws as well as meeting the Know Your Customer requirements as mandated by various regulatory bodies, whose regulated service/product you opt through our services/Platforms
+Personal Information will be shared, as applicable, on need-to-know basis, for the following purposes: for completing a payment transaction initiated by you on a merchant site, where based on your instructions, the merchant requests to fetch your Personal Information from us
+Personal Information will be shared, as applicable, on need-to-know basis, for the following purposes: for the purpose of processing your financial product subscription requests placed with us and ensuring that these requests reach the relevant financial institution whose service/product you have opted for
+Personal Information will be shared, as applicable, on need-to-know basis, for the following purposes: if it is required by financial institutions to verify, mitigate, or prevent fraud or to manage risk or recover funds in accordance with applicable laws/regulations
+Personal Information will be shared, as applicable, on need-to-know basis, for the following purposes: for services related to communication, marketing, data and information storage, transmission, security, analytics, fraud detection, risk assessment and research
+Personal Information will be shared, as applicable, on need-to-know basis, for the following purposes: enforce our Terms or Privacy Policy; respond to claims that an advertisement, posting, or other content violates the rights of a third party; or protect the rights, property or personal safety of our users or the general public
+Personal Information will be shared, as applicable, on need-to-know basis, for the following purposes: if required to do so by law or in good faith we believe that such disclosure is reasonably necessary to respond to subpoenas, court orders, or other legal process
+Personal Information will be shared, as applicable, on need-to-know basis, for the following purposes: if requested by government authorities for government initiatives and benefits
+Personal Information will be shared, as applicable, on need-to-know basis, for the following purposes: for grievance redressal and resolution of disputes
+Personal Information will be shared, as applicable, on need-to-know basis, for the following purposes: with the internal investigation department within PhonePe or agencies appointed by PhonePe for investigation purposes located within or outside the Indian jurisdiction
+Personal Information will be shared, as applicable, on need-to-know basis, for the following purposes: should we (or our assets) plan to merge with, or be acquired by any business entity, or re-organization, amalgamation, restructuring of our business then with such other business entity
+While the information is shared with third parties as per purposes set out in this Policy, processing of your Personal Information is governed by their policies. PhonePe ensures stricter or no less stringent privacy protection obligations are cast on these third-parties, wherever applicable and to the extent possible. However, PhonePe may share Personal Information with third-parties such as legally recognized authorities, regulatory bodies, governmental authorities, and financial institutions as per purposes set out in this Policy or as per applicable laws. We do not accept any responsibility or liability for usage of your Personal Information by these third parties or their policies.
+Storage and Retention
+To the extent applicable, we store Personal Information within India and retain it in accordance with applicable laws and for a period no longer than it is required for the purpose for which it was collected. However, we may retain Personal Information related to you if we believe it may be necessary to prevent fraud or future abuse or if required by law such as in the event of the pendency of any legal/regulatory proceeding or receipt of any legal and regulatory direction to that effect or for other legitimate purposes.
+Once the Personal Information has reached its retention period, it shall be deleted in compliance with applicable laws.
+Reasonable Security Practices
+PhonePe has deployed administrative, technical, and physical security measures to safeguard user's Personal Information and Sensitive Personal Information. Specifically, in order to safeguard your Aadhaar information, we have implemented applicable security controls as given under and required by the Aadhaar Regulations. We understand that as effective as our security measures are, no security system is impenetrable. Hence, as part of our reasonable security practices, we undergo strict internal and external reviews to ensure appropriate information security encryption or controls are placed for both data in motion and data at rest within our network and servers respectively. The database is stored on servers secured behind a firewall; access to the servers is password-protected and is strictly limited.
+Further, you are responsible for maintaining the confidentiality and security of your login id and password. Please do not share your PhonePe login, password, and OTP details with anybody. It shall be your responsibility to intimate us in case of any actual or suspected compromise to your Personal Information.
+We have provided multiple levels of security to safeguard the PhonePe Application by login/logout option and PhonePe Application lock feature ("Enable Screen Lock") that can be enabled by you. We have preventive controls implemented to ensure you use PhonePe Application on your device and the same login credentials cannot be used on different device without any additional authentication/OTP.
+Third-Party Products, Services, or Websites
+When you are availing products and services of service providers on PhonePe Platform, Personal Information may be collected by respective service providers and such Personal Information shall be governed by their privacy policy. You may refer to their privacy policy and terms of service to understand how your Personal Information will be handled by such service providers.
+Our services may include links to other websites or applications when you visit our Platform. Such websites or applications are governed by their respective privacy policies, which are beyond our control. Once you leave our servers (you can tell where you are by checking the URL in the location bar on your browser or on the m-site you are redirected to), use of any Personal Information that you provide on these websites or applications is governed by the privacy policy of the operator of the application/website, you are visiting. That policy may differ from ours and you are requested to review those policies or seek access to the policies from the domain owner before proceeding to use those applications or websites. We do not accept any responsibility or liability for usage of your Personal Information by these third parties or their policies.
+Your Consent
+We process your Personal Information with consent. By using the PhonePe Platform or services and by providing your Personal Information, you consent to the processing of your Personal Information by PhonePe in accordance with this Privacy Policy. If you disclose to us any Personal Information relating to other people, you represent that you have the authority to do so and permit us to use the information in accordance with this Privacy Policy.
+Choice/Opt-out
+We provide all users with the opportunity to opt-out of receiving any of our services or non-essential (promotional, marketing-related) communications from us, after setting up an account. If you want to remove your contact information from all our lists and newsletters or discontinue any our services, please click on the unsubscribe button on the emailers.
+Personal Information Access/Rectification and Consent
+You can access and review your Personal Information shared by you by placing a request with us. In addition, you may at any time revoke consent given to us to store your e-KYC information, collected as part of the Aadhaar-based e-KYC process. Upon such revocation, you may lose access to services that were availed on the basis of the consent provided. In some cases, we may continue to retain your information as per the 'Storage and Retention' section of this Policy. To raise any of the above requests, you may write to us using the contact information provided under the 'Contact Us' section of this Policy.
+In case you wish to delete your account or Personal Information, please use the 'Help' section of the PhonePe Platform. However, retention of your Personal Information will be subject to applicable laws.
+For the above requests, PhonePe may need to request specific information from you to confirm your identity and ensure authentication. This is a security measure to ensure that Personal Information is not disclosed to any person who does not have a right to receive it or is not incorrectly modified or deleted.
+In cases where you need any further information specific to the product/ services that you are availing, we request you to read through the Terms and Conditions specific to the product/service which is easily accessible through the PhonePe Platform. For seeking any further information on the same, you can write to us at the details mentioned in the 'Contact Us' section of this Policy.
+Children Information
+We do not knowingly solicit or collect Personal Information from children under the age of 18 and use of our Platform is available only to persons who can form a legally binding contract under the Indian Contract Act, 1872. If you are under the age of 18 years then you must use the Platform or services under the supervision of your parent, legal guardian, or any responsible adult.
+Changes to Policy
+Since our business changes constantly, so will our policies. We reserve the right, at our sole discretion, to change, modify, add, or remove portions of this Privacy Policy at any time without any prior written notice to you. We may, however, reasonably endeavour to notify you of the changes, it is your responsibility to review the Privacy Policy periodically for updates/changes. Your continued use of our services/Platform, following the posting of changes will mean that you accept and agree to the revisions. We will never make changes to policies in order to make it less protective of Personal Information already shared by you.
+Contact Us
+In case you have any questions, concerns, or complaints regarding the processing of your Personal Information or this Privacy Policy you may write to PhonePe's Privacy Officer using this link website_url_lnk We are committed to answer your questions within the reasonable time limit. Any delay in the resolution time shall be proactively communicated to you.
+Business Solutions
+Payment Gateway
+Guardian by PhonePe
+Express Checkout
+PhonePe Switch
+Offline Merchant
+Advertise on PhonePe
+SmartSpeaker
+Insurance
+Motor Insurance
+Bike Insurance
+Car Insurance
+Health Insurance
+Arogya Sanjeevani Policy
+Life Insurance
+Term Life Insurance
+1-Year Term Life Insurance
+Personal Accident Insurance
+Guaranteed Returns Plan
+Travel Insurance
+Domestic Travel Insurance
+International Travel Insurance
+Investments
+24K Gold
+Liquid Funds
+Tax Saving Funds
+Equity Funds
+Debt Funds
+Hybrid Funds
+General
+About Us
+Careers
+Contact Us
+Press
+Ethics
+Report Vulnerability
+Merchant Partners
+Blog
+Tech Blog
+PhonePe Pulse
+Legal
+Terms & Condition
+Privacy Policy
+Grievance Policy
+How to Pay
+E-Waste Policy
+Trust & Safety
+Global Anti-Corruption Policy
+Certification
+See All Apps
+2023, All rights reserved
+Business Solutions
+Payment Gateway
+Guardian by PhonePe
+Express Checkout
+PhonePe Switch
+Offline Merchant
+Advertise on PhonePe
+SmartSpeaker
+Insurance
+Motor Insurance
+Bike Insurance
+Car Insurance
+Health Insurance
+Arogya Sanjeevani Policy
+Life Insurance
+Term Life Insurance
+1-Year Term Life Insurance
+Personal Accident Insurance
+Guaranteed Returns Plan
+Travel Insurance
+Domestic Travel Insurance
+International Travel Insurance
+Investments
+24K Gold
+Liquid Funds
+Tax Saving Funds
+Equity Funds
+Debt Funds
+Hybrid Funds
+General
+About Us
+Careers
+Contact Us
+Press
+Ethics
+Report Vulnerability
+Merchant Partners
+Blog
+Tech Blog
+PhonePe Pulse
+Legal
+Terms & Condition
+Privacy Policy
+Grievance Policy
+How to Pay
+E-Waste Policy
+Trust & Safety
+Global Anti-Corruption Policy
+Certification
+See All Apps
+2023, All rights reserved

@@ -1,0 +1,65 @@
+Privacy Policy
+Updated Date: October 28, 2022
+This privacy policy applies to App Lock, Fingerprint Lock App ("Our Service", or "the App"), owned and operated by Trusted Tools ("We," or "Us") and explains how information about You is collected and used. We will not use or share Your Data with anyone except as described in this Privacy Policy.
+Types of Data Collected
+Personal Data
+If You choose to bind Your email when using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You email address
+The Email address is only used to help You reset Your passcode of the App.
+Usage Data
+Usage Data, as non-personally identifiable information, is collected automatically when using Our Service.
+Usage Data may include information such as Your device's Internet Protocol address (e.g. IP address), the pages of Our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers, platform types, number of clicks and other diagnostic Data.
+Our Use of Your Data
+We use Your Data that We collected to operate and maintain Our Service, to respond to Your questions and concerns, and to help Our third-party partners deliver their online offerings.
+Retention of Your Data
+We will retain Your Data we process for as long as is necessary to provide Our services, to comply with Our legal obligations, to resolve disputes, or to enforce our agreements.
+Disclosure of Your Data
+Business Transactions
+If the Company is involved in a merger, acquisition or asset sale, Your Data may be transferred. We will provide notice before Your Data is transferred and becomes subject to a different Privacy Policy.
+Legal requirements
+Comply with a legal obligation
+Protect and defend the rights or property of the Company
+Prevent or investigate possible wrongdoing in connection with the Service
+Protect the personal safety of Users of the Service or the public
+Protect against legal liability
+Security of Your Data
+We use administrative, technical, and physical security measures to help protect Your Data. However, no method of electronic storage is 100% secure. Therefore, We cannot guarantee its absolute security. If You have any questions about security on Our Website, You can contact Us at support@bestools.group.
+Third-party Partners
+We partner with third parties to either display advertising on Our Website or to monitor and analyze the use of Our Service. Our Privacy Policy does not apply to, and We have no control over, the activities of third-party ad servers and ad networks. Please thoroughly read the respective privacy policies of such third-party partners for more information.
+Analytics
+We may use third-party Service providers to monitor and analyze the use of Our Service.
+Google Analytics
+Google Analytics, offered by Google, is a web analytics service that tracks and reports website traffic. Google uses the Data collected to track and monitor the use of Our Service and the Data is shared with other Google services, such as to contextualize and personalize the ads of its own advertising network.
+You may opt-out of certain Google Analytics features through Your mobile device settings, such as Your device advertising settings or by following the instructions provided by Google in their Privacy Policy: website_url_lnk
+For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: website_url_lnk
+Advertising
+We may use Service providers to show advertisements to You to help support and maintain Our Service.
+Google AdSense & DoubleClick Cookie
+Google, as a third-party vendor, uses cookies to serve ads on Our Service. Google's use of the DoubleClick cookie enables it and its partners to serve ads to Our Users based on their visit to Our Service or other websites on the Internet.
+You may opt out of the use of the DoubleClick Cookie for interest-based advertising by visiting the Google Ads Settings web page: website_url_lnk
+AdMob by Google is provided by Google Inc.
+For more information on how Google uses the collected information, please visit the "How Google uses Data when You use our partners' sites or app" page: website_url_lnk or visit the Privacy Policy of Google: website_url_lnk
+Payments
+We may provide paid services within the Service. In that case, We may use third-party services for payment processing (e.g. payment processors).
+Click the links to view the Privacy Policy of these processors google Play In-App Payments: website_url_lnk
+Click the links to view the Privacy Policy of these processors apple Store In-App Payments: website_url_lnk
+Click the links to view the Privacy Policy of these processors payPal: website_url_lnk
+Click the links to view the Privacy Policy of these processors payPal: website_url_lnk
+Click the links to view the Privacy Policy of these processors wechat: website_url_lnk
+Click the links to view the Privacy Policy of these processors alipay: website_url_lnk
+"Do Not Track" Policy for California Resident
+Our Service does not respond to DNT signals.
+Your Rights about Your Data
+Please note that We do not sell Your Data. You can review, correct, update or delete Your Data We collected by contacting Us at support@bestools.group.
+If You wish to not have Your Data used for the purpose of serving You interest-based ads, You may opt-out by clicking below. Please note this does not opt You out of being served ads. You will continue to receive generic ads: website_url_lnk
+You have the right to withdraw Your consent on using Your Data. If You do so, We may not be able to provide You with certain features of the Service.
+Children's Privacy
+We do not knowingly collect or solicit Data from anyone under the age of 13. If You are under the age of 13, please do not send Us any Data about Yourself, including Your email address.
+If You become aware that We might have any information from or about a child under the age of 13, please contact Us at support@bestools.group.
+Links to Other Websites
+Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.
+We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
+Changes to this Privacy Policy
+We may update our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.
+You are advised to periodically review this Privacy Policy for any changes. Changes to this Privacy Policy are effective when posted on this page.
+Contact Us
+If You have any concerns, please feel free to email Us at support@bestools.group. We will endeavor to provide clear answers to Your questions in a timely manner.

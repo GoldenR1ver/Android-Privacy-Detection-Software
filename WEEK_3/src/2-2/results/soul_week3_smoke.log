@@ -1,0 +1,11 @@
+[2026-04-06 15:17:30] [main] command=audit
+[2026-04-06 15:17:30] [audit] start: input=..\..\..\WEEK_4\out\soul_week3\sentences_week3_2_2.csv, output=results\soul_week3_smoke_raw.csv, limit=2, resume=False, resume_from=None
+[2026-04-06 15:17:30] [audit] row 1: request model inference
+[2026-04-06 15:17:30] [audit] row 1: inference finished
+[2026-04-06 15:17:30] [audit] processed row 1
+[2026-04-06 15:17:30] [audit] row 2: request model inference
+[2026-04-06 15:17:30] [audit] row 2: inference finished
+[2026-04-06 15:17:30] [audit] processed row 2
+[2026-04-06 15:17:30] [audit] reached limit=2, stop
+[2026-04-06 15:17:30] [audit] completed: processed_in_this_run=2, last_input_row_seen=3
+[2026-04-06 15:17:30] [main] finished

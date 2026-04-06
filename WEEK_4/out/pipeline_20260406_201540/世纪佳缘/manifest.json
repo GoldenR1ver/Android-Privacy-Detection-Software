@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-04-06T12:55:25.123296+00:00",
+  "input": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_4\\src\\data\\世纪佳缘.txt",
+  "mode": "classify",
+  "provider": "deepseek",
+  "ollama_model": "qwen3.5:9b",
+  "keyword_hint": true,
+  "limit": 0,
+  "max_chars": 0,
+  "num_sentences": 323,
+  "num_classified": 323,
+  "write_week3_csv": true,
+  "week3_csv_path": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_4\\out\\pipeline_20260406_201540\\世纪佳缘\\sentences_week3_2_2.csv",
+  "stats_summary": {
+    "total_sentences": 323,
+    "pii_related_ratio_of_total": 0.8854489164086687,
+    "pii_related_ratio_of_labeled": 0.8854489164086687,
+    "keyword_hint_ratio_of_total": 0.631578947368421
+  }
+}

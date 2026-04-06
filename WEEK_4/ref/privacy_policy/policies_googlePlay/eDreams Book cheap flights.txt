@@ -1,0 +1,418 @@
+Flights 
+Hotels 
+Flight, Hotel 
+Car rental 
+Shuttles and transfers 
+Holiday rentals 
+More 
+Hotels 
+Car rental 
+Flight, Hotel 
+Hotels 
+Flights 
+Beach holidays 
+Manage booking
+My account. My Prime
+Log in
+No account yet?
+Create it now
+or
+Find my booking as a guest
+Can we help? 
+EN (€)
+eDreams is now available in the following countries: (and growing)
+Europe 
+Czech Republic 
+Deutschland (€) 
+España (€) 
+France (€) 
+Hungary 
+Italia (€) 
+Nederland (€) 
+Portugal (€) 
+România 
+Schweiz, Deutsch () 
+Suisse, Français () 
+Svizzera, Italiano () 
+Türkiye 
+United Kingdom (£) 
+Rest of World (€) 
+Latin America 
+Argentina (AR$) 
+Chile ($) 
+Colombia ($) 
+México ($) 
+Perú (S/) 
+Asia & Pacific 
+Australia (AU$) 
+Hong Kong (HK$) 
+Indonesia 
+India (₹) 
+New Zealand (NZ$) 
+Phillipines (₱) 
+South Korea, English () 
+Singapore ($) 
+Taiwan, English () 
+Thailand (฿) 
+Africa & Middle East 
+Maroc 
+Qatar, English () 
+Saudi Arabia, English () 
+South Africa 
+United States & Canada 
+United States, English () 
+Estados Unidos, Español () 
+Canada, English () 
+Canada, Français () 
+Or you can visit our global site
+Close
+Logging in...
+Welcome back, 
+Sending instructions to
+Log in
+Facebook
+Google
+We never share anything without your permission
+or 
+Email
+8 All your booking details will be sent to this email address.
+Password
+Forgot your password?
+Log in
+Do you already have an account? 
+No account yet? Sign up for free
+Reset your password
+Enter your email and we'll send you the instructions to recover your password email
+Send me the instructions 
+This email has been sent to 
+Follow the instructions in the email to reset your password. If you don't receive the email in your inbox, please check your spam folder. The sender is noreply@edreams.com 
+Return to Log in 
+Please enable JavaScript
+In order for this site to work properly, please enable JavaScript in your browser settings. 
+Privacy Notice
+Expand Collapse
+Who we are
+Introduction
+Who is the Data Protection Officer?
+Definitions
+Why do we process your data?
+Booking
+User account
+Travel-related services
+Communications
+Marketing activities
+Call and chat recordings
+Improving our services or developing new services
+Promotion of a safe and trustworthy service
+Legal and compliance purposes
+Lawful basis we rely on
+We don't make Automated Decisions
+Types of data
+Identification & Contact data
+Account & Settings data
+Payment data
+Travel related data
+Communications data 
+Browsing & Device data
+Why don't we process Sensitive Personal Data?
+What happens with the data belonging to children?
+Data we collect from third parties
+Recipients of your data
+Service providers
+Our group companies
+Competent authorities
+Others
+Your data protection
+Security measures
+Retention procedures
+International data transfers
+Protect your data
+How can you control your data?
+Managing your account data
+Exercising your data protection rights
+Regional-specific provisions
+The United Kingdom
+The United States
+Updates and previous versions
+Previous versions 
+Who we are
+Introduction
+Hello! We are Vacaciones eDreams S. L. U., known by you as this Platform's branding name. When this Privacy Notice mentions "we", "us", or "our", it refers to Vacaciones eDreams S. L. U. acting as Data Controller. 
+Our privacy promises we value your privacy & data security
+Our privacy promises we use data for your best travel experience with us
+Our privacy promises you control your data
+Our privacy promises several Platforms, one Privacy Notice
+Thank you for using our Platforms. Your trust is the most important value to us, that is why in this Privacy Notice we are going to show you our responsibilities regarding the privacy and security of your data. The only thing you have to do is read it, and if you have any questions related to it, you can tell us about it in our Privacy Form. After that, you're all set to book your next adventure through us.
+Vacaciones eDreams S. L. is a Spanish-based company, with tax ID number ESPB61965778. You can contact us through our Privacy Form for any data protection matter. 
+We commit to processing your data in accordance with the applicable data protection laws, including the observation of the data processing principles (such as lawfulness, fairness and transparency, purpose limitation, data minimisation, accuracy, storage limitation, integrity and confidentiality, and accountability), and to only processing your data for the purposes explained to you in this Privacy Notice or as informed in the corresponding data collection process, in line with the lawful bases as explained below (in section 2.10).
+Who is the Data Protection Officer?
+We have a common Data Protection Officer who watches over the data processing carried out with respect for your privacy and the applicable regulations.
+You can contact the Data Protection Officer's team through our Privacy Form to exercise any data rights, to solve all the questions you may have regarding the processing of your data and for any data protection issue you would like to discuss with us. Please note that we may ask you to verify your identity and request before taking further action on your request for proper management of your request and for security purposes.
+Definitions
+For a better understanding of this Privacy Notice we have prepared a definitions section that includes the following concepts: Automated Decisions, Data Controller, Data Processor, Data Rights, Lawful Bases, Personal Data, Platforms, Sensitive Personal Data and Third Countries.
+Automated Decisions: decision-based solely on automated processing, including profiling, which produces legal effects concerning the individual or similarly significantly affects them (as defined under Article EU General Data Protection Regulation, GDPR). 
+Note: As you will find explained below (in section 2), we don't make Automated Decisions 
+Data Controller: anyone responsible for determining the purposes and means of processing your data. 
+Note: We are the Data Controllers of your data in the terms described in this Privacy Notice. If you choose to book a trip through our Platforms, we will be sending your data to other Data Controllers, the carrier or the provider of other services (e.g. booking partners or the global distribution systems), who will again use your data for their own purposes and based on their own means, as described in their own Privacy Notices (which is published on their websites). You can see below the overview of Data Controllers categories with whom we might share the data. In any case, the disclosure of your data to any service provider will be done in accordance with the applicable laws. Each Data Controller is responsible for your data and, in case of an incident within its scope, must handle it and respond appropriately, as per the applicable law. 
+Data Processor: a third party that only helps to achieve the purposes determined by the Data Controller. 
+Note: We as a Data Controller use many third-party services to which we outsource some parts of our activities that we don't do ourselves for various reasons such as cost-efficiency. A Data Processor is only allowed to process your data according to our documented instructions, and in compliance with the applicable law, so we are still in charge of your data, and they will not be able to process your data for any incompatible purpose. 
+Data Rights: everyone has the right to the protection of their personal data. When we use the term "Data Rights", we refer in short to the applicable data protection rights. 
+Note: Data protection regulations allow you to exercise your rights to be informed, access, rectification, erasure, restrict processing, object, to withdraw your consent, data portability and rights related to automated decision making and profiling, when applicable. 
+Lawful Bases: processing of your data shall be lawful only if at least one of these bases applies (Article 6 GDPR). 
+Note: For the six lawful bases covered in the law, we will essentially rely on Consent, Contract, Legal Obligation or Legitimate Interest. However, exceptionally, we might rely on Vital Interests or Public Tasks. You can find more information below (in section 2). 
+Personal Data (in this Privacy Notice also referred to essentially as "your data"): any information relating to a directly or indirectly identified or identifiable to you, as a natural person. 
+Platforms: all the services (websites, apps, call centre, etc.) that facilitate interactions between you and us. 
+Sensitive Personal Data: data related to racial origin, ethnic group, religion, health, sexual orientation and biometric data constitute special categories of data (as defined under Article 9 GDPR). 
+Note: As you will find explained below (in section 3.7), we don't need to process Sensitive Personal Data normally. 
+Third Countries: countries in which the GDPR regime is not applicable. Currently, by Third Countries, we mean all countries that lie outside of the European Economic Area (i.e. outside the European Union, Iceland, Liechtenstein and Norway). 
+Why do we process your data?
+The main purpose is to offer you travel related mediation services in accordance with our General terms and conditions. This includes the specific purposes covered here. 
+Also, in this section, we inform you of the legal basis on which we process data for individual purposes. Depending on the legal basis for our processing of your data, you may have particular data rights alongside the rest of the data rights. For example, in individual cases, you have the right to object to the processing of your data (you can find further information under section 6).
+Booking
+Lawful basis: #Contract #Legitimate Interest #Your Consent 
+During the purchase process, we ask you only for the data that we need to provide you with our mediation services to contract travel products. You can go through the booking process on any of our Platforms. 
+This includes completing and managing your booking, assessing ancillary products, sending you contractual-based communications by email, call or SMS in relation to your booking (e.g. confirmations, modifications and reminders), and responding to your queries. Such communications could be managed by us or by our travel partners. In this sense, we endeavour to show to you the most relevant travel data and help you in a personalised manner with your booking and post-booking. These processing activities are necessary for the performance of a contract to which you are a party or in order to take steps at your request prior to entering into a contract. 
+We might save your data for future bookings to make it easier for you to finish a booking with us. This processing is necessary for legitimate interest purposes, namely, we have a commercial interest to facilitate further booking reservations. However, please note that your payment data will only be saved for future bookings if you have a Prime subscription, since it will be necessary for the performance of the contract to which you are a party, otherwise you will have to provide us with your consent for the use of payment data for future bookings. Remember that a Prime subscription requires to have at least one valid credit card assigned to it in order to manage the subscription payment. In case you want to stop paying for it, you will have to cancel your Prime subscription in your account or through our Customer Service, in accordance with the Prime terms and conditions. 
+We may as well ask you when needed for your consent in order to retrieve the booking information that you have already provided so you don't have to enter your data again in the same booking process. 
+We also may use your geolocation to provide a better search experience for you, in order to pre-populate the "origin" field of the search form. This processing of personal data is only possible if you consent to it. 
+Please, bear in mind that the identification data we use internally is the email that you introduce in your booking or account. If you believe that we are processing a wrong email address, please contact our Customer Service team as soon as possible.
+User account
+Lawful basis: #Contract #Your Consent #Legitimate Interest 
+You can create a user account on our Platforms, enabling us to use your data to manage your account. You can also subscribe to our programs for our customers (e.g. Prime account). We will process your data with the objective to show you the most relevant travel booking and post-booking experience, allowing you to receive the services and features covered in the General terms and conditions and the Prime terms and conditions.
+These processing activities related to the user account are necessary for the performance of a contract to which you are a party. 
+Likewise, we might save your data for future bookings to make it easier for you to finish a booking with us, and recognise you when visiting our Platforms again, in order to improve your user experience. This processing is necessary for legitimate interest purposes, namely, we have a commercial interest to facilitate further booking reservations. Bear in mind that if you object to being recognised when visiting our Platforms, this might limit the appearance of specific offers or advantages that would have been targeted to you in case you wouldn't have objected to this processing. 
+Additionally, we remind you that in case you have a Prime account, we will safely store your payment data amongst the payment methods of your Prime accountThis processing activity is necessary for the performance of a contract to which you are a party. 
+Travel-related services
+Lawful basis: #Contract #Your Consent #Legitimate Interest 
+We may offer you other travel-related services based on our role as a travel agent as described in our General terms and conditions. 
+This Privacy Notice shall apply to such data processing based on other travel-related services provided by us. This processing is necessary for the performance of a contract to which you are a party or in order to take steps at your request prior to entering into a contract. 
+We may request your authorisation to process your personal data for certain purposes related to our travel-related services, such as contacting you through specific instant messaging platforms different from those stated in the "Booking" subsection (e.g. Whatsapp, Telegram, etc.), or in order to send information previously requested by travel services providers. For those cases, we will process your personal data once you provide us with your consent.
+Communications
+Contract #Your Consent #Legitimate Interest 
+In line with the communications already mentioned above (in section 2.1. Booking), we can get in touch with you by the different means provided by you, and for contract-related purposes (such as emergencies, queries, reminders, alerts, or quality communications).
+To contact you whenever a travel service provider is not going to be able to provide you with the service (e.g. due to bankruptcy, insolvency, or equivalent) and it might affect your booking. This processing is necessary for the performance of a contract to which you are a party or in order to take steps at your request prior to entering into a contract. 
+To respond to any query or request from you or any travel service provider and to handle it by any of our contact channels (e.g. email, phone, social media, chatbot, etc.). We endeavour to maintain our best levels of customer service and we are attentive to the personal situation of each of our various customers in order to personalise our services. If the processing is related to the services provided, the processing is necessary for the performance of a contract to which you are a party. 
+To try to remember your search and contact you immediately after, in case you have not finalised a booking online, as we believe that this additional service benefits you, by allowing you to carry on with a booking without having to fill in your reservation details again. This processing is necessary for legitimate interest purposes, since we have a commercial interest in facilitating further booking reservations. 
+To inform you how to contact us if you need assistance while you are away or other data that we feel might be useful to you in your planning or getting the best of your trip, or data of upcoming trips or a summary of previous bookings you made with us. This processing is necessary for legitimate interest purposes, since we have a commercial interest to facilitate further booking reservations. 
+We may need to send you other administrative messages, which may include security alerts. This processing is necessary for the performance of a contract to which you are a party or in order to take steps at your request prior to entering into a contract. 
+To invite you to participate in a market research, or to ask you to provide a review of your experience with us and with the travel service provider. Please, bear in mind that those feedbacks may be available to other customers to help them make decisions about a product or a service. In case you agree to take part in market research, we will explain the data collected and how it would be further used. For those cases in which you take part in a market research survey with us, we will process your personal data once you provide us with your consent. However, if we ask you for a review of your experience with us or the travel service provider, the processing of your personal data will be necessary for legitimate interest purposes, since we have an interest in knowing your customer satisfaction degree and quality perception regarding the services that you have received. 
+Marketing activities
+Lawful bases: #Legitimate Interest #Your Consent 
+Under certain circumstances described below, we may use your personal data for marketing purposes.
+To send you regular news of travel-related products and services. You can unsubscribe from email marketing communications easily and at any moment, just by clicking on the unsubscribe link included in each newsletter or other communication. 
+To administer any promotional activity where you participate. When you book with us, you are subscribed to our newsletters, unless you say otherwise before confirming your booking. Anyway, remember that you will be able to unsubscribe at any moment in each commercial communication, by clicking on the footer unsubscribe link. 
+We may show you customized offers on our Platforms or third-party platforms (including social media sites) and the content of the site displayed to you may be personalized. Such offers can be booked on our site, on co-branded sites, or other third-party offers or products we think you might find interesting. 
+We may show you customised offers in the content displayed to you on our Platforms when you access them, or in third-party platforms (including social media sites). Such offers can be booked on our site and can consist of other third-party offers or products we think you might find interesting, always related to the services we are providing you with. When using cookies for this purpose, we will rely on your consent (for more information, check out our Cookies Notice).
+Otherwise, most of the time we will use your identification and contact data pseudonymised (e.g. hashing your data) for this purpose, and we will rely on our legitimate interests as long as you are our customer to show you our travel-related products and services to those already hired by you. This will only be done if you have an account with the corresponding digital company that provides online advertising services, and they have the possibility to match your details in a secure way based on their terms and conditions applying to your account with them.
+Call and chat recordings
+Lawful bases: #Legitimate Interest #Your Consent #Contract 
+We may process and record your calls and online communications for quality, contractual and legal purposes when you contact our Customer Service. 
+Not all calls or chats are recorded. However, when you contact Customer Service, due to contractual and legal purposes, we must record them, albeit they are kept for a limited amount of time and automatically deleted thereafter (unless we have a legitimate interest to keep such recordings for a longer period, including fraud investigation and legal purposes). These processing activities are necessary for the performance of a contract to which you are a party. 
+With regard to those calls and online communications recorded for quality purposes, those processing activities are necessary for preserving our legitimate interest in improving the quality of our services. 
+We remind you that our staff may as well ask for authentication questions, ensuring that your reservation details are kept confidential. 
+In certain jurisdictions, we need to request your consent in order to record the call (e.g. when the call is being made from Germany). 
+Improving our services or developing new services
+Lawful basis: #Legitimate Interest 
+We use data for analytical purposes. The main goal here is to optimise our online Platforms to your needs, making our site easier and more enjoyable to use. We strive to use pseudonymised or anonymised data for these analytical purposes.
+This is part of our drive to enhance the user experience. By user experience, we concretely mean testing and troubleshooting purposes, and 
+This is part of our drive to enhance the user experience. By user experience, we concretely mean improving the functionality and quality of our online travel services.
+The processing of your personal data will be necessary for legitimate interest purposes, since, we have an interest in improving the network and information security, and since we have an interest in improving the quality of our services, respectively. 
+Finally, we will also elaborate anonymised statistics regarding the overall conversion rate of the website. This processing is necessary for legitimate interests purposes, since we have a commercial interest to assess the percentage of users that have become customers. 
+Promotion of a safe and trustworthy service
+Lawful basis: #Legal Obligation #Legitimate Interest 
+In order to create a trustworthy environment for you, your fellow travellers, our business partners, and our travel providers, we may use data for the detection and prevention of fraud and other illegal or unwanted activities, as well as for security purposes (e.g. authentication of users and bookings). For such purposes, we may have to stop or put on hold certain bookings.
+One example of this is our five-attempt password policy (if you incorrectly enter your password more than five times, we will block your account, requiring you to change your password). 
+Another example is our preventive stolen-credential control on the internet (if we might have any hint that your credentials could have been compromised, we may also block your account and ask you to reactivate it with a new password). 
+With these examples, among other actions, we protect your data and reduce fraud risk. As some of these security measures are compulsory by law and international standards, the corresponding personal data processing is necessary for compliance with a legal obligation to which we are subject. In other cases, we have deployed security measures that require the processing of personal data for legitimate interest purposes, since we have an interest in preventing fraud. 
+Legal and compliance purposes 
+Lawful basis: #Legal Obligation #Legitimate Interest 
+In certain cases, we may need to use your data to handle and resolve legal disputes, for regulatory investigations and compliance, to enforce our General terms and conditions or to comply with lawful requests from law enforcement. 
+This processing is necessary for legitimate interest purposes, since we have an interest in preventing fraud and defending our rights and interests.
+Lawful basis we rely on
+The main Lawful Bases commonly used are #Your Consent #Contract #Legal Obligation #Legitimate Interest
+Your Consent: you gave consent for a specific use of your data. We will always obtain your consent to collect and process your data unless another Lawful Basis applies. We will provide you with transparent information at the time that consent is obtained. This information will be provided in an accessible form, written in clear language. If the data is not obtained directly from you, then this information will be provided to you within a reasonable period after the data has been obtained. 
+Contract: you have a contract or pre-contract with us. As an example, when booking an airline or hotel with us, or when accepting our General terms and conditions or any other of our terms (e.g. Prime terms and conditions), we need relevant data to process your reservation or handling your account respectively. 
+Legal Obligation: we have a legal obligation. Normally, accounting and tax regulations requires the storage of necessary data for compliance purposes. 
+Legitimate Interest: it's in our legitimate interest, and it is judged not to affect your rights and freedoms in a significant way.
+Other lawful bases, only exceptionally used vital Interest: You or a third party have a vital interest. We will not normally process data based on this legal basis, but if we do, we will let you know.
+Other lawful bases, only exceptionally used public Task: We have a public task to perform. We will not normally process data based on this legal basis, but if we do, we will let you know. 
+We don't make Automated Decisions
+We don't make Automated Decisions that could produce legal effects or similarly significantly affect you. We don't make any decisions based solely on automated processing, beyond the legitimate interest of fraud prevention and the customisation of your user experience, marketing and advertising, which will not produce legal effects or similarly significantly affect you.
+As mentioned before, such an Automated Decision will not produce legal effects or similarly significantly affect you. In case we shall make any Automated Decision we will apply all appropriate measures and inform you. 
+Types of data
+We offer you a wide range of services, which you can also use in a wide range of ways. Depending on whether you contact us online, by phone or otherwise and on which services you use, various data from different sources may come into play. Much of the data we process is provided by you when you use our services or contact us, for example when you register and provide your name or email address or address (Data you give to us). We also receive the technical device and access data which is automatically collected when you interact with our services. This may be, for example, information on which device you are using (#Data we collect from you). 
+The types of data while relating to a person are grouped into the following data categories (categories are not exclusive, and data may transcend multiple categories)
+Identification & Contact data
+Data you give to us Data used to identify you as a natural person and data we use to contact you.
+For example, your name, surname, gender, nationality, billing address, date of birth, email address and telephone number 
+Please, bear in mind that your email will be your identity data. We will be able to link your data based on your email.
+Account & Settings data
+Data you give to us Data that you generate while using your account. 
+For instance, email and password (we never store the passwords in a non-encrypted form), price alerts, search history, specific settings, preferred choices and other details saved in your account. This also applies if you have an eDreams Prime account.
+Payment data
+Data you give to us Data that you give us to execute the payment.
+Usually, this means the payment card details. For example, credit card number, cardholder name and expiration date (we never store the credit card data in a non-encrypted form).
+Travel related data
+Data you give to us Data that you provide to us during the booking process, all that you choose in the order form and what you later change or purchase as an addition to the original order. 
+For example, the number and expiration date of the ID and Passport, contact data, travel preferences, boarding passes or e-tickets. 
+Please, bear in mind that in the case you provide data from travel companions, you should have previously obtained the consent of other individuals before providing us with their data and travel preferences, as any access to view or change their data will be available only through your account or email.
+Communications data 
+Data you give to us Data we collect from youData from all of the text and voice communications exchanged between you and us in connection to your requests. 
+Such as customer support cases, metadata and notes generated by our systems and agents.
+Browsing & Device data
+Data we collect from you Data that we may automatically collect from your device when you visit our Platforms. 
+For example, IP address, browser type, internet service providers, geographic location, technical data about the device, pages accessed and links clicked, the time and duration of request and visit, and the method used to submit the request to the server. 
+Please note that we may associate this data with your account. 
+Some of this data may be collected by using different types of Cookies or similar technologies. For more information, please find our Cookies Notice.
+Why don't we process Sensitive Personal Data?
+We strive to limit the circumstances in which we collect and process Sensitive Personal Data. Please avoid providing us with Sensitive Personal Data unless it is strictly necessary and specifically requested. 
+One example for which we may collect and process such data would be if exceptional circumstances arose, such as a health emergency, where we might offer you the possibility to provide us with any relevant data in order to share it with the corresponding airline booked, for example, so as to smooth the check-in process or due to mandatory reasons. 
+In any case, the corresponding appropriate security measures will be implemented to protect your Sensitive Personal Data in line with this Privacy Notice. 
+Additionally, you may ask us to inform the airline, the hotel, etc. of a special service (such as a menu or an adapted room) which might constitute Sensitive Personal Data because they may imply or suggest data about your religion, health or other related data. In any case, this information will not be mandatory to provide in any of our booking funnels, so you are free to either provide it or not 
+What happens with the data belonging to children?
+Our services aren't intended for minors, as described in our General terms and conditions.
+The limited cases where we might need to collect minors' data would be as a booking passenger. 
+If we become aware that we have processed the data of a child without the valid consent of a parent or guardian, we will delete it.
+Data we collect from third parties
+We lawfully obtain data about you from business partners and other independent third-party sources (e.g. contact data such as email, purchase or demographic data). We may obtain such information from fraud prevention companies when the payment method chosen has been compromised, travel insurance companies when hired, and travel-related services providers that have previously managed your data. In any of those cases, we will process your data according to this Privacy Notice.
+Recipients of your data
+We work particularly closely with certain service providers (e.g. travel service providers, security service providers, etc) that might normally act as Data controller or Data Processor depending on their circumstances (e.g. on their purposes and type of data they process, their relationship with them, you and us, their responsibilities under the law, etc.). We are selecting hereinbelow their main categories. 
+Service providers
+In order to provide you with our services, we need to share your data with third parties. We will define and regulate the data transfer or processing contractually when required by law with the appropriate security measures.
+Travel service provider you booked with Data controller (e.g. airlines or carriers, hotels, car rental companies, touristic services providers, etc.). In our Platform, there might be services fully or partially provided by our travel business partners. Travel business partners' terms & conditions and privacy notices shall apply, and when so, you will find a link to them in the booking funnel.
+Other travel service providers which are necessary or provide an added value for the performance of our services Data controller Data Processor (e.g. travel insurances, global distribution systems or computerised reservation systems, booking and ticketing agents, tour operators, travel meta searchers, travel and check-in service providers, calendar solutions, claims management service providers, etc.). They make it possible to offer you our services and help us in making all endeavours to have the best alternatives at the best price. When we share your data with other Data Controllers in this way, you'll get an opportunity to review their privacy policy and terms and conditions first, so you can understand how that service provider will use your data. 
+Customer services and support tools Data Processor (e.g. customer communication tools, call centre agents, etc.). We work with customer support providers and tools in order to respond to your requests and manage communications with you if needed.
+Payment and fraud services Data controller(e.g. payment processors, banks, fraud prevention and chargeback management services, etc.). When you pay on our Platform (as in any other) a set of long chains of technical operations need to happen before the payment request is accepted by your bank and notified to us. We also use service providers to detect fraud risks. 
+Information security services Data Processor. We work with information security services to protect your data. 
+IT infrastructure providers Data Processor (e.g. hosting service providers). They help us provide you with an available and secure Platform.
+Software solutions and engineers Data Processor. Software solutions and engineers help us work on a day-to-day basis and to continue improving our services. 
+Analytical service providers Data ProcessorThey provide us with the necessary data to understand the use within our Platform, see if there are any bugs or decide how we can improve our services. 
+Customer Relationship Management and marketing solutions Data Processor Data Controller. They allow us to manage customised commercial communications. Some of them also help us display customised ads throughout the internet. Other purposes are enabling interest-based content or targeted advertising throughout your online experience (e.g. web, email, connected devices, in-app, etc).
+Social platforms Data Controller. When login with your social media, clicking on a social media "like" button integrated into our Platforms by plugins, or using any social media services to interact with us, your data can be shared between us and the social media providers (e.g. your user names, email address, profile pictures, your contact, etc.). 
+Finance, administrative and legal services and tools Data Processor Data Controller (e.g. accounting systems, legal service providers, collection agencies, corporate insurances, etc.).
+Our group companies
+We share your data within our group companies for internal purposes relating to management centralisation. 
+In particular, we centralise the processing of your data through the Spanish subsidiary eDreams International Network, SLU, acting as a Data Controller for internal administrative purposes. Likewise, we share your data as customers with other companies from our group, in order to manage the services provided by us as Data Controller, and for accountability purposes as a group of undertakings, including financial, fiscal and legal duties. Those companies that are included in our group of companies are detailed in our General terms and conditions Our group of undertakings has a common group privacy policy applying to all of them to ensure that any data processing carried out within our group, is made under the same level of security requirements and will be processed exclusively for the same purposes for which the data had been collected, according to the applicable laws.
+Competent authorities
+We might disclose your data to law enforcement insofar as it is required by law or is strictly necessary for the prevention, detection or prosecution of criminal acts and fraud or if we are otherwise legally obliged to do so, which will act as Data controller. 
+We may need to further disclose your data to competent authorities to protect and defend our rights or properties, or the rights and properties of third parties. We are also required by law to share your information with administrative bodies when we are providing you our Online Travel Agency's services under certain circumstances.
+Others
+(transparently informed to you and with your consent to the disclosure, where applicable)
+These recipients might be outside the European Economic Area (EEA), implying international data transfers. For more information on this, please see below (section 5.3). 
+Your data protection 
+Security measures
+While no online service can guarantee absolute security, we design our systems and devices with your security and privacy in mind. We work to implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including for example the following ones. 
+Some examples of security measures we implement are as follows we apply pseudonymisation and encryption of personal data, when appropriate. For example, when handling payment data, we comply with the Payment Card Industry Data Security Standards (PCI DSS) or when using our online Platforms your data is sent through a secure connection using Hypertext Transfer Protocol Secure that encrypts your data through the Internet, avoiding anyone to steal your information in transit.
+Some examples of security measures we implement are as follows we work to provide confidentiality, integrity, availability and resilience of processing systems and services. We have physical, electronic, and procedural security measures in place regarding the collection, storage, and disclosure of your data. Our security procedures mean that we may ask you to verify your identity before providing you with confidential information, and our Platforms offer security features that protect against unauthorised access and data loss.
+Some examples of security measures we implement are as follows we make endeavours to be able to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident.
+Some examples of security measures we implement are as follows we implement a process for regularly testing, assessing and evaluating the effectiveness of technical and organisational measures for ensuring the security of the processing 
+Retention procedures
+We will keep your data for as long as we deem it necessary to enable you to use our services, to provide our services to you, comply with the applicable laws, resolve disputes with any parties, and otherwise as necessary to allow us to conduct our business (including, to detect and prevent fraud or other illegal activities). All your data we retain will be subject to this Privacy Notice.
+Usually, we process your data for a maximum period of five years, since your last trip or any further action related to it ended or since you performed your last action related to your account for the purposes described above. With regard to unfinished bookings, we might store the information for a year for security and fraud prevention, unless we need to store it for longer periods to fulfil our legal obligations. 
+Other specific terms might apply, such as a maximum term of three years for accountability purposes regarding data protection-related interactions, or a maximum term of ten years for tax and accounting purposes. 
+If you provide us with your contact email address, but then you are unable to finish your booking, we will keep your email address only temporarily and, in any case, for a maximum period of seven days to help you with the booking if you are still interested. 
+For the purpose of customised offers, you will periodically get email offers from us, and in every email, there will be a clear and easy way to unsubscribe and therefore object to this type of processing. We will keep and use your data for this purpose until you unsubscribe or after two years since the last interaction with us (e.g. performing a search, performing a booking, or updating your Prime membership). 
+For those processing activities based on your consent, we will store your personal data for as long as such processing activities are necessary for the purpose for which they were collected, unless you withdraw your consent or request their deletion prior to that date and there is no legal or judicial mandate to keep the personal data. 
+Regarding Cookies duration please check our Cookie Notice.
+International data transfers
+Our servers are located within the European Union. However, to facilitate our global operations (e.g. by means of service providers) the transmission of your data to the recipients described above may include transfers of your data to third countries whose data protection laws might not be as comprehensive as those of the countries within the European Union. 
+For transfers to recipients in third countries, we rely on the decision of the adequate level of protection, on appropriate safeguards, or on the exception of contract necessity or any other which might apply from time to time.
+Any service provider (such as the airlines) acting as Data Controller will process your data in accordance with their own privacy notice and will be fully responsible for processing your data. The disclosure of your data will be done, when applicable, in accordance with the applicable laws and appropriate safeguards (in particular, the standard contractual clauses issued by the European Commission) are in place to ensure an adequate level of protection of the privacy and fundamental rights of individuals. 
+The international transfer of data onto the Computer Reservation System, aggregators and Global Distribution Systems that are not located in the European Union, as well as its use by international airlines, hotels, train companies, or car rentals, for the purpose of providing the appropriate service provided by us, is a transfer necessary for the performance of the contract between you and us in accordance with the corresponding derogation of the applicable data protection regulations.
+Protect your data
+We make serious efforts to care for and protect your data when you share it with us. We recommend that to keep your data safe you do not share your Booking ID, nor your data account with anyone and use a unique and strong password. Furthermore, we suggest that you beware of internet scams and phishing and only use our official Platforms.
+Do not share your Booking ID 
+When you make a booking you will be assigned with a Booking ID. This reference will be included in your booking confirmation email. 
+Please, always keep your Booking ID confidential. If you share it with third persons, they might access your data. If you travel with others and you do not want them to have access to your booking data it might be advisable that you carry out your booking separately. For example, we recommend you not to share this data or any other relating to your trip on social media. 
+Do not share your account data with anyone and use a unique and strong passwordTo make sure that access to your account on our Platforms is safe please do not share your log-in data with anyone. 
+When you finish using our Platforms, please make sure to log out of your session if someone else might access your device. Avoid connecting using your account from non-trusted devices or networks like the ones in hotels, libraries or cyber coffees. If you do, please do not forget to log out once finished. 
+It is important that you protect yourself against unauthorised third-party access to your password and to your devices. We recommend that you use a unique strong password for your account that you do not use for other online accounts and you should renew it every reasonable period of time, such as once a year. Malicious actors may try to connect to your account using stolen credentials from other (non-related to us) services. 
+Of course, apply the same approach for your email account, by using unique strong credentials (as is our secure touchpoint to send you "reset link passwords"). 
+Be cautious and protect yourself from internet fraud and "Phishing" 
+Please, always double-check the sender of the emails and the links or documents attached to them. If you don't trust or have doubts, do not open the attachments or click on the links. 
+There is a broadly spread type of internet fraud practice known as "Phishing" aimed to illegally obtain your data by deception or by installing malware on your device and stealing your saved credentials. 
+"Phishing" is unsolicited emails that lead you to insert or confirm your passwords or bank details on a false or cloned website. Also, they try to make you download documents with malware, or install malicious software on your computer that will be used to steal your information, like your credentials. 
+These fraudsters pretend to be somebody of your trust, a bargain, somebody that needs urgent action from you, etc. If you have doubts regarding any communication that you might have received by someone saying that is us, please, contact us through our chat in our Help Center. 
+Use only original software 
+You may want to download our applications from alternative markets. Applications on those markets are not uploaded by us, so they may contain malware used to steal your credentials. 
+Please use only the oficial applications from Google Play or Apple App Store. 
+How can you control your data?
+We want you to be in control of how your data is used by us. You can do it in different ways
+Managing your account data
+You may access and update some of your data through your account settings or Customer Service. 
+Exercising your data protection rights
+We are committed to ensuring fair and transparent processing. That is why it is important to us that persons concerned can exercise the following rights where the respective legal requirements are satisfied: rectify your data
+You have the right to ask us to correct inaccurate or incomplete data about you (and which you cannot update yourself with your account settings or through our Customer Service).
+Access or port your data
+You may request information relating to your data and copies of such data. 
+You may also be entitled to request copies of the data that you have provided to us in a structured, commonly used, and machine-readable format where technically feasible.
+Erasure or block your data
+You may request to have your data deleted. In some cases, we may not be able to erase it due to the fact that the data processing may be necessary for the performance of the contract between you and us, for our legitimate business interests (i.e. fraud prevention, security-enhancing), or to comply with our legal obligations (i.e. legal reporting, auditing obligations). In any case, we will immediately erase them when we can do so. Because we protect our services from accidental or malicious loss and destruction, residual copies of your data may not be removed from our backup systems for a limited period of time (within a week).
+Object or limit the use of your data
+You may require us not to process your data for certain specific purposes (including profiling) where such processing is based on legitimate interest, such as for direct marketing. If you object to such processing, we will no longer process your data for these purposes unless we can demonstrate compelling legitimate grounds for such processing or such processing is required for the exercise or defence of legal claims. You can object at any time to the following processing activities of your personal data described in section 3: storing your data for future bookings to make it easier for you to finish a booking with us.
+You may require us not to process your data for certain specific purposes (including profiling) where such processing is based on legitimate interest, such as for direct marketing. If you object to such processing, we will no longer process your data for these purposes unless we can demonstrate compelling legitimate grounds for such processing or such processing is required for the exercise or defence of legal claims. You can object at any time to the following processing activities of your personal data described in section 3: elaborating anonymised statistics regarding the overall conversion rate of the website. 
+You may require us not to process your data for certain specific purposes (including profiling) where such processing is based on legitimate interest, such as for direct marketing. If you object to such processing, we will no longer process your data for these purposes unless we can demonstrate compelling legitimate grounds for such processing or such processing is required for the exercise or defence of legal claims. You can object at any time to the following processing activities of your personal data described in section 3: storing your search and contact in case you have not finalised a booking online.
+You may require us not to process your data for certain specific purposes (including profiling) where such processing is based on legitimate interest, such as for direct marketing. If you object to such processing, we will no longer process your data for these purposes unless we can demonstrate compelling legitimate grounds for such processing or such processing is required for the exercise or defence of legal claims. You can object at any time to the following processing activities of your personal data described in section 3: recognising you when visiting our Platforms again.
+You may require us not to process your data for certain specific purposes (including profiling) where such processing is based on legitimate interest, such as for direct marketing. If you object to such processing, we will no longer process your data for these purposes unless we can demonstrate compelling legitimate grounds for such processing or such processing is required for the exercise or defence of legal claims. You can object at any time to the following processing activities of your personal data described in section 3: informing you how to contact us if you need assistance while you are away, or other data that we feel might be useful to you in your planning.
+You may require us not to process your data for certain specific purposes (including profiling) where such processing is based on legitimate interest, such as for direct marketing. If you object to such processing, we will no longer process your data for these purposes unless we can demonstrate compelling legitimate grounds for such processing or such processing is required for the exercise or defence of legal claims. You can object at any time to the following processing activities of your personal data described in section 3: asking you for a review of your experience with us or the travel provider.
+You may require us not to process your data for certain specific purposes (including profiling) where such processing is based on legitimate interest, such as for direct marketing. If you object to such processing, we will no longer process your data for these purposes unless we can demonstrate compelling legitimate grounds for such processing or such processing is required for the exercise or defence of legal claims. You can object at any time to the following processing activities of your personal data described in section 3: sending you regular news of travel-related products and services (we remind you that you can also unsubscribe at any moment in each commercial communication, by clicking on the footer's unsubscription link). 
+You may require us not to process your data for certain specific purposes (including profiling) where such processing is based on legitimate interest, such as for direct marketing. If you object to such processing, we will no longer process your data for these purposes unless we can demonstrate compelling legitimate grounds for such processing or such processing is required for the exercise or defence of legal claims. You can object at any time to the following processing activities of your personal data described in section 3: showing you customised categorised offers on our Platforms, or in third-party platforms 
+You may require us not to process your data for certain specific purposes (including profiling) where such processing is based on legitimate interest, such as for direct marketing. If you object to such processing, we will no longer process your data for these purposes unless we can demonstrate compelling legitimate grounds for such processing or such processing is required for the exercise or defence of legal claims. You can object at any time to the following processing activities of your personal data described in section 3: using call or chat recordings for quality purposes and training.
+You may require us not to process your data for certain specific purposes (including profiling) where such processing is based on legitimate interest, such as for direct marketing. If you object to such processing, we will no longer process your data for these purposes unless we can demonstrate compelling legitimate grounds for such processing or such processing is required for the exercise or defence of legal claims. You can object at any time to the following processing activities of your personal data described in section 3: improving our services or developing new services.
+Exceptionally, this right is not susceptible to be satisfied for the purpose of promotion of a safe and trustworthy service, since we rely on a compelling legitimate interest of protecting from any potential fraud or attack against the provision of our services.
+Withdrawing your consent
+If we are processing your data based on your consent you may withdraw your consent at any time, specifying which consent you are withdrawing. Please note that the withdrawal of your consent does not affect the lawfulness of any processing activities based on such consent before its withdrawal. You can withdraw at any time your consent to the following processing activities of your personal data described in section 3: saving your payment data for future bookings in those cases in which you are not a Prime member. 
+If we are processing your data based on your consent you may withdraw your consent at any time, specifying which consent you are withdrawing. Please note that the withdrawal of your consent does not affect the lawfulness of any processing activities based on such consent before its withdrawal. You can withdraw at any time your consent to the following processing activities of your personal data described in section 3: retrieving the booking information that you have already provided so you don't have to enter your data again in the same booking process.
+If we are processing your data based on your consent you may withdraw your consent at any time, specifying which consent you are withdrawing. Please note that the withdrawal of your consent does not affect the lawfulness of any processing activities based on such consent before its withdrawal. You can withdraw at any time your consent to the following processing activities of your personal data described in section 3: using your geolocation to pre-populate the "origin" field of the search form.
+If we are processing your data based on your consent you may withdraw your consent at any time, specifying which consent you are withdrawing. Please note that the withdrawal of your consent does not affect the lawfulness of any processing activities based on such consent before its withdrawal. You can withdraw at any time your consent to the following processing activities of your personal data described in section 3: sending you discount codes, deal alerts and a birthday surprise with eDreams newsletter. 
+If we are processing your data based on your consent you may withdraw your consent at any time, specifying which consent you are withdrawing. Please note that the withdrawal of your consent does not affect the lawfulness of any processing activities based on such consent before its withdrawal. You can withdraw at any time your consent to the following processing activities of your personal data described in section 3: for certain purposes related to our travel-related services, such as contacting you through specific instant messaging platforms, or in order to send information previously requested by travel services providers.
+If we are processing your data based on your consent you may withdraw your consent at any time, specifying which consent you are withdrawing. Please note that the withdrawal of your consent does not affect the lawfulness of any processing activities based on such consent before its withdrawal. You can withdraw at any time your consent to the following processing activities of your personal data described in section 3: when you take part in a market research survey with us.
+Exercise your rights through our Privacy Form. 
+Please note that we may ask you to verify your identity and request before taking further action on your request. You can also ask the Supervisory Authority on Data Protection (for Spain website_url_lnk or any other applicable supervisory authority if you wish.
+Regional-specific provisions
+Depending on your local applicable regulations applying, we are providing additional information. Please review if applicable.
+The United Kingdom
+Our UK Representative is Opodo Limited with tax ID number 766445988. 
+Contact us through our Privacy Form, to exercise a specific right or for other data protection comments or suggestions. 
+The United States
+Depending on which state you reside in, different laws might apply (such as California, Colorado, Connecticut, Virginia, and Utah). More specifically, if you are from California, the California Consumer Privacy Act ("CCPA") would be applicable, and you would have the following rights in relation to the personal data that we hold about you: right to know (i.e. to request information about how we process your data), right to request deletion of certain personal data that we process about you, and the right to opt-out of sale of your personal data to third parties. Contact us through our Privacy Form to exercise a specific right or for other data protection comments or suggestions. 
+We allow third parties to collect your data through our Platforms, and share it for the purposes described in this Privacy Notice (including without limitation for customised advertising and marketing on our Platforms and elsewhere based on users' online activities over time and across our Platforms, services, and devices). Remember that you can block non-strictly necessary Cookies (including ads and analytics cookies), as described in our Cookies Notice. 
+We do not sell your data as covered by the definition of "sale" covered in the applicable laws of Nevada and California applicable laws. We also do not "share" your data under the terms of the applicable laws of California.
+Updates and previous versions
+We might amend this Privacy Notice from time to time to make sure it's up-to-date. Do not hesitate to visit this page regularly and you will know exactly where you stand. We will note the date that revisions were last made to this Privacy Notice at the bottom of this page, and any revisions will take effect upon posting. 
+Last Updated: May 2023
+Previous versions 
+June 2019, November 2021
+December 2021, July 2023
+Discover amazing destinations
+ªCompass by eDreams
+With Compass by eDreams, we show you inspiring destinations you can reach from 
+to 
+F
+Sorry, we were not able to access the requested page. 
+If you have typed in the address manually, please make sure it is correct.. If you have clicked on a link to get here, there is probably an error in the link. If you have reached this site by clicking on another link, it is possible that the session e 
+Would you like your boarding pass? 
+Automatic check-in, real-time flight status updates and all the info you need for your trip, only in the app 
+Download on the
+Android app on
+eDreams 
+About us Help Centre Jobs Responsible travel Travel blog Advertising 
+Travel links 
+City breaks Cheap flights Low Cost flights Last minute flights World's best airlines Airlines Ryanair flights easyjet flights Emirates flights British Airways flights Qatar Airways flights International destinations Cheap flights to London Cheap flights to Dublin Cheap flights to New York Cheap flights Bali Spain Cheap flights Amsterdam Italy Flights to Madrid Flight, Hotel destinations Flight, Hotel Dubai Flight, Hotel Las Vegas Prime Prime Day eDreams ODIGEO eDreams Saga eDreams Partners eDreams Deals eDreams Travel Guide Cheap Hotels Traveler advice Cheap car rental
+eDreams, the online travel agency 
+Travel industry awards
+1
+7 
+EMOTA. Best international expansion 2014 
+7 
+European Business Awards. The best e-commerce site 2013 
+7 
+CFI.co Best Online Travel Partner Global 2016 
+General terms and conditions Cookies policy Privacy policy 
+Flight comparison carried out using basic fare (excluding ancillaries) for the same flight number. Monthly benchmark of 20,000 flights compared on average.
+Hotel comparison carried out using basic fare for the same room type and same travel dates. Hotels in top 25 destinations and top 20 search results. Lowest price 9 out of 10 times on average for both flights and hotels.
+1999, 2022 eDreams. All rights reserved. Vacaciones eDreams, S. L. (Sociedad Unipersonal). Registered address (not open to the public): Calle de Manzanares, nº 4, Planta 1º, Oficina 108, 28005, Madrid, Spain. VAT Number ESB-61965778. Registered with the Registro Mercantil de Madrid, Tomo 36897, Folio 121, Hoja M-660117. Licensed Travel Agency CICMA 3682 and IATA-accredited agent. Customer service: use our Help Centre or contact our agents here.
+Do you need help? 
+r
+Do you need help? 
+Send 

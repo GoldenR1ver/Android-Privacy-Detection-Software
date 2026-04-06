@@ -1,0 +1,11 @@
+app_id,app_pkg,app_name,category_id,data_safety_content,privacy_policy_content,result
+1,com.soulapp,Soul,1,"{'data_shared': [], 'data_collected': [], 'security_practices': []}",Soul App个人信息保护政策,"{""incorrect"": 1, ""incomplete"": 1, ""inconsistent"": 0}"
+2,com.soulapp,Soul,1,"{'data_shared': [], 'data_collected': [], 'security_practices': []}",更新日期：2023年11月21日,"{""incorrect"": 1, ""incomplete"": 1, ""inconsistent"": 0}"
+3,com.soulapp,Soul,1,"{'data_shared': [], 'data_collected': [], 'security_practices': []}",生效日期：2023年11月28日,"{""incorrect"": 1, ""incomplete"": 1, ""inconsistent"": 0}"
+4,com.soulapp,Soul,1,"{'data_shared': [], 'data_collected': [], 'security_practices': []}","Soul App是由上海任意门科技有限公司及其关联公司（注册地址为：中国（上海）自由贸易试验区芳春路400号1幢3层304室，以下简称""我们""或""Soul""）为用户（以下简称""您""，详情请查阅关键词定义）提供的社交类应用软件，包括移动应用、小程序及快应用（以下简称""Soul App""）。","{""incorrect"": 1, ""incomplete"": 1, ""inconsistent"": 0}"
+5,com.soulapp,Soul,1,"{'data_shared': [], 'data_collected': [], 'security_practices': []}","我们通过Soul App为您提供""灵魂匹配、发帖回复、聊天""等功能，我们现在或将来还可能为您提供其他产品与/或服务（以下简称""Soul产品与/或服务或本产品与/或服务""，详情请查阅关键词定义）。","{""incorrect"": 1, ""incomplete"": 1, ""inconsistent"": 0}"
+6,com.soulapp,Soul,1,"{'data_shared': [], 'data_collected': [], 'security_practices': []}","我们根据《中华人民共和国个人信息保护法》和《中华人民共和国网络安全法》等相关法律法规制定《Soul App个人信息保护政策》（以下简称""本政策""）并保护您的个人信息安全。","{""incorrect"": 1, ""incomplete"": 1, ""inconsistent"": 0}"
+7,com.soulapp,Soul,1,"{'data_shared': [], 'data_collected': [], 'security_practices': []}",所有Soul产品与/或服务均适用本政策。,"{""incorrect"": 1, ""incomplete"": 1, ""inconsistent"": 0}"
+8,com.soulapp,Soul,1,"{'data_shared': [], 'data_collected': [], 'security_practices': []}",本政策介绍了我们在向您提供Soul产品与/或服务的过程中处理您个人信息的目的、方式、范围、保存期限和信息安全保护措施，以及您行使法律规定权利的方式和程序。,"{""incorrect"": 1, ""incomplete"": 1, ""inconsistent"": 0}"
+9,com.soulapp,Soul,1,"{'data_shared': [], 'data_collected': [], 'security_practices': []}",请您知悉，Soul不使用Cookie或其他同类技术追踪您的个人信息。,"{""incorrect"": 1, ""incomplete"": 1, ""inconsistent"": 0}"
+10,com.soulapp,Soul,1,"{'data_shared': [], 'data_collected': [], 'security_practices': []}",请您结合我们的《Soul App用户服务协议》仔细阅读本政策，并在同意本政策约定内容的情况下使用Soul产品与/或服务。,"{""incorrect"": 1, ""incomplete"": 1, ""inconsistent"": 0}"

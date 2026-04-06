@@ -1,0 +1,209 @@
+Search Submit a request 
+Français Bahasa Indonesia 日本語 한국어 ไทย 
+ZEPETO
+FAQs
+Terms of Use
+Privacy Policy
+Privacy Policy
+ZEPETO August 16, 2023 14:38
+This Policy (the "Policy") explains the way we treat information which is provided or collected in the ZEPETO application (the "ZEPETO") service (the "Service") on which this Policy is posted. In addition the Policy also explains the information which is provided or collected in the course of using the applications of the Company which exist in the websites or platforms of other company. 
+The Company is the controller of the information provided or collected in the websites on which this Policy is posted and in the course of using the applications of the Company which exist in the websites or platforms of other company.
+Through this Policy, the Company regards personal information of the users as important and inform them of the purpose and method of Company's using the personal information provided by the users and the measures taken by the Company for protection of those personal information.
+This Policy will be effective on the 14th December, 2021 and, in case of modification thereof, the Company will make public notice of it through posting it on the pop-up in the ZEPETO). Previous Privacy Policy
+Information to be collected and method of collection
+Personal information items to be collected
+Personal information items to be collected by the Company are as follows information provided by the users
+The Company may collect the information directly provided by the users.
+Title of service. Items to be collected 
+Internet membership service. 
+ZEPETO ID(or called ZEPETO username, the "ZEPETO ID"), email address or phone number, password, date of birth, gender
+in case of the access by Facebook, Apple, Line, Wechat, Twitter or KakaoTalk account: user ID and a friends list of the linked account
+3D Avatar service. 
+cameras and photos: images and other information stored in the camera and photo album of the device being used
+Face data: the Company employs TrueDepth API to collect face blendshape information of the TrueDepth camera and synchronizes the collected information with a character: provided, however, that the face blendshape information collected by the Company is solely used for the performance of the 'mirror' function not for storage in server nor for sharing with a 3rd party
+Invite Friends or Find Other Users. One-way encrypted contact details 
+If you "agree", your contact information will only be used for 'Invite Friends' or 'Find Other Users' services. 
+Information collected while the users use services
+Besides of information directly provided by the users, the Company may collect information in the course that the users use the service provided by the Company.
+Lists. Items to be collected 
+Equipment information. 
+Hardware model name, operation system, hardware version, type and set-up of browser, language of browser, information of the device being used such as mobile network information, installed application information, etc.
+Ads information. 
+Information on users' ADID(Advertising ID)/IDFA(Identifier for Advertisers)
+Other information. 
+If conflicts or other errors occur while users are using the Service, the Company may exceptionally collect the information on certain devices necessary to identify the cause of such problems.
+Method of collection
+The Company collects the information of users in a way of the followings: webpage, written form, e-mailing, tools for collection of created information
+The Company collects the information of users in a way of the followings: provided by partner companies
+Use of collected information
+The Company uses the collected information of users for the following purposes: member management and identification
+The Company uses the collected information of users for the following purposes: to detect and deter unauthorized or fraudulent use of or abuse of the Service
+The Company uses the collected information of users for the following purposes: improvement of existing services and development of new services
+The Company uses the collected information of users for the following purposes: making notice of function of company sites or applications or matters on policy change
+The Company uses the collected information of users for the following purposes: to provide information on promotional events as well as opportunity to participate
+The Company uses the collected information of users for the following purposes: to create users' characters
+The Company uses the collected information of users for the following purposes: invite Friends or Find Other Users
+The Company uses the collected information of users for the following purposes: to comply with applicable laws or legal obligation
+The Company uses the collected information of users for the following purposes: use of information with prior consent of the users (for example, utilization of marketing advertisement)
+ZEPETO entrusts part of its operations to third-party businesses to provide more convenient and improved services.
+Trust companies. Task description. Period of usage/retention on personal information 
+inComms, Inc.
+Customer Support
+Until user account deletion or end of consignment agreement 
+Processing personal information by the Company shall be lawful only if and to the extent that at least one of the following applies: a user has given consent to the processing of his or her personal information.
+Processing personal information by the Company shall be lawful only if and to the extent that at least one of the following applies: processing is necessary for the performance of a contract to which a user is party or in order to take steps at the request of a user prior to entering into a contract: member management, identification, etc.
+Processing personal information by the Company shall be lawful only if and to the extent that at least one of the following applies: processing is necessary for the performance of a contract to which a user is party or in order to take steps at the request of a user prior to entering into a contract: performance of a contract in relation to providing the services required by users, payment and settlement of fees, etc.
+Processing personal information by the Company shall be lawful only if and to the extent that at least one of the following applies: processing is necessary for compliance with a legal obligation to which the Company is subject
+Processing personal information by the Company shall be lawful only if and to the extent that at least one of the following applies: compliance with relevant law, regulations, legal proceedings, requests by the government
+Processing personal information by the Company shall be lawful only if and to the extent that at least one of the following applies: processing is necessary in order to protect the vital interests of users, or other natural persons
+Processing personal information by the Company shall be lawful only if and to the extent that at least one of the following applies: detection of, prevention of, and response to fraud, abuse, security risks, and technical issues that may harm users or other natural persons
+Processing personal information by the Company shall be lawful only if and to the extent that at least one of the following applies: processing is necessary for the performance of a task carried out in the public interest or in the excise of official authority vested in the Company
+Processing personal information by the Company shall be lawful only if and to the extent that at least one of the following applies: processing is necessary for the purposes of the legitimate interests pursued by the Company or by a third party (except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child).
+Disclosure of collected information
+Except for the following cases, the Company will not disclose personal information with a 3rd party: when the Company disclosing the information with online tailored advertisement providers
+When the Company automatically collects users' ADID/IDFA to be provided for Unity Ads in order to provide advertisement
+When the Company automatically collects users' ADID/IDFA to be provided for AppsFlyer in order to analyze marketing effectiveness
+When the Company automatically collects users' ADID/IDFA to be provided for TapJoy in order to provide advertisement
+when the Company disclosing the information with its affiliates, partners and service providers.
+when the Company's affiliates, partners and service providers carry out services such as bill payment, execution of orders, products delivery and dispute resolution (including disputes on payment and delivery) for and on behalf of the Company
+when the users consent to disclose in advance.
+when the user selects to be provided by the information of products and services of certain companies by sharing his or her personal information with those companies
+when the user selects to allow his or her personal information to be shared with the sites or platform of other companies such as social networking sites
+other cases where the user gives prior consent for sharing his or her personal information
+If you "agree", your contact information will only be used for 'Invite Friends' or 'Find Other Users' services
+when disclosure is required by the laws:
+if required to be disclosed by the laws and regulations; or
+if required to be disclosed by the investigative agencies for detecting crimes in accordance with the procedure and method as prescribed in the laws and regulations
+Cookies, Beacons and Similar Technologies
+We do not use these technologies to collect the information of users.
+User's right
+The users or their legal representatives, as main agents of the information, may exercise the following rights regarding the collection, use and sharing of personal information by the Company: the right to access to personal information.
+The users or their legal representatives may access the information and check the records of the collection, use and sharing of the information under the applicable law.
+The right to rectification.
+The users or their legal representatives may request to correct inaccurate or incomplete information.
+The right to erasure.
+The users or their legal representatives may request the deletion of the information after the achievement of their purpose and the withdrawal of their consent.
+However, Company will not be able to erase some personal data due to following reasons in accordance with the article 17 of the EU GDPR(General Data Protection Regulation).
+The processing of your personal data is necessary for compliance with a legal obligation.
+The processing of your personal data is necessary for the establishment, exercise or defense of legal claims.
+The right to restriction of processing.
+The users or their legal representatives may make temporary suspension of treatment of personal information in case of the disputes over the accuracy of information and the legality of information treatment, or if necessary to retain the information.
+The right to data portability
+The users or their legal representatives may request to provide or transfer the information.
+The right to object
+The users or their legal representatives may suspend the treatment of personal information if the information is used for the purpose of direct marketing, reasonable interests, the exercise of official duties and authority, and research and statistics.
+The right to automated individual decision-making, including profiling
+The users or their legal representatives may request to cease the automated treatment of personal information, including profiling, which has critical impact or cause legal effect on them.
+If, in order to exercise the above rights, you, as an user, use the menu of 'Edit Profile' or contact the Company by sending a document or e-mails, or using telephone to the Company ( person in charge of management of personal information or a deputy), the Company will take measures without delay: Provided that the Company may reject the request of you only to the extent that there exists either proper cause as prescribed in the laws or equivalent cause.
+User's Obligations
+The users shall keep their personal information up to date and be liable for the problems arising out of or in connection with the information incorrectly input by themselves.
+The users have responsibility to ensure and maintain the security of their information such as ZEPETO ID, email address, Facebook ID, etc. and shall neither assign nor lend such information to a 3rd party. The Company shall not be held responsible for any problems related to personal information that may arise out of or in relation to the mistakes made by individual members or the cause not attributable to the Company.
+The users shall appropriately manage their personal information and take full responsibility for such management, and be liable for the cooperation with the request of the Company to change the password on a regular basis under this Policy.
+The users shall comply with the applicable laws and statues of personal information protection in each country.
+Security
+The Company regard the security of personal information of uses as very important. The company constructs the following security measures to protect the users' personal information from any unauthorized access, release, use or modification
+Encryption of personal information
+Transmit users' personal information by using encrypted communication zone
+Store important information such as passwords, contact information after encrypting it
+Countermeasures against hacking
+Install a system in the zone the external access to which is controlled so as to prevent leakage or damage of users' personal information by hacking or computer virus
+Establish and execute internal management plan
+Install and operate access control system
+Take measures to prevent forging or alteration of access record
+Children
+The Company does not knowingly collect any information from the children under 13 or equivalent minimum age as prescribed in the laws in relevant jurisdiction. The ZEPETO app employs a compliant neutral age gate to prevent children from accessing the service. If ZEPETO obtains actual knowledge during the course of business, that the app has collected personal information from a child all information will be deleted from our records and the account will be closed.
+If you'd like to report an account that you believe belongs to someone under 13, please fill out this form. We take appropriate action when we receive your report.
+Modification of Privacy Protection Policy
+The Company has the right to amend or modify this Policy from time to time and, in such case, the Company will make a public notice of it through pop-up of its service (or through individual notice such as e-mail) and obtain consent from the users if required by relevant laws.
+If this Policy is amended, the Company will announce such amendment with the reason and effective date seven days before the effective date.
+In the event of a change to this Privacy Policy, the Company will announce the amendment reason and effective date seven days prior to the effective date of the change.
+Others
+Data transfer to other countries
+Considering it engages in global businesses, the Company may provide the users' personal information to the companies located in other countries for the purpose as expressly stated in this Policy. For the places where the personal information is transmitted, retained or processed, the Company takes reasonable measures for protecting those personal information.
+Guide for users residing in Korea
+The Company guides several additional matters to be disclosed as required by the information network laws and personal information protection laws in the Republic of Korea as follows Information collected
+The items collected by the Company are as follows required information
+Title of service. Items to be collected 
+Internet membership service. 
+ZEPETO ID, email address or phone number, password, date of birth, gender
+in case of the access by Facebook, Apple, Line, Wechat, Twitter or KakaoTalk account: user ID and a friends list of the linked account
+Date of Birth: It is collected to check age. For a user aged under 14 (Age limit of under 19 for paid services), the guardian's consent to the use of services and personal information (phone number) will be collected.
+3D Avatar service. 
+cameras and photos: images and other information stored in the camera and photo album of the device being used
+Face data: the Company employs TrueDepth API to collect face blendshape information of the TrueDepth camera and synchronizes the collected information with a character: provided, however, that the face blendshape information collected by the Company is solely used for the performance of the 'mirror' function not for storage in server nor for sharing with a 3rd party.
+Equipment information
+Hardware model name, operation system, hardware version, type and set-up of browser, language of browser, information of the device being used such as mobile network information, installed application information, etc.
+Other information
+If conflicts or other errors occur while users are using the Service, the Company may exceptionally collect the information on certain devices necessary to identify the cause of such problems.
+In the course of using services, the information as described below may be created and collected information of devices (operation system, hardware version)
+In the course of using services, the information as described below may be created and collected other created information
+In the course of using services, the information as described below may be created and collected optional items
+The user may reject the collection and use of optional items and, even in case of rejection, there is no limit on use of services
+Purpose of collection. Items to be collected 
+Ads information. ∘ users' ADID/IDFA 
+Use of collected information
+The Company uses the collected information of users for the following purposes: age verification, Consent process by a legal representative for free or paid services, ID check for a legal representative
+Commission for collected personal information
+ZEPETO entrusts part of its operations to third-party businesses to provide more convenient and improved services.
+Trust companies. Task description. Period of usage/retention on personal information 
+NAVER Corp.. Verification of parental consent. Until user account deletion or end of consignment agreement 
+inComms, Inc.. Customer Support 
+Zendesk, Inc.. Customer Support 
+KOREA MOIBILE CERTIFICATION INC.. Sending SMS 
+NAVER CLOUD Corp.. System operation for service provision 
+Overseas data transmission
+In order to bring you our services globally and continuously, we provide information and content to these service providers located outside of the Republic of Korea to process personal information.
+Recipients of Information: Zendesk, Inc.
+Contact info for the person in charge of information management: privacy@zendesk.com
+Items to be provided: Name, email address or phone number
+Countries where personal information is transferred: Japan or the United States of America
+Transfer date and time: July 1, 2020, every service use, transmission via a network
+Purpose of use: Operation and management of customer service
+Period of retention and use: Until membership withdrawal or upon the termination of the contract
+Details of provision of personal information to 3rd party
+Except for the following cases, the Company does not disclose or provide personal information of the users to a 3rd party
+Recipients of information
+Purpose of use of recipient
+Items to be provided
+Period of retention and use of recipient 
+Unity Ads
+the provision of advertisement
+Users' ADID/IDFA
+Until the date when the purpose of use is achieved or period as required by the laws 
+AppsFlyer
+the analysis of marketing effectiveness
+Users' ADID/IDFA
+Until the date when the purpose of use is achieved or period as required by the laws 
+TapJoy
+the provision of advertisement
+Users' ADID/IDFA
+Until the date when the purpose of use is achieved or period as required by the laws 
+Period for retention and use of personal information
+In principle, the Company destructs personal information of users without delay after 90 days of preservation for the purpose of responding to recovery request after withdrawal when: the purpose of its collection and use has been achieved; the legal or management needs are satisfied; or users request: Provided that, if it is required to retain the information by relevant laws and regulations, the Company will retain member information for certain period as designated by relevant laws and regulations. The information to be retained as required by relevant laws and regulations are as follows record on the information having been non-identified and anonymized for the purpose of statistics, academics, research: Permanence (Personal Information Protection Act)
+In principle, the Company destructs personal information of users without delay after 90 days of preservation for the purpose of responding to recovery request after withdrawal when: the purpose of its collection and use has been achieved; the legal or management needs are satisfied; or users request: Provided that, if it is required to retain the information by relevant laws and regulations, the Company will retain member information for certain period as designated by relevant laws and regulations. The information to be retained as required by relevant laws and regulations are as follows log record of users such as internet/data detecting the place of user connection: 3 months (Protection of Communications Secrets Act)
+In principle, the Company destructs personal information of users without delay after 90 days of preservation for the purpose of responding to recovery request after withdrawal when: the purpose of its collection and use has been achieved; the legal or management needs are satisfied; or users request: Provided that, if it is required to retain the information by relevant laws and regulations, the Company will retain member information for certain period as designated by relevant laws and regulations. The information to be retained as required by relevant laws and regulations are as follows record on consumer complaint or dispute treatment: 3 years (Act on Consumer Protection in Electronic Commerce)
+In principle, the Company destructs personal information of users without delay after 90 days of preservation for the purpose of responding to recovery request after withdrawal when: the purpose of its collection and use has been achieved; the legal or management needs are satisfied; or users request: Provided that, if it is required to retain the information by relevant laws and regulations, the Company will retain member information for certain period as designated by relevant laws and regulations. The information to be retained as required by relevant laws and regulations are as follows record on sign/advertisement: 6 months(Act on Consumer Protection in Electronic Commerce)
+In principle, the Company destructs personal information of users without delay after 90 days of preservation for the purpose of responding to recovery request after withdrawal when: the purpose of its collection and use has been achieved; the legal or management needs are satisfied; or users request: Provided that, if it is required to retain the information by relevant laws and regulations, the Company will retain member information for certain period as designated by relevant laws and regulations. The information to be retained as required by relevant laws and regulations are as follows record regarding contract or withdrawal of subscription: 5 years (Act on Consumer Protection in Electronic Commerce)
+In principle, the Company destructs personal information of users without delay after 90 days of preservation for the purpose of responding to recovery request after withdrawal when: the purpose of its collection and use has been achieved; the legal or management needs are satisfied; or users request: Provided that, if it is required to retain the information by relevant laws and regulations, the Company will retain member information for certain period as designated by relevant laws and regulations. The information to be retained as required by relevant laws and regulations are as follows record on payment and supply of goods:5 years (Act on Consumer Protection in Electronic Commerce)
+In principle, the Company destructs personal information of users without delay after 90 days of preservation for the purpose of responding to recovery request after withdrawal when: the purpose of its collection and use has been achieved; the legal or management needs are satisfied; or users request: Provided that, if it is required to retain the information by relevant laws and regulations, the Company will retain member information for certain period as designated by relevant laws and regulations. The information to be retained as required by relevant laws and regulations are as follows record regarding electronic financial transactions: 5years (Electronic Financial Transactions Act)
+If a user does not use the Service for more than one year, the Company, after such period, will forthwith destroy the user's personal information or manage and store the user's information in a place separate from the personal information of the other users, and will inform the user of his/her information to be destroyed or stored separately, the expiration date and the items of his/her personal information thirty days before the expiration of the above period.
+Procedure and method of destruction of personal information
+In principle, the Company destructs the information immediately after the purposes of its collection and use have been achieved without delay after 90 days of preservation for the purpose of responding to recovery request after withdrawal: Provided that, if any information is to be retained as required by relevant laws and regulations, the Company retain it for the period as required by those laws and regulations before destruction and, in such event, the personal information which is stored and managed separately will never be used for other purposes. The Company destructs: hard copies of personal information by shredding with a pulverizer or incinerating it; and delete personal information stored in the form of electric file by using technological method making that information not restored.
+Technical, managerial and physical measures for protection of personal information
+In order to prevent the loss, theft, leakage, alteration or damage of personal information of the users, the Company takes technical, managerial and physical measures for securing safety as follows the password set by a member is collected as encrypted.
+In order to prevent the loss, theft, leakage, alteration or damage of personal information of the users, the Company takes technical, managerial and physical measures for securing safety as follows the Company has been implementing the following protective measures to safeguard the personal information of users: the company employs the security measures necessary to prevent personal information from being leaked or damaged by hacking or computer viruses and strives to have all possible technical measures for better security.
+In order to prevent the loss, theft, leakage, alteration or damage of personal information of the users, the Company takes technical, managerial and physical measures for securing safety as follows the Company limits to a minimum the number of personnel treating personal information, and complies with relevant Act and subordinate statue such as training of the personnel handling personal information, etc.
+Staff responsible for managing personal information
+The staff of the Company responsible for managing personal information is as follows name of staff responsible for managing personal information: Daewook Kim
+The staff of the Company responsible for managing personal information is as follows contact us
+Contact information of Company
+Please use one of the following methods to contact the Company should you have any queries in respect to this policy or wish to update your information: Company name : NAVER Z Corporation
+Please use one of the following methods to contact the Company should you have any queries in respect to this policy or wish to update your information: Address : 8th Fl., KRAFTON Tower, 117, Bundangnaegok-ro(535 Baekhyeon-dong), Bundang-gu, Seongnam-si, Gyeonggi-do
+Please use one of the following methods to contact the Company should you have any queries in respect to this policy or wish to update your information: E-mail : Contact us
+The latest update date: 14th December, 2021
+Related articles
+Terms of Use
+Terms of Use (1st July, 2020)
+I would like to disconnect my social media account. 
+I can't log in 'Studio'. I forgot my username and my password.
+How do I get a refund?

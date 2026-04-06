@@ -1,0 +1,330 @@
+SHOP PARTNERS CLUB
+Diese Website verwendet Cookies
+Auf unserer Website nutzen wir Cookies und andere vergleichbare Technologien, mit welchen wir Informationen auf Ihrem Endgerät auslesen/speichern und personenbezogene Daten verarbeiten, die u.a. für den Betrieb unserer Website notwendig sind. Sofern Sie uns hierfür Ihre Einwilligungen erteilen, verarbeiten wir Ihre Informationen und Daten für die Einbindung externer Inhalte/Medien, zur Nutzungsanalyse und damit zusammenhängende Statistikzwecke, zur Personalisierung unserer Angebote, für das Ausspielen personalisierter Werbung und zur Auswertung unserer Werbekampagnen. Dabei werden Daten auch an Dienstleister weitergeben. Sofern Daten in Drittländer übermittelt werden, besteht das Risiko, dass Behörden auf diese Daten zugreifen und sie auswerten sowie Ihre Betroffenenrechte nicht durchgesetzt werden könnten. Mit einem Klick auf "Alle Cookies Erlauben" willigen Sie in den Zugriff auf und die Speicherung von Informationen im Endgerät, die Verarbeitung Ihrer personenbezogenen Daten sowie die Übermittlung Ihrer Daten in Drittländer zu den oben genannten Zwecken ausdrücklich ein. Mit einem Klick auf "Alle Cookies Ablehnen" verweigern Sie dies. Ihre Einwilligungen sind jederzeit in unserem Footer über Cookie-Einstellungen widerrufbar. Weitere Informationen und Details erhalten Sie in unserer Datenschutzerklärung. 
+Alle Cookies ablehnen Individuelle Datenschutzeinstellungen Alle Cookies erlauben 
+Individuelle Datenschutzeinstellungen
+Notwendige Tools
+Analyse Tools
+Marketing Tools
+Notwendige Tools dienen dazu, die grundlegenden Funktionen unserer Website zu ermöglichen, wie den Warenkorb oder die Anmeldung mit Ihrem Kundenaccount. Ohne notwendige Tools können wir die Dienste unserer Website nicht zur Verfügung stellen.
+Liste der Cookies
+Name. Anbieter. Laufzeit. Typ. Beschreibung 
+__cf_bm (x2). autodoc.de. 30 Minuten. HTTP-Cookie. Dieses Cookie wird von Cloudflare gesetzt. Das Cookie wird verwendet, um das Cloudflare Bot-Management zu unterstützen. 
+__cfduid (x3). autodoc.de 
+cloudflareinsights.com. 1 Monat. HTTP-Cookie. Das Cookie wird von CDN-Services wie Cloudflare verwendet, um einzelne Clients hinter einer gemeinsamen IP-Adresse zu identifizieren und Sicherheitseinstellungen für jeden einzelnen Client vorzunehmen. Sie entspricht keiner Benutzer-ID in der Webanwendung und speichert keine persönlichen Identifikationsdaten. 
+INGRESSCOOKIE. autodoc.de. 2 Tage. HTTP-Cookie. Dieses Cookie wird für die Lastverteilung und Sitzungspersistenz verwendet. Dieser technische Sitzungsidentifikator ist für einige Funktionen der Website erforderlich. 
+kmtx_sync_pi. autodoc.de. 1 Jahr. HTTP-Cookie. Notwendige Cookies helfen dabei, die Website für die Nutzer zuverlässiger, funktionsfähiger und sicherer zu machen. Diese Dateien werden gespeichert, um die Funktionsfähigkeit der Website sicherzustellen. Die gesammelten Daten sind anonym. 
+fuel_csrf_token. autodoc.de. 1 Stunde. HTTP-Cookie. Dieses Cookie ermöglicht Grundfunktionalitäten und Sicherheitsfunktionen der Website. Es arbeitet auf anonymer Basis. 
+fuelrid1. autodoc.de. 2 Monate. HTTP-Cookie. Dieses Cookie ermöglicht Grundfunktionalitäten und Sicherheitsfunktionen der Website. Es arbeitet auf anonymer Basis. 
+checkedSwitchClone. autodoc.de. session. HTTP-Cookie. Dieses Cookie ermöglicht Grundfunktionalitäten und Sicherheitsfunktionen der Website. Es arbeitet auf anonymer Basis. 
+SSNONE. autodoc.de. session. HTTP-Cookie. Notwendige Cookies helfen dabei, die Website für die Nutzer zuverlässiger, funktionsfähiger und sicherer zu machen. Diese Dateien werden gespeichert, um die Funktionsfähigkeit der Website sicherzustellen. Die gesammelten Daten sind anonym. 
+ui. autodoc.de. 2 Monate. HTTP Cookie. Dieses Cookie ermöglicht Grundfunktionalitäten und Sicherheitsfunktionen der Website. Es arbeitet auf anonymer Basis. 
+clientCode. autodoc.de. session. HTTP-Cookie. Dieses Cookie ermöglicht Grundfunktionalitäten und Sicherheitsfunktionen der Website. Es arbeitet auf anonymer Basis. 
+drv. autodoc.de. 7 Tage. HTTP-Cookie. Dieses Cookie ermöglicht Grundfunktionalitäten und Sicherheitsfunktionen der Website. Es arbeitet auf anonymer Basis. 
+CookieConsent. autodoc.de. 1 Jahr. HTTP-Cookie. Dieses Cookie ermöglicht Grundfunktionalitäten und Sicherheitsfunktionen der Website. Es arbeitet auf anonymer Basis. 
+kmtx_sync. autodoc.de. 1 Jahr. HTTP-Cookie. Notwendige Cookies helfen dabei, die Website für die Nutzer zuverlässiger, funktionsfähiger und sicherer zu machen. Diese Dateien werden gespeichert, um die Funktionsfähigkeit der Website sicherzustellen. Die gesammelten Daten sind anonym. 
+JSESSIONID. nr-data.net. session. HTTP-Cookie. Wird von Websites verwendet, die in JSP geschrieben sind. Es handelt sich um universelle Plattformsitzungscookies, die verwendet werden, um den Sitzungsstatus des Benutzers über Seitenaufrufe hinweg zu erhalten. 
+_genesys.widgets.inFocus. autodoc.de. Persistent. HTML Local Storage. Genesys Widgets verwendet dieses Cookie, um nicht sensible Daten im Browser zu speichern. Der Browser des Endnutzers muss Cookies zulassen, damit Genesys Widgets ordnungsgemäß funktionieren. Jedes Cookie ist erforderlich, und ohne die Fähigkeit, diese Cookies zu lesen und zu schreiben, können die Produkte von Genesys Widgets nicht richtig funktionieren. 
+countChildWindows. autodoc.de. Persistent. HTML Local Storage. Dieses Cookie ermöglicht Grundfunktionalitäten und Sicherheitsfunktionen der Website. Es arbeitet auf anonymer Basis. 
+fueldid. autodoc.de. 2 Monate. HTTP-Cookie. Dieses Cookie ermöglicht Grundfunktionalitäten und Sicherheitsfunktionen der Website. Es arbeitet auf anonymer Basis. 
+productsOnCart. autodoc.de. Persistent. HTML Local Storage. Dieses Cookie ermöglicht Grundfunktionalitäten und Sicherheitsfunktionen der Website. Es arbeitet auf anonymer Basis. 
+sntk_test. autodoc.de. 1 Tag. HTTP-Cookie. Dieses Cookie ermöglicht Grundfunktionalitäten und Sicherheitsfunktionen der Website. Es arbeitet auf anonymer Basis. 
+Widgets.ready. autodoc.de. session. HTML Local Storage. Dieses Cookie ermöglicht Grundfunktionalitäten und Sicherheitsfunktionen der Website. Es arbeitet auf anonymer Basis. 
+kmtx_sync. autodoc.de. 1 Jahr. HTTP-Cookie. Notwendige Cookies helfen dabei, die Website für die Nutzer zuverlässiger, funktionsfähiger und sicherer zu machen. Diese Dateien werden gespeichert, um die Funktionsfähigkeit der Website sicherzustellen. Die gesammelten Daten sind anonym. 
+WINDOW_VALIDATION. autodoc.de. Persistent. HTML Local Storage. Dieses Cookie ermöglicht Grundfunktionalitäten und Sicherheitsfunktionen der Website. Es arbeitet auf anonymer Basis. 
+s24_click_id. autodoc.de. 30 Tage. HTTP-Cookie. Dieses Cookie wird vom shopping24 commerce network für den Zweck des Conversion-Trackings gesetzt. 
+Analyse-Tools werden zur statistischen Erfassung und Analyse des Nutzungsverhaltens verwendet, wofür die Zugriffsdaten während Ihres Besuches ausgewertet werden. Hierbei analysieren wir z. eingegebene Suchbegriffe, die Häufigkeit von Seitenaufrufen oder die Nutzung bestimmter Funktionen der Website. Mithilfe dieser Auswertung können wir unsere Website optimieren und Ihr Nutzungserlebnis verbessern.
+Liste der Cookies
+Name. Anbieter. Laufzeit. Typ. Beschreibung 
+_ga. autodoc.de. 2 Jahre. HTTP-Cookie. Dient zur Identifizierung von Benutzern. 
+_gid. autodoc.de. 24 Stunden. HTTP-Cookie. Dient zur Identifizierung von Benutzern. 
+_gat. autodoc.de. 1 Minute. HTTP-Cookie. Das Cookie werden von Google Analytics installiert, um die Abfragerate zu kontrollieren und die Erfassung von Daten auf Websites mit hohen Zugriffszahlen zu begrenzen. 
+Marketing-Tools werden eingesetzt, um mit Hilfe von Nutzerprofilen personalisierte Werbung zu schalten oder interessante Produkte zu empfehlen. Die Zugriffsdaten werden ausgewertet, um Ihnen auf unserer Website und auf Websites anderer Anbieter Werbung anzuzeigen, die Ihren tatsächlichen Interessen und Bedürfnissen entspricht. Um dies zu ermöglichen, setzen wir auch Retargeting ein und messen die Erfolgsrate unserer Werbemaßnahmen. Zu den Marketing-Tools zählen auch die Anmeldung mit Social-Media-Accounts, Social-Media-Plugins und eingebundene externe Medien wie Videos, Karten und Bewertungssysteme.
+Liste der Cookies
+Name. Anbieter. Laufzeit. Typ. Beschreibung 
+kk_leadtag. autodoc.de. 1 Jahr. HTML Local Storage. Wird von Kelkoo verwendet, um das Nutzerverhalten nachzuverfolgen, um gezielte Werbung zu schalten. 
+fr..facebook.com. 3 Monate. HTTP-Cookie. Facebook setzt das Cookie, damit es seinen Nutzern relevante Werbung zeigen und die Werbung messen und verbessern kann. Das Cookie verfolgt auch das Verhalten der Nutzer im Web auf Websites nach, die mit dem Facebook-Pixel oder einem Facebook Social Plugin ausgestattet sind. 
+_fbp. autodoc.de. 3 Monate. HTTP-Cookie. Dieses Cookie wird von Facebook gesetzt, um Nutzern Werbung zu zeigen, wenn sie auf Facebook oder einer anderen von Facebook betriebenen digitalen Plattform sind. 
+ATN..atdmt.com. 2 Jahre. HTTP-Cookie. Wird von Facebook verwendet, um personalisiertere Werbung zu schalten und um Nutzer nachzuverfolgen, wenn sie Websites von Drittanbietern mit Facebook Social Plugins besuchen. 
+uid..criteo.com. 1 Jahr und 24 Tage. HTTP-Cookie. Dieses Cookie wird verwendet, um die Anzahl und das Verhalten der Websitebesucher anonym zu messen. Zu diesen Daten gehören die Anzahl der Besuche, die durchschnittliche Dauer des Besuchs auf der Website, die besuchten Seiten usw. Es wird verwendet, um die Vorlieben der Nutzer für gezielte Werbung besser zu verstehen. 
+test_cookie..doubleclick.net. 15 Minuten. HTTP-Cookie. Dieses Cookie wird von doubleclick.net gesetzt. Der Zweck des Cookies ist es, festzustellen, ob der Browser des Nutzers Cookies unterstützt. 
+IDE..doubleclick.net. 1 Jahr und 24 Tage. HTTP-Cookie. Verwendet von Google DoubleClick. Es speichert Informationen darüber, wie der Nutzer die Website nutzt und welche anderen Werbungen der Nutzer vor dem Besuch der Website gesehen hat. Es wird verwendet, um Anzeigen zu schalten, die für den Nutzer aufgrund seines Profils relevant sind. 
+MUID..bing.com. 1 Jahr und 24 Tage. HTTP-Cookie. Wird von Microsoft als eindeutiger Bezeichner (Unique Identifier) verwendet. Das Cookie wird von eingebetteten Microsoft-Skripten gesetzt. Der Zweck dieses Cookies besteht darin, die ID über viele verschiedene Microsoft-Domänen hinweg zu synchronisieren, um die Nachverfolgung von Benutzern zu ermöglichen. 
+NID..google.com. 6 Monate. HTTP-Cookie. Dieses Cookie wird verwendet, um ein Profil auf der Grundlage der Interessen des Nutzers zu erstellen und den Nutzern personalisierte Werbung anzuzeigen. 
+_uetvid. autodoc.de. 16 Tage und 6 Stunden. HTTP-Cookie. Wird verwendet, um Besucher auf mehreren Websites nachzuverfolgen, sodass dem Besucher auf der Grundlage seiner Vorlieben relevante Werbung anzeigt werden kann. 
+_uetvid. autodoc.de. 16 Tage und 6 Stunden. HTTP-Cookie. Microsoft Bing Ads verwendet dieses Cookie. Es ist ein Tracking-Cookie und es ermöglicht uns, Nutzer zu erreichen, die unsere Website bereits besucht haben. 
+_uetsid. autodoc.de. 1 Tag. HTTP-Cookie. Dieses Cookie wird verwendet, um analytische Informationen darüber zu sammeln, wie Besucher die Website nutzen. Diese Informationen werden zur Erstellung von Berichten und zur Verbesserung der Website verwendet. 
+_uetsid_exp. autodoc.de. Persistent. HTML Local Storage. Dieses Cookie wird verwendet, um analytische Informationen darüber zu sammeln, wie Besucher die Website nutzen. Diese Informationen werden zur Erstellung von Berichten und zur Verbesserung der Website verwendet. 
+_uetvid_exp. autodoc.de. Persistent. HTML Local Storage. Wird verwendet, um Besucher auf mehreren Websites nachzuverfolgen, sodass dem Besucher auf der Grundlage seiner Vorlieben relevante Werbung anzeigt werden kann. 
+criteo_write_test. autodoc.de. 1 Tag. HTTP-Cookie. Legt eine eindeutige ID für den Besucher fest, die es Drittwerbern ermöglicht, dem Besucher relevante Werbung anzuzeigen. Dieser Kopplungsservice wird von Werbeplattformen von Drittwerbern zur Verfügung gestellt, wodurch das Anzeigen von Werbung in Echtzeit für Werbetreibende ermöglicht wird. 
+cto_tld_test. autodoc.de. 1 Tag. HTTP-Cookie. Dient zur Identifizierung der Besucher und ihrer Geräte. Dies ermöglicht es der Website, dem Besucher relevante Werbung anzuzeigen. Der Service wird von Werbeplattformen von Drittwerbern zur Verfügung gestellt, die das Anzeigen von Werbung in Echtzeit für Werbetreibende ermöglichen. 
+rmuid. Rakuten Advertising. 365 Tage. HTTP-Cookie, JavaScript-Cookie. Targeting-Cookies, die vom Affiliate-Netzwerk von Rakuten Advertising verwendet werden 
+_ttp..tiktok.com. 13 Monate. HTTP-Cookie. Zur Messung und Verbesserung des Erfolgs von Werbekampagnen und zur Personalisierung des Nutzererlebnisses (einschließlich Werbung) auf TikTok. 
+tagtag_aid1..admitad.com. 30 Tage. JavaScript-Cookie. Von admitad.com verwendete Marketing-Cookies 
+tagtaf_aid2..admitad.com. 30 Tage. JavaScript-Cookie. Von admitad.com verwendete Marketing-Cookies 
+Notwendig 
+Statistik 
+Marketing 
+Auswahl erlauben 
+Alle Cookies erlauben 
+AGB für alle Bestellungen
+Verkaufs-, Lieferungs- und Zahlungsbedingungen
+Anbieter und Vertragspartner
+Ihr Vertragspartner für alle Bestellungen auf unserer Webseite ist
+AUTODOC SE 
+Josef-Orlopp-Straße 55 
+10365 Berlin 
+Е-Mail: info@autodoc.de 
+Web: website_url_lnk 
+Vorstand: Sandra Dax (Co-CEO), Dmitri Zadorojnij (Co-CEO) 
+Aufsichtsratsvorsitzender: Alexey Kletenkov 
+USt-IdNr.: DE260634589 
+Handelsregister: Amtsgericht Berlin (Charlottenburg), HRB 247677 B
+Geltungsbereich und Vertragsgegenstand
+Die folgenden Allgemeinen Geschäftsbedingungen ("AGB") gelten für die Accountregistrierung und alle Käufe von Waren durch den Endkunden ("Sie") über den Onlineshop website_url_lnk 
+Diese AGB regeln das Vertragsverhältnis zwischen Ihnen und uns ausschließlich. Ihre AGB werden auch dann nicht Vertragsbestandteil, wenn wir ihrer Einbeziehung nicht ausdrücklich widersprechen.
+Diese Allgemeinen Geschäftsbedingungen sind jederzeit unter der Adresse website_url_lnk abrufbar und können ausgedruckt und heruntergeladen werden.
+Registrierung
+Eine Registrierung ist für den Einkauf im Onlineshop erforderlich. Diese kann im Rahmen des Bestellprozesses, aber auch unabhängig von einer Bestellung erfolgen. Nach erfolgter Registrierung legen wir einen Account für Sie an, über den Sie Ihre Kundendaten, wie etwa die Lieferanschrift, selbst verwalten können. 
+Registrieren können sich nur einzelne volljährige und voll geschäftsfähige natürliche Personen (nicht hingegen z. Familien oder Ehepaare), juristische Personen und Personengesellschaften. Diese Voraussetzung gilt ebenfalls für die Durchführung von Bestellungen. Wenn eine Registrierung für eine Gesellschaft als Kunden vorgenommen wird, garantiert derjenige, dass er zu der Vertretung der Gesellschaft berechtigt ist.
+Sie haben bei der Registrierung Ihres Accounts Ihren Namen, Ihre Rechnungs- und Lieferadresse, Ihre Telefonnummer und Ihre E-Mail-Adresse anzugeben und ein Passwort (nachfolgend "Zugangsdaten") zu wählen. 
+Sie geben ein verbindliches Angebot zum Abschluss des Vertrages über die Accountregistrierung ab, indem Sie das ausgefüllte Registrierungsformular absenden. Vor der endgültigen Absendung des Registrierungsformulars wird Ihnen eine Zusammenfassung Ihrer Eingaben angezeigt. Eingabefehler können Sie korrigieren, indem Sie im Browser zurück navigieren und die jeweiligen Eingaben verändern.
+Im Anschluss an die vollständige Registrierung übersenden wir Ihnen eine Begrüßungs-E-Mail. Die Accountregistrierung wird durch den Zugang dieser E-Mail bei Ihnen abgeschlossen.
+Sie stehen dafür ein, dass die von Ihnen bei der Registrierung gegenüber uns gemachten Angaben wahr und vollständig sind. Machen Sie unrichtige oder unvollständige Angaben, sind wir berechtigt, Ihren Account ohne Einhaltung einer Frist zu kündigen und zu löschen. Sie verpflichten sich, uns alle künftigen Änderungen Ihrer im Rahmen der Registrierung angegebenen Daten unaufgefordert und unverzüglich mitzuteilen.
+Der Account kann nach Maßgabe von Ziffer 12 gekündigt werden. Ihre personenbezogenen Daten werden dann sofort gelöscht, soweit wir sie nicht aufgrund gesetzlicher Vorschriften weiter speichern dürfen oder müssen. Näheres ergibt sich aus unserer Datenschutzerklärung.
+Sie sind unter keinen Umständen berechtigt, Ihre Zugangsdaten und insbesondere Ihr Zugangspasswort an Dritte weiterzugeben. Sollten Dritte dennoch Zugang zu Ihrem Account erhalten oder Sie sonstige Anhaltspunkte für den Missbrauch Ihres Accounts haben, müssen Sie uns darüber umgehend informieren und Ihre Zugangsdaten ändern.
+Ein Anspruch auf Registrierung und Teilnahme an dem Onlineshop besteht nicht. Sie sind nicht berechtigt, sich mehrfach auf website_url_lnk zu registrieren.
+Kaufvertragsschluss
+Der Abschluss eines Vertrages über den Kauf eines Produktes vollzieht sich wie folgt Um den Bestellvorgang einzuleiten, müssen Sie den gewünschten Artikel zunächst durch Anklicken des jeweiligen Buttons in den Warenkorb legen.
+Der Abschluss eines Vertrages über den Kauf eines Produktes vollzieht sich wie folgt Bevor die Bestellung über den Inhalt des Warenkorbs endgültig abgesandt wird, wird der gesamte Inhalt der Bestellung noch einmal angezeigt. Sie können dann Ihre Bestellung auch noch einmal verändern. Ihre Bestellungen werden bei uns nach Vertragsschluss gespeichert, können nach Abschluss des Bestellvorgangs durch Sie jedoch nicht mehr abgerufen werden. Bitte prüfen Sie Ihre Bestellung daher vor Anklicken des "Jetzt-Kaufen"-Buttons sorgfältig.
+Der Abschluss eines Vertrages über den Kauf eines Produktes vollzieht sich wie folgt Bei Zahlungsarten, die nicht mit einer sofortigen Zahlung durch Sie verbunden sind, geben Sie ein bindendes Angebot zum Abschluss eines Kaufvertrages ab, indem Sie in der Warenkorb-Ansicht den Button "Jetzt kaufen" anklicken. Das Einstellen der Produkte in den Onlineshop ist noch kein verbindliches Angebot zum Vertragsschluss. Wir bestätigen den Eingang der Bestellung per E-Mail. Bei der Bestätigungs-E-Mail handelt es sich noch nicht um die Annahme Ihres Angebots. Der Kaufvertrag kommt erst mit Versandbestätigung zustande. Für den Fall, dass Sie die getätigte Bestellung durch eine SEPA-Überweisung des Kaufpreises auf unser Bankkonto bezahlen (Zahlungsoption "Vorkasse"), gilt nicht die Versandbestätigung als unsere Annahmeerklärung, sondern eine vorab durch uns ebenfalls per E-Mail erklärte Auftragsbestätigung.
+Der Abschluss eines Vertrages über den Kauf eines Produktes vollzieht sich wie folgt Bei Zahlungsarten, die mit einer sofortigen Zahlung durch Sie verbunden sind (wie z. PayPal, sofortueberweisung.de etc.) besteht unser Angebot bereits im Einstellen der Produkte auf website_url_lnk Sie nehmen dieses Angebot zum Abschluss eines Kaufvertrages an, indem Sie in der Warenkorb-Ansicht den Button "Jetzt kaufen" anklicken.
+Sie können Ihre Bestelldaten unmittelbar nach dem Absenden Ihrer Bestellung ausdrucken. Sollten Sie Ihre Unterlagen zu Ihren Bestellungen erneut einsehen wollen, wenden Sie sich bitte per E-Mail oder Telefon an uns. Wir übersenden Ihnen gerne eine Kopie der Daten zu Ihrer Bestellung.
+Änderungen einer Bestellung sind möglich, bevor diese unser Lager verlassen hat bzw. an eine Spedition übergeben wurde (also vor Vergabe einer Sendungsnummer und Zusenden der Versandbestätigung per E-Mail). Ihre gesetzlichen Gewährleistungsrechte und das Widerrufsrecht werden hiervon nicht berührt.
+Wir behalten uns zudem das Recht vor, vom Vertrag zurückzutreten, wenn die Ware ohne unser schuldhaftes Zutun von einem sorgfältig ausgewählten und zuverlässigen Zulieferer nicht vorrätig ist (Vorbehalt der Selbstbelieferung). In einem solchen Fall verpflichten wir uns dazu, Sie unverzüglich über die Nichtverfügbarkeit der Ware zu informieren und ggf. geleistete Zahlungen unverzüglich zurückzuerstatten.
+Austauschartikel
+Austauschartikel ist Ware, die in den Bestellinformationen mit einem Pfandwert belegt ist (z. Generator), den Sie beim Kauf zusätzlich zahlen müssen. Nach Erhalt eines Austauschartikels senden Sie bitte das defekte, komplette Altteil aus Ihrem Pkw an uns zurück und teilen uns Ihre Bankverbindung mit, damit der entrichtete Pfandwert an Sie zurückgezahlt werden kann. Alte Autoteile müssen auf Ihre Kosten an uns versendet werden.
+Sorgen Sie bitte für vollständige Entleerung von Flüssigkeiten bei Bremssatteln, Servolenkungen und Servopumpen. Die Altteile müssen in einem aufarbeitungsfähigen Zustand sein. Altteile dürfen keine Bruchstellen aufweisen.
+Werden Altteile zurückgesandt, die Brüche im Gehäuse, einen Bruch der Gelenkwelle oder Unterschiede in der Stromstärke / Leistung aufweisen, kann keine Erstattung des Pfandes gezahlt werden.
+Austauschartikel sind beispielsweise. Servopumpe
+Austauschartikel sind beispielsweise. Lenkgetriebe
+Austauschartikel sind beispielsweise. Starter
+Austauschartikel sind beispielsweise. Generator
+Austauschartikel sind beispielsweise. Bremssattel
+Austauschartikel sind beispielsweise. Antriebswelle
+Austauschartikel sind beispielsweise. Einspritzdüse
+Austauschartikel sind beispielsweise. Hochdruckpumpe
+Austauschartikel sind beispielsweise. Batterie
+Versand und Lieferung
+Kosten innerhalb Deutschlands bei Bestellungen unter einem Warenwert von 120,00 € fallen 6,95 € Versandkosten an. Ab einem Warenwert von 120,00 € (ausgenommen Versand in das Ausland und Sonderversand, Sperrgut, Pfandartikel und Reifen) entfallen die Versandkosten.
+Kosten innerhalb Deutschlands bei Zahlungen per PayPal, Kreditkarte, Klarna Rechnung, Vorkasse oder Sofortüberweisung fallen keine weiteren Transaktionsgebühren für Sie an.
+Versandkosten außerhalb Deutschlands die aufgeführten Versandkosten ins Ausland gelten unabhängig vom Bestellwert und sind jeweils immer zu entrichten.
+Versandkosten außerhalb Deutschlands 9,95 € 
+Versandkosten außerhalb Deutschlands 9,83 € 
+Versandkosten außerhalb Deutschlands 10,19 € 
+Versandkosten außerhalb Deutschlands 6,95 € 
+Versandkosten außerhalb Deutschlands 15,95 € 
+Versandkosten außerhalb Deutschlands 19,99 € 
+Versandkosten außerhalb Deutschlands 10,95 € 
+Versandkosten außerhalb Deutschlands 9,95 € 
+Versandkosten außerhalb Deutschlands 9,95 € 
+Versandkosten außerhalb Deutschlands 9,48 € 
+Versandkosten außerhalb Deutschlands 30,00 € 
+Versandkosten außerhalb Deutschlands 9,95 € 
+Versandkosten außerhalb Deutschlands 15,95 € 
+Versandkosten außerhalb Deutschlands 15,95 € 
+Versandkosten außerhalb Deutschlands 9,95 € 
+Versandkosten außerhalb Deutschlands 9,95 € 
+Versandkosten außerhalb Deutschlands 18,53 € 
+Versandkosten außerhalb Deutschlands 9,95 € 
+Versandkosten außerhalb Deutschlands 6,02 € 
+Versandkosten außerhalb Deutschlands 9,95 € 
+Versandkosten außerhalb Deutschlands 9,67 € 
+Versandkosten außerhalb Deutschlands 8,00 € 
+Versandkosten außerhalb Deutschlands 22,13 € 
+Versandkosten außerhalb Deutschlands 9,95 € 
+Versandkosten außerhalb Deutschlands 9,95 € 
+Versandkosten außerhalb Deutschlands 9,95 € 
+Versandkosten außerhalb Deutschlands 10,96 € 
+Versandkosten außerhalb Deutschlands 7,88 € 
+Ihr Land wählen
+6,95 € für Deutschland
+Sperrgutzuschlag.
+Als Sperrgut gelten folgende Ersatzteile batterie, Katalysator, Krümmer, Schalldämpfer, Sportschalldämpfer, Einstiegsblech, Kotflügel, Kraftstoffbehälter, Seitenwand, Spoiler, Anhängervorrichtung, Frontverkleidung, Motorabdeckung, Motorhaube, Motorraumdämmung und Stoßfänger.
+Versand von Sperrgut innerhalb Deutschlands Beim Versand von Krümmer, Katalysator, Schalldämpfer und Sportschalldämpfer werden zusätzlich 5,00 € Sperrgutzuschlag erhoben
+Versand von Sperrgut innerhalb Deutschlands Für den Versand von Batterie, Kotflügel, Einstiegsblech, Kraftstoffbehälter, Seitenwand, Spoiler und Stoßfängerträger ist zusätzlich ein Sperrgutzuschlag von 10,00 € zu entrichten
+Versand von Sperrgut innerhalb Deutschlands Für Frontverkleidung, Anhängervorrichtung, Motorabdeckung, Motorhaube, Motorraumdämmung und Stoßfänger wird beim Versand innerhalb Deutschlands zusätzlich 15,00 € Sperrgutzuschlag erhoben.
+Zusätzlich anfallende Versandkosten von Sperrgut in andere Länder belgien: 26,95 €
+Bulgarien: 102,00 € 
+Dänemark: 85,00 € 
+Estland: 95,95 € 
+Finnland: 103,95 € 
+Frankreich: 36,95 € 
+Griechenland: 140,95 € 
+Italien: 46,95 € 
+Lettland: 96,95 € 
+Litauen: 96,95 € 
+Luxemburg: 26,95 € 
+Niederlande: 26,95 € 
+Österreich: 26,95 € 
+Polen: 57,00 € 
+Portugal : 111,95 € 
+Rumänien: 104,00 € 
+Schweden: 98,00 € 
+Schweiz: 26,95 € 
+Slowakei: 30,95 € 
+Slowenien: 89,95 € 
+Spanien: 109,95 € 
+Tschechische Republik: 20,95 € 
+Ungarn: 88,00 € 
+Sperrgutszuschlag gilt pro Artikel.
+Achtung: Versand von Sperrgut in andere, hier nicht aufgeführte Länder, ist nicht möglich.
+Alle genannten Preisangaben enthalten die gesetzliche Mehrwertsteuer z. Zt. 19%.
+Lieferzeiten.
+Auf Lager
+Der Artikel ist vorrätig. Artikel mit diesem Verfügbarkeitsstatus werden innerhalb von 1-2 Werktagen nach Zahlungseingang versendet. 
+Derzeit nicht auf Lager
+Der Artikel kann nicht bestellt werden: Er ist nicht mehr vorrätig oder wurde aus dem Sortiment genommen. Sie können einen ähnlichen Artikel eines anderen Herstellers bestellen. 
+Die Lieferzeit ist von der Warenverfügbarkeit abhängig. Beachten Sie bitte den Status auf der jeweiligen Produktseite. Informationen zu eventuellen Zollgebühren finden Sie hier
+Keine Lieferung an gesetzlichen Feiertagen.
+Zusatzoption "Sicher bestellen" mit der Zusatzoption "Sicher bestellen" haben Sie die Möglichkeit, das gesetzliche Widerrufsrecht zu erweitern. Durch eine kostengünstige Pauschale von 2,99 € / Bestellung bieten wir Ihnen innerhalb der ersten 200 Tage, volle Rücknahme und kostenlosen Rückversand, ohne dass Sie hierfür einen Grund angeben müssen. Hinsichtlich der Abwicklung wird auf das gesetzliche Widerrufsrecht verwiesen. Diese Option kann, soweit angeboten, im letzten Schritt des Bestellvorgangs gebucht werden. Voraussetzung ist, dass das Produkt sich im Originalzustand befindet und weder beschädigt, noch eingebaut wurde. Bitte beachten Sie, dass Ihr gesetzliches Widerrufsrecht durch die Option "Sicher bestellen" weder ersetzt, noch davon betroffen wird.
+VORAUSSETZUNG FÜR DIE RETOURE MIT DER OPTION "SICHER BESTELLEN" Veranlassen Sie die Rücksendung in Ihrem persönlichen Konto auf website_url_lnk oder kontaktieren Sie unseren Support.
+VORAUSSETZUNG FÜR DIE RETOURE MIT DER OPTION "SICHER BESTELLEN" Rücksendung der Artikel Originalverpackt und beigefügter Rechnung
+VORAUSSETZUNG FÜR DIE RETOURE MIT DER OPTION "SICHER BESTELLEN" Ersatzteile sollten weder verwendet, beschädigt oder montiert worden sein.
+Die Sicher bestellen-Option gilt nur für eine Retoure pro Bestellung.
+Sobald wir das Ersatzteil von Ihnen zurückerhalten haben, wird es sorgfältig geprüft. Wenn das Autoteil die oben genannten Kriterien erfüllt, erstatten wir entweder das Geld zurück oder ersetzen dieses durch ein anderes, ganz wie Sie wünschen.
+Wichtiger Hinweis.
+Die Bedingungen der Sicher bestellen-Option gelten nicht für Sperrgut, alte Austauschartikel und Reifen. Darüber hinaus treffen die Sicher bestellen-Bedingungen nicht auf Produkte Ihrer anderen Bestellungen zu, für die diese Option nicht gewählt wurde.
+Gefahrübergang, Transportrisiko, Für Unternehmenskunden gilt die Gefahr des zufälligen Untergangs und der zufälligen Verschlechterung der Sache geht bei Versendung der Sache auf Sie über, wenn die Sache an die den Transport ausführende Person übergeben wird bzw. wenn die Ware zwecks der Versendung unser Lager verlassen hat. Maßgeblich ist das jeweils frühere Ereignis.
+Entgegennahme der Ware/Transportschäden
+Zur Versendung Ihrer Bestellung setzen wir unter anderem Paketdienste ein. Sollte eine Warenlieferung einmal beschädigt bei Ihnen ankommen, so möchten wir Sie um Folgendes bitten: Sofern möglich, rügen Sie die beschädigte Ware unmittelbar gegenüber dem Angestellten des Paketdienstes und dokumentieren Sie Grad und Umfang der Beschädigung. Ihre Gewährleistungsrechte werden dadurch nicht eingeschränkt oder berührt.
+Sie können die Annahme beschädigter Ware verweigern. Bitte kontaktieren Sie uns im Fall der Lieferung eines beschädigten Artikels telefonisch, per E-Mail oder persönlich unter den vorgenannten Adressen. Sie helfen uns damit, unsere Ansprüche gegen den Paketdienst durchzusetzen und zugleich den Service Ihnen gegenüber zu verbessern.
+Preise und Zahlungsmethoden
+Wir bieten Ihnen verschiedene Zahlungsmodalitäten zur Bezahlung der erworbenen Waren an. Die konkreten Zahlungsmodalitäten finden Sie auf der jeweiligen Produktseite.
+Alle Preise in unserem Onlineshop sind in EUR angegeben und enthalten die gesetzliche Umsatzsteuer. Alle Preise verstehen sich ab Lager inklusive Verpackung und zuzüglich sämtlicher entstehender Versand- und ggf. Nachnahmekosten.
+Der Warenpreis ist zum Zeitpunkt der Bestellung gültig und ist in der Bestellbestätigung, die Sie sofort nach der Bestellung per E-Mail erhalten, aufgeführt. Werden Artikel im Warenkorb gespeichert, so aktualisiert sich deren Gesamtpreis während des Bestellvorgangs auf den aktuellen Tagespreis.
+Bei Kaufverträgen zwischen Ihnen und uns ist der zu zahlende Gesamtbetrag inkl. Versandkosten sofort fällig. Sie sind damit einverstanden, dass Sie Rechnungen ausschließlich in elektronischer Form erhalten.
+Für die Zahlung per Rechnung gilt in Zusammenarbeit mit Klarna bieten wir Ihnen den Rechnungskauf als Zahlungsoption an. Bei einer Zahlung mit Klarna müssen Sie niemals Ihre Kontodaten angeben, und Sie bezahlen erst, wenn Sie die Ware erhalten haben. Die Lieferung ist an eine von der Rechnungsadresse abweichende Lieferadresse nicht möglich. Wir bitten Sie hierfür um Verständnis.
+Beim Kauf auf Rechnung mit Klarna bekommen Sie immer zuerst die Ware und Sie haben immer eine Zahlungsfrist von 14 Tagen. Weitere Informationen und Klarnas vollständige AGB zum Rechnungskauf finden Sie hier.
+Datenschutzhinweis Klarna
+Klarna prüft und bewertet die Datenangaben des Konsumenten und pflegt bei berechtigtem Anlass einen Datenaustausch mit anderen Unternehmen und Wirtschaftsauskunfteien (Bonitätsprüfung). Sollte die Bonität des Konsumenten nicht gewährleistet sein, kann Klarna AB dem Kunden darauf Klarnas Zahlungsarten verweigern und muss auf alternative Zahlungsmöglichkeiten hinweisen. Ihre Personenangaben werden in Übereinstimmung mit dem Datenschutzgesetz behandelt und werden nicht zu Werbezwecken an Dritte weitergegeben. Hier erfahren Sie mehr zu Klarnas Datenschutzbestimmungen.
+Bitte beachten Sie, dass für eine sichere Bezahlung die dazu notwendigen Identitätsdokumente, Informationen zu Ihrem Konto/Kreditkarte sowie der Abgleich der Zustelladresse angefragt werden können. Dies dient ausschließlich Ihrer Sicherheit, wobei die Daten über eine sichere Verbindung geleitet und nicht an Dritte übergeben werden. Die Bearbeitungszeit einer Bestellung kann sich in diesem Fall verlängern. Sofern die angefragten Informationen nicht erteilt werden, wird der Auftrag storniert und die Kosten werden auf dasselbe Zahlungsmittel, das Sie bei Ihrer Bestellung gewählt haben, erstattet. In einem solchen Fall wird die Ware nicht versandt und das von Ihnen abgegebene Angebot gilt als abgelehnt.
+Verzug/Zurückbehaltungsrecht
+Sofern Sie sich mit der Zahlung im Verzug befinden, behalten wir uns vor, Ihnen für notwendige Mahnungen Mahngebühren in Rechnung zu stellen, es sei denn, Sie weisen uns nach, dass uns die Kosten für die Mahnungen überhaupt nicht entstanden oder wesentlich niedriger sind als die geltend gemachten Mahngebühren. Die Mahngebühren betragen je Mahnung 2,50 €. Soweit die Mahnung nicht gem. § 286 Abs. 2 BGB entbehrlich ist, entstehen Ihnen für die erste Mahnung keine Kosten.
+Darüber hinaus sind wir berechtigt, bei Zahlungsverzug von Verbrauchern Zinsen in Höhe von fünf Prozentpunkten und von Unternehmern in Höhe von neun Prozentpunkten über dem jeweils geltenden Basiszinssatz geltend zu machen.
+Die Geltendmachung von weiteren Verzugsschäden wird durch die Geltendmachung von Mahngebühren und/oder Zinsforderungen nicht ausgeschlossen.
+Gegen uns zustehende Ansprüche können Sie nur dann aufrechnen oder ein Zurückbehaltungsrecht geltend machen, wenn Ihre Gegenforderung unbestritten ist, ein rechtskräftiger Titel vorliegt oder die Gegenforderung in einem synallagmatischen Verhältnis zu dem jeweils betroffenen Anspruch besteht.
+Eigentumsvorbehalt
+Zur Sicherung unserer Kaufpreisforderung gegen Sie behalten wir uns bis zur vollständigen Kaufpreiszahlung das Eigentum an allen Liefergegenständen vor.
+Sie sind verpflichtet, die unter Eigentumsvorbehalt stehenden Waren pfleglich zu behandeln.
+Die unter Eigentumsvorbehalt stehenden Waren dürfen vor vollständiger Bezahlung der gesicherten Forderungen weder an Dritte verpfändet noch zur Sicherheit übereignet werden. Sie haben uns unverzüglich schriftlich zu benachrichtigen, wenn und soweit Zugriffe Dritter auf uns gehörende Waren erfolgen.
+Sind Sie Unternehmer, gilt zusätzlich Folgendes Wir behalten uns bis zur vollständigen Begleichung aller unserer gegenwärtigen und künftigen Forderungen aus dem Kaufvertrag und aus einer laufenden Geschäftsbeziehung zu Ihnen ("gesicherte Forderungen") das Eigentum an allen Liefergegenständen vor.
+Sind Sie Unternehmer, gilt zusätzlich Folgendes Soweit der realisierbare Wert unserer Sicherheiten die gesicherten Forderungen um mehr als 10 % übersteigt, sind wir verpflichtet, die Sicherheiten auf Ihr Verlangen freizugeben. Die Auswahl der freizugebenden Sicherheiten treffen wir.
+Sind Sie Unternehmer, gilt zusätzlich Folgendes Die Verarbeitung oder Umbildung der gelieferten Ware durch Sie wird stets für uns vorgenommen. Wird die gelieferte Ware mit anderen, uns nicht gehörenden Gegenständen verarbeitet, so erwerben wir das Miteigentum an der neuen Sache im Verhältnis des Wertes der gelieferten Ware (Faktura-Endbetrag einschl. USt.) zu den verarbeiteten Gegenständen zur Zeit der Verarbeitung. Für die durch Verarbeitung entstehende Sache gilt im Übrigen das Gleiche wie für die unter Vorbehalt gelieferte Ware.
+Sind Sie Unternehmer, gilt zusätzlich Folgendes Wird die gelieferte Ware mit anderen, uns nicht gehörenden Gegenständen untrennbar vermischt, so erwerben wir das Miteigentum an der neuen Sache im Verhältnis des Wertes der gelieferten Ware (Faktura-Endbetrag einschl. USt.) zu den anderen vermischten Gegenständen zum Zeitpunkt der Vermischung. Erfolgt die Vermischung in der Weise, dass Ihre Sache als Hauptsache anzusehen ist, so gilt als vereinbart, dass Sie uns anteilmäßig Miteigentum übertragen. Sie verwahren das so entstandene Alleineigentum oder Miteigentum für uns.
+Laufzeit, Sperrung und Kündigung des Accounts
+Der Vertrag über die Accountregistrierung wird auf unbestimmte Zeit abgeschlossen.
+Sie können den Vertrag über die Accountregistrierung jederzeit ohne Einhaltung einer Frist kündigen.
+Wir können den Vertrag über die Accountregistrierung ordentlich mit einer Frist von zwei Wochen kündigen.
+Das Recht zur fristlosen Kündigung aus wichtigem Grund bleibt unberührt. Wir können den Vertrag über die Accountregistrierung insbesondere fristlos kündigen, wenn Sie unrichtige oder unvollständige Angaben bei der Registrierung machen,
+Das Recht zur fristlosen Kündigung aus wichtigem Grund bleibt unberührt. Wir können den Vertrag über die Accountregistrierung insbesondere fristlos kündigen, wenn Sie gegen sonstige vertragliche Pflichten wiederholt verstoßen und die Pflichtverletzung auch nach Aufforderung durch uns nicht unterlassen.
+Soweit wir den Vertrag gekündigt haben, haben Sie keinen Anspruch auf Einrichtung eines neuen Accounts, auch nicht unter einem anderen Namen oder einer anderen Bezeichnung.
+Jede Kündigung muss schriftlich erfolgen. Kündigungen per E-Mail wahren die Schriftform.
+Gewährleistung
+Für Ihre Rechte bei Sach- und Rechtsmängeln gelten die gesetzlichen Vorschriften, soweit nachfolgend nichts anderes bestimmt ist.
+Gegenüber Verbrauchern verjähren die Gewährleistungsrechte bei neuen Sachen innerhalb von zwei Jahren, bei gebrauchten Sachen innerhalb von einem Jahr ab Gefahrübergang. 
+Im Gewährleistungsfalle sind Sie nach Ihrer Wahl zur Geltendmachung eines Rechts auf Mängelbeseitigung oder Lieferung mangelfreier Ware berechtigt (Nacherfüllung). Sofern die gewählte Art der Nacherfüllung mit unverhältnismäßig hohen Kosten verbunden ist, beschränkt sich der Anspruch auf die jeweils verbliebene Art der Nacherfüllung. Wir werden Sie ggf. hierauf hinweisen.
+Soweit Sie Ein- und Ausbaukosten im Hinblick auf den Austausch eines von uns im Zuge der Sachmängelhaftung neu gelieferten Teils in einer Werkstatt geltend machen, bitten wir Sie uns die Originalbelege einzureichen, da bei einer Anerkennung als Gewährleistungsfall die Werkstattleistung von uns erstattet wird. Achten Sie dabei bitte darauf, dass auf der Rechnung nur Arbeiten angegeben sind, die im direkten Zusammenhang mit der Mängelbeseitigung stehen (d. keine Fremdleistungen auf der Rechnung). Weiterhin sollten die Arbeitswerte mit Aufschlüsselung der Zeitstunden ausgewiesen werden.
+Gegenüber Unternehmern als Käufern ist die Haftung für Mängel bei gebrauchten Sachen ausgeschlossen. Dies gilt nicht für grobe Fahrlässigkeit oder Vorsatz. Bei neuen Sachen verjähren die Gewährleistungsrechte innerhalb von einem Jahr nach Gefahrübergang.
+Lediglich klarstellend möchten wir darauf hinweisen, dass folgende Umstände keinen Sachmangel begründen, wenn sie für das Fehlerbild ursächlich sind Natürlicher Verschleiß,
+Lediglich klarstellend möchten wir darauf hinweisen, dass folgende Umstände keinen Sachmangel begründen, wenn sie für das Fehlerbild ursächlich sind Unsachgemäßer Gebrauch,
+Lediglich klarstellend möchten wir darauf hinweisen, dass folgende Umstände keinen Sachmangel begründen, wenn sie für das Fehlerbild ursächlich sind Mangelnde oder falsche Pflege der Ware,
+Lediglich klarstellend möchten wir darauf hinweisen, dass folgende Umstände keinen Sachmangel begründen, wenn sie für das Fehlerbild ursächlich sind Ungeeignete oder unsachgemäße Verwendung,
+Lediglich klarstellend möchten wir darauf hinweisen, dass folgende Umstände keinen Sachmangel begründen, wenn sie für das Fehlerbild ursächlich sind Fehlerhafte Montage, insbesondere wenn das bestellte Teil ersichtlich nicht das passende ist,
+Lediglich klarstellend möchten wir darauf hinweisen, dass folgende Umstände keinen Sachmangel begründen, wenn sie für das Fehlerbild ursächlich sind Nichtbeachtung von Anwendungshinweisen,
+Lediglich klarstellend möchten wir darauf hinweisen, dass folgende Umstände keinen Sachmangel begründen, wenn sie für das Fehlerbild ursächlich sind Fehlerhafte Behandlung.
+Überprüfung der Passgenauigkeit
+Wir weisen darauf hin, dass es trotz aller Sorgfalt in Einzelfällen zu Falschlieferungen kommen kann. Sie sind daher verpflichtet vor dem Einbau einer Kaufsache auf Sicht durch Vergleich mit dem ausgetauschten Originalteil zu überprüfen, ob das bestellte Teil tatsächlich das für Ihr Fahrzeug passende ist (bspw. Übereinstimmung von Bohrlöchern und Anschlüssen). Wenn das gekaufte Teil sichtbar in seinen Maßen, Form oder Material vom ausgetauschten Originalteil abweicht, kontaktieren Sie uns zunächst zur weiteren Klärung, bevor ein Einbau oder eine Anpassung oder Umgestaltung (z. B. Lackierung) des gekauften Teils erfolgt. Ihre Gewährleistungsansprüche werden durch diese Regelung nicht berührt.
+Herstellergarantien
+Sofern eine besondere Herstellergarantie besteht, die Sie neben der Gewährleistung in Anspruch nehmen können, wird dies bei der jeweiligen Produktbeschreibung ausgewiesen. Diese Garantie gilt nur für das jeweilige Produkt und Ihre Ansprüche richten sich nach den jeweiligen Garantiebedingungen des Herstellers und bestehen ausschließlich diesem gegenüber.
+Schadensersatzhaftung des Verkäufers
+Wir haften für Vorsatz und grobe Fahrlässigkeit sowie bei Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit unbeschränkt.
+In Fällen leichter Fahrlässigkeit haften wir bei Verletzung einer wesentlichen Vertragspflicht. Eine wesentliche Vertragspflicht im Sinne dieser Ziffer ist eine Pflicht, deren Erfüllung die Durchführung des Vertrages erst ermöglicht und auf deren Erfüllung sich der Vertragspartner deswegen regelmäßig verlassen darf.
+Wir haften im Fall von Ziffer nicht für mangelnden wirtschaftlichen Erfolg, entgangenen Gewinn und mittelbare Schäden.
+Die Haftung gemäß der vorstehenden Ziffer ist auf den im Zeitpunkt des Vertragsschlusses typischen und vorhersehbaren Schaden begrenzt.
+Die Haftungsbeschränkungen gelten zugunsten unserer Mitarbeiter, Beauftragten und Erfüllungsgehilfen entsprechend.
+Eine etwaige Haftung für von uns gegebene Garantien und für Ansprüche auf Grund des Produkthaftungsgesetzes bleibt unberührt.
+Im Übrigen ist eine Haftung unsererseits ausgeschlossen.
+Online-Streitbeilegung: Information gem. Art. 14 Abs. 1 VO 2013/524/EU Verbraucherschlichtung
+Für die Online-Streitbeilegung stellt die Europäische Kommission eine Plattform bereit, welche unter website_url_lnk zu finden ist. Unser Unternehmen ist an einer Teilnahme eines Streitbeilegungsverfahrens vor einer Verbraucherschlichtungsstelle grundsätzlich nicht bereit und nicht verpflichtet.
+Verbraucherschlichtung: Information gem. § 36 VSBG
+Wir nehmen nicht an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teil. Gleichwohl fordert die gesetzliche Lage, dass wir Sie auf eine für Sie zuständige Verbraucherschlichtungsstelle hinweisen Allgemeine Verbraucherschlichtungsstelle des Zentrums für Schlichtung e. V., Straßburger Straße 8, 77694 Kehl am Rhein, Telefon: 07851 / 795 79 40, Fax: 07851 / 795 79 41, E-Mail: mail@verbraucher-schlichter.de, Internet: website_url_lnk
+Schlussbestimmungen
+Auf diesen Vertrag findet das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts Anwendung. Dies gilt bei Verbrauchern nicht in Bezug auf solche Bestimmungen, die nach dem Recht, das ohne diese Klausel anwendbar wäre (also in der Regel des Landes, wo der Verbraucher seinen Hauptwohnsitz hat), zwingend anwendbar sind und von denen nicht durch Vereinbarung abgewichen werden darf.
+Ausschließlicher Gerichtsstand für sämtliche Streitigkeiten aus oder im Zusammenhang mit diesem Vertrag ist Berlin, vorausgesetzt die Vertragsparteien sind Kaufleute oder Sie haben keinen allgemeinen Gerichtsstand in Deutschland oder in einem anderen EU-Mitgliedsstaat oder haben Ihren festen Wohnsitz nach Wirksamwerden dieser Nutzungsbedingungen ins Ausland verlegt oder der Wohnsitz oder gewöhnliche Aufenthaltsort ist im Zeitpunkt der Klageerhebung nicht bekannt.
+Wir sind berechtigt, diese Bedingungen während der Laufzeit des Vertrages mit Wirkung für die Zukunft zu ändern oder anzupassen, wenn dies aus einem zwingenden Grund, wie etwa der Änderung von Gesetzen oder der Rechtsprechung erforderlich wird. Wir werden Ihnen die geänderten Bedingungen vor dem geplanten Inkrafttreten in Textform übermitteln und auf die Neuregelungen sowie das Datum des Inkrafttretens besonders hinweisen. Zugleich werden wir Ihnen eine angemessene, mindestens vier Wochen lange Frist für die Erklärung einräumen, ob Sie die geänderten Nutzungsbedingungen für die weitere Inanspruchnahme der Leistungen akzeptieren. Erfolgt innerhalb dieser Frist, die ab Erhalt der Nachricht in Textform zu laufen beginnt, keine Erklärung, so gelten die geänderten Bedingungen als vereinbart. Wir werden Sie bei Fristbeginn gesondert auf diese Rechtsfolge, d. das Widerspruchsrecht, die Widerspruchsfrist und die Bedeutung des Schweigens hinweisen. Dieser Änderungsmechanismus gilt nicht für Änderungen der vertraglichen Hauptleistungspflichten der Parteien.
+Die Rechtsunwirksamkeit einzelner Bestimmungen berührt die Verbindlichkeit der übrigen Klauseln nicht.
+Die Vertragssprache ist deutsch.
+Berlin, 15.03.2021
+Autoreparaturen waren noch nie so einfach
+Sagen Sie Nein zu komplizierten Anleitungen und verwirrenden Schaubildern. Nutzen Sie die praktischen und einfachen Autoreparatur-Tutorials von AUTODOC.
+Kostenlose und ausführliche Leitfäden und Video-Tutorials für die Auto-Selbstreparatur
+TRETEN SIE DEM CLUB BEI 
+Videoschulungen von unseren Experten, alle Hinweise zur Autoreparatur, die Sie benötigen.
+WEITER ZU UNSEREM YOUTUBE-KANAL 
+Folgen Sie neuesten Trends und profitieren Sie von Updates, Tipps und Posts über Autos.
+MEHR SEHEN AUF INSTAGRAM 
+ÜBER AUTODOC
+Über uns
+Impressum
+Jobs & Karriere
+Bonusprogramm
+Sponsoring
+Presse
+AUTODOC-App
+AUTODOC PLUS
+AUTODOC Partners
+HILFE & SUPPORT
+Hilfecenter
+AUTODOC Club
+Blog
+Autoreparatur-Anleitungen & Video-Tutorials
+Hinweise zur Altölentsorgung
+AGB
+PLUS-AGB
+Widerrufsrecht
+Datenschutzerklärung
+Cookie-Einstellungen
+Code of Conduct
+KUNDENSERVICE
+Zahlung
+Versand
+Kontakt
+Retouren
+Austauschartikel
+TOP PRODUKTE
+Beleuchtung
+Stoßdämpfer
+Kupplungssatz
+Querlenker
+Radlager
+Autopflegeprodukte
+Nach Automarke einkaufen
+Nach Modell einkaufen
+Nach Modellgenerationen einkaufen
+Katalog der Autoteilehersteller
+Kundenservice International
+Deutschland
+Heute abonnieren und sparen!
+Bitte geben Sie eine gültige E-Mail-Adresse an
+Abonnieren
+Ja, ich möchte den personalisierten AUTODOC-Newsletter mit Informationen zu Produkten, Sonderangeboten, Warenkorberinnerun...
+Mehr
+Bitte beachten Sie unsere Datenschutzerklärung.
+Die hier angezeigten Daten, insbesondere die gesamte Datenbank, dürfen nicht kopiert werden. Es ist zu unterlassen, die Daten oder die gesamte Datenbank ohne vorherige Zustimmung TecDocs zu vervielfältigen, zu verbreiten und/oder diese Handlungen durch Dritte ausführen zu lassen. Ein Zuwiderhandeln stellt eine Urheberrechtsverletzung dar und wird verfolgt.
+Geschäftszeiten des Kundenservice für Deutschland 
+Montag-Freitag: 08:00-20:00 Uhr Samstag: 08:00-16:00 Uhr 
+Sonntag: Geschlossen 
+info@autodoc.de
+2023 website_url_lnk AUTODOC-Onlineshop 
+Kundenservice !

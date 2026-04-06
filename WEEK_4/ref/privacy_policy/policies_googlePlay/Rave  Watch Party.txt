@@ -1,0 +1,60 @@
+Rave Privacy Policy
+Last updated: 2023/02/01
+It's pretty hard to make everyone happy with a Privacy Policy. Most people who use Rave want something short and easy to understand. While we wish we could fit everything you need to know into a chat message, our regulators ask us to meet our legal obligations by describing them all in a lot of detail. 
+With that in mind, we've written our Privacy Policy as simple as possible. We've broken it into sections to help empower you to make informed decisions about how you have control over the information we collect, how it's used, and when it's shared. 
+Why We Collect Information 
+Rave is the best way to watch videos online with friends. In order to make that happen, we need to know a little bit about you. Here are a few of the services Rave offers because of the data we collect fast and easy login
+Dynamic friend lists 
+Saved user preferences 
+Maintained liked videos and watch history 
+Recommended content from new shows, movies, creators, and channels you'll likely vote for next 
+Improving, operating, developing, protecting, maintaining, and delivering Rave as a service 
+Monitoring and analyzing trends and usage 
+Enforcing, investigating, and reporting conduct violating our Terms of Service and other usage policies, respond to requests from law enforcement, and comply with legal requirements. 
+Information We Collect, What You Provide Us 
+When you interact with Rave, we collect the information you provide to us. For example, we require you to set up an account where we need to collect a few important details about you, such as a username, handle, password, email address, and profile picture. We may also ask you to provide us with some additional information, such as date of birth if you try to view mature content. 
+Of course, in order for you to chat with your friends, you also provide us with the information you send through our services, such as chats, voice, and all those amazing memes. 
+Keep in mind that the users who use Rave could save that content or copy it outside the app. So, use same common sense that applies to the internet at large: Don't send messages or share content that you wouldn't want someone to save or share. 
+When using Rave, you are prompted to sign into third-party video services. We never collect, save, maintain, or propagate these passwords. 
+Information We Collect, When You Use Rave 
+Usage Information 
+When you watch content on Rave, we collect information about what you're watching. We use this information to maintain your watch history, recommend you content we think you'll like, and recommend you other Raves who party the same way you do. We might know, for instance, that you love the new Blackpink single, but can't stand T-Swifts latest. Or, for example, we know we can recommend you Netflix shows because you showed us you have subscription after you binge watched all of Game of Thrones. We also keep track of who you watch content with on Rave so you can easily find and invite them again. 
+Device Information 
+We collect device level info to recommend you users that watch movies on the same devices you do. These data include your hardware model, operating system version, screen size, device memory, advertising identifiers, language, battery level, microphone access for voice, and whether you watch with headphones connected. 
+Location/Network Information 
+We love that Rave can connect you with friends anywhere in the world. We also love to connect people who live close together. To make all this possible, we collect your service provider, IP address, VPN, bandwidth, and signal strength. We'll ask for your precise location data to make this service even better by using your latitude and longitude. 
+Cookies 
+Only on Rave for the personal computer, Rave sets and uses cookies to display advertisements within the app. Cookies within the Rave personal computer app are subject to the privacy policy of the third party providing the advertisement. Third parties providing the advertising do not have access to the apps cookies. Third parties usually use non-personally-identifiable or anonymous codes to obtain metrics about your use of the Rave personal computer app. 
+Information We Collect, From Third Parties 
+We may collect information about you from third parties. For example, if you sign in with Facebook, Google, Twitter, Apple, HMS (HUAWEI Mobile Services), or Vkontakte, we receive your user details from them. 
+Also, if you upload your contact list, we may combine this information with your current friend list. 
+Children and Sensitive Data 
+Children 
+None of our services are intentionally directed at children under 13. We do not knowingly collect personal data from anyone under 13 years of age. If we determine upon collection that a Rave user is under the age of 13, we will not use or maintain his/her personal data. If we become aware that we have unknowingly collected personal data from a child under the age of 13, we will make reasonable efforts to delete such information from our records. If you're a kid, please go play in the yard, don't use or interact with Rave! 
+Sensitive data 
+We do not knowingly collect or receive any sensitive categories of personal data. 
+How We Share Your Information 
+With Other Rave Users 
+On Rave, you represent yourself to other users with your username, handle, and profile picture which are publicly available. Of course, all chat messages and voice sent over Rave are shared with users in the same Rave. With permission, your approximate location, derived from your IP address and not from your GPS, is visible to others on the map screen. 
+With Third Parties 
+We may share information about you as part of a merger or acquistion. If Rave gets involved in a merger, asset sale, financing, liquidation or bankruptcy, or aquisition of all or some portion of our business to another company, we may share your information with that company before and after the transaction closes. 
+We may share information about you as part of a valid legal process, government request, or applicable law, rule, or regulation. 
+We may share information with other service providers who perform services on our behalf, including to facilitate payments, measure and optimize the performance of ads. We also derive and share market verticals based on watch history for monetization purposes including to improve the quality of ads you receive. 
+When using Rave for the personal computer, we may share your information with the third party Freestar. Rave is affiliated with Freestar for the purposes of placing advertising within the app, and Freestar will collect and use certain data for advertising purposes. To learn more about Freestar's data usage, click here. 
+All or partial advertising on this Website or App is managed by Playwire LLC. If Playwire publisher advertising services are used, Playwire LLC may collect and use certain aggregated and anonymized data for advertising purposes. To learn more about the types of data collected, how data is used and your choices as a user, click here. 
+We may share information about you to investigate, remedy, or enforce potential Terms of Service and Community Guidelines violations as well as protect the rights, property, or safety of us, our users, or others. 
+Control Over Your Information 
+Access, Correction, and Portability 
+You can access and edit most of your basic account information right in the Rave app from the profile and watch history screens. If you'd like to obtain a portable copy of your information that isn't available in our app you can contact our DPO (Data Protection Officer) at dpo@rave.io. Because your privacy is important to us, we will ask you to verify your identity or provide additional information before we let you access or update your personal information. We may also reject your request to access or update your personal information for a number of reasons, including, for example, if the request risks the privacy of other users or is unlawful. 
+Revoking Permissions 
+In most cases, if you let us use your information and change your mind, no problem! You can disable precise location using your OS, or revoke all data collection choosing to opt-out of data collection in the settings of the Rave app. Of course, if you do that, certain services will lose functionality such as recommended content. 
+Deletion 
+While we hope you'll remain a lifelong Rave user, if for some reason you ever want to delete your account, the option is available on your account page. If you delete your Rave account, data associated with your account will be destroyed in 30 days. 
+How Long We Keep Your Information 
+We maintain all your information until your account is deleted. This includes basic profile information, like your name, handle, profile picture -, list of friends, liked videos, watch history, and chat logs. 
+If you delete your Rave account, data associated with your account will be destroyed in 30 days. 
+Revisions to the Privacy Policy 
+We may change this Privacy Policy from time to time. But when we do, we'll let you know one way or another. Sometimes, we'll let you know by revising the date at the top of the Privacy Policy that's available on our website and mobile application. Other times, we may provide you with additional notice (such as adding a statement to our websites' homepages or providing you with an in-app notification). 
+Data Policy by Geographic Region 
+Your geographic region may have additional data rights granted to you. If you believe this to be true, head over to our data policy page using the below link to view additional information relevant to your region specific data policy. 
+Geographic Specific Data Policy

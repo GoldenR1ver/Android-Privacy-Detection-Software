@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-04-06T11:43:44.766225+00:00",
+  "input": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_4\\src\\data\\Blued极速版.txt",
+  "mode": "classify",
+  "provider": "deepseek",
+  "ollama_model": "qwen3.5:9b",
+  "keyword_hint": true,
+  "limit": 20,
+  "max_chars": 0,
+  "num_sentences": 192,
+  "num_classified": 20,
+  "write_week3_csv": true,
+  "week3_csv_path": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_4\\out\\pipeline_20260406_194301\\Blued极速版\\sentences_week3_2_2.csv",
+  "stats_summary": {
+    "total_sentences": 192,
+    "pii_related_ratio_of_total": null,
+    "pii_related_ratio_of_labeled": 0.75,
+    "keyword_hint_ratio_of_total": 0.6354166666666666
+  }
+}

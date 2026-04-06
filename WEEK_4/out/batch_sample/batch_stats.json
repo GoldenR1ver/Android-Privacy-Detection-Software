@@ -1,0 +1,59 @@
+{
+  "created_at_utc": "2026-04-06T07:03:52.561464+00:00",
+  "input_dir": "..\\ref\\privacy_policy\\policies_huaWeiAppMarket",
+  "glob": "*.txt",
+  "files_processed": 2,
+  "total_sentences": 467,
+  "aggregate_stats": {
+    "total_sentences": 467,
+    "pii_related": {
+      "true": 0,
+      "false": 0,
+      "null": 467,
+      "ratio_of_total": null,
+      "ratio_of_labeled": null,
+      "note": null
+    },
+    "keyword_hint": {
+      "true": 308,
+      "false": 159,
+      "ratio_of_total": 0.6595289079229122
+    }
+  },
+  "by_file": {
+    "12326.txt": {
+      "total_sentences": 72,
+      "pii_related": {
+        "true": 0,
+        "false": 0,
+        "null": 72,
+        "ratio_of_total": null,
+        "ratio_of_labeled": null,
+        "note": null
+      },
+      "keyword_hint": {
+        "true": 50,
+        "false": 22,
+        "ratio_of_total": 0.6944444444444444
+      }
+    },
+    "139ستدن.txt": {
+      "total_sentences": 395,
+      "pii_related": {
+        "true": 0,
+        "false": 0,
+        "null": 395,
+        "ratio_of_total": null,
+        "ratio_of_labeled": null,
+        "note": null
+      },
+      "keyword_hint": {
+        "true": 258,
+        "false": 137,
+        "ratio_of_total": 0.6531645569620254
+      }
+    }
+  },
+  "mode": "split-only",
+  "limit_per_doc": 0
+}

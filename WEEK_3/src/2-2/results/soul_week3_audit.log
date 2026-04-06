@@ -1,0 +1,35 @@
+[2026-04-06 15:27:49] [main] command=audit
+[2026-04-06 15:27:49] [audit] start: input=data\soul_week3\sentences_week3_2_2.csv, output=results\soul_week3_audit_raw.csv, limit=10, resume=False, resume_from=None
+[2026-04-06 15:27:49] [audit] row 1: request model inference
+[2026-04-06 15:27:49] [audit] row 1: inference finished
+[2026-04-06 15:27:49] [audit] processed row 1
+[2026-04-06 15:27:49] [audit] row 2: request model inference
+[2026-04-06 15:27:49] [audit] row 2: inference finished
+[2026-04-06 15:27:49] [audit] processed row 2
+[2026-04-06 15:27:49] [audit] row 3: request model inference
+[2026-04-06 15:27:49] [audit] row 3: inference finished
+[2026-04-06 15:27:49] [audit] processed row 3
+[2026-04-06 15:27:49] [audit] row 4: request model inference
+[2026-04-06 15:27:49] [audit] row 4: inference finished
+[2026-04-06 15:27:49] [audit] processed row 4
+[2026-04-06 15:27:49] [audit] row 5: request model inference
+[2026-04-06 15:27:49] [audit] row 5: inference finished
+[2026-04-06 15:27:49] [audit] processed row 5
+[2026-04-06 15:27:49] [audit] row 6: request model inference
+[2026-04-06 15:27:49] [audit] row 6: inference finished
+[2026-04-06 15:27:49] [audit] processed row 6
+[2026-04-06 15:27:49] [audit] row 7: request model inference
+[2026-04-06 15:27:49] [audit] row 7: inference finished
+[2026-04-06 15:27:49] [audit] processed row 7
+[2026-04-06 15:27:49] [audit] row 8: request model inference
+[2026-04-06 15:27:49] [audit] row 8: inference finished
+[2026-04-06 15:27:49] [audit] processed row 8
+[2026-04-06 15:27:49] [audit] row 9: request model inference
+[2026-04-06 15:27:49] [audit] row 9: inference finished
+[2026-04-06 15:27:49] [audit] processed row 9
+[2026-04-06 15:27:49] [audit] row 10: request model inference
+[2026-04-06 15:27:49] [audit] row 10: inference finished
+[2026-04-06 15:27:49] [audit] processed row 10
+[2026-04-06 15:27:49] [audit] reached limit=10, stop
+[2026-04-06 15:27:49] [audit] completed: processed_in_this_run=10, last_input_row_seen=11
+[2026-04-06 15:27:49] [main] finished

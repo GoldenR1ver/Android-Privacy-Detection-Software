@@ -1,0 +1,254 @@
+五、我们使用的第三方SDK
+附录一：SDK详细说明
+呼呼重视您的隐私。您在使用我们的服务（包括我们的网站website_url_lnk
+如您对本《隐私政策》或与本《隐私政策》相关的事宜有任何问题，请通过yuanjunbo@imhuhu.com与我们联系。
+我们会在您同意的情况下（有可能是后台情况下），获取您的硬件序列号（IMEI）、deviceid、设备 MAC 地址、android id、IDFA、openudid、GUID、SIM 卡 IMSI 信息、经纬度（lon、lat）、传感器、剪切板、软件安装列表等，包括不限于我们自己获取、使用第三方SDK或辅助获取，例如深圳分秒网络科技SDK（openinstall.io）、绿色联盟的oaid sdk、安天科技的设备信息sdk、个推SDK等。 如果您不授权，我们不会私自收集以上信息！
+日志信息指您使用我们服务时，系统可能会通过cookies、web beacon或其他方式自动采集的技术信息，包括：
+设备或软件信息，例如您的移动设备、网页浏览器或您用于接入我们的服务的其他程序所提供的配置信息、您的IP地址和您的移动设备所用的版本和设备识别码；
+您在使用我们服务时搜索和浏览的信息，例如您使用的网页搜索词语、访问的社交媒体页面url地址，以及您在使用我们服务时浏览或要求提供的其他信息和内容详情；
+有关您曾使用的移动应用（APP）和其他软件的信息，以及您曾经使用该等移动应用和软件的信息；
+您通过具有定位功能的移动设备使用我们的服务时，我们通过GPS或WiFi等方式收集的您的地理位置信息；
+五、我们使用的第三方SDK
+第三方SDK使用说明文档
+我们仅在本《隐私政策》所述目的所必需期间和法律法规要求的时限内保留您的个人信息。 我们使用各种安全技术和程序，以防信息的丢失、不当使用、未经授权阅览或披露。例如，在某些服务中，我们将利用加密技术（例如SSL）来保护您向我们提供的个人信息。但请您谅解，由于技术的限制以及风险防范的局限，即便我们已经尽量加强安全措施，也无法始终保证信息百分之百的安全。您需要了解，您接入我们的服务所用的系统和通讯网络，有可能因我们可控范围外的情况而发生问题。
+可能分享到的信息包括：IMEI、MAC地址、软件安装列表等。 可能分享到的第三方包括：深圳市分秒网络科技有限公司（api.openinstall.io, stat.openinstall.io）以及本SDK说明中的第三方：website_url_lnk
+您可通过下面路径注销账号：打开呼呼app--我的--设置--注销账号。若有余额注销后将被清空，您的好友关系也将被清空，请谨慎操作！ 
+您可利用"分享"键将某些内容分享到我们的服务，或您可利用第三方连线服务登录我们的服务。这些功能可能会收集您的信息（包括您的日志信息），并可能在您的电脑装置cookies，从而正常运行上述功能；
+1、为确保本应用处于关闭或后台运行状态下可正常接收到客户端推送关的广播信息，本应用须使用(自启动)能力，将存在一定频率通过系统发送广播唤醒本应用自启动或关联启动行为，是因实现功能及服务务所必要的。
+2、当您打开闪存市场app内容类推送消息，在征得您的明确同意后， 会跳转闪存市场app打开相关内容。在未征得您同意的情况下，则 不会有关联启动。
+3、当您打开闪存市场app内部下载的文件后，会关联启动第三方APP
+1.撤销和管理相关权限
+2.撤销同意隐私协议
+3.管理其他个人信息
+4.注销账号
+5.撤销、删除、管理其他个人信息
+邮件：yuanjunbo@imhuhu.com
+我们会在24小时内答复或处理您的诉求！
+附录一：SDK详细说明
+为保障呼呼App相关功能的实现与应用安全稳定的运行，我们可能会接入由第三方SDK服务商提供的软件开发包（SDK）以实现相关目的。详细第三方SDK服务商信息如下：
+1、SDK服务商：声网sdk（agora）
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集信息：imei、wifi地址、wifi bssid地址、MAC地址、OAID、IP地址、网络信息、音视频信息、运行中的进程、加速传感器、加速度传感器
+收集方式：SDK本机采集
+2、SDK服务商：极光一键登录（jcre jverification）
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集方式：SDK本机采集
+3、SDK服务商：阿里一键登录(com.mobile.auth)
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集方式：SDK本机采集
+4、SDK服务商：旷视FACEID实人认证（NoCaptchaSDK oss rpsdk securitybodysdk securityguardsdk windvane）
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集方式：SDK本机采集
+5、SDK服务商：融云IM
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集方式：SDK本机采集
+6、腾讯TRTC
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集方式：SDK本机采集
+7、SDK服务商：友盟(com.umeng)、应用性能监控 SDK, com.efs.sdk
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集信息：位置信息、IMEI、IMSI、oaid、网卡mac地址、蓝牙mac地址、序列号、运行中的进程
+收集方式：SDK本机采集,后台采集,陀螺仪传感器
+使用场景：为了排查崩溃问题,帮助APP提升稳定性，统计线上crash、anr异常、bug分析，进行数据统计
+8、SDK服务商：穿山甲广告SDK、字节跳动SDK、com.ss.android
+申请权限目的：设备信息、读写存储、地理位置、安装apk
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集信息：OAID、IMEI、androidID、MAC地址、IP地址、软件安装列表、运行中的进程、
+收集方式：SDK本机采集
+9、SDK服务商：com.igexin.sdk(个推;个推推送;)、com.g.gysdk(个推)、com.getui(个推;个数应用统计;个像)
+收集信息：设备信息、网路信息、位置信息、获取用户的手机号、软件安装列表、MAC地址、运行中的进程、GAID信息、OAID、AndroidID、BSSID 信息
+收集方式：SDK本机采集
+申请权限目的：设备信息、读写存储、地理位置、安装apk
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+10、SDK服务商：com.xiaomi.mipush(小米;小米推送)
+申请权限目的：设备信息、读写存储、地理位置、安装apk
+官网链接：ttps://dev.mi.com/console/appservice/push.html
+隐私政策：website_url_lnk
+收集信息：设备信息、网路信息、位置信息、获取用户的手机号、软件安装列表、MAC地址、运行中的进程
+收集方式：SDK本机采集
+11、SDK服务商：com.huawei.hms(华为;华为推送)、华为消息服务、com.huawei.agconnect(华为;华为联运应用)
+申请权限目的：设备信息、读写存储、地理位置、安装apk
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集信息：设备信息、网路信息、位置信息、获取用户的手机号、软件安装列表、MAC地址、运行中的进程
+收集方式：SDK本机采集
+12、SDK服务商：com.tencent.bugly(Bugly;腾讯Bugly)
+申请权限目的：设备信息、读写存储、地理位置、安装apk
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集信息：设备信息、网路信息、位置信息、获取用户的手机号、软件安装列表、MAC地址、运行中的进程
+收集方式：SDK本机采集
+13、SDK服务商：com.amap.api(高德地图;高德导航;高德定位;阿里高德地图;高德)
+申请权限目的：设备信息、读写存储、地理位置、安装apk
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集信息：设备信息、网路信息、位置信息、获取用户的手机号、软件安装列表、MAC地址、运行中的进程
+收集方式：SDK本机采集
+14、SDK服务商：com.heytap.msp(OPPO; OPPO推送)
+申请权限目的：设备信息、读写存储、地理位置、安装apk
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集信息：设备信息、网路信息、位置信息、获取用户的手机号、软件安装列表、MAC地址、运行中的进程
+收集方式：SDK本机采集
+15、SDK服务商：极光推送、JPush推送
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集方式：SDK本机采集
+16、SDK服务商：VIVO推送
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集方式：SDK本机采集
+17、SDK服务商：微信分享及收藏
+使用目的：微信分享及收藏是指第三方App通过接入该功能，让用户可以从App分享文字、图片、音乐、视频、网页至微信好友会话、朋友圈或添加到微信收藏。
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集信息：查看WLAN连接、读取外置存储卡、读取手机状态和身份、写入外部存储卡、检索正在运行的应用、运行中的进程
+收集方式：SDK本机采集
+18、SDK服务商：微信开放平台
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集信息：查看WLAN连接、读取外置存储卡、读取手机状态和身份、写入外部存储卡、检索正在运行的应用、运行中的进程
+收集方式：SDK本机采集
+19、SDK服务商：魅族推送
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集信息：查看WLAN连接、读取外置存储卡、读取手机状态和身份、写入外部存储卡、检索正在运行的应用、运行中的进程
+收集方式：SDK本机采集
+20、SDK服务商：Glide
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集方式：SDK本机采集
+21、SDK服务商：mobsdk
+使用目的：第三方SDK使用
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集信息：设备信息、网路信息、位置信息、获取用户的手机号、软件安装列表、MAC地址、运行中的进程
+收集方式：SDK本机采集
+22、SDK服务商：移动授权登陆、com.cmic.sso(移动;中国移动)
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集信息：设备信息（设备标识符（IMEI、AndroidID、MAC、OAID相关信息）、应用信息（应用崩溃信息、通知开关状态、软件列表相关信息）、设备
+参数及系统信息（设备类型、设备型号、操作系统及硬件相关信息）、网路信息、位置信息、获取用户的手机号、软件安装列表、MAC地址、运行中的进程
+收集方式：SDK本机采集
+23、SDK服务商：电信授权登陆
+隐私政策：website_url_lnk
+收集信息：设备信息（设备标识符（IMEI、AndroidID、MAC、OAID相关信息）、应用信息（应用崩溃信息、通知开关状态、软件列表相关信息）、设备
+参数及系统信息（设备类型、设备型号、操作系统及硬件相关信息）、网路信息、位置信息、获取用户的手机号、软件安装列表、MAC地址、运行中的进程
+收集方式：SDK本机采集
+24、SDK服务商：联通授权登陆
+官网链接：website_url_lnk
+隐私政策：website_url_lnk
+收集信息：设备信息（设备标识符（IMEI、AndroidID、MAC、OAID相关信息）、应用信息（应用崩溃信息、通知开关状态、软件列表相关信息）、设备
+参数及系统信息（设备类型、设备型号、操作系统及硬件相关信息）、网路信息、位置信息、获取用户的手机号、软件安装列表、MAC地址、运行中的进程
+收集方式：SDK本机采集
+25、SDK服务商：UC啄木鸟
+使用目的：受委托提供APP内H5性能问题定位分析服务
+隐私政策：website_url_lnk
+收集信息：设备信息（设备标识符（IMEI、AndroidID、MAC、OAID相关信息）、应用信息（应用崩溃信息、通知开关状态、软件列表相关信息）、设备
+参数及系统信息（设备类型、设备型号、操作系统及硬件相关信息）、网路信息、位置信息、MAC地址、运行中的进程
+收集方式：SDK本机采集
+26、SDK服务商：移动智能终端补充设备标识体系统一调用SDK
+服务商名称：电信终端产业协会移动安全工作委员会（也称安全联盟，简称MSA）
+隐私政策：website_url_lnk
+收集信息：设备标识符（IMEI、AndroidID、MAC、OAID相关信息）
+收集方式：SDK本机采集
+27、SDK服务商：相芯美颜SDKFaceunitycom.faceunity.*、com.faceunity(相芯科技;相芯美颜; faceunity)
+隐私政策：website_url_lnk
+收集信息：设备标识符（IMEI、AndroidID、MAC、OAID相关信息）、在用户视频时采集相关信息、运行中的进程
+收集方式：SDK本机采集
+28、SDK服务商：QQ支付SDKcom.tencent.mobileqq
+隐私政策：website_url_lnk
+收集信息：设备标识符（IMEI、AndroidID、MAC、OAID相关信息）、运行中的进程
+收集方式：SDK本机采集
+29、SDK服务商：腾讯云语音识别
+隐私政策：website_url_lnk
+收集方式：SDK本机采集
+30、SDK服务商：openinstall SDK、com.fm.openinstall
+隐私政策：website_url_lnk
+收集信息：设备品牌，设备型号，操作系统版本，IP地址，Android ID，SerialNumber，IMEI、IDFA、OAID、Mac地址、剪切板、运行中的进程
+收集方式：SDK本机采集
+31、SDK服务商：数美SDK、com.ishumei(数美;数美反作弊) SDK、[数美、数美反作弊]SDK
+隐私协议：website_url_lnk
+收集信息：设备品牌、设备制造商、设备型号、设 备名称、设备系统类型及版本信息、设备基本配置、设 备基本设置、设备环境、传感器信息（磁场、重力、加 速度传感器）、IMEI（国际移动设备识别码）、 ICCID（集成电路卡识别码）、IMSI（国际移动用户识 别码）、MAC地址、蓝牙、MAC地址、AndroidID、 IDFV（应用开发商标识符）、IDFA（广告标示符）、 OAID（匿名设备标识符）、设备序列号、网络的接入形式、无线路由器标识 （BSSID、SSID、MAC）及IP地址、周边WIFI列表、网 络运营商信息、网络基站信息、网络连接状态、SDK宿主应用包名及版本号、应用列表 （仅用于检测设备上是否存在黑产工具等恶意软件）、 运行中进程信息（仅获取当前进程名称）、MAC地址、ANDROID ID
+收集方式：SDK本机采集
+32、SDK服务商：快手广告（快手联盟SDK）、kwaiAd
+隐私协议：website_url_lnk
+收集信息：手机设备信息、sd卡读写、网络类型、位置信息、获取运行中进程信息、获取Android_ID 、imsi、系统版本 、系统安装的应用程序、已安装软件列表
+收集方式：SDK本机采集,后台采集
+33、SDK服务商：ByteDance（应用性能监控全链路版 App监控SDK）
+隐私协议：website_url_lnk
+收集信息：设备信息：设备ID、设备型号、操作系统、系统时区、屏幕分辨率、磁盘使用情况、内存使用情况、运行线程数、CPU信息（频率、型号、架构）、移动设备国家编码（MCC）、移动设备网络编码
+（MNC）、设备dpi；Android：安卓ID、设备品牌、操作系统api版本、user agent、电池电量、网络流量、设备abi、ROM；手机设备信息、sd卡读写、网络类型、位置信息、获取运行中进程信息、获取
+Android_ID 、imsi、系统版本 、系统安装的应用程序、DEVICEID、粗略位置信息、精准位置信息
+收集方式：SDK本机采集、后台收集
+34、SDK服务商：com.netease.nis(网易易盾）
+隐私协议：website_url_lnk
+收集信息：设备信息：设备ID、设备型号、操作系统、系统时区、屏幕分辨率、磁盘使用情况、内存使用情况、运行线程数、CPU信息（频率、型号、架构）、移动设备国家编码（MCC）、移动设备网络编码（MNC）、设备dpi；Android：安卓ID、设备品牌、操作系统api版本、user agent、电池电量、网络流量、设备abi、ROM；手机设备信息、sd卡读写、网络类型、位置信息、获取运行中进程信息、获取Android_ID 、imsi、系统版本 、系统安装的应用程序、DEVICEID
+收集方式：SDK本机采集、后台收集
+35、SDK服务商：移动安全联盟; MSA
+隐私协议：website_url_lnk 、website_url_lnk
+收集信息：设备信息（OAID、已安装应用包名、设备型号 ）、运营商信息
+收集方式：SDK本机采集、后台收集
+为保障呼呼能实现与安全稳定运行之目的，我们可能会申请或使用操作系统的相关权限；为保障您的知情权，我们通过下列列表将产品可能申请、使用的相关操作系统权限进行展示，您可以根据实际需要对相关权限进行管理； 
+根据产品的升级，申请、使用权限的类型与目的可能会有变动，我们将及时根据这些变动对列表进行调整，以确保您及时获悉权限的申请与使用情况； 
+请您知悉，我们为业务与产品的功能与安全需要，我们可能也会使用第三方SDK，这些第三方也可能会申请或使用相关操作系统权限，详情请查看第三方SDK说明
+在使用产品的过程中，您可能会使用第三方开发的H5页面或小程序，这些第三方开发开发的插件或小程序也可能因业务功能所必需而申请或使用相关操作系统权限。 
+网络请求权限 android.permission. INTERNET 
+使用场景与目的： 允许App联网访问网络数据 
+读取手机状态和身份（电话权限、设备权限 ）android.permission. READ_PHONE_STATE 
+使用场景与目的： 读取设备识别码，识别设备ID，用于完成音视频、信息展示、账号登录、安全保障等主要功能 
+手机网络状态权限 android.permission. ACCESS_NETWORK_STATE 
+使用场景与目的： 手机流量网络状态（2g/3g/4g）获取，检测网络状态 
+wifi状态权限 android.permission. ACCESS_WIFI_STATE 
+权限功能说明： 监听wifi状态 
+读取/写入/删除SD卡中的内容（写入/删除/存储空间/照片权限） android.permission. WRITE_EXTERNAL_STORAGE 
+使用场景与目的： 允许App写入/下载/保存/缓存/修改/删除图片、文件、崩溃日志等信息 
+拍摄照片和视频 android.permission. CAMERA 
+访问精确地理位置信 android.permission. ACCESS_FINE_LOCATION、后台访问地理位置信息、获取粗略位置 
+权限功能说明： 通过全球定位系统（GPS）或网络位置信息（例如基站和WLAN）获取精准地理位置信息 
+使用场景与目的： 用于完成安全保障服务及基于地理位置的服务（LBS）如：同城信息、发布作品坐标定位以及小程序需使用相关位置服务等相关功能 
+读取SD卡中内容 android.permission. READ_EXTERNAL_STORAGE 
+使用场景与目的： 允许App读取图片、文件、崩溃日志等信息 
+录音权限 android.permission. RECORD_AUDIO 
+权限功能说明： 允许App麦克风 
+蓝牙权限 android.permission. BLUETOOTH 
+小米推送权限 android.permission. MIPUSH_RECEIVE 
+推送权限 android.permission. RECEIVE_MSG 
+oppo手机推送权限 com.coloros.mcs.permission. RECIEVE_MCS_MESSAGE 
+权限功能说明： oppo手机推送权限 
+使用场景与目的： 适配oppo手机推送 
+魅族手机推送权限 com.meizu.flyme.push.permission. RECEIVE 
+谷歌推送权限 ${applicationId}.permission. C2D_MESSAGE 
+设备MAC地址权限 
+权限功能说明： 用于获取用户设备的MAC地址信息 
+软件列表 
+使用场景与目的： 是友盟SDK在收集，主要用于根据用户的软件列表信息进行一些优化操作 
+重新设置外拨电话的路径 
+使用场景与目的： 是友盟SDK在收集，主要用于根据用户的软件列表信息进行一些优化操作 
+软件列表 
+使用场景与目的： 是友盟SDK在收集，主要用于根据用户的软件列表信息进行一些优化操作 
+软件列表 
+使用场景与目的： 是友盟SDK在收集，主要用于根据用户的软件列表信息进行一些优化操作 
+iOS操作系统应用权限列表 
+CameraUsageDescription 
+MicrophoneUsageDescription 
+LocationUsageDescription 
+权限功能说明： 仅App被使用时获取地理位置 
+使用场景与目的： 用于完成安全保障、推荐信息以及基于地理位置的服务（LBS）等相关功能 
+PhotoLibraryAddUsageDescription 
+使用场景与目的： 允许App写入/下载/保存/修改/删除图片、文件、崩溃日志等信息 
+PhotoLibraryUsageDescription 
+使用场景与目的： 允许App读取存储中的图片、文件等内容，主要用于帮助您发布信息等功能 
+LocationWhenInUseUsageDescription 
+权限功能说明： 仅App被使用时获取地理位置 
+使用场景与目的： 用于完成安全保障、推荐信息以及基于地理位置的服务（LBS）等相关功能 
+生效时间 2020年10月1日 

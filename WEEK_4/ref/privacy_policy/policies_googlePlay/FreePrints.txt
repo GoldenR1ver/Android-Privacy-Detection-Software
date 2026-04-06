@@ -1,0 +1,359 @@
+Strona główna O nas Często zadawane pytania Kontakt
+GLOBALNA POLITYKA PRYWATNOŚCI
+Spis treści
+Kim jesteśmy
+Wprowadzenie
+Definicje terminologii
+Jak zbieramy dane
+Rodzaje zbieranych danych
+Dlaczego wykorzystujemy i przetwarzamy dane
+Komu udostępniamy dane i dlaczego
+Twoje wybory dotyczące wykorzystania danych
+Jak długo używamy i przechowujemy PII
+Jak chronimy dane
+Preferencje dotyczące rezygnacji
+Osoby spoza Stanów Zjednoczonych, UE, EOG, Zjednoczonego Królestwa i Szwajcarii
+Skontaktuj się z nami
+Zmiany niniejszej Polityki prywatności
+Załącznik dla osób przebywających w Kalifornii
+Załącznik dla osób znajdujących się w Unii Europejskiej, EOG, Zjednoczonym Królestwie i Szwajcarii
+Kim jesteśmy
+Nasza siedziba mieści się pod adresem: 23801 Calabasas Road, Calabasas, CA 91302, USA. Wraz z naszymi podmiotami stowarzyszonymi (łącznie "Grupa Spółek" lub "my/nasze/nas") jesteśmy właścicielami i obsługujemy wiele stron internetowych ("Strony Internetowe" lub "Strony") i aplikacji mobilnych ("Aplikacje").
+Niniejsza globalna Polityka prywatności ("Polityka prywatności") ma zastosowanie do każdej Strony Internetowej i Aplikacji, na której się pojawia.
+Wprowadzenie
+Niniejsza Polityka prywatności wyjaśnia w jaki sposób zbieramy, wykorzystujemy, przetwarzamy, udostępniamy i przechowujemy Dane podczas korzystania przez Użytkownika z naszych usług (zdefiniowanych poniżej), wyjaśnia prawa, które mogą przysługiwać Ci na mocy szczególnych przepisów dotyczących prywatności i ochrony danych, oraz zawiera instrukcje dotyczące sposobu wykonywania wszelkich prawa, które odnoszą się do Ciebie (łącznie: "Przepisy z Zakresu Ochrony Danych").
+Prawa omówione w Informacji CCPA (California Consumer Privacy Act, Kalifornijska ustawa o ochronie prywatności konsumentów) dotyczą mieszkańców Kalifornii. Prawa omówione w Informacji RODO obejmują osoby znajdujące się w UE, EOG Zjednoczonym Królestwie lub Szwajcarii. W zależności od miejsca zamieszkania lub przebywania prawa te mogą nie odnosić się do Ciebie. Zarówno Informacja CCPA jak i Powiadomienie o RODO są dostarczane jako Załączniki na końcu niniejszej Polityki prywatności.
+Nasze Strony Internetowe, Aplikacje i Usługi mogą zawierać łącza do stron internetowych, wtyczek, usług, sieci społecznościowych lub aplikacji mobilnych osób trzecich. Kliknięcie tych linków lub włączenie tych połączeń może umożliwić osobom trzecim zbieranie lub udostępnianie Twoich danych osobowych. Nie sprawujemy kontroli nad wskazanymi osobami trzecimi. Zalecamy zapoznanie się z ich informacjami o ochronie prywatności przed przesłaniem im informacji o sobie.
+Powiadomienia PayPal PayPal jest niezależnym Administratorem na potrzeby Przetwarzania Danych Klienta. Dostęp do Oświadczenia o ochronie prywatności PayPal można uzyskać pod adresem: website_url_lnk
+Należy uważnie przeczytać niniejszy dokument, aby zrozumieć nasze zasady i praktyki dotyczące przetwarzania i przechowywania Danych. Poprzez interakcję z naszymi Usługami akceptujesz politykę i praktyki opisane w niniejszej Polityce prywatności. Niniejsza Polityka prywatności może się zmieniać od czasu do czasu (patrz Aktualizacje niniejszej Polityki prywatności). Dalsze korzystanie z naszych usług po wprowadzeniu przez nas zmian oznacza ich akceptację. Prosimy o częste sprawdzanie Polityki prywatności pod kątem aktualizacji.
+Zdefiniowane terminy
+Poza określeniami zdefiniowanymi już powyżej podajemy następujące definicje "CCPA" oznacza California Consumer Privacy Act z 2018 r. w jej aktualnym brzmieniu.
+"Dane" to informacje o Tobie, które zbieramy albo które nam podasz, i które mogą zawierać informacje umożliwiające identyfikację Ciebie.
+"Urządzenie" oznacza komputer, smartfona lub inne urządzenie elektroniczne, którego używasz do uzyskania dostępu do Usług.
+"Informacje o Urządzeniu" oznaczają informacje na temat urządzenia, w tym adres IP używany do uzyskania dostępu do Usług, powiązane pliki cookie lub identyfikatory plików cookie i inne informacje związane z formatowaniem lub prezentacją Usług na Urządzeniu. Obejmują one informacje o urządzeniu często przechowywane w plikach graficznych, w tym na temat typu urządzenia i miejsca, w którym się przebywało w trakcie wykonywania zdjęcia.
+"EOG" oznaczają kraje UE oraz Islandię, Liechtenstein i Norwegię.
+"UE" oznacza kraje, które są obecnie członkami Unii Europejskiej.
+"RODO" oznacza ogólne rozporządzenie o ochronie danych osobowych w Unii Europejskiej oraz analogiczne Przepisy z Zakresu Ochrony Danych obowiązujące w EOG, Zjednoczonym Królestwie i Szwajcarii.
+Określenie "Identyfikowalna Osoba Fizyczna" odnosi się do osoby, która może zostać zidentyfikowana bezpośrednio lub pośrednio na podstawie pojedynczych danych, takich jak nazwisko, numer identyfikacyjny, adres IP, dane lokalizacyjne, identyfikator online lub inne dane, które po połączeniu pozwalają na określenie tożsamości takiej osoby fizycznej.
+"Dane Osobowe" oznaczają informacje o zidentyfikowanej lub identyfikowalnej Osobie Fizycznej, której przysługują prawa na mocy RODO ("Podmiot Danych").
+"Informacje Osobowe" oznaczają informacje, które identyfikują, dotyczą, opisują określonego konsumenta, gospodarstwo domowe lub Urządzenie lub mogą być z nim skojarzone lub powiązane bezpośrednio lub pośrednio.
+"Informacje Umożliwiające Identyfikację Osoby (PII)" oznaczają informacje, które mogą być wykorzystane do identyfikacji konkretnej osoby, w tym Dane, które mogą zostać zaklasyfikowane jako Informacje Osobowe podlegające Informacji CCPA lub Dane Osobowe podlegające Informacji RODO.
+"Usługi" oznaczają Strony, Aplikacje i inne usługi, które udostępniamy.
+Jak zbieramy dane
+Do zbierania Danych stosujemy różne metody, w tym bezpośrednie interakcje. Te bezpośrednie interakcje obejmują treść Twojej komunikacji z nami, czy to za pośrednictwem poczty e-mail, funkcji czatu, mediów społecznościowych, telefonu lub poprzez inne kanały, a także wnioski, które możemy wyciągnąć z innych gromadzonych przez nas danych osobowych. Tam, gdzie jest to dozwolone przez obowiązujące prawo, możemy gromadzić i przechowywać zapisy rozmów i czatów z naszymi agentami, przedstawicielami lub pracownikami za pośrednictwem wiadomości, czatu, poczty lub podobnych funkcji. Nasi dostawcy funkcji czatu mogą również przechowywać zapisy Twoich rozmów z nami.
+Dodatkowo dane pochodzące z interakcji bezpośrednich mogą być zbierane za pośrednictwem podmiotów trzecich, które mają własne polityki prywatności oraz procedury dotyczące gromadzenia i przetwarzania Twoich danych. Korzystając z funkcji ChatGPT w Witrynach, wyrażasz zgodę na gromadzenie, przesyłanie i przetwarzanie danych, które podajesz na czacie, przez/do ChatGPT.
+Te interakcje także obejmują Dane, które możesz podać podczas tworzenia konta, zapisywania się do naszych Usług, wyszukiwania produktu, składania zamówienia, przesyłania zdjęcia lub innych treści, tworzenia profilu sprzedawcy w naszych Usługach, które obejmują oferty sprzedażowe, uczestnictwa w forach dyskusyjnych lub innych funkcjach mediów społecznościowych w ramach naszych Usług, uczestnictwa w konkursie, promocji lub ankiecie, a także zgłaszania problemu z naszych Usługami. Jeśli zdecydujesz się na utworzenie profilu sprzedawcy o charakterze publicznym, użytkownicy mogą zobaczyć Twoje nazwisko, kraj, który wskażesz w swoim profilu, oraz informacje na Twój temat. W każdej chwili możesz dostosować ustawienia prywatności swojego profilu sprzedawcy. 
+Zautomatyzowane technologie lub interakcje. Podczas Twojej interakcji z naszymi Usługami możemy automatycznie gromadzić Dane o Twoim Urządzeniu oraz Twoich działaniach i wzorcach przeglądania, nawet jeśli nie utworzysz konta, ani nie złożysz u nas zamówienia. Gromadzimy te dane za pomocą plików cookie, dzienników serwera i innych podobnych technologii. Można zablokować pliki cookie w swojej przeglądarce poprzez aktywację ustawień, które pozwalają odrzucić wszystkie lub niektóre pliki cookie. WAŻNA UWAGA: Jeśli używasz ustawień przeglądarki do blokowania wszystkich plików cookie (w tym podstawowych), Usługi mogą nie działać prawidłowo lub mogą nie działać wcale.
+Śledzenie na różnych urządzeniach (cross-device): Niektóre z naszych Usług korzystają z danych analitycznych firm, sieci reklamowych i/lub spółek mediów społecznościowych do angażowania się w "śledzenie cross-device", które ma miejsce, gdy platformy, wydawcy, firmy zajmujące się technologią reklamy usiłują łączyć aktywność konsumencką w smartfonach, na tabletach, komputerach stacjonarnych i innych podłączonych urządzeniach. Śledzenie cross-device umożliwia nam powiązania Twojego zachowania z naszymi Usługami na różnych Urządzeniach. 
+Osoby trzecie lub Publicznie Dostępne Źródła. Otrzymujemy Dane od stron trzecich, takich jak partnerzy biznesowi i podwykonawcy, które dostarczają nam wielu usług biznesowych, takich jak przesyłki i przetwarzanie płatności, reklamy, analityka, wyszukiwanie informacji etc.
+Treści Użytkowników. Możesz również przekazać nam Dane do publikowania w Usługach lub przesłania stronom trzecim (łącznie "Treści Użytkowników"). Treści Użytkowników są przesyłane na własne ryzyko. Ograniczamy dostęp do niektórych stron. Możesz także dostosować ustawienia prywatności w odniesieniu do Treści Użytkowników, logując się do swojego konta profilowego. Jednak nie możemy zagwarantować, ani nie czynimy tego, że osoby nieupoważnione nie będą mogły wyświetlać Treści Użytkowników.
+Rodzaje zbieranych danych
+Zbierane PII
+Gromadzimy PII, w tym imię i nazwisko, adres do faktury, adres dostawy, adres e-mail, numer telefonu, adres IP, numery kart kredytowych/debetowych i inne informacje finansowe potrzebne do realizacji transakcji z nami, zdjęcia i inne treści, które przesyłasz, obraz profilowy, który wysyłasz, identyfikatory użytkownika i/lub hasła używane, w celu uzyskania dostępu do Usług, historię przeglądania Usług oraz numer telefonu używany do dzwonienia pod nasz numer obsługi klienta. W zależności od Usług, z których korzystasz i produktów, które chcesz dostosować, możesz również przekazać nam zapis wideo lub głosowy, podać wiek, datę urodzenia, płeć i inne podobne informacje. Jeśli sprzedajesz produkty korzystając z naszych Usług, oprócz powyższych informacji możemy zbierać informacje niezbędne do zapłacenia Ci i zapewnienia zgodności z przepisami z zakresu sprawozdawczości podatkowej. Może chodzić tu o konto PayPal, numer zabezpieczenia społecznego lub identyfikacji podatkowej oraz datę urodzenia do weryfikacji Twojej tożsamości. Każda informacja, którą nam przekazujesz, może być wykorzystywana niezależnie lub w połączeniu z innymi informacjami, które nam przekazujesz.
+Informacja o Urządzeniu
+Zbieramy informacje dotyczące Urządzeń, których używasz do uzyskania dostępu do Usług, w tym o modelu Urządzenia, systemie operacyjnym, typie przeglądarki, adresie IP oraz informacje o zdarzeniach w związku z korzystaniem z Usług. 
+Aplikacja mobilna
+W zależności od uprawnień, jeśli pobierasz nasze Aplikacje i korzystasz z nich, możemy zbierać pewne informacje z Twojego urządzenia mobilnego, w tym twoje kontakty, dzięki czemu możesz wybrać kontakt, do którego chcesz wysłać zamówienie. Po wybraniu kontaktu z Twojego Urządzenia mobilnego, informacja dotycząca tego kontaktu zostanie zapisana w naszej bazie danych, a jego adres pocztowy i telefon będą używane do dostarczenia zamówienia i wysyłania przypomnień o specjalnych okazjach, które zapisałeś w Usługach; oraz 
+W zależności od uprawnień, jeśli pobierasz nasze Aplikacje i korzystasz z nich, możemy zbierać pewne informacje z Twojego urządzenia mobilnego, w tym twój numer telefonu, wprowadzony przez Ciebie w odpowiedzi na naszą prośbę i przechowywany w Twoich danych konta, wymagany do wysyłki w niektórych krajach, a w odniesieniu do zamówień detalicznych pickup we wszystkich krajach, w których opcja ta jest dostępna.
+Posty społecznościowe
+Możesz zamieszczać informacje na naszych blogach, forach i w innych obszarach do zamieszczania publicznych postów. Wszelkie ujawnione przez Ciebie informacje są dostępne dla każdego, kto ma dostęp do Internetu. Nie musisz korzystać z tych funkcji, ale jeśli to zrobisz, kieruj się zdrowym rozsądkiem publikując w tych obszarach społecznościowych lub udostępniając swoje informacje osobowe innym osobom za pośrednictwem Usług.
+Inne Dane, które zbieramy
+Oprócz PII zbieramy inne dane od Ciebie podczas korzystania z Usług, w tym Dane, które ani bezpośrednio, ani pośrednio nie ujawniają Twojej tożsamości, ani nie odnoszą się bezpośrednio do Ciebie, takie jak statystyki lub informacje zagregowane. Na przykład możemy agregować Dane, aby obliczyć procent użytkowników uzyskujących dostęp do określonej Strony Internetowej, funkcji lub Usług. 
+Oprócz PII zbieramy inne dane od Ciebie podczas korzystania z Usług, w tym informacje techniczne, w tym dotyczące typu i wersji przeglądarki lub systemu operacyjnego i platformy; oraz
+Oprócz PII zbieramy inne dane od Ciebie podczas korzystania z Usług, w tym dane o korzystaniu z naszych Usług, włącznie z pełnymi adresami Uniform Resource Locator (URL), clickstreamem do/z naszych Usług oraz poprzez nasze Usługi (w tym data i godzina), produkty, które oglądałeś lub których poszukiwałeś lub (w przypadku niektórych naszych Usług) "dodałeś do ulubionych"; Czasy reakcji Usług, błędy pobierania, długość wizyt, informacje dotyczące interakcji (takie jak przewijanie, kliknięcia i najechania kursorem myszki) lub metody wykorzystywane do opuszczenia danej strony.
+Dane Specjalnej Kategorii
+Nasz biznes to personalizacja! W zależności od Usług, z których korzystasz i produktów, które zdecydujesz się utworzyć, możesz wybrać funkcje dostosowywania odzwierciedlające koloryt skóry, płeć, tożsamość płciową, strój religijny, status niepełnosprawności, orientację seksualną lub inne podobne informacje lub wybrać ujawnienie tych lub podobnych informacji poprzez użycie funkcji zapisu wideo lub głosowego. Staramy się być inkluzywni w naszych ofertach dostosowywania produktu i wykorzystać te informacje, w celu stworzenia tego specjalnego produktu dla zamierzonego odbiorcy.
+Dane Dotyczące Dzieci
+Nie zbiera świadomie, nie wykorzystujemy, nie przetwarzamy ani nie udostępniamy PII dzieci w wieku poniżej 18 lat. Usługi nie są przeznaczone do użytku przez dzieci poniżej 18 roku życia. Jeśli uważasz, że nieświadomie zgromadziliśmy lub przetworzyliśmy PII dziecka w wieku poniżej 18 lat, skontaktuj się z nami jak najszybciej to możliwe pod adresem privacy@pallcprivacy.com. Jednak niektóre z Usług mogą zbierać informacje o dzieciach od osoby dorosłej, która tworzy dostosowany produkt dotyczący dziecka.
+Dlaczego wykorzystujemy i przetwarzamy dane
+Wykorzystywanie i przetwarzanie PII
+Możemy wykorzystywać i przetwarzać PII, które są gromadzone przez nas lub dostarczane przez użytkownika w następujących celach świadczenie usług w sposób najbardziej efektywny dla Ciebie i Twojego urządzenia.
+Możemy wykorzystywać i przetwarzać PII, które są gromadzone przez nas lub dostarczane przez użytkownika w następujących celach realizacja zamówień złożonych za pośrednictwem Usług.
+Możemy wykorzystywać i przetwarzać PII, które są gromadzone przez nas lub dostarczane przez użytkownika w następujących celach przedstawianie sugestii i rekomendacji opartych na zainteresowaniach dotyczących naszych produktów i Usług.
+Możemy wykorzystywać i przetwarzać PII, które są gromadzone przez nas lub dostarczane przez użytkownika w następujących celach ocenianie skuteczności naszych reklam i dostosowywanie naszych reklam tak, abyś otrzymywał tylko to, co jest dla Ciebie istotne.
+Możemy wykorzystywać i przetwarzać PII, które są gromadzone przez nas lub dostarczane przez użytkownika w następujących celach poprawa usług i powiadamiania o zmianach.
+Możemy wykorzystywać i przetwarzać PII, które są gromadzone przez nas lub dostarczane przez użytkownika w następujących celach zarządzanie Twoimi relacjami z klientem przy naszej pomocy.
+Możemy wykorzystywać i przetwarzać PII, które są gromadzone przez nas lub dostarczane przez użytkownika w następujących celach umożliwienie Ci udziału w interaktywnych, społecznościowych lub innych podobnych funkcjach naszych Usług.
+Możemy wykorzystywać i przetwarzać PII, które są gromadzone przez nas lub dostarczane przez użytkownika w następujących celach integracja mediów społecznościowych z Twoim środowiskiem przy pomocy naszych Usług.
+Możemy wykorzystywać i przetwarzać PII, które są gromadzone przez nas lub dostarczane przez użytkownika w następujących celach wykonanie Twoich próśb o pomoc.
+Możemy wykorzystywać i przetwarzać PII, które są gromadzone przez nas lub dostarczane przez użytkownika w następujących celach powiadamianie Cię o niedokończonych transakcjach, stanie konta do wykorzystania lub statusie zamówień.
+Możemy wykorzystywać i przetwarzać PII, które są gromadzone przez nas lub dostarczane przez użytkownika w następujących celach wysyłanie informacje o rabatach, promocjach i nowych produktach.
+Możemy wykorzystywać i przetwarzać PII, które są gromadzone przez nas lub dostarczane przez użytkownika w następujących celach zarządzanie Usługami, w tym rozwiązywanie problemów, analiza danych, testy, badania, analizy statystyczne, bezpieczeństwo, kontroli jakości oraz zapobieganie oszustwom.
+Możemy wykorzystywać i przetwarzać PII, które są gromadzone przez nas lub dostarczane przez użytkownika w następujących celach weryfikacja Twojej tożsamości; 
+Możemy wykorzystywać i przetwarzać PII, które są gromadzone przez nas lub dostarczane przez użytkownika w następujących celach przypominanie o szczególnych okazjach.
+Możemy wykorzystywać i przetwarzać PII, które są gromadzone przez nas lub dostarczane przez użytkownika w następujących celach wystawianie faktur, administracja, funkcje płatności sprzedawcy oraz pobierania.
+Możemy wykorzystywać i przetwarzać PII, które są gromadzone przez nas lub dostarczane przez użytkownika w następujących celach ochrona Usług, naszych pracowników i działalności.
+Możemy wykorzystywać i przetwarzać PII, które są gromadzone przez nas lub dostarczane przez użytkownika w następujących celach użytek na Cel Reorganizacji.
+Możemy wykorzystywać i przetwarzać PII, które są gromadzone przez nas lub dostarczane przez użytkownika w następujących celach marketing skierowany do Ciebie bezpośrednio za pośrednictwem platform mediów społecznościowych, z których korzystasz, oraz za pośrednictwem innych stron internetowych.
+Możemy wykorzystywać i przetwarzać PII, które są gromadzone przez nas lub dostarczane przez użytkownika w następujących celach udostępnianie informacji organom ścigania w odpowiedzi na zapytania oraz innym osobom trzecim, gdy wymaga tego prawo, oraz zgodnie z naszymi zasadami wewnętrznymi.
+Możemy wykorzystywać i przetwarzać PII, które są gromadzone przez nas lub dostarczane przez użytkownika w następujących celach prowadzenie działań związanych z którymkolwiek z powyższych lub jakimkolwiek innym celem, dla którego Dane zostały zebrane, w tym rozwiązywanie sporów i ochrona naszych praw lub praw osób trzecich.
+Wykorzystanie i przetwarzanie innych danych
+Możemy korzystać z Danych, które nie są PII, do jakichkolwiek celów biznesowych.
+Możesz zarządzać swoimi preferencjami w zakresie sposobu, w jakim dane są używane, działając zgodnie z instrukcjami w różnych formach lub wiadomościami otrzymywanymi od nas. W celu uzyskania informacji, zobacz Twoje wybory dotyczące wykorzystywania Danych.
+Komu udostępniamy dane i dlaczego
+Udostępnianie PII
+Możemy udostępniać Dane w ramach naszej Grupy Spółek, w celu wypełniania zobowiązań wewnętrznych, umownych i prawnych oraz podejmowania działań marketingowych.
+Możemy także udostępniać Dane następującym osobom trzecim partnerom biznesowym, dostawcom, usługodawcom, podwykonawcom i innym stronom trzecim, aby umożliwić im świadczenie usług, takich jak realizacja zamówień, wystawianie faktur, IT, logistyka, dostawa, komunikacja, cyberbezpieczeństwo, ochrona przed oszustwami oraz usługi prawne/audytowe.
+Możemy także udostępniać Dane następującym osobom trzecim platformom mediów społecznościowych.
+Możemy także udostępniać Dane następującym osobom trzecim reklamodawcom i sieciom reklamowym; w tym identyfikowanie influencerów społecznych i wchodzenie w relacje z nimi; 
+Możemy także udostępniać Dane następującym osobom trzecim organom i instytucjom publicznym, rządowym lub regulacyjnym; oraz
+Możemy także udostępniać Dane następującym osobom trzecim potencjalnym nabywcom, bankom inwestycyjnym lub instytucjom finansowym w związku z planowanymi lub rzeczywistymi reorganizacjami korporacyjnymi lub transakcjami biznesowymi, takimi jak ocena lub przeprowadzenie fuzji, zbycie, restrukturyzacja, reorganizacja, likwidacja lub inna forma sprzedaży lub przekazania niektórych lub wszystkich naszych aktywów, czy to z założeniem ciągłości działalności czy w ramach upadłości, likwidacji lub podobnego postępowania, w ramach którego Dane przechowywane przez nas o naszych użytkownikach należą do przekazanych aktywów (w każdym przypadku "Użytek do Celu Reorganizacji").
+Możemy także udostępniać Dane następującym osobom trzecim sądom, organom ścigania, organom regulacyjnym, prawnikom lub innym osobom trzecim w związku z powstaniem, wykorzystaniem i ochroną roszczeń prawnych.
+Udostępnianie innych danych
+Możemy udostępnić inne Dane bez ograniczeń.
+Twoje wybory dotyczące wykorzystania Danych
+Transakcyjne e-maile: Od czasu do czasu wysyłamy e-maile transakcyjne powiadamiające Cię o Twoich zamówieniach, z informacjami o koncie, zmianach w zakresie Usług, aktualizacjach naszych dokumentów online i innych sprawach. Nie możesz zrezygnować z otrzymywania e-maili transakcyjnych.
+Oferty promocyjne: Możesz zrezygnować z otrzymywania ofert promocyjnych, klikając linki rezygnacyjne załączane do każdej z wiadomości promocyjnych lub kontaktując się z nami pod adresem privacy@pallcprivacy.com i zwracając się o usunięcie swojego adresu e-mail z listy adresów, na które kierujemy oferty promocyjne.
+Powiadomienia push w aplikacji mobilnej: W zależności od urządzenia, powiadomienia push mogą być domyślnie włączone. Możesz zrezygnować z powiadomień Push w dowolnym momencie poprzez dostosowanie ustawień urządzenia.
+Technologie śledzenia i reklamowe: Można ustawić przeglądarkę tak, aby odrzucać wszystkie lub niektóre pliki cookie przeglądarki lub otrzymywać ostrzeżenie, gdy strony internetowe wstawiają pliki cookie lub uzyskują do nich dostęp. Jeśli odrzucisz wszystkie pliki cookie, nie będziesz mógł korzystać z Usług. Jeśli wyłączysz lub odrzucisz niektóre pliki cookie, część naszych Usług będzie niedostępna lub nie będzie działać prawidłowo. Aby uzyskać więcej informacji na temat technologii śledzenia, zobacz Zautomatyzowane technologie lub interakcje powyżej.
+Aktualizacja PII. Jeśli chcesz zaktualizować informacje na swoim koncie, możesz zalogować się na swoje konto i wprowadzić zmiany lub skontaktować się z nami za pośrednictwem linku Kontakt w Aplikacji lub na Stronie Internetowej, z której korzystasz, a my zaktualizujemy lub poprawimy wszelkie informacje na koncie na Twoją prośbę. W przypadku Podmiotów Danych z UE, skorzystaj z formularza znajdującego się pod linkiem Zarządzaj Danymi Osobowymi na dole każdej strony internetowej, aby zażądać poprawienia swoich PII.
+Jak długo używamy i przechowujemy PII
+Przechowujemy PII od momentu pobrania danych, chyba że obowiązki umowne lub prawne nakładają na nas wymóg przechowywania ich przez dłuższy okres czasu jeśli utworzysz konto lub dokonasz zakupu jako gość, usuniemy Twoje PII przy pierwszej z następujących czynności prosisz nas o to.
+Przechowujemy PII od momentu pobrania danych, chyba że obowiązki umowne lub prawne nakładają na nas wymóg przechowywania ich przez dłuższy okres czasu jeśli utworzysz konto lub dokonasz zakupu jako gość, usuniemy Twoje PII przy pierwszej z następujących czynności nie założyłeś konta w każdym w żadnej z naszych Usług przez dziewięć lat lub dokonałeś sprzedaży z dowolnego konta sprzedającego.
+Przechowujemy PII od momentu pobrania danych, chyba że obowiązki umowne lub prawne nakładają na nas wymóg przechowywania ich przez dłuższy okres czasu jeśli utworzysz konto lub dokonasz zakupu jako gość, usuniemy Twoje PII przy pierwszej z następujących czynności nie kupiłeś niczego do dziewięciu lat; lub
+Przechowujemy PII od momentu pobrania danych, chyba że obowiązki umowne lub prawne nakładają na nas wymóg przechowywania ich przez dłuższy okres czasu jeśli utworzysz konto lub dokonasz zakupu jako gość, usuniemy Twoje PII przy pierwszej z następujących czynności w odniesieniu do numeru ubezpieczenia społecznego lub numeru identyfikacji podatkowej nie dokonałeś sprzedaży z żadnego konta wykorzystującego ten numer przez okres siedmiu lat.
+Jak chronimy dane
+Usługi są wyposażone w fizyczne, elektroniczne i administracyjne środki bezpieczeństwa w celu ochrony przed utratą, niewłaściwym wykorzystaniem i nieupoważnionym dostępem do, wykorzystaniem, zmianą lub ujawnieniem Danych pozostających pod naszą kontrolą. Po przesłaniu danych karty kredytowej za pośrednictwem Usług, tworzymy tzw. "nonce", tak więc również informacje o karcie kredytowej nie są przez nas przechowywane. Choć żadna transmisja przez Internet nie może zagwarantować 100% bezpieczeństwa, a my staramy się chronić PII podczas transmisji, nie możemy zapewnić ani zagwarantować bezpieczeństwa jakichkolwiek Danych, które nam przekazujesz lub otrzymujesz od nas. Nalegamy do podjęcia kroków w celu zapewnienia bezpiecznego przechowywania Danych (w tym ustawienia bezpiecznego hasła do konta), wylogowania się po użyciu, a następnie zamykania przeglądarki internetowej.
+Osoby spoza Stanów Zjednoczonych, UE, EOG, Zjednoczonego Królestwa i Szwajcarii
+Potwierdzasz, że znasz i rozumiesz język, w którym napisana jest niniejsza Polityka prywatności, w stopniu wystarczającym do zrozumienia warunków niniejszej Polityki prywatności. Jeśli mieszkasz w Unii Europejskiej, EOG, Zjednoczonym Królestwie lub Szwajcarii lub znajdujesz się poza Stanami Zjednoczonymi: wyrażasz zgodę, iż korzystając z Usług, dane osobowe dotyczące Ciebie mogą być przekazywane do naszych serwerów znajdujących się w Stanach Zjednoczonych w związku z celami określonymi w niniejszej Polityce prywatności, oraz rozumiesz, że przepisy w stosunku do ochrony danych w Stanach Zjednoczonych mogą nie być tak rygorystyczne, jak te obowiązujące w Twoim kraju zamieszkania. Jeśli mieszkasz lub znajdujesz się w Unii Europejskiej, EOG, Zjednoczonym Królestwie lub Szwajcarii, właściwy dla Ciebie może być poniższy załącznik odnoszący się do osób przebywających w Unii Europejskiej, Zjednoczonym Królestwie, EOG i Szwajcarii, który opisuje dodatkowe prawa, które mogą Ci przysługiwać.
+Preferencje dotyczące rezygnacji
+Mieszkańcy stanów Kalifornia i Wirginia mogą zrezygnować ze sprzedaży i/lub udostępniania swoich informacji, wysyłając sygnał preferencji rezygnacji, taki jak globalna kontrola prywatności (w przeglądarkach i/lub rozszerzeniach przeglądarki obsługujących taki sygnał). Aby pobrać i korzystać z przeglądarki obsługującej sygnał przeglądarki GPC, kliknij tutaj: website_url_lnk Jeśli zdecydujesz się korzystać z sygnału GPC, musisz go włączyć w odniesieniu do każdej obsługiwanej przeglądarki lub używanego rozszerzenia przeglądarki.
+Możemy powiązać Twoją prośbę o rezygnację ze sprzedaży/udostępniania tylko z Twoją przeglądarką lub identyfikatorem urządzenia, a nie z jakimikolwiek informacjami o jakimkolwiek koncie, które możesz mieć u nas. Połączenie między Twoją przeglądarką lub urządzeniem a jakimkolwiek kontem, które masz u nas, nie jest nam znane. W związku z tym, teraz, gdy wdrożyliśmy rozpoznawanie GPC, wszelkie wcześniejsze wybory dokonane przez Ciebie dotyczące sprzedaży/udostępniania danych osobowych nie są już ważne. Jeśli chcesz zrezygnować ze sprzedaży/udostępniania swoich informacji, musisz to zrobić, przesyłając do nas sygnał GPC od czasu do czasu w przyszłości, gdy odwiedzasz naszą stronę internetową za pomocą innego urządzenia lub wyczyścisz pamięć podręczną plików cookie z Twojego obecnego urządzenia.
+Osoby spoza Stanów Zjednoczonych, UE, EOG, Zjednoczonego Królestwa i Szwajcarii
+Potwierdzasz, że znasz i rozumiesz język, w którym napisana jest niniejsza Polityka prywatności, w stopniu wystarczającym do zrozumienia warunków niniejszej Polityki prywatności. Jeśli mieszkasz w Unii Europejskiej, EOG, Zjednoczonym Królestwie lub Szwajcarii lub znajdujesz się poza Stanami Zjednoczonymi: wyrażasz zgodę, iż korzystając z Usług, dane osobowe dotyczące Ciebie mogą być przekazywane na nasze serwery lub serwery osób trzecich znajdujące się w Stanach Zjednoczonych w związku z celami określonymi w niniejszej Polityce prywatności i wyraźnie wyrażasz zgodę na takie przekazanie, oraz rozumiesz, że przepisy w stosunku do ochrony Danych w Stanach Zjednoczonych mogą nie być tak rygorystyczne, jak te obowiązujące w Twoim kraju zamieszkania. Jeśli mieszkasz lub znajdujesz się w Unii Europejskiej, EOG, Zjednoczonym Królestwie lub Szwajcarii, właściwy dla Ciebie może być poniższy załącznik odnoszący się do osób przebywających w Unii Europejskiej, Zjednoczonym Królestwie, EOG i Szwajcarii, który opisuje dodatkowe prawa, które mogą Ci przysługiwać. 
+Skontaktuj się z nami
+Jeśli masz jakiekolwiek obawy dotyczące polityki prywatności w odniesieniu do Usług, prosimy o kontakt pod poniższym adresem wraz ze szczegółowym opisem problemu, a my postaramy się go rozwiązać privacy Program
+Attention: Legal Department 
+23801 Calabasas Road 
+Calabasas, CA 91302 
+USA 
+Jeśli przebywasz w Europie wyznaczyliśmy ITG EU & GRCI Law do działania jako naszego pełnomocnika na terenie UE i Zjednoczonego Królestwa. Jeśli chcesz skorzystać ze swoich praw w ramach RODO obowiązującego w UE lub Zjednoczonym Królestwie lub masz jakiekolwiek pytania w odniesieniu do praw lub ogólnych kwestii z zakresu ochrony prywatności, wyślij e-maila; z Europy na adres privacyeu@pallcprivacy.com lub ze Zjednoczonego Królestwa na adres privacyuk@pallcprivacy.com.
+Zmiany niniejszej Polityki prywatności
+Prosimy o okresowe sprawdzanie niniejszej Polityki prywatności, aby dowiadywać się o wszelkich zmianach. Zastrzegamy sobie prawo do zmiany niniejszej Polityki prywatności w dowolnym czasie, zatem zalecamy jej częste przeglądanie. Jeżeli dokonamy istotnych zmian w niniejszej Polityce prywatności, będziemy zamieszczać powiadomienia o zmianach na stronie głównej Usług i/lub zgodnie z wymogami prawnymi przez e-mail przy użyciu aktualnego adresu e-mail zamieszczonego na Twoim koncie. 
+15. Załącznik dla osób zamieszkałych w Kalifornii
+Data Wejścia w Życie: 15 kwietnia 2023 r. 
+Niniejszy Załącznik dla osób zamieszkałych w Kalifornii (niniejsza "Informacja CCPA") uzupełnia Politykę prywatności i odnosi się tylko do mieszkańców stanu Kalifornia. Niniejsza Informacja CCPA jest zgodna z kalifornijską ustawą o ochronie danych osobowych zmienioną kalifornijską ustawą o ochronie prawa do prywatności (CCPA), a wszelkie terminy zdefiniowane w CCPA mają takie samo znaczenie, gdy są używane w niniejszym Załączniku CCPA.
+Jak zbieramy Informacje Osobowe
+"Dane osobowe" zbieramy w sposób określony w CCPA. Zbieramy dane osobowe z następujących kategorii źródeł bezpośrednio od Ciebie. Na przykład podczas tworzenia przez Ciebie konta, z wypełnianych przez Ciebie formularzy dotyczących nabywanych przez Ciebie produktów u Usług, z których korzystasz, a także gdy bierzesz udział w konkursie lub badaniu.
+"Dane osobowe" zbieramy w sposób określony w CCPA. Zbieramy dane osobowe z następujących kategorii źródeł pośrednio od ciebie. Na przykład z interakcji na Stronach Internetowych lub w Aplikacjach.
+"Dane osobowe" zbieramy w sposób określony w CCPA. Zbieramy dane osobowe z następujących kategorii źródeł od innych spółek w naszej Grupie Spółek. 
+"Dane osobowe" zbieramy w sposób określony w CCPA. Zbieramy dane osobowe z następujących kategorii źródeł od naszych partnerów biznesowych i dostawców usług.
+Jak udostępniamy Informacje Osobowe
+"Dane osobowe" zbieramy w sposób określony w CCPA. Zbieramy dane osobowe z następujących kategorii źródeł bezpośrednio od Ciebie. Na przykład podczas tworzenia przez Ciebie konta, z wypełnianych przez Ciebie formularzy dotyczących nabywanych przez Ciebie produktów u Usług, z których korzystasz, a także gdy bierzesz udział w konkursie lub badaniu.
+"Dane osobowe" zbieramy w sposób określony w CCPA. Zbieramy dane osobowe z następujących kategorii źródeł pośrednio od Ciebie. Na przykład z powodu interakcji z Usługami.
+"Dane osobowe" zbieramy w sposób określony w CCPA. Zbieramy dane osobowe z następujących kategorii źródeł od innych spółek w naszej Grupie Spółek. 
+"Dane osobowe" zbieramy w sposób określony w CCPA. Zbieramy dane osobowe z następujących kategorii źródeł od naszych partnerów biznesowych i dostawców usług.
+Jak udostępniamy Informacje Osobowe
+Ujawniamy dane osobowe naszym dostawcom usług, wykonawcom i stronom trzecim, w celach biznesowych zgodnie ze spisanymi umowami lub kontraktami. 
+Zestawienie kategorii zbieranych Informacji Osobowych, źródła, kategorie osób trzecich, którym ujawniane są informacje
+Poniższa tabela podsumowuje kategorie zebranych Informacji Osobowych, wykorzystywanych i udostępnianych przez nas lub naszych Dostawców Usług i Osoby Trzecie w ciągu ostatnich dwunastu miesięcy. 
+Bezpieczeństwo gromadzonych Informacji Osobowych. Zgromadzone. Kategorie źródeł gromadzenia Informacji Osobowych. Cel gromadzenia. Kategorie osób trzecich, którym ujawniamy Informacje Osobowe w celach biznesowych. Kategoria osób trzecich, którym Informacje Osobowe są sprzedawane lub przekazywane. Okres przechowywania 
+Identyfikatory, takie jak imię i nazwisko, adres, numer telefonu, Internet Protocol (IP), adres e-mail, nazwy użytkownika w mediach społecznościowych oraz nazwa konta.
+Jeśli zdecydujesz się na sprzedaż produktów i otrzymasz wynagrodzenie lub prowizję, pobierzemy także Twój numer ubezpieczenia społecznego i/lub numer identyfikacji podatkowej.
+Tak
+Ty, jeśli zdecydujesz się je nam przekazać.
+Ty, podczas korzystania z Usług.
+My i nasi Dostawcy Usług zbieramy te informacje automatycznie.
+Nasi Dostawcy Usług, którzy pobierają Twój adres IP automatycznie.
+W odpowiedzi na wiadomości od Ciebie.
+W celu świadczenia Usług na Twoją rzecz. 
+Nasi Dostawcy Usług, tacy jak host strony internetowej, podmioty przetwarzające płatności, sieci społecznościowe, podmioty realizujące zamówienia oraz dostawcy analizy danych.
+Reklamodawcy lub sieci społecznościowe
+9 lat od daty Twojej ostatniej interakcji z nami 
+Kategorie informacji osobowych wymienione w ustawie California Customer Records (Kodeks cywilny Kalifornii § 1798.80 (e)), jak na przykład Twoje imię i nazwisko, adres, numer telefonu, karty kredytowej lub debetowej.
+Tylko jeśli jesteś sprzedawcą na Stronie Internetowej CafePress, Twój numer ubezpieczenia społecznego, abyśmy mogli zgłosić informacje podatkowe zgodnie z wymogami prawa.
+Niektóre Informacje osobowe zawarte w tej kategorii mogą pokrywać się z innymi kategoriami.
+Tak
+Ty, jeśli zdecydujesz się je nam przekazać. 
+Abyś mógł zrealizować zamówienia.
+Abyś mógł spełnić wymagania wynikające z przepisów podatkowych.
+Nasi Dostawcy Usług, tacy jak firmy kurierskie, podmioty przetwarzające płatności, dostawcy realizujący zamówienia, drukarnie, dystrybutorzy produktów i dostawcy analiz danych. 
+Reklamodawcy i sieci społecznościowe
+9 lat od daty Twojej ostatniej interakcji z nami 
+Chronione Klasyfikacje, takie jak wiek (40 lat lub więcej), płeć etc.
+Tak
+Bezpośrednio od Ciebie.
+Pochodzące z Twoich zamówień.
+W celu analizy danych demograficznych naszych klientów.
+Dostawcy Usług tacy jak dostawcy analizy danych.
+Nie sprzedajemy ani nie przekazujemy tej kategorii Informacji Osobowych
+9 lat od daty Twojej ostatniej interakcji z nami 
+Informacje komercyjne, takie jak zakupione produkty lub usługi, uzyskane lub rozważane.
+Tak
+Ty, podczas korzystania z Usług. 
+My i nasi Dostawcy Usług zbieramy te informacje automatycznie.
+W celu realizacji Twoich zamówień i zapewnienia Ci aktualnych i przyszłych usług. 
+Dostawcy Usług, którzy pomagają nam określić nasz asortyment oraz analizować zakupy i preferencje zakupowe naszych klientów.
+Nasi Dostawcy Usług, tacy jak firmy kurierskie, podmioty przetwarzające płatności, dostawcy realizujący zamówienia, drukarnie, dystrybutorzy produktów, i dostawcy analiz danych. 
+Nasze filie i spółki zależne.
+Reklamodawcy i sieci społecznościowe
+9 lat od daty Twojej ostatniej interakcji z nami 
+Informacje biometryczne
+Nie
+Nd.
+Nd.
+Nd.
+Nd.
+Nd. 
+Sieć internetowa i aktywność urządzeń elektronicznych, takie jak historia przeglądania, historia wyszukiwania, a także informacje na temat interakcji ze stroną internetową, aplikacją lub reklamą.
+Tak
+Ty, podczas korzystania z Usług poprzez Urządzenie.
+My i nasi Dostawcy Usług zbieramy te informacje automatycznie.
+Dostawcy analizy danych.
+Dostawcy reklamy.
+Zapewnienie dobrego doświadczenia podczas korzystania z Usług, na przykład możliwość wyświetlania treści w preferowanym języku, wyświetlenia cen w lokalnej walucie, przechowywania identyfikatora użytkownika i/lub hasła dla wygody lub wstępnego wypełniania pól przy użyciu Usług.
+Marketing i reklamowanie naszych produktów, w szczególności zrozumienie, które z naszych kampanii marketingowych doprowadziły do Twojej wizyty w Usługach.
+Nasi Dostawcy Usług, tacy jak dostawcy usług analizy danych.
+Reklamodawcy i sieci społecznościowe
+Różni się w zależności od typu pliku cookie zbierającego te Informacje Osobowe, ale nie dłużej niż 2 lata i 9 miesięcy 
+Dane geolokalizacji, takie jak adres pocztowy oraz adres IP. Na podstawie adresu IP wnioskujemy o Twojej ogólnej lokalizacji.
+Tak
+Ty, jeśli zdecydujesz się je nam przekazać.
+Ty, podczas korzystania z Usług poprzez Urządzenie. 
+My i nasi Dostawcy Usług zbieramy te informacje automatycznie.
+W odpowiedzi na Twoje prośby o udzielenie informacji. 
+Wysyłając Twoje produkty do Ciebie.
+Zapewnienie dobrego doświadczenia podczas odwiedzania Usług, na przykład możliwość wyświetlania treści w preferowanym języku, wyświetlenia cen w lokalnej walucie, przechowywania identyfikatora użytkownika i/lub hasła dla wygody lub wstępnego wypełniania pól przy użyciu Usług.
+Nasi Dostawcy Usług, tacy jak dostawcy usług przewozowych i przedsiębiorstwa zajmujące się zapobieganiem oszustwom.
+Nie sprzedajemy ani nie przekazujemy tej kategorii Informacji Osobowych.
+Różni się w zależności od typu pliku cookie zbierającego te Informacje Osobowe, ale nie dłużej niż 2 lata i 9 miesięcy 
+Informacje audio, elektroniczne, wizualne, termalne, węchowe, takie jak zapisy audio, które są wykonywane, gdy dzwonisz do naszego działu obsługi klienta, obrazy fotograficzne lub inne.
+Tak
+Ty, jeśli zdecydujesz się je nam przekazać lub inny klient zdecyduje się nam je przekazać. 
+Włączanie obrazu do Twoich produktów. 
+Przechowywanie obrazu dla klienta do wykorzystania do innych produktów w przyszłości.
+Dostawcy Usług, tacy jak drukarnie lub witryny udostępniające funkcję czatu. 
+Nie sprzedajemy ani nie przekazujemy tej kategorii Informacji Osobowych.
+9 lat od daty Twojej ostatniej interakcji z nami 
+Informacje zawodowe lub związane z zatrudnieniem
+Nie
+Nd.
+Nd.
+Nd.
+Nd.
+Nd. 
+Informacje związane z edukacjię, zdefiniowane jako informacje, które nie są publicznie dostępnymi informacjami identyfikującymi osobę zgodnie z definicją podaną w amerykańskiej ustawie o prawach edukacyjnych i prywatności rodziny (20 U. S. C (Kodeks Stanów Zjednoczonych), sekcja 1232g; 34 C. F. R. cześć 99).
+Nie
+Nd.
+Nd.
+Nd.
+Nd.
+Nd. 
+Wnioski wynikające z Twoich informacji osobowych, takie jak preferencje danej osoby, cechy, predyspozycje, trendy, zachowania i postawy.
+Tak
+Sieci reklamowe, dostawcy usług analizy danych i specjalne okazje na podstawie dokonanego przeglądu zamówień produktów.
+Ukierunkowana reklama, analityka marketingowa, przypomnienia o specjalnych okazjach.
+Nasi Dostawcy Usług, tacy jak dostawcy analizy danych.
+Reklamodawcy i sieci społecznościowe
+9 lat od daty Twojej ostatniej interakcji z nami 
+Wrażliwe Informacje Osobowe, takie jak ubezpieczenie społeczne, prawo jazdy, paszport lub numer stanowego dowodu osobistego; numer konta, numer karty debetowej lub kredytowej w powiązaniu z hasłem lub kodem umożliwiającym dostęp do tych kont; dokładna geolokacja; pochodzenie rasowe, przekonanania religijne lub członkostwo w związkach zawodowych; treść listu, e-maila, SMS-a konsumenta (chyba że informację wysłano do nas intencjonalnie); dane genetyczne takie jak próbki DNA; oraz dane biometryczne
+Tak
+Ty, jeśli zdecydujesz się je nam przekazać.
+W celu realizacji zleceń od Ciebie.
+Nasi Dostawcy Usług, tacy jak audytorzy finansowi, przedsiębiorstwa przetwarzające płatności kartą oraz podmioty obsługujące realizację usług. 
+Nie sprzedajemy ani nie przekazujemy tej kategorii Informacji Osobowych.
+9 lat od daty Twojej ostatniej interakcji z nami 
+Twoje prawa oraz wybory zgodnie z CCPA
+CCPA zapewnia mieszkańcom Kalifornii określone prawa dotyczące Informacji Osobowych. W niniejszej sekcji opisano Twoje prawa CCPA i wyjaśniono, jak z nich korzystać.
+Dostęp do określonych informacji CCPA
+Jeśli jesteś mieszkańcem Kalifornii, masz prawo zażądać, byśmy ujawnili Ci pewne informacje o gromadzeniu i wykorzystywaniu przez nas w ciągu ostatnich 12 miesięcy Informacji Osobowych na Twój temat. Po otrzymaniu i potwierdzeniu weryfikowalnego wniosku CCPA (patrz Uzyskanie dostępu i prawo do usunięcia zgodnie z CCPA poniżej), ujawnimy Ci kategorie Informacji Osobowych, które zebraliśmy o Tobie.
+Jeśli jesteś mieszkańcem Kalifornii, masz prawo zażądać, byśmy ujawnili Ci pewne informacje o gromadzeniu i wykorzystywaniu przez nas w ciągu ostatnich 12 miesięcy Informacji Osobowych na Twój temat. Po otrzymaniu i potwierdzeniu weryfikowalnego wniosku CCPA (patrz Uzyskanie dostępu i prawo do usunięcia zgodnie z CCPA poniżej), ujawnimy Ci kategorie źródeł Informacji Osobowych, które zebraliśmy o Tobie.
+Jeśli jesteś mieszkańcem Kalifornii, masz prawo zażądać, byśmy ujawnili Ci pewne informacje o gromadzeniu i wykorzystywaniu przez nas w ciągu ostatnich 12 miesięcy Informacji Osobowych na Twój temat. Po otrzymaniu i potwierdzeniu weryfikowalnego wniosku CCPA (patrz Uzyskanie dostępu i prawo do usunięcia zgodnie z CCPA poniżej), ujawnimy Ci nasz cel biznesowy związany z gromadzeniem lub sprzedażą tych Informacji Osobowych.
+Jeśli jesteś mieszkańcem Kalifornii, masz prawo zażądać, byśmy ujawnili Ci pewne informacje o gromadzeniu i wykorzystywaniu przez nas w ciągu ostatnich 12 miesięcy Informacji Osobowych na Twój temat. Po otrzymaniu i potwierdzeniu weryfikowalnego wniosku CCPA (patrz Uzyskanie dostępu i prawo do usunięcia zgodnie z CCPA poniżej), ujawnimy Ci kategorie osób trzecich, którym ujawniamy Informacje Osobowe w celu biznesowym.
+Jeśli jesteś mieszkańcem Kalifornii, masz prawo zażądać, byśmy ujawnili Ci pewne informacje o gromadzeniu i wykorzystywaniu przez nas w ciągu ostatnich 12 miesięcy Informacji Osobowych na Twój temat. Po otrzymaniu i potwierdzeniu weryfikowalnego wniosku CCPA (patrz Uzyskanie dostępu i prawo do usunięcia zgodnie z CCPA poniżej), ujawnimy Ci określone Informacje Osobowe, które zebraliśmy o Tobie.
+Jeśli jesteś mieszkańcem Kalifornii, masz prawo zażądać, byśmy ujawnili Ci pewne informacje o gromadzeniu i wykorzystywaniu przez nas w ciągu ostatnich 12 miesięcy Informacji Osobowych na Twój temat. Po otrzymaniu i potwierdzeniu weryfikowalnego wniosku CCPA (patrz Uzyskanie dostępu i prawo do usunięcia zgodnie z CCPA poniżej), ujawnimy Ci kategorie Informacji Osobowych udostępnianych do celów międzykontekstowej reklamy behawioralnej oraz kategorie odbiorców, którym Informacj Osobowe zostały ujawnione do tych celów.
+Jeśli jesteś mieszkańcem Kalifornii, masz prawo zażądać, byśmy ujawnili Ci pewne informacje o gromadzeniu i wykorzystywaniu przez nas w ciągu ostatnich 12 miesięcy Informacji Osobowych na Twój temat. Po otrzymaniu i potwierdzeniu weryfikowalnego wniosku CCPA (patrz Uzyskanie dostępu i prawo do usunięcia zgodnie z CCPA poniżej), ujawnimy Ci kategorie sprzedanych Informacji Osobowych (jeśli dotyczy) oraz kategorie osób trzecich, którym sprzedano dane osobowe.
+Prawa do wniosku o usunięcie zgodnie z CCPA
+Mieszkańcy Kalifornii mają prawo zażądać, abyśmy usunęli wszelkie Informacje Osobowe, które od nich zebraliśmy i zachowaliśmy, z zastrzeżeniem pewnych wyjątków. Po otrzymaniu przez nas i potwierdzeniu weryfikowalnego wniosku CCPA (patrz Wykonanie praw zgodnie z CCPA poniżej), będziemy usuwać (i zlecać usunięcie Dostawcom Usług) Informacje Osobowe z naszej bazy danych, chyba że ma zastosowanie wyjątek.
+Możemy odrzucić wniosek o usunięcie, jeśli zachowanie Informacji Osobowych jest konieczne, abyśmy my lub nasi Dostawcy Usług mogli sfinalizować transakcję, w odniesieniu do której zbieraliśmy Informacje Osobowe, dostarczyć dobrą usługę, której zażądałeś, podjąć działania w rozsądny sposób przewidywane w ramach naszej bieżącej relacji biznesowej z Tobą, spełniać warunki pisemnej gwarancji lub wycofania produktu przeprowadzonego zgodnie z prawem lub w inny sposób wykonać naszą umowę z Tobą.
+Możemy odrzucić wniosek o usunięcie, jeśli zachowanie Informacji Osobowych jest konieczne, abyśmy my lub nasi Dostawcy Usług mogli wykryć incydenty związane z bezpieczeństwem, ochroną przed złośliwą, wprowadzającą w błąd, oszukańczą lub nielegalną działalnością oraz ścigać osoby odpowiedzialne za te działania.
+Możemy odrzucić wniosek o usunięcie, jeśli zachowanie Informacji Osobowych jest konieczne, abyśmy my lub nasi Dostawcy Usług mogli usuwać błędy z produktów w celu identyfikacji i naprawy błędów, które mają negatywny wpływ na funkcjonalność.
+Możemy odrzucić wniosek o usunięcie, jeśli zachowanie Informacji Osobowych jest konieczne, abyśmy my lub nasi Dostawcy Usług mogli korzystać z prawa wolności słowa, zapewnić prawo innego użytkownika CCPA do korzystania z prawa do wolności słowa lub wykonywać inne prawo wynikające z usta.
+Możemy odrzucić wniosek o usunięcie, jeśli zachowanie Informacji Osobowych jest konieczne, abyśmy my lub nasi Dostawcy Usług mogli postępować zgodnie z kalifornijską ustawą o ochronie prywatności w komunikacji elektronicznej (Kodeks karny Kalifornii § 1546 et. seq.).
+Możemy odrzucić wniosek o usunięcie, jeśli zachowanie Informacji Osobowych jest konieczne, abyśmy my lub nasi Dostawcy Usług mogli umożliwić zastosowanie wyłącznie wewnętrzne, które zgodnie z rozsądnym założeniem mogą być zbieżne z oczekiwaniami użytkowników, biorąc pod uwagę ich relację z nami.
+Możemy odrzucić wniosek o usunięcie, jeśli zachowanie Informacji Osobowych jest konieczne, abyśmy my lub nasi Dostawcy Usług mogli wykonać zobowiązanie prawne.
+Możemy odrzucić wniosek o usunięcie, jeśli zachowanie Informacji Osobowych jest konieczne, abyśmy my lub nasi Dostawcy Usług mogli na inne sposoby korzystać wewnętrznie i legalnie z Informacji Osobowych zgodnie z kontekstem przekazania.
+Żądanie korekty zgodnie z CCPA
+Mieszkańcy Kalifornii mają prawo zażądać, abyśmy poprawili wszelkie nieprawidłowe Informacje Osobowe, które zbieramy lub przechowujemy na ich temat, z zastrzeżeniem pewnych wyjątków. Gdy otrzymamy i potwierdzimy Twoją weryfikowalną prośbę konsumenta, poprawimy (i zlecimy poprawienie każdemu z naszych usługodawców, którzy przechowują Twoje dane w naszym imieniu) Twoje Informacje Osobowe w naszych rejestrach, chyba że ma zastosowanie wyjątek. Możemy odrzucić Twoją prośbę o korektę, jeśli uważamy, że Twoje Informacje Osobowe, które przechowujemy, są dokładne; poprawienie Informacji Osobowych byłoby niemożliwe lub wiązałoby się z nieproporcjonalnością; lub jeśli żądanie jest sprzeczne z naszymi zobowiązaniami prawnymi.
+Prawo do rezygnacji ze sprzedaży i udostępniania Informacji Osobowych
+Mieszkańcy Kalifornii mają prawo poinstruować nas, abyśmy nie "sprzedawali" ich Informacji Osobowych osobom trzecim za pieniądze lub inne wartościowe wynagrodzenie, ani nie "udostępniali" ich Informacji Osobowych osobom trzecim do celów międzykontekstowej reklamy behawioralnej.
+Wykonanie praw zgodnie z CCPA
+Aby skorzystać z praw zgodnie CCPA, jak opisano powyżej, należy przesłać weryfikowalny wniosek CCPA do nas tutaj: formularz OneTrust lub wysłać do nas e-mail na adres privacy@pallcprivacy.com.
+Tylko Ty lub osoba prawnie upoważniona do działania w Twoim imieniu możesz/może złożyć weryfikowalny wniosek CCPA dotyczący Twoich Informacji Osobowych. Możesz również złożyć weryfikowalny wniosek CCPA w imieniu Twojego małoletniego dziecka. Aby wyznaczyć kogoś prawnie upoważnionego do działania w Twoim imieniu, możesz przesłać dowód upoważnienia na adres privacy@pallcprivacy.com.
+Możesz złożyć weryfikowalny wniosek CCPA o dostęp do Informacji tylko dwa razy w ciągu dowolnego 12-miesięcznego okresu. Weryfikowalny wniosek CCPA musi dostarczyć wystarczających informacji, która pozwolą nam racjonalnie zweryfikować, czy jesteś osobą, o której zebraliśmy Informacje Osobowe (lub upoważnionym przedstawicielem takiej osoby), które mogą zawierać informacje, które zostały już nam przekazane, takie jak imię i nazwisko oraz adres e-mail; oraz
+Możesz złożyć weryfikowalny wniosek CCPA o dostęp do Informacji tylko dwa razy w ciągu dowolnego 12-miesięcznego okresu. Weryfikowalny wniosek CCPA musi Zawrzeć we wniosku CCPA wystarczającą ilość szczegółów tak, że będziemy mogli właściwie zrozumieć Twój wniosek i odpowiedzieć na niego.
+Nie będziemy mogli odpowiedzieć na Twój wniosek CCPA ani przekazać Ci Informacji Osobowych, jeśli nie będziemy mogli zweryfikować Twojej tożsamości lub uprawnień do złożenia wniosku i potwierdzić, że Informacje Osobowe dotyczą Ciebie lub osoby, w imieniu której jesteś prawnie upoważniony do występowania. Do złożenia weryfikowalnego wniosku CCPA nie jest wymagane założenie u nas konta. 
+Będziemy wykorzystywać Informacje Osobowe zawarte w weryfikowalnym wniosku CCPA tylko do weryfikacji tożsamości lub prawa do wystąpienia z wnioskiem. 
+Czas i format odpowiedzi CCPA
+Staramy się odpowiadać na weryfikowalne wnioski CCPA w ciągu czterdziestu pięciu dni od ich otrzymania. Jeśli będziemy potrzebować więcej czasu (do 90 dni) na odpowiedź na Twój wniosek, poinformujemy Cię na piśmie o przyczynie i wymaganym okresie wydłużenia. Jeśli dysponujesz u nas kontem, prześlemy naszą pisemną odpowiedź na to konto. Jeśli nie masz u nas konta, prześlemy naszą pisemną odpowiedź na adres e-mail podany w formularzu wniosku CCPA.
+Wszelkie udostępnione przez nas informacje CCPA obejmują tylko 12-miesięczny okres poprzedzający otrzymanie przez nas możliwego do zweryfikowania wniosku CCPA. W naszej odpowiedzi wyjaśnimy również przyczyny, dla których nie wyrażamy zgody na wykonanie wniosku CCPA, jeśli dotyczy. 
+Nie pobieramy opłaty za rozpatrzenie weryfikowalnego wniosku CCPA ani udzielenie na niego odpowiedzi, chyba że jest on nadmierny, powtarzalny lub ewidentnie bezpodstawny. Jeśli stwierdzimy, że wniosek CCPA będzie wiązał się z opłatą, powiemy Ci, dlaczego, i dostarczymy Ci kosztorys przed rozpatrzeniem wniosku.
+Zakaz dyskryminacji zgodnie z CCPA
+Nie dyskryminujemy mieszkańców Kalifornii za korzystanie z ich praw CCPA. Jeśli nie zezwala na to CCPA, nie będziemy odmawiać Ci towarów lub usług.
+Nie dyskryminujemy mieszkańców Kalifornii za korzystanie z ich praw CCPA. Jeśli nie zezwala na to CCPA, nie będziemy naliczać różnych cen za towary lub usługi, w tym poprzez udzielanie zniżek lub innych korzyści, lub nakładania kar.
+Nie dyskryminujemy mieszkańców Kalifornii za korzystanie z ich praw CCPA. Jeśli nie zezwala na to CCPA, nie będziemy dostarczać Ci towarów lub usług o innym poziomie jakości.
+Nie dyskryminujemy mieszkańców Kalifornii za korzystanie z ich praw CCPA. Jeśli nie zezwala na to CCPA, nie będziemy sugerować, że mogą pojawić się różne ceny lub stawki towarów lub usług lub odmienny poziom jakości towarów lub usług.
+Powiadomienie o zachęcie finansowej zgodnie CCPA
+Możemy zaoferować Ci zachęty finansowe z tytułu gromadzenia, sprzedaży, przechowywania i i wykorzystywania Twoich Informacji Osobowych w zgodzie z CCPA, co może, bez ograniczeń, prowadzić do różnych cen, stawek lub poziomów jakości.
+Zgodnie z CCPA niniejsze Powiadomienie ma na celu dostarczenie Ci informacji dotyczących wszelkich zachęt finansowych lub "różnicy w cenie lub usłudze", które możemy zapewnić w zamian za Twoje Informacje Osobowe. Informacje Osobowe zebrane od Ciebie w zamian za zachętę finansową lub "cenę lub różnicę w usługach" może obejmować gromadzenie następujących kategorii Informacji Osobowych od uczestniczących klientów: identyfikatory; rejestry klientów; chronione klasy i informacje demograficzne; informacje handlowe i preferencje; informacje o aktywności w internecie lub innej sieci elektronicznej oraz informacje o urządzeniach; audio, elektroniczne, wizualne lub inne informacje sensoryczne oraz wnioski.
+Aby uczestniczyć w naszych programach nagród i korzystać z naszych usług, możesz od czasu do czasu przekazywać Informacje Osobowe, bezpośrednio lub pośrednio, w zamian za gotówkę, karty podarunkowe lub inną zachętę finansową albo różnicę w cenie lub usłudze, których ilość lub charakter zostaną określone każdorazowo w momencie przekazywania Informacji Osobowych. Możesz wyrazić zgodę na zachętę finansową lub różnicę w cenie lub usłudze, przesyłając dane osobowe. Jeśli chcesz zrezygnować z zachęty finansowej lub różnicy w cenie lub usłudze, nie przesyłaj Informacji Osobowych. Jeśli wyrazisz zgodę, a następnie zechcesz wycofać się z zachęty finansowej lub różnicy w cenie lub usłudze, możesz zażądać takiej rezygnacji, kontaktując się z nami tutaj: formularz OneTrust.
+Każda zachęta finansowa lub różnica w cenie lub usłudze związana z gromadzeniem i wykorzystywaniem Informacji Osobowych opiera się na naszym jedynym rozsądnym, uczciwym określeniu szacunkowej wartości takich informacji dla naszej działalności, biorąc pod uwagę wartość samej oferty i przewidywane generowanie przychodów, które można zrealizować poprzez nagradzanie lojalności wobec marki. Wartość oferty i zachęty finansowej kalkulujemy na podstawie wydatku związanego z ofertą. Uczestnicząc w którymkolwiek z powyższych programów promocyjnych, zgadzasz się, że korzyści są racjonalnie powiązane z wartością gromadzonych i przechowywanych Informacji Osobowych.
+Inne prawa związane z prywatnością przysługujące w Kalifornii
+Oprócz Twoich praw wynikających z CCPA, kalifornijska ustawa "Shine the Light" (sekcja Kodeksu cywilnego § 1798.83) zezwala użytkownikom Usług będącym mieszkańcami Kalifornii na żądanie pewnych informacji dotyczących ujawniania przez nas Informacji Osobowych stronom trzecim do celów marketingu bezpośredniego. Nie ujawniamy Twoich Informacji Osobowych stronom trzecim do ich własnych celów marketingu bezpośredniego. Jeśli chcesz uzyskać więcej informacji na temat naszej postępowania zgodnie z kalifornijską ustawą "Shine the Light", należy wysłać e-mail do privacy@pallcprivacy.com lub napisać do nas privacy Program
+Attention: Legal Department 
+23801 Calabasas Road 
+Calabasas, CA 91302 
+USA 
+Zmiany w Informacji CCPA
+Zastrzegamy sobie prawo do zmiany niniejszej Informacji CCPA według własnego uznania iw dowolnym czasie. Kiedy dokonamy zmiany w niniejszej Informacji, umieścimy zaktualizowaną Informację w Usługach i zaktualizujemy datę wejścia w życie Informacji. Dalsze korzystanie z Usług po opublikowaniu jakichkolwiek zmian w Informacji oznacza akceptację tych zmian.
+Informacje kontaktowe CCPA
+Jeśli masz jakiekolwiek pytania lub uwagi dotyczące niniejszej Informacji, sposobów, w jakie zbieramy i wykorzystujemy Twoje Informacje Osobowe, Twoich wyborów i praw dotyczących takiego wykorzystania lub chcesz skorzystać ze swoich praw zgodnie z prawem Kalifornii, skontaktuj się z nami pod adresem email: privacy@planetart.com
+Formularz internetowy: formularz OneTrust 
+Adres pocztowy: Privacy Program, Attention: Legal Department, 23801 Calabasas Road, Calabasas, California 91302-1547, USA
+Załącznik dla osób przebywających w Unii Europejskiej, EOG, Zjednoczonym Królestwie i Szwajcarii
+Niniejszy Załącznik dla osób przebywających w Unii Europejskiej, EOG, Zjednoczonym Królestwie i Szwajcarii (niniejsza "Informacja RODO") uzupełnia informacje zawarte w Polityce prywatności i ma zastosowanie wyłącznie do osób znajdujących się w UE, Zjednoczonym Królestwie, EOG i Szwajcarii. Przyjmujemy niniejszą Informację RODO, aby zachować zgodność z RODO, a wszelkie terminy zdefiniowane w RODO (w tym dane osobowe) mają to samo znaczenie, gdy są używane w niniejszej Informacji RODO.
+Informacje ogólne
+Nie gromadzimy, nie wykorzystujemy, nie przetwarzamy, nie udostępniamy, ani nie przechowujemy specjalnych kategorii Danych Osobowych w sposób celowy, mimo iż możesz podać informacje, które stanowią specjalną kategorię Danych Osobowych w ramach wyborów personalizacyjnych. 
+Kto jest odpowiedzialny za dane osobowe dotyczące Ciebie?
+Jesteśmy odpowiedzialni za Dane Osobowe dotyczące Ciebie. W szczególności Dane Osobowe są kontrolowane przez privacy Programme
+Attention: Legal Department 
+Gateway House, Tollgate, Chandler's Ford, 
+Eastleigh, Southampton, S053 3TG, 
+United Kingdom 
+Wyznaczyliśmy ITG EU & GRCI Law do działania jako naszego pełnomocnika na terenie UE i Zjednoczonego Królestwa. Jeśli chcesz skorzystać ze swoich praw w ramach RODO obowiązującego w UE lub Zjednoczonym Królestwie lub masz jakiekolwiek pytania w odniesieniu do praw lub ogólnych kwestii z zakresu ochrony prywatności, wyślij e-maila; z Europy pod adresem privacyeu@pallcprivacy.com lub Zjednoczonego Królestwa pod adresem privacyuk@pallcprivacy.com.
+Być może będziemy musieli poprosić Cię o dodatkowe informacje w celu potwierdzenia Twojej tożsamości przed udzieleniem odpowiedzi na Twoją prośbę lub Twoje pytanie.
+Na jakiej podstawie prawnej przetwarzamy Twoje dane osobowe w UE?
+W zależności od konkretnego celu lub celów przetwarzania Danych Osobowych, opieramy się na następujących podstawach prawnych wykonanie umowy z klientem lub innych zobowiązań umownych lub w celu podjęcia kroków przed zawarciem umowy z Tobą.
+W zależności od konkretnego celu lub celów przetwarzania Danych Osobowych, opieramy się na następujących podstawach prawnych przestrzeganie obowiązku prawnego (np. zobowiązanie do prowadzenia dokumentacji do naszych celów handlowych lub podatkowych lub z tytułu innych zobowiązań prawnych).
+W zależności od konkretnego celu lub celów przetwarzania Danych Osobowych, opieramy się na następujących podstawach prawnych ochrona Twoich żywotnych interesów lub żywotnych interesów innej osoby fizycznej; lub
+W zależności od konkretnego celu lub celów przetwarzania Danych Osobowych, opieramy się na następujących podstawach prawnych nasze uzasadnione interesy lub uzasadnione interesy odbiorców zewnętrznych, którzy otrzymują Dane Osobowe, pod warunkiem, że te interesy nie muszą ustąpić miejsca Twoim interesom lub fundamentalnym prawom i wolnościom.
+W zależności od konkretnego celu lub celów przetwarzania Danych Osobowych, opieramy się na następujących podstawach prawnych ważne powody związane z interesem publicznym.
+W zależności od konkretnego celu lub celów przetwarzania Danych Osobowych, opieramy się na następujących podstawach prawnych ustalenie, wykonanie lub obrony roszczeń prawnych.
+Uzasadnione interesy obejmują na przykład rozwój lub ulepszenie naszej administracji wewnętrznej lub procesów biznesowych i usług, działalność marketingową i reputacyjną, utrzymanie naszej dokumentacji na bieżąco, obsługę i zarządzania naszymi prawnymi i umownymi obowiązkami i zobowiązaniami oraz zgodność z polityką wewnętrzną i prawną oraz przepisami, które nas dotyczą.
+Ponadto, przetwarzamy Dane Osobowe, w celu powiadomienia o nowościach w zakresie produktów i usług zakupionych przez Ciebie u nas lub co do których wyraziłeś wcześniej zainteresowanie.
+Czy Twoje Dane Osobowe zostaną przekazane poza UE/EOG?
+Nasza siedziba i działalność zlokalizowane są w Stanach Zjednoczonych, Zjednoczonym Królestwie i Irlandii. Staramy się przechowywać i przetwarzać dane osobowe z UE, Zjednoczonego Królestwa, EOG i Szwajcarii w Irlandii na serwerach znajdujących się w UE. Z wyjątkiem Personal Creations i Café Press wszystkie dane osobowe klientów z UE/EOG są przetwarzane i przechowywane na serwerach Amazon Web Services zlokalizowanych w Irlandii (więcej informacji poniżej). Dane Osobowe klientów Personal Creations i Café Press są przetwarzane i przechowywane na serwerach AWS w USA. 
+Informacja dot.: Tarczy prywatności UE-USA i Szwajcaria-USA II wyroku TSUE w sprawie Schrems II oraz Standardowych Klauzul Umownych EU 
+Wycofaliśmy się z Tarczy Prywatności obowiązującej UE i USA, a także z Tarczy Prywatności obowiązującej Szwajcarię i USA, wydanych przez Departament Handlu Stanów Zjednoczonych i obejmujących swoim zakresem gromadzenie, wykorzystywanie i przechowywanie informacji osobowych przekazywanych z Unii Europejskiej i Szwajcarii do Stanów Zjednoczonych, jak opisano poniżej.
+W dniu 16 lipca 2020 r. Europejski Trybunał Sprawiedliwości stwierdził, że zakres Tarczy prywatności UE-USA nie obejmuje już przekazywania danych osobowych z Europejskiego Obszaru Gospodarczego do USA (znane jako orzeczenie Schrems II). Orzeczenie Schrems II wprowadza także dodatkowe wymogi prawne w sprawie stosowania standardowych klauzul umownych EU do przekazywania danych osobowych z EU/EOG do USA przez spółki podlegające sekcji 702 amerykańskiej Foreign Intelligence Surveillance Act i/lub rozporządzeniu wykonawczemu 12333 (E. O. 12333).
+Wiemy, że nasi klienci odwiedzający strony internetowe i partnerzy biznesowi bardzo dbają o prywatność i bezpieczeństwo danych.
+Po pierwsze należy wiedzieć, że zgodnie z naszym najlepszym przekonaniem typy Danych Osobowych pochodzących z UE/EOG, które zbieramy, wykorzystujemy, przetwarzamy, udostępniamy i/lub przechowujemy w USA, nie stanowią typu danych osobowych, które są przedmiotem wniosków władz rządowych USA, zgodnie z sekcją 702 FISA i/lub E. O. 12333.
+Po drugie należy zauważyć, że w ramach naszych najlepszych starań mających na celu zapewnienie zgodności z obowiązującymi przepisami o ochronie danych, dążymy nadal do przechowywania i przetwarzania Danych Osobowych z UE, EOG, Szwajcarii i Zjednoczonego Królestwa w Irlandii, na serwerach znajdujących się w Unii Europejskiej. Zgodnie z RODO i innymi obowiązującymi przepisami wdrażamy również szyfrowanie danych nieaktywnych (at rest), minimalizację danych oraz możliwość dostępu do swoich Danych Osobowych.
+Po trzecie, chociaż wycofaliśmy się z Tarczy Prywatności, zachowujemy dane zebrane podczas naszego udziału w niej i zapewniamy odpowiednią ochronę takich danych.
+Po czwarte, gdy międzynarodowy transfer Danych Osobowych jest niezbędny do wykonania umowy z Tobą lub w poszczególnych przypadkach do celów naszych niewątpliwie uzasadnionych interesów oraz w celu zapewnienia zgodności z naszymi wewnętrznymi politykami, umowami i zobowiązaniami prawnymi.
+Jeśli reprezentujesz jednego z naszych usługodawców lub partnerów biznesowych i Twoja organizacja jest stroną łączącej nas umowy, która zawiera standardowe klauzule umowne EU (SCC), w celu zapewnienia zgodności z przepisami dotyczącymi ochrony danych pochodzących z UE/EOG, skontaktuj się z nami pod adresem privacy@pallcprivacy.com, w celu przedyskutowania, czy nasza umowa wymaga aktualizacji wynikających z wyroku Schrems II.
+Zaufanie jest dla nas priorytetem. Będziemy nadal uważnie pracować, w celu zapewniania, aby nasi klienci, odwiedzający naszą stronę i partnerzy biznesowi byli w stanie w dalszym ciągu czerpać korzyści z naszych usług bezpiecznie, zgodnie z przepisami i bez zakłóceń.
+Twoja zgoda na przekazanie Twoich Danych Osobowych
+Poza powyższymi przypadkami możemy również przetwarzać, przechowywać i/lub przekazywać dane osobowe, które zbieramy o Tobie, w kraju poza UE lub do kraju poza UE, w tym do/w Stanach Zjednoczonych. W tych innych krajach mogą obowiązywać inne przepisy dotyczące prywatności, które mogą, ale nie muszą być tak kompleksowe, jak te obowiązujące w Twoim kraju.
+Przesyłając Dane Osobowe lub wchodząc w interakcje z naszymi Usługami, wyrażasz zgodę na ten transfer, przechowywanie i/lub ich przetwarzanie również w Stanach Zjednoczonych.
+Twoje możliwości wyboru w zakresie wykorzystania danych
+Patrz Sekcja 8 (Twoje wybory dotyczące wykorzystania danych) powyżej.
+Jak mogę uzyskać dostęp do Danych Osobowych lub poprawić moje dane?
+Możesz skorzystać ze swoich praw dostępu, poprawiania lub usuwania danych, korzystając z formularza znajdującego się pod linkiem Zarządzaj Danymi Osobowymi na dole każdej strony internetowej. Alternatywnie, możesz wysłać do nas e-maila z Europy na adres privacyeu@pallcprivacy.com lub ze Zjednoczonego Królestwa: privacyuk@pallcprivacy.com i zażądać dostępu, korekty lub usunięcia Danych Osobowych, które zostały nam przez Ciebieprzekazane. W niektórych sytuacjach nie możemy usunąć Twoich Danych Osobowych z wyjątkiem równoczesnego usunięcie konta użytkownika. Należy pamiętać, że usunięcie konta spowoduje utratę przechowywanych zdjęć, ukończonych i trwających projektów oraz całej zawartości przesłanej do sprzedaży za pośrednictwem naszych Usług w Sklepach lub na Rynkach. Jeśli dane te są usuwane przez nas na Twoje żądanie, nie będziemy mogli ich odzyskać dla Ciebie, jeśli zmienisz zdanie w przyszłości. Możemy nie być w stanie zaakceptować żądanie zmiany lub usunięcia Twoich Danych Osobowych, jeśli uważamy, że zmiana lub usunięcie będzie naruszać prawo lub wymóg prawny lub negatywnie wpływać na dokladnoscć Danych.
+Jeśli usuniesz Treści Użytkownika z Usług, kopie mogą być nadal widoczne w pamięci podręcznej i na zarchiwizowanych stronach lub tam, gdzie inni użytkownicy je skopiowali lub przechowują. Nasze warunki użytkowania regulują odpowiednie prawa w zakresie dostępu do/korzystania z informacji zawartych w naszych Usługach, w tym Treści Użytkowników.
+DO NOT SELL OR SHARE MY PERSONAL INFORMATION
+We honor the sale and sharing preferences of users. You may exercise your right to limit the sale/sharing of your personal information by using the Opt-Out Preference Signal, such as the Global Privacy Control (GPC). 
+For more information about our privacy practices, please review our Privacy Policy. 
+POLITYKA PRYWATNOŚCI REGULAMIN. ZARZĄDZAJ MOIMI INFORMACJAMI. ZARZĄDZAJ MOIMI WYBORAMI PLIKÓW COOKIE 
+Copyright 2012-2023 PlanetArt, LLC. Wszelkie prawa zastrzeżone. 
+FreePrints oraz logo FreePrints są znakami towarowymi PlanetArt, LLC. 

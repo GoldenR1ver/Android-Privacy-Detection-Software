@@ -1,0 +1,192 @@
+El archivo no puede abrirse porque no tienes JavaScript habilitado en tu navegador. Habilítalo y vuelve a cargar el archivo.
+SUSH, Privacy
+Solicitar acceso de edición
+Compartir
+Acceder
+Archivo
+Editar
+Ver
+Herramientas
+Ayuda
+Accesibilidad
+Depurar
+Resumen
+Esquema
+Los encabezados que agregues al documento se mostrarán aquí.
+Cambios de
+Afrikaans
+Azərbaycan
+Bahasa Indonesia
+Bahasa Melayu
+Català
+Čeština
+Cymraeg
+Dansk
+Deutsch
+Schweizer Hochdeutsch
+Eesti
+English (Canada)
+English (United Kingdom)
+English (United States)
+Español
+Español (Latinoamérica)
+Euskara
+Filipino
+Français
+Français (Canada)
+Galego
+Hrvatski
+Isizulu
+Íslenska
+Italiano
+Kiswahili
+Latviešu
+Lietuvių
+Magyar
+Malti
+Nederlands
+Norsk (Nynorsk)
+Norsk (Bokmål)
+Polski
+Português (Brasil)
+Português (Portugal)
+Română
+Slovenčina
+Slovenščina
+Suomi
+Svenska
+Tiếng Việt
+Türkçe
+Opciones de exportación inhabilitadas
+Nuevo►
+Abrir(O) Ctrl+O
+Crear una copia
+Guardar como Documentos de Google
+Compartir(S)►
+Correo electrónico►
+Descargar►
+Nuevo
+Aprobaciones(F2)
+Desbloquear(J)
+Cambiar nombre
+Mover
+Agregar acceso directo a Drive(,)
+Mover a la papelera(T)
+Historial de versiones►
+Permitir acceso sin conexión(K)
+Detalles(B)
+Idioma(L)►
+Configuración de la página
+Vista previa de impresión
+ImprimirCtrl+P
+Opciones de exportación inhabilitadas
+Deshacer(U) Ctrl+Z
+RehacerCtrl+Y
+CortarCtrl+X
+CopiarCtrl+C
+Copiar como Markdown(V)
+PegarCtrl+V
+Pegar sin formatoCtrl+Mayús+V
+Pegar desde Markdown(Q)
+Seleccionar todoCtrl+A
+Modo►
+Ancho del texto(W)►
+Mostrar diseño de impresión
+Mostrar esquema(N) Ctrl+Alt+A Ctrl+Alt+H
+Mostrar caracteres no imprimiblesCtrl+Mayús+P
+Mostrar más espaciado en el menú
+Mostrar las marcas(K)
+Zoom►
+Pantalla completa(U)
+Ortografía y gramática(S)►
+Recuento de palabras(W) Ctrl+Mayús+C
+Revisar cambios sugeridosCtrl+Alt+O Ctrl+Alt+U
+Comparar documentos
+Citas(K)
+Números de línea(F1)
+ExplorarCtrl+Alt+Mayús+I
+Objetos vinculados
+DiccionarioCtrl+Mayús+Y
+Traducir documento
+Dictado por vozCtrl+Mayús+S
+Configuración de notificaciones
+Preferencias
+Accesibilidad
+Panel de actividad(Z)
+Panel de actividad(Y)
+Buscar en el menúAlt+/
+Ayuda(H)
+Capacitación
+Actualizaciones
+Ayudar a mejorar Documentos
+Denunciar abuso
+Política de Privacidad
+Condiciones del Servicio
+Combinación de teclas para acceso directo(K) Ctrl+/
+Verbalización del lector de pantalla(S)►
+Modificaciones►
+Comentarios►
+Nota a pie de página►
+Encabezados(H)►
+Gráficos►
+Lista►
+Vínculo(K)►
+Tabla►
+Sección►
+Falta de ortografía(M)►
+Formato►
+Favoritos(B)►
+Mostrar cambios en vivoCtrl+Alt+Mayús+R
+Activar la compatibilidad con el lector de pantalla
+Se copió el vínculo al portapapeles
+Para habilitar la compatibilidad con lectores de pantalla, presiona Ctrl+Alt+Z. Para más información sobre la combinación de teclas para acceso directo, presiona Ctrl+barra.
+Detalles del documento
+No es posible obtener los detalles en este momento.
+Más fuentes
+Amatic SC
+Arial
+Caveat
+Comfortaa
+Comic Sans MS
+Courier New
+EB Garamond
+Georgia
+Impact
+Lexend
+Lobster
+Lora
+Merriweather
+Montserrat
+Nunito
+Oswald
+Pacifico
+Playfair Display
+Roboto
+Roboto Mono
+Roboto Serif
+Spectral
+Times New Roman
+Trebuchet MS
+Verdana
+Cualquier persona que tenga el vínculo 
+Cualquier persona que tenga el vínculo puede acceder. No es necesario registrarse. 
+Correo electrónico original
+Responder con este archivo
+Abrir mensaje original
+Redactar nuevo mensaje
+Enviar este archivo por correo electrónico
+Enviar un correo electrónico a los colaboradores
+Borrador de correo electrónico
+Desde mi última visualización
+Desde mi última aprobación
+Desde que comenzó la aprobación
+Explorar
+Explorar
+Web
+Imágenes
+Drive
+Crear documentos más inteligentes
+Para ver información e imágenes relacionadas, intenta agregar más contenido a tu documento
+Más información
+No se puede cargar el contenido de Explorar
+Reintentar

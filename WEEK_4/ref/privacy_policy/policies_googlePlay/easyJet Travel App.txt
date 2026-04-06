@@ -1,0 +1,7 @@
+We're sorry...
+We're experiencing some difficulties loading the page you've requested.
+Rest assured, our team is aware and working hard to resolve as soon as possible.
+Please try again via website_url_lnk
+Alternatively, you could try our mobile app to search, book, manage and check-in.
+Download from.
+Error, Platform Failover (Akamai_SC_Default). 

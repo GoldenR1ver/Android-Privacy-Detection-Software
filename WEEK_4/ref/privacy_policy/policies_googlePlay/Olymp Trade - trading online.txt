@@ -1,0 +1,207 @@
+About Us
+Help Center
+Trading
+Stocks
+Forex
+Fixed Time Trades
+Quickler
+More
+Assets
+Apps
+Support
+Regulation
+Legal Information
+Login
+Registration
+Back
+Privacy Policy
+Introduction
+We, at Olymp Trade (the "Company", "us" or "we") understand that you wish to keep your personal information private and that you value our emphasis on keeping your information safe and discrete. We respect your privacy and are committed to protecting the privacy of our users ("user" or "you"). This Privacy Policy outlines our practices with respect to collecting, using, and disclosing your information through your use of our websites, applications, and other online platforms we use to provide our services (collectively, "the Services").
+This Privacy Policy is a part of our Service Agreement and is incorporated therein by references.
+We encourage you to read the Privacy Policy carefully and use it to make informed decisions. By using our Services, you agree to the terms of this Privacy Policy and your continued use of the Services constitutes your ongoing agreement to this Privacy Policy including its updates.
+Data usage
+We may collect, use, store and transfer different kinds of personal data about you and for different purposes. For your use, we made the table with data categories, purposes of their use, and lawful bases for processing.
+Data type
+Examples of information we may collect
+Purposes of processing
+Lawful bases for processing 
+Identity Data
+First name, last name, and patronymic (if available), date of birth, gender, passport, ID, driver's license number, or photo.
+Account management, fraud prevention, security, compliance with AML, CTF, and other applicable laws and regulations, advertising, and personalization of user experience.. 
+Necessary to perform our contract with you.
+Necessary to comply with our legal obligations.
+Necessary for our legitimate interests (to provide effective and personalized customer services to you and to update you in relation to our services that are available to you, to perform web analytics and direct marketing). 
+Contact Data
+Billing address, email address, and telephone numbers.. 
+Account management, application functionality, fraud prevention, security, compliance with AML, CTF, and other applicable laws and regulations, developer communications, advertising, and personalization of user experience.
+Necessary to perform our contract with you.
+Necessary to comply with our legal obligations.
+Necessary for our legitimate interests (to provide effective and personalized customer services to you and to update you in relation to our services that are available to you, to maintain application functionality). 
+Profile Data. Your account details, User ID, username, and password, account photo, your country's national flag icon, your number in the leaderboard, text showing your own position in the leaderboard, status, which shows that you are online now, your experience points and winning amount your interests, preferences, feedback, and information received through your interaction with us within the course of providing our services and survey responses, e.g. in-app messages.. 
+Account management, application functionality, analytics, developer communications, advertising, including promotional activities, and internal events; personalization of user experience, fraud prevention, security, compliance with AML, CTF, and other applicable laws and regulations.
+Necessary to perform our contract with you, to provide additional services to you, e.g. Social Signals Service.
+Necessary to comply with our legal obligations.
+Necessary for our legitimate interests (take reasonable steps to confirm that you do not use any ways to manipulate our platform & for running our business, provision of administration and IT services, network security, to prevent fraud; to provide effective and personalized customer services to you and to update you in relation to our services that are available to you, to perform web analytics and direct marketing, to maintain application functionality). 
+Technical Data. Internet protocol address, your login data, browser type and version, time zone setting and location, browser plug-in type and versions, operating system and platform, and other technologies on the devices you use to access the Website or application and use of cookies stored on your device, other identifiers that relate to your device (IMEI, MAC address, advertising identifier, etc.).. Fraud prevention, security, compliance with AML, CTF, and other applicable laws and regulations, app functionality and development, advertising, analytics, and personalization of our services.. 
+Necessary to perform our contract with you.
+Necessary to comply with our legal obligations.
+Necessary for our legitimate interests (take reasonable steps to confirm that you do not use any ways to manipulate our platform & for running our business, provision of administration and IT services, network security, to prevent fraud; to provide effective and personalized customer services to you and to update you in relation to our services that are available to you, to perform web analytics and direct marketing, to maintain application functionality). 
+Usage Data. Information about how you use the Website, applications, products, and services, registration date, account category, trading cluster, number of complaints, number of requests files, and IP history, your application activity (app interactions, your installed apps), application information and performance (crash logs, diagnostics, other app performance data), Fraud prevention, security, compliance with AML, CTF, and other applicable laws and regulations, mobile apps and website functionality and development, personalization of our services, analytics, and advertising.. 
+Necessary to perform our contract with you.
+Necessary for our legitimate interests (to provide effective and personalized customer services to you and to update you in relation to our services that are available to you, to perform web analytics and direct marketing, and to maintain application functionality). 
+Financial Data
+Bank account and tax identification number (including but not limited to social security number, income tax identification number, and national insurance number).. 
+Account management, provision of services, fraud prevention, security, compliance with AML, CTF, and other applicable laws, and regulation, and provision of services.
+Necessary to perform our contract with you.
+Necessary to comply with our legal obligations.
+Necessary for our legitimate interests (reasonable steps to confirm that you do not use any ways to manipulate our platform & for running our business, provision of administration and IT services, network security, to prevent fraud). 
+Usage Data
+Information about how you use the Website, products, and services, registration date, account category, trading cluster, number of complaints, number of request files, and IP history.
+Fraud prevention, security, compliance with AML, CTF, and other applicable laws and regulations, mobile Apps and website functionality and development, and personalization of our services.
+Necessary to perform our contract with you.
+Necessary for our legitimate interests (to provide effective and personalized customer services to you and to update you in relation to our services that are available to you. 
+Transaction Data & Purchase history. Details about the transactions performed by you, details about payments, withdrawals, exchanges, trading and purchase history, profit, balance, deposited and withdrawal amount methods, and any other details in relation to the services you have made use of through our Website and applications; ROI metric (percentage of successful trades calculated for the last 7 days); asset, direction, and duration of the trade for users to copy it.. Account management, fraud prevention, security, compliance with AML, CTF, and other applicable laws and regulations, and personalization of user experience.. 
+Necessary to perform our contract with you, to provide additional services to you, e.g. Social Signals Service.
+Necessary to comply with our legal obligations.
+Necessary for our legitimate interests (take reasonable steps to confirm that you do not use any ways to manipulate our platform & for running our business, provision of administration and IT services, network security, to prevent fraud). 
+Payment Data. Details of the number of payment wallets and information of your bank card, including information of the issuing bank, card number, cardholder name, card expiration date, payment system, card validation code (CVV2 / CVC2), and photos of both sides of the bank card.. Fraud prevention, security, and compliance with AML, CTF, and other applicable laws and regulations, provision of services, account management, and personalization of user experience.. 
+Necessary to perform our contract with you.
+Necessary to comply with our legal obligations.
+Necessary for our legitimate interests (to provide effective and personalized customer services to you and to update you in relation to our services that are available to you). 
+Economic Profile Data. 
+Details on occupation, the purpose of investment, annual income, net wealth, the expected annual amount of investment, and sources of funds.
+Fraud prevention, security, and compliance with AML, CTF, and other applicable laws and regulations, account management.
+Necessary to perform our contract with you.
+Necessary to comply with our legal obligations. 
+KYC Data. "Know your customer" data: identity document information, including copies of recently dated utility bills, identity card, passport, and driver's license.. Fraud prevention, security, and compliance with AML, CTF, and other applicable laws and regulations, account management.. 
+Necessary to perform our contract with you.
+Necessary to comply with our legal obligations. 
+Special Categories of Data/ 'Sensitive' Data. Details about your annual income, biometric data, and criminal convictions, and offenses.. 
+Fraud prevention, security, and compliance with AML, CTF, and other applicable laws and regulations.
+Necessary to perform our contract with you.
+Necessary to comply with our legal obligations.
+Consent. 
+Conformity Data. Details about your education, employment status, trading experience, and self-assessment test.. 
+Fraud prevention, security, and compliance with AML, CTF, and other applicable laws and regulations, account management.
+Necessary to perform our contract with you.
+Necessary to comply with our legal obligations. 
+Marketing and Communication Data. Your preferences in receiving marketing from us and your communication preferences.. 
+Fraud prevention, security, compliance with AML, CTF, and other applicable laws and regulations, marketing and product analytics, personalization of our services, promotional activities and internal events, and provision of services.
+Necessary to perform our contract with you.
+Necessary to comply with our legal obligations.
+Necessary for our legitimate interests (to provide effective and personalized customer services to you and to update you in relation to our services that are available to you). 
+Location Data. 
+Details on your actual location when interacting with our Website (for example, a set of parameters that determine the regional settings of your interface, namely residency country, time zone, and the interface language).
+NB: It is not relevant for iOS and Android applications.
+Account management, fraud prevention, security, compliance with AML, CTF, and other applicable laws and regulations, developer communications, and personalization of our services.. 
+Necessary to perform our contract with you.
+Necessary to comply with our legal obligations. 
+Audio and Video Data
+Full audio or video recordings of calls that you receive from us or make to us.
+NB: It is not relevant for iOS and Android applications.. Account management, fraud prevention, security, and compliance with AML, CTF, and other applicable laws and regulations, developer communications, promotional activities and events, and provision of client support services.. 
+Necessary to perform our contract with you.
+Necessary to comply with our legal obligation. 
+We process the aforementioned data in compliance with the applicable laws and regulations as amended from time to time in order to Be able to perform our contractual obligations towards the Clients and offer them the best possible service.
+We process the aforementioned data in compliance with the applicable laws and regulations as amended from time to time in order to Provide our Services efficiently.
+We process the aforementioned data in compliance with the applicable laws and regulations as amended from time to time in order to Comply with our legal obligations, including, inter alia, fraud prevention, anti-money laundering, and terrorist financing laws, regulations, and recommendations of FATF.
+We process the aforementioned data in compliance with the applicable laws and regulations as amended from time to time in order to Protect our legitimate interests and your vital interests.
+Personal data is processed based on the following legal bases: Compliance with applicable laws and regulations.
+Personal data is processed based on the following legal bases: Performance of contractual obligations towards the Clients.
+Personal data is processed based on the following legal bases: Safeguarding our legitimate interests and your interests and fundamental rights do not override those interests.
+Personal data is processed based on the following legal bases: On the basis of the Client's consent.
+Please note that applicable laws and regulations require us to store some categories of data after termination of the Service Agreement or deletion of your account. More details are provided in the account deletion section hereof.
+Leaderboards
+You hereby acknowledge and agree to become part of the network and share your trading strategies and results. You authorise us to disclose your personal data (your name, experience points and winning amount, etc.) for the leaderboards on the platform. You authorize us to produce signals resulting from your trades, disclose generalised information about them, and you agree that other users will be able to copy your successful trades if you are included in the leaderboard on the platform.
+In accordance with the principles of data minimisation and purpose limitation the processing of personal data for this purpose is limited only to the following: Profile data: name (User ID, if there is no name), your country's national flag icon, photo (optional), your number in the leaderboard, text showing your own position in the leaderboard (you); status, which shows that you are online now, your experience points and winning amount; 
+In accordance with the principles of data minimisation and purpose limitation the processing of personal data for this purpose is limited only to the following: Transaction data: ROI metric (percentage of successful trades calculated for the last 7 days); asset, direction and duration of your trade for users to copy it.
+Please note that the amount of your trades is never publicly disclosed. Only the ROI metric, which is based on the total percentage of trades (successful and unsuccessful) from which the percentage of successful trades is deducted, is crucial for inclusion in the leaderboard.
+The processing covers the following activities: collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, use, disclosure, transfer (including cross-border transfer, where necessary), alignment or combination, restriction, erasure and destruction.
+You have the right to change your privacy settings at any time and make your trading activity fully private by clicking "Settings", "Privacy".
+Cookies and other tracking technologies
+We and our trusted partners use cookies and other technologies in our related services, including when you visit our site or access our Services. A "cookie" is a small piece of information that a website assigns to your device while you are viewing a website. Cookies are very helpful and can be used for various different purposes. These purposes include allowing you to navigate between pages efficiently, enable automatic activation of certain features, remembering your preferences, and making the interaction between you and our Services quicker and easier. Cookies are also used to help ensure that the advertisements you see are relevant to you and your interests and to compile statistical data on your use of our Services.
+Our website uses the following types of cookies: "Session cookies" are stored only temporarily during a browsing session in order to allow normal use of the system and are deleted from your device when the browser is closed.
+Our website uses the following types of cookies: "Persistent cookies" are read-only by our website, saved on your computer for a fixed period, and are not deleted when the browser is closed. Such cookies are used where we need to know who you are for repeat visits, for example, to allow us to store your preferences for the next sign-in.
+Our website uses the following types of cookies: "Third-party cookies" are set by other online services who run content on the page you are viewing, for example by third-party analytics companies who monitor and analyze our web access.
+Cookies do not contain any information that personally identifies you, but Personal Information that we store about you may be linked, by us, to the information stored in and obtained from cookies. You may remove the cookies by following the instructions of your device preferences; however, if you choose to disable cookies, some features of our Service may not operate properly and your online experience may be limited.
+With whom we share the information we collect
+We do not rent, sell, or share your Personal and Corporate Information with third parties except as described in this Privacy Policy.
+We may transfer or disclose Personal Information to our subsidiaries, and other affiliated companies. In addition, your Personal Information may be disclosed to other trusted third-party service providers or partners for the purpose of Authenticating your identity and verifying your account details.
+We may transfer or disclose Personal Information to our subsidiaries, and other affiliated companies. In addition, your Personal Information may be disclosed to other trusted third-party service providers or partners for the purpose of Storing or processing Personal Information on our behalf (e.g. cloud computing service providers).
+We may transfer or disclose Personal Information to our subsidiaries, and other affiliated companies. In addition, your Personal Information may be disclosed to other trusted third-party service providers or partners for the purpose of Assisting us with our business operations, providing our Services, and improving them.
+We may transfer or disclose Personal Information to our subsidiaries, and other affiliated companies. In addition, your Personal Information may be disclosed to other trusted third-party service providers or partners for the purpose of Performing research, technical diagnostics, and analytics with regard to the Services.
+We may transfer or disclose Personal Information to our subsidiaries, and other affiliated companies. In addition, your Personal Information may be disclosed to other trusted third-party service providers or partners for the purpose of Communicating promotional and informational materials, in accordance with our marketing policy (see below under "Marketing").
+We may disclose personal information or any information you submitted via the Services if we have a good faith belief that disclosure of such information is helpful or reasonably necessary to Comply with any applicable law, regulation, legal process, or governmental request.
+We may disclose personal information or any information you submitted via the Services if we have a good faith belief that disclosure of such information is helpful or reasonably necessary to Enforce our policies (including our Agreement), including investigations of potential violations thereof.
+We may disclose personal information or any information you submitted via the Services if we have a good faith belief that disclosure of such information is helpful or reasonably necessary to Investigate, detect, prevent, or take action regarding illegal activities or other wrongdoing, suspected fraud, or security issues.
+We may disclose personal information or any information you submitted via the Services if we have a good faith belief that disclosure of such information is helpful or reasonably necessary to Establish or exercise our rights to defend against legal claims.
+We may disclose personal information or any information you submitted via the Services if we have a good faith belief that disclosure of such information is helpful or reasonably necessary to Prevent harm to the rights, property, or safety of us, our users, yourself, or any third party.
+We may disclose personal information or any information you submitted via the Services if we have a good faith belief that disclosure of such information is helpful or reasonably necessary to For the legitimate purposes below To serve your advertisements when you use our Services.
+We may disclose personal information or any information you submitted via the Services if we have a good faith belief that disclosure of such information is helpful or reasonably necessary to For the legitimate purposes below To perform research or conduct anonymous analytics in order to improve and customize our Services to your needs and interests.
+We may disclose personal information or any information you submitted via the Services if we have a good faith belief that disclosure of such information is helpful or reasonably necessary to For the legitimate purposes below To support and troubleshoot our Services and respond to your queries.
+We may disclose personal information or any information you submitted via the Services if we have a good faith belief that disclosure of such information is helpful or reasonably necessary to For the legitimate purposes below To investigate violations and enforce our policies, as required by law, regulation, or other governmental authority, or to comply with a subpoena or similar legal process, or respond to a government request.
+We may disclose personal information or any information you submitted via the Services if we have a good faith belief that disclosure of such information is helpful or reasonably necessary to For the legitimate purposes below To monitor transactions for the purposes of preventing fraud, money laundering, and cheating.
+We may disclose personal information or any information you submitted via the Services if we have a good faith belief that disclosure of such information is helpful or reasonably necessary to For the legitimate purposes below For enforcement agencies and in case we find it necessary in order to enforce intellectual property or other legal rights.
+Any third party with whom we may share user data will provide the same or equal protection of user data as stated in this privacy policy.
+Third-party collection of information
+Our policy only addresses the use and disclosure of information we collect from you. To the extent that you disclose your information to other parties via our Services (e.g. by clicking on a link to another website or application) or via other sites or applications, different rules may apply to their use or disclosure of the information you disclose to them.
+It is important to note that such third-party services may have their own privacy policies and we advise you to read them carefully. The inclusion of a link to a third-party website, application, or service is not a recommendation of such a website or service. Third-party sites may contain information or service that is illegal, unreasonable, or that some people may find inappropriate or offensive. Before using third-party sites, applications or services, we recommend you to read and understand those sites' and services' terms and conditions, warranty, and privacy policies and to ensure you agree to their terms. You acknowledge that we are not responsible for the products, services, or descriptions of those products or services that you receive from third-party sites or applications or to the content or privacy practices of those sites and that this Privacy Policy does not apply to any such third party products and services. You are knowingly and voluntarily assuming all risks of using third-party sites or applications to purchase products and services. You agree that we shall have no liability whatsoever with respect to such third-party sites, applications, or services and your usage of them.
+We also use a tool called "Google Analytics" to collect information about your use of the Services. Google Analytics collects information such as how often users access the Services, what pages they visit when they do so, etc. We use the information we get from Google Analytics only to improve our Services. Google Analytics collects the IP address assigned to you on the date you visit sites, rather than your name or other identifying information. We do not combine the information collected through the use of Google Analytics with personally identifiable information. Google's ability to use and share information collected by Google Analytics about your visits to this site is restricted by the Google Analytics Terms of Use and the Google Privacy Policy.
+Advertisements
+We may use advertising technology to serve advertisements (including targeted ads) when you use our Services. We may also use third parties and share with them Non-personal Information to assist us in evaluating the success of our advertising campaigns and help us retarget our users.
+You may opt-out of many third-party ad networks, including those operated by members of the Network Advertising Initiative ("NAI") and the Digital Advertising Alliance ("DAA"). For more information regarding this practice by NAI members and DAA members, and your choices regarding having this information used by these companies, including how to opt-out of third-party ad networks operated by NAI and DAA members, please visit their respective websites: website_url_lnk and website_url_lnk
+Personal data deletion and rectification requests
+You have the right to obtain from us the rectification of inaccurate personal data, and therefore you may, at any time, request to change and update your personal data by emailing us at privacy@olymptrade.com.
+You can also request that we will correct errors or that we will delete your personal data (except for your transaction history and other data that we are required to keep under applicable laws) by emailing us at privacy@olymptrade.com.
+The deletion or rectification requests can be sent to us in a free form (in the body of a letter, scan, etc.) to privacy@olymptrade.com with your full name and contact information for a quicker processing of your request. If we are not satisfied you are who you claim to be, we reserve the right to refuse to grant your requests.
+Please note that personal data is deleted by default when we no longer have a legitimate purpose for the continued processing or storage of personal data, or when personal data is no longer required to be stored in accordance with applicable legal requirements.
+Unless you instruct us otherwise, we retain the information we collect for as long as needed to provide the Services and to comply with our legal obligations, resolve disputes and enforce our agreements. We may rectify, replenish or remove incomplete or inaccurate information, at any time and at our own discretion.
+Safeguarding and transferring your information
+We take great care in implementing and maintaining the security of the Services we offer, and your information. We employ industry-standard procedures and policies to ensure the safety of our users' information and prevent unauthorized use of any such information. Although we take all reasonable steps to safeguard information, we cannot be responsible for the acts of those who gain unauthorized access or abuse our Services, and we make no warranty, express, implied, or otherwise, that we will prevent such access.
+If you feel that your privacy was treated not in accordance with our policy, or if any person attempted to abuse our Services or acted in an inappropriate manner, please contact us directly at privacy@olymptrade.com.
+Marketing
+We may use your Personal Information, such as your name, email address, telephone number, etc. ourselves or by using our third-party subcontractors for the purpose of providing you with promotional materials, concerning our Services, as well as products, services, websites, and applications which relate to our business partners and affiliates (collectively: "Marketing Affiliates"), which we believe may interest you.
+We may also share and disclose Personal Information with our Marketing Affiliates for the purpose of providing you with different marketing offers we or our Marketing Affiliates believe are relevant for you.
+Out of respect to your right to privacy, we provide you with such marketing materials with the means to decline receiving further marketing offers from us or from our Marketing Affiliates. In addition, at any time, you may request to unsubscribe and discontinue receiving marketing offers by sending a blank message with the word "remove" to privacy@olymptrade.com.
+If you unsubscribe we will remove your email address from our marketing distribution lists and from any future lists we may share with our Marketing Affiliates. However, you may need to separately unsubscribe from marketing offers sent by our Marketing Affiliates. Please note that even if you unsubscribe from our marketing mailing list, we may continue to send you service-related updates and notifications.
+You hereby acknowledge and agree that by downloading, installing, or accessing our Services, we may share your Personal Information with our trusted partners and Marketing Affiliates for the purpose of direct marketing.
+Communication with you via WhatsApp
+By checking the box, you consent to the transfer of your personal data for communicating via WhatsApp. This service is used by us for the purpose of sending you messages related to the provision of a service and marketing messages.
+At any time, you may request to unsubscribe and discontinue receiving messages from us via WhatsApp by sending a blank message with the word "opt-out WhatsApp" to privacy@olymptrade.com. Please note that if you opt-out of receiving messages via WhatsApp, we will not be able to send you both marketing materials and informational messages via this service.
+Corporate transaction
+We may share Information, including Personal Information, in the event of a corporate transaction (e.g. sale of a substantial part of our business, merger, database migration, consolidation, or asset sale of an asset or transfer in the operation thereof) of the Company. In the event of the above, the acquiring company or transferee will assume the rights and obligations as described in this Privacy Policy.
+Account deletion
+Any Client may delete its Client account by means of the user interface within the mobile Apps on Android and iOS or by means of making a client support request. Provided that applicable laws and regulations prohibit us from deletion of personal data, the Client hereby acknowledges that in case of the account deletion the Company will store necessary personal data, as specified in the data usage part hereof, in order to comply with applicable laws and regulations and prevent fraudulent actions and platform manipulations and other dishonest actions for the term specified in the applicable laws, regulations, and recommendations. The Company will take all reasonable actions in order to secure data minimization and anonymization. The Company will cease using the Client's personal data for any other purposes that are not specified in the present abstract, including advertising and marketing purposes, upon account deletion.
+Updates or amendments to the Privacy Policy
+We may revise this Privacy Policy from time to time, at our sole discretion, and the most current version will always be posted on the website. We encourage you to review this Privacy Policy regularly for any changes.
+Registration and Authorisation
+Information about the company aollikus Limited.
+Registered number: 40131
+Address: 1276, Govant Building, Kumul Highway, Port Vila, Republic of Vanuatu
+Information about the company saledo Global LLC.
+Registered number: 227 LLC 2019
+Address: First Floor, First St. Vincent Bank Ltd Building, P. O Box 1574, James Street, Kingstown, St. Vincent & the Grenadines
+How to Contact Us
+If you have any general questions about the Services or the information that we collect about you and how we use them, please contact us at privacy@olymptrade.com. 
+Olymp Trade
+About Us
+Apps
+Affiliate Program
+Trading
+Stocks
+Forex
+Fixed Time Trades
+Quickler
+Analytics
+Assets
+Blog
+Help
+Help Center
+Support
+420K+YouTube1,4M+Facebook
+2014, 2023 Olymp Trade
+The Transactions offered by this Website can be executed only by fully competent adults. Transactions with financial instruments offered on the Website involve substantial risk and trading may be very risky. If you make Transactions with the financial instruments offered on this Website, you might incur substantial losses or even lose everything in your Account. Before you decide to start Transactions with the financial instruments offered on the Website, you must review the Service Agreement and Risk Disclosure Information. The services on the Website are provided by Aollikus Limited, a licensed financial dealer, company number: 40131, registered address: 1276, Govant Building, Kumul Highway, Port Vila, Republic of Vanuatu. Saledo Global LLC, registered at First Floor, First St. Vincent Bank Ltd Building, P. O. Box 1574, James Street, Kingstown, St. Vincent & the Grenadines provides services to clients trading in digital assets and to clients with accounts nominated in digital assets. The companies are fully licensed to perform its activities by the laws of that country. Partner companies: VISEPOINT LIMITED (registration No. C 94716, registered at 54, Immakulata, Triq il-Mina ta' Hompesch, ZABBAR ZBR 9016) and MARTIQUE LIMITED (registration No. HE 43318, registered at Loutrakiou, 5 Chara Venezia Building, 1st floor, office 101, Strovolos, 2027, Nicosia, Cyprus), provide content and perform operational management of the business.
+Select language
+RegulationLegal Information
+This Website Uses Cookies
+By continuing to browse or by clicking 'Accept', you agree to the storing of cookies on your device to enhance your site experience and for analytical purposes. To learn more about how we use the cookies, please see our Cookies policy.
+Allow All Cookies

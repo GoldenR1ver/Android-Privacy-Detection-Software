@@ -1,0 +1,471 @@
+Privacy Policy
+Last updated:1 September 2021
+The success of our products depends, to a large extent, on the fact that our customers can trust us with the security and protection of their data. In accordance with the statutory provisions, we take effective technical and organizational measures to ensure a level of protection in the processing of personal data, that is commensurate with the risk involved. Furthermore, we take the protection of your personal data into account through technical design and data protection-friendly standardized settings in the development or selection of hardware, software, and processes.
+SSL encryption. We use state-of-the-art encryption methods (for example, SSL) via HTTPS in order to protect the security of your data during transfer. Our security measures are being continuously improved in line with technological developments.
+With the following information, we would like to inform you about what types of personal data will be processed by us or on our behalf, based on which legal basis, for which purposes, and to what extent. In addition, we will inform you of your rights as a data subject with regards to this processing.
+In the event that the described processing procedures change, we will adapt this Privacy Policy as necessary. For this reason, we invite you to check the contents of our Privacy Policy on a regular basis. If any actions on your part (e.g. consent) are required due to changes, we will ask you for this in advance.
+Controller
+Legal basis
+Categories of data
+Customers and business partners
+Users of our website
+Log files
+Cookies
+Registration and use of customer account
+Contact forms
+Surveys
+Newsletters (email marketing)
+Plugins, embedded functions and content 
+Social media buttons
+Pixel tags
+Video integration
+Interactive maps
+eRecruiting
+Protection of the website
+Multilingual design
+SEO
+Web analysis
+Online marketing
+Review procedures and widgets.
+Customer Relationship Management
+Content Delivery Network
+Services and service providers used
+Applications (apps)
+Google Speech-to-Text
+Purpose
+Legal basis
+Recipients of the data
+Storage period
+Provision mandatory or required
+Objection
+Telemetry-Data
+Nature and purpose of processing
+Type of data
+Legal basis
+Storage period
+Revocation of consent
+Automated decision making
+Automatic decision making (license audit)
+Social networks
+Job offers and application process
+Duration of storage
+Data recipients
+Rights of the data subject
+Right to obtain information
+Right to object
+Right to revoke consent
+Right to rectification
+Right to erasure and restriction of processing
+Right to data portability
+Complaint to the supervisory authority
+Competent supervisory authority
+Controller
+AnyDesk Software GmbH, Türlenstrasse 2, 70191 Stuttgart ("AnyDesk" or "we") is responsible for the processing of your personal data within the meaning of Art. 4 GDPR.
+If you have any questions or concerns, please contact our data protection officer at 
+activeMind AG 
+Potsdamer Straße 3 
+DE-80802 München 
+dpo@anydesk.com.
+Legal basis
+AnyDesk processes your data in accordance with the data protection regulations of the German Federal Data Protection Act (Bundesdatenschutzgesetz, "BDSG") in the version valid as of May 25, 2018 and the Regulation 2016/679 (General Data Protection Regulation, "GDPR").
+The relevant legal basis for the processing is stated in the information on the individual categories of data.
+Categories of data
+AnyDesk processes different categories of personal data. In the following sections, the data is presented according to the group of data subjects, the respective purpose, and the relevant legal basis.
+Customers and business partners
+Insofar as we are in a contractual, quasi-contractual or pre-contractual business relationship with you, i.e. if you are already a customer, business partner or are interested in such a legal relationship ("contractual partner"), we process the following data as necessary: personal data (e.g. names, addresses, gender, company, location)
+Insofar as we are in a contractual, quasi-contractual or pre-contractual business relationship with you, i.e. if you are already a customer, business partner or are interested in such a legal relationship ("contractual partner"), we process the following data as necessary: payment data (e.g. bank details, invoices, payment history)
+Insofar as we are in a contractual, quasi-contractual or pre-contractual business relationship with you, i.e. if you are already a customer, business partner or are interested in such a legal relationship ("contractual partner"), we process the following data as necessary: contract data (e.g. subject matter of the contract, type of license, term, customer category, customer ID, login information)
+Insofar as we are in a contractual, quasi-contractual or pre-contractual business relationship with you, i.e. if you are already a customer, business partner or are interested in such a legal relationship ("contractual partner"), we process the following data as necessary: usage data (e.g. websites visited, interest in content, access times, time and duration of the respective remote data connection (session), data volume transferred, online status of the client)
+Insofar as we are in a contractual, quasi-contractual or pre-contractual business relationship with you, i.e. if you are already a customer, business partner or are interested in such a legal relationship ("contractual partner"), we process the following data as necessary: meta-/communication data (e.g. device information, device ID, IP and MAC addresses)
+Insofar as we are in a contractual, quasi-contractual or pre-contractual business relationship with you, i.e. if you are already a customer, business partner or are interested in such a legal relationship ("contractual partner"), we process the following data as necessary: content of communication directed at us (e.g. product or contract inquiries, error messages, responses to our surveys)
+We will inform you in a transparent manner before or during data collection as to extent od data that is required for this purpose. We process the data to be able to address you in communication,
+We will inform you in a transparent manner before or during data collection as to extent od data that is required for this purpose. We process the data to answer your questions,
+We will inform you in a transparent manner before or during data collection as to extent od data that is required for this purpose. We process the data to establish and fulfill our contractual obligations,
+We will inform you in a transparent manner before or during data collection as to extent od data that is required for this purpose. We process the data to protect our rights,
+We will inform you in a transparent manner before or during data collection as to extent od data that is required for this purpose. We process the data to protect against unauthorized use and misuse of our offers,
+We will inform you in a transparent manner before or during data collection as to extent od data that is required for this purpose. We process the data for related administrative tasks, and
+We will inform you in a transparent manner before or during data collection as to extent od data that is required for this purpose. We process the data for the purposes of business organization.
+Your data is processed, in particular, to allow you to select, acquire or order the selected products (licenses to use our software and any associated services), as well as to enable payment and processing. During the registration process required to acquire a license, we will create an account for you on in our systems ("customer account" or "user account"). During registration, we will point out which of the above-mentioned details are required for this purpose, in particular to verify registration or the respective use of our login functions and the use of the user account, and to prevent any possible misuse of the customer account. The customer account (my.anydesk.com) gives you access to your connection data, the contract/license information, information about the AnyDesk clients that are linked to the license, your master data as a customer, invoices, and any settings for payment methods. AnyDesk customer accounts are not public and cannot be indexed by search engines. We may use email or in-app messaging to inform users about processes relevant to their user account (such as technical changes) or to invite them to participate in surveys.
+The legal basis for the processing is therefore for contract performance and pre-contractual inquiries, Art. 6 GDPR
+The legal basis for the processing is therefore with regard to legal obligation, Art. 6 GDPR
+The legal basis for the processing is therefore otherwise, with regard to our legitimate interests, Art. 6 GDPR
+We do not store any content of the respective remote data connection (session data) beyond the required scope of data transfer. The customer can create a chat log or a session recording, which is then only stored locally on the customer's computer. AnyDesk does not access these session data.
+Users of our website
+Log files
+When users visit our website, we (or our web hosting provider) collect user access data (so-called server log files). The server log files can include the following data: the address and name of the websites and files accessed
+When users visit our website, we (or our web hosting provider) collect user access data (so-called server log files). The server log files can include the following data: date and time of access
+When users visit our website, we (or our web hosting provider) collect user access data (so-called server log files). The server log files can include the following data: data volumes transferred
+When users visit our website, we (or our web hosting provider) collect user access data (so-called server log files). The server log files can include the following data: notification of successful access
+When users visit our website, we (or our web hosting provider) collect user access data (so-called server log files). The server log files can include the following data: browser type and version
+When users visit our website, we (or our web hosting provider) collect user access data (so-called server log files). The server log files can include the following data: user's operating system
+When users visit our website, we (or our web hosting provider) collect user access data (so-called server log files). The server log files can include the following data: referrer URL (the previously visited page)
+When users visit our website, we (or our web hosting provider) collect user access data (so-called server log files). The server log files can include the following data: iP address
+This processing takes place to ensure problem-free connection to and smooth use of our website, and to ensure system security and stability. In particular, we do not use your data to draw conclusions about your person. Information of this kind may be statistically evaluated by us in order to optimize our website and the technology behind it. This processing takes place in accordance with Art. 6 GDPR on the basis of our legitimate interest in improving the stability and functionality of our website and preventing the misuse of our services.
+Cookies
+In addition, we use so-called cookies, i.e. text files that are stored on a user's computer by a browser and contain information about this user during or after his visit to a website, which may be processed by us. This information includes, for example, the login status, pages or media accessed, pseudonymous online identification ("user" or "AnyDesk IDs"), the content of a shopping cart, the licensed product selected, or the user-specific settings on our websites.
+Please note that there are different types of cookies with different purposes first-party cookies are set by us.
+Please note that there are different types of cookies with different purposes third-party cookies are mainly used by advertisers (so-called third parties) to process user information.
+Please note that there are different types of cookies with different purposes temporary cookies (also: session cookies) are deleted at the latest after a user has left a website and closed his browser. 
+Please note that there are different types of cookies with different purposes permanent cookies remain stored on the user's computer even after the browser is closed. This allows, for example, saving the login status or displaying the user-preferred content again directly when the user visits the website later. User interests used for audience measurement or marketing purposes may also be stored in such a cookie. 
+Please note that there are different types of cookies with different purposes necessary (also: essential or absolutely necessary) cookies are absolutely necessary for the operation of a website (e.g. to store logins or other user entries, or for security reasons).
+Please note that there are different types of cookies with different purposes statistical, online marketing and personalization cookies, on the other hand, are used to measure audience and to display content to users that matches their potential interests according to the stored data about access to certain content (so-called tracking). If we use these types of cookies or tracking technologies, we will inform you of this beforehand as part of the process of obtaining your consent.
+Depending on the type of cookies, we use them to process your personal data either on the basis of a previously given consent in accordance with Art. 6 GDPR, on the basis of our legitimate interests in accordance with Art. 6 GDPR (e.g. to support the operation of our website and its improvement), or because the use of cookies is necessary to fulfill our contractual obligations in accordance with Art. 6 GDPR.
+Before we process your data or have them processed in the context of the use of cookies, when you access the page, we will inform you about which cookies we use and will ask for your consent, which can be revoked at any time (cookie opt-in tool or banner). Before the consent is given, only cookies which are absolutely necessary for the operation of our website may be used.
+In addition to the option of revoking your consent at any time, you can also view our website without cookies. Please note that Internet browsers are regularly set to accept cookies. In general, you can disable the use of cookies at any time via your browser settings. Please use the help functions of your Internet browser to find out how you can change these settings (individual functions of our website, such as registration and use of the customer portal, may not work if you have disabled the use of cookies). With regard to tracking, you can also object to the use of cookies via a variety of services, e.g. via the websites website_url_lnk and website_url_lnk ("opt-out").
+Registration and use of customer account
+In the context of the registrations and use of the customer accounts, we store the IP addresses of the customers together with the access times in order to be able to verify the registration and to prevent possible misuse of the customer account. The legal basis for the data processing is Art. 6 GDPR.
+Contact forms
+When you visit the AnyDesk website, you can use a form to contact us, in particular to request technical support. In addition to the technical details listed in there, you must provide your first and last name, email address, customer ID, the text and the factual context of the inquiry. The personal data transferred to us in this context will only be used to process the respective inquiries. The legal basis for the data processing is Art. 6 GDPR.
+Surveys
+We rely on the voluntary feedback from our customers and website users in order to continuously improve our services and products. For this reason, we also use technical services and form functions of third-party providers, which we integrate into our website, in order to establish contact and to design specific surveys. In doing so, we collect the requested data, which you enter in the form, as well as meta and communication data (e.g. IP address), which we can assign to your customer and contract data.
+The legal basis for the use of these functions is our legitimate interest in the target group-oriented and flexibly adaptable presentation of contact forms on specific topics in order to be able to efficiently analyze the review of our services by our customers and to improve these services (Art. 6 GDPR). With regard to the collection of your voluntary provided information when using these survey functions, the legal basis is your consent in accordance with Art. 6 GDPR. Participating in the surveys is purely voluntary and is not required for our performance of the contract.
+Newsletters (email marketing)
+You have the option of subscribing to a newsletter, i.e. receiving emails from us, via our website. The specific content of the newsletter is based on the description provided during subscription (e.g. special offers, products and events); otherwise, our newsletters contain information about our services and our company.
+In order to subscribe, you just need to provide your email address. It will only be used to send you the newsletter you have subscribed to by email. After subscribing, you will receive an email to this email address, in which you will be asked to confirm your subscription in order to prevent someone from subscribing with a different email address ("double-opt-in procedure"). We record all newsletter subscriptions in order to prove the legal conformity of the subscription process. This includes storing the time of registration and confirmation as well as the IP address.
+Newsletters are sent on the basis of the recipient's consent, which can be withdrawn at any time (Art. 6 GDPR), or, if such consent is not required, on the basis of our legitimate interests in direct marketing (Art. 6 GDPR), if and to the extent that this is permitted by law (e.g. in the case of advertising to existing customers). The subscription process is recorded on the basis of our legitimate interests for the purpose of proving that it has been conducted properly (Art. 6 GDPR). If we commission a service provider to send emails, this is done on the basis of our legitimate interests in an efficient and secure mailing system (Art. 6 GDPR).
+Please note: The newsletters may contain a so-called web beacon (also called tracking pixel), i.e. a pixel-sized file that is retrieved from our server or from the server of a mailing service provider commissioned by us when the newsletter is opened. As part of this retrieval, we collect technical information, such as information about the browser and your system, as well as your IP address and the time of retrieval.
+On the one hand, this information is used to improve our newsletters on the basis of the technical data or to determine target groups and their reading behavior on the basis of their retrieval locations (which can be determined using the IP address) or access times.
+On the other hand, this analysis includes determining whether or not the newsletters are opened, when they are opened, and which links are clicked on. For technical reasons, this information can be assigned to the individual email addresses of the newsletter recipients. However, neither we nor the mailing service provider commissioned by us will make such an assignment; the data is evaluated exclusively to adapt our contents to the reading habits of our users. This evaluation takes place, subject to the express consent of the user to receive the newsletter, on the basis of our legitimate interests for the purpose of using a user-friendly and secure newsletter system which both serves our business interests and meets the expectations of the users (Art. 6 GDPR).
+You can unsubscribe from our newsletters at any time, i.e. revoke your consent or object to further receipt of newsletters. A link to unsubscribe from our newsletters can also be found at the end of each newsletter.
+Plugins, embedded functions and content
+We integrate various functions and content from third-party providers (e.g. graphics, videos or social media buttons and posts) in our website in order to make relevant information about our company and our services easily accessible to you as a user of our website. For this purpose, the third-party providers process the IP addresses of the users, since without the IP address they would not be able to send the content to their browsers.
+Social media buttons
+When you click on one of our social media buttons, the data is transferred to the corresponding social network via the so-called "Shariff" application. Instead of your browser, a connection with the server of the respective social network platform is established by the server on which our website is located, i.e. initially no personal data of the user is passed on to the social network provider. A "Shariff" button establishes direct contact between the social network and you as a user only when you actively click on the "Share" button. You can recognize the respective provider of the plugin by the marking on the box or in the circle above its respective first letter or the logo. More information about the "Shariff project" can be obtained from the developers of the ct magazine: website_url_lnk
+Pixel tags
+In addition, third-party providers may use so-called pixel tags (also known as web beacons) in order to evaluate visitor flows. This exclusively pseudonymous information may also be stored in cookies on the user's device and may contain technical information about the browser and operating system, websites to be referred to, the time of visit, and other details on the use of our website, and may also be linked to such information from other sources. With regard to the legal basis and the individual opt-out options, please refer to the information on the use of cookies in this Privacy Policy.
+Video integration
+We integrate videos from the YouTube platform on our website, in particular via a plugin, in order to provide you with visually rich information about our products and technical processes. In doing so, we use the YouTube "No Cookies" function, i.e. we have enabled the "privacy-enhanced" function. Therefore, videos are accessed via youtube-nocookie.com instead of youtube.com. When the relevant pages are accessed, however, the IP address and other data mentioned under "Log files" are transferred and thus, in particular, information is provided as to which of our Internet pages you have visited. However, this information cannot be associated with you if you are permanently signed in to YouTube or another Google service when you access the page. When you start playing such an integrated video by clicking on it, the YouTube privacy-enhanced mode on your device only stores cookies that do not contain any personally identifiable information, unless you are currently signed in to a Google service. These cookies can be blocked via certain browser settings and extensions. With regard to the legal basis, please also refer to the information on the use of cookies in this Privacy Policy.
+Interactive maps
+Furthermore, we integrate Google Maps on our website in order to include an interactive map directly on the website to determine our company location and to allow you to conveniently use the map function for better navigation. In certain versions, the integration means that when the user accesses the website, Google may set cookies with which a connection to the Google network is established. The legal basis for the integration of Google Maps and the associated data transfer to Google is your consent (Art. 6 GDPR). Please refer to the information on the use of cookies in this Privacy Policy.
+eRecruiting
+We also integrate a plugin for the "Prescreen" eRecruiting system on our website. This allows us to place job advertisements under the ".jobbase.io" domain and receive and manage applications. Cookies may be used on our website to record users of application forms. The legal basis for this is your consent (Art. 6 GDPR). Please refer to the information on the use of cookies in this Privacy Policy. When you go to our application page under website_url_lnk and click the "Apply Now" button, the IP address as well as the information listed under "Log files" will be transferred to the server of the third-party provider and you will be forwarded to our current job offers on their server. The legal basis for this is § 26 BDSG in conjunction with Art. 88 GDPR, as well as (for the implementation of pre-contractual measures) Art. 6 GDPR. For more information, please refer to "Job offers and application process".
+Protection of the website
+We use the "Wordfence Security" service to protect our website from viruses and malware and to fend off attacks by computer criminals. IP addresses are stored on the third-party servers, in particular, to protect against so-called brute-force and DDoS attacks. IP addresses classified as harmless are placed on a white list. The protection of our website and its users constitutes a legitimate interest within the meaning of Art. 6 GDPR. In addition, the plugin uses cookies to recognize whether the visitor of our website is a human or a robot. In this respect, please refer to the information on the use of cookies in this Privacy Policy. The Live Traffic View option of the plugin is disabled as it is not mandatory.
+Multilingual design
+We also use the multilingual WPML plugin in order to offer you our website in different languages. The design of our website that is comprehensible for as many users as possible constitutes a legitimate interest within the meaning of Art. 6 GDPR. For this purpose, when you visit our website, WPML sets a cookie in order to store the language setting you have selected. In this respect, please refer to the information on the use of cookies in this Privacy Policy.
+SEO
+We use the YOAST SEO plugin to support the search engine optimization of our website. This plugin ensures the technical optimization of our website for search engines while supporting us in the development of content on our website. This is done to make sure that customer groups interested in our offers can easier find us on the Internet, which is a legitimate interest within the meaning of Art. 6 GDPR. The plugin uses cookies. In this respect, please refer to the information on the use of cookies in this Privacy Policy.
+Web analysis
+For the evaluation of visitor flows on our website, we may record the behavior, interests or demographic information of the users of our website as pseudonymous values. Based on this audience analysis, we can, for example, identify under which IP address, at what time and from where certain contents of our website or its functions are most frequently accessed, or invite the user to use them again. This also allows us to better understand which functions or content of our website require optimization (because they are not accessed as often or not at all). For this purpose, we create and store user profiles in a file (a so-called cookie), or we may use similar procedures with the same purpose.
+On the one hand, to protect the users, we use a so-called IP masking procedure (pseudonymization by shortening the IP address) when storing the users' IP addresses. On the other hand, in the context of web analysis and optimization, no real user ID data is stored (i.e. neither email addresses nor names), but strictly pseudonyms. Therefore, we do not know the actual identity of the users. We use the stored data exclusively for the aforementioned purposes in their pseudonymous user profiles. With regard to the legal basis and the individual opt-out options, please refer to the information on the use of cookies in this Privacy Policy.
+Online marketing
+User profiles can be created and stored in a file to display advertising content or to market advertising space (online marketing). These data can be used to determine the users' potential interests and to measure the effectiveness of online marketing. The stored data may include content accessed, websites visited, online networks used, as well as communication partners and technical information, such as the IP address, the browser used, the computer system used, and information on usage times. If users have consented to their location data being collected, this data may also be processed.
+The following shall also apply in the case of online marketing: We use a so-called IP masking procedure (pseudonymization by shortening the IP address) when storing IP addresses. In the context of web analysis and optimization, no real user ID data is stored (i.e. neither email addresses nor names), but strictly pseudonyms.
+Therefore, we do not know the actual identity of the users. We use these stored data exclusively for the aforementioned purposes in their pseudonymous user profiles. In exceptional cases, real ID data may be assigned to the user profiles if the respective user is a member of a social network whose online marketing process we use and with whose providers the users have entered into agreements (e.g. by giving consent during registration), according to which the network may link the user profiles with the aforementioned data.
+Otherwise, we only have access to summarized information about the success of our advertisements, i.e. we can measure which of our online marketing processes have led to a so-called conversion (i.e. to an inquiry or a contract with us).
+In general, the data stored in the cookies (or using comparable processes) may also be read on other websites (which use the same online marketing process) and, in turn, may be analyzed for the purpose of displaying content, supplemented with further data if necessary, and stored on the server of the online marketing process provider.
+With regard to the legal basis for online marketing processes and the individual opt-out options, please refer to the information on the use of cookies in this Privacy Policy.
+Review procedures and widgets
+We use the so-called review widgets on the AnyDesk website to allow our customers to review providers and products, and for our own quality management. In the process, a reference to the results of the review of our products by customers offered by a service provider named in there is integrated via a linked page or image element. When the image element is called up, the service provider's web server automatically saves the IP address and the information listed under "Log files". Further personal data may be transferred to the respective service provider if you have decided to review our products according to their terms and conditions.
+This data processing takes place on the basis of Art. 6 GDPR and is necessary to safeguard our legitimate interest in transparent review management and to ensure that we only publish reviews by users who can actually report on their own experiences as our customers and users of our products.
+Customer Relationship Management
+We use Customer Relationship Management systems to maintain our customer relationships as part of our online presence. They help us to effectively systematize, manage and document product-relevant information offers and communication with our customers. This is done using software solutions which integrate the following aspects when using our website: contact management
+We use Customer Relationship Management systems to maintain our customer relationships as part of our online presence. They help us to effectively systematize, manage and document product-relevant information offers and communication with our customers. This is done using software solutions which integrate the following aspects when using our website: email marketing
+We use Customer Relationship Management systems to maintain our customer relationships as part of our online presence. They help us to effectively systematize, manage and document product-relevant information offers and communication with our customers. This is done using software solutions which integrate the following aspects when using our website: social media publishing
+We use Customer Relationship Management systems to maintain our customer relationships as part of our online presence. They help us to effectively systematize, manage and document product-relevant information offers and communication with our customers. This is done using software solutions which integrate the following aspects when using our website: web analysis
+We use Customer Relationship Management systems to maintain our customer relationships as part of our online presence. They help us to effectively systematize, manage and document product-relevant information offers and communication with our customers. This is done using software solutions which integrate the following aspects when using our website: online marketing
+We use Customer Relationship Management systems to maintain our customer relationships as part of our online presence. They help us to effectively systematize, manage and document product-relevant information offers and communication with our customers. This is done using software solutions which integrate the following aspects when using our website: registration services (our user account my.anydesk.com)
+We use Customer Relationship Management systems to maintain our customer relationships as part of our online presence. They help us to effectively systematize, manage and document product-relevant information offers and communication with our customers. This is done using software solutions which integrate the following aspects when using our website: customer review management
+With regard to the legal basis and the individual opt-out options, please refer to the information on the aforementioned topics and the services used in this Privacy Policy.
+In the case that you are already a registered customer of AnyDesk, the Web Analysis and Online Marketing services may contain specific information about your customer, contact and contract information that shall be linked with your account. The legal basis for the use of this personal data is our legitimate interests in improving our website to make it easier for the customers to use it and to provide additional information and offers pertaining to our services (Art. 6 GDPR).
+Content Delivery Network
+In order to deliver the content of our website, i.e. also large media files (such as graphics, videos or program scripts) to you faster and more securely, we use regionally distributed servers of a so-called Content Delivery Network (CDN), which are connected via the Internet. In doing so, we establish a connection to the server of the CDN service provider and transfer your IP address there. If you are signed in with an existing user account with this service provider while visiting our website, this service provider can also associate your visit to our website with your user behavior. The legal basis for the use of a CDN and the associated data transfer are our legitimate interests in improving our website to make it easier for the customers to use it (Art. 6 GDPR).
+In addition, the service provider can send further cookies to your browser. In this respect, please refer to the information on the use of cookies in this Privacy Policy.
+Services and service providers used
+Albacross
+Service provider: Albacross Nordic AB, Kungsgatan 26, 111 35 Stockholm, Sweden
+Privacy Policy: website_url_lnk
+Cookie Policy: website_url_lnk
+Brainformatik CRM PLUS
+Service provider: Brainformatik GmbH, Mobil-Oil-Str. 31, D-84539 Ampfing
+Website: website_url_lnk
+Privacy Policy: website_url_lnk
+Cloudfront
+Service provider: Amazon Web Services, Inc., 410 Terry Avenue North, Seattle WA 98109, USA
+Website: website_url_lnk
+Privacy Policy: website_url_lnk
+Criteo
+Service provider: Criteo GmbH, Gewürzmühlstr. 11, D-80538 Munich
+Website: website_url_lnk
+Privacy Policy: website_url_lnk
+Opt-Out: website_url_lnk
+G2Crowd
+Service provider: G2Crowd Inc., 20 N. Wacker Drive, Suite 2050, Chicago, IL 60606, USA
+Privacy Policy: website_url_lnk
+Cookie Policy: website_url_lnk
+Further legal information: website_url_lnk
+Google Analytics
+Service provider: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland
+Parent company: Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+Website: website_url_lnk
+Privacy Policy: website_url_lnk
+Opt-Out:website_url_lnk
+Settings for the display of advertising pop-ups: website_url_lnk
+Google Ads and Conversion Measurement
+Service provider: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland
+Parent company: Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+Website: website_url_lnk
+Privacy Policy: website_url_lnk
+Google Maps
+Service provider: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland
+Parent company: Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+Website: website_url_lnk
+Privacy Policy: website_url_lnk 
+Facebook Pixels and Target Group Formation (Custom Audiences)
+Service provider: website_url_lnk Facebook Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbor, Dublin 2, Ireland
+Parent company: Facebook, 1 Hacker Way, Menlo Park, CA 94025, USA
+Website: website_url_lnk
+Privacy Policy: website_url_lnk
+Opt-Out: website_url_lnk
+Hotjar
+Service provider: Hotjar Ltd., Level 2, St Julians Business Centre, 3, Elia Zammit Street, St Julians STJ 1000, Malta
+Privacy Statement: website_url_lnk
+Privacy Policy: website_url_lnk
+HubSpot
+Service provider: HubSpot, Inc., 25 First St., 2nd floor, Cambridge, Massachusetts 02141, USA
+Website: website_url_lnk
+Privacy Policy: website_url_lnk
+Prescreen
+Service provider: Prescreen International GmbH, Mariahilfer Strasse 17, 1060 Vienna
+Website: website_url_lnk
+Privacy Policy: website_url_lnk
+Shariff
+Service provider: Heise Medien GmbH & Co. KG, Karl-Wiechert-Allee 10, 30625 Hanover
+Website: website_url_lnk
+Privacy Policy: website_url_lnk
+Taboola
+Service provider: Taboola, Inc. 16 Madison Square West 7th Floor New York, New York 10010, USA
+Website: website_url_lnk
+Privacy Policy: website_url_lnk
+Opt-Out: website_url_lnk
+Typeform
+Service provider: Typeform S. L., Carrer Bac de Roda, 163, 08018 Barcelona, 1-2, Spain
+Privacy Policy: website_url_lnk
+Cookie Policy: website_url_lnk
+Wordfence Security
+Service provider: Defiant Inc., 800 5th Ave., Suite 4100, Seattle, WA 98104, USA
+Privacy Policy: website_url_lnk
+WPML
+Service provider: OnTheGoSystems Limited, 22/F 3 Lockhart Road, Wanchai, Hong Kong
+Privacy Policy: website_url_lnk
+Yoast SEO
+Service provider: Yoast BV, Don Emanuelstraat 3, 6602 GX Wijchen, the Netherlands
+Privacy Policy: website_url_lnk
+YouTube
+Service provider: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland
+Privacy Policy: website_url_lnk
+Opt-Out: website_url_lnk
+Applications (apps)
+In order to establish the data connection when using our remote desktop app, you must install the AnyDesk software client on your device and activate the acquired license key in your user account. Then, when you start the software client, the following data will be stored for the reasons mentioned above (existing data will be overwritten) and assigned to an AnyDesk customer ID: information
+Reason 
+IP address of the involved client
+Abuse handling 
+Time of login
+Statistics / identify inactive accounts 
+AnyDesk version
+Statistics / visible at my.anydesk.com 
+Country
+Statistics / Abuse handling 
+MAC addresses
+Wake on LAN feature, can be disabled in the client 
+Network ID
+Statistics / Abuse handling / Wake on LAN feature 
+DHCP DNS suffix
+Statistics / Commercial use detection 
+Computer Name
+Statistics / Abuse handling / Commercial use detection 
+User Name
+Statistics / Abuse handling / Commercial use detection 
+Operating System, Version
+Statistics 
+CPU information
+Statistics 
+RAM information
+Statistics 
+GPU information
+Statistics 
+Display resolution
+Statistics 
+Hashed Hardware Serial Numbers
+Abuse handling 
+OS installation time
+Abuse handling 
+Parts of these data are also processed in order to analyze whether and on which connection path your device is available for connection to other devices.
+When the remote data connection takes place between the connection partners, the session data are transferred to the software client of the other connection partner via our master server and (taking into account, in particular, the locations and the current load) certain routing servers. AnyDesk itself does not access these session data. We store the following usage data for the purposes also mentioned in here (existing data will be overwritten): information
+Reason 
+Start time of the session
+Statistics / visible at my.anydesk.com 
+End time of the session
+Statistics / visible at my.anydesk.com 
+AnyDesk ID of the involved clients
+Statistics / visible at my.anydesk.com 
+License IDs of the involved clients
+Required for operation 
+IP address of the involved clients
+Abuse handling 
+Countries of the involved clients
+Statistics / Abuse handling 
+Amount of transmitted data
+Statistics 
+We may also contact you via in-app messages, in compliance with the legal requirements, if the communication is necessary for the purposes of administration or use of the application, or to inform you about changes or improvements to our products or completely new products, to invite you to participate in surveys, or to give you tips on how to get the most out of our products. For this purpose, we will process the above-mentioned usage data as well as your customer ID. In the course of deciding whether and how we should contact and inform you, we will also process the type of license you have, the language and version of the product you are using and your country, and we may also use data that we have collected through web analysis.
+The data processing necessary for the verification of the usage authorization and the provision of the functionalities of the application itself serves to fulfill contractual obligations (Art. 6 GDPR). In addition, we process data if this is required to secure the application or protect our legitimate business interests (Art. 6 GDPR; e.g. collection of data for the purpose of optimizing the application, or for security purposes). Otherwise, data will only be processed to the extent to which you as the user have expressly given your consent (Art. 6 GDPR).
+Please note that the opt-out or revocation of the respective authorizations may affect the functionality of our application.
+Google Speech-to-Text
+In our app you will find the Google Speech-to-Text function. This is operated by Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA (hereinafter "Google"). 
+This function is used to compose voice messages and send them to the Google Cloud for conversion into character strings. 
+The Google Speech-to-Text function is provided as an option. 
+Data is therefore only transmitted to Google when you press the microphone icon. This activates the microphone you are using and you now have the option of converting the spoken language into text.
+Purpose
+The purpose is to enable a more comfortable and user-friendly use of our app. 
+By converting the spoken words and sentences into text through Google Speech-to-Text, the processes are accelerated and simplified.
+Legal basis
+The legal basis for the processing is Art. 6 f) DSGVO. 
+Our legitimate interest is to improve the functionality and usability of our app.
+Recipients of the data
+If you activate the microphone icon and make a voice input, Google receives the spoken sentence in order to convert it into text. 
+Google does not make the audio sent to the Speech-to-Text API available to anyone except as necessary to provide the Speech-to-Text API service. For example, it may be necessary to engage a third-party provider to provide some aspects of Google's services, such as data storage or transmission. In these cases, that provider is subject to contractual obligations of security and confidentiality. Google does not share your audio content with other parties for any other purpose.
+Storage period
+AnyDesk does not store your data as part of the Speech-to-Text function. Your data is passed directly to Google for conversion. 
+By default, Google does not log a customer's audio data or transcripts. 
+Google uses customer data to optimise and improve the speech recognition service, only if you sign up for the data logging program. 
+AnyDesk has chosen not to enroll in the data logging program in order to protect your personal data. 
+However, we cannot exclude the possibility that Google may retain audio files.
+Provision mandatory or required
+The provision of your personal data is voluntary and is not required by law or contract. However, without the data transfer to Google-Speech-to-Text, a conversion of your spoken language into text is not possible.
+Objection
+Please read the information about your right to object according to Art. 21 DSGVO below. 
+You can find more detailed information about data processing by Google in the Google Privacy Notice: website_url_lnk and more detailed information about the Google Speech-to-Text function here: website_url_lnk
+Telemetry-Data
+Nature and purpose of processing
+We collect and aggregate user telemetry data in connection with the provision of our services for the following purposes: evaluating interactions: from the analysis on the use of the program interface and functions, insights can be gained into the acceptance of AnyDesk's graphical components and functionalities, so that areas with potential for optimization can be better identified in the context of further product development and the user experience can be improved.
+From the analysis on the use of the program interface and functions, insights can be gained into the acceptance of AnyDesk's graphical components and functionalities, so that areas with potential for optimization can be better identified in the context of further product development and the user experience can be improved.
+Licenses and scamming 
+When using the free version of AnyDesk, usage data is reviewed to determine whether the user's behaviour patterns are in accordance with our "AnyDesk Free" Supplementary Terms and Conditions, see the section entitled "Automatic Decision Making (License Audit)". 
+Usage data is analysed to detect potential scamming cases at an early stage. 
+Evaluation of system data 
+Which hardware is used when AnyDesk software is in use provides us with important information for support purposes, for example, in the event of client-side performance problems. In addition, this information is used for further product development with regard to system modifications. 
+Type of data
+Version of client, client ID, IP address, operating system, zone of relay (continent, later country), license, license name, network ID, first login, last login, user_identifier hashed, information about interactions: Timestamp of interaction, message counter, 
+Category of interaction: click, drag, drop, etc. 
+Identifier for interaction: login, frontend, click events, undraggable, auto-update, etc., which window e.g. settings or window for file transfer (within the software).
+Legal basis
+The processing of telemetry data is based on the user's consent according to Art. 6 para. 1 lit. a DSGVO.
+Storage period
+The data will only be processed as long as your consent is given or for 2 years. 
+Provision mandatory or required 
+This consent is voluntary. If it is not given, you will not have any disadvantages. This consent can be revoked at any time with effect for the future.
+Revocation of consent
+The revocation of consent is possible at any time with effect for the future and can be done by using the deactivation button.
+Automated decision making
+see paragraph, "Automated decision making (license audit)".
+Automatic decision making (license audit)
+We offer personal users of our licensed products (i.e. exclusively for uses that cannot be attributed to commercial or self-employed professional activity) the option of a free version, which can be used without setting up a user account after simply downloading the application. In this case, we may analyze your usage data (see above under "Applications") in line with our "AnyDesk Free" Supplementary Terms and Conditions in order to be able to assess whether your behavior pattern aligns with the contractual purpose of use and thus to the selected license type (license audit).
+If, based on the results of this analysis, a fee-based license is required, we reserve the right to restrict or even block your access to our server services and we will ask you to purchase a fee-based license. This takes place in an automated decision-making process according to our system settings. You can contact our Support at any time to ask us to reassess your user behavior. We will inform you beforehand which information you will need to provide.
+The automated decision-making process as part of the license audit and the use of automated mechanisms based on it (such as the restriction or blocking of non-contractual uses) is essential for the effective control of compliance and, if necessary, the enforcement of our license terms with regard to the considerable number of users of the free version of our application. Since the use of the free version can only be financed through paid usage relationships, this automated decision-making process is necessary to fulfill our contractual services for private users, as it must be effectively ensured that all users use our application within the contractually agreed license scope. The legal basis for this is Art. 6 GDPR in conjunction with Art. 22 GDPR.
+Social networks
+Our company maintains an online presence within various social networks (social media). We process data of active users of these social networks in order to communicate with them there or to offer information about AnyDesk. This processing takes place on the basis of our legitimate interests in effective information for users and communication with users under the applicable framework conditions of the respective social medium in accordance with Art. 6 GDPR. If you, as a user of the respective social medium, are asked to give your consent to data processing (e.g. by ticking a check box), the legal basis for processing is Art. 6 GDPR.
+If it is technically possible for us to influence the processing operations relevant to the data protection regulations of the respective social media you have accessed, we will do so in the sense of data minimization within the meaning of Art. 5 GDPR. However, please note that your use of the respective social networks is subject to their terms and conditions and data processing guidelines. Therefore, it cannot be ruled out that your data may also be processed outside the European Union. On the one hand, this could make it more difficult to enforce your rights. On the other hand, the data collected when using the functionalities of the social networks may also be analyzed and processed for market research and advertising purposes. This is done by storing your usage behavior and the resulting interests and preferences as usage profiles in cookies and by placing advertisements based on these profiles inside and outside the social networks that presumably match your interests (online marketing). If you as a user are also a member of the respective social networks and are signed in to them, the usage profiles may also store data that are independent of those of the end devices you are using.
+Information and notes on the respective forms of processing and the opt-out options can be found in the privacy policies and details of the operators of the respective networks. Since only the respective operators of the social networks have access to the data processed by them, you would also need to make requests for information in this regard and assert your rights as a data subject with them. We will be more than happy to help you if you need our support in this regard.
+Services and service providers used facebook
+Services and service providers used service provider: Facebook Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbor, Dublin 2, Ireland
+Services and service providers used parent company: Facebook, 1 Hacker Way, Menlo Park, CA 94025, USA
+Services and service providers used website: website_url_lnk
+Services and service providers used privacy Policy: website_url_lnk
+Services and service providers used opt-Out: Settings for advertisements: website_url_lnk
+Services and service providers used facebook offers a special agreement ("Information about Page Insights", website_url_lnk which regulates which security measures Facebook must observe and in which Facebook has agreed to respect the rights of data subjects. We have entered into this agreement with Facebook in order to better assert your rights. Your rights as a user (in particular, to information, erasure, objection and complaint to the competent supervisory authority) are, of course, not restricted by these agreements with Facebook. Further information can be found in the "Information about Page Insights" (website_url_lnk
+Services and service providers used linkedIn
+Services and service providers used service provider: LinkedIn Ireland Unlimited Company, Wilton Place, Dublin 2, Ireland
+Services and service providers used website: website_url_lnk
+Services and service providers used privacy Policy: website_url_lnk
+Services and service providers used opt-Out: website_url_lnk
+Services and service providers used twitter
+Services and service providers used service provider: Twitter Inc., 1355 Market Street, Suite 900, San Francisco, CA 94103, USA
+Services and service providers used privacy Policy: website_url_lnk
+Services and service providers used settings: website_url_lnk
+Services and service providers used reddit
+Services and service providers used service provider: reddit Inc., 520 Third Street, Suite 305, San Francisco, CA 94107, USA
+Services and service providers used website: website_url_lnk
+Services and service providers used privacy Policy: website_url_lnk
+Services and service providers used spiceworks (Community)
+Services and service providers used service provider: Spiceworks, Inc., 3700 N. Capital of Texas Highway, Suite 100, Austin, Texas 78746, USA
+Services and service providers used website: website_url_lnk
+Services and service providers used privacy Policy: website_url_lnk
+Services and service providers used cookie Policy: website_url_lnk
+Services and service providers used xing
+Services and service providers used service provider: XING AG, Dammtorstrasse 29-32, 20354 Hamburg, Germany
+Services and service providers used website: website_url_lnk
+Services and service providers used privacy Policy: website_url_lnk
+Job offers and application process
+As part of our application process, it is necessary for applicants to provide us with the data required for their professional assessment and selection. Which data this is in the individual case can be seen from the respective job advertisement or from the information provided in the relevant online forms. When you apply for a job offer, we usually process the following categories of personal data: contact information: first and last name (title, if applicable)
+As part of our application process, it is necessary for applicants to provide us with the data required for their professional assessment and selection. Which data this is in the individual case can be seen from the respective job advertisement or from the information provided in the relevant online forms. When you apply for a job offer, we usually process the following categories of personal data: contact information: address
+As part of our application process, it is necessary for applicants to provide us with the data required for their professional assessment and selection. Which data this is in the individual case can be seen from the respective job advertisement or from the information provided in the relevant online forms. When you apply for a job offer, we usually process the following categories of personal data: contact information: phone number
+As part of our application process, it is necessary for applicants to provide us with the data required for their professional assessment and selection. Which data this is in the individual case can be seen from the respective job advertisement or from the information provided in the relevant online forms. When you apply for a job offer, we usually process the following categories of personal data: contact information: email address
+Qualification-related information, in particular academic achievements and other information contained in the curriculum vitae, including information on prices and scholarships and extracurricular achievements, information on dissertation projects, information on education and professional experience 
+Qualification-related information, in particular copies of diplomas and certificates
+Qualification-related information, in particular photos attached to an application, if applicable
+Qualification-related information, in particular information on (possibly only planned or hoped for) further education and other career steps as well as professional focuses and interests, if applicable
+We collect these data directly from you and only process them to the extent necessary for the application process. The legal basis for this processing is § 26 BDSG in conjunction with Art. 88 GDPR, as well as (for the implementation of pre-contractual measures with regard to freelancers) Art. 6 GDPR. The data will be encrypted and transferred to us in accordance with the latest state of the art. Please note that we may use third-party services for the purpose of searching for and selecting applicants (e.g. applicant management or recruitment software and platforms). The legal basis for this is our legitimate interest in an efficient and transparent job advertisement (Art. 6 GDPR; please also refer to the information in "Data recipients").
+During the application process, special categories of personal data within the meaning of Art. 9 GDPR (e.g. health data, such as severe impairment or ethnic origin) are processed only for the purpose of exercising the obligations or rights arising to us or the data subject from labor law and social security and social protection law (Art. 9 GDPR), and otherwise to protect the vital interests of applicants or other persons according to Art. 9 GDPR or for health care or occupational medicine purposes, for assessing the employee's ability to work, for medical diagnostics, for care or treatment in the health or social sector, or for the administration of systems and services in the health or social sector in accordance with Art. 9 GDPR. In the case of a notification of the special categories of data based on voluntary consent, their processing is based on Art. 9 GDPR.
+Duration of storage
+Personal data is stored as long as processing is necessary for the purposes described under "Categories of data" unless you have expressly given us your consent for a longer storage period (Art. 6 GDPR), or unless statutory provisions prescribe a longer storage period (Art. 6 GDPR). As far as the data subject to the statutory retention periods, we store this data in our systems until the statutory retention periods have expired (these are generally 6 or 10 years for reasons of proper bookkeeping and tax law requirements).
+We will inform you if we use the services of third-party providers or platforms to provide our services, since the relationship between you as a user of these services and the respective providers will then be governed by their terms and conditions and privacy policies (and thus possibly different storage periods). It is the responsibility of the contractual partner to secure their data when the storage period expires (e.g. if the customer account is terminated).
+With regard to email addresses provided by you to receive newsletters, the following shall apply as well: We store deleted email addresses for up to three years on the basis of our legitimate interests before we delete them in order to be able to prove a previously given consent (Art. 6 GDPR). The processing of this data is limited to the purpose of possible defense against claims. An individual request for deletion may be made at any time provided that the previous existence of consent is confirmed at the same time. In the event of obligations to take due account of objections, we reserve the right to store the email address in a blacklist (so-called "blocklist") for this purpose alone.
+In addition, the following shall apply with regard to the application process: unless the application has led to the commencement of employment with us, the personal data collected via our job portal or by other means for the purposes of the application process will be further processed for a maximum of three years after the process has been completed (Art. 6 GDPR) for evidence preservation purposes, after which they will be deleted or anonymized. The application process itself is considered completed no later than three months after receipt of your application.
+Upon termination of the contractual relationship with customer data, all information relating to the user account will be deleted, subject to a statutory retention period. It is the responsibility of the users to back up their data before the end of the contract. We are entitled to irretrievably delete all user data stored during the term of the contract.
+Data recipients
+We will only pass on your data to third parties in compliance with the statutory provisions to the extent that this
+is necessary for the purposes described under "Categories of data",
+is necessary to fulfill legal obligations, or
+takes place with your consent as a data subject.
+If the transfer or disclosure of the data takes place on our behalf for the execution of data processing processes that are earmarked for a specific purpose or subject to consent according to above, we will enter into suitable contracts or agreements with the recipients of the data which serve to protect your data (Art. 28 GDPR).
+Recipients of this data can be telecommunications companies
+Recipients of this data can be (Technical and organizational) auxiliary service providers
+Recipients of this data can be subcontractors
+Recipients of this data can be banks
+Recipients of this data can be tax and legal advisers
+Recipients of this data can be web hosting providers
+Recipients of this data can be iT service providers
+Recipients of this data can be providers of product review procedures
+Recipients of this data can be payment service providers
+Recipients of this data can be providers of online application tools
+Recipients of this data can be providers of web analysis, online marketing or CRM services
+Recipients of this data can be providers of survey tools
+Recipients of this data can be cloud services
+Recipients of this data can be tax authorities
+We may transfer personal data to affiliated companies of our group of companies or grant them access to this data. If this transfer takes place for administrative purposes, the transfer of the data is based on our legitimate business and commercial interests (Art. 6 GDPR) or takes place if it is necessary to fulfill our contractual obligations (Art. 6 GDPR), or if the consent of the data subject (Art. 6 GDPR) or legal permission (Art. 6 GDPR) has been obtained.
+Subject to your express consent (Art. 6 GDPR) or a transfer required by contract (Art. 6 GDPR) or by law (Art. 6 GDPR), your personal data will only be processed in third countries (i.e. outside the European Union or the European Economic Area) with a recognized level of data protection, a contractual obligation through so-called standard protection clauses of the EU Commission, in the presence of certifications or binding internal data protection regulations, by us or on our behalf (Art. 44 to 49 GDPR).
+Please also refer to the information page of the EU Commission: website_url_lnk
+Rights of the data subject
+As a data subject, you are entitled, in particular, to the rights arising from Art. 15 to 21 GDPR
+Right to obtain information
+You have the right to request confirmation as to whether or not the data in question is being processed, and to obtain information on such data as well as further information and a copy of the data in accordance with the legal requirements.
+Right to object
+You have the right to object at any time, for reasons arising from your particular situation, to the processing of personal data concerning you, which takes place based on Art. 6 or GDPR; this also applies to profiling based on these provisions.
+Where personal data concerning you are processed for the purpose of direct mail advertising, you have the right to object at any time to the processing of personal data concerning you for the purpose of such advertising; this also applies to profiling insofar as it is associated with such direct mail advertising.
+Right to revoke consent
+In the case of consent given in accordance with Art. 6 GDPR, you have the right to revoke your given consent at any time.
+Right to rectification
+You have the right to request the completion of data concerning you or the correction of incorrect data concerning you.
+Right to erasure and restriction of processing
+In accordance with the legal requirements, you have the right to demand that the data concerning you be deleted immediately or, alternatively, that the processing of these data be restricted.
+Right to data portability
+In accordance with the legal requirements, you have the right to receive the data you have provided in a structured, common and machine-readable format or to request that it be transferred to another responsible party.
+Complaint to the supervisory authority
+If you believe that the processing of personal data concerning you violates the provisions of the GDPR, you have the right to lodge a complaint with a supervisory authority, in particular in the Member State of your habitual residence, your place of work, or the place of the alleged violation.
+Competent supervisory authority
+The addresses of the data protection officers responsible for you can be found on the information page of the Federal Data Protection Commissioner in the section "Supervisory authorities for the non-public sector" website_url_lnk
+Cookie Settings
+Company contacts
+Postal address: Türlenstraße 2, 70191 Stuttgart, Germany 
+Phone: +49 711 184270 00 
+E-mail: info@anydesk.de 
+AnyDesk Software GmbH 
+Contact sales
+079950 08976
+At AnyDesk, we want to provide the best experience and most innovative technology to all our users and customers. Our team will be operating on reduced holiday hours during this time.
+Click below to create a ticket.
+Sales
+Support
+Sign up for news, tips and more
+Enter your email address
+Subscribe Now

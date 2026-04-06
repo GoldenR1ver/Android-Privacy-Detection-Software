@@ -1,0 +1,17 @@
+{
+  "total_sentences": 323,
+  "pii_related": {
+    "true": 286,
+    "false": 37,
+    "null": 0,
+    "ratio_of_total": 0.8854489164086687,
+    "ratio_of_labeled": 0.8854489164086687,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 204,
+    "false": 119,
+    "ratio_of_total": 0.631578947368421
+  },
+  "doc_id": "世纪佳缘"
+}

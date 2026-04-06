@@ -1,0 +1,189 @@
+Weather
+News
+Video
+Climate
+Privacy, Cookie & Advertising Policies
+If you are a user of our services in Europe please review the applicable Privacy and Cookies policies located here.
+The Basics
+Who are we?
+Pelmorex Corp., but you know us as The Weather Network, MétéoMédia and Clima in North America, and as El Tiempo and Clima in Europe and South America.
+What information do we collect and why?
+We collect information that will help us provide you with the services you want: Location information so that we can give you your weather for the location you are in and to send you alerts if the weather changes; Your name, email address and username and password if you sign up for an account with us. This information allows you to share any weather-related pictures and videos that you create. If you have never created an account with us, we have no way of identifying you., Information from cookies in order to ensure that your experience with the website is the best it can be. For further information on cookies please see our Cookie Policy below.
+How do we collect this information?
+Either directly from you when you sign up for an account with us or automatically when you use our websites and apps, for example through cookies.
+What do we do with the information collected?
+Do we sell your personal information? No!
+Can we identify you specifically with the information we collect? The answer is, it depends.
+If you sign up for an account with us, we then have a record of your name and email address. However, that information is stored with a third-party service provider and the only time we would ever access it is if you have requested that we do something for you with your account, for example delete it.
+For users who haven't created an account, the location information, IP addresses and cookie data is collected, however, this information cannot identify you specifically.
+Do we sell or share aggregated information?
+Yes. The website and app are provided as free services, so the Company makes money through advertising. Using aggregated information for advertising ensures that you see ads that are more relevant to you. The aggregated information cannot be used to identify you specifically.
+Privacy Controls
+What privacy controls do we provide to our users?
+We believe that users should have control over what information is provided to us. 
+Location information in the app. We will only collect this information with your consent. When you download the app, you are asked if you consent to the use of location information. You can turn off location access at any time in the app. If you do not consent to the app's use of location information, you will need to manually enter your location each time in order to ensure the weather information you are getting is accurate to your location.
+Cookies. Cookies are necessary to ensure websites work. We ask for consent to place cookies on your system when you first access our website. The Cookie Policy explains in greater detail what cookies we put on your computer and why. You have control over what cookies websites place on your computer through your browser settings.
+The Boring Legal Details
+The above information gives you a more succinct explanation of what the below provides in greater (and more tedious) detail.
+Data Controller
+Pelmorex Corp. doing business as "The Weather Network", "MeteoMedia" and "El Tiempo" (collectively "we", "us", "our") is committed to protecting and respecting the privacy of our users and safeguarding the personal information provided to us while accessing and using our services.
+This Privacy Policy applies to our collection and processing of personal information via any websites or mobile apps that we operate and which link to this Privacy Policy (our "Services").
+If you have any questions about this Privacy Policy and the processing of your personal data, you can reach our privacy officer by completing the online form accessible at this link or alternatively, you can contact us at attn. Privacy Officer
+Pelmorex Corp. 
+2655 Bristol Circle 
+Oakville, Ontario 
+Canada 
+L6H 7W1 
+905-829-1159
+Personal Data We May Collect and Why We Need It
+We collect the following personal data for the following purposes
+We collect information you provide to us by filling out forms on the site or app.
+This includes.
+Your name 
+Email address 
+A password you create 
+Optional information regarding your age and gender 
+This allows you to
+Create a login on the website and apps 
+Subscribe to our Services such as weather alerts 
+We collect information you provide when you create or use an account with us to upload photos and videos.
+This includes.
+Your name 
+Email address 
+A password created by you 
+Photos 
+Videos 
+This allows you to
+Create a personal account 
+Identify yourself as the person who took the video/photo on our websites and any other Pelmorex properties. 
+Upload your videos/photos on our websites and apps. 
+We collect information that you provide when you sign up to obtain a "Weather Button".
+This includes.
+Your email address 
+This allows us to
+Contact you to communicate changes to the program and for our records to track which websites are using our Weather Buttons. 
+We collect information that you provide when you submit a comment or inquiry using our online feedback form.
+This includes.
+Your name 
+Email address 
+City and province 
+User agent 
+IP address 
+Any information you include in the feedback form including attachments 
+This allows us to
+Effectively respond to your comment/inquiry and contact you. When you submit a question or comment through the website, it is managed through the CRM (customer relations management system) platform, Zendesk. Your information resides in this system, which is managed by Pelmorex but maintained by Zendesk and affiliates. You can find more information about them here: website_url_lnk 
+We collect information if you enable location tracking in our app.
+This includes.
+Mobile device identifiers (specifically an anonymous ad ID) 
+Your location 
+This allows us to
+Provide you with precise weather for the location in which you are located when you access the app and notifications about weather alerts in your location, provided location tracking is enabled. This data is generally not sufficient to identify you personally. 
+Location behaviour, if enabled, may be combined with postal codes (there are on average 20 houses per postal code so this does not generate a specific home address) and demographic data in the aggregate to deliver insights for third party marketing and content. 
+Purchased Data
+We also purchase data, including precise location data, from third party distributors to provide the Services.
+We may use your personal data in the following ways:
+To provide you with customized weather information.
+To provide you with weather alerts in the case of active weather in your location.
+To establish and manage your subscriptions.
+To measure or understand the effectiveness of advertising we serve to you and others, and to deliver relevant advertising to you.
+To ensure that content from our Services is presented in the most effective manner for you and for your computer and mobile device.
+To enforce our Terms of Use, to the extent that your personal information is required to determine whether the Terms of Use have been violated.
+To administer our Services and for internal operations, including troubleshooting, data analysis, testing, research, statistical and survey purposes.
+With your consent, to make suggestions and recommendations to you about goods or services that may interest you.
+To meet our legal obligations.
+You do not have to provide any personal information to us. Use of our Services is purely voluntary. You can continue to use our Services without consenting to the use of cookies that are not strictly necessary; the only consequence is that our Services will be less customized. For more information, please see our Cookies Policy. You maintain control over the personal information you have provided to us. Users who have created an account with us can change their permissions at any time through management of their account. If you have created an account with us you can request that it be deleted by contacting us through the online form on our website accessible at the link noted above under the Data Controller section. 
+Automatically Collected Information
+Each time you visit the websites or use the app, we automatically collect the following information: Technical information including: the Internet protocol address used to connect your computer and mobile device to the Internet, your mobile ad id, your login information if you have created an account with us, browser type and version, time zone setting, browser plug-in types and versions, operating system and platform and the carrier name (if available); 
+Each time you visit the websites or use the app, we automatically collect the following information: Information about your visit: Services you viewed or searched for, page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), and methods used to browse away from the page.
+With respect to web cookies and similar technologies, we seek consent from users of our Services based on a separate Cookie Policy.
+Legal Basis of Processing
+When you first use our app and sign up for an account on one of our websites we request consent for the collection of your personal information in order to provide you with the Services and satisfy our obligations with respect to the other purposes listed in this Policy.
+We also rely on your consent with respect to the use of cookies that are not strictly necessary.
+Disclosure of Your Personal Information
+Other companies within the Pelmorex Corp structure have access to your personal information in order to assist us in providing you with our Services. 
+We may disclose your personal data in the following circumstances, as required or permitted by applicable law:
+We may share data with business partners, suppliers, contractors and other processors, so that such processors may assist us in the operation, provision and enhancement of our Services.
+We may disclose information to companies we may buy or who may buy us; we may disclose your personal data to a prospective or actual buyer of us, or a prospective or actual seller of their company to us.
+We may disclose information to other parties to comply with our legal requirements, in order to comply with any legal obligation, and in order to enforce or apply our terms of use and other agreements; 
+and/or to protect the rights, property, or safety of Pelmorex, our customers, or others.
+Our third party business partners need to receive and process your information in order to help us provide you with our Services. 
+We also disclose aggregate de-identified data of our users to third parties:
+Advertisers and advertising networks, to select and serve relevant ads.
+We do not disclose information about identifiable individuals to our advertisers, but we may provide them with aggregate information about our users (for example, we may inform them that 100 men aged under 35 have clicked on their advertisement on any given day). We may also use such aggregate information to help advertisers reach the kind of audience they want to target (for example, mobile app users in a particular geographical location). This data does not constitute personal data because it cannot reasonably be used to identify you. However, it allows our advertisers to provide advertisements that may be more relevant to you.
+Advertising networks: we also send advertising networks information to serve more relevant ads to you. Those networks include: Google DV 360, The Trade Desk, OMD Data Transfer, Google Ad Manager and Pelmorex Audience.
+Analytics services, such as Google Analytics, to perform marketing analytics, website analytics, service and product analytics, and services such as Firebase to provide services to ensure that apps function properly.
+Marketing insights, where your data may be used in the aggregate in providing analytics services such as store visit attribution and marketing insights for Pelmorex customers and partners.
+User Generated Content: Services such as Brightcove/IRIS require access to the information you provide about yourself when you upload photos or videos to the site. This information is required in order to ensure proper functionality of your content on the site and for record keeping purposes.
+Links and Other Websites
+Our Services may, from time to time, contain links to and from websites of our partner networks, advertisers and affiliates. If you follow a link to any of these websites, please note that these websites have their own privacy policies and that we do not accept any responsibility or liability for these policies. Please check these policies before you submit any personal data to these websites.
+Some of our Services allow users to interface with other websites or services, including social media sites such as Facebook and Twitter. You will remain logged in to such websites and services until you log off those websites and services and you agree to those other websites' and services' terms of use and privacy policies.
+If you choose to log on to the websites using a social media account, we request access to the information indicated in the social media account's acceptance screen and described below.
+You may click "Allow" to log on to the websites using a social media account, or click "Don't Allow" to close and return to the login options. If you choose not to log on to the websites using a social media account, you can log on using your "Weather Network" account, or create one if you do not have one already.
+If you choose to log on to the websites using a social media account, we will request access to and for you to confirm the personal information that will be passed on to us by your social media site. Your data that may be hosted by any social network that interfaces with our properties is subject to your consent of their terms and conditions.
+How Long We Keep Your Personal Information
+Your data is stored with Pelmorex for as long as we are required to keep it in order to provide our Services to you in a seamless fashion or in compliance with applicable law. For example, we will retain your data in order to facilitate logins to your account and in order to allow us to service your account for as long as you maintain an account with us. We also ensure we have up-to-date consent from you to continue to collect and store your personal information.
+Safeguarding Your Personal Information
+We use a variety of technological, physical and organisational protections and procedures to help protect your personal information from unauthorised access, use, or disclosure, such as encryption, passwords and physical security measures. While we strive to protect your personal information, we cannot ensure or warrant that the personal information or private communications you transmit to us will always remain private. The transmission of information via the Internet is not completely secure. Although we will do our best to protect your personal information, we cannot guarantee the security of your data transmitted to our Services; any transmission is at your own risk. Once we have received your information, we will use strict procedures and security features to proactively prevent unauthorised access.
+Changes to This Privacy Policy
+Any changes we may make to our Privacy Policy in the future will be posted on this page and, where appropriate, notified to you by e-mail. This Privacy Policy was last reviewed on October 29, 2020.
+Cookie Policy
+Pelmorex Corp. ("we", "us", "our") uses cookies on this website and with the services we offer through the site to ensure that our users ("you", "your" or similar expressions) of the website have the best user experience.
+What is a Cookie?
+Each cookie is effectively a small file of letters and numbers which contain small amounts of information that it gathers as you use the website. Cookies are stored on your computer hard drive and on your mobile as you use them to access our site.
+How Do We Use Cookies?
+A cookie is placed on your computer when you first visit our website and are used during subsequent visits to distinguish you from other users of the websites and services; to remember what you have searched on previous visits to the site to enable quicker presentation of that information the next time you visit; to save login information (if you select the "Remember Me" option when you log in) if you have subscribed to the services the site offers so that you don't have to log in each time you visit; and to personalize your experience on the site.
+Strictly Necessary Cookies
+These are cookies that are required for the operation of the websites and the services. They include, for example, cookies that enable you to log into secure areas of the websites and the services. The websites and services would not function properly for you if the information in these cookies were not placed on your computer.
+The cookies outlined below are not strictly necessary cookies.
+Analytical/performance cookies
+They allow us to recognise and count the number of visitors and to see how visitors move around the websites when they are using them and use the services. This helps us to improve the way the websites and services work, for example, by ensuring that users are finding what they are looking for easily. These cookies are not stored on mobile devices.
+Functionality cookies
+These are used to recognise you when you return to the websites and use the services. This enables us to personalise our content for you, greet you by name and remember your preferences (for example, your choice of language or region). For this process we use the services provided by Tapad which helps to improve and personalize your user experience and deliver content and ads across devices. Loss of the information in these cookies may make our services less functional but would not prevent the services from working.
+Targeting cookies
+These cookies record your visit to this website and your use of the services, the pages you have visited and the links you have followed. Through its participation in the advertising programmatic auctioning eco-system ("a technology ecosystem to automatically buy and sell targeted online advertising in real-time") run by Google, Twitter and other major players and associated ad-technologies, Pelmorex as well as other advertising vendors can track your visits to other advertising powered websites around the internet. We will use this information to make the websites and the services and the advertising displayed on them more relevant to your interests. We also segment the data with other users and utilize it for content/advertising and share the segment data with third parties in order to provide more relevant advertising. 
+Demographic information
+We may retain limited demographic information such as date of birth and gender, if such information is provided by the user, which is tied to anonymous identifiers and may be referenced by the system for some tailored advertising.
+The following table lists the cookies we use on our website. Those marked with ** are strictly necessary cookies that are required for the website to function properly: cookie Name. Who Places the Cookie. Purpose
+_gads. Google Analytics. Advertising 
+_dm_sync.. 
+_ga. Google Analytics. To identify returning users to the site. 
+_gid. Google Analytics. To identify returning users to the site. 
+aam_dfp. Adobe Audience Manager. Audience tracking for website functionality 
+aam_uuid. Adobe Audience Manager. Audience tracking for website functionality 
+aamuuid_ts. Adobe Audience Manager. Audience tracking for website functionality 
+AKA_A2.. 
+gtm_stc. Google Analytics. 
+pelm_brtr_timestamp. Pelmorex Corp. DFP behavioural targeting timestamp 
+pelm_country_selection**. Pelmorex Corp. User's preferred location 
+pelm_dfp. Pelmorex Corp. Content viewed per session for advertising 
+pelm_geoipdetected**. Pelmorex Corp. Advises Pelmorex if geoid is detected or not 
+pelm_ip**. Pelmorex Corp. IP detected to get location 
+pelm_lastloc**. Pelmorex Corp. User's last location 
+pelm_lastlocunprofiled**. Pelmorex Corp. User's last location 
+pelm_unit**. Pelmorex Corp. User's preferred unit (C or F) 
+pelm_user_domain**. Pelmorex Corp. User's preferred domain (this cookie lasts for a long time and is the user's normal domain) 
+pelm_user_domain_temp**. Pelmorex Corp. Allows users to switch domains without being redirected 
+pelm_wind_measurement**. Pelmorex Corp. Keeps track of user's preferred measurement (km/h or mph) 
+Webglsupported**.. If supported shows current and future maps. 
+. Allows cross platform use as well as improving user experience, ensuring more relevant advertising and providing analytics to third parties. 
+Please note that third parties (including, for example, advertising networks and providers of external services like web traffic analysis services) may also use cookies, over which we have no control. These cookies are likely to be analytical/performance cookies or targeting cookies and do not collect any additional personal data. Examples of some of the third party services we utilize when providing our services are: Doubleclick for Publishers; AdSense; Google Analytics Advertiser Features; AdExchange; Google Analytics; Amazon; Criteo; District M; Index Exchange; Open X and App Nexus. Further details on how the data is used by these third parties can be found at the following link: website_url_lnk
+You have the option to set your browser to either accept cookies and Local Storage, to notify you before accepting cookies and/Local Storage, or to refuse cookies and Local Storage altogether. You can access cookie preferences in the "options" or "preferences" menu of your browser.
+If you turn cookies off certain website and service functionality, such as remembering your preferences, will not be available and you may not be able to access all or parts of the websites or services.
+Changes to this Policy
+Policies on this site are constantly reviewed to ensure compliance with applicable laws. As such, this policy may be updated from time to time and any updates will be posted on this page.
+ADVERTISING POLICY
+Pelmorex Corp. doing business as "The Weather Network", "MeteoMedia", "El Tiempo" and "Clima" (collectively "we", "us", "our") is committed to protecting and respecting the privacy of our users and safeguarding the personal information provided to us while accessing and using the Services we provide. 
+This Policy serves to provide our users with information on our collection and processing of their information to help our users better understand how we use it for advertising. 
+What We Do
+As further detailed in our Privacy Policy Pelmorex collects certain information about our users as you use the Services we provide. The data does not include sensitive personal information but can include email addresses, name, computer IP address and location (if enabled) (for a more fulsome list see Personal Data We May Collect & Why We Need It in the Privacy Policy). 
+We use the personal information you provide for the some of the following processes: customized weather information.
+We use the personal information you provide for the some of the following processes: to provide you with weather alerts in the case of active weather in your location.
+We use the personal information you provide for the some of the following processes: to measure or understand the effectiveness of advertising we serve and to deliver relevant advertising to you.
+We use the personal information you provide for the some of the following processes: to enforce our Terms of Use, to the extent that your personal information is required to determine whether the Terms of Use have been violated.
+We use the personal information you provide for the some of the following processes: to administer our Services.
+What You Can Do
+If you don't want the personal information we collect used for targeted advertising you have the following options to opt out: the App: when you download the app or when a new updated is pushed out you have the option of not consenting to location services. Location services function via the phone's device ID. The app will continue to work without this consent and without location services enabled but you will need to input the location for which you want to see a local weather report each time you use the app and you will not receive localized weather alerts.
+We may share anonymous device IDs with third parties for advertising, analytics, to ensure you receive a better consumer experience, in order to better understand our users in general and to guide our product improvements. You can limit the range of data that your phone sends to us by disabling the identifier on your mobile device. This will not affect how your device operates and you can find more information about how to do this from your phone manufacturer. If you opt not to share your location you will continue to see advertising but it will be generic. 
+Pelmorex offers its Services to users for free and as such the compromise is the collection and use of aggregated information for, in part, targeted advertising. In the event that you would prefer that we not provide you with targeted advertising Pelmorex offers a paid app for iOS through the Apple Store which eliminates advertising entirely. 
+The Websites.
+You have the option to set your browser to either accept cookies and Local Storage, to notify you before accepting cookies and/Local Storage, or to refuse cookies and Local Storage altogether. You can access cookie preferences in the "options" or "preferences" menu of your browser. Please see our Cookie Policy for further information on the cookies used on our sites. 

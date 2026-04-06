@@ -1,0 +1,9 @@
+# Stdlib-only for run_prepare.py (Ollama via urllib).
+#
+# plot_experiment.py
+matplotlib>=3.8.0
+
+# Optional: 讲义中的句子嵌入与聚类拓展
+# sentence-transformers>=3.0.0
+# umap-learn>=0.5.6
+# hdbscan>=0.8.33

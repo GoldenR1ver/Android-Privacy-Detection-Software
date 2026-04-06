@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-04-06T07:03:57.216945+00:00",
+  "input": "..\\ref\\privacy_policy\\policies_huaWeiAppMarket\\Soul.txt",
+  "mode": "classify",
+  "provider": "mock",
+  "ollama_model": "qwen3.5:9b",
+  "keyword_hint": true,
+  "limit": 0,
+  "max_chars": 0,
+  "num_sentences": 347,
+  "num_classified": 347,
+  "write_week3_csv": true,
+  "week3_csv_path": "..\\out\\soul_mock_full\\sentences_week3_2_2.csv",
+  "stats_summary": {
+    "total_sentences": 347,
+    "pii_related_ratio_of_total": 0.45821325648414984,
+    "pii_related_ratio_of_labeled": 0.45821325648414984,
+    "keyword_hint_ratio_of_total": 0.6657060518731989
+  }
+}

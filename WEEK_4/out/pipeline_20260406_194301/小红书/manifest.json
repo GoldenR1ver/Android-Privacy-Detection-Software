@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-04-06T11:48:33.445131+00:00",
+  "input": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_4\\src\\data\\小红书.txt",
+  "mode": "classify",
+  "provider": "deepseek",
+  "ollama_model": "qwen3.5:9b",
+  "keyword_hint": true,
+  "limit": 20,
+  "max_chars": 0,
+  "num_sentences": 296,
+  "num_classified": 20,
+  "write_week3_csv": true,
+  "week3_csv_path": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_4\\out\\pipeline_20260406_194301\\小红书\\sentences_week3_2_2.csv",
+  "stats_summary": {
+    "total_sentences": 296,
+    "pii_related_ratio_of_total": null,
+    "pii_related_ratio_of_labeled": 0.8,
+    "keyword_hint_ratio_of_total": 0.5574324324324325
+  }
+}

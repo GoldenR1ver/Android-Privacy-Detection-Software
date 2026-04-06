@@ -1,0 +1,167 @@
+IMPORTANT PRIVACY INFORMATION
+When you access our Website we automatically collect from your device language settings, IP address, time zone, type and model of a device, device settings, operating system, Internet service provider, mobile carrier, hardware ID, Facebook ID, and other unique identifiers (such as IDFA and AAID). We need this data to provide our services, analyze how our customers use the Website and to measure ads.
+For improving the Website and serving ads, we may share this data with third parties. Such parties include Snapchat, Facebook, Google, Amplitude, Firebase, Yandex. As a result of sharing this data with third parties we analyze different interactions (what products our users have viewed); serve and measure ads (and show them only to a particular group of users, for example, to those who have clicked at some category of the Website).
+If you decide to make a purchase or to order a service on the Website, we will ask you to provide your email, name, last name, date of birth and location. We will use this data to fulfil your order and to render a personalized service.
+Please read our Privacy Policy below to know more about what we do with data (Section 3), what data privacy rights are available to you (Section 6) and who will be the data controller (Section 1). If any questions will remain unanswered, please contact us at support@plantin.xyz.
+PlantIn: Plant Identifier 
+PRIVACY POLICY
+This Privacy Policy explains what personal data is collected when you use the PlantIn: Plant Identifier website located at: [website_url_lnk (the "Website"), the services and products provided through it (together with the Website, the "Service"), how such personal data will be used, shared.
+BY USING THE SERVICE, YOU PROMISE US THAT YOU HAVE READ, UNDERSTAND AND AGREE TO THIS PRIVACY POLICY, AND YOU ARE OVER 16 YEARS OF AGE (OR HAVE HAD YOUR PARENT OR GUARDIAN READ AND AGREE TO THIS PRIVACY POLICY FOR YOU). If you do not agree, or are unable to make this promise, you must not use the Service. In such case, you must contact us and request deletion of your data; and leave the Website and not access or use it.
+"GDPR" means the General Data Protection Regulation 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data.
+"EEA" includes all current member states to the European Union and the European Economic Area.
+"Process", in respect of personal data, includes to collect, store, and disclose to others.
+TABLE OF CONTENTS
+PERSONAL DATA CONTROLLER
+CATEGORIES OF PERSONAL DATA WE COLLECT
+FOR WHAT PURPOSES WE PROCESS PERSONAL DATA
+UNDER WHAT LEGAL BASES WE PROCESS YOUR PERSONAL DATA (Applies only to EEA-based users)
+WITH WHOM WE SHARE YOUR PERSONAL DATA
+HOW YOU CAN EXERCISE YOUR PRIVACY RIGHTS
+AGE LIMITATION
+INTERNATIONAL DATA TRANSFERS
+CHANGES TO THIS PRIVACY POLICY
+CALIFORNIA PRIVACY RIGHTS
+DATA RETENTION
+HOW "DO NOT TRACK" REQUESTS ARE HANDLED
+CONTACT US
+PERSONAL DATA CONTROLLER
+CATEGORIES OF PERSONAL DATA WE COLLECT
+We collect data you give us voluntarily (for example, email, name, last name, date of birth and location). We also collect data automatically (for example, your IP address).
+See less 
+Data you give us
+If you decide to make a purchase on the Website, we will ask you to provide your email, name, last name and date of birth. Additionally, we may also ask to access your geolocation to better understand weather conditions of your region, daylight hours etc., plant care recommendations may differ based on such information. 
+Sometimes you may also need to provide us with an email address and some other information during the communication with our Support Team in order to fulfill your request.
+Data provided to us by third parties
+When you decide to log in using Facebook, we get personal data from your Facebook account. This includes your profile image, name, and Facebook ID. Unless you opt out on the Facebook Login screen, we will also collect other data, such as email address, photos, gender, date of birth.
+For more information, please refer to the Facebook Permissions Reference (describes the categories of information, which Facebook may share with third parties and the set of requirements) and to the Facebook Data policy. In addition, Facebook lets you control the choices you made when connecting your Facebook profile to the Web-site on their Apps and Websites page.
+When you decide to log in using Snapchat, we get display name from your account and, unless you opt out on the Snapchat Login screen, we will also collect your bitmoji. Snapchat lets you revoke access provided to the Web-site on its Manage Your Apps page.
+When you decide to log in using Google, we can access your Google ID, name, profile URL, and email address. You can manage what apps and web-sites have access to your account inside your Google Account. You can find more information on using your Google Account to sign in here. 
+When you decide to log in using Pinterest, we can access your username, ID, name, profile picture, boards, suggested boards and Pins. You can keep track of everywhere you've logged in with your Pinterest profile and remove access from apps and web-sites you're no longer using with Pinterest through you Pinterest account settings. 
+You may also decide to log in using Reddit and manage your third-party authorizations through your Reddit account here. 
+Data we collect automatically. Data about how you found us
+We collect data about your referring website or URL (that is, the app, website or other place on the Web where you were when you tapped/clicked on our ad).
+2. Device and Location data.
+We collect data from your mobile device. Examples of such data include: language settings, IP address, time zone, type and model of a device, device settings, operating system, Internet service provider, mobile carrier, hardware ID, and Facebook ID.
+3. Usage data
+We record how you interact with our Service. For example, we log what pages you have viewed, how often you access the Website, how long you are at the Website.
+4. Advertising IDs
+We collect your Apple Identifier for Advertising ("IDFA") or Google Advertising ID ("AAID") (depending on the operating system of your device) when you access our Website from a mobile device. When you access our Website from a laptop, we collect Mac Advertising Identifier or Windows Advertising ID. You can typically reset these numbers through the settings of your device's operating system (but we do not control this).
+FOR WHAT PURPOSES WE PROCESS YOUR PERSONAL DATA
+We process your personal data. To provide our Service
+This includes enabling you to use the Service in a seamless manner and preventing or addressing Service errors or technical issues. 
+See less
+To host personal data and enable our Website to operate and be distributed we use Amazon Web Services, which is a hosting and backend service provided by Amazon.
+To customize your experience
+We process your personal data to adjust the content of the Service and make offers tailored to your personal preferences. As a result of such processing, we may create plant care schedule for you not to miss watering and fertilizing time.
+To provide you with customer support
+We process your personal data to respond to your requests for technical support, Service information or to any other communication you initiate. This includes accessing your account to address technical support requests. For this purpose, we may send you emails about, for example, the performance of our Service, payment transactions, notices regarding our Terms and Conditions of Use or this Privacy Policy.
+To communicate with you regarding your use of our Service
+We communicate with you, for example, by emails or notification. These may include emails with information about the Service. As a result, you may, for example, receive notifications on special offers. To opt out of receiving notifications, you need to change the settings on your device.
+See less
+The services that we use for these purposes may collect data concerning the date and time when the message was viewed by our Website's users, as well as when they interacted with it, such as by tapping/clicking on links included in the message.
+To communicate with you we also use Firebase Cloud Messaging, which is message sending service provided by Google. Firebase Cloud Messaging allows us to send messages and notifications to users of our Website across platforms such as Android and iOS when you access our Website from a mobile device or across your internet browser when you access our Website from a laptop. We integrate Firebase Notifications with Firebase Analytics to create analytics-based audiences and track opening and conversion events. As a result, we can, for example, send reminders only to users who used the Website more frequently. Google's privacy policy. 
+To research and analyze your use of the Service
+This helps us to better understand our business, analyze our operations, maintain, improve, innovate, plan, design, and develop the Website and our new products. We also use such data for statistical analysis purposes, to test and improve our offers. This enables us to better understand what categories of users use our Website. As a consequence, we often decide how to improve the Website based on the results obtained from this processing. For example, if we discover that users are keen to take quizzes, we may focus on creating new quizzes and improving the existing ones.
+See less
+We use Facebook Analytics, which is a service provided by Facebook that allows us to use different analytical tools. On Facebook Analytics we get, in particular, aggregated demographics and insights on how many people visit our Website, how often users make purchases, and other interactions. Lean more about Facebook's approach to data from its Privacy Policy.
+To analyse how visitors use our Service and to measure effectiveness of some ads we use Google Analytics, a web analysis program of Google. In order to provide us with analytics, Google Analytics places cookies on your device. On Google Analytics we get, in particular, aggregated information on the data you enter on our Website and users' interactions within the Website. Google allows you to influence the collection and processing of information generated by the Google, in particular, by installing a browser plug-in, available here. You can read more about how Google uses information here.
+To track and analyze behavior of our Web-site's users (in particular, how they react to changes of the Web-site structure, text or any other component), we use Firebase Remote Config. Firebase Remote Config is an A/B testing and configuration service provided by Google, which also enables us to tailor the content that our Web-site's users see (for example, it allows us to show different onboarding screens to different users). Privacy Policy and Privacy and Security in Firebase.
+Amplitude is an analytics service provided by Amplitude Inc. We use this tool to understand how customers use our Service. Amplitude collects various technical information, in particular, time zone, type of device (phone, tablet or laptop), unique identifiers (including advertising identifiers). Amplitude also allows us to track various interactions that occur in our Website. As a result, Amplitude helps us to decide what features we should focus on. Amplitude provides more information on how they process data in its Privacy Policy.
+We also use Firebase Analytics, which is an analytics service provided by Google. In order to understand Google's use of data, consult Google's partner policy. Firebase Privacy information. Google's Privacy Policy.
+On our Service we also use Yandex Metrica, a web analytics service provided by Yandex. Yandex Metrica uses cookies to help us analyse how visitors use the site. Yandex will use this information for the purpose of evaluating your use of the website, compiling reports on website activity for website operators and providing other services relating to website activity. In order to deactivate the data collection on the part of Yandex Metrica, you can use the browser add-on developed by Yandex. Lear more about how Yandex uses data in its Privacy Policy.
+To send you marketing communications
+We process your personal data for our marketing campaigns. As a result, you will receive information about our products, such as, for example, special offers or new products available on the Website. We may show you advertisements on our Website, and send you emails for marketing purposes. To opt out of receiving marketing emails from us, you need to unsubscribe following instructions in the footer of the marketing emails, or by contacting us at support@plantin.xyz, or in your account settings. 
+To personalize our ads
+We and our partners, including Facebook, Snapchat, Pinterest and Google, use your personal data to tailor ads and possibly even show them to you at the relevant time. For example, if you have accessed our Website, you might see ads of our products, for example, in your Facebook's feed.
+How to opt out or influence personalized advertising
+iOS: On your iPhone or iPad, go to "Settings," then "Privacy" and tap "Advertising" to select "Limit Ad Track". In addition, you can reset your advertising identifier (this also may help you to see less of personalized ads) in the same section.
+Android: To opt-out of ads on an Android device, simply open the Google Settings app on your mobile phone, tap "Ads" and enable "Opt out of interest-based ads". In addition, you can reset your advertising identifier in the same section (this also may help you to see less of personalized ads).
+macOS: On your MacBook, you can enable Limit Ad Tracking by choosing Apple menu, System Preferences, Security & Privacy, clicking Privacy, and selecting the Limit Ad Tracking checkbox.
+Windows: On your laptop running Windows 10, you shall select Start, Settings, Privacy and then turn off the setting for Let apps use advertising ID to make ads more interesting to you based on your web-site activity. If you have other Windows version, please follow the steps here.
+To learn even more about how to affect advertising choices on various devices, please look at the information available here.
+In addition, you may get useful information and opt out of some interest-based advertising, by visiting the following links: network Advertising Initiative, website_url_lnk
+In addition, you may get useful information and opt out of some interest-based advertising, by visiting the following links: digital Advertising Alliance, website_url_lnk
+In addition, you may get useful information and opt out of some interest-based advertising, by visiting the following links: digital Advertising Alliance (Canada), website_url_lnk
+In addition, you may get useful information and opt out of some interest-based advertising, by visiting the following links: digital Advertising Alliance (EU), website_url_lnk
+In addition, you may get useful information and opt out of some interest-based advertising, by visiting the following links: dAA AppChoices page, website_url_lnk
+Browsers: It is also may be possible to stop your browser from accepting cookies altogether by changing your browser's cookie settings. You can usually find these settings in the "options" or "preferences" menu of your browser. The following links may be helpful, or you can use the "Help" option in your browser.
+Cookie settings in Internet Explorer
+Cookie settings in Firefox
+Cookie settings in Chrome
+Cookie settings in Safari web and iOS
+Google allows its users to opt out of Google's personalized ads and to prevent their data from being used by Google Analytics.
+See less
+We value your right to influence the ads that you see, thus we are letting you know what service providers we use for this purpose and how some of them allow you to control your ad preferences.
+We use Facebook Ads Manager together with Facebook Custom Audience, which allows us to choose audiences that will see our ads on Facebook or other Facebook's products (for example, Instagram). Through Facebook Custom Audience we may create a list of users with certain sets of data, such as an IDFA, choose users that have completed certain actions in the Website (for example, added some products to cart). As a result, we may ask Facebook to show some ads to a particular list of users. As a result, more of our ads may show up while you are using Facebook or other Facebook's products (for example, Instagram). You may learn how to opt out of advertising provided to you through Facebook Custom Audience here.
+We use Facebook Pixel on the Website. Facebook pixel is a code placed on the Website collecting data that helps us track conversions from Facebook ads, build targeted audience and remarket to people who have taken some action on the Website.
+Facebook also allows its users to influence the types of ads they see on Facebook. To find how to control the ads you see on Facebook, please go here or adjust your ads settings on Facebook.
+Google Ads is an ad delivery service provided by Google that can deliver ads to users. In particular, Google allows us to tailor the ads in a way that they will appear, for example, only to users that have conducted certain actions with our Website (for example, show our ads to users who have purchased a product on the Website). Some other examples of events that may be used for tailoring ads include, in particular, accessing our Website, adding some products to cart. Google allows its users to opt out of Google's personalized ads and to prevent their data from being used by Google Analytics.
+We use Pinterest Ads to deliver group-based advertisements. For example, you may see our ads if you are interested in specific services, information, or offers. For more information, please refer to the Pinterest Privacy Policy.
+We also use Snapchat Advertising Platform together with Snapchat Audience Based Match, which is an ad delivery service provided by Snapchat that can link the activity of some users of our Website with the Snapchat advertising network and show some of our ads to them. As a result, you may see more of ads on Snapchat in case you use our Website. Snapchat allows you to Opt Out of their audience based ads. Privacy Policy.
+To process your payments
+We provide paid products and services within the Service. For this purpose, we use third-party services for payment processing (for example, payment processors). As a result of this processing, you will be able to make a payment and we will be notified that the payment has been made.
+We will not store or collect your payment card details ourselves. This information will be provided directly to our third-party payment processors.
+To enable the purchase and to process your payments we use Stripe, Solid and PayPal, which are payment processing providers. 
+To enforce our Terms and Conditions of Use and to prevent and combat fraud
+We use personal data to enforce our agreements and contractual commitments, to detect, prevent, and combat fraud. As a result of such processing, we may share your information with others, including law enforcement agencies (in particular, if a dispute arises in connection with our Terms and Conditions of Use).
+To comply with legal obligations
+We may process, use, or share your data when the law requires it, in particular, if a law enforcement agency requests your data by available legal means.
+UNDER WHAT LEGAL BASES WE PROCESS YOUR PERSONAL DATA 
+In this section, we are letting you know what legal basis we use for each particular purpose of processing. For more information on a particular purpose, please refer to Section 3. This section applies only to EEA-based users.
+We process your personal data under the following legal bases: your consent; 
+We process your personal data under the following legal bases: to perform our contract with you; 
+Under this legal basis we provide our Service (in accordance with our Terms and Conditions of Use)
+Under this legal basis we customize your experience
+Under this legal basis we provide you with customer support
+Under this legal basis we communicate with you regarding your use of our Service
+Under this legal basis we process your payments
+for our (or others') legitimate interests, unless those interests are overridden by your interests or fundamental rights and freedoms that require protection of personal data.
+We rely on legitimate interests to communicate with you regarding your use of our Service
+This includes, for example, sending you email to notify you that we have released a new product or sending push notification reminding you that you have some products in your cart. The legitimate interest we rely on for this purpose is our interest to encourage you to use our Service more often.
+to research and analyze your use of the Service
+Our legitimate interest for this purpose is our interest in improving our Service so that we understand users' preferences and are able to provide you with a better experience (for example, to make the Website navigation easier and more user-friendly).
+to send you marketing communications
+The legitimate interest we rely on for this processing is our interest to promote our Service, including new products and special offers, in a measured and appropriate way.
+to personalize our ads
+The legitimate interest we rely on for this processing is our interest to promote our Service in a reasonably targeted way.
+to process your payments 
+The legitimate interest we rely on for this processing is our interest to make the Service available for you through easy and effective payment process. 
+to enforce our Terms and Conditions of Use and to prevent and combat fraud
+Our legitimate interests for this purpose are enforcing our legal rights, preventing and addressing fraud and unauthorised use of the Service, non-compliance with our Terms and Conditions of Use.
+to comply with legal obligations.
+WITH WHOM WE SHARE YOUR PERSONAL DATA
+We share information with third parties that help us operate, provide, improve, integrate, customize, support, and market our Service. We may share some sets of personal data, in particular, for purposes and with parties indicated in Section 3 of this Privacy Policy. The types of third parties we share information with include, in particular. Service providers
+We share personal data with third parties that we hire to provide services or perform business functions on our behalf, based on our instructions. We may share your personal information with the following types of service providers: cloud storage providers (Amazon)
+We share personal data with third parties that we hire to provide services or perform business functions on our behalf, based on our instructions. We may share your personal information with the following types of service providers: payment service providers (Stripe, Solid, PayPal)
+We share personal data with third parties that we hire to provide services or perform business functions on our behalf, based on our instructions. We may share your personal information with the following types of service providers: data analytics providers (Yandex, Facebook, Firebase, Amplitude, Google)
+We share personal data with third parties that we hire to provide services or perform business functions on our behalf, based on our instructions. We may share your personal information with the following types of service providers: message sending and notifications service providers (Firebase)
+We share personal data with third parties that we hire to provide services or perform business functions on our behalf, based on our instructions. We may share your personal information with the following types of service providers: marketing partners (in particular, social media networks, marketing agencies, email delivery services; Facebook, Google, Pinterest, Snapchat)
+Law enforcement agencies and other public authorities
+We may use and disclose personal data to enforce our Terms and Conditions of Use, to protect our rights, privacy, safety, or property, and that of our affiliates, you or others, and to respond to requests from courts, law enforcement agencies, regulatory agencies, and other public and government authorities, or in other cases provided for by law.
+Third parties as part of a merger or acquisition
+As we develop our business, we may buy or sell assets or business offerings. Customers' information is generally one of the transferred business assets in these types of transactions. We may also share such information with any affiliated entity (e.g. parent company or subsidiary) and may transfer such information in the course of a corporate transaction, such as the sale of our business, a divestiture, merger, consolidation, or asset sale, or in the unlikely event of bankruptcy.
+HOW YOU CAN EXERCISE YOUR RIGHTS
+To be in control of your personal data, you have the following rights: accessing / reviewing / updating / correcting your personal data. You may review, edit, or change the personal data that you had previously provided on the Website by sending us an email at support@plantin.xyz or through your account settings.
+You may also request a copy of your personal data collected during your use of the Website at support@plantin.xyz or through your account settings.
+Deleting your personal data. You can request erasure of your personal data by sending us an email at support@plantin.xyz or through your account settings.
+When you request deletion of your personal data, we will use reasonable efforts to honor your request. In some cases, we may be legally required to keep some of the data for a certain time; in such event, we will fulfill your request after we have complied with our obligations.
+Objecting to or restricting the use of your personal data. You can ask us to stop using all or some of your personal data or limit our use thereof by sending a request at support@plantin.xyz or through your account settings.
+Additional information for EEA-based users if you are based in the EEA, you have the following rights in addition to the above: the right to lodge a complaint with supervisory authority. We would love you to contact us directly, so we could address your concerns. Nevertheless, you have the right to lodge a complaint with a competent data protection supervisory authority, in particular in the EU Member State where you reside, work or where the alleged infringement has taken place.
+Additional information for EEA-based users if you are based in the EEA, you have the following rights in addition to the above: the right to data portability. If you wish to receive your personal data in a machine-readable format, you can send respective request at support@plantin.xyz.
+AGE LIMITATION
+We do not knowingly process personal data from persons under 16 years of age. If you learn that anyone younger than 16 has provided us with personal data, please contact us at support@plantin.xyz.
+INTERNATIONAL DATA TRANSFERS
+We may transfer personal data to countries other than the country in which the data was originally collected in order to provide the Service set forth in the Terms and Conditions of Use and for purposes indicated in this Privacy Policy. If these countries do not have the same data protection laws as the country in which you initially provided the information, we deploy special safeguards.
+In particular, if we transfer personal data originating from the EEA to countries with not adequate level of data protection, we use one of the following legal bases: Standard Contractual Clauses approved by the European Commission (details available here), or the European Commission adequacy decisions about certain countries (details available here).
+CHANGES TO THIS PRIVACY POLICY
+We may modify this Privacy Policy from time to time. If we decide to make material changes to this Privacy Policy, you will be notified by available means such as email and will have an opportunity to review the revised Privacy Policy. By continuing to access or use the Service after those changes become effective, you agree to be bound by the revised Privacy Policy.
+CALIFORNIA PRIVACY RIGHTS
+California's Shine the Light law gives California residents the right to ask companies once a year what personal information they share with third parties for those third parties' direct marketing purposes. Learn more about what is considered to be personal information under the statute.
+To obtain this information from us, please send an email message to support@plantin.xyz which includes "Request for California Privacy Information" on the subject line and your state of residence and email address in the body of your message. If you are a California resident, we will provide the requested information to you at your email address in response.
+DATA RETENTION
+We will store your personal data for as long as it is reasonably necessary for achieving the purposes set forth in this Privacy Policy (including providing the Service to you). We will also retain and use your personal data as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements.
+HOW "DO NOT TRACK" REQUESTS ARE HANDLED
+Except as otherwise stipulated in this Privacy Policy, this Website does not support "Do Not Track" requests. To determine whether any of the third-party services it uses honor the "Do Not Track" requests, please read their privacy policies.
+CONTACT US
+You may contact us at any time for details regarding this Privacy Policy and its previous versions. For any questions concerning your account or your personal data please contact us at support@plantin.xyz.
+Effective as of: 10 October 2020

@@ -1,0 +1,117 @@
+Peak
+Blog
+About
+Science
+Download
+PRIVACY AND COOKIE POLICY
+Last updated August 19th, 2020
+BRAINBOW LIMITED ("We") are committed to protecting and respecting your privacy and your data rights. You can contact the data protection officer we designated for this purpose at dpo@peak.net.
+We are Brainbow Limited, a company registered with Companies House in England and Wales under number 08085754 whose principal place of business is at Chapter House, 18, 20 Crucifix Land, SE1 3JW ("Brainbow"/"we"/"us"/"our"). We provide online content mainly designed for people over 16 and accessible from websites such as website_url_lnk (the "Websites") and a number of mobile applications, including 'Peak' and 'Peak, Sleep' ("Apps").
+Because you use the Websites and our Apps, we process your personal information in accordance with this Privacy and Cookie Policy (the "Policy"). This is part of the contractual framework you enter into while downloading and using the Apps and the Websites. It specifies the legal basis upon which we process your personal information as data controller.
+So, let's describe what this Policy tells you. It explains what information we may collect about you.
+So, let's describe what this Policy tells you. It explains what we may do with the information we collect about you.
+So, let's describe what this Policy tells you. It explains whether we share your information with anyone else.
+So, let's describe what this Policy tells you. It explains the types of cookies we use and how you can reject these cookies.
+So, let's describe what this Policy tells you. It explains where we store your information.
+So, let's describe what this Policy tells you. It explains how we keep your information secure; and
+So, let's describe what this Policy tells you. It explains your rights in relation to your information.
+THIS IS WHAT WE DO WITH THE INFORMATION WE COLLECT ABOUT YOU
+The information you provide if you decide to contact us
+If you contact us (by phone or email or through an App) in the context of our contractual relationship, we use data you provide to correspond with you and we keep it in case we need to contact you in the future in relation to the issue for which you contacted us. We may keep a record of that for one year after our last contact with you. If you report a problem with a Website or an App, we may keep that information for the same duration. The information which you provide and we keep may include your name, address, telephone number and email address.
+This information is intended for us only and will not, under any circumstances, be sold or leased to third parties. This data may, however, be communicated to third-party technical service providers, solely for the purpose explained above.
+The information we collect to improve our services
+When you use a Website or an App, we use identifiers to collect information about your visit to that Website. There are three main kinds of identifiers cookies are small pieces of data that are stored on your computer, mobile phone or other device.
+When you use a Website or an App, we use identifiers to collect information about your visit to that Website. There are three main kinds of identifiers pixels are small blocks of code on web pages that do things like allow another server to measure viewing of a Web page and are often used in connection with cookies.
+When you use a Website or an App, we use identifiers to collect information about your visit to that Website. There are three main kinds of identifiers hTML5 Local Storage is a small database located inside your browser which web pages can use to store data to speed up their processing. We may use all three technologies from time to time.
+Those identifiers do lots of different jobs, like letting you navigate between pages efficiently, storing your preferences, and generally improving your experience of our Website or App. Cookies make the interaction between you and our Website or App faster and easier. We use cookies to distinguish you from other users of the Website App and our Services. This helps us to provide you with a good experience when you use the Website or App and also allows us to improve the Website or App and Services. Cookies and other things like local storage also help us authenticate you to deliver personalised content to you.
+Through this technology, we collect data such as which pages you visit and how long you spend on the Website.
+When you use our Apps we collect information about your device such as its IP address, what model it is and a device ID. We collect this information, aggregate it and it provides us with demographic information which we then use to, for example, tailor our products to such demographics. It also allows us to watch out for malicious attacks on our servers and maintain our security.
+We also collect information when you use our Apps on how you use those Apps and how you play the games in them. For example, we note how you interact with our games, how you perform and what scores you achieve. We also take note of when you choose to share your achievements with friends on Facebook and if you choose to pay for versions of our Apps such as Peak Pro.
+We process this data for the purposes of our legitimate interest to analyse how you and others interact with our Website and Apps, as to improve it and develop new ones. We may keep this data for one year after our last contact with you.
+This information is intended for us only and will not, under any circumstances, be sold or leased to third parties. This data may, however, be communicated to or by third-party technical service providers, solely for the purpose of improving our service. In particular, we use Google Analytics nAME OF THIRD PARTY. WHY WE WORK WITH THEM
+Google Analytics Cookie Usage.. To monitor Website performance & user experience.. Cookie Name. Purpose. Expiry Period 
+_ga. Used by Google Analytics to distinguish users.. 2 years 
+_gat. Used by Google Analytics to throttle request rate.. 10 minutes 
+_gid. Used to distinguish users.. 2 hours 
+The information we collect about you as to provide you a service via an App
+We ask you for information after you have downloaded an App, but before you start using it. This may include contact details such as your email address, personal details such as your Facebook id or name, or demographic details such as your gender, date of birth or profession. Some of this information is required (eg email address) and some is optional (eg profession). What we collect is slightly different depending on whether you choose to login using Facebook or not. We work with Facebook to allow you to sign in for Apps using the credentials that you have with that company. We also enable you to share your performances when using our Apps with your Facebook friends. This involves Facebook processing some of your information. It also results in some of your information becoming public, so read Facebook's privacy policy and be careful with what you share.
+We collect this information to ensure that you are a real person and not a robot! We use it so that we can personalise our communication with you and personalise your experience when using an App. We may use it to provide you with information about our Apps such as changes we make to them as well as changes to our terms and conditions or this Policy. We use some of the information that you may choose to provide (such as your profession) or have to provide (such as age) to enable you to compare your performance in a game with other people like you. We also use information we collect when you use an App to make your experience better and more personal, for example, by noting when you do well and allowing you to share your performances with friends.
+We want to tell you about how we may contact you by electronic mail, using such information. We use it for telling you about things we think you will find useful and interesting as Brainbow customer such as how you are performing in games, lifestyle tips, news about science and other areas we are active in and to invite you to events. This may include telling you about products or services provided by other companies. We will never give your contact details to such other companies. You may opt out from receiving marketing information from us at any time by using the unsubscribe link in the emails we send, or by contacting us at support@peak.net. This will stop us sending you marketing information by email.
+We also sometimes send you information within an App using what are called push notifications. You may at any time opt-out from receiving such notifications by turning them off in your settings on the device you use to access the App.
+We may keep this information for one year after our last contact with you.
+This information is intended for us only and will not, under any circumstances, be sold or leased to third parties. This data may, however, be communicated to or by third-party technical service providers, solely for the purpose of providing the service. In particular, we use Facebook Cookie nAME OF THIRD PARTY. WHY WE WORK WITH THEM
+Facebook Cookie Usage. To allow you to register for the Services using the credentials that you have with this company.. PIXEL NAME. PURPOSE. EXPIRY PERIOD 
+Facebook Pixel (fbq). To connect Facebook activity with visits to our sites.. 180 days 
+Information we collect for advertising purposes
+We use a device ID called an IDFA for advertising purposes and allow third parties such as social networks (see comprehensive list in the table below) to drop a file called SDK on your device while using the App, which enables them, if you agree, to display personalized advertising while you are using the App.
+Where we propose using your personal information for any other uses we ensure that we notify and if needed, ask for your consent first. You will also be given the opportunity to withhold or withdraw your consent for the use of your personal information for purposes described in this point 4.
+This information is intended for us only and will not, under any circumstances, be sold or leased to third parties.
+Data may be collected by third-party displaying adds on our Apps nAME OF THIRD PARTY. WHY AND HOW WE WORK WITH THEM
+Admob. Advertising platform. 
+We provide an 'IDFA' to AdMob. AdMob is an advertising mediator provided by Google and it shares IDFAs with ad providers to deliver personalised adverts within our products. 
+Google Privacy Policy 
+Applovin. Advertising platform which receives an IDFA 
+Applovin Privacy Policy 
+Facebook Ad Network. Advertising platform which receives an IDFA 
+Facebook Privacy Policy 
+IronSource. Advertising platform which receives an IDFA 
+Ironsource Privacy Policy 
+TapJoy. Advertising platform which receives an IDFA 
+Tapjoy Privacy Policy 
+Unity. Advertising platform which receives an IDFA 
+Unity Privacy Policy 
+Vungle. Advertising platform which receives an IDFA 
+Vungle Privacy Policy 
+We also use third party identifiers to make user acquisition
+NAME OF THIRD PARTY 
+WHY AND HOW WE WORK WITH THEM 
+Facebook. We use the Facebook SDK to measure the effectiveness of our advertising. Their SDK collects the following types of personal data: mobile advertiser ID, the iOS IDFA or Android Advertising ID.
+Facebook Privacy Policy 
+We provide Facebook with an 'IDFA' to improve our targeting of ads on Facebook when we are trying to acquire customers for our products. 
+Facebook Privacy Policy. COOKIE NAME. PURPOSE. EXPIRY PERIOD 
+Facebook Conversion Pixel (fbq). This connects visits to our page with advertisements to help us understand performance.. 28 days 
+Google Ads. We sometimes use Google Ads as an advertising platform and we share the following data with them: mobile advertiser ID, the iOS IDFA or Android Advertising ID.
+Their Privacy Policy can be found here 
+IronSource. We sometimes use IronSource as an advertising platform and we share the following data with them: mobile advertiser ID, the iOS IDFA or Android Advertising ID.
+Their Privacy Policy can be found here 
+Pinterest. We sometimes use Pintrest as an advertising platform and we share the following data with them: mobile advertiser ID, the iOS IDFA or Android Advertising ID.
+Their Privacy Policy can be found here 
+Snapchat. We sometimes use Snapchat as an advertising platform and we share the following data with them: mobile advertiser ID, the iOS IDFA or Android Advertising ID.
+Their Privacy Policy can be found here 
+Twitter. We sometimes use Snapchat as an advertising platform and we share the following data with them: mobile advertiser ID, the iOS IDFA or Android Advertising ID.
+Their Privacy Policy can be found here 
+THIS IS WHO ELSE WE SHARE YOUR INFORMATION WITH
+We may disclose your personal information to third parties if we are under a duty to disclose or share your personal information in order to comply with any legal or regulatory obligation or request.
+We may disclose your personal information to third parties to enforce or apply our terms of use/terms and conditions and other agreements or to investigate potential breaches; or
+We may disclose your personal information to third parties to protect the rights, property or safety of a Website and App, or our users.
+THIS IS WHERE WE STORE YOUR INFORMATION
+All information you provide to us is stored on servers located in North Virginia owned and operated by Amazon Web Services, Inc.. More information on this provider is available at website_url_lnk
+Besides, the data that we collect from you may be processed outside the European Economic Area by other third parties acting, as AWS, as data processors (i.e. they are processing the data only for purposes that we determine), but we have ensured that there is an adequate level of protection for such data (Biding Corporate rules, privacy shield or standard contractual clauses).
+Besides, the data that we collect from you may be processed outside the European Economic Area by third parties acting as data controller. They are listed in the tables above, and the links to their Privacy policies can lead you to more information.
+HERE ARE YOUR RIGHTS
+You have the right to ask us not to process your personal data for marketing purposes. You can exercise your right to prevent such processing at any time after proving your identity by contacting us at support@peak.net
+The law gives you the right to request a copy of the personal information we hold about you. We first require you to prove your identity. We will supply, correct or delete personal information about you on our files. In addition, you may request rectification or erasure of personal information as well as the restriction of processing of your personal information.
+If you wish to complain about the processing of your personal information then please contact us first, but if we do not satisfactorily deal with your complaint, then you may contact the Information Commissioner.
+THIRD PARTY PROPERTIES ACCESSED FROM A WEBSITE AND/OR APP
+Our Websites and Apps may contain links to and from the online properties of third parties. If you follow a link to any of these online properties, please note that these online properties have their own privacy policies which will govern use of any personal data that they process and for which we con not be held responsible.
+CHANGES TO OUR POLICY
+Any changes we may make to this Policy in the future will be posted on this page. Where it makes sense because the changes are material, we will notify you of the changes by e-mail or in another appropriate manner such as when you next interact with a Website or an App.
+CONTACTING US IS EASY AND WE WANT TO HEAR FROM YOU
+We really do welcome any questions, comments and requests you may have regarding this Policy. You can contact us by emailing us at support@peak.net Alternatively, you can contact our DPO at dpo@peak.net.
+More about Peak
+About
+Science
+Careers
+Press
+Support
+Gift
+Redeem
+Social
+Blog
+Facebook
+Twitter
+Instagram
+Legals
+Privacy Policy
+Payment Policy
+Terms and conditions

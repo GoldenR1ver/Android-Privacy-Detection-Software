@@ -1,0 +1,328 @@
+Cookie Preferences
+POLICY CENTER
+Overview
+Terms of Use
+Privacy Policy
+Community Guidelines
+Cookie Policy
+Pay Later User Agreement
+Intellectual Property
+Endorsement Guidelines
+Accessibility
+iOS Terms
+Law Enforcement
+Refunds & Returns
+Conformity Guarantee
+Right of Withdrawal
+Local Pickup
+Wish Cash & Gift Cards
+Taxes
+Privacy Policy
+Last updated: September 20, 2021
+This Privacy Policy applies to all websites, products, services, and applications operated by ContextLogic Inc. and its Affiliates (defined below) to which it is posted ("Services"). As used in this Privacy Policy, "you," "your," or "user" refers to individuals about whom ContextLogic Inc. and its Affiliates collect and use information, such as consumers and merchants. "Our" "us" and "we" to refer to ContextLogic Inc. or the relevant Affiliate with whom you have a contract, as outlined in our Terms of Use. If you live in Switzerland or the European Economic Area (EEA), your personal data is controlled by ContextLogic B. V., a company based in the Netherlands. Please read this document carefully to learn more about how we collect, use, share and protect information, including information that may describe you personally.
+This Privacy Policy does not apply to the practices of companies we don't own or control, or people that we don't manage. For example, it does not apply to the use of purchaser shipping information by a merchant. Any capitalized terms we use in this Privacy Policy without defining them have the definitions given to them in the Terms of Use which govern Your use of the Services.
+We operate several marketplaces, including Wish, Geek, Cute, Mama, Home and Joyful Shopping, that allow merchants to list items and users to find and purchase items. We also support referral programs, affiliate offers, and a pickup program. We collect and use information from users (shoppers), merchants and pickup program participants to facilitate listing (of items), shopping and fulfillment. We also use information to find items that we think will be of interest to buyers and to find the right price for each item.
+By using or accessing the Services, you acknowledge that we will collect, use, and share your information as described in this Privacy Policy. You have choices about whether to provide us with information and how we use that information. You may choose not to provide us with information, but your choices may prevent you from using the Services or limit your use of certain features. For example, if you do not provide us with a payment method, you may not be able to make purchases or if you do not allow us to see your device location we will not be able to recommend items for pickup at a location near you. See Section 7 for more information about your choices.
+We're constantly trying to improve our Services, so we may need to update this Privacy Policy. We may update this Privacy Policy to reflect changes in the law, the Services, our companies or advances in technology. We will alert you to a change by placing a notice on the Services or by sending an email. Our use of the information we collect is subject to the Privacy Policy in effect at the time such information is used.
+Table of Contents
+INFORMATION WE COLLECT & USE
+HOW WE USE INFORMATION & LAWFUL BASES
+LOCATION OF DATA PROCESSING, UNITED STATES AND ELSEWHERE
+RETENTION OF PERSONAL DATA/INFORMATION
+INFORMATION SHARING
+SECURITY
+CHOICES
+RIGHTS
+PRIVACY COMPLAINTS
+CHILDREN'S PRIVACY
+DO NOT TRACK
+CONTACT INFORMATION
+SUPPLEMENTAL PRIVACY NOTICE FOR CALIFORNIA RESIDENTS
+SUPPLEMENTAL PRIVACY NOTICE FOR SOUTH KOREAN RESIDENTS
+INFORMATION WE COLLECT & USE
+Some of the information we collect is actively provided by you, such as when you fill out a field or form. Some is collected automatically (typically from devices). And some may be collected from other sources.
+Information You Provide
+When you use the Services you provide information to us, such as when you create an account or a store, make or fulfill a purchase, leave a review, or request customer support. Examples of the information you may provide are name
+When you use the Services you provide information to us, such as when you create an account or a store, make or fulfill a purchase, leave a review, or request customer support. Examples of the information you may provide are email address
+When you use the Services you provide information to us, such as when you create an account or a store, make or fulfill a purchase, leave a review, or request customer support. Examples of the information you may provide are payment method or payment account
+When you use the Services you provide information to us, such as when you create an account or a store, make or fulfill a purchase, leave a review, or request customer support. Examples of the information you may provide are shipping address or business address, including home addresses (for the pickup program)
+When you use the Services you provide information to us, such as when you create an account or a store, make or fulfill a purchase, leave a review, or request customer support. Examples of the information you may provide are vAT, tax, and customs information, including Personal Customs Clearance Codes for residents of South Korea
+When you use the Services you provide information to us, such as when you create an account or a store, make or fulfill a purchase, leave a review, or request customer support. Examples of the information you may provide are phone number
+When you use the Services you provide information to us, such as when you create an account or a store, make or fulfill a purchase, leave a review, or request customer support. Examples of the information you may provide are password or social network account credentials
+When you use the Services you provide information to us, such as when you create an account or a store, make or fulfill a purchase, leave a review, or request customer support. Examples of the information you may provide are additional verification data, including government identification
+Information We Collect Automatically
+When you use the Services, including when you visit our sites or install our apps, we automatically collect information about how you use the Services and the devices you use to access the Services. We may also generate information about you, such as an Account ID number. Examples of the information we collect automatically are iP Address
+When you use the Services, including when you visit our sites or install our apps, we automatically collect information about how you use the Services and the devices you use to access the Services. We may also generate information about you, such as an Account ID number. Examples of the information we collect automatically are location information, general location information from your computer or mobile device or precise GPS location information from your mobile device.
+When you use the Services, including when you visit our sites or install our apps, we automatically collect information about how you use the Services and the devices you use to access the Services. We may also generate information about you, such as an Account ID number. Examples of the information we collect automatically are country and language information from your browser or mobile device
+When you use the Services, including when you visit our sites or install our apps, we automatically collect information about how you use the Services and the devices you use to access the Services. We may also generate information about you, such as an Account ID number. Examples of the information we collect automatically are social network account and profile data (when you use social login)
+When you use the Services, including when you visit our sites or install our apps, we automatically collect information about how you use the Services and the devices you use to access the Services. We may also generate information about you, such as an Account ID number. Examples of the information we collect automatically are unique Identifiers, including MAC Address, Ad IDs, Device IDs, and device attributes, such as operating system and browser type, and usage patterns.
+When you use the Services, including when you visit our sites or install our apps, we automatically collect information about how you use the Services and the devices you use to access the Services. We may also generate information about you, such as an Account ID number. Examples of the information we collect automatically are usage Data, such as: web log data, referring and exit pages and URLs, platform type, number of clicks, domain names, landing pages, pages and content viewed and the order of those pages, the amount of time spent on particular pages, the date and time you used our Services, the frequency of your use of our Services, error logs, and other similar information.
+Analytics, Advertising & Technical Data
+We or our service providers or business partners may collect and use various pieces of information in an automated way to support analytics and advertising operations.
+Analytics. We use analytics tools and providers to understand better how individuals and their devices interact with the Services. Google Analytics is important to our analytics, How Google uses data when you visit a partner site or app.
+Cookies and Related Technologies. We and others may use cookies, which are text files containing small amounts of information that are downloaded on your device, or related technologies, such as web beacons, local shared objects and tracking pixels to store or collect information ("Cookies"). Cookies can help us and others learn about your online activity including on other sites or services. For example, web beacons allow ad networks to provide aggregated auditing, research and reporting for us and for advertisers. Web beacons also enable ad networks to serve targeted advertisements to you when you visit other websites. Because your web browser must request these advertisements and web beacons from the ad network's servers, these companies can view, edit, or set their own cookies, just as if you had requested a web page from their site. See our Cookie Policy for additional information.
+We do not have access to Cookies placed or read by Advertisers, and this Privacy Policy does not govern the use of those cookies and related technologies. See the Choice information in Section 7 for more information.
+Third-Party Links and Plug-Ins
+The Services may have links to third-party websites or apps, which may have privacy policies that differ from our own. We are not responsible for the practices of such sites/apps.
+The Services may also offer you the ability to interact with plug-ins from social media sites and others, which may allow us or the social media site to receive data from or about you. If you have previously provided personal information to a third-party operating a plug-in on the Services, then that third-party may recognize you on the Services. Your use of social network plug-ins is subject to the privacy policy of the company that operates the plug-in, which may be different from ours, so please read these policies carefully to understand their policies and your options.
+Other Sources
+We may gather information, including demographic and statistical information from third-parties, such as business partners, marketers, researchers, analysts. We may attribute this information to you based on your assignment to certain statistical groups. We may use this information to supplement the other information that we collect in order to derive your possible interests and to provide more relevant experiences for you within the Services and improve our products, analytics, and advertising.
+HOW WE USE INFORMATION & LAWFUL BASES
+Use
+In general, we collect, use and store ("process") your information to provide the Services, to fix and improve the Services, to develop new services, and to market our companies and their products and services. Some specific examples of how we use information are setup and manage accounts, including identification and authentication
+In general, we collect, use and store ("process") your information to provide the Services, to fix and improve the Services, to develop new services, and to market our companies and their products and services. Some specific examples of how we use information are collect or make a payment
+In general, we collect, use and store ("process") your information to provide the Services, to fix and improve the Services, to develop new services, and to market our companies and their products and services. Some specific examples of how we use information are process or support fulfillment of orders
+In general, we collect, use and store ("process") your information to provide the Services, to fix and improve the Services, to develop new services, and to market our companies and their products and services. Some specific examples of how we use information are find or recommend a local feature/service, such as a pickup location
+In general, we collect, use and store ("process") your information to provide the Services, to fix and improve the Services, to develop new services, and to market our companies and their products and services. Some specific examples of how we use information are communicate with you, using email, sms, push notifications or platform messaging (like Whatsapp), about your account or to market product listings, features, or events
+In general, we collect, use and store ("process") your information to provide the Services, to fix and improve the Services, to develop new services, and to market our companies and their products and services. Some specific examples of how we use information are advertise and market the Services, including in email or other channels
+In general, we collect, use and store ("process") your information to provide the Services, to fix and improve the Services, to develop new services, and to market our companies and their products and services. Some specific examples of how we use information are test changes in the Services and develop new features
+In general, we collect, use and store ("process") your information to provide the Services, to fix and improve the Services, to develop new services, and to market our companies and their products and services. Some specific examples of how we use information are analyze use of the Services and personalize content, including ads and prices
+In general, we collect, use and store ("process") your information to provide the Services, to fix and improve the Services, to develop new services, and to market our companies and their products and services. Some specific examples of how we use information are provide support, including addressing questions and problems users, merchants or pickup locations may have with the Services, or resolving disputes
+In general, we collect, use and store ("process") your information to provide the Services, to fix and improve the Services, to develop new services, and to market our companies and their products and services. Some specific examples of how we use information are prevent, detect, investigate and respond to fraud, unauthorized access/use of the Services, breaches of terms and policies, or other wrongful behavior
+In general, we collect, use and store ("process") your information to provide the Services, to fix and improve the Services, to develop new services, and to market our companies and their products and services. Some specific examples of how we use information are comply with any procedures, laws, and regulations which apply to us, including those that set retention periods
+Lawful Bases (EEA)
+Lawfulness of personal data processing is an important principle under EU data protection law. For purposes of European data protection law, we typically process personal data where we need to perform the contract we are about to enter into or have entered into with you, such as when we process a payment.
+Lawfulness of personal data processing is an important principle under EU data protection law. For purposes of European data protection law, we typically process personal data where it is in our legitimate interests (or those of a third-party) and your data protection interests and fundamental rights and freedoms do not override those interests, such as when we secure the Services, engage in fraud prevention, and certain direct marketing.
+Lawfulness of personal data processing is an important principle under EU data protection law. For purposes of European data protection law, we typically process personal data where we need to comply with a legal or regulatory obligation.
+Lawfulness of personal data processing is an important principle under EU data protection law. For purposes of European data protection law, we typically process personal data where we have your consent to use your personal data.
+Other Uses, Deidentified Data
+We may take steps to limit or prevent identification of any particular user or device in sets of data, such as by combining information relating to many individuals ("aggregation") or removing or changing pieces of information about each individual. We may use de-identified data to help support our research and marketing efforts. This Privacy Policy does not apply to our use of such de-identified information.
+LOCATION OF DATA PROCESSING, UNITED STATES AND ELSEWHERE
+Information that we collect and use may be processed outside of your country or region. When we share personal information with Affiliates or with third-parties in other countries, we apply appropriate safeguards. For example, data covered by European data protection laws is typically protected by EU Model clauses.
+By using the Services you acknowledge that your information will be processed as described in this Privacy Policy; and
+By using the Services you consent to having your information transferred to our affiliates and facilities in the United States or elsewhere or to facilities of third-parties with whom we share information as described in this Privacy Policy.
+RETENTION OF PERSONAL DATA/INFORMATION
+We only keep your information for the time period required to complete the purposes for which it is processed or satisfy legal retention requirements. The length of time for which we retain information depends on the purposes for which we collected and use it or the requirements of applicable laws.
+INFORMATION SHARING
+We may disclose information about you or your use of the Services with the types of recipients described below.
+Service Providers/Agents
+We employ other companies and people to perform tasks or services on our behalf and need to share information with them so they can complete their work. For example: we may use a payment processing company to receive or deliver payments; or we may use a cloud services provider to store data.
+Affiliates
+We may share your information with other companies under common ownership or control with ContextLogic Inc. ("Affiliates"). These Affiliates use your information as described in this Privacy Policy. Where such sharing involves a transfer of personal data out of Europe, we use safeguards, including EU Model Clauses, to protect the data and ensure the lawfulness of the transfer.
+Other Users
+Information about merchants, pickup locations and users (i.e. purchasers) is shared in certain contexts. For example, merchant store information is made available to users and user reviews of a store are made available to merchants and other users. Also, when users complete a purchase using the Services, we normally share information needed to fulfill the purchase, such as shipping address and phone number, with the merchant (i.e. seller) or its service providers, such as a shipping company. Information shared with sellers and their service providers is subject to their own policies.
+Certain user profile information, including your name, photo, location, items on your wishlist (unless you make the wishlist private), reviews you have written (including any photo/video you upload with such reviews), and the list of people you follow or that follow you, may be displayed to other users to facilitate user interaction within the Services. Your user name may also be displayed to other users if and when you send messages or comments or upload images or videos through the Services and other users can contact you through messages and comments. Use caution and good judgment before sharing personal information in public areas of the Services.
+Advertisers
+We may allow advertisers, including merchants ("Advertisers"), to choose groups of users to see their listings, advertisements or promotional offers based on common features of a group of users, such as similar usage patterns or similar geographic locations. For example, if you buy products related to wine, we may show you an offer for a service that sells wine or similar products. If an advertiser asks us to show an ad to a certain audience or audience segment and you respond to that ad, the advertiser may conclude that you fit the description of the audience they were trying to reach.
+Business Transfers
+We may choose to buy or sell assets and may share or transfer user information (including personal information) in connection with the evaluation of and entry into such transactions. Also, if we (or our assets) are acquired, or if we go out of business, enter bankruptcy, or go through some other change of control, user information could be one of the assets transferred to or acquired by a third-party.
+Legal Requirements, Protection of Wish and Others
+We reserve the right to access, read, preserve, and disclose any information that we in good faith believe is necessary to comply with law or court order; enforce or apply our Terms of Use and other agreements; or protect the rights, property, or safety of ContextLogic, our employees, our users, or others.
+Consent
+We may share your information in other ways if you have asked us to do so or have given consent.
+SECURITY
+Accounts are protected by a password for your privacy and security. If you access your account via a third-party site or service, such as Facebook, you may have additional or different sign-on protections via that third-party site or service. We recommend that you choose an appropriate password, safeguard your password and limit access to the devices on which you access your account.
+We use reasonable organizational and technical measures intended to protect the privacy of your account and personal information we use or store, but the Internet and our Services are not 100% secure. We cannot guarantee complete privacy or security for the information that you provide or that we collect.
+CHOICES
+Access, Review, Correct
+Through your account "Settings" you are able to access, edit or delete information you've provided to us, including name and password
+Through your account "Settings" you are able to access, edit or delete information you've provided to us, including user ID
+Through your account "Settings" you are able to access, edit or delete information you've provided to us, including email address
+Through your account "Settings" you are able to access, edit or delete information you've provided to us, including physical address
+Through your account "Settings" you are able to access, edit or delete information you've provided to us, including location
+Through your account "Settings" you are able to access, edit or delete information you've provided to us, including phone number
+Through your account "Settings" you are able to access, edit or delete information you've provided to us, including gender
+Through your account "Settings" you are able to access, edit or delete information you've provided to us, including payment method or payments services provider
+Through your account "Settings" you are able to access, edit or delete information you've provided to us, including user profile information, including images and videos you have uploaded to the Services
+The information available in Settings and your options may change as the Services change. If you have any questions about viewing or updating information we have on file about you, please contact us here.
+Marketing Communication Opt-out
+To manage your preferences or opt-out of marketing communications you can use any of the following methods.
+Electronic Promotional Offers: If you do not want to receive emails from us regarding special promotions or offers, you may follow the unsubscribe options at the bottom of each email; or visit your account settings pages.
+Mobile Promotional Offers: When you provide us with your mobile number for marketing purposes, we may send you certain marketing alerts via text message. Consent is not a requirement to use the services and standard data and message rates will apply. If you no longer wish to receive mobile alerts from us, you can follow the instructions provided in those messages or otherwise reply STOP to any alert we send.
+Push Notifications: When you use the App, you may receive push notifications. If you prefer not to receive push notifications, you may adjust your settings on your mobile device to control whether you want to receive these alerts.
+Settings: You can opt out of certain communications from us by changing your preferences under the "Settings" option of the applicable service.
+Location Information
+If you do not want us to see or access your device location, you can turn off location sharing on your device, change your device privacy settings, or decline to share location on your browser.
+Cookies & Analytics
+Visit our Cookie Policy for additional information and access to our cookie consent manager.
+You may be able to opt-out of certain web beacon tracking and other Cookie activity by adjusting the settings on your browser, including Do Not Track settings.
+To opt-out of Google Analytics you can install the Google Analytics Opt-out Browser Add-on.
+Ads
+Choices for tailored advertising to exercise choices for tailored advertising, please visit the following sites. If you opt-out, you may still receive advertising content, but it will not be tailored to you.
+Network Advertising Initiative (NAI), You may use the NAI opt out here, which will allow you to opt out of seeing personalized ads from NAI member companies.
+Digital Advertising Alliance (DAA), You may opt out of receiving personalized ads from certain companies that perform ad targeting services, using the DAA here.
+European Interactive Advertising Digital Alliance (EDAA), You can learn more about online advertising and opt out at the Your Online Choices website.
+For mobile devices, please read your operating system's instructions for complete instructions.
+For iOS or Higher: Go to your Settings, Select Privacy, Select Tracking, Disable the "Allow Apps to Request to Track" setting
+For Android devices with OS or higher and Google Play Services version or higher: Open your Google Settings app, Ads, Enable "Opt out of interest-based advertising"
+See the NAI guide to mobile device options for ad preferences
+RIGHTS
+Depending on your residence or location you may have certain rights related to the collection and use of your personal information/data.
+EEA Residents
+If our processing of your personal data is covered by European data protection law, you typically have certain rights, including access & Rectification, You can access and review personal data associated with your account at any time by following instructions in 7(A)(above). You may also issue a data subject rights request to access the personal data we hold about you. You may also request rectification or correction of inaccurate and incomplete records of your personal data.
+If our processing of your personal data is covered by European data protection law, you typically have certain rights, including restriction & Erasure, In certain situations, you can ask that we stop using your data, for instance, if accuracy of your personal data is contested. You may also ask us to delete your personal data, however we may be required to keep certain data to comply with legal obligations, such as local tax regulations. Deactivation must be completed in order to delete an account (and the personal data associated with it).
+If our processing of your personal data is covered by European data protection law, you typically have certain rights, including portability, In certain situations, you may ask us to transfer your personal data directly to you. On your request, and where feasible, we will transfer your personal information to another party that you select.
+If our processing of your personal data is covered by European data protection law, you typically have certain rights, including objection, In certain situations, you may have a right to object to the processing of your personal data. The reasons for an objection must relate to your particular circumstances, such as processing of your personal data for direct marketing purposes.
+If our processing of your personal data is covered by European data protection law, you typically have certain rights, including consent Withdrawal, Where you provided your consent to process your personal information, you always have the right to withdraw that consent at any time. Withdrawing consent will not affect the lawfulness of processing prior to the withdrawal.
+If our processing of your personal data is covered by European data protection law, you typically have certain rights, including complaints, You have a right to raise questions or complaints with us as described below or with your local data protection authority at any time. See section 9 for additional information.
+California Residents
+If you are a California resident, you may have certain rights. For more information, see our Supplemental Privacy Notice for California Residents in section 13 below.
+Nevada Residents
+Under Nevada law, certain Nevada consumers may opt out of the sale of "personally identifiable information" for monetary consideration to a person for that person to license or sell such information to additional persons. "Personally identifiable information" includes first and last name, address, email address, phone number, Social Security Number, or an identifier that allows a specific person to be contacted either physically or online.
+We do not engage in such activity; however, if you are a Nevada resident who has purchased or leased goods or services from us, you may submit a request to opt out of any potential future sales under Nevada law by emailing privacy@wish.com. Please note we will take reasonable steps to verify your identity and the authenticity of the request. Once verified, we will maintain your request in the event our practices change.
+PRIVACY COMPLAINTS
+We are committed to resolving valid complaints about your privacy or our collection or use of your personal information. For questions or complaints regarding our data use practices or Privacy Policy, please contact us at privacy@contextlogic.com.
+If you are located in Europe (EU/EEA), we consider the Dutch Data Protection Authority to be our lead supervisory authority for the processing or personal data of individuals in Europe. We have appointed a data protection officer ('DPO') for Europe. For questions, complaints, or requests in connection with the processing of your personal data you can contact our DPO at DPO@contextlogic.com. You may also lodge a complaint with the Dutch Data Protection Authority by mail, at Autoriteit Persoonsgegevens, PO Box 93374, 2509 AJ Den Haag, or through their website: website_url_lnk
+CHILDREN'S PRIVACY
+We do not knowingly collect or solicit "personal information" (as defined by the U. S. Children's Online Privacy Protection Act) from anyone under the age of 13. If you are under 13, please do not attempt to register for the Services or send any personal information about yourself to us. If we learn that we have collected personal information from a child under age 13, we will delete that information. If you believe that a child under 13 may have provided us personal information, please contact us at privacy@contextlogic.com.
+For residents of the EU/EEA where processing of personal data is based on consent, we will not knowingly engage in that processing for users under the age of consent established by applicable member or data protection law. If we learn that we are engaged in that processing with such users, we will halt such processing and will take reasonable measures to promptly remove applicable information from our records.
+If you are 13 or older, but have not reached your country's age of majority (i.e. able to enter a contract), you should use the Services with permission from your parents or guardians.
+DO NOT TRACK
+Your browser may offer you a "Do Not Track" option, which allows you to signal to operators of websites and web applications and services (including tailored advertising services) that you do not want your online activities tracked over time and across different websites. Our Services do not support Do Not Track requests at this time, which means that we collect information about your online activity both while you are using the Services and after you leave our Services.
+CONTACT INFORMATION
+If you have any questions or concerns regarding this Privacy Policy or ContextLogic's use of your data, please send a detailed message to privacy@contextlogic.com. Other concerns, such as about an order placed, should be sent through standard support channels. You may also write to us at contextLogic B. V. (Commercial Register No.62752863), Schiphol Boulevard 195, 1118 BJ Schiphol, the Netherlands or dpo@contextlogic.com.
+If you have any questions or concerns regarding this Privacy Policy or ContextLogic's use of your data, please send a detailed message to privacy@contextlogic.com. Other concerns, such as about an order placed, should be sent through standard support channels. You may also write to us at contextLogic Inc., 1 Sansome Street, 33rd Floor, San Francisco, CA 94104-4418
+SUPPLEMENTAL PRIVACY NOTICE FOR CALIFORNIA RESIDENTS
+This Supplemental Privacy Notice is in addition to the information in our Privacy Policy above, and applies solely to California residents.
+Summary of Information We Collect
+California law requires us to disclose information regarding the categories of personal information that we have collected about California consumers, the categories of sources from which the information was collected, the business or commercial purposes (as those terms are defined by applicable law) for which the information was collected, and the categories of parties with whom we share personal information.
+We or our service providers may collect the below categories of information for the following business or commercial purposes (as those terms are defined in applicable law): our or our service provider's operational purposes.
+We or our service providers may collect the below categories of information for the following business or commercial purposes (as those terms are defined in applicable law): auditing consumer interactions on our site (e.g., measuring ad impressions).
+We or our service providers may collect the below categories of information for the following business or commercial purposes (as those terms are defined in applicable law): detecting, protecting against, and prosecuting security incidents and fraudulent or illegal activity.
+We or our service providers may collect the below categories of information for the following business or commercial purposes (as those terms are defined in applicable law): bug detection and error reporting.
+We or our service providers may collect the below categories of information for the following business or commercial purposes (as those terms are defined in applicable law): customizing content that we or our service providers display on the Services (e.g., contextual ads).
+We or our service providers may collect the below categories of information for the following business or commercial purposes (as those terms are defined in applicable law): providing the Services (e.g., account servicing and maintenance, order processing and fulfillment, customer service, advertising and marketing, analytics, and communication about the Services).
+We or our service providers may collect the below categories of information for the following business or commercial purposes (as those terms are defined in applicable law): improving our existing Services and developing new services (e.g., by conducting research to develop new products or features).
+We or our service providers may collect the below categories of information for the following business or commercial purposes (as those terms are defined in applicable law): other uses that advance our commercial or economic interests, such as third-party advertising and communicating with you about relevant offers from third-party partners.
+We or our service providers may collect the below categories of information for the following business or commercial purposes (as those terms are defined in applicable law): other uses about which we notify you.
+Examples of these types of uses are identified below. We may also use the below categories of personal information for compliance with applicable laws and regulations, and we may combine the information we collect ("aggregate") or remove pieces of information ("de-identify") to limit or prevent identification of any particular user or device.
+Category: Identifiers, such as: account information, name, email address, shipping address, phone number, or social network account and profile data.
+Categories of Sources
+Individuals/You
+Your use of our services/automatic collection
+Agents/service providers
+Affiliates
+Third-parties
+Merchants
+Other users (e.g., when another user sends you an item as a gift)
+Examples of Uses
+Providing the Services, including operating a marketplace that allows merchants to list, and users to find and purchase, items
+Process/fulfill orders
+Fixing and improving the Services
+Collecting/making payment
+Personalizing content
+Marketing and advertising
+Communicating with you
+Analyzing use of the Service
+Support services
+Preventing, detecting, investigating, and responding to fraud, unauthorized access/use of the Services, breaches of terms and policies
+Categories of Third-Parties With Which We May Share That Information
+Service providers/Agents
+Affiliates
+Third-parties
+Merchants (for order fulfillment)
+Other users (where you publicly disclose the information)
+Category: Commercial information (such as transaction data)
+Categories of Sources
+Individuals/You
+Your use of our services/automatic collection
+Agents/service providers
+Affiliates
+Third-parties
+Merchants
+Examples of Uses
+Providing the Services, including operating a marketplace that allows merchants to list, and users to find and purchase, items
+Process/fulfill orders
+Fixing and improving the Services
+Collecting payment
+Personalizing content
+Marketing and advertising
+Communicating with you
+Analyzing use of the Service
+Support services
+Preventing, detecting, investigating, and responding to fraud, unauthorized access/use of the Services, breaches of terms and policies.
+Categories of Third-Parties With Which We May Share That Information
+Service providers/Agents
+Affiliates
+Third-parties
+Merchants (for order fulfillment)
+Category: Financial data (such as payment method or financial account information)
+Categories of Sources
+Individuals/You
+Agents/service providers
+Examples of Uses
+Providing the Services, including operating a marketplace that allows merchants to list, and users to find and purchase, items
+Collecting/making payment
+Analyzing use of the Service
+Support services
+Categories of Third-Parties With Which We May Share That Information
+Service providers/Agents
+Third-parties
+Category: Internet or other network or device activity (such as IP address, unique device, advertising, and app identifiers, browsing history or other usage data)
+Categories of Sources
+Individuals/You
+Your use of our services/automatic collection
+Agents/service providers
+Third-parties
+Affiliates
+Examples of Uses
+Providing the Services, including operating a marketplace that allows merchants to list, and users to find and purchase, items
+Fixing and improving the Services
+Collecting payment
+Personalizing content
+Marketing and advertising
+Communicating with you
+Analyzing use of the Service
+Preventing, detecting, investigating, and responding to fraud, unauthorized access/use of the Services, breaches of terms and policies
+Categories of Third-Parties With Which We May Share That Information
+Service providers/Agents
+Affiliates
+Third-parties
+Category: Location information (general location, and, if you provide permission, precise GPS location)
+Categories of Sources
+Individuals/You
+Your use of our services/automatic collection
+Agents/service providers
+Third-parties
+Examples of Uses
+Providing the Services, including operating a marketplace that allows merchants to list, and users to find and purchase, items
+Fixing and improving the Services
+Collecting payment
+Personalizing content
+Marketing and advertising
+Communicating with you
+Analyzing use of the Service
+Finding local features and services
+Preventing, detecting, investigating, and responding to fraud, unauthorized access/use of the Services, breaches of terms and policies
+Categories of Third-Parties With Which We May Share That Information
+Service providers/Agents
+Affiliates
+Third-parties
+Category: Other information that identifies or can be reasonably associated with you (such as user generated content)
+Categories of Sources
+Individuals/You
+Your use of our services/automatic collection
+Agents/service providers
+Affiliates
+Third-parties
+Examples of Uses
+Providing the Services, including operating a marketplace that allows merchants to list, and users to find and purchase, items
+Fixing and improving the Services
+Collecting payment
+Personalizing content
+Marketing and advertising
+Communicating with you
+Analyzing use of the Service
+Preventing, detecting, investigating, and responding to fraud, unauthorized access/use of the Services, breaches of terms and policies
+Categories of Third-Parties With Which We May Share That Information
+Service providers/Agents
+Affiliates
+Third-parties
+Merchants (where you publicly disclose the information)
+Other users (where you publicly disclose the information)
+Rights
+If you are a California resident, you may have certain rights. California law may permit you to request that we provide you the categories of personal information we have collected or disclosed about you in the last twelve months; the categories of sources of such information; the business or commercial purpose for collecting or selling your personal information; and the categories of third-parties with whom we shared personal information.
+If you are a California resident, you may have certain rights. California law may permit you to request that we provide access to and a copy of certain information we hold about you.
+If you are a California resident, you may have certain rights. California law may permit you to request that we delete certain information we have about you.
+You may have the right to receive information about the financial incentives that we offer to you. You also have the right to not be discriminated against (as provided for in applicable law) for exercising certain of your rights. Certain information may be exempt from such requests under applicable law. We need certain types of information so that we can provide the Services to you. If you ask us to delete it, you may no longer be able to access or use the Services.
+For more information about how to access, review, and correct your account information; opt of out certain marketing, advertising, location collection, and cookies; and deactivate your account, see Section 7 of this Privacy Policy (above).
+If you would like to exercise any of your California consumer rights, please submit a request at privacy@wish.com or visit the Wish site or app, where you can select Customer Support. From there, follow the relevant prompts to submit a message directly to our support team. You will be required to verify your identify before we fulfill your request. To do so, you will typically need to demonstrate control of the relevant account and show California residence. You can also designate an authorized agent to make a request on your behalf. To do so, you must provide us with written authorization or a power of attorney, signed by you, for the agent to act on your behalf. You will still need to verify your identity directly with us.
+website_url_lnk
+California Shine the Light
+If you are a California resident, you may ask for a list of third-parties that have received your information for direct marketing purposes during the previous calendar year. This list also contains the types of information shared. We provide this list at no cost. To make such a request, contact us at privacy@contextlogic.com.
+SUPPLEMENTAL PRIVACY NOTICE FOR SOUTH KOREAN RESIDENTS
+This Supplemental Privacy Notice is in addition to the information in our Privacy Policy above, and applies solely to residents of South Korea.
+Process and method of destruction of personal information
+When destroying personal information, we take commercially reasonable and technically feasible measures to make the personal information irrecoverable or irreproducible. Electronic documents or files containing personal information will permanently be deleted using a technical method that makes recovery or retrieval of such information impossible. Non-electronic documents or files containing personal information will be shredded or incinerated. In case any personal information is required to be retained for a period beyond the period of retention and use as prescribed by applicable law, to the extent technically possible, such information will be stored or maintained separately from other items of personal information.
+WishTerms of UsePrivacy Policy
+Skip to main content

@@ -1,0 +1,100 @@
+Wines
+Offers
+Pairings
+Grapes
+Regions
+Privacy policy
+This policy is effective from June 14 2019. 
+This Privacy Policy describes how and when Vivino ApS collects, uses and shares your personal information when you use our Services. If you have any questions or comments about this Privacy Policy, please contact our data protection officer at privacy@vivino.com. 
+VIVINO ApS is an international online platform facilitator (hereinafter "Vivino", "we", "or", "us"), providing a platform that enables registered users (hereinafter "User") to buy, rate and review wine ratings and wine information (hereinafter the "Services") via the website or mobile application. It also enables Users to follow other Users to see their ongoing reviews and connect with contacts from social media etc. 
+Our address is Njalsgade 21G, 5., 2300 Copenhagen S, Denmark, and the platform is owned by VIVINO ApS, company registration number is 32081193. Vivino can be contacted at website_url_lnk 
+This privacy policy applies to all use of our websites, website_url_lnk (hereinafter "Web"), and all use of our application for mobile devices (hereinafter "App"). The Web and the App together form our service offers to you (hereinafter "Platform"). 
+The privacy policy may be amended from time to time by us with a fair notice to you before the new privacy policy comes into force. 
+Please note, that you may use our Platform without signing up, in which case we will only collect data based on your consent to our cookie policy that you may find in 'Categories of personal data'.
+Data controller
+Vivino ApS, Njalsgade 21G, 5., 2300 Copenhagen S, Denmark is the Data controller of processing personal data concerning Users. 
+We will process your personal data in compliance with European General Data Protection Regulation. This privacy policy covers our processing of personal data processed when you register and access the Platform and thereby use our services. 
+Purpose and legal basis
+We process your personal data in order for us to manage our user relation with you, including managing your account and provide you with access to use our Platform, we collect and use information about you. The processing of your personal data is performed on the legal basis of: 
+fulfilment of our contractual obligations when delivering the Platform to you.
+We process your ratings of wine to provide you with the opportunity to allow other users to follow your ratings, we process your personal data the legal basis of: 
+your freely given consent provided when signing up to the Platform.
+This consent you may withdraw at any time under your profile settings, disabling the ability for other users to follow your ratings.
+We process your personal data to facilitate your purchase of wine via the Platform on the legal basis of: 
+fulfillment of our contractual obligations to facilitate your purchase of wine.
+We also process your personal data to deliver and improve the Platform, and manage our business, to improve our offerings, develop new features and updates, develop personalization services and other types of service, including but not limited to develop and implement algorithms and machine learning. This processing is on the basis of: 
+Our legitimate interest to improve our platform and services.
+We also use your personal data to display to you personalized marketing message on our Platform, to inform you about new features and updates on the Platform, and let you know about our policies and Terms and Conditions. 
+The processing of personal data is performed based on: 
+your freely given consent to receive marketing by e-mail and push notifications provided when signing up to the Platform, which you may withdraw at any time under your Profile Settings or by clicking the "Unsubscribe" button in any marketing e-mail.
+If you withdraw your consent to receive personalized marketing message, will we still display marketing message to you on the Platform, but they will be of a generic nature and therefore less relevant to you. 
+
+Categories of personal data
+We mainly collect the personal data that you submit to us, including your contact information, reviews and purchase history. But we also collect information in several ways from different parts of the Platform, as further detailed below, including but not limited to the way you use the Platform and if applied tracking information about your whereabouts on the Internet and technical information about your devices and location. 
+Please visit 'Sharing of data' to read more about your right to access and deletion of your personal data. 
+When signing up: 
+When registering via our online Platform, you provide us with certain information, including email, password, username, name, country of origin, preferred language. When registering and signing in via third-party application login (such as Facebook), and you authorize us to access certain account information from that third-party application, such as basic profile information; name, profile picture, e-mail address (optional), current city (optional). Some of this information will never be made public, such as password. Other information can be either hidden by default (email address, country of origin) or public by default (name and profile picture if third party application sign up). Geolocation will not be disclosed, but you have the possibility to add a geotag when reviewing wines as a public user. You can manage the visibility of this information under Profile Settings.
+Please note that your username will be public at all times, unless you have changed the visibility to "No one" under your profile settings.
+When using the Platform: 
+We register the information you provide when using the Platform, including ranking wines, followers, connected friends, your wine orders, your traffic on the Platform and your communication with us.
+The Users are encouraged not to reveal personal data concerning the user itself and other especially special categories of data (such as information about a person's health, addictions or allergies) when commenting on wines or reviews, nor when uploading pictures on the Platform. When a User makes such information about them or others public, the User is responsible for ensuring legal ground for disclosing the information.
+Our App will ask for your permission to enable the collection of the location of your device/you. If you have given permission to collect your device location, we will use the location to show you certain offers available around your location as personalized marketing message. Location may also be used for analytics etc.
+We use cookies to enable the Platform to work, and to provide you with a personalized experience. For further information on our use of Cookies, please see 'Cookies'.
+When purchasing wine from the Platform: 
+When you purchase products using the Platform you buy from a third-party vendor, not Vivino. Consequently, Vivino passes the order submitted by you to the selected third-party vendor. Please be informed that we will share your purchase information with the third-party vendor, for the vendor to be able to deliver the purchased wine to you. The third-party vendor becomes an independent controller for the personal data about you received from us. As mentioned above we will also store and process your purchase information as part of our service to you.
+Cookies
+A cookie is a small text file stored on your computer, tablet, mobile or similar, for the purpose of recognizing your device if you visit our website again (such as login, language, font size and other settings). This makes it possible to customize the Website to your browser. A cookie may contain text, numbers or e.g. a date, but generally there are no personal data in a cookie. It is not a program and thus cannot contain a virus. 
+When you visit our website, we collect information about you that allows us to identify your device. The information is used to customize and improve our content on the website and to get statistical information (not personal information), so we can provide you with the best possible experience. If you choose not to accept cookies at all you may not be able to use all the functions of our website. 
+You can modify your browser, so cookies are not stored on your computer, tablet, mobile etc. See instructions here: website_url_lnk Be aware, however, that without cookies, you may not be able to use all the functions of our website. 
+Besides our own cookies, we use cookies from third parties, e.g. from suppliers of advertisements and analytic tools and from suppliers of social media. These third-party cookies are used for marketing purposes and for improving the functionality of the website. We use the following third party cookies: 
+Google
+Facebook
+Alexa
+Heap
+Impact
+Steelhouse
+Outreach
+Pinterest
+Transfer of data to third countries
+Vivino may use suppliers located outside the EU/EEA to process data on behalf of Vivino according to standard data protection clauses adopted by the European Commission and to Vivino's performance of the contract with you. 
+
+Sharing of data
+Personal data about our users is an essential part of our business. We only share your personal data as described below apart from when we share it with a third-party vendor. 
+We share your reviews with other Users if you have consented to us sharing your reviews with other users. 
+We may share personal data regarding you if we are obligated to do so by law. 
+Your rights as a user
+As provided by the General Data Protection Regulation, you have the right to: 
+Access personal data regarding you. You can always access your account to review the personal data we have collected about you. You may delete and amend the data collected. You also have the right to obtain a copy of the personal data free of charge. However, we may charge a fee corresponding to administrative costs if further copies of the information are requested, or if the request is unfounded or excessive.
+Ask for rectification of incorrect or inaccurate data concerning you, or to have incomplete personal data completed. You can use your access to your account to update your personal data.
+Ask for erasure of personal data regarding you (under certain circumstances).
+Ask for the restriction of the processing of your data (under certain circumstances).
+Object to the processing of your data for marketing purposes by withdrawing your personal consent.
+You can at any time withdraw your consent by deleting your profile or delete your account in the in-app settings.
+When we receive a request to access, rectify, erase or port data, we may ask you for additional information in order to confirm your identity and ensure data security. You can send a request at website_url_lnk. 
+You have the right to complain regarding the processing of personal data concerning you to the supervisory authority, which in Denmark is the Danish Data Protection Agency: 
+Datatilsynet 
+Borgergade 28 
+1300 København K 
+Phone no.: 33 19 32 00 
+E-mail: dt@datatilsynet.dk
+Data retention and account deletion
+We store your personal data for as long as your account is active. 
+We may also store some of your personal data to comply with our legal obligations. 
+You may add or update certain information to your account. When you update information, however, we often maintain a copy of the unrevised information in systems back-ups for a period of time until our backup is updated with the latest version. 
+You may request deactivation of your account by following the instructions at the Platform. If you deactivate your account, we do not delete your information but holds it for you until such time as you either activates your account again or delete it. 
+When you delete your account, we delete the data attached to your account including your username. The username will be deleted from all reviews, and the reviews will be anonymized for future viewing. 
+Please note that some information may remain in our records after your account has been deleted, and that we may only be able to delete this information later when updating our backups. 
+Security
+User accounts including personal data are protected by a password for your privacy and security. You should ensure no unauthorized access to your account and personal data by choosing and protecting your password appropriately, and by signing off when finishing accessing your account. When signing in via third-party application provider your password is solely managed by such third-party. 
+We do our best to ensure that user accounts are kept private. However, various instances such as unauthorized entry/use, hardware or software failure, and other factors, may compromise the security of the personal data. 
+This Privacy Policy only governs information collected on the Platform and through our cookies. 
+Children's privacy
+The Platform is intended for use by adults of legal drinking age in the jurisdiction in which you reside. If we receive notice or reasonably believe that someone under the legal drinking age has provided us with personal information, we will promptly delete the account and all personal information that has been provided to us. 
+Changes to Privacy Policy
+This Privacy Policy may be amended from time to time. You will be notified before we make changes to this policy and you will be given the opportunity to review this revised policy before you choose to continue using the Platform. 
+We will use only use personal data in accordance with the privacy policy under which the personal data was collected unless we specifically ask for your consent to process your personal data to a new purpose. 
+Questions or concerns
+If you have any feedback on this Privacy Policy, you can contact us: 
+By mail at Njalsgade 21G, 5., 2300 Copenhagen S, Denmark
+By email at privacy@vivino.com with any questions and suggestions.
+We will try our best to reply to your questions and resolve your concerns. 

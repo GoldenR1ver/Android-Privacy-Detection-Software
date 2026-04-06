@@ -1,0 +1,198 @@
+Current runmodes on this instance: cloud-ready , publish , nosamplecontent , crx3composite , 
+Partners 
+Help & FAQs 
+How it works 
+Login 
+Join 
+Help & FAQs 
+Login 
+Join 
+Privacy at Everyday Rewards Privacy at Everyday Rewards Collection and usage Sharing Protection Managing your information Policy documents 
+We care deeply about your privacy
+Find out how your privacy and personal information are handled here at Everyday Rewards.
+Everyday Rewards and your privacy
+When you trust us with your personal information, we're committed to keeping it safe and secure and using it responsibly.
+We want to help you understand how your personal information is collected, used and shared securely to personalise your Everyday Rewards experience, so you can enjoy a little more everyday.
+Our principles
+Everyday Rewards is part of Woolworths Group. We're committed to doing the right thing, and we're guided by our principles to use your data responsibly. 
+To find out more about how Woolworths Group manages your privacy, check out the Woolworths Group Privacy Centre.
+Woolworths Group Privacy Centre 
+We put people first
+We respect the person behind the data, honour their choices and understand the impact of our decisions.
+We strive for better
+We deliver beneficial outcomes that promote fairness, avoid harm and build trust.
+We are accountable
+We are responsible for our decisions and their outcomes, even if unintended. 
+We are transparent
+We are clear and can explain what we do and why we do it in order to meet individual and community expectations. 
+We challenge ourselves
+We are champions of curiosity, challenge and collaboration. We advocate diversity.
+Our Everyday Rewards Partners<.h2>..","seeMoreText":"See more","seeLessText":"See less","partnerEcosystem":[{"ctaPath":"#","ctaText":"Read more","modalTitle":"
+Woolworths <.h3>..","cardAltText":"Woolworths icon","modalDescription":"
+Woolworths is Australia.2019s largest supermarket retailer, providing customers with superior service, range, value and convenience.<.p>..","ctaNewTab":"","cardImagePath":"/content/dam/everydayRewards/images/privacy/icons/woolworths.png","partnerEcosystemTracking":"{.event. Category. :link., event. Action. :click., site. Section.:WPC Welcome., event. Label. :Read more., event. Description. :Woolworths., tealium_event. :link_click. }","modalImagePath":"/content/dam/everydayRewards/images/privacy/logos/woolworths-logo.png","cardTitle":"
+Woolworths<.h3>..","modalAltText":"Woolworths logo"},{"ctaPath":"#","ctaText":"Read more","modalTitle":"
+BIG W <.h4>..","cardAltText":"BIG W icon","modalDescription":"
+One of Australia.2019s most loved brands, we offer an extensive range of great quality products for adults, kids, home, leisure and everyday life.<.p>..","ctaNewTab":"","cardImagePath":"/content/dam/everydayRewards/images/privacy/icons/big-w.png","partnerEcosystemTracking":"{.event. Category. :link., event. Action. :click., site. Section.:WPC Welcome., event. Label. :Read more., event. Description. :Big W., tealium_event. :link_click. }","modalImagePath":"/content/dam/everydayRewards/images/privacy/logos/bigw-logo.png","cardTitle":"
+BIG W<.h3>..","modalAltText":"BIG W logo"},{"ctaPath":"#","ctaText":"Read more","modalTitle":"
+BWS<.h3>..","cardAltText":"BWS icon","modalDescription":"
+With over 1400 stores across Australia, you'll always find a way to celebrate with our wide range of Beer, Wine and Spirits.<.p>..","ctaNewTab":"","cardImagePath":"/content/dam/everydayRewards/images/privacy/icons/bws.png","partnerEcosystemTracking":"{.event. Category. :link., event. Action. :click., site. Section.:WPC Welcome., event. Label. :Read more., event. Description. :BWS., tealium_event. :link_click. }","modalImagePath":"/content/dam/everydayRewards/images/privacy/logos/bws-logo.png","cardTitle":"
+BWS<.h3>..","modalAltText":"BWS logo"},{"ctaPath":"#","ctaText":"Read more","modalTitle":"
+eg<.h3>..","cardAltText":"eg fuel icon","modalDescription":"
+Collect rewards and top up with quality fuel and convenient eats at over 540 EG Ampol (operated by EG Australia) locations.<.p>..","ctaNewTab":"","cardImagePath":"/content/dam/everydayRewards/images/privacy/icons/eg-fuel.png","partnerEcosystemTracking":"{.event. Category. :link., event. Action. :click., site. Section.:WPC Welcome., event. Label. :Read more., event. Description. :EG., tealium_event. :link_click. }","modalImagePath":"/content/dam/everydayRewards/images/privacy/logos/eg-fuel-logo.png","cardTitle":"
+EG Ampol<.h3>..","modalAltText":"eg fuel logo"},{"ctaPath":"#","ctaText":"Read more","modalTitle":"
+Ampol<.h3>..","cardAltText":"Ampol logo","modalDescription":"
+Ampol. Australia.2019s own, powering better journeys today and tomorrow since 1900.<.p>..","ctaNewTab":"","cardImagePath":"/content/dam/everydayRewards/images/privacy/icons/ampol.png","partnerEcosystemTracking":"{.event. Category. :link., event. Action. :click., site. Section.:WPC Welcome., event. Label. :Read more., event. Description. :Ampol., tealium_event. :link_click. }","modalImagePath":"/content/dam/everydayRewards/images/privacy/logos/ampol-logo.png","cardTitle":"
+Ampol<.h3>..","modalAltText":"Ampol logo"},{"ctaPath":"#","ctaText":"Read more","modalTitle":"
+Qantas<.h3>..","cardAltText":"Qantas icon","modalDescription":"
+Shop and scan your way to your next holiday. Each time your balance reaches 2000 Everyday Rewards points, 1000 Qantas Points will automatically land in your Qantas Frequent Flyer account.<.p>..","ctaNewTab":"","cardImagePath":"/content/dam/everydayRewards/images/privacy/icons/qantas.png","partnerEcosystemTracking":"{.event. Category. :link., event. Action. :click., site. Section.:WPC Welcome., event. Label. :Read more., event. Description. :Qantas., tealium_event. :link_click. }","modalImagePath":"/content/dam/everydayRewards/images/privacy/logos/qantas-frequent-flyer-logo.png","cardTitle":"
+Qantas<.h3>..","modalAltText":"Qantas Frequent Flyer logo"},{"ctaPath":"#","ctaText":"Read more","modalTitle":"
+Bupa<.h3>..","cardAltText":"Bupa icon","modalDescription":"
+As one of Australia.2019s largest and most trusted health insurers, Bupa supports the health and wellbeing of millions of Aussies everyday.<.p>..","ctaNewTab":"","cardImagePath":"/content/dam/everydayRewards/images/privacy/icons/bupa.png","partnerEcosystemTracking":"{.event. Category. :link., event. Action. :click., site. Section.:WPC Welcome., event. Label. :Read more., event. Description. :Bupa., tealium_event. :link_click. }","modalImagePath":"/content/dam/everydayRewards/images/privacy/logos/bupa-logo.png","cardTitle":"
+Bupa<.h3>..","modalAltText":"Bupa logo"},{"ctaPath":"#","ctaText":"Read more","modalTitle":"
+Origin Energy<.h3>..","cardAltText":"Origin Energy icon","modalDescription":"
+Good Energy. Great Value, with a vision to lead the transition to a cleaner, smarter and customer-centric energy future.<.p>..","ctaNewTab":"","cardImagePath":"/content/dam/everydayRewards/images/privacy/icons/origin.png","partnerEcosystemTracking":"{.event. Category. :link., event. Action. :click., site. Section.:WPC Welcome., event. Label. :Read more., event. Description. :Origin Energy., tealium_event. :link_click. }","modalImagePath":"/content/dam/everydayRewards/images/privacy/logos/origin-energy-logo.png","cardTitle":"
+Origin Energy<.h3>..","modalAltText":"Origin Energy logo"},{"ctaPath":"#","ctaText":"Read more","modalTitle":"
+Healthylife<.h3>..","cardAltText":"Healthy Life icon","modalDescription":"
+Get trusted health information fact checked by experts, book your next wellness appointment and earn Everyday Rewards points with every shop all in one.<.p>..","ctaNewTab":"","cardImagePath":"/content/dam/everydayRewards/logos/partners/healthylife/healthylife-icon-circle.png","partnerEcosystemTracking":"{.event. Category. :link., event. Action. :click., site. Section.:WPC Welcome., event. Label. :Read more., event. Description. :HealthyLife., tealium_event. :link_click. }","modalImagePath":"/content/dam/everydayRewards/images/privacy/logos/healthylife-logo.png","cardTitle":"
+Healthylife<.h3>..","modalAltText":"Healthy Life logo"},{"ctaPath":"#","ctaText":"Read more","modalTitle":"
+PetCulture<.h3>..","cardAltText":"Pet Culture icon","modalDescription":"
+There's a lot to love at PetCulture, the online store for pet parents. Shop a huge range of premium food, treats, toys, accessories and health products.<.p>..","ctaNewTab":"","cardImagePath":"/content/dam/everydayRewards/images/privacy/icons/pet-culture.png","partnerEcosystemTracking":"{.event. Category. :link., event. Action. :click., site. Section.:WPC Welcome., event. Label. :Read more., event. Description. :PetCulture., tealium_event. :link_click. }","modalImagePath":"/content/dam/everydayRewards/images/privacy/logos/pet-culture-logo.png","cardTitle":"
+PetCulture<.h3>..","modalAltText":"PetCulture logo"},{"ctaPath":"#","ctaText":"Read more","modalTitle":"
+Marley Spoon<.h3>..","cardAltText":"Marley Spoon icon","modalDescription":"
+Marley Spoon delivers pre portioned ingredients to your door, so you can cook delicious, home made meals with 6 step, easy-to-follow recipe cards.<.p>..","ctaNewTab":"","cardImagePath":"/content/dam/everydayRewards/images/privacy/icons/marley-spoon.png","partnerEcosystemTracking":"{.event. Category. :link., event. Action. :click., site. Section.:WPC Welcome., event. Label. :Read more., event. Description. :Marley Spoon., tealium_event. :link_click. }","modalImagePath":"/content/dam/everydayRewards/images/privacy/logos/marley-spoon-logo.png","cardTitle":"
+Marley Spoon<.h3>..","modalAltText":"Marley Spoon logo"},{"ctaPath":"#","ctaText":"Read more","modalTitle":"
+Dinnerly<.h3>..","cardAltText":"Dinnerly icon","modalDescription":"
+Dinnerly is Australia's affordable meal kit, helping you get tasty dinners on the table for less.<.p>..","ctaNewTab":"","cardImagePath":"/content/dam/everydayRewards/images/privacy/icons/dinnerley.png","partnerEcosystemTracking":"{.event. Category. :link., event. Action. :click., site. Section.:WPC Welcome., event. Label. :Read more., event. Description. :Dinnerly., tealium_event. :link_click. }","modalImagePath":"/content/dam/everydayRewards/images/privacy/logos/dinnerly-logo.png","cardTitle":"
+Dinnerly<.h3>..","modalAltText":"Dinnerly logo"},{"ctaPath":"#","ctaText":"Read more","modalTitle":"
+Woolworths Metro<.h3>..","cardAltText":"Woolworths Metro icon","modalDescription":"
+Metro is made with a local flavour that.2019s built around the way you live. Step inside and you.2019ll discover an array of fresh food and pantry staples, along with unique brands and specialty items that make each store a reflection of its local community.<.p>..","ctaNewTab":"","cardImagePath":"/content/dam/everydayRewards/images/privacy/icons/ww-metro.png","partnerEcosystemTracking":"{.event. Category. :link., event. Action. :click., site. Section.:WPC Welcome., event. Label. :Read more., event. Description. :Woolworths Metro., tealium_event. :link_click. }","modalImagePath":"/content/dam/everydayRewards/images/privacy/logos/ww-metro-logo.png","cardTitle":"
+Woolworths Metro<.h3>..","modalAltText":"Woolworths Metro Logo"},{"ctaPath":"#","ctaText":"Read more","modalTitle":"
+MILKRUN<.h3>..","cardAltText":"MILKRUN icon","modalDescription":"
+Metro60 is now MILKRUN. Groceries delivered in minutes.<.p>..","ctaNewTab":"","cardImagePath":"/content/dam/everydayRewards/images/privacy/icons/milkrun.png","partnerEcosystemTracking":"{.event. Category. :link., event. Action. :click., site. Section.:WPC Welcome., event. Label. :Read more., event. Description. :Metro60., tealium_event. :link_click. }","modalImagePath":"/content/dam/everydayRewards/images/privacy/logos/ww-milkrun-logo.png","cardTitle":"
+MILKRUN<.h3>..","modalAltText":"MILKRUN logo"},{"ctaPath":"#","ctaText":"Read more","modalTitle":"
+MyDeal<.h3>..","cardAltText":"MyDeal icon ","modalDescription":"
+As one of Australia.2019s biggest and most trusted online marketplaces, you.2019ll enjoy massive savings across home and garden, furniture, appliances, electronics and more.<.p>..","ctaNewTab":"","cardImagePath":"/content/dam/everydayRewards/images/privacy/icons/mydeal.png","partnerEcosystemTracking":"{.event. Category. :link., event. Action. :click., site. Section.:WPC Welcome., event. Label. :Read more., event. Description. :MyDeal., tealium_event. :link_click. }","modalImagePath":"/content/dam/everydayRewards/images/homepage/mydeal.png","cardTitle":"
+MyDeal<.h3>..","modalAltText":"MyDeal icon"}],"partnerEcosystemDescription":"
+We work with a number of Everyday Rewards Partners to help you enjoy a little more every day through Boost, Shop and Enjoy. Whether our Partners are big or small, we take steps to only share the minimum required information with them.<.p>..","seeMoreTracking":"{.event. Category. :button., event. Action. :click., site. Section.:WPC Welcome., event. Label. :See more., tealium_event. :link_click. }"}">
+Our Everyday Rewards Partners
+We work with a number of Everyday Rewards Partners to help you enjoy a little more every day through Boost, Shop and Enjoy. Whether our Partners are big or small, we take steps to only share the minimum required information with them.
+Woolworths
+Read more
+BIG W
+Read more
+BWS
+Read more
+EG Ampol
+Read more
+Ampol
+Read more
+Qantas
+Read more
+Bupa
+Read more
+Origin Energy
+Read more
+Healthylife
+Read more
+PetCulture
+Read more
+Marley Spoon
+Read more
+Dinnerly
+Read more
+Woolworths Metro
+Read more
+MILKRUN
+Read more
+MyDeal
+Read more
+Looking after your personal information
+Check out how we collect, use, protect, share your personal information, like your name, date of birth, email address and shopping information to create a better Everyday Rewards experience.
+Collecting and using your information
+We collect your information to improve your Everyday Rewards experience and help you enjoy a little more every day.
+Discover more
+Protecting your information
+We know keeping your personal information protected is important to you, and it's important to us too. 
+Our security measures are in place to help keep your data safe and secure, protect your privacy, and your personal information. 
+Discover more
+Sharing your information for a better experience
+We may share some personal information with our Everyday Rewards Partners, suppliers and other third parties. This provides you with more ways to collect points, redeem dollars and helps us manage the Everyday Rewards Program.
+Discover more
+Top tips to protect your information
+We have security measures in place to protect your personal information. There are also some simple steps you can take to give yourself extra protection online. 
+Video Player is loading.
+Play Video
+Play
+Mute
+Current Time 0:00
+Duration 0:00
+Loaded: 0%
+Progress: 0%
+Stream Type LIVE
+Remaining Time -0:00
+Playback Rate
+1x
+Chapters
+Chapters
+Descriptions
+descriptions off, selected
+Captions
+captions settings, opens captions settings dialog
+captions off, selected
+Audio Track
+Fullscreen
+This is a modal window.
+Beginning of dialog window. Escape will cancel and close the window.
+TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaque
+Font Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall Caps
+Reset restore all settings to the default valuesDone
+Close Modal Dialog
+End of dialog window.
+Your Everyday Rewards communication preferences
+You can decide what promotional messages you'd like to receive and how you'd like to receive them. We've made it easy to understand and update your communication preferences.
+Discover more
+Our documents. Your privacy.
+We want you to understand what we do and why we do it. So we make sure our policy documents are clear, transparent and use simple, everyday language.
+Woolworths Group
+Privacy Policy 
+This document outlines the way we collect, hold, secure, use and share your personal information.
+Read Privacy Policy
+Everyday Rewards
+Collection Notice 
+We've made it simple to understand what personal information we collect, and how and why we collect it.
+Read Collection Notice
+Woolworths Group
+Cookies Statement 
+Our cookies statement makes it easy to understand what cookies are, how we use them to improve your experience and your options to control them on your devices.
+Read Cookies Statement
+More advice and support
+There are various organisations across Australia that can provide you with more guidance, information and resources on how to protect your personal information.
+The OAIC
+The Office of the Australian Information Commissioner is the independent regulator for privacy and freedom of information, and provides guidance on how to protect your personal information.
+Find out more
+IDCARE
+IDCARE, Australia and New Zealand's national identity and cyber support service, can help if you have concerns about identity fraud.
+Find out more
+Scamwatch
+Run by the Australian Competition and Consumer Commission, Scamwatch provides information, tools and resources to help you recognise, avoid and report scams.
+Find out more
+We're here for you
+If you want to access or update your personal information, or make an enquiry or complaint about your privacy, please contact our Privacy Office using these details.
+Phone
+1300 908 631
+Email
+privacy@woolworths.com.au
+Post
+Privacy Office 
+Woolworths Group Limited 
+PO Box 8000 
+BAULKHAM HILLS NSW 2153
+We acknowledge the Traditional Owners and Custodians of Country throughout Australia. We pay our respects to all First Nations peoples and acknowledge Elders past and present.
+Read more about our commitment to reconciliation
+2023 Everyday Rewards. All rights reserved. 
+Terms & conditions 
+Competitions 
+Privacy at Everyday Rewards 
+Collection Notice 
+Help & FAQs 
+Contact us 

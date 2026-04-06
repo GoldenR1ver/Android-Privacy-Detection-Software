@@ -1,0 +1,240 @@
+Privacy Policy
+Version: 1
+Last Modified: 28 September 2022
+Your privacy is important to us.
+Pixocial Technology Pte. Ltd. Pixocial ("Pixocial", "we", "us" or "our") is dedicated to protecting the privacy of our users ("users" or "you"). This Privacy Policy (this "Policy") is meant to explain our practices regarding how we collect, store, use, manage and protect your user information (including your personal information) as a controller and business under applicable data protection laws during your use of Chic application including all its features (our "Services").
+Please note that the scope of this Policy is limited solely to your user information (including your personal information) collected or received by Pixocial when you are using our Services. In this Policy, "personal information" refers to any information or combination of information that can be used to identify, contact or locate an individual to whom the collected information pertains. Such personal information may include your email address, date of birth, images, geo-location, personal identity number, identifiable biological information, and financial information (such as credit card or bank account number, WeChat Pay or Alipay account information).
+BY USING OUR SERVICES, YOU ARE AGREEING TO THIS POLICY AND THE COLLECTION, USE, PROCESSING, RETENTION, DISCLOSURE AND SHARING OF YOUR USER INFORMATION, INCLUDING YOUR PERSONAL INFORMATION, IN THE MANNER PROVIDED IN THIS POLICY. IF YOU DO NOT AGREE WITH ANY OF THE TERMS OF THIS POLICY OR ANY SUBSEQUENT CHANGES TO THIS POLICY, PLEASE DO NOT USE OUR SERVICES.
+Please note that it is mandatory for you to provide certain categories of data (as specified at the time of collection). In the event that you do not provide any or sufficient data marked as mandatory, we may not be able to complete the registration process or provide you with our Services. Also, please note that, unless we define a term in this Policy, all capitalized terms used in this Policy have the same meanings as in our Terms of Service. So, please make sure that you have read and understand our Terms of Service.
+If you have any questions regarding this Policy or any privacy-related matters, please contact our Data Protection Officer via email at legal@pixocial.com (please quote "Chic" in your email title) or via registered mail at Unit 8106B, Level 81, International Commerce Centre, 1 Austin Road West, Kowloon, Hong Kong (attention: Legal Department, Pixocial) Please note that for all other enquiries, feedback, suggestions and complaints not related to privacy or intellectual property infringement (including but not limited any cancellation of subscription, payment disputes, refund requests and technical support of Chic), you should contact us via email at support@pixocial.com. If your email is sent to an incorrect email address, relating to an incorrect subject matter, it may lead to a potential delay or failure in processing your requests properly. 
+THE INFORMATION WE COLLECT
+In order to provide and improve our Services, we will collect and process your personal information and user information in accordance with this Policy, if you do not provide this information, we may be unable to provide you with our products or Services. You should ensure that all personal information and user information submitted to us is complete, accurate, true and correct. Failure on your part to do so may result in our inability to provide you with all or some of our Services.
+The Information You Provide to Us
+When you use our Services, we recommend you sign up for an account with us in order to use all our Services and all its features. When you create an account, we will collect certain information that can be used to identify you or provide our Services to you, such as your user name, gender, date of birth and mobile phone number and location
+Anyone can access our Services, but there are certain services that require a subscription fee, such as accessing to our premium content and enjoying advertisement privileges ("Subscription Service"). If you choose to make a purchase on our Subscription Service, we will collect certain personally identifiable information, such as your device ID. A third-party app store or payment processor may collect your financial information (such as bank account information, WeChat Pay or Alipay account information) and billing address.
+Mobile Device Information
+When you use our Services on your mobile device, we will collect information about your device, including its International Mobile Equipment Identity ("IMEI"), Unique Device Identifier ("UDID") or Android ID, Universally Unique Identifier ("GUUID"), Identifier for Advertising ("IDFA") and Identifier for Vendor ("IDFV"), Integrated Circuit Card Identifier ("ICCID"), Media Access Control ("MAC") address, the type of device you use, operating system version, a list of mobile applications installed on your device and resolution, which will be used by us for statistical and analytical reasons, including without limitation to improve our technical functionality, server load-balancing, analysis of technical data relating to your mobile device so as to optimize our Services and graphics adaptation.
+We may send you push notifications on your mobile device from time to time. If you no longer wish to receive these types of communications, you may turn them off from your mobile device.
+As stated below in the "Location Information" section, we may collect your location-based information from your mobile device if you choose to share it with us. If you subsequently wish to stop sharing Location Information, you may do so at any time by editing the relevant setting on your mobile device.
+Mobile Analytics
+We use mobile analytics software to allow us to better understand and improve the functionality of our Services. Such software may record information such as how often you use the application, the events that occur within the application, aggregated usage, performance data, and where the application was downloaded from.
+Network Information
+When you use our Services, we will collect information about the network you use, including the name of the operator and the type of network, so as to understand the distribution of operators and networks used by our users. In addition, we will collect information such as the name of the WiFi network to which you connect, the location of the WiFi network, and the duration of your WiFi connection to understand the environment under which you prefer to use our Services. We may use such information to provide customized services, for example to provide you with location-based advertising through push-notification.
+Location Information
+We will collect your Location Information, including the country code, latitude and longitude, network location, IP address and the system country and system time zone recorded on your device. This information will help us understand user distribution and usage scenarios and allow us to provide users with the correct version of our apps, the reappearance of the geo-location or the publishing of the real-time geo-location where you take any photos or shoot any videos, send relevant advertisements to you, and improve our Services. Unless we obtain your consent, location data WILL NOT BE ACQUIRED or USED to identify you individually. Except as otherwise provided in this Policy, we will not share this Location Information with any third parties. If you no longer wish to allow us to collect or use such information, you may turn off your Internet access or GPS, or disable our access to information about your network, GPS and device. Please note that we may still continue to receive some Location Information, such as your Network Information, IP address and system time zone, as a result of you using our Services.
+Log Information
+When you use some of our Services, including generating and browsing certain content, we will automatically collect certain relevant log information stored in Chic ("Log Information"). Log Information may include details on when and how often you use our Services, device statistics, including critical operation paths, errors, crashes, language and time zone. This Log Information is used to improve our Services and is NOT USED to identify our users individually. 
+Image Information
+By choosing to use the cloud editing feature of our Services, you understand and agree that we must upload your photos to our server for processing before returning processed photos to you for the purposes of providing such service to you and continuous optimization and that we will also receive the EXIF data about your photos (EXIF data may contain GPS coordinates where photos were taken and processed, equipment type, ISO and information about the front and rear cameras and creation time, depending on the equipment manufacturer) for the purpose of further optimizing our Services, such as providing a better match of photo effects to your equipment.
+Voice Information
+By enabling the microphone on Chic, you agree that we may collect your voice data (i.e. audio clips or recordings of your voice) for video editing. We will not use your voice information for advertising purposes. You can turn off Chic's access to your microphone on your device at any time using the operating system settings on the device or by muting the microphone on your devices.
+Metadata
+Metadata refers to technical data associated with user content. Put simply, metadata is data that describes data. For example, metadata can describe the analysis results of facial features, gender, age, race of the characters in photos and other elements contained in photos, which are generated and tagged by the computer algorithm and artificial intelligence. When you use our Services, we will use photo metadata to provide you with certain features including precise "Facial Recognition", "Key-Points Recognition", "Region Segmentation", "Content Tags" and other custom features based on a combination of these basic features. We may use your photo metadata to provide you with more suitable filters and better photo effect when our apps process your photos; we may also make use of the metadata to serve up a more contextually relevant products or services to you. 
+Face Recognition
+In order to provide the Services, apart from utilizing metadata as mentioned above, we use face recognition technology to recognize faces in photos and camera experiences. We may detect and use facial marks to provide face recognition contents and facial manipulation features. Our Services may utilize calculation results of ARKit and TrueDepth API from Apple in relation to depth of facial mapping information, which may require to use your facial recognition features in order to ensure the face image processing effect and perform feature analysis using the algorithm. The information we collect cannot be used for identifying a specific person, and is used to provide the mentioned features only. When the content recommendation is finished or upon the closing of the application, the facial mapping information is discarded. This information will not be shared with any third parties.
+We will neither use the results for other purposes, nor capture any data in the file nor upload data to the server for recording purposes. 
+Cookies
+When you are using our Services, Pixocial or a third party designated by Pixocial will use cookies, tags and scripts to collect information for the purposes of analyzing trends, managing our Services, tracking users' activity on the Chic and collecting demographics on the user base. Information collected may include information about your Internet Protocol address, browser type, Internet Service Provider (ISP), referring and exit pages, your operating system, dates and timestamps, and clickstream data.
+Advertising
+We and our third-party service providers may include advertisements within our Services, and may collect and use information about you such as your Advertising ID, geographic location and IP address for the purpose of delivering and tracking these advertisements. If your device does not have Advertising ID, we may use other persistent identifiers. We may also collect the application package names of the applications installed on your device. We use the above information to help us better count, track and provide advertisements based on suitability, language, geographic location and other details. If you wish to opt out of interest-based advertising, you may opt out as your device permits. For more information, please contact us at support@pixocial.com (please quote "Chic" in your email title). Please note you will continue to receive generic ads after you opt out of interest-based advertising. 
+Information Collected by Third Party Services
+Our Services provided to you may contain our service provider's Application Programming Interfaces or Software Development Kits (SDKs), which may have tracking tools of such service providers. These third parties may use cookies, APIs and SDKs on our Services and collect and analyze user information. In addition, some third-party SDKs may allow advertisers to collect information in order to provide content that is more relevant to you. Third parties may access your information such as your device identifiers, region (defined as the location where a given language is used), location information and IP address under their respective privacy policies. If you want to know more about such third parties, you may send an email to support@pixocial.com (please quote "Chic" in your email title).
+User Data Supplementation
+We may receive information about you from other sources, including publicly available databases or third parties from whom we have purchased data, and combine this data with information we already have about you. This helps us to update, expand and analyze our records, identify new customers, and provide products, services, and advertising that may be of interest to you. If you provide us with personal information about others, or if others give us your information, we will only use that information for the specific reason for which it was provided to us. Examples of the types of personal information that may be obtained from public sources or purchased from third parties and combined with information we already have about you, may include: Purchased marketing data about our customers from third parties that is combined with information we already have about you, to create more tailored advertising and products.
+If you provide us any personal information of any third party, you shall obtain the consent of such third party for the collection, use and disclosure thereof by Pixocial in accordance with these purposes. You further represent and warrant that in relation to any such third party personal information that you provide, you have obtained such consent for such collection, use and disclosure by Pixocial.
+Payment Processors
+If you sign up through Chic for a Subscription Service to purchase premium content, a third-party app store or payment processor may receive, access or use your payment information (such as bank account information, WeChat Pay or Alipay account information) for the purpose of processing transactions and renewals. If you purchased content or signed up for Subscription Services through a third-party app store or a payment processor, you should refer to that third party's terms for information on how it maintains and uses personal financial information for all purchases.
+Other Information
+We may also collect other information which is not related to your identity. For example, we may collect information on the type and version number of your operating system to better understand system upgrades, we may collect information on your system language for the purpose of language adaptation, and we may collect your App list to understand user preferences. If we choose to collect such information, we will do so for the purpose of improving our Services provided to you. 
+HOW WE USE INFORMATION
+In addition to the uses listed above, we collect and use your user information and personal information for the following purposes: Services. To provide, process, maintain, improve and develop our Services provided to you, including customer support, and other services provided through our products.
+In addition to the uses listed above, we collect and use your user information and personal information for the following purposes: Statistical analysis. To develop and analyze statistics on the use of our products and Services for the purpose of improving our products and our Services.
+In addition to the uses listed above, we collect and use your user information and personal information for the following purposes: To create an account. The personal information that we collect when you use our Services to create an account will be used by us to create your account and profile.
+In addition to the uses listed above, we collect and use your user information and personal information for the following purposes: To provide location-based services. When you use our Services, we or third-party service providers may take advantage of your location information to provide you with advertising, the correct version of our Services and help you gain good user experience.
+In addition to the uses listed above, we collect and use your user information and personal information for the following purposes: To improve user experience. Certain optional features such as user experience programs allow Pixocial to analyze data regarding the use of our products and our Services and improve user experience.
+In addition to the uses listed above, we collect and use your user information and personal information for the following purposes: To provide push services. Device information may be used by us to provide push services to assess the performance of adverts and the success of software updates, or provide notifications on new product releases. 
+In addition to the uses listed above, we collect and use your user information and personal information for the following purposes: To verify your identity. Verifying your identity using a text message when you log in to your account helps prevent unauthorized logins to your account.
+In addition to the uses listed above, we collect and use your user information and personal information for the following purposes: To collect feedback from you. Your feedback is of great value in helping Pixocial improve our Services. Pixocial may collect your email address to contact you and retain the records.
+In addition to the uses listed above, we collect and use your user information and personal information for the following purposes: Other purposes. We will collect, store, maintain and use information about you for purposes under the "The Information We Collect", and for purposes of running our operations, pursuing our legitimate interests (e.g., direct marketing, research (including marketing research), network and information security, and fraud prevention), and satisfying our legal obligations.
+INFORMATION SHARING AND DISCLOSURE
+We may share your information with third parties who provide services on our behalf to help with our business activities. These services may include Fulfilling orders and delivering packages.
+We may share your information with third parties who provide services on our behalf to help with our business activities. These services may include Providing you with advertising.
+We may share your information with third parties who provide services on our behalf to help with our business activities. These services may include Payment processing.
+We may share your information with third parties who provide services on our behalf to help with our business activities. These services may include Providing customer services.
+We may share your information with third parties who provide services on our behalf to help with our business activities. These services may include Sending marketing communications.
+We may share your information with third parties who provide services on our behalf to help with our business activities. These services may include Fulfilling subscription services.
+We may share your information with third parties who provide services on our behalf to help with our business activities. These services may include Conducting research and analysis; and
+We may share your information with third parties who provide services on our behalf to help with our business activities. These services may include Providing cloud computing infrastructure.
+We will not share with or disclose to third parties (other than our service providers) your personal information in whole or in part except for the purposes of protecting the security of others or their property.
+We will not share with or disclose to third parties (other than our service providers) your personal information in whole or in part except for the purposes of preventing or dealing with fraud.
+We will not share with or disclose to third parties (other than our service providers) your personal information in whole or in part except for the purposes of safeguarding the legitimate rights and interests of Pixocial.
+We will not share with or disclose to third parties (other than our service providers) your personal information in whole or in part except for the purposes of taking action in line with our purposes as described in the "The Information We Collect" or the "How We Use Information" sections.
+We will not share with or disclose to third parties (other than our service providers) your personal information in whole or in part except for the purposes of complying with laws, rules and regulations or requests by government departments, judicial authorities, law enforcement, or private parties, which are typically designed to uphold Internet security and the rights, property and safety of us, our users and third parties; and/or
+We will not share with or disclose to third parties (other than our service providers) your personal information in whole or in part except for the purposes of evaluating or completing a transaction where we are involved in a merger, acquisition, financing due diligence, reorganization, bankruptcy, receivership, sale of company assets, or other event where your information may be sold or transferred.
+BASES FOR USING YOUR INFORMATION
+We will only collect and process personal data where we have lawful bases and we typically rely on one of the following four legal bases: consent (where you have given consent).
+We will only collect and process personal data where we have lawful bases and we typically rely on one of the following four legal bases: contract (where processing is necessary for the performance of a contract with you, for example, to operate the site or deliver any services you have requested).
+We will only collect and process personal data where we have lawful bases and we typically rely on one of the following four legal bases: legitimate interests (for example we need to use your information to provide and improve our Services, including protecting your account, providing customer support). We rely on our legitimate interests as our lawful basis only where those interests are not overridden by the impact on you (unless we have your consent or our processing is otherwise required or permitted by law); and
+We will only collect and process personal data where we have lawful bases and we typically rely on one of the following four legal bases: legal obligations (to comply with the laws, rules and regulations or requests by government departments, judicial authorities or law enforcement).
+If you have questions about the lawful bases on how we process your personal information, please contact us at legal@pixocial.com (please quote "Chic" in your email title).
+THIRD PARTY WEBSITES AND SERVICES
+our Services may contain links to other websites and services. In addition, other websites and services may reference or link to our Services. These other domains and websites are not controlled by us, and Pixocial does not endorse or make any representations about third party websites or services. We encourage our users to read the privacy policies of each and every website and service with which they interact. Visiting these other websites or services is at your own risk.
+INFORMATION SECURITY
+We will take reasonable measures to prevent the loss, improper use of, unauthorized access to or disclosure of information. For example, some of our Services will use encryption techniques (such as SSL) to protect your personal information. However, you understand and accept that (in the Internet industry) even though we take reasonable security measures, we cannot always guarantee that your information is 100% secure. You understand and accept that we cannot ensure or warrant the security of any information you provide to us. We do not accept liability for unintentional disclosure. Further, you understand and accept that the system and communication network used by you to access our Services may fail due to factors beyond our control.
+INFORMATION ACCESS AND CONTROL
+We will take all reasonable and appropriate technical measures to ensure that you can access, update and correct your personal information or other personal information provided to us by you when using our Services. Before you access, update, correct or remove such personal information, we may verify your identity in order to protect the security of your account.
+DATA RETENTION
+Subject to applicable laws, rules and regulations and the fulfillment of our business or legal purposes, we will retain your information (including your personal information) for such period as is required for us to continue to provide you with our Services.
+PRIVACY RIGHTS
+In accordance with applicable law, you may have the right to: request confirmation of whether we are processing your personal information; obtain access to or a copy of your personal information; receive an electronic copy of personal information that you have provided to us, or ask us to send that information to another company ("right to data portability"); object to or restrict our uses of your personal information; seek correction or amendment of inaccurate, untrue, incomplete, or improperly processed personal information; withdraw your consent; and request erasure of personal information held about you by us, subject to certain exceptions prescribed by law.
+If you wish to exercise your rights, you may send an email to legal@pixocial.com (please quote "Chic" in your email title) or mail your request to Unit 8106B, Level 81, International Commerce Centre, 1 Austin Road West, Kowloon, Hong Kong (attention: Legal Department, Pixocial). We will process your request in line with applicable laws within a reasonable period of time after receiving your email or mail, and will cease collecting, using and disclosing your personal information thereafter, subject to certain exceptions prescribed by law. To protect your privacy, we will take steps to verify your identity before fulfilling your request. Please note that if you withdraw your consent or delete your personal information, your use of some of our Services may be affected.
+California residents have the right not to receive discriminatory treatment by us for the exercise of their rights conferred by the California Consumer Privacy Act.
+INFORMATION ABOUT CHILDREN
+We will not knowingly collect or request personal information from children under 16 (or any other age stipulated by law applicable to your region). If you are under 16, please do not send your personal information to us, including but not limited to your name, address, phone number or email address. If you believe we may have any information about children under 16, you may send an email to legal@pixocial.com (please quote "Chic" in your email title) or send a registered mail to Unit 8106B, Level 81, International Commerce Centre, 1 Austin Road West, Kowloon, Hong Kong(attention: Legal Department, Pixocial). If we learn that we have collected personal information from children under 16 (or any other age stipulated by law applicable to your region), we will promptly take steps to delete such information and terminate the associated account.
+CROSS-BORDER DATA TRANSFERS
+You understand and agree that all information collected via or by Pixocial may be transferred, processed, and stored anywhere in the world, including but not limited to, Singapore, China, Japan, South Korea, the United States, the European Union, in the cloud, on our servers, on the servers of our affiliates, or the servers of our service providers, in order to provide our Services.
+IF YOU ARE A RESIDENT OF CALIFORNIA
+The California Consumer Privacy Act ("CCPA") provides California residents with the right to know what categories of personal information we have collected about them category of Personal Information
+Collected by us? 
+Identifiers
+Yes 
+Personal information categories listed in Cal. Civ. Code § 1798.80(e)
+Yes 
+Characteristics of protected classifications under California or federal law
+Yes 
+Commercial information
+Yes 
+Biometric information
+Yes 
+Internet activity or electronic network activity information
+Yes 
+Geolocation data
+Yes 
+Sensory data
+Yes 
+Professional or employment-related information
+No 
+Non-public education information (per the Family Educational Rights and Privacy Act (20 U. S. C. Section 1232g, 34 C. F. R. Part 99))
+No 
+Inferences drawn from other personal information to create a profile
+Yes 
+The CCPA also provides California residents with the right to opt out of the "sale" of their personal information. Under the CCPA, a "sale" is broadly defined as making available personal information to a third-party for valuable consideration. It does not necessarily mean money was exchanged for the transfer of personal information. 
+For purposes of the CCPA, a "sale" may include using targeted advertising services to deliver targeted advertising on our Services or other sites. Like most mobile applications, we use these services, which enable us to provide our Services and relevant offers to you. As a result, Pixocial may "sell" the following categories of personal information: identifiers (e.g., advertising IDs); internet activity; geolocation data; and inferences drawn to create a profile.
+We do not sell personal information of California residents.
+If you are a resident of California, every year we will provide you free of charge with an opportunity to obtain a list of third parties to which we have disclosed or with whom we have shared your personal information for their direct marketing purposes during the previous year. If you are a resident of California and wish to obtain this list, you may send an email with the subject "Chic, The right to privacy of a California resident" to legal@pixocial.com or send a registered mail to Unit 8106B, Level 81, International Commerce Centre, 1 Austin Road West, Kowloon, Hong Kong (attention: Legal Department, Pixocial).
+IF YOU ARE A RESIDENT OF NEVADA
+We do not sell personal information of Neveda residents.
+GOVERNING LAW
+This Policy is established, comes into force, and will be enforced and interpreted under the laws of Singapore, without regard to its conflict of law provisions. Any disputes arising hereunder will also be resolved in accordance with the Terms of Service. We do not represent or warrant that this Policy complies with the privacy law of any jurisdiction. Therefore, you should not interpret this Policy in accordance with such law. 
+AMENDMENTS TO THIS POLICY
+You agree that we may update this Policy according to relevant laws and regulations or based on Pixocial's business decisions, and you agree to be bound by any such revisions hereto. We will post any significant changes to this Policy on Chic or notify you by other means as required by law.
+FOR USERS IN THE EUROPEAN ECONOMIC AREA AND THE UNITED KINGDOM
+If you are in the European Economic Area ("EEA") or the United Kingdom ("UK"), we will not collect any of your information set forth above. However, we will process certain information related to your SIM card which enables us to verify whether you are in the EEA or the UK. We use this information to verify whether you are in the EEA or the UK and to prevent the processing operations outlined above. Where we are unable to collect such information we will ask you whether you are in the EEA or the UK. The legal basis for the processing of this SIM card data or your answer to the question about your whereabouts is the performance of a contract with you (Art. 6 para. 1 lit. of the Regulation (EU 2016/679 of the European Parliament and of the Council and UK General Data Protection Regulation (collectively "GDPR")). Without the provision of such data we may not be able to provide you with any Services.
+As we are located in the People's Republic of China we are required to transfer this information to the People's Republic of China. Please be aware that the European Commission and the Information Commissioner's Office have not issued an adequacy decision in relation to the People's Republic of China.
+We will retain this information for as long as needed to provide you with our Services.
+Controller
+The controller for the purposes of Art. 4 no. 7 GDPR with respect to the processing outlined in this Policy is Pixocial Technology Pte. Ltd., 80 Robinson Road #02-00 Singapore 068898. You may contact us via registered mail at the above address (attention: Legal Department, Pixocial) or via e-mail at legal@pixocial.com. (please quote "Chic" in your email title.)
+Representative
+Our representative in the European Union and the UK is Rivacy GmbH and Rivacy Limited respectively. For users in the EEA, you may contact our representative via e-mail at info@rivacy.eu or via registered mail at Rivacy GmbH, Mexikoring 33, 22297 Hamburg. For users in the UK, you may contact our representative via e-mail at info@rivacy.co.uk or via registered mail at Unit G1/G2, The Imperial Laundry, 87 Warriner Gardens, London SW11 4DX, United Kingdom.
+Your rights as a Data Subject
+As a data subject in the EEA or the UK you have the following rights with regard to the processing of your personal data: right of access
+As a data subject you have the right to obtain confirmation from us as to whether we are processing your personal data (Art. 15 para. 1 GDPR). If so, you also have the right to obtain access to the personal data and the information listed in Art. 15 para. 1 GDPR. This includes information regarding the purposes of the processing, the categories of personal data that are being processed and the recipients or categories of recipients to whom the personal data have been or will be disclosed.
+Right to rectification
+As a data subject, you have the right to rectification set out in Art. 16 GDPR, i.e. to have your inaccurate data processed by us rectification and incomplete personal data completed.
+Right to erasure ("right to be forgotten")
+As a data subject, you have a right to obtain from us the erasure of your personal data and we are obliged to erase your personal data without undue delay when one of the reasons listed in Art. 17 para. 1 GDPR applies. This can be the case, for example, if personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed (Art. 17 para. 1lit. GDPR).
+If we have made the personal data public and are obliged to erase it, we are also obliged, taking account of available technology and the cost of implementation, to take reasonable steps, including technical measures, to inform controllers which are processing the personal data that you have requested the erasure by such controllers of any links to, or copy or replication of those personal data (Art. 17 para. 2 GDPR). 
+The right to be forgotten does not apply if the processing is necessary for one of the reasons listed in Art. 17 para. 3 GDPR. This can be the case, for example, if the processing is necessary for compliance with a legal obligation or for the establishment, exercise or defense of legal claims (Art. 17 para. 3 lit. and e) GDPR).
+Right to restriction of processing
+As a data subject, you have a right to obtain from us the restriction of processing if one of the conditions provided in Art. 18 para. 1 GDPR applies. This can be the case, for example, if you contest the accuracy of the personal data. In such a case, the restriction of processing lasts for a period that enables us to verify the accuracy of the personal data (Art. 18 para. 1 lit. GDPR).
+Restriction means that stored personal data are marked with the goal of restricting their future processing (Art. 4 para. 3 GDPR).
+Right to data portability
+As a data subject, you have a right to receive your personal data which you have provided to us in a structured, commonly used and machine-readable format and to transmit those data to another controller without hindrance from us if the processing is based on consent pursuant to point Art. 6 para. 1 lit. GDPR or Art. 9 para. 2 lit. GDPR or on a contract pursuant to Art. 6 para. 1 lit. GDPR and the processing is carried out by automated means (Art. 20 para. 1 GDPR).
+In exercising your right to data portability, you also generally have the right to have your personal data transmitted directly from us to another controller if technically feasible (Art. 20 para. 2 GDPR).
+Right to object
+As a data subject, you have a right to object under the conditions provided in Art. 21 GDPR.
+Right to object on grounds relating to the particular situation of the data subject
+As a data subject, you have the right to object, on grounds relating to your particular situation, at any time to processing of your personal data which is based on Art. 6 para. 1, lit. or f) GDPR including profiling based on those provisions.
+To verify whether our processing is based on Art. 6 para. 1, lit. or f) GDPR, please refer to the sections "How We Use Information" and "Information Sharing and Disclosure" of this Policy above.
+In the event of an objection relating to your particular situation, we will no longer process your personal data unless we can demonstrate compelling legitimate grounds for the processing which override your interests, rights and freedoms or for the establishment, exercise or defence of legal claims.
+Right to object to direct marketing
+Where your personal data are processed for direct marketing purposes, you have the right to object at any time to processing of your personal data for such marketing, which includes profiling to the extent that it is related to such direct marketing.
+If you object to processing for direct marketing purposes, we no longer process your personal data for these purposes.
+Right to withdraw consent
+Where our processing of your personal data is based on your consent, you have the right, pursuant to Art. 7 para. 3 GDPR, to withdraw your consent at any time. The withdrawal of your consent does not affect the legitimacy of the processing that occurred based on your consent until the withdrawal.
+To verify whether our processing is based on consent pursuant to point Art. 6 para. 1 lit. GDPR or Art. 9 para. 2 lit. GDPR or on a contract pursuant to Art. 6 para. 1 lit. GDPR please refer to the sections "How We Use Information" and "Information Sharing and Disclosure" of this Policy above.
+Right to lodge a complaint with a supervisory authority
+As a data subject, you have a right to lodge a complaint with a supervisory authority under the conditions provided in Art. 57 para. 1 lit. GDPR.
+Exercise of your rights under GDPR
+As a data subject, you may exercise any of the rights listed above in accordance with the instructions and limitations set forth in the section "Privacy Rights" above.
+Additional Information on Your Rights as a Data Subject
+For further information on your rights as a data subject please refer to Art. 12 to 21 GDPR.
+FOR USERS IN JAPAN
+Right to data disclosure, correction, erasure or suspension of use
+If you are in Japan, as a data subject, you have the right to request the disclosure, correction, erasure or suspension of use of your personal data, and we are obliged to meet your request without undue delay. You may send your request by email to legal@pixocial.com (please quote "Chic" in your email title) or by mail to Unit 8106B, Level 81, International Commerce Centre, 1 Austin Road West, Kowloon, Hong Kong (Attention: Legal Department, Pixocial).
+更新日期：2023年11月27日
+生效日期：2023年11月27日
+厦门美图网科技有限公司及其关联方（即"我们"）作为Chic的运营者，会严格按照法律的规定，保护您的个人信息以及隐私安全，本隐私政策("本政策")旨在向您说明，在使用Chic APP（以下称"产品"或 "服务"）时，您应了解的内容：
+二、我们如何使用Cookie
+在您使用本产品和服务时，我们建议您注册一个美图账号，以更加充分地使用本产品和服务的全部功能；为此，您需要提供手机号码（用于实名认证）并创建密码、昵称。
+关于美图账号
+美图账号可登录、使用美图公司旗下各APP（包括但不限于美图秀秀、美拍、美颜相机、海报工厂等），为满足您一致的服务体验，在您在登录美图公司旗下其他APP时且自主选择使用已注册的美图账号的，该美图账号将会同步您的昵称、头像、地区、性别等您自主填写的公开信息等。如您不希望上述内容被同步，请您在登录美图公司旗下其他APP时选择其他注册、登录方式。
+为保障您的账号、网络、运营及系统安全，预防钓鱼网站欺诈及木马病毒，在您使用本产品的过程中，我们可能会收集您的设备信息，包括不可变更的设备标识信息（指由设备制造商编入到设备以对其进行标识的一串字符，Android如IMEI、AndroidID、OAID、IMSI、ICCID、GAID、MEID，iOS如IDFV、IDFA，本政策中所指的"设备标识信息"均同本定义）硬件序列号、MAC地址。请您理解，当您将处于设备屏幕中的Chic APP切换至后台运行时，由于部分设备机型及系统原因，您此前使用Chic 相关功能而产生的信息收集行为，可能无法立即停止，从而将导致短暂的后台信息收集行为。
+您同意Chic的《用户协议》和本《隐私政策》后，即可以使用Chic的相关产品功能和/服务。为实现以下各项产品功能和/或服务，我们可能需要向您收集相对应的个人信息，若您拒绝提供，则无法使用该等特定服务，但不影响您正常使用Chic的基本产品功能及服务。
+1、 崩溃排查与UI适配。为维护我们服务的正常运行，以及排查产品故障、改进及优化我们的服务，我们会收集您的设备型号信息及设备分辨率。这类信息是为提供服务必须收集的信息，收集后即作去标识化处理，不会用于识别任何特定的用户。
+2、 用于调起第三方支付等功能。如您使用Chic中支付功能时，我们会读取您的应用列表信息用以判断该第三方支付应用是否存在以完成支付功能。
+3、 消息通知：在您开启通知权限的前提下，我们可能会通过您设备的系统通知，向您发送账号动态、素材及滤镜更新。请您知悉，上述发送不涉及个性化推荐服务，如您不希望收到上述发送，您可随时通过【Chic】-【设置】-【消息通知】来关闭通知权限，或在手机系统设置中关闭Chic的通知权限。
+4、 iOS人脸优化处理效果。我们的服务可能会利用iOS的 ARKit 和 TrueDepth 应用程序接口中人脸映像深度相关资讯运算结果，以达到更好的人脸影像处理效果；在此期间，我们既不会将该等运算结果用于其他目的，也不会以记录为目的，或以其他方式搜集您的脸部映像深度为目的，撷取档案中的任何资料或上传资料到服务器。
+5、 当您使用Chic中提供的AR特效进行拍摄时，为了适配您的设备状态，我们会调用您设备的旋转矢量传感器、加速度传感器信息，以识别您的设备横竖屏状态。
+6、 当您进行"摇一摇"这类依赖于动作开展的互动或活动时，我们会使用您设备的传感器信息，以识别您的动作，来为您展示下一步互动场景。
+7、 自启动相关：为确保本应用处于关闭或后台运行状态下可正常修改应用内语言和快捷图标语言，本应用须使用(自启动）能力，将存在一定频率通过系统发送广播唤醒本应用自启动或关联启动行为，这是实现功能及服务所必要的。
+8、 客户服务。当您通过【设置】-【意见反馈】/【联系我们】向Chic提起投诉、进行咨询或申诉时，为了方便与您联系或帮助您解决问题，我们可能需要您提供电子邮件或其他有效的联系方式等个人信息。如您拒绝提供上述信息，我们可能无法向您及时反馈相关处理结果。
+1、 如果您认为您的相关权利遭受侵犯，您可通过我们对外公布的联系方式提起投诉、举报。在此过程中，我们将要求您提供个人有效身份信息以核实投诉、举报的真实性。
+2、 请您理解，我们向您提供的功能和服务是不断更新和发展的，如果我们要将您的个人信息用于本政策未载明的其它用途，或基于特定目的将收集的信息用于其它目的，我们将以合理的方式（例如页面提示、交互流程、网站公告等）向您告知，并在使用前再次征得您的同意。
+二、我们如何使用Cookie
+为保证网站正常运行，为帮助您获得更轻松的访问体验，我们会在您的计算机或移动设备上存储名为Cookie的小数据文件。Cookie通常包含标识符、站点名称以及一些号码及字符。您可根据自己的意愿管理或删除Cookie，您也可以清除计算机上保存的所有Cookie。有关详情，请参见AboutCookies.org。我们不会将Cookie用于本政策所述目的之外的任何用途。大部分网络浏览器都设有阻止Cookie的功能，您可以通过浏览器设置选项清除计算机上保存的所有Cookie，但如果您这么做，可能会导致您在每一次访问我们的网站时都需要亲自更改用户设置。
+1） 在获取明确同意的情况下共享：获得您的明确同意后，我们会与其他方共享您的个人信息。
+2） 在法定条件下共享：我们可能会根据法律法规规定、诉讼争议解决需要、按照政府主管部门或司法机关依法提出的强制要求，对外共享您的个人信息。
+3） 在法律要求或允许的范围内，为了保护厦门美图网科技有限公司及其用户或社会公众的利益、财产或安全免遭损害而有必要提供您的个人信息给第三方；
+4） 与我们的关联公司共享：您的个人信息可能会与我司（厦门美图网科技有限公司）的关联公司进行共享，我们只会在为实现向您提供本产品相关功能和服务的目的下共享必要的个人信息且受本隐私政策所声明目的的约束。关联公司若要改变个人信息的处理目的，将再次征求您的授权同意。我们的关联公司包括：厦门鸿天创视科技有限公司及其分、子公司；厦门美图之家科技有限公司及其分、子公司；厦门美图宜肤科技有限公司及其分、子公司等。我司及我司关联公司合称"美图"。
+1、 与授权合作伙伴共享：仅为实现本政策中声明的目的，我们将委托由授权的合作伙伴提供（我们会与授权的合作伙根据法律规定签署相关处理协议，并对其个人信息使用活动进行监督）。如推广服务、产品分析服务、技术支持服务。我们可能会与合作伙伴共享基于其信息安全规则完成去标识化处理的少量个人信息，以帮助我们统计产品用户分布、评估产品推广效果。我们仅会出于合法、正当、必要、特定、明确的目的共享您的个人信息，并且只会共享提供服务所必要的个人信息；同时，对我们与之共享个人信息的公司、组织和个人，我们会与其签署严格的保密协议，要求其按照我们的隐私政策以及其他任何相关的保密和安全措施来处理个人信息。我们的合作伙伴无权将共享的个人信息用于任何其他用途。如果您拒绝我们的合作伙伴在提供服务时收集或使用为提供服务所必须的个人信息，将可能导致您无法使用该第三方服务。我们仅会选择国内管理规范的主流数据供应商。我们的合作伙伴包括以下类型：
+2、 技术支持类合作伙伴：当您使用Chic相机时，为我们提供技术支持的合作伙伴，会向我们的用户收集相关个人信息用于实现其所支持的服务；同时，还有提供分析服务的合作伙伴，会向我们的用户收集基于其信息安全规则完成去标识化处理的少量个人信息，以帮助我们统计产品用户分布、评估产品推广效果。
+1、 在明确获得您的同意的前提下，我们会向其他方转让您的个人信息；
+2、 在涉及合并、收购或破产清算时，如涉及到个人信息转让，我们会在要求新的持有您个人信息的公司、组织等主体继续接受此隐私政策的约束，如果本政策约定的个人信息的收集、处理方式、使用目的等发生改变，我们将要求该公司、组织等主体重新向您征求授权同意。
+获得您明确的同意后；
+基于法律法规、司法机关或行政主管部门的强制性要求，我们可能会披露您的个人信息。
+为订立、履行您作为一方当事人的合同所必需；
+为履行法定职责或者法定义务所必需；
+为应对突发公共卫生事件，或者紧急情况下为保护您的生命健康和财产安全所必需；
+为公共利益实施新闻报道、舆论监督等行为，在合理的范围内处理个人信息；
+依照相关法律规定在合理的范围内处理个人自行公开或者其他已经合法公开的个人信息；
+法律、行政法规规定的其他情形。
+我们已使用符合业界标准的安全防护措施保护您提供的个人信息，防止数据遭到未经授权访问、公开披露、使用、修改、损坏或丢失。我们会采取一切合理可行的措施，保护您的个人信息。例如，在您的浏览器与"服务"之间交换数据时受SSL加密保护；我们对产品提供的配套Web服务提供HTTPS安全访问方式；我们会使用加密技术确保数据的保密性；我们会使用受信赖的保护机制防止数据遭到恶意攻击；我们会部署访问控制机制，确保只有授权人员才可访问个人信息；以及我们会举办安全和隐私保护培训课程，加强员工对于保护个人信息重要性的认识。
+保存期限：我们只会在达成本政策所述目的所需的期限内保留您的个人信息，除非法律法规有强制的留存要求，例如《中华人民共和国电子商务法》要求商品和服务信息、交易信息保存时间自交易完成之日起不少于三年；例如《网络安全法》要求按照规定留存相关的网络日志不少于六个月。我们判断个人信息的存储期限主要参考以下标准并以其中较长者为准：完成与您相关的服务所需保留的必要期限；应对您可能的查询或投诉；保证我们为您提供服务的安全和质量；您是否同意更长的留存期间；是否存在关于保留期限的其他特别约定或法律法规规定。对于超出期限的个人信息，我们会立即删除或做匿名化处理。
+互联网并非绝对安全的环境，而且电子邮件、即时通讯、及与其他用户的交流方式并未加密，我们强烈建议您不要通过此类方式发送个人信息。请使用复杂密码，协助我们保证您的账号安全。
+互联网环境并非百分之百安全，我们将尽力确保或担保您发送给我们的任何信息的安全性。
+在不幸发生个人信息安全事件后，我们将按照法律法规的要求，及时向您告知：安全事件的基本情况和可能的影响、我们已采取或将要采取=的处置措施、您可自主防范和降低风险的建议、对您的补救措施等。我们将及时将事件相关情况以邮件、信函、电话、发送通知等方式告知您，难以逐一告知个人信息主体时，我们会采取合理、有效的方式发布公告。同时，我们还将按照监管部门要求，主动上报个人信息安全事件的处置情况。
+1、 个人信息访问和更正--您可以通过【Chic】-【设置】-【账号管理】-【头像】，来对您美图账号中的个人信息、昵称、性别、头像、地区、生日等进行访问和更正。
+2、 账号信息访问与更正--您可在【Chic】-【设置】-【账号管理】中访问或更换您绑定的手机号、修改密码、登录记录、第三方账号绑定、注销账号等信息。
+处理目的已实现、无法实现或者为实现处理目的不再必要；
+我们停止提供产品或者服务，或者保存期限已届满；
+您撤回同意的；
+我们违反法律、行政法规或者违反约定处理个人信息；
+法律、行政法规规定的其他情形。
+您可在【Chic】-【设置】-【账号管理】中进行账号注销。我们将在验证您的身份并清理账号中的资产后，为您提供账号注销服务。您注销成功后，我们将停止为您提供产品或服务，并根据适用法律的要求删除您对应的个人信息或作匿名化处理。
+在账号登录情况下，如果您需要浏览您的个人信息或希望导出您的个人信息副本，您可在【设置】-【账号管理】-【美图安全中心】-【个人信息浏览与导出】中申请个人信息副本的提取，您提交申请后，我们将会在24小时内发送至您指定的邮箱。
+为保障安全，在您提出上述权利主张时，您可能需要提供书面请求，或以其他方式证明您的身份。我们将在验证您的身份后再处理您的请求。一般情况下，我们将在【15】天内做出答复。对于您合理的请求，我们原则上不收取费用，但对多次重复、超出合理限度的请求，我们将酌情收取一定费用。对于与您的身份不直接关联的信息、无端重复信息，或者需要过多技术手段（例如，需要开发新系统或从根本上改变现行惯例）、给他人合法权益带来风险或者不切实际的请求，我们可能会予以拒绝。
+1、与国家安全、国防安全有关的；
+2、与公共安全、公共卫生、重大公共利益有关的；
+3、与犯罪侦查、起诉、审判和执行判决等有关的；
+4、有充分证据表明个人信息主体存在主观恶意或滥用权利的；
+5、响应您的请求将导致您或其他个人、组织的合法权益受到严重损害的；
+6、涉及商业秘密的。
+1、 我们的产品主要面向成人，但是受限于本产品特性，我司并未开发识别您真实年龄的产品功能。但是我们特别重视未成年人的个人信息的保护。如果您为14周岁以下的未成年人，在使用我们的产品和/或服务前，请您务必在监护人的陪同下阅读本政策，并确保已征得您的监护人明确同意后，再使用我们的服务并向我们提供您的个人信息。
+2、 对于经监护人同意使用我们的产品或服务而收集未成年人个人信息的情况，我们只会在法律法规允许、监护人明确同意或者保护未成年人所必要的情况下处理此信息。
+3、 如果您的监护人不同意您按照本政策使用我们的服务或向我们提供个人信息，请您立即终止使用我们的服务并及时通知我们。
+4、 如果您对您所监护的未成年人使用我们的产品/服务或其向我们提供的用户信息有任何疑问时，请您及时与我们联系。
+5、 如果我们发现在未获得监护人同意的情况下收集了未成年的个人信息，则会设法尽快删除相关未成年人个人信息。同时，为保护未成年人个人信息安全，我们设置了专门的《未成年人个人信息保护规则》>，请您仔细阅读。
+我公司为在中华人民共和国境内成立的【厦门美图网科技有限公司】，注册地址：厦门火炬高新区软件园创新大厦C区3F-A1106。
+如果您对本政策内容有任何疑问、意见、建议或进行申诉，您可通过以下方式联系我们：请发送电子邮件至个人信息保护专员：legal@meitu.com，也可以挂号信方式寄送至：中华人民共和国厦门市同安区滨海西大道2557号美峰创谷2号楼美图大厦（收件人：美图公司-法务部）。
+用于Chic的视频录制功能。 

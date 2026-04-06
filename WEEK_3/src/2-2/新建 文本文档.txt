@@ -1,0 +1,6 @@
+python run_audit.py audit `
+  --input-csv "data\soul_week3\sentences_week3_2_2.csv" `
+  --output-csv "results\soul_week3_audit_raw.csv" `
+  --provider mock `
+  --limit 10 `
+  --log-file "results\soul_week3_audit.log"

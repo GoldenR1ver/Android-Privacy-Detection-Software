@@ -1,22 +1,14 @@
 import matplotlib
-from matplotlib.font_manager import FontProperties
-matplotlib.use('Agg')
+
+matplotlib.use("Agg")
 
 import os
 import numpy as np
 import matplotlib.pyplot as plt
 
-# ==================== 字体设置 ====================
-try:
-    font_path = 'C:/Windows/Fonts/simhei.ttf'
-    if os.path.exists(font_path):
-        custom_font = FontProperties(fname=font_path)
-        plt.rcParams['font.family'] = custom_font.get_name()
-    else:
-        plt.rcParams['font.sans-serif'] = ['Arial Unicode MS', 'SimHei', 'Microsoft YaHei']
-    plt.rcParams['axes.unicode_minus'] = False
-except:
-    print("字体设置失败，可能需要手动安装中文字体")
+from matplotlib_zh import configure_matplotlib_chinese_font
+
+configure_matplotlib_chinese_font()
 
 # ==================== 数据定义 ====================
 # 所有29个小点（与您的PPT完全对应）

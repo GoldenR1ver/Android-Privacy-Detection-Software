@@ -1,0 +1,266 @@
+更新时间：【2023年】 【 11月】 【 23日】 
+生效时间：【2023年】 【 11月】 【 30日】 
+北京巨量引擎网络技术有限公司及其关联方（简称"我们"）作为巨量引擎的运营者，深知个人信息对您的重要性，我们将按照法律法规的规定，保护您的个人信息及隐私安全。本隐私政策详细描述了我们如何收集、使用和处理与您有关的个人信息。特别提示：希望您在使用巨量引擎及相关服务前仔细阅读并理解本隐私政策，做出适当的选择。使用巨量引擎以您接受本政策为前提条件。如对本政策内容有任何疑问、意见或建议，您可通过巨量引擎客服电话（400-618-1518）与我们联系。 
+1.我们会遵循该隐私政策收集、使用您的信息，但不会仅因您同意本隐私政策而采用强制捆绑的方式一揽子收集个人信息。 
+2.当您使用或开启相关功能或使用服务时，为实现功能、服务所必需，我们会收集、使用相关信息。 
+3.如果您未登录帐号，我们会通过设备对应的标识符信息来保障信息推送的基本功能。如果您登录了帐号，我们会根据帐号信息实现信息推送。 
+4.为实现业务功能或根据法律法规要求所必需，我们会在您使用特定功能或服务时收集、使用您的敏感个人信息，具体的收集场景、目的和范围请见敏感个人信息清单。 
+5.精确地理位置、摄像头（相机）、麦克风、相册（存储）、日历、活动记录权限，均不会默认开启，只有经过您的明示授权才会在为实现特定功能或服务时使用。特别需要指出的是，即使经过您的授权，我们获得了这些敏感权限，也不会在相关功能或服务不需要时而收集您的信息。具体权限申请与使用情况请见：巨量引擎应用程序应用权限申请与使用情况说明 
+6.本隐私政策适用于巨量引擎（包含巨量引擎官方网站、巨量引擎应用程序）向您提供的产品和服务。如您使用我们或关联公司向您提供的某项或某几项服务，有其单独的隐私政策的，则相应服务或产品适用相应隐私政策；如未设立独立隐私政策的，则本政策同样适用于该部分产品或服务。 
+7.下文将帮您详细了解我们如何收集、使用，存储，转移（如适用）与保护个人信息，帮您了解查阅，复制，删除，更正，撤回授权个人信息，其中，有关您个人信息权益的条款重要内容我们已用加粗形式提示，请特别关注。 
+二、我们对 Cookie 和同类技术的使用 
+1.保障产品的正常基础运行 
+2.实现各项功能和服务 
+3.优化、改善产品和服务 
+4.保障产品、服务以及用户使用安全 
+5.遵循法律法规与国家标准的规定 
+运营与安全运行/保障 
+保障"巨量引擎"和相关服务的正常运行 
+当您使用"巨量引擎"及相关服务时，为了保障软件与服务的正常运行，当您使用巨量引擎官方网站时，我们会收集您的IP 地址、操作日志等信息；当您使用巨量引擎应用程序时，我们会收集您的硬件型号、操作系统版本号、设备标识符（Android如Android ID、SIM卡信息（如ICCID）、硬件序列号（SN）；iOS如IDFV、IDFA。不同的标识符在有效期、是否可由用户重置以及获取方式方面会有所不同），网络设备硬件地址（设备MAC地址）、IP 地址、WLAN接入点（如SSID、BSSID）、软件版本号、网络接入方式及类型、操作日志、设备传感器数据（如加速度传感器、线性加速度传感器、重力传感器、陀螺仪传感器）等信息。请您了解，这些信息是我们提供服务和保障产品正常运行所必须收集的基本信息。当您打开使用巨量引擎应用程序并最小化运行（后台状态）时，采集仍会持续一段时间，以便在您最大化运行应用程序时继续向您提供连贯的服务，保障服务的正常运行和安全。 
+保障产品、服务及用户使用安全 
+2.注册、登录、认证、找回"巨量引擎"和相关服务 
+注册、登录 
+（1）当您注册、登录"巨量引擎"及相关服务时，您可以通过手机号或邮箱创建账号，我们将通过发送短信验证码或邮件来验证您的身份是否有效，并且您可以完善相关的网络身份识别信息（如头像、密码），收集这些信息是为了帮助您完成注册。如果拒绝提供，您将可能无法获得登录状态下的相关服务，但不影响其他功能的正常使用。 
+（2）当您使用广告投放相关服务时，您需要创建或绑定通过资质审核的广告主账号。针对广告主账号您可以填写联系邮箱、联系电话，并且您可以完善相关的网络身份识别信息（头像、账户名称），收集这些信息是为了帮助您完成注册。 
+（3）基于我们与通信运营商的合作，当您使用【巨量引擎】"一键登录"功能时，经过您的明示同意，运营商会将您的手机号码发送给我们，便于我们为您提供快捷的登录服务。如果拒绝提供手机号将无法使用"一键登录"方式注册登录【巨量引擎】，但不影响您通过其他方式注册登录，也不影响其他功能的正常使用。 
+（4）当您使用第三方帐号登录并使用【巨量引擎】，经过您同意，我们将获取您在第三方平台注册的公开信息（头像、昵称以及您授权的其他信息），用于与【巨量引擎】帐号绑定，使您可以直接登录并使用本产品和相关服务。在使用第三方应用进行授权登录时，第三方应用可能需要将实现登录所必需的信息（登录口令等）在剪切板中写入与读取，以实现应用间的帐号授权。这些信息仅供实现登录相关的目的所使用，不会收集您的隐私信息。 
+认证 
+帐号找回 
+3.我们在您使用产品或服务过程中收集的信息 
+4.开展营销活动 
+5.扫描网站二维码进行登录或创意素材预览，进行人脸认证 
+6.对有效线索在巨量引擎应用程序内进行外呼 
+7.上传/下载/保存创意的图片或视频 
+8.出于账号安全风控目的 
+9.反馈问题 
+当您通过巨量引擎应用程序反馈问题时，我们需要访问您的剪切板，读取uid以快速定位并排查问题。 
+10.分享 
+（1）与我们履行法律法规规定的义务相关的； 
+（2）与国家安全、国防安全直接相关的； 
+（3）与公共安全、公共卫生、重大公共利益直接相关的； 
+（4）与犯罪侦查、起诉、审判和判决执行等直接相关的； 
+（5）出于维护个人信息主体或其他个人的生命、财产等重大合法权益但又很难得到本人同意的； 
+（6）所收集的您的个人信息是您自行向社会公众公开的； 
+（7）从合法公开披露的信息中收集的您的个人信息的，如合法的新闻报道、政府信息公开等渠道； 
+（8）根据您的要求签订或履行合同所必需的； 
+（9）用于维护"巨量引擎"软件及相关服务的安全稳定运行所必需的，例如发现、处置"巨量引擎"软件及相关服务的故障； 
+（10）为公共利益实施新闻报道、舆论监督等行为，在合理的范围内处理个人信息； 
+（11）学术研究机构基于公共利益开展统计或学术研究所必要，且对外提供学术研究或描述的结果时，对结果中所包含的个人信息进行去标识化处理的； 
+（12）法律法规规定的其他情形。 
+二、我们对 Cookie 和同类技术的使用 
+Cookie 和同类技术是互联网中的通用常用技术。当您使用"巨量引擎"及相关服务时，我们可能会使用相关技术向您的设备发送一个或多个 Cookie 或匿名标识符，以收集和存储您访问、使用本产品时的信息。我们使用 Cookie 和同类技术主要为了实现以下功能或服务： 
+我们可能会设置认证与保障安全性的 Cookie 或匿名标识符，使我们确认您是否安全登录服务，或者是否遇到盗用、欺诈等不法行为。这些技术还会帮助我们改进服务效率，提升登录和响应速度。 
+（三）cookie的清除 
+大多数浏览器均为用户提供了清除浏览器缓存数据的功能，您可以在浏览器设置功能中进行相应的数据清除操作。如您进行清除，可能因为这些修改，您可能无法使用依赖于Cookie由公司提供的服务或相应功能。 
+（1）遵从法律法规有关信息留存的要求（例如：《电子商务法》规定：商品和服务信息、交易信息保存时间自交易完成之日起不少于三年）。 
+（2）出于财务、审计、争议解决等目的需要合理延长期限的。 
+1.原则 
+合法原则：与合作方合作过程中涉及数据使用活动的，必须具有合法目的、符合法定的合法性基础。如果合作方使用信息不再符合合法原则，则其不应再使用您的个人信息，或在获得相应合法性基础后再行使用。 
+正当与最小必要原则：数据使用必须具有正当目的，且应以达成目的必要为限。 
+安全审慎原则： 我们将审慎评估合作方使用数据的目的，对这些合作方的安全保障能力进行综合评估，并要求其遵循合作法律协议。我们会对合作方获取信息的软件工具开发包（SDK）、应用程序接口（API）进行严格的安全监测，以保护数据安全。 巨量引擎接入合作方目录 
+委托处理 
+共同处理 
+4.合作方的范围 
+实现功能或服务的数据使用 
+在您使用身份认证的功能或相关服务所需时，根据相关法律法规、安全保障要求可能需要完成实名认证以验证您的身份。在实名认证的过程中，与我们合作的认证服务机构需要使用您的真实姓名、身份证号码、手机号码及人脸信息。部分信息是个人敏感信息，拒绝上述使用将导致您无法完成身份认证，但不会影响巨量引擎其他功能的正常使用。这些信息仅供实名认证及法律法规所规定的用途，未经您的明示授权，不会用作其他目的。 
+为与您使用的终端机型适配消息推送功能，终端设备制造商（华为、小米、OPPO、VIVO等）可能通过SDK等技术使用您的手机型号、版本及相关设备信息。 
+支付功能：支付功能由与我们合作的第三方支付机构向您提供服务。第三方支付机构为提供功能将使用您的姓名、银行卡类型及卡号、有效期、身份证号码及手机号码。这些信息是支付功能所必需的信息，拒绝上述使用将导致您无法使用该功能，但不影响其他功能的正常使用。 
+客户服务：为及时处理您的投诉、建议以及其他诉求，客户服务提供商需要使用您的帐号及所涉及事件的相关信息，以及时了解、处理和响应相关问题。 
+实现安全与分析统计的数据使用 
+保障使用安全：我们非常重视帐号、服务及内容安全，为保障您和其他用户的帐号与财产安全，使您和我们的正当合法权益免受不法侵害，我们的合作方可能会使用必要的设备、帐号及日志信息。 
+分析产品情况：为分析我们产品的使用和表现情况，我们的合作方可能需要使用该产品使用情况（崩溃、闪退）、设备标识信息、应用总体安装使用情况等信息。 
+为提升相关领域的科研能力，促进科技发展水平，我们在确保数据安全与目的正当的前提下，可能会与合作的科研院所、高校等机构使用去标识化或匿名化的数据。 
+7.帮助您参加营销推广活动 
+（1）为订立、履行您作为一方当事人的合同所必需，或者按照依法制定的劳动规章制度和依法签订的集体合同实施人力资源管理所必需； 
+（2）为履行法定职责或者法定义务所必需； 
+（3）与国家安全、国防安全直接相关的； 
+（4）与刑事侦查、起诉、审判和判决执行等直接相关的 
+（5）为应对突发公共卫生事件，或者紧急情况下为保护自然人的生命健康和财产安全所必需； 
+（6）为公共利益实施新闻报道、舆论监督等行为，在合理的范围内处理个人信息； 
+（7）依照相关法律规定处理您自行公开或者其他已经合法公开的个人信息； 
+（8）从合法公开披露的信息中收集个人信息的，如合法的新闻报道、政府信息公开等渠道。 
+（9）法律、行政法规规定的其他情形。 
+（一）我们非常重视您个人信息的安全，将努力采取合理的安全措施（包括技术方面和管理方面）来保护您的个人信息，防止您提供的个人信息被不当使用或未经授权的情况下被访问、公开披露、使用、修改、损坏、丢失或泄漏。目前，【巨量引擎】已经通过了国家信息安全等级保护（三级）的测评和备案，并通过了国际权威的ISO27001信息安全认证。 
+改变或撤回敏感权限设置 
+改变或撤回授权的信息处理 
+1.查阅、复制、更正、补充、删除您的帐号信息 
+您可以登录巨量引擎官方网站，在账户信息与设置中查阅、修改、补充您的账户名称、联系方式（相关链接为：website_url_lnk 
+除上述外，如果您或其他有权主体对相关法律法规赋予的个人信息权利的行使，有任何主张、要求或者疑问，您可以通过"巨量引擎"应用程序中的"我的-用户反馈"页面或通过官方网站website_url_lnk 
+1.如您想要注销账号，须满足账号注销的相关条件，可联系客服（客服邮箱：kefu@service.feishu.cn ）与我们联系申请注销您的帐号，我们将会在收到您的申请后及时进行处理，并在15个工作日或法律法规要求的时限内回复您的请求。 
+2.您知悉并理解，注销账号的行为是不可逆的行为，当您注销账号后，我们将删除有关您的相关信息或进行匿名化处理，但法律法规另有规定的除外。 
+您可以通过登录"巨量引擎"应用程序中的"我的-关于巨量引擎"页面或通过官方网站website_url_lnk 
+1.您可以在官方网站底部、巨量引擎应用程序底部菜单的"账户中心-关于巨量引擎"中查看本隐私政策的全部内容。 
+2.请您了解，本隐私政策中所述的巨量引擎软件及相关服务可能会因您所使用的设备型号、系统版本、软件应用程序版本、移动客户端等因素而有所不同。最终的产品和服务以您所使用的软件及相关服务为准。 
+（二）本隐私政策更新后，我们会在巨量引擎官方网站、巨量引擎应用程序发出更新版本，并在更新后的条款生效前通过官方网站（website_url_lnk 
+（一）【巨量引擎】由【北京巨量引擎网络技术有限公司】提供，北京抖音信息服务有限公司、抖音视界（北京）有限公司作为巨量引擎应用程序的软件著作权人，授权北京巨量引擎网络技术有限公司运营巨量引擎应用程序。如果您对个人信息保护问题有投诉、建议、疑问，您可以通过拨打【400-618-1518】与我们联系，我们核查并验证您的用户身份后会及时反馈您的投诉与举报。 
+（二）如对个人信息保护问题或本隐私政策内容有任何疑问、意见或建议，您可以通过拨打【400-618-1518】与我们联系，我们将尽快审核所涉问题，并在验证您的用户身份后的十五个工作日内回复。
+Ocean Engine Privacy Policy
+Updated: [11 ] [23 ] [2023] 
+Effective: [11 ] [30 ] [2023] 
+Beijing Ocean Engine Network Technology LLC and its affiliates (hereinafter collectively referred to as "we") as the operator who runs Ocean Engine, understands the importance of your personal information and will protect your personal information and privacy pursuant to applicable laws. This Privacy Policy describes how we collect, use, and process your personal information. Note: Please read and understand this Privacy Policy carefully and make the appropriate choices prior to your use of Ocean Engine and its services. Your acceptance of this policy is a prerequisite for your use of Ocean Engine. You may contact us through the Ocean Engine Customer Service Support Line (400-618-1518) if you have any questions, comments, or recommendations about the terms of this Privacy Policy. 
+Beijing Douyin Information Service Co., Ltd., Douyin Vision Co., Ltd. as the software copyright owner of the Ocean Engine application，authorize Beijing Ocean Engine Network Technology LLC to operate Ocean Engine application. 
+This Privacy Policy will help you understand that Your personal data will be collected and used in compliance with this Privacy Policy. Your agreement with this Privacy Policy does not entitle us to collect nor require you to provide any additional personal information.
+This Privacy Policy will help you understand that We will only collect and use the personal information necessary for us to provide you with the specific functions and services that you actively use or have enabled.
+This Privacy Policy will help you understand that If you are not logged in to your account, we will use the identifier information corresponding to the device to ensure the basic functions of information push. If you log in to your account, we will push information based on your account information.
+This Privacy Policy will help you understand that In order to realize business functions or in accordance with legal and regulatory requirements, we will collect and use your sensitive personal information when you use specific functions or services. For specific collection scenarios, purposes and scope, please see ( Sensitive Personal Information List).
+This Privacy Policy will help you understand that Precise geographic location, camera, microphone, gallery (storage), calendar and activity record permissions will not be activated by default and will only be enabled with your explicit permission to provide certain functions or services. It is important to note that, even if such sensitive permissions have been obtained through your authorization, they will never be used to collect your personal data whenever the applicable functions or services are not in use. Refer to the following document for more information on the application and use of specific permissions: Description of the Application and Use of Ocean Engine Application Permissions
+This Privacy Policy will help you understand that This privacy policy applies to the products and services provided to you by the Ocean Engine platform (including the Ocean Engine official website and the Ocean Engine application). If you use one or several services provided to you by us or an affiliated company and have its own privacy policy, the corresponding service or product shall apply the corresponding privacy policy; if no independent privacy policy has been established, this policy shall also apply to this part of the product or service.
+This Privacy Policy will help you understand that The following will help you understand in detail how we collect, use, store, transfer (if applicable) and protect personal information, and help you understand access, copy, delete, correct, and withdraw authorized personal information. Please pay particular attention to the important personal information terms highlighted in bold.
+Table of Contents.
+How We Collect and Use Your Personal Information 
+How We Use Cookies and Other Similar Technologies 
+How Your Personal Information is Stored 
+The Partners Involved in the Process of Data Use and the Transfer and Disclosure of Personal Information 
+How Your Personal Information is Protected 
+Manage Your Personal Information 
+Terms of Use for Minors 
+Modification to Privacy Policy and Notification 
+Contact Us 
+How We Collect and Use Your Personal Information 
+Your information will be collected based on the principles of legality, openness, and necessity when you use Ocean Engine and its services. The information we collect or ask you to submit will be used for （1） Ensuring the regular operation of the product; 
+（2） Providing different functions and services 
+（3） Optimizing and improving products and services 
+（4） Ensuring the security of products, services, and users 
+（5） Complying with applicable laws and national standards 
+Collection and Use of Personal Information 
+We will collect the information that you voluntarily provide or that is automatically generated as you use functions or accept services as follows Operation and Safe Operation/Guarantee
+Ensuring the Regular Operation of Ocean Engine and its Services 
+To ensure the regular operation of the software and its services when you use Ocean Engine and its related services: we may collect information such as IP address and operation log when you use Ocean Engine official website; and we may collect information such as your device model, device serial, operating system version, International Mobile Equipment Identity number (Android such as Android ID), SIM card's information (such as ICCID) ，Hardware Serial Number (SN)，iOS such as IDFV、IDFA。Different identifiers vary in terms of how long they are valid, whether they can be reset by the user, and how they are obtained)），Media Access Control address, IP address, software version, network access method and type, operation log 、 device sensor data and Device sensor data (such as accelerometer, linear accelerometer, gravity sensor, gyroscope sensor) when you use Ocean Engine application. Please be aware that the collection of such information is necessary and essential to the normal operation of the services and the product we provide. When you open and minimize the use of Ocean Engine applications (background state), the collection will continue for a period of time so that we can provide coherent services while you maximize the operation of the application , ensure the normal operation and security of the services. 
+Ensure the Safety of Products, Services and Users 
+In order to help us better understand the operation of the "Ocean engine" and related services in order to ensure the safety of operation and provision of services, we may record network log information, as well as the frequency of software and related services, crash data, overall installation, Information such as usage, performance data, etc. 
+Registering, Logging, Certification and Recover Account into Ocean Engine and its Services 
+Registering And Logging 
+You may create account using your mobile phone number when registering and logging in to Ocean Engine and we will send you a verification code via text message to verify your identity. You may also add identification information to your account (such as avatar, password). Such information is collected to help you complete registration. You may not be able to use certain services while logged in if you refuse to provide such information, but your use of other functions will remain unaffected. 
+b. You need to create or bind an approved advertiser account to receive services we provide through Ocean Engine. You need to provide your email and phone number for the advertiser account. And you also need to complete the relevant network identification information (avatar, account name), which is collected to help you complete the registration. 
+c. Based on our cooperation with communication operators, when you use the "one click login" function of [Ocean Engine Platform], with your express consent, the operators will send your mobile phone number to us so that we can provide you with fast login services. If you refuse to provide your mobile phone number, you will not be able to use the "one click login" method to sign-up and login [Ocean Engine Platform], but it will not affect your sign-up and login through other methods, nor will it affect the normal use of other functions. 
+You can log in with a third-party account and use the [Ocean Engine platform]. With your consent, we will obtain the public information (avatar, nickname and other information authorized by you) that you have registered on the third-party platform to communicate with [Ocean Engine platform] account binding, so that you can directly log in and use this product and related services. When using a third-party application to authorize login, the third-party application may need to write and read information (login password, etc.) necessary for login in the clipboard to achieve account authorization between applications. This information is only used for login-related purposes and will not collect your private information. 
+Certification 
+When you use identity authentication functions or related services, we may collect real identity information (real name, ID number, phone number, etc.) of you or your legal representative and operator to complete verification of your real name according to relevant laws and regulations. Part of the information is personal sensitive information which you can refuse to provide. However, if you refuse to provide, you may not be able to obtain related services, but this does not affect the normal use of other functions and services. 
+At the same time, you understand and agree that we may use the real identity information you provide for account attribution and security judgment, determination or handling of violations, risk control and other purposes. 
+Account Retrieval 
+You can retrieve your account through the account retrieval function. To ensure the security of your account, we may need you to fill in relevant information for verification when retrieving your account. If necessary, it may pass real-name verification and face recognition, etc. to verify your identity. 
+Information We Collect When You Use Our Products or Services 
+We may store information such as your correspondence, call records, and contact information when you contact us to contact you back, help you solve your problem, or record how the problem was resolved and the outcome. 
+Marketing Promotions 
+When choosing to participate in our marketing promotions, you may be requested to provide your name, mailing address, contact information, and bank account number depending on the particular activity's requirements. Such information may contain sensitive personal information (such as contect information and bank account numbers) necessary for you to receive bank transfer or gifts. We may not be able to pay via bank transfer or send gifts to you if you refuse to provide such information. 
+Scanning the Website QR Code to Login, Preview Creative Content, or Perform Face Authentication 
+We will request device Camera permissions when you use the Ocean Engine application to scan the website QR code to login, preview creative content, or perform face authentication. 
+Making Phone Calls to Leads Using the Ocean Engine Application 
+Feiyu is a lead management platform provided by Ocean Engine. We will request device Phone permissions when using the Feiyu platform to call leads using an Android device. 
+Toufangwuyou is an online loan service platform provided by Ocean Engine. We will request device Phone permissions when using the Tonufangwuyou credit management platform applet to make phone calls using an Android device. 
+Uploading/Downloading/Saving Creative Images or Videos 
+We will request device storage permissions when you access/download/save creative images or videos. 
+Adding Store Components, Learning about Nearby Stores, or for Account Security Purposes 
+Location permissions, include obtaining precise geographic location information through sensor information such as Global Positioning System or network location information (such as base stations and WLANs), and obtaining approximate geographic location information through network location information (such as base stations and WLANs). Xingtu is a partner service platform provided by Ocean Engine. We will request device Location permissions when you use the Xingtu platform provided by Ocean Engine to advertise your store, find nearby stores, or add store components. Toufangwuyou is an online loan service platform provided by Ocean Engine. We will request device Location permissions when you use the Toufangwuyou platform within the Ocean Engine application to secure your account and control risks. Third party applets may also request these device permissions from you if necessary when using their functions and shall explain the purpose for such in their agreements. Please read their agreements carefully before granting any permissions. 
+Reports and Complaints 
+We will need to access your clipboard and read your uid when you report any problems through the Ocean Engine application so that we may quickly locate and resolve the issue. 
+Sharing 
+We will need to access your clipboard and read the password it contains to redirect you whenever you share or receive shared information through the Ocean Engine application (such as when adding someone to WeChat using the Add button on the sales page while using the Feiyu platform within the Ocean Engine Application). 
+Indirect Collection of Personal Information 
+Our affiliates and partners may share your personal information with us pursuant to applicable laws or under your agreement and consent to provide better services, provide you with joint services, or prevent Internet fraud. 
+Other Purposes 
+The information we collect may be anonymized for research, statistical analysis, and prediction purposes to optimize and improve the Ocean Engine services and provide product or technical service support for user marketing decisions. 
+We will seek your prior consent before using information for any purpose not provided in this Policy or applying information collected for any specific purpose into other purposes. 
+Changes in The Purpose of Collecting and Using Personal Information 
+Please understand that with the development of our business, there may be adjustments and changes to the functions and services provided by [Ocean Engine]. In principle, when a new function or service is related to the function or service we currently provide, the personal information collected and used will be directly or reasonably related to the original processing purpose. In scenarios that are not directly or reasonably related to the original processing purpose, when we collect and use your personal information, we will once again inform you in accordance with the requirements of laws, regulations and national standards through page prompts, interaction procedures, and agreement confirmation methods and get your consent. 
+Personal Information Collected and Used Legally Exempted from Your Consent 
+Please be aware that under the following circumstances, we can collect and use your personal information without your authorization and consent, pursuant to applicable laws and national standards: Relevant to our fulfillment of obligations stipulated by laws and regulations; 
+Please be aware that under the following circumstances, we can collect and use your personal information without your authorization and consent, pursuant to applicable laws and national standards: The information is directly related to national security and national defense & security; 
+Please be aware that under the following circumstances, we can collect and use your personal information without your authorization and consent, pursuant to applicable laws and national standards: The information is directly related to public safety, public health, or major public interests; 
+Please be aware that under the following circumstances, we can collect and use your personal information without your authorization and consent, pursuant to applicable laws and national standards: The information is directly related to criminal investigation, prosecution, trial, and execution of a court judgment; 
+Please be aware that under the following circumstances, we can collect and use your personal information without your authorization and consent, pursuant to applicable laws and national standards: Such collection is required to safeguard the major legally protected interests concerning the life and property of the subject of the personal information, or of others, when it is difficult to obtain their consent; 
+Please be aware that under the following circumstances, we can collect and use your personal information without your authorization and consent, pursuant to applicable laws and national standards: The personal information collected is information that you have independently publicly disclosed; 
+Please be aware that under the following circumstances, we can collect and use your personal information without your authorization and consent, pursuant to applicable laws and national standards: The personal information collected is sourced from legally disclosed information including without limitation, news reports, and government information disclosure; 
+Please be aware that under the following circumstances, we can collect and use your personal information without your authorization and consent, pursuant to applicable laws and national standards: Necessary to sign or perform a contract according to your requirements; 
+Please be aware that under the following circumstances, we can collect and use your personal information without your authorization and consent, pursuant to applicable laws and national standards: When such data is required to maintain the security and stability of the Ocean Engine software and its services, such as in the detection and management of faults discovered in the Ocean Engine software and its services; 
+Please be aware that under the following circumstances, we can collect and use your personal information without your authorization and consent, pursuant to applicable laws and national standards: Carrying out activities such as news reporting and public opinion monitoring for the public interest, and handling personal information within a reasonable scope.
+Please be aware that under the following circumstances, we can collect and use your personal information without your authorization and consent, pursuant to applicable laws and national standards: When the information is necessary for statistical or academic research on public interests conducted by academic research institutions. When the results of such academic research is published, the personal information contained therein will be anonymized; 
+Please be aware that under the following circumstances, we can collect and use your personal information without your authorization and consent, pursuant to applicable laws and national standards: Other circumstances provided by applicable laws.
+In particular, if a piece of information, whether alone or combined with other information, cannot identify you personally, then such information shall not be legally deemed as your personal information; if a piece of information can, alone or combined with other information, identify you personally, or if non-identifiable personal information is used in conjunction with other personal information, then such information will be processed and protected as your personal information under this Privacy Policy throughout the course of such usage. 
+How We Use Cookies and Other Similar Technologies 
+Cookies and other similar technologies are commonly used throughout the Internet. We may use such technologies to store one or more cookies or anonymous identifiers on your device whenever you use Ocean Engine or its services to collect and store data generated when you access and use the service. We primarily use Cookies and other similar technologies to realize the following functions or services: Ensuring the Security and Efficient Operation of Our Products and Services
+We may use Cookies or anonymous identifiers for authentication and security purposes, to confirm whether you have safely logged in or fallen victim to crimes such as theft and fraud. Such technologies will also help us improve our operational efficiency and speed up login and response times. 
+Providing a Smoother Browsing Experience 
+Such technologies may help you save time filling in personal information and search terms (such as: recording your search history). 
+Cookie Removal 
+Most browsers provide users with the function of clearing the browser cache data. You can perform the corresponding data clearing operation in the browser settings function. If you clear it, you may not be able to use the services or corresponding functions provided by the company that rely on cookies because of these modifications. 
+How Your Personal Information is Stored 
+Storage Location 
+Personal information collected and generated throughout the course of operation within the People's Republic of China jurisdiction shall be stored pursuant to applicable laws. Currently, the above information is not transferred to any regions outside the People's Republic of China. We will request your consent in advance and abide by applicable law should it be necessary to transfer your information overseas. 
+Storage Period 
+Your personal information will only be stored as long as necessary for us to provide you with Ocean Engine services. For example: when you use your mobile phone number to register and log in, we need to keep your mobile phone number in order to provide you with normal services, respond to your possible queries and customer complaints, and protect your account and system security. If you cancel your account, actively delete your personal information, or exceed the necessary period, we will delete or anonymize your personal information, except in the following cases: Comply with the relevant information retention requirements of laws and regulations (for example, the "E-Commerce Law" stipulates that the storage period of goods and service information and transaction information shall not be less than three years from the date of completion of the transaction).
+Your personal information will only be stored as long as necessary for us to provide you with Ocean Engine services. For example: when you use your mobile phone number to register and log in, we need to keep your mobile phone number in order to provide you with normal services, respond to your possible queries and customer complaints, and protect your account and system security. If you cancel your account, actively delete your personal information, or exceed the necessary period, we will delete or anonymize your personal information, except in the following cases: It is necessary to reasonably extend the time limit for financial, auditing, dispute resolution and other purposes.
+The Partners Involved in the Process of Data Use and the Transfer and Disclosure of Personal Information 
+Partners Involved in the Use of Data 
+Principles 
+Principle of legality: Data use activities involved in the process of cooperation with partners must have a legal purpose and comply with the legal basis of legality. If the partner's use of information no longer complies with the principle of lawfulness, it should no longer use your personal information, or use it after obtaining the corresponding legal basis. 
+The principle of justification and least necessity: the use of data must have a legitimate purpose and should be limited to what is necessary to achieve the purpose. 
+The principle of security prudence: We will carefully evaluate the purpose of the data used by the partners, conduct a comprehensive assessment of the security capabilities of these partners, and require them to comply with the cooperation legal agreement. We will conduct strict security monitoring on the software tool development kit and application program interface used by the partners to obtain information to protect data security. List of Accessed Partners of Ocean Engine 
+Consignment Processing 
+For scenarios where the processing of personal information is entrusted, we will sign relevant processing agreements with the entrusted partner in accordance with the law and supervise the use of personal information. 
+Joint Processing 
+For scenarios of joint processing of personal information, we will sign relevant agreements with our partners in accordance with legal provisions and agree on their respective rights and obligations to ensure that we comply with relevant laws and protect data security during the use of relevant personal information. 
+Scope of Partner 
+If the specific functions and scenarios involve the provision of services by our affiliates and third parties, the scope of cooperation includes our affiliates and third parties. 
+Realize the Use of Data for Functions or Services 
+When you use the identity authentication function or related services, you may need to complete real-name authentication to verify your identity in accordance with relevant laws, regulations, and security requirements. In the process of real-name authentication, the authentication service agency we cooperate with needs to use your real name, ID number, mobile phone number and face information. Part of the information is personal sensitive information. Refusing the above use will cause you to fail to complete the identity authentication, but it will not affect the normal use of other functions of the Ocean engine. This information is only for real-name authentication and the purposes stipulated by laws and regulations, and will not be used for other purposes without your express authorization. 
+In order to adapt the message push function to the terminal model you are using, terminal equipment manufacturers (Huawei, Xiaomi, OPPO, VIVO, etc.) may use your mobile phone model, version and related device information through SDK and other technologies. 
+Payment function: The payment function is provided to you by a third-party payment institution that cooperates with us. Third-party payment institutions will use your name, bank card type and card number, expiration date, ID number and mobile phone number to provide functions. This information is necessary for the payment function. Refusal of the above use will cause you to be unable to use the function, but it will not affect the normal use of other functions. 
+Customer Service: In order to deal with your complaints, suggestions and other demands in a timely manner, customer service providers need to use your account number and related information about the incident involved to understand, handle and respond to related issues in a timely manner. 
+Realize the Use of Data for Security and Analysis and Statistics 
+Guarantee of use security: We attach great importance to account, service and content security. In order to protect your and other users' account and property security, and to protect your and our legitimate rights and interests from illegal infringement, our partners may use necessary equipment , account and log information. 
+Analyze the product situation: In order to analyze the use and performance of our products, our partners may need to use the product usage (crash unexpectedly), device identification information, and overall application installation and usage information. 
+In order to enhance scientific research capabilities in related fields and promote the level of scientific and technological development, we may use de-identified or anonymized data with cooperative research institutes, universities and other institutions under the premise of ensuring data security and proper purpose. 
+Help you to Participate in Marketing Promotion Activities 
+When you choose to participate in relevant marketing activities organized by us and our partners, in order to ensure that you get a consistent service experience in the joint activities, or entrust the partners to cash out rewards for you in time, we and our partners may need to use you name, mailing address, contact information, bank account number and other information. Refusal of the above use may affect your participation in related activities, but will not affect other functions. 
+Transfer 
+As our business grows, we may undergo acquisition, merger and reorganization, and your personal information may be transferred as a result. We will continue to protect your personal information in compliance with the security standards provided in this Privacy Policy should any of the above changes occur, or we shall require the successor to be bound by this Privacy Policy; otherwise, we will require the successor to obtain your authorization and consent again. 
+Disclosure 
+We will not publicly disclose your personal information unless required to do so by applicable laws or only after obtaining your authorization or consent. Any personal information disclosed will be protected using industry-standard security practices. We will disclose the necessary information of the relevant account when making an announcement of punishments for illegal accounts and fraudulent acts. 
+Sharing, Transfer, and Disclosure of Personal Information Legally Exempted from Your Consent 
+Please be aware that we may share, assign, and disclose your personal information without your authorization and consent under the following circumstances pursuant to applicable law and national standards: Necessary for the conclusion and performance of a contract to which you are a party, or necessary for the implementation of human resource management in accordance with the labor rules and regulations established in accordance with the law and the collective contract signed in accordance with the law; 
+Please be aware that we may share, assign, and disclose your personal information without your authorization and consent under the following circumstances pursuant to applicable law and national standards: Necessary to perform statutory duties or statutory obligations; 
+Please be aware that we may share, assign, and disclose your personal information without your authorization and consent under the following circumstances pursuant to applicable law and national standards: The information is directly related to national security and national defense & security; 
+Please be aware that we may share, assign, and disclose your personal information without your authorization and consent under the following circumstances pursuant to applicable law and national standards: The information is directly related to any criminal investigation, prosecution, trial, and execution of a court judgment; 
+Please be aware that we may share, assign, and disclose your personal information without your authorization and consent under the following circumstances pursuant to applicable law and national standards: It is necessary to respond to public health emergencies, or to protect the life, health and property safety of natural persons in emergencies; 
+Please be aware that we may share, assign, and disclose your personal information without your authorization and consent under the following circumstances pursuant to applicable law and national standards: Conduct news reports, public opinion supervision, etc. for the public interest, and handle personal information within a reasonable range; 
+Please be aware that we may share, assign, and disclose your personal information without your authorization and consent under the following circumstances pursuant to applicable law and national standards: Personal information that you have publicly disclosed independently; 
+Please be aware that we may share, assign, and disclose your personal information without your authorization and consent under the following circumstances pursuant to applicable law and national standards: Any personal information that has been collected and sourced from publicly disclosed information, including without limitation news reports, and government information disclosure; 
+Please be aware that we may share, assign, and disclose your personal information without your authorization and consent under the following circumstances pursuant to applicable law and national standards: Other circumstances stipulated by laws and administrative regulations.
+How Your Personal Information is Protected 
+We value your personal information security and endeavor to implement reasonably effective security practices (in both technical and administrative) to protect your personal information against any misuse or non-consensual access, disclosure, use, change, loss, or breach. At present, [Ocean Engine] has passed the national information security level protection (level three) evaluation and filing, and passed the internationally authoritative ISO27001 information security certification. 
+We will protect your information by implementing reasonable effective practices in compliance with peer companies standards, including without limitation encryption technology and anonymization, and adopt protection mechanisms to prevent your personal information from malicious attacks. 
+We will establish a security department, a security management system, and data security procedures to ensure your personal information security. We have a strict data usage and access system to ensure that only authorized persons are allowed to access your personal information, and will perform data and technology security audits on a regular basis. 
+However, please be aware that although we implement the above-mentioned reasonably effective practices and comply with all legally mandated standards. However, even though every effort is made to follow and improve security practices, it is impossible to ensure 100% information due to technological limitations in Internet technologies and the numerous malicious means that exist, yet we will endeavor to ensure the security of any personal information you provide to us. 
+You acknowledge and understand that the system and communication network through which you access our services may face issues due to reasons beyond our control. Therefore, we strongly recommend that you take proactive measures to keep your personal information secure, including without limitation, use of complex passwords, regular password changes, and not disclosing your account password and other personal information to others. 
+We will develop an emergency response plan and implement the plan immediately in the event of a user information security incident, in an effort to mitigate the impacts and consequences of such security incidents. Pursuant to applicable laws, once a user information security incident (such as a breach or a loss) has been reported we will promptly provide you with: an overview with any foreseeable effects of such incident, our existing or planned response, suggestions for you to avoid and reduce any risks associated with the incident, and any remedial action you can take. We will promptly inform you of any matters related to the incident by push notification, email, post, or text message. If it is difficult to notify each individually affected person, we will publish announcements in a reasonable and effective manner. Furthermore, we will also report the handling of user information security incidents in compliance with the requirements of the appropriate regulatory agencies. 
+We hereby remind you that the personal information protection measures provided herein only apply to Ocean Engine and its services. We will be unable to and have no obligation to protect any personal information you submit in any software or on any websites other than Ocean Engine and its services after exiting Ocean Engine and its services and browsing or using other websites, services or content resources regardless of whether you were linked or redirected to login to, browse, or, use such software or website via Ocean Engine. 
+Manage your Personal Information 
+We think highly of personal information management and endeavor to take every effort to protect your rights to inquire, copy, correct, add, delete, withdraw consent authorization, cancel account, complaint and set privacy function, etc to allow you to protect your privacy and security. 
+Change or Revoke the Scope of Authorization 
+Change or Revoke Sensitive Permission Settings 
+You can change the scope of consent or revoke your authorization by revoking the related permissions in your device's operating system. We will no longer collect information using these permissions after the permissions are revoked. 
+Information Processing after Change or Withdrawal of Authorization 
+Some functions and services cannot be provided without your personal information. We will no longer be able to provide you with such functions and services, nor will we continue processing your personal information once you withdraw your consent or authorization. However, your decision to withdraw your consent will not affect any past personal information processing conducted under your previous authorization. 
+Your personal information rights 
+Check and copy, correct, add and delete your [personal account information] you can log in to the official website of Ocean Engine, check, modify, and add your account name and contact information in the account information and settings (the relevant link is: website_url_lnk
+Check and copy, correct, add and delete your [personal account information] you are especially reminded that for security and identification (such as number appeal service) considerations, you may not be able to independently modify some initial registration information submitted during registration. If you really need to modify this type of registration information, please contact us according to the contact information specified in this privacy policy.
+In addition to the above, if you or other authorized subjects have any claims, requirements or questions regarding the exercise of personal information rights granted by relevant laws and regulations, you can use the "My-User Feedback" in the "Ocean Engine" application. Contact us on the page or through the contact number and email disclosed in the "Contact Us" on the official website website_url_lnk We will review the issue as soon as possible and reply within fifteen working days after verifying your user identity. 
+Logout 
+If you want to cancel your account, you must meet the relevant conditions for account cancellation, you can contact customer service (customer service email: kefu@service.feishu.cn) to contact us to apply for cancellation of your account, we will promptly receive your application Process and respond to your request within 15 working days or the time limit required by laws and regulations. 
+You know and understand that the act of canceling your account is irreversible. After you cancel your account, we will delete relevant information about you or anonymize it, except as otherwise provided by laws and regulations. 
+Feedback and Complaints 
+Login to Ocean Engine and navigate to the "Mine-About Ocean Engine" page in Ocean Engine application to contact us or contact us via the phone number or email address published on the Contact Us page on the official website website_url_lnk and we will process your report in a timely manner. You can call the Complaint Hotline [400-618-1518] if you think your personal information rights were violated or discover evidence of information rights violations. After verification, we will respond to such complaints and reports as soon as possible. 
+Notifying You If Operations are to Cease 
+We will stop collecting your personal information if we cease operations and inform you of such closure either individually or through a published announcement, and delete or anonymize any personal information we hold about you, unless otherwise provided by laws. 
+Accessing the Privacy Policy 
+You may access this entire Privacy Policy at the bottom of the official website or via Account Center, About Ocean Engine in the menu at the bottom of the Ocean Engine application. 
+Please be aware that the Ocean Engine software and any services under this Privacy Policy may vary as your mobile phone model, operating system version, application software version, mobile application, and other factors may be. The final products and services you receive are subject to the software and any of the services you use. 
+Terms of Use for Minors 
+Huge Engine products and services are intended for adults. If you think that we have unintentionally collected information about minors who have not obtained permission, please contact us through the [Contact Information] at the end of the article so that we can delete this information as soon as possible. 
+Modification to Privacy Policy and Notification 
+Ocean Engine and its services may be updated and changed occasionally to allow us to provide you with better services. We will periodically revise this Privacy Policy, and any such revisions will be deemed a part of this Privacy Policy and shall have the same legal effect as this Privacy Policy. We will never revoke any of your rights under the Privacy Policy currently in effect without your explicit prior consent. 
+We will publish the updated version of this Privacy Policy to the Ocean Engine application and official website after any updates, and we will notify you of the updated policy through the official website (website_url_lnk or in other appropriate manner to allow you to understand the latest version of this Privacy Policy before the updated terms take effect. 
+Contact us 
+[Ocean Engine Platform] Provided by [Beijing Ocean Engine Network Technology LLC], Beijing Bytedance Technology Co., Ltd. and Beijing Bytedance Web Technology Co., Ltd., as the software copyright holders of Ocean Engine applications, authorize Beijing Ocean Engine Network Technology Co., Ltd. operates a huge number of engine applications. If you have complaints, suggestions, or questions about the protection of personal information, you can contact us by calling [400-618-1518]. After we check and verify your user identity, we will promptly feedback your complaints and reports. 
+Contact us by calling [400-618-1518] if you have any questions, comments, or recommendations for the protection of personal information or this Privacy Policy. We will review the issue as soon as possible and reply within fifteen business days of verifying your user identity. 

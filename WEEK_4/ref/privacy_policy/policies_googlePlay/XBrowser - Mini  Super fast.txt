@@ -1,0 +1,76 @@
+This product XBrowser belongs to Beijing XINWANG Technology Co Ltd. Please read this Privacy Policy carefully before using this product. This Privacy Policy sets out what information XBrowser collects from users and which related networking services it uses. It also informs the user how the author ensures the security of the user's information and that the information will not be disclosed.
+What information do we collect?
+We collect information to improve our application and provide better services to all of our users, including 1. the number of times users launch the app each day, and the length of time they use the app.
+We collect information to improve our application and provide better services to all of our users, including 2. the menu option you click, the default settings option you choose, other ui element click event.
+We collect information to improve our application and provide better services to all of our users, including 3. Some basic information of the app, such as version , phone model, OS version, country code, etc.
+We do not collect your personal identifiable information when you using our product, such as name, phone number, physical address , IMEI code.
+Stop collecting user experience data
+User experience data is completely anonymous and is used to help authors understand how users use the product in order to improve the user experience. Even so, you can force XBrowser to stop collecting UX data.
+Turn on the option "Do not collect user experience data", you can find it in "Browser Settings>>Security and Privacy".
+What app permissions are requested by XBrowser and what they are used for
+Check the state of your network connection
+Detects whether the user's network is available and whether it is wifi or mobile data traffic, and gives the user alerts when they are downloading files.
+Read and write to the phone's external storage
+Downloading files and caching resource data all require reading and writing to external phone storage. However, it is limited to the browser's private directory and public download and media directories.
+get phone location information
+Some specific web applications require user location information, such as maps, weather forecasts, etc. The browser itself does not obtain and store the user's location information.
+What network services are accessed when the application is launched
+Official backend configuration system to support user accounts, data synchronization, and downloading of necessary resource files.
+Update some blocking rules from third-party URLs
+Flurry App Analytics service
+How we protect user privacy
+Very few user permissions are required and access is requested only when used.
+Synchronized data is transmitted via a private encryption algorithm and is not easily intercepted by intermediate networks.
+Registering for an account only requires an email, no sensitive information such as cell phone numbers social accounts are required. Cell phone password is used for password revert. 
+User accounts are stored encrypted so that even authors cannot access user passwords.
+We promise never to disclose user data to third party individuals or companies.
+Others
+Users visiting any other website through the browser will leave some of your cookies related information, such as your usage history account information of other websites, etc. Browser will not read and collect this information, each website has its own user privacy policy, and these have nothing to do with XBrowser itself.
+Privacy Policy Adjustment
+If there are any future changes to this Privacy Policy, we will update it here so that you are aware of the most current content. 
+This statement is effective as of the date of the update, last updated on June 17, 2022
+Contact
+For any questions or queries regarding the User Privacy Agreement, you can contact me by email and we will respond as soon as possible.
+mail: byteman.su@gmail.com
+See End user license agreement
+Outline
+What information do we collect?
+Stop collecting user experience data
+What app permissions are requested by XBrowser and what they are used for
+Check the state of your network connection
+Read and write to the phone's external storage
+get phone location information
+What network services are accessed when the application is launched
+How we protect user privacy
+Others
+Privacy Policy Adjustment
+Contact
+Back to the top
+FAQGeneralUser DataExceptionsAd BlockingOverviewURL Blocking ruleHidden element ruleException ruleUser ScriptOverviewNormal User ScriptTampermonkey User ScriptsUser Script API ReferenceUser Script ExampleUser AgreementUser Privacy AgreementEULAOthersExtensionsChangelogs
+Posts
+ChangeLogV4.1.0
+New/optimized Greatly improved Grease Monkey scripts compatibility, almost all Grease Monkey scripts are compatible Optimize the compatibility of
+使用ChatGPT油猴脚本
+这里分享的脚本为第三方作者开发，如果您发现脚本存在恶意或侵权，请联系作者及时删除，谢谢。详细请参考这里 自从4.1.0版本开始，X浏览器针对油猴脚本的兼容性做了很多的优化，其中就包括兼容最近比较受欢迎的一个支持ChatGPT油猴脚本, chatGPT tools Plus（修改版）。 该脚本集成了除了
+ChangeLogV4.0.4 build 729
+New/optimized Optimize the default downloader to solve the problem that background downloading of large files often gets hung up. Download files 
+How to cast video to other devices
+The previous version supported screen casting through a plugin with a screencasting extension, which used a third-party vendor SDK to complete the cas
+ChangeLogV4.0.3
+New/optimized User data synchronization support synchronizing browser tabs, support backup/restoring browser tabs New option in the main men
+Pages
+About XBrowser
+border-radius:3px; box-shadow:rgba(0,0,0,0.15) 0 0 8px; background:#FBFBFB; border:1px solid #ddd; margin:10px auto; margin-left: 15px; padding:5px; "X" is
+作者针对广告拦截做了一系列优化，但是我并不鼓励用户拦截掉所有的广告，对于可以接受的非恶意广告。我希望用户允许他们的存在，毕竟这是广大站长赖以生存的方式。 X浏览器内置规则源大都来自于第三方的开源规则，难免会导致一些良性网站不能正常访问或者误杀，如果您是站长并且您的正常广告被拦截请联系我将站点加入公共
+强力广告拦截是X浏览器在早期做的一个创新的拦截策略，其优点是简单高效，可以做到不需要依赖于大量的拦截规则就能达到很好的广告拦截效果，如果你不愿意花时间写拦截规则，或者订阅其他第三方拦截规则可以尝试一下强力拦截模式。 本文来介绍强力拦截的基本原理以及X浏览器提供的适用于强力拦截模式下的规则语法。 原理
+Ad-Blocking Overview
+XBrowser's ad blocking module has done a lot of optimization work for the lack of performance of cell phones compared to PC browsers, and is compatibl
+END USER LICENSE AGREEMENT
+This end user license agreement is between you ("You"), as either an individual or as a business entity, and XBrowser team. In exchange for your use o
+Categories
+changelogschangelogs
+tutorialstutorials
+Tags
+ChatGptChatGpt
+ExtensionExtension
+Video-castVideo-cast

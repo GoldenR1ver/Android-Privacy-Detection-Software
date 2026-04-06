@@ -1,0 +1,219 @@
+生效时间： 2021年1月1日
+本政策仅适用于"汽车在线" APP及对应软件系统（或）随附的相关服务。
+1、我们收集哪些信息
+2、我们如何使用Cookie和同类技术
+3、信息的存储
+4、信息安全
+5、我们如何使用信息
+6、对外提供
+7、你的权利
+8、未成年人保护
+9、变更
+10、与我们联系
+本产品可以使用手机号码注册。当你使用手机号码完成注册时，我们会收集你的手机号码。手机号码属于敏感信息，收集此类信息是为了满足相关法律法规的网络实名制要求。如果拒绝提供该信息，可能无法登录应用及使用应用内的各项功能。
+当你使用本应用时，为保障你正常使用我们的服务，根据相关法律法规的要求，以及改进和优化我们的服务体验及保障你的账号安全的需要，我们会收集你的设备标识符（IMEI、IDFA、Android ID、MAC、OAID、ICCID、设备序列号相关信息）、应用信息（应用崩溃信息、通知开关状态、软件列表相关信息）、设备参数及系统信息（设备类型、设备型号、操作系统及硬件相关信息） 、网络信息（IP地址，WiFi信息，基站信息相关信息），这类信息是为提供服务必需收集的基础信息。
+请求网络数据和远程版本更新是本应用的基础功能，为此我们需要获取访问设备状态和外部存储的权限，我们将会在你首次使用时申请这两项权限。如果你拒绝授权，应用将无法正常提供服务。你拒绝授权之后，如果希望继续使用，可以到系统权限管理模块中为本应用重新打开读取手机状态和读写外部存储的权限。
+我们会在获得你的自主选择同意后，获得你的精准定位信息（GPS信息），目的是为了向你提供定位服务。该信息属于敏感信息，拒绝提供该信息会使你无法查看当前位信息，但不影响你正常使用其他功能，该信息加密存储一年，超过一年的数据我们将会进行删除处理。
+当你的终端设备使用录音服务时，我们会收集你的终端设备上传语音内容，因为收集语音部分设备基础服务所必需的。我们实时处理之后，向你返回处理结果并加密存储半年的数据，超过半年的数据我们将会进行删除处理。
+当你使用定位服务时，我们会使用地图的定位功能，因为设备定位服务是本应用的基础功能。我们收到百度地图/腾讯地图/高德地图返回的位置信息后会及时显示在地图上，不会另做它用。
+当你使用摄像头扫描设备条形码的时候，可以获取设备的imei号，能够快速使用本产品，目的是让你不需要输入一长串的imei号来登录，减少繁琐操作。你可以拒绝授权获取摄像头权限，不会影响你正常使用本产品。
+为了帮助我们更好地了解我们应用程序的运行情况，我们通过调用第三方统计平台友盟+记录相关信息。我们不会将分析软件中的信息与你在应用程序中提供的任何个人身份信息相结合。
+当你使用分享功能时，我们会使用第三方分享工具（MobTech），目的是为了方便你将设备的行程分享给朋友。
+为确保本应用处于关闭或后台运行状态下可正常接收到客户端推送的信息，本应用须使用(自启动)能力，将存在一定频率通过系统发送广播唤醒本应用自启动行为,是因实现功能及服务所必要的。当您打开内容类推送消息，在征得您的明确同意后，会跳转打开相关内容。
+二、 我们如何使用Cookie和同类技术
+Cookie是支持服务器端（或者脚本）在客户端上存储和检索信息的一种机制。当你在使用部分功能的时候，我们会向你的设备发送一个或多个Cookie或匿名标识符。当你与这些功能产生交互时，我们允许Cookie或者匿名标识符发送给服务器。Cookie 通常包含一些随机生成的字符。运用Cookie技术，本应用能够了解你的使用习惯，或帮你判断你账户的安全性。Cookie还可以帮助我们统计流量信息，分析页面设计的有效性。
+我们不会将 Cookie 用于本政策所述目的之外的任何用途。你可根据自己的偏好管理或删除 Cookie。
+信息存储的地点
+信息存储的期限
+我们将在合理的安全水平内使用各种安全保护措施以保障信息的安全。例如，我们会使用加密技术（例如SSL）、匿名化处理等手段来保护你的个人信息。
+1、友盟统计分析组件SDK 
+信息获取：Mac地址、唯一设备识别码（IMEI/android ID/IDFA/OPENUDID/GUID、SIM 卡 IMSI 信息）、地理位置信息 
+共享方式：SDK本机采集 
+website_url_lnk 
+2、友盟分享组件SDK 
+信息获取：Mac地址、唯一设备识别码（IMEI/android ID/IDFA/OPENUDID/GUID、SIM 卡 IMSI 信息）、地理位置信息 
+共享方式：SDK本机采集 
+website_url_lnk 
+website_url_lnk 
+3、微信分享、支付SDK 
+信息获取：设备号、IP地址、设备软件信息、设备识别码、设备识别符、所在地区、网络使用习惯、设备相关应用信息以及其他与服务相关的日志信息 
+共享方式：SDK本机采集 
+website_url_lnk 
+website_url_lnk 
+4、百度定位，地图SDK 
+信息获取：AndroidID、BSSID、SSID、硬件型号、操作系统版本、设备配置、唯一设备标识符、网络设备硬件地址MAC、广告标识符IDFA信息、设备连接信息以及设备状态信息、网络身份标识信息、位置信息、行踪轨迹。当您授予设备权限时，我们会收集国际移动设备身份码IMEI 
+共享方式：SDK本机采集 
+website_url_lnk 
+5、腾讯定位，地图SDK 
+信息获取：AndroidID、BSSID、SSID、硬件型号、操作系统版本、设备配置、唯一设备标识符、网络设备硬件地址MAC、广告标识符IDFA信息、设备连接信息以及设备状态信息、网络身份标识信息、位置信息、行踪轨迹。当您授予设备权限时，我们会收集国际移动设备身份码IMEI 
+共享方式：SDK本机采集 
+website_url_lnk 
+6、高德定位，地图SDK 
+信息获取：加载单一传感器，AndroidID、BSSID、SSID、硬件型号、操作系统版本、设备配置、唯一设备标识符、网络设备硬件地址MAC、广告标识符IDFA信息、设备连接信息以及设备状态信息、网络身份标识信息、位置信息、行踪轨迹。当您授予设备权限时，我们会收集国际移动设备身份码IMEI 
+共享方式：SDK本机采集 
+website_url_lnk 
+website_url_lnk 
+7、腾讯Bugly SDK 
+信息获取：设备 ID（包括：androidid、iccid、Mac地址以及idfv）、联网信息、系统名称、系统版本以及国家码 
+共享方式：SDK本机采集 
+website_url_lnk 
+8、科大讯飞 SDK 
+共享方式：SDK本机采集 
+website_url_lnk 
+9、QQ互联 SDK 
+信息获取：终端设备唯一标识符（Android_ID、IDFV、OAID）、操作系统版本、设备品牌及型号、设备配置、应用信息（应用名、应用版本号) 
+使用目的：QQ分享车辆位置信息 
+共享方式：SDK本机采集 
+website_url_lnk 
+10、腾讯Tinker SDK 
+信息获取：采集设备识别码（包括IMEI信息、Android ID、MAC地址、OAID、设备序列号），设备信息（包括设备制造商、设备型号、设备系统版本），应用信息（包括应用版本、应用列表信息、运行中的进程），网络信息（包括IP地址、WIFI信息包括BSSID、SSID，基站信息）以及位置信息 
+使用目的：集成腾讯Tinker热更新服务，当软件有影响使用体验的bug时以便于向您及时更新软件，以修复bug 
+共享方式：SDK本机采集 
+website_url_lnk 
+11、极光推送 SDK 
+设备标识符（包括IMEI、IDFA、Android ID、GAID、MAC、OAID、IMSI、MEID、UAID）：用于生成脱敏的终端用户设备唯一性标识，以确保能准确进行消息推送，用于用户操作行为记录； 
+设备硬件信息（包括设备型号、设备屏幕分辨率、设备硬件制造商、设备产品名称）：用于保证服务在不同设备上的兼容性，确保消息准确下发； 
+操作系统信息（包括操作系统版本、系统名称、系统语言）：用于保证服务在不同设备上的兼容性，确保消息准确下发； 
+网络信息（包括网络类型、运营商名称、基站信息、IP地址、WiFi信息、SSID、BSSID）：用于判断SDK与服务器的网络连接状态，保证服务的稳定性和连续性； 
+推送信息日志：用于您查询推送服务记录，了解推送信息送达的情况。 
+共享方式：SDK本机采集 
+website_url_lnk 
+12、小米推送 SDK 
+信息获取：设备标识符（如 Android ID、OAID、GAID）、设备信息 
+共享方式：SDK本机采集 
+website_url_lnk 
+13、华为 HMS SDK 
+共享方式：SDK本机采集 
+website_url_lnk 
+14、荣耀推送 SDK 
+信息获取：应用匿名标识 (AAID)，应用 Token 
+共享方式：SDK本机采集 
+website_url_lnk 
+15、OPPO 推送 SDK 
+信息获取：设备标识符（如 IMEI、ICCID、IMSI、Android ID、GAID）、应用信息（如应用包名、版本号和运行状态）、网络信息（如 IP 或域名连接结果，当前网络类型） 
+共享方式：SDK本机采集 
+website_url_lnk 
+16、vivo 推送 SDK 
+信息获取：设备标识符（如 Android ID、OAID、GAID）、设备信息 
+共享方式：SDK本机采集 
+website_url_lnk 
+15、App 支付宝客户端 SDK 
+信息获取：Android ID、OAID、SSID、BSSID；系统设置、系统属性、设备型号、设备品牌、操作系统；IP 地址、网络类型、运营商信息、Wi-Fi 状态、Wi-Fi 参数、Wi-Fi 列表 
+保障用户账户和资金安全以及支付服务的安全稳定运行。 
+履行反洗钱、反恐怖融资、反电信网络诈骗等法定义务。 
+实现网络链路的选择和优化，以提升用户体验。 
+共享方式：SDK本机采集 
+website_url_lnk 
+1） 与国家安全、国防安全直接相关的；
+2） 与公共安全、公共卫生、重大公共利益直接相关的；
+3） 与犯罪侦查、起诉、审判和判决执行等直接相关的；
+4） 出于维护个人信息主体或其他个人的生命、财产等重大合法权益但又很难得到本人同意的；
+5） 个人信息主体自行向社会公众公开的个人信息；
+6） 从合法公开披露的信息中收集个人信息的，如合法的新闻报道、政府信息公开等渠道；
+7） 法律法规规定的其他情形。
+个人账户注销：如果你决定不再使用本产品，可联系你购买设备的经销商删除你账号信息,或在App中操作【我的】-【设置】-【注销账号】删除你的账号信息，账号注销后立即生效。注意：如果你在服务期满未续费，则我们在服务期满后有权单方面删除你的账户数据，你因此遭受的任何损失均由你个人自行承担，我们不承担任何责任。
+我们非常重视对未成年人个人信息的保护。根据相关法律法规的规定，若你是14周岁以下的未成年人，在使用本应用前，应事先取得你的家长或法定监护人的书面同意。若你是未成年人的监护人，当你对你所监护的未成年人的个人信息有相关疑问时，请通过第10节中的联系方式与我们联系。
+邮箱：webmaster@goome.com 
+地址：深圳市南山区粤海街道高新区社区科技南十二路012号曙光大厦402
+User privacy policy
+Effective time: January 1, 2021
+This policy only applies to the "everything online" APP and the corresponding software system related services attached.
+You are welcome to use the applications of location-based services and terminal alarm recording data query services such as product features! We attach great importance to your privacy protection and the protection of other people's personal information.
+This application mainly provides three types of functions : location service, terminal anti-theft recording data query and equipment management. If you do not agree to any content of this policy or cannot understand the relevant content, please do not proceed. Starting to use this application means that you have fully understood the entire content of this privacy policy and agreed to be bound by it.
+This privacy policy will help you understand the following: What information do we collect
+This privacy policy will help you understand the following: How do we use cookies and similar technologies
+This privacy policy will help you understand the following: Information storage
+This privacy policy will help you understand the following: Information Security
+This privacy policy will help you understand the following: How we use information
+This privacy policy will help you understand the following: Externally available
+This privacy policy will help you understand the following: Your rights
+This privacy policy will help you understand the following: Protection of minors
+This privacy policy will help you understand the following: Change
+This privacy policy will help you understand the following: Contact us
+The specific content of this privacy policy is as follows
+What information do we collect
+During your use of this application, information that you actively provide when you use the service or generated by using the service will be collected in the following ways to provide you with the service: This product can be registered with a mobile phone number. When you use your mobile phone number to complete the registration, we will collect your mobile phone number. Mobile phone numbers are sensitive information, and this type of information is collected to meet the network real-name system requirements of relevant laws and regulations. If you refuse to provide this information, you may not be able to log in to the app and use the functions in the app.
+During your use of this application, information that you actively provide when you use the service or generated by using the service will be collected in the following ways to provide you with the service: When you use this application, in order to ensure your normal use of our services, in accordance with the requirements of relevant laws and regulations, as well as the need to improve and optimize our service experience and protect the security of your account, we will collect your device identifier ( IMEI, IDFA, Android ID, MAC, OAID and other related information), application information (application crash information, notification switch status, software list and other related information), device parameters and system information (device type, device model, operating system, and hardware related information) Information), network information (IP address, WiFi information, base station information and other related information). This type of information is the basic information that must be collected to provide services.
+During your use of this application, information that you actively provide when you use the service or generated by using the service will be collected in the following ways to provide you with the service: Requesting network data and remote version updates are the basic functions of this application. To this end, we need to obtain access to device status and external storage. We will apply for these two permissions when you use it for the first time. If you refuse to authorize, the application will not be able to provide services normally. After you refuse the authorization, if you want to continue using it, you can go to the system permission management module to re-open the permission to read the phone status and read and write external storage for this application.
+During your use of this application, information that you actively provide when you use the service or generated by using the service will be collected in the following ways to provide you with the service: We will obtain your precise positioning information (GPS information) after obtaining your free choice consent for the purpose of providing you with positioning services. This information is sensitive information. Refusal to provide this information will make you unable to view the current information, but it will not affect your normal use of other functions.
+During your use of this application, information that you actively provide when you use the service or generated by using the service will be collected in the following ways to provide you with the service: When your terminal device uses the recording service, we will collect the voice content uploaded by your terminal device, because the collection of voice is necessary for the basic services of the device. After we process it in real time, we will return the processing result to you and store it encrypted for 180 days. Data over 180 days will be deleted.
+During your use of this application, information that you actively provide when you use the service or generated by using the service will be collected in the following ways to provide you with the service: When you use the location service, we will use the location function of the map, because the device location service is the basic function of this application. After we receive the location information returned by Baidu Maps/Tencent Maps/High German Maps , it will be displayed on the map in time and will not be used for other purposes.
+During your use of this application, information that you actively provide when you use the service or generated by using the service will be collected in the following ways to provide you with the service: In order to help us better understand the operation of our application, we record relevant information by calling the third-party statistical platform Youmeng+. We will not combine the information in the analysis software with any personally identifiable information you provide in the application.
+During your use of this application, information that you actively provide when you use the service or generated by using the service will be collected in the following ways to provide you with the service: When you use the sharing function, we will use a third-party sharing tool to facilitate you to share the itinerary of the device with friends.
+Please understand that the functions and services we provide to you are constantly updated and developed. If a function or service is not in the foregoing description and collects your information, we will use page prompts, interactive processes, website announcements, etc. Separately explain to you the content, scope and purpose of information collection. 
+How do we use cookies and similar technologies
+Cookie is a mechanism that supports the server (or script) to store and retrieve information on the client. When you are using some functions, we will send one or more cookies or anonymous identifiers to your device. When you interact with these functions, we allow cookies or anonymous identifiers to be sent to the server. Cookies usually contain some randomly generated characters. Using Cookie technology, this application can understand your usage habits or help you judge the security of your account. Cookies can also help us count traffic information and analyze the effectiveness of page design.
+We will not use cookies for any purpose other than those described in this policy. You can manage or delete cookies according to your preferences.
+Information storage
+We strictly abide by laws and regulations and agreements with users, and use the collected information for the following purposes. If we use your information beyond the following purposes, we will explain to you again and obtain your consent.
+The user's personal information collected by this application is stored in our system server through encrypted transmission over the Internet line for encrypted storage. Our computer room management, server management, network management and the security of this application have a high level of security. We only store your information during the period necessary for the purpose described in this policy and within the period prescribed by laws, regulations, and supervision. Unless you independently choose or comply with relevant laws and regulations, we will not provide the above information to the outside world, or use it for other purposes than this function.
+Location of information storage
+We will store personal information collected and generated in China in accordance with laws and regulations.
+Duration of information storage
+Generally speaking, we only retain your personal information for the time necessary to achieve the purpose.
+When our products or services stop operating, we will notify you in the form of push notifications, announcements, etc., delete your personal information or anonymize them within a reasonable period, and immediately stop collecting personal information.
+Fourth, information security
+We strive to provide protection for users' information security to prevent information loss, improper use, unauthorized access or disclosure.
+We will use various security protection measures within a reasonable security level to ensure the security of information. For example, we will use encryption technology (such as SSL), anonymization and other means to protect your personal information.
+We strengthen the security capabilities of the software installed on your device by continuously improving technical means to prevent your personal information from leaking. For example, we will complete part of the information encryption work locally on your device for secure transmission.
+We have established special management systems, procedures and organizations to ensure information security. For example, we strictly limit the scope of people who can access information and require them to comply with confidentiality obligations.
+In the event of a security incident such as personal information leakage, we will activate an emergency plan to prevent the expansion of the security incident, and notify you in the form of push notifications, announcements, etc.
+Five, third-party sharing part
+Youmeng Mobile Statistics SDK 
+Information acquisition: Mac address, unique device identification code (IMEI/android ID/IDFA/OPENUDID/GUID, SIM card IMSI information), geographic location information 
+Purpose of Use: Statistics 
+Privacy agreement address website_url_lnk
+Youmeng Statistical Analysis Component SDK 
+Information acquisition: Mac address, unique device identification code (IMEI/android ID/IDFA/OPENUDID/GUID, SIM card IMSI information), geographic location information 
+Purpose of Use: Statistics 
+Privacy agreement address website_url_lnk
+WeChat sharing and payment SDK 
+Information acquisition: device number, IP address, device software information, device identification code, device identifier, location, network usage habits, device-related application information, and other service-related log information 
+Purpose of use: sharing and payment on social platforms 
+Privacy agreement address website_url_lnk
+website_url_lnk 
+Third-party sharing function ShareSDK 
+Function: To realize the function of [QQ sharing, WeChat sharing, Moments sharing, Weibo sharing], we use MobTech's [ShareSDK] product 
+Privacy agreement address website_url_lnk
+Baidu positioning SDK 
+Information acquisition: hardware model, operating system version, device configuration, unique device identifier, network device hardware address MAC, advertising identifier IDFA information, device connection information and device status information, network identity information, location information, and whereabouts. When you grant device permissions, we will collect the International Mobile Equipment Identity Code IMEI 
+Purpose of use: display map, location positioning. 
+Privacy agreement address website_url_lnk
+Tencent positioning SDK 
+Information acquisition: hardware model, operating system version, device configuration, unique device identifier, network device hardware address MAC, advertising identifier IDFA information, device connection information and device status information, network identity information, location information, and whereabouts. When you grant device permissions, we will collect the International Mobile Equipment Identity Code IMEI 
+Purpose of use: display map, location positioning. 
+Privacy agreement address website_url_lnk
+AutoNavi positioning SDK 
+Information acquisition: hardware model, operating system version, device configuration, unique device identifier, network device hardware address MAC, advertising identifier IDFA information, device connection information and device status information, network identity information, location information, and whereabouts. When you grant device permissions, we will collect the International Mobile Equipment Identity Code IMEI 
+Purpose of use: display map, location positioning. 
+Privacy agreement address website_url_lnk
+Tencent Bugly SDK 
+Information acquisition: device ID (including: androidid and idfv), networking information, system name, system version, and country code 
+Purpose of use: collect application crash logs 
+Privacy agreement address website_url_lnk
+How do we use information
+In order to ensure the security of the service and help us better understand the operation of our applications, we may record relevant information, for example, how often you use the application, crash data, overall usage, performance data, and the source of the application. We will not combine the information we store in the analysis software with any personally identifiable information you provide in the application.
+If we use your personal information beyond the stated purpose at the time of collection and the scope of direct or reasonable connection, we will notify you again and obtain your express consent before using your personal information.
+Seven, external provision
+We will not disclose the personal information collected. If it is necessary to disclose, we will inform you of the purpose of the public disclosure, the type of information disclosed and the sensitive information that may be involved, and obtain your express consent.
+In addition, in accordance with relevant laws, regulations and national standards, in the following situations, we may disclose your information without first consulting your consent : Directly related to national security and national defense security; 
+In addition, in accordance with relevant laws, regulations and national standards, in the following situations, we may disclose your information without first consulting your consent : Directly related to public safety, public health, and major public interests; 
+In addition, in accordance with relevant laws, regulations and national standards, in the following situations, we may disclose your information without first consulting your consent : Directly related to criminal investigation, prosecution, trial, and execution of judgments; 
+In addition, in accordance with relevant laws, regulations and national standards, in the following situations, we may disclose your information without first consulting your consent : In order to protect the life and property of the personal information subject or other individuals, but it is difficult to obtain the consent of the person; 
+In addition, in accordance with relevant laws, regulations and national standards, in the following situations, we may disclose your information without first consulting your consent : Personal information that the subject of personal information discloses to the public by himself; 
+In addition, in accordance with relevant laws, regulations and national standards, in the following situations, we may disclose your information without first consulting your consent : Collect personal information from legally publicly disclosed information, such as legal news reports, government information disclosure and other channels; 
+In addition, in accordance with relevant laws, regulations and national standards, in the following situations, we may disclose your information without first consulting your consent : Other circumstances stipulated by laws and regulations.
+Your rights
+During your use of this application, in order for you to access, correct, and delete your personal information more conveniently, and at the same time protect your right to withdraw your consent to the use of personal information and log out of your account, we have provided you with corresponding information in the product design. Operation settings.
+The operation path for personal information query, correction, and deletion is: [My]-[Account Information].
+The operation path of personal account logout is: [My]-[Account Information]-[Logout]
+Protection of minors
+We attach great importance to the protection of the personal information of minors. According to relevant laws and regulations, if you are a minor under the age of 14, you should obtain the written consent of your parent or legal guardian before using this application. If you are the guardian of a minor, when you have any questions about the personal information of the minor under your guardianship, please contact us through the contact information in Section 10.
+Change
+We may revise this policy in due course. When the terms of the policy are changed, we will show you the changed guidelines in the form of pop-up windows when you log in and update the version. Please note that we will collect, use, and store your personal information in accordance with the updated guidelines only after you click the consent button in the pop-up window. You can check this policy at any time in [My]-[About Us].
+Contact us
+If you have any comments or suggestions on this application, please contact us through [My]-[Customer Service Icon]. We will review the issue as soon as possible and respond within fifteen days after verifying your user identity.
+We have set up a full-time department for personal information protection (or personal information protection commissioner), you can contact them in the following ways 
+Email: webmaster@goome.com 
+Address: 402 Shuguang building, 012 Keji South 12th Road, high tech community, Yuehai street, Nanshan District, Shenzhen
+Shenzhen Gumi Technology Co., Ltd.

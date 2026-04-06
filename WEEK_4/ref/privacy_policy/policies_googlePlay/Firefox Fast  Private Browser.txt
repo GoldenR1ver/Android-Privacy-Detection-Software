@@ -1,0 +1,87 @@
+Menu
+Download Firefox 
+Firefox is no longer supported on Windows and below.
+Please download Firefox ESR (Extended Support Release) to use Firefox.
+Download Firefox ESR 64-bit 
+Download Firefox ESR 32-bit 
+Download a different build 
+Firefox is no longer supported on macOS and below.
+Please download Firefox ESR (Extended Support Release) to use Firefox.
+Download Firefox ESR 
+Firefox Privacy Notice 
+Get Mozilla VPN
+Firefox by default shares data to:
+Improve performance and stability for users everywhere
+Interaction data: Firefox sends data about your interactions with Firefox to us (such as number of open tabs and windows; number of webpages visited; number and type of installed Firefox Add-ons; and session length) and Firefox features offered by Mozilla or our partners (such as interaction with Firefox search features and search partner referrals).
+Technical data: Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. When Firefox sends data to us, your IP address is temporarily collected as part of our server logs.
+Read the telemetry documentation for Desktop, Android, or iOS or learn how to opt-out of this data collection on Desktop and Mobile.
+Search
+You can perform searches directly from several places in Firefox, including the Awesome Bar, Search Bar, or on a New Tab. We receive data about how you engage with search in Firefox and the number of searches you request from our search partners. 
+Location data: When you first use Firefox, it uses your IP address to set your default search provider based on your country..
+Search queries: Firefox by default sends search queries to your search provider to help you discover common phrases other people have searched for and improve your search experience if your selected search provider supports search suggestions. Your selected search provider's privacy policy governs the search provider's collection and use of your data as you use the search provider's services. , including how to disable this feature. Links to our default search providers' privacy policies include:
+Google
+Microsoft (Bing)
+Mozilla generally receives royalties when you use one of the default or optional search options in the Firefox web browser, including but not limited to Google, Bing, DuckDuckGo, and eBay. 
+If you enable "Improve the Firefox Suggest Experience," we and our partners may also receive your search queries. Learn more below. 
+Recommend relevant content
+Firefox displays content, such as Add-on Recommendations, Top Sites (websites suggested by Mozilla for first-time Firefox users), and Pocket Recommendations (which is part of the Mozilla family).
+Location data: Firefox uses your IP address to suggest relevant content based on your country and state.
+Technical & Interaction data: Firefox sends us data such as the position, size and placement of content we suggest, as well as basic data about your interactions with content. This includes the number of times content is displayed or clicked.
+Pocket Recommendations: We recommend content to you based on your browsing history, language, and country location. The process of deciding which stories you should see based on your browsing history happens locally in your copy of Firefox, and neither Mozilla nor Pocket receives a copy of your browsing history. To help you see relevant Pocket Recommendations based on your location, Firefox shares your language and country location with Pocket.
+Mozilla and Pocket receive aggregated data about the recommendations you see and click. We also share aggregated data about the sponsored content you see and click with our third-party ad platform Kevel so advertisers can see how many people click on their articles. This aggregated data does not identify you personally.
+Top Sites: When you click on a Sponsored Top Sites tile on New Tab, we share your country, region, county (if you're in the US), the tile you clicked, and the time you clicked with AdMarketplace (a third-party referral platform) to verify you navigated to the website. Firefox does not share your IP address or any other information that could be used to identify you.
+Add-on and Feature Recommendations: We recommend Add-ons in two places: the Manage Your Extensions Page (about:addons) and the Awesome Bar, where you search or type in URLs. We may also recommend Firefox Features in the Awesome Bar. We base the recommendations in about:addons on a cookie. We base the recommendations in the Awesome Bar on your interaction with Firefox. Mozilla does not receive your browser history. The process happens locally in your own computer's copy of Firefox. Learn More about Awesome Bar recommendations or Extensions Page recommendations.
+Improve security for users everywhere
+Webpage data to DNS Resolver service: For some Firefox users, Firefox routes DNS requests to a resolver service that has agreed to Mozilla's strict privacy standards for resolvers. This provides added protection from privacy leaks to local networks and also from certain DNS security attacks. System logs of your DNS requests are deleted from the service within 24 hours and are only used for the purpose of DNS resolution. or see our default DNS resolver service providers below cloudflare
+Webpage data to DNS Resolver service: For some Firefox users, Firefox routes DNS requests to a resolver service that has agreed to Mozilla's strict privacy standards for resolvers. This provides added protection from privacy leaks to local networks and also from certain DNS security attacks. System logs of your DNS requests are deleted from the service within 24 hours and are only used for the purpose of DNS resolution. or see our default DNS resolver service providers below nextDNS
+Webpage data to DNS Resolver service: For some Firefox users, Firefox routes DNS requests to a resolver service that has agreed to Mozilla's strict privacy standards for resolvers. This provides added protection from privacy leaks to local networks and also from certain DNS security attacks. System logs of your DNS requests are deleted from the service within 24 hours and are only used for the purpose of DNS resolution. or see our default DNS resolver service providers below comcast
+Webpage data to DNS Resolver service: For some Firefox users, Firefox routes DNS requests to a resolver service that has agreed to Mozilla's strict privacy standards for resolvers. This provides added protection from privacy leaks to local networks and also from certain DNS security attacks. System logs of your DNS requests are deleted from the service within 24 hours and are only used for the purpose of DNS resolution. or see our default DNS resolver service providers below cIRA
+Webpage data to DNS Resolver service: For some Firefox users, Firefox routes DNS requests to a resolver service that has agreed to Mozilla's strict privacy standards for resolvers. This provides added protection from privacy leaks to local networks and also from certain DNS security attacks. System logs of your DNS requests are deleted from the service within 24 hours and are only used for the purpose of DNS resolution. or see our default DNS resolver service providers below shaw
+Technical data for updates: Desktop versions of Firefox check for browser updates by persistently connecting to Mozilla servers. Your Firefox version, language, and device operating system are used to apply the correct updates. Mobile versions of Firefox may connect to another service if you used one to download and install Firefox..
+Technical data for add-ons blocklist: Firefox for Desktop and Android periodically connect to Mozilla to protect you and others from malicious add-ons. Your Firefox version and language, device operating system, and list of installed add-ons are needed to apply and update the add-ons blocklist..
+Webpage and technical data to Google's SafeBrowsing service: To help protect you from malicious downloads, Firefox sends basic information about unrecognized downloads to Google's SafeBrowsing Service, including the filename and the URL it was downloaded from. or read Google's Privacy Policy. Opting out prevents Firefox from warning you of potentially illegitimate or malicious websites or downloaded files.
+Webpage and technical data to Certificate Authorities: When you visit a secure website (usually identified with a URL starting with "HTTPS"), Firefox validates the website's certificate. This may involve Firefox sending certain information about the website to the Certificate Authority identified by that website. Opting out increases the risk of your private information being intercepted..
+Crash reports
+By default on desktop versions of Firefox, we will ask you to share a report with more detailed information about crashes with Mozilla, but you always have the choice to decline.
+Sensitive data: Crash reports include a 'dump file' of Firefox's memory contents at the time of the crash, which may contain data that identifies you or is otherwise sensitive to you.
+Webpage data: Crash reports include the active URL at time of crash.
+Technical data: Crash reports include data on why Firefox crashed and the state of device memory and execution during the crash.
+Read the full documentation here.
+Measure and support our marketing
+Campaign and Referral Data: This helps Mozilla understand the effectiveness of our marketing campaigns.
+On Desktop: Firefox by default sends Mozilla HTTP data that may be included with Firefox's installer. This enables us to determine the website domain or advertising campaign (if any) that referred you to our download page. Read the documentation or opt-out before installation.
+On Mobile: Firefox for iOS and Android by default send mobile campaign data to Adjust, our analytics vendor, which has its own privacy policy. Mobile campaign data includes a Google advertising ID or Android ID, IP address, timestamp, country, language/locale, operating system, and app version. Read the documentation.
+Firefox Suggest and Top Pick
+Mozilla is developing a new feature that helps deliver you better information with less effort. It's called Firefox Suggest and an early version of it is currently available to users in the United States. By default, Firefox Suggest shows you recommended and sponsored content based on local data stored on your own computer, such as websites from your browsing history, bookmarks and open tabs. 
+Sites you visit: Firefox sends Mozilla which suggestions you click or dismiss and Mozilla may share that data with its partners.
+Location data: Firefox temporarily sends Mozilla your IP address which we use to suggest content based on your country, state, and city. Mozilla may share location information with our partners, but partners will not receive your IP address. 
+Technical & interaction data: Firefox sends Mozilla data such as the number of times Firefox suggests or displays content and your clicks on that content, as well as basic data about your interactions with Firefox Suggest. Mozilla shares information with our partners about how many times suggestions are shown and clicked for verification and feature improvement. 
+If you choose to enable "Improve the Firefox Suggest Experience," Firefox shares the following information to improve your browsing experience and to improve the service: searches: Firefox sends Mozilla what you type into the search bar and Mozilla may share that data with its partners. 
+We take measures to limit our and our partners' ability to identify you..
+If you use these features, Firefox will share data to provide you functionality and help us improve our products and services:
+Firefox Accounts
+Registration data: Mozilla receives your email address and a hash of your password when you create a Firefox Account or sign-up to Join Firefox. You can choose to include a display name or profile image. Your email address is sent to our email vendor, Acoustic, which has its own privacy policy.
+Location data: For security purposes, we store the IP addresses used to access your Firefox Account in order to approximate your city and country. We use this data to send you email alerts if we detect suspicious activity, such as account logins from other locations.
+Interaction data: We receive data such as your visits to the Firefox Accounts website, dashboards and menu preferences, what products and services you use in connection with your Firefox Account, and your interactions with our emails and SMS messages. We use this to understand your use of our products and services and to send you more useful Firefox Account Tips and in-product messages. Learn more about interaction data we collect in the Glean Dictionary.
+Technical data: To display which devices are synced to your Firefox Account and for security functionality, we store your device operating system, browser and version, timestamp, locale, and the same information for devices connected to your account. If you use your Firefox Account to log into other websites or services (such as AMO or Pocket), we receive the timestamp of those log-ins.
+Read the full documentation or learn more, including how to manage your Firefox Account data or our data practices for websites and email. You can also read the privacy notices for our Firefox Account connected services, which are firefox Monitor
+Read the full documentation or learn more, including how to manage your Firefox Account data or our data practices for websites and email. You can also read the privacy notices for our Firefox Account connected services, which are firefox Notes
+Read the full documentation or learn more, including how to manage your Firefox Account data or our data practices for websites and email. You can also read the privacy notices for our Firefox Account connected services, which are pocket
+Read the full documentation or learn more, including how to manage your Firefox Account data or our data practices for websites and email. You can also read the privacy notices for our Firefox Account connected services, which are firefox Sync
+Read the full documentation or learn more, including how to manage your Firefox Account data or our data practices for websites and email. You can also read the privacy notices for our Firefox Account connected services, which are firefox Relay
+Read the full documentation or learn more, including how to manage your Firefox Account data or our data practices for websites and email. You can also read the privacy notices for our Firefox Account connected services, which are mozilla VPN
+Sync
+Synced data: If you enable Sync, Mozilla receives the information that you sync across devices in encrypted form. This may include Firefox tabs, add-ons, passwords, payment autofill information, bookmarks, history, and preferences. Deleting your Firefox Account will delete related Firefox Sync content. You can also read the documentation.
+Technical and Interaction data: If you enable sync, Firefox will periodically send basic information using Telemetry about the most recent attempt to sync your data, such as when it took place, whether it succeeded or failed, and what type of device is attempting to sync. You can also read the documentation.
+including how to enable or disable sync.
+Location
+Location data to Google's geolocation service: Firefox always asks before determining and sharing your location with a requesting website (for example, if a map website needs your location to provide directions). To determine location, Firefox may use your operating system's geolocation features, Wi-fi networks, cell phone towers, or IP address, and may send this data to Google's geolocation service, which has its own privacy policy.
+Website notifications
+Connection data: If you allow a website to send you notifications, Firefox connects with Mozilla and uses your IP address to relay the message. Mozilla cannot access the content of messages.
+Interaction data: We receive aggregate data such as the number of Firefox subscriptions and unsubscriptions to website notifications, number of messages sent, timestamps, and senders (which may include specific website providers).
+Read the full documentation or , including how to revoke website notifications.
+Add-ons
+You can install Add-ons from addons.mozilla.org ("AMO") or from the Firefox Add-ons Manager, which is accessible from the Firefox menu button in the toolbar.
+Search queries: Search queries in the Add-on Manager are sent to Mozilla to provide you with suggested Add-ons.
+Interaction data: We receive aggregate data about visits to the AMO website and the Add-ons Manager in Firefox, as well as interactions with content on those pages. Read about data practices on Mozilla websites.
+Technical data for updates: Firefox periodically connects with Mozilla to install updates to Add-ons. Your installed Add-ons, Firefox version, language, and device operating system are used to apply the correct updates.
