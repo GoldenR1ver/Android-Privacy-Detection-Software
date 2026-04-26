@@ -7,7 +7,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List
 
+from labeling_queue import labeling_export_rows, write_labeling_jsonl
 from pipeline import build_rows_for_text
+from review_store import build_bundle, save_bundle
 from week3_csv import compute_privacy_stats, write_week3_sentence_csv
 
 
@@ -60,6 +62,22 @@ def main() -> None:
     parser.add_argument("--app-pkg-prefix", default="", help="Prefix for export_app_pkg per doc")
     parser.add_argument("--category-id", type=int, default=0)
     parser.add_argument("--app-id-start", type=int, default=1)
+    parser.add_argument(
+        "--export-labeling-queue",
+        action="store_true",
+        help="Write for_labeling.jsonl sorted by pii_related + keyword_hint",
+    )
+    parser.add_argument(
+        "--labeling-top-n",
+        type=int,
+        default=0,
+        help="Cap for_labeling.jsonl / review_bundle rows (0 = all)",
+    )
+    parser.add_argument(
+        "--export-review-json",
+        action="store_true",
+        help="Write review_bundle.json（送标句 + AI + 待填 human）",
+    )
     args = parser.parse_args()
 
     ds_key = (args.deepseek_api_key or os.getenv("DEEPSEEK_API_KEY") or "").strip()
@@ -109,6 +127,27 @@ def main() -> None:
     out.mkdir(parents=True, exist_ok=True)
     write_jsonl(all_rows, out / "all_sentences.jsonl")
 
+    label_top = args.labeling_top_n if args.labeling_top_n > 0 else None
+    labeling_info = None
+    if args.export_labeling_queue:
+        n_q = write_labeling_jsonl(all_rows, out / "for_labeling.jsonl", limit=label_top)
+        labeling_info = {"path": str(out / "for_labeling.jsonl"), "rows": n_q}
+
+    review_info = None
+    if args.export_review_json:
+        export_rows = labeling_export_rows(all_rows, limit=label_top, include_meta=True)
+        src = (
+            str((out / "for_labeling.jsonl").resolve())
+            if args.export_labeling_queue
+            else str((out / "all_sentences.jsonl").resolve())
+        )
+        bundle = build_bundle(export_rows, source_path=src, note="batch_export_week3")
+        save_bundle(out / "review_bundle.json", bundle)
+        review_info = {
+            "path": str((out / "review_bundle.json").resolve()),
+            "items": len(export_rows),
+        }
+
     write_week3_sentence_csv(
         out / "all_sentences_week3_2_2.csv",
         all_rows,
@@ -130,26 +169,30 @@ def main() -> None:
         "mode": args.mode,
         "limit_per_doc": args.limit_per_doc,
     }
+    if labeling_info:
+        payload["labeling_queue"] = labeling_info
+    if review_info:
+        payload["review_bundle"] = review_info
     (out / "batch_stats.json").write_text(
         json.dumps(payload, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    print(
-        json.dumps(
-            {
-                "wrote": str(out),
-                "files": len(by_doc),
-                "sentences": len(all_rows),
-                "classified": total_classified,
-                "aggregate": {
-                    "keyword_hint_ratio": agg["keyword_hint"]["ratio_of_total"],
-                    "pii_related_ratio_of_total": agg["pii_related"]["ratio_of_total"],
-                    "pii_related_ratio_of_labeled": agg["pii_related"]["ratio_of_labeled"],
-                },
-            },
-            ensure_ascii=False,
-        )
-    )
+    msg = {
+        "wrote": str(out),
+        "files": len(by_doc),
+        "sentences": len(all_rows),
+        "classified": total_classified,
+        "aggregate": {
+            "keyword_hint_ratio": agg["keyword_hint"]["ratio_of_total"],
+            "pii_related_ratio_of_total": agg["pii_related"]["ratio_of_total"],
+            "pii_related_ratio_of_labeled": agg["pii_related"]["ratio_of_labeled"],
+        },
+    }
+    if labeling_info:
+        msg["labeling_queue"] = labeling_info
+    if review_info:
+        msg["review_bundle"] = review_info
+    print(json.dumps(msg, ensure_ascii=False))
 
 
 if __name__ == "__main__":

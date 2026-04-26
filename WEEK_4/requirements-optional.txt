@@ -1,0 +1,5 @@
+# 句向量 + UMAP + HDBSCAN（sentence_cluster.py）
+numpy>=1.26.0
+sentence-transformers>=3.0.0
+umap-learn>=0.5.6
+hdbscan>=0.8.33

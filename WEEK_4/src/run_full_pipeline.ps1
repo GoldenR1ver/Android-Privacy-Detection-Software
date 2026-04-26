@@ -1,22 +1,25 @@
 <#!
-  WEEK_4 一键流水线：data/*.txt -> 切句/分类 -> WEEK_3 风格 CSV -> 可选 audit -> 图表与汇总表
+  WEEK_4 一键流水线：data/*.txt -> 切句/分类 -> WEEK_3 风格 CSV -> 可选 audit -> 图表
+  -> 可选 送标导出 / 可选 强化聚类分析（cluster_analysis.py）
 
   用法（在 WEEK_4/src 下执行）:
     .\run_full_pipeline.ps1
     .\run_full_pipeline.ps1 -PrepareMode classify -Provider mock
     .\run_full_pipeline.ps1 -RunAudit -AuditLimit 50 -Provider mock
     $env:DEEPSEEK_API_KEY="sk-..."; .\run_full_pipeline.ps1 -PrepareMode classify -Provider deepseek -RunAudit -AuditLimit 20
+    .\run_full_pipeline.ps1 -PrepareMode classify -Provider deepseek -RunAudit -RunClusterAnalysis -ExportLabelingQueue -LabelingTopN 200
 
   环境变量（可选）:
-    $env:PYTHON = "python3"   # 覆盖默认 python 可执行文件
+    $env:PYTHON = "python3"
     $env:DEEPSEEK_API_KEY     # Provider=deepseek 时必填（勿提交到 Git）
+    $env:HF_ENDPOINT          # 例: https://hf-mirror.com（句向量下载超时）
 #>
 param(
     [ValidateSet("split-only", "classify")]
     [string]$PrepareMode = "split-only",
 
     [ValidateSet("mock", "ollama", "deepseek")]
-    [string]$Provider = "mock",
+    [string]$Provider = "deepseek",
 
     [string]$DeepSeekModel = "deepseek-chat",
 
@@ -27,6 +30,19 @@ param(
     [int]$AuditLimit = 0,
 
     [switch]$SkipPlot,
+
+    [switch]$ExportLabelingQueue,
+
+    [switch]$ExportReviewJson,
+
+    [int]$LabelingTopN = 0,
+
+    [switch]$RunClusterAnalysis,
+
+    [ValidateSet("local", "deepseek-api")]
+    [string]$ClusterEmbedBackend = "local",
+
+    [string]$ClusterModel = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
 
     [string]$DataDir = "",
 
@@ -65,6 +81,9 @@ if ($Provider -eq "deepseek" -and -not $env:DEEPSEEK_API_KEY) {
         throw "Provider=deepseek requires DEEPSEEK_API_KEY when using classify or -RunAudit"
     }
 }
+if ($ClusterEmbedBackend -eq "deepseek-api" -and -not $env:DEEPSEEK_API_KEY) {
+    throw "ClusterEmbedBackend=deepseek-api requires DEEPSEEK_API_KEY"
+}
 
 $perDoc = [System.Collections.ArrayList]@()
 
@@ -89,12 +108,22 @@ try {
         if ($Provider -eq "deepseek") {
             $prep += @("--deepseek-model", $DeepSeekModel)
         }
+        if ($ExportLabelingQueue) {
+            $prep += @("--export-labeling-queue")
+        }
+        if ($ExportReviewJson) {
+            $prep += @("--export-review-json")
+        }
+        if ($LabelingTopN -gt 0) {
+            $prep += @("--labeling-top-n", "$LabelingTopN")
+        }
         & $Py @prep
         if ($LASTEXITCODE -ne 0) { throw "run_prepare failed for $($f.Name)" }
 
         $week3csv = Join-Path $subOut "sentences_week3_2_2.csv"
         $auditRaw = Join-Path $subOut "audit_raw.csv"
         $auditProc = Join-Path $subOut "audit_processed.csv"
+        $sentJsonl = Join-Path $subOut "sentences.jsonl"
 
         if ($RunAudit) {
             if (-not (Test-Path -LiteralPath $Week32Dir)) {
@@ -146,12 +175,38 @@ try {
             if ($LASTEXITCODE -ne 0) { throw "plot_experiment failed for $($f.Name)" }
         }
 
+        $clusterDir = $null
+        if ($RunClusterAnalysis) {
+            if (-not (Test-Path -LiteralPath $sentJsonl)) {
+                throw "RunClusterAnalysis requires sentences.jsonl at $sentJsonl"
+            }
+            $clusterDir = Join-Path $subOut "cluster_analysis"
+            Write-Host "==> [$stem] cluster_analysis -> $clusterDir"
+            $clusterArgs = @(
+                "cluster_analysis.py",
+                "--sentences-jsonl", (Resolve-Path -LiteralPath $sentJsonl).Path,
+                "--output-dir", $clusterDir,
+                "--embed-backend", $ClusterEmbedBackend,
+                "--model", $ClusterModel
+            )
+            if ($RunAudit -and (Test-Path -LiteralPath $auditProc)) {
+                $clusterArgs += @("--audit-processed", (Resolve-Path -LiteralPath $auditProc).Path)
+            }
+            & $Py @clusterArgs
+            if ($LASTEXITCODE -ne 0) { throw "cluster_analysis failed for $($f.Name)" }
+        }
+
+        $forLabeling = Join-Path $subOut "for_labeling.jsonl"
+        $reviewBundle = Join-Path $subOut "review_bundle.json"
         [void]$perDoc.Add(@{
-                doc_id       = $stem
-                output_dir   = $subOut
-                week3_csv    = $week3csv
-                audit_raw    = if (Test-Path -LiteralPath $auditRaw) { $auditRaw } else { $null }
-                audit_processed = if (Test-Path -LiteralPath $auditProc) { $auditProc } else { $null }
+                doc_id            = $stem
+                output_dir        = $subOut
+                week3_csv         = $week3csv
+                audit_raw         = if (Test-Path -LiteralPath $auditRaw) { $auditRaw } else { $null }
+                audit_processed   = if (Test-Path -LiteralPath $auditProc) { $auditProc } else { $null }
+                for_labeling_jsonl = if (Test-Path -LiteralPath $forLabeling) { $forLabeling } else { $null }
+                review_bundle_json = if (Test-Path -LiteralPath $reviewBundle) { $reviewBundle } else { $null }
+                cluster_analysis_dir = $clusterDir
             })
     }
 }
@@ -160,18 +215,24 @@ finally {
 }
 
 $summary = [ordered]@{
-    created_at_local = (Get-Date -Format "o")
-    data_dir         = (Resolve-Path -LiteralPath $DataDir).Path
-    output_root      = (Resolve-Path -LiteralPath $OutDir).Path
-    prepare_mode     = $PrepareMode
-    provider         = $Provider
-    classify_limit   = $ClassifyLimit
-    run_audit        = [bool]$RunAudit
-    audit_limit      = $AuditLimit
-    documents        = @($perDoc)
+    created_at_local         = (Get-Date -Format "o")
+    data_dir                 = (Resolve-Path -LiteralPath $DataDir).Path
+    output_root              = (Resolve-Path -LiteralPath $OutDir).Path
+    prepare_mode             = $PrepareMode
+    provider                 = $Provider
+    classify_limit           = $ClassifyLimit
+    run_audit                = [bool]$RunAudit
+    audit_limit              = $AuditLimit
+    export_labeling_queue    = [bool]$ExportLabelingQueue
+    export_review_json       = [bool]$ExportReviewJson
+    labeling_top_n           = $LabelingTopN
+    run_cluster_analysis     = [bool]$RunClusterAnalysis
+    cluster_embed_backend    = $ClusterEmbedBackend
+    cluster_model            = $ClusterModel
+    documents                = @($perDoc)
 }
 $summaryPath = Join-Path $OutDir "pipeline_summary.json"
-$summary | ConvertTo-Json -Depth 6 | Set-Content -LiteralPath $summaryPath -Encoding UTF8
+$summary | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $summaryPath -Encoding UTF8
 
 Write-Host ""
 Write-Host "Pipeline finished. Output root: $OutDir"

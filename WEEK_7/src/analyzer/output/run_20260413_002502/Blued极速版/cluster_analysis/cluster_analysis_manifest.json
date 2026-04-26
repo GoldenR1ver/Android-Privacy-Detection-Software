@@ -1,0 +1,12 @@
+{
+  "wrote": [
+    "sentences_taxonomy_22.jsonl",
+    "sentences_cluster_full.jsonl",
+    "policy_vs_law_comparison.json",
+    "umap_audit_priority.png",
+    "umap_taxonomy_22.png",
+    "umap_hdbscan.png"
+  ],
+  "rows": 192,
+  "num_law_refs": 22
+}

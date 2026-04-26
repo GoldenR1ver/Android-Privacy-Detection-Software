@@ -1,0 +1,24 @@
+{
+  "created_at_utc": "2026-04-12T11:12:59.186592+00:00",
+  "input": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_5\\src\\data\\Soul.txt",
+  "mode": "classify",
+  "provider": "deepseek",
+  "ollama_model": "qwen3.5:9b",
+  "keyword_hint": true,
+  "limit": 0,
+  "max_chars": 0,
+  "num_sentences": 347,
+  "num_classified": 347,
+  "write_week3_csv": true,
+  "week3_csv_path": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_5\\src\\output\\run_20260412_185954\\Soul\\sentences_week3_2_2.csv",
+  "labeling_queue": {
+    "path": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_5\\src\\output\\run_20260412_185954\\Soul\\for_labeling.jsonl",
+    "rows": 200
+  },
+  "stats_summary": {
+    "total_sentences": 347,
+    "pii_related_ratio_of_total": 0.8443804034582133,
+    "pii_related_ratio_of_labeled": 0.8443804034582133,
+    "keyword_hint_ratio_of_total": 0.6657060518731989
+  }
+}

@@ -1,0 +1,1095 @@
+{
+  "schema_version": 1,
+  "description": "句级 pii_related 人工参考例（few-shot）；可由 review_bundle 提取或手改。",
+  "updated_at_utc": "2026-04-13T06:57:42.570797+00:00",
+  "shots": [
+    {
+      "id": "Soul#11",
+      "text": "对于个人敏感信息，我们采用\"加粗斜体\"的书写方式进行特别提醒，希望您在阅读时特别关注。",
+      "related": false,
+      "reason_hint": "过渡类文本，无需处理",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#23",
+      "text": "如何保护您的个人信息",
+      "related": false,
+      "reason_hint": "过渡类文本，无需处理",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#34",
+      "text": "账号注册、登录与验证",
+      "related": false,
+      "reason_hint": "过渡类文本，无需处理",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#55",
+      "text": "手机号换绑",
+      "related": false,
+      "reason_hint": "过渡类文本，无需处理",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#143",
+      "text": "尽管我们在前述章节中已经有所涉及，本节将对Soul App所使用的所有系统权限进行归纳整理，以方便向您更加系统、完整、透明地呈现。",
+      "related": false,
+      "reason_hint": "过渡类文本，无需处理",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#201",
+      "text": "共享",
+      "related": false,
+      "reason_hint": "过渡类文本，无需处理",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#313",
+      "text": "我们负责处理个人信息安全的责任部门、联络方式及投诉渠道发生变化时；",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（政策修订触发条件半句）；与标准1「联系方式」相关但不成条，需与完整修订条款合并审计。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#0",
+      "text": "Soul App个人信息保护政策",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（政策标题）；与标准17「显著清晰」相关但非实质合规条款。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#19",
+      "text": "如何收集和使用您的个人信息",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（章节标题）；与标准2实质内容需下文，避免标题单独当合规依据。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#20",
+      "text": "如何委托处理、共享、转让及披露您的个人信息",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（章节标题）；涉及委托/共享主题，与标准12正文需对应。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#21",
+      "text": "您如何管理您的个人信息",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（章节标题）；与标准3权利行使正文需对应。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#22",
+      "text": "如何存储您的个人信息",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（章节标题）；与标准2保存期限、存储安全措施需对应。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#24",
+      "text": "如何保护未成年人个人信息",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（章节标题）；与标准11需下文支撑。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#29",
+      "text": "如何收集和使用您的个人信息",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（重复章节标题）；同Soul#19。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#50",
+      "text": "此方式下收集您个人信息的详细情况，请您参见本政策第1.5节的内容。",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（引用他节）；与标准2、12细节在1.5节，单句不构成告知。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#56",
+      "text": "实名认证及年龄更正",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（小节标题）；与标准9实名正文（Soul#57等）绑定阅读。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#119",
+      "text": "向您提供产品与/或服务过程中我们主动收集的个人信息",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（小节标题「主动收集」）；与标准2清单需下文。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#131",
+      "text": "地理位置信息",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（小标题「地理位置信息」）；与Soul#132等正文绑定。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#146",
+      "text": "相册及存储权限",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（权限小标题）；与Soul#147-149说明合并看标准21。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#152",
+      "text": "麦克风权限",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（麦克风权限标题）；需与麦克风用途正文合并。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#156",
+      "text": "摄像头权限",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（摄像头权限标题）；需与拍摄正文合并。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#158",
+      "text": "通讯录权限",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（通讯录权限标题）；与Soul#159合并。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#162",
+      "text": "读取应用安装列表权限",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（读取应用列表权限标题）；与Soul#163合并。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#165",
+      "text": "地理位置权限",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（地理位置权限标题）；与Soul#132等合并。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#169",
+      "text": "日历权限",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（日历权限标题）；需与日历用途正文合并（若有）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#171",
+      "text": "设备信息访问权限",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（设备信息访问权限标题）；与Soul#172合并。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#194",
+      "text": "如何委托处理、共享、转让及披露您的个人信息",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（章节标题重复）；同Soul#20。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#195",
+      "text": "委托处理",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（「委托处理」子标题）；与Soul#196起正文合并对照标准12。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#227",
+      "text": "转让",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（「转让」小标题）；与Soul#229合并。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#230",
+      "text": "公开披露",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（「公开披露」小标题）；需与披露条件正文合并对照标准14。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#238",
+      "text": "您如何管理您的个人信息",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（章节标题重复）；同Soul#21。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#239",
+      "text": "查阅/复制或更正/补充您的个人信息",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（查阅/更正小标题）；与Soul#240起操作指引合并对照标准5、6。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Soul#249",
+      "text": "删除您的个人信息",
+      "related": false,
+      "reason_hint": "过渡类文本 / 片段类文本（「删除」小标题）；与Soul#250起删除路径合并对照标准7。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "LOFTER#71",
+      "text": "您可以点击《网易LOFTER应用权限申请与使用情况说明》，详细了解LOFTER获取用户设备的权限名称、类型、获取场景及目的等信息。",
+      "related": false,
+      "reason_hint": "引用外链清单/说明文档；实质内容在附件，单句不作合规依据。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "LOFTER#100",
+      "text": "（2）分析您使用我们服务的情况。",
+      "related": false,
+      "reason_hint": "COOKIES 用途子项标题/极短句；与前后用途说明合并。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "LOFTER#129",
+      "text": "您可以点击《网易LOFTER个人信息第三方共享清单》，详细了解LOFTER接入的第三方SDK或其他第三方合作商的名称、用途、收集的个人信息类型等信息。",
+      "related": false,
+      "reason_hint": "引用外链清单/说明文档；实质内容在附件，单句不作合规依据。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "LOFTER#41",
+      "text": "6、实现录制视频功能",
+      "related": false,
+      "reason_hint": "处理目的编号小标题；与标准2正文绑定阅读。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "LOFTER#91",
+      "text": "这样下次当您要登录LOFTER的服务时能更加方便快捷。",
+      "related": false,
+      "reason_hint": "COOKIES 体验类过渡表述；无具体收集目的或类型。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "LOFTER#26",
+      "text": "2、实现身份认证",
+      "related": false,
+      "reason_hint": "处理目的编号小标题；与标准2正文绑定阅读。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "LOFTER#31",
+      "text": "3、实现图片、文字、音视频展示及下载服务",
+      "related": false,
+      "reason_hint": "处理目的编号小标题；与标准2正文绑定阅读。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "LOFTER#42",
+      "text": "7、帮助您完成下单、支付并向您交付商品或服务",
+      "related": false,
+      "reason_hint": "处理目的编号小标题；与标准2正文绑定阅读。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "LOFTER#51",
+      "text": "8、为您提供客服或其他用户响应功能",
+      "related": false,
+      "reason_hint": "处理目的编号小标题；与标准2正文绑定阅读。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "LOFTER#110",
+      "text": "同时，您仍然将收到广告，只是这些广告与您的相关性会降低。",
+      "related": false,
+      "reason_hint": "小节/列举标题；需与紧随正文合并对照标准2/12/16等。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "LOFTER#109",
+      "text": "但请您注意，如果您停用COOKIES或同类技术，我们有可能无法为您提供最佳的服务体验，某些服务也可能无法正常使用。",
+      "related": true,
+      "reason_hint": "句级实质涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#163",
+      "text": "4、互联网并非绝对安全的环境，而且电子邮件、即时通讯、社交软件或其他服务软件等与其他用户的交流方式无法确定是否完全加密，我们建议您使用此类工具时请使用复杂密码，并注意保护您的信息安全。",
+      "related": true,
+      "reason_hint": "句级实质涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#3",
+      "text": "【前言】LOFTER（指LOFTER网站及其客户端程序、移动应用产品、微信公众号、小程序，以下统称\"LOFTER\"或\"我们\"）一向庄严承诺保护使用LOFTER之用户（以下统称\"用户\"或\"您\"）的个人信息和隐私安全。",
+      "related": true,
+      "reason_hint": "句级实质涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#6",
+      "text": "【特别提示】在使用LOFTER前，请您务必仔细阅读并透彻理解本政策，特别是以粗体标识的条款，您应重点阅读，在确认充分理解并同意后再开始使用。",
+      "related": true,
+      "reason_hint": "句级实质涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#7",
+      "text": "如果您不同意本政策的内容，将可能导致我们的产品和服务无法正常运行，或者无法达到我们拟达到的服务效果，您应立即停止访问/使用我们的产品与/或服务。",
+      "related": true,
+      "reason_hint": "句级实质涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#171",
+      "text": "请您务必妥善保管好您的账号、密码及其他身份要素。",
+      "related": true,
+      "reason_hint": "句级实质涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#180",
+      "text": "您也可以通过本政策\"如何联系我们\"章节所列的反馈渠道联系我们为您处理。",
+      "related": true,
+      "reason_hint": "句级实质涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#189",
+      "text": "在符合《网易LOFTER服务协议》约定条件及相关法律法规规定的情况下，您可以通过以下方式注销此前注册的LOFTER账号：",
+      "related": true,
+      "reason_hint": "用户权利行使或删除/注销路径；对照标准3、5–8。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#191",
+      "text": "2、通过手机端登陆LOFTER APP 进行账号注销操作，操作路径：我的-设置-账号管理-注销账号；",
+      "related": true,
+      "reason_hint": "用户权利行使或删除/注销路径；对照标准3、5–8。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#210",
+      "text": "我们鼓励监护人指导未成年人使用LOFTER。",
+      "related": true,
+      "reason_hint": "未成年人；对照标准11。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#220",
+      "text": "您如果不同意该等变更，可以选择停止使用LOFTER。",
+      "related": true,
+      "reason_hint": "句级实质涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#224",
+      "text": "我们设立了个人信息保护专职部门，如您有关于网络信息安全的投诉和举报，或您对本政策、您的信息的相关事宜有任何问题、意见或建议，以及有关本政策或LOFTER的隐私措施的问题请与我们的协调人联系。",
+      "related": true,
+      "reason_hint": "句级实质涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#225",
+      "text": "您可发送邮件至Privacy@service.netease.com或写信至以下地址：杭州市滨江区网商路399号网易二期 个人信息保护专员（收）；",
+      "related": true,
+      "reason_hint": "句级实质涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#187",
+      "text": "因此，我们提醒并请您慎重考虑是否通过上述渠道公开或分享您的信息。",
+      "related": true,
+      "reason_hint": "句级实质涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#9",
+      "text": "在阅读完本政策后，如您对本政策或与本政策相关的事宜有任何问题，您可通过本政策\"如何联系我们\"章节所列的反馈渠道联系我们，我们会尽快为您作出解答。",
+      "related": true,
+      "reason_hint": "句级实质涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#75",
+      "text": "（3）与公共安全、公共卫生、重大公共利益直接相关的；",
+      "related": true,
+      "reason_hint": "句级实质涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#131",
+      "text": "（1）履行我们在本政策或我们与您达成的其他协议中的义务和行使我们的权利；",
+      "related": true,
+      "reason_hint": "句级实质涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#134",
+      "text": "（3）应您合法需求或经您的授权同意；",
+      "related": true,
+      "reason_hint": "句级实质涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#136",
+      "text": "（5）根据与您签署的单项服务协议（包括在线签署的电子协议以及相应的平台规则）或其他的法律文件约定所提供；",
+      "related": true,
+      "reason_hint": "句级实质涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#137",
+      "text": "（6）基于学术研究而提供；",
+      "related": true,
+      "reason_hint": "句级实质涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#147",
+      "text": "1、与国家安全、国防安全直接相关的；",
+      "related": true,
+      "reason_hint": "句级实质涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "LOFTER#148",
+      "text": "2、与公共安全、公共卫生、重大公共利益直接相关的；",
+      "related": true,
+      "reason_hint": "句级实质涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#63",
+      "text": "实现本政策中\"我们如何收集信息\"所述目的；",
+      "related": false,
+      "reason_hint": "引用他节「如何收集信息」；单句不构成告知。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Blued极速版#92",
+      "text": "（5）为了向您提供聊天记录的备份和恢复服务，在获得您的单独同意后，我们可能会将您的通信记录和内容，与我们的服务供应商共享，您可以通过以下网址： 【website_url_lnk",
+      "related": false,
+      "reason_hint": "外链/占位符；无有效告知内容。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Blued极速版#145",
+      "text": "您可通过如下方式行使您的访问权利并随时更新或更正其中的部分个人信息：",
+      "related": false,
+      "reason_hint": "权利行使引导过渡句；具体操作见下文。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "Blued极速版#165",
+      "text": "Blued极速版的网站、应用软件和服务中可能含有第三方网站、产品和服务的链接。",
+      "related": true,
+      "reason_hint": "第三方、共享/委托等；对照标准12、14。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#84",
+      "text": "关闭后您无法正常使用上述服务，但不影响您正常使用除上述功能外的其他功能。",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#167",
+      "text": "我们希望您能了解这些第三方的隐私权规定。",
+      "related": true,
+      "reason_hint": "第三方、共享/委托等；对照标准12、14。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#2",
+      "text": "广州影游天下网络科技有限公司（以下简称\"我们\"）系Blued极速版平台的运营者，我们深知个人信息对您而言的重要性，我们尊重并十分重视您的隐私保护。",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#3",
+      "text": "为让您充分了解在您使用Blued极速版平台的产品或服务的过程中，我们会如何收集、使用、处理和存储您的个人信息及您享有何种权利，我们制定了本个人信息保护政策（以下简称\"本政策\"）。",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#5",
+      "text": "如果您不同意或不理解本政策的部分或全部内容，您应立即停止使用Blued极速版产品及服务，并按照下述列明的联系方式与我们联系。",
+      "related": true,
+      "reason_hint": "联系方式或投诉渠道；对照标准1、3。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#7",
+      "text": "个人信息保护相关负责人联系方式：kfts@blued.com",
+      "related": true,
+      "reason_hint": "联系方式或投诉渠道；对照标准1、3。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#123",
+      "text": "我们会举办安全和隐私保护培训课程，加强员工对于保护个人信息重要性的认识。",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#177",
+      "text": "如您在本政策更新生效后继续使用我们的服务，即表示您已充分阅读、理解并接受更新后的政策并愿意受更新后的政策约束。",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#184",
+      "text": "如果您对Blued极速版的隐私政策或数据处理有任何问题或疑问，或者想就可能违反当地隐私权法律的情况进行投诉，请通过如下方式联系我们。",
+      "related": true,
+      "reason_hint": "联系方式或投诉渠道；对照标准1、3。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#186",
+      "text": "个人信息保护相关负责人联系方式：kfts@blued.com",
+      "related": true,
+      "reason_hint": "联系方式或投诉渠道；对照标准1、3。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#190",
+      "text": "（2）个人信息：指以电子或者其他方式记录的能够单独或者与其他信息结合识别特定自然人身份或者反映特定自然人活动情况的各种信息。",
+      "related": true,
+      "reason_hint": "术语或主体范围界定；辅助审计理解。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#185",
+      "text": "所有此类通信内容都要经过调查，在适当的情况下，我们会在15个工作日内予以答复。",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#43",
+      "text": "HIV 状态/最后检验日期。",
+      "related": true,
+      "reason_hint": "敏感个人信息；对照标准9、20。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#168",
+      "text": "（1）我们的基本情况发生变化，例如：兼并、收购、重组引起的所有者变更；",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#175",
+      "text": "由于我们的用户较多，如本政策发生更新，我们将以APP推送通知、弹窗提示、发送邮件/短消息或者在App发布公告的方式来通知您。",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#176",
+      "text": "为了您能及时接收到通知，建议您在联系方式更新时及时通知我们。",
+      "related": true,
+      "reason_hint": "联系方式或投诉渠道；对照标准1、3。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#180",
+      "text": "Blued极速版遵守美国商务部制订的\"安全港\"框架。",
+      "related": true,
+      "reason_hint": "跨境或域外规则；对照标准10。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#188",
+      "text": "（1）关联方：指北京蓝城兄弟信息技术有限公司及广州影游天下网络科技有限公司控制的子公司。",
+      "related": true,
+      "reason_hint": "术语或主体范围界定；辅助审计理解。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#189",
+      "text": "\"关联\"是指一方现在或将来控制、受控制或与其出于共同控制下的任何公司、合法机构以及前述公司、合法机构的合法继承人。",
+      "related": true,
+      "reason_hint": "术语或主体范围界定；辅助审计理解。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "Blued极速版#6",
+      "text": "注册地址：广州市天河区科韵路12号之一3A05自编之十一室",
+      "related": true,
+      "reason_hint": "处理者身份/地址信息；对照标准1。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#135",
+      "text": "7.使用AR拍摄功能时进行拍摄",
+      "related": false,
+      "reason_hint": "编号功能/权限场景小标题；与用途说明合并对照标准21。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "小红书#115",
+      "text": "1.发现或推荐通讯录中的好友（含消息推送形式）",
+      "related": false,
+      "reason_hint": "编号功能/权限场景小标题；与用途说明合并对照标准21。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "小红书#131",
+      "text": "3.使用测肤、试妆功能时进行拍摄",
+      "related": false,
+      "reason_hint": "编号功能/权限场景小标题；与用途说明合并对照标准21。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "小红书#116",
+      "text": "2.用户购买商品或服务时，编辑收货信息",
+      "related": false,
+      "reason_hint": "编号功能/权限场景小标题；与用途说明合并对照标准21。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "小红书#129",
+      "text": "1.开启直播时进行拍摄",
+      "related": false,
+      "reason_hint": "编号功能/权限场景小标题；与用途说明合并对照标准21。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "小红书#133",
+      "text": "与其他用户聊天时进行拍摄",
+      "related": false,
+      "reason_hint": "权限/场景片段标题；与用途正文合并对照标准21。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "小红书#134",
+      "text": "6.注册和认证时进行拍摄",
+      "related": false,
+      "reason_hint": "编号功能/权限场景小标题；与用途说明合并对照标准21。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "小红书#145",
+      "text": "购物时编辑收货信息",
+      "related": false,
+      "reason_hint": "权限/场景片段标题；与用途正文合并对照标准21。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "小红书#168",
+      "text": "直播：上传照片、下载直播内容、观看本地视频",
+      "related": false,
+      "reason_hint": "权限/场景片段标题；与用途正文合并对照标准21。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "小红书#283",
+      "text": "（3）通过小红书所设cookies所取得的有关信息，将适用本政策。",
+      "related": false,
+      "reason_hint": "引用本政策；与 Cookie 正文合并。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "小红书#13",
+      "text": "请您谨慎考虑后提供这类信息，若您拒绝提供，您可能无法正常使用相应的功能。",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#120",
+      "text": "可以，关闭后APP内容无法实时读取与更新，无法正常使用APP",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#2",
+      "text": "小红书特别提请未满18周岁的未成年（特别是未满十四周岁的儿童）及其监护人的注意，我们已明确未成年保护专门章节（以粗体提示），请您仔细阅读。",
+      "related": true,
+      "reason_hint": "未成年人；对照标准11。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#7",
+      "text": "我们将在本政策中依次向您说明每项功能可能收集的个人信息范围、收集目的、收集方式，以及拒绝提供个人信息可能导致的结果。",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#61",
+      "text": "若您拒绝提供，不会影响小红书其他功能的正常使用。",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#63",
+      "text": "若您拒绝提供，不会影响小红书其他功能的正常使用。",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#65",
+      "text": "若您拒绝提供，不会影响小红书其他功能的正常使用。",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#68",
+      "text": "若您拒绝提供，不会影响小红书其他功能的正常使用。",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#70",
+      "text": "若您拒绝提供，不会影响小红书其他功能的正常使用。",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#167",
+      "text": "日志信息记录、信息缓存",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#169",
+      "text": "使用测肤、试妆功能时",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#185",
+      "text": "3.我们可能从第三方间接获取您的个人信息",
+      "related": true,
+      "reason_hint": "第三方或共享转让披露；对照标准12、14。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#209",
+      "text": "I.其他业务合作伙伴：委托我们进行推广和广告投放相关的合作伙伴。",
+      "related": true,
+      "reason_hint": "第三方或共享转让披露；对照标准12、14。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#237",
+      "text": "3.公开披露：",
+      "related": true,
+      "reason_hint": "第三方或共享转让披露；对照标准12、14。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#240",
+      "text": "4.共享、转让、公开披露个人信息授权同意的例外情形",
+      "related": true,
+      "reason_hint": "第三方或共享转让披露；对照标准12、14。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#250",
+      "text": "（3）您通过互联网进行跨境交易等个人主动行为。",
+      "related": true,
+      "reason_hint": "跨境；对照标准10。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#253",
+      "text": "2.个人信息副本的访问、获取、更正和删除相关信息",
+      "related": true,
+      "reason_hint": "权利行使或撤回；对照标准3、5–8、15。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#258",
+      "text": "（1）处理目的已实现、无法实现或者为实现处理目的不再必要；",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#260",
+      "text": "（3）您已明确撤回同意；",
+      "related": true,
+      "reason_hint": "权利行使或撤回；对照标准3、5–8、15。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#261",
+      "text": "（4）如您有足够的理由认为我们违反法律、行政法规或者违反约定处理您的个人信息；",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#263",
+      "text": "3.变更或撤回授权范围",
+      "related": true,
+      "reason_hint": "权利行使或撤回；对照标准3、5–8、15。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#266",
+      "text": "3）评论设置、@设置、通讯录推荐设置、微博推荐设置、位置信息设置和黑名单设置；",
+      "related": true,
+      "reason_hint": "个性化推荐/自动化决策；对照标准13。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#270",
+      "text": "4.附条件的个人信息转移权",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#294",
+      "text": "1.因本政策以及我们处理您个人信息事宜引起的任何争议，您可诉至上海市黄浦区人民法院。",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#41",
+      "text": "境内展示到省(区、市)，境外展示到国家(地区)，信息以网络运营商数据为准。",
+      "related": true,
+      "reason_hint": "跨境；对照标准10。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "小红书#111",
+      "text": "可以，关闭后仅影响对应功能，不影响APP其他功能",
+      "related": true,
+      "reason_hint": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "世纪佳缘#288",
+      "text": "Cookie通常包含标识符、站点名称以及一些号码和字符。",
+      "related": false,
+      "reason_hint": "Cookie 技术常识或泛化体验表述；无本应用具体处理目的/类型，单句不作主要审计依据。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "世纪佳缘#290",
+      "text": "安全的Cookie技术会为用户在上网时提供更为便捷的服务。",
+      "related": false,
+      "reason_hint": "Cookie 技术常识或泛化体验表述；无本应用具体处理目的/类型，单句不作主要审计依据。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "世纪佳缘#55",
+      "text": "当您使用交友功能，发布视频交友内容或进行房间互动时：",
+      "related": false,
+      "reason_hint": "场景引导/列举引导句；与下文具体收集说明合并审计标准2。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "世纪佳缘#69",
+      "text": "当您使用个人资料功能时，我们将收集以下信息：",
+      "related": false,
+      "reason_hint": "场景引导/列举引导句；与下文具体收集说明合并审计标准2。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "世纪佳缘#223",
+      "text": "2删除相册个人形象照片：",
+      "related": false,
+      "reason_hint": "章节或小节标题；与前后正文合并对照 ref/分类和正例依据.md。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "世纪佳缘#287",
+      "text": "Cookie文件是存储了一些与用户访问网站有关信息的文件，格式为.txt；",
+      "related": false,
+      "reason_hint": "Cookie 技术常识或泛化体验表述；无本应用具体处理目的/类型，单句不作主要审计依据。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "世纪佳缘#185",
+      "text": "1访问头像、个人基本资料、详细资料、自我描述、运动爱好、择偶条件基本信息：",
+      "related": false,
+      "reason_hint": "章节或小节标题；与前后正文合并对照 ref/分类和正例依据.md。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "世纪佳缘#188",
+      "text": "3)进行信息查询访问。",
+      "related": false,
+      "reason_hint": "界面操作步骤片段；与完整权利说明合并对照标准5、6。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_true_human_false"
+    },
+    {
+      "id": "世纪佳缘#2",
+      "text": "1.我们将逐一说明我们收集的您的个人信息类型及其对应的用途，以便您了解我们针对某一特定功能所收集的具体个人信息种类、使用场景、使用目的及方式。",
+      "related": true,
+      "reason_hint": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "世纪佳缘#29",
+      "text": "如果您不希望使用\"一键登录\"功能，可以通过其他方式注册、登录。",
+      "related": true,
+      "reason_hint": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    },
+    {
+      "id": "世纪佳缘#146",
+      "text": "（7）基于学术研究而使用；",
+      "related": true,
+      "reason_hint": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "source": "review_bundle",
+      "disagreement_kind": "ai_false_human_true"
+    }
+  ]
+}

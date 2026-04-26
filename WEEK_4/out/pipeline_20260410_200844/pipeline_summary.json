@@ -1,0 +1,19 @@
+﻿{
+    "created_at_local":  "2026-04-10T20:08:46.8434346+08:00",
+    "data_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_4\\src\\data",
+    "output_root":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_4\\out\\pipeline_20260410_200844",
+    "prepare_mode":  "split-only",
+    "provider":  "deepseek",
+    "classify_limit":  0,
+    "run_audit":  false,
+    "audit_limit":  0,
+    "documents":  [
+                      {
+                          "doc_id":  "Soul",
+                          "audit_processed":  null,
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_4\\out\\pipeline_20260410_200844\\Soul",
+                          "audit_raw":  null,
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_4\\out\\pipeline_20260410_200844\\Soul\\sentences_week3_2_2.csv"
+                      }
+                  ]
+}

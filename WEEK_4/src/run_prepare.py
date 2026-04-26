@@ -7,7 +7,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List
 
+from labeling_queue import labeling_export_rows, write_labeling_jsonl
 from pipeline import build_rows_for_text
+from review_store import build_bundle, save_bundle
 from week3_csv import compute_privacy_stats, write_week3_sentence_csv
 
 
@@ -129,6 +131,22 @@ def main() -> None:
         default=1,
         help="CSV app_id for first sentence = app_id_start + sent_index",
     )
+    parser.add_argument(
+        "--export-labeling-queue",
+        action="store_true",
+        help="Write for_labeling.jsonl: rows sorted by pii_related + keyword_hint (送标优先级)",
+    )
+    parser.add_argument(
+        "--labeling-top-n",
+        type=int,
+        default=0,
+        help="With --export-labeling-queue / --export-review-json, cap rows (0 = all)",
+    )
+    parser.add_argument(
+        "--export-review-json",
+        action="store_true",
+        help="Write review_bundle.json（送标句 + AI + 待填 human）",
+    )
     args = parser.parse_args()
 
     ds_key = (args.deepseek_api_key or os.getenv("DEEPSEEK_API_KEY") or "").strip()
@@ -157,6 +175,27 @@ def main() -> None:
     out_dir = args.output_dir
     write_jsonl(rows, out_dir / "sentences.jsonl")
 
+    label_top = args.labeling_top_n if args.labeling_top_n > 0 else None
+    labeling_info = None
+    if args.export_labeling_queue:
+        n_q = write_labeling_jsonl(rows, out_dir / "for_labeling.jsonl", limit=label_top)
+        labeling_info = {"path": str(out_dir / "for_labeling.jsonl"), "rows": n_q}
+
+    review_info = None
+    if args.export_review_json:
+        export_rows = labeling_export_rows(rows, limit=label_top, include_meta=True)
+        src = (
+            str((out_dir / "for_labeling.jsonl").resolve())
+            if args.export_labeling_queue
+            else str((out_dir / "sentences.jsonl").resolve())
+        )
+        bundle = build_bundle(export_rows, source_path=src, note="run_prepare")
+        save_bundle(out_dir / "review_bundle.json", bundle)
+        review_info = {
+            "path": str((out_dir / "review_bundle.json").resolve()),
+            "items": len(export_rows),
+        }
+
     app_name = args.app_name.strip() or doc_id
     if args.write_week3_csv:
         csv_path = out_dir / "sentences_week3_2_2.csv"
@@ -177,6 +216,10 @@ def main() -> None:
     )
 
     manifest = build_manifest(args, len(rows), num_classified)
+    if labeling_info:
+        manifest["labeling_queue"] = labeling_info
+    if review_info:
+        manifest["review_bundle"] = review_info
     manifest["stats_summary"] = {
         "total_sentences": stats["total_sentences"],
         "pii_related_ratio_of_total": stats["pii_related"]["ratio_of_total"],
@@ -187,17 +230,17 @@ def main() -> None:
         json.dumps(manifest, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    print(
-        json.dumps(
-            {
-                "wrote": str(out_dir),
-                "sentences": len(rows),
-                "classified": num_classified,
-                "stats": manifest["stats_summary"],
-            },
-            ensure_ascii=False,
-        )
-    )
+    out_msg: Dict[str, Any] = {
+        "wrote": str(out_dir),
+        "sentences": len(rows),
+        "classified": num_classified,
+        "stats": manifest["stats_summary"],
+    }
+    if labeling_info:
+        out_msg["labeling_queue"] = labeling_info
+    if review_info:
+        out_msg["review_bundle"] = review_info
+    print(json.dumps(out_msg, ensure_ascii=False))
 
 
 if __name__ == "__main__":

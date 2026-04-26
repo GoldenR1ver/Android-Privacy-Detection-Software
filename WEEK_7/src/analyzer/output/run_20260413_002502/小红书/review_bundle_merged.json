@@ -1,0 +1,4011 @@
+{
+  "schema_version": 1,
+  "kind": "privacy_sentence_review_bundle",
+  "created_at_utc": "2026-04-12T17:59:01.723589+00:00",
+  "source_jsonl": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_5\\src\\output\\run_20260413_002502\\小红书\\for_labeling.jsonl",
+  "note": "run_prepare",
+  "items": [
+    {
+      "id": "小红书#135",
+      "doc_id": "小红书",
+      "sent_index": 135,
+      "text": "7.使用AR拍摄功能时进行拍摄",
+      "keyword_hint": true,
+      "labeling_queue_rank": 0,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.8,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.8, \"reason\": \"句子描述了在特定功能（AR拍摄）下进行拍摄的行为，这直接涉及个人信息的收集（可能包括图像、位置等），属于个人信息处理与利用的具体场景。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "编号功能/权限场景小标题；与用途说明合并对照标准21。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#238",
+      "doc_id": "小红书",
+      "sent_index": 238,
+      "text": "（1）因公布账号中奖、处罚通知时展示必要的相关脱敏信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 1,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子描述了为特定目的（公布通知）而处理（展示）个人信息（账号相关脱敏信息），属于个人信息的具体使用行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#8",
+      "doc_id": "小红书",
+      "sent_index": 8,
+      "text": "请您知悉，您拒绝提供各项功能实现所必要的对应信息时，仍然可以使用小红书App的其他功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 2,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子直接描述了用户拒绝提供个人信息（收集环节）的后果，涉及个人信息处理中的收集与使用规则。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#10",
+      "doc_id": "小红书",
+      "sent_index": 10,
+      "text": "当您注册及登录时，如您使用一键登录的功能，基于我们与通信运营商的合作，我们会收集您的【手机号码和网络运营商信息】，以便为您提供快捷的登录服务；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 3,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在特定场景（注册登录）下，为特定目的（提供快捷登录服务），通过特定方式（与运营商合作）收集特定个人信息（手机号码和网络运营商信息），属于具体的个人信息收集行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#11",
+      "doc_id": "小红书",
+      "sent_index": 11,
+      "text": "同时，为帮助您完成注册过程，我们还将收集您的【兴趣】，以为您提供小红书初始服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 4,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为完成注册而收集用户兴趣信息，属于个人信息的收集行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#12",
+      "doc_id": "小红书",
+      "sent_index": 12,
+      "text": "如您使用第三方账号进行登录，为了满足网络实名制要求，在您使用发布、评论及其他要求实名认证的功能与服务前，我们将另行收集您的手机号码以完成实名认证。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 5,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为完成实名认证而收集手机号码这一具体的个人信息收集行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#14",
+      "doc_id": "小红书",
+      "sent_index": 14,
+      "text": "您还可以根据自身需求选择填写或更改头像、名字、性别、生日、职业、地区、学校、简介、穿搭信息来完善您的信息，但如您不提供此类信息，不会影响您使用本产品和相关服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 6,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子直接描述了用户主动提供或更改个人信息的场景，属于个人信息收集与使用的具体行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#15",
+      "doc_id": "小红书",
+      "sent_index": 15,
+      "text": "如果您成功注册小红书账号，我们会在小红书应用程序及网站中显示您的名字、头像、地区、简介信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 7,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在特定场景（注册成功）下，对用户的姓名、头像、地区、简介等个人信息进行使用（显示）的具体行为，属于个人信息处理与利用的实质内容。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#18",
+      "doc_id": "小红书",
+      "sent_index": 18,
+      "text": "1.为了向您提供我们最核心的信息展示服务并向您推荐可能感兴趣的笔记及相关信息，我们会收集您填写个人资料、您的性别、生日、浏览记录（您的关注、浏览）和点击操作记录（兴趣、点击、搜索、点赞、收藏、分享、评论、发布记录及有关行为）。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 8,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（信息展示与推荐）而收集多种具体个人信息（个人资料、性别、生日、浏览记录、点击操作记录等），属于个人信息收集与使用的具体行为描述。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "个性化推荐/自动化决策；对照标准13。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#20",
+      "doc_id": "小红书",
+      "sent_index": 20,
+      "text": "2.当您使用发布、编辑内容功能时，我们会请求您授权存储（相册、媒体和其他文件）、相机（摄像头）、麦克风（录音）权限。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 9,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定功能（发布、编辑内容）而收集个人信息（通过请求授权存储、相机、麦克风权限）的具体行为，属于个人信息处理与利用中的收集环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#21",
+      "doc_id": "小红书",
+      "sent_index": 21,
+      "text": "您如果拒绝授权提供，将无法使用相应功能，但不影响您正常使用小红书的其他功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 10,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了因用户拒绝授权（即拒绝提供个人信息）而导致特定功能无法使用的后果，直接涉及个人信息收集与使用的具体条件和影响。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#23",
+      "doc_id": "小红书",
+      "sent_index": 23,
+      "text": "如果您退出编辑页面、或者因其他原因未发布笔记，我们会立即删除相关视频。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 11,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在特定场景下对用户个人信息（视频）的删除处理行为，属于个人信息处理与利用的具体操作。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "权利行使或撤回；对照标准3、5–8、15。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#25",
+      "doc_id": "小红书",
+      "sent_index": 25,
+      "text": "3.当您使用发布、评论、点赞、收藏、分享功能时，您发布的文字、照片、视频、音频、评论、点赞、收藏、分享记录信息会存储在我们的服务器中，因为存储是实现这一功能所必需的。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 12,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为实现特定功能而收集、存储用户发布的个人信息（文字、照片、视频等），属于对个人信息处理与利用的具体说明。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#26",
+      "doc_id": "小红书",
+      "sent_index": 26,
+      "text": "我们会以加密的方式存储，您也可以随时删除这些信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 13,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子直接描述了个人信息的存储方式（加密存储）和用户权利（随时删除），属于具体的处理行为与用户权利响应。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "权利行使或撤回；对照标准3、5–8、15。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#27",
+      "doc_id": "小红书",
+      "sent_index": 27,
+      "text": "如您拍摄或者编辑内容时使用地理位置贴纸，经您授权，我们会使用您的地理位置信息以生成贴纸。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 14,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在特定场景下，经用户授权后，收集和使用（地理位置信息）个人信息的具体行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#28",
+      "doc_id": "小红书",
+      "sent_index": 28,
+      "text": "贴纸将在内容中公开展示，如您拒绝地理位置授权，将无法使用该功能，但不影响您使用其他功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 15,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了因拒绝提供特定个人信息（地理位置）而导致的功能限制，属于个人信息收集与使用的具体场景。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#29",
+      "doc_id": "小红书",
+      "sent_index": 29,
+      "text": "我们也会使用您授权的地理位置信息，在作品发布页面为你推荐可选用的地理位置链接。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 16,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（推荐地理位置链接）而使用用户授权的个人信息（地理位置信息），属于具体的个人信息使用行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "个性化推荐/自动化决策；对照标准13。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#30",
+      "doc_id": "小红书",
+      "sent_index": 30,
+      "text": "我们也会在推荐地理位置锚点时使用该图片/视频自带的媒体信息中的位置信息，您可以通过本隐私政策第四条第三款控制该信息的获取。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 17,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（推荐地理位置锚点）而使用个人信息（图片/视频中的位置信息），并提及了用户控制该信息获取的途径，属于具体的个人信息使用行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "个性化推荐/自动化决策；对照标准13。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#31",
+      "doc_id": "小红书",
+      "sent_index": 31,
+      "text": "在您开启并使用\"限定回忆\"功能时，我们会根据拍摄信息（时间、场景和地点）对您设备相册中的图片、视频进行自动分析、筛选，并为您生成视频。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 18,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定功能（限定回忆）而收集（拍摄信息）和使用（自动分析、筛选）用户设备相册中的图片、视频，属于具体的个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#32",
+      "doc_id": "小红书",
+      "sent_index": 32,
+      "text": "为最佳剪辑效果，我们需要在每次生成视频前收集拍摄信息进行分析。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 19,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（生成视频）而进行的个人信息（拍摄信息）收集行为，属于个人信息处理与利用的具体环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#33",
+      "doc_id": "小红书",
+      "sent_index": 33,
+      "text": "我们承诺不会存储任何信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 20,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子直接描述了个人信息存储的具体处理行为（承诺不存储），属于实质性的处理与利用条款。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#34",
+      "doc_id": "小红书",
+      "sent_index": 34,
+      "text": "在您授权开启\"限定回忆\"功能后，我们仅会在您授权访问的相册范围内进行分析、筛选。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 21,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在用户授权后，对特定个人信息（相册内容）进行的具体处理行为（分析、筛选）。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#37",
+      "doc_id": "小红书",
+      "sent_index": 37,
+      "text": "为了保障软件与服务的安全运行，防止您的个人信息被非法获取，更准确地预防欺诈和保护账号安全，我们会主动收集您的设备信息【包括：设备/硬件型号、设备名称、SIM卡序列号（如ICCID）、硬件/设备序列号（SN）、设备唯一标识符（包括：IMEI、IMSI、AndroidID、IDFA、IDFV、OAID、MEID）】、运行中的进程、存储（相册、媒体和其他文件）、浏览器类型和设置、语言设置、传感器、操作系统、操作系统版本号和应用程序版本、应用列表、网络设备硬件地址（MAC地址）、WLAN-MAC、WLAN接入点（如SSID，BSSID）、IP地址、蓝牙地址、接入网络的方式、网络质量数据、基站、移动网络信息（包括运营商名称）、设备传感器数据（如加速度传感器、线性加速度传感器、重力传感器、陀螺仪传感器）、软件版本号以及软件使用记录信息上传到服务器处理，用于安全风控验证。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 22,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（安全风控）而主动收集多项设备信息和个人信息，属于具体的个人信息收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#38",
+      "doc_id": "小红书",
+      "sent_index": 38,
+      "text": "如您不同意我们收集前述信息，可能无法完成风控验证。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 23,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子直接描述了收集个人信息（风控验证所需信息）的具体后果，涉及个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#40",
+      "doc_id": "小红书",
+      "sent_index": 40,
+      "text": "为了维护网络安全、保障良好生态，您的IP地址所对应的归属地域信息将会展示在您的个人资料页、笔记发布页和评论中。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 24,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了将用户的IP地址归属地信息（个人信息）进行展示（即披露/使用）的具体场景，属于对个人信息的处理与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#43",
+      "doc_id": "小红书",
+      "sent_index": 43,
+      "text": "当您使用小红书搜索功能时，我们会收集您查询的关键词、阅读记录和访问时间、评论和互动记录。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 25,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为提供搜索功能而收集用户查询关键词、阅读记录、访问时间、评论和互动记录等个人信息的具体行为，属于个人信息处理与利用中的收集环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#44",
+      "doc_id": "小红书",
+      "sent_index": 44,
+      "text": "收集此信息可以向您提供您所需要的内容和可能更感兴趣的服务，同时亦可以改进我们的产品和服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 26,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了收集和使用个人信息的目的（提供内容、改进服务），属于具体的处理行为描述。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#46",
+      "doc_id": "小红书",
+      "sent_index": 46,
+      "text": "当您开启设备定位功能并使用小红书基于地理位置提供的相关服务（含内容推荐、本地生活信息展示、内容发布、购物编辑收货信息、资料编辑）时，我们可能会通过弹窗获得您的单独同意后收集有关您的地理位置信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 27,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在特定场景下，通过获取用户单独同意来收集地理位置信息这一具体的个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "个性化推荐/自动化决策；对照标准13。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#47",
+      "doc_id": "小红书",
+      "sent_index": 47,
+      "text": "地理位置信息属于个人敏感信息，拒绝提供该信息您将无法使用上述基于位置提供的相关服务，但不影响您正常使用小红书的其他功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 28,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了特定个人敏感信息（地理位置）的收集必要性、使用目的（提供基于位置的服务）以及拒绝提供的后果，属于对个人信息处理与利用的具体说明。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "敏感个人信息或强认证；对照标准9、20。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#48",
+      "doc_id": "小红书",
+      "sent_index": 48,
+      "text": "我们也仅会基于网络信息（如IP）、或经过你授权的相应地理位置信息对应的城市及/或区县及/或街道想你展示可能相关的内容或服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 29,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了基于IP地址和地理位置信息（个人信息）来展示内容或服务，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#50",
+      "doc_id": "小红书",
+      "sent_index": 50,
+      "text": "1.当您关注您感兴趣的账号、进行浏览、评论、点赞、收藏、分享内容时，我们会收集您关注的账号和前述信息，并向您展示您关注账号发布的内容；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 30,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为提供特定功能而收集和使用用户个人信息（关注的账号、浏览、评论等行为信息）的具体行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#52",
+      "doc_id": "小红书",
+      "sent_index": 52,
+      "text": "2.当您使用推荐通讯录好友功能或您主动发现好友时，在获得您明示同意后，我们会收集您的通讯录信息，用于向您展示通讯录中的好友，您的好友也能看到您使用小红书服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 31,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定功能（推荐好友）收集（通讯录信息）和使用（展示好友）个人信息的具体行为，属于实质性的个人信息处理活动。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "个性化推荐/自动化决策；对照标准13。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#53",
+      "doc_id": "小红书",
+      "sent_index": 53,
+      "text": "如果您不希望被推荐，可以在【我】-点击左上角-【设置】-【隐私设置】-【不把我推荐给可能认识的人】中选择关闭。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 32,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户如何通过具体操作行使个人信息（社交关系）的控制权，属于用户权利响应中的拒绝或关闭特定处理功能。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "个性化推荐/自动化决策；对照标准13。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#54",
+      "doc_id": "小红书",
+      "sent_index": 54,
+      "text": "通讯录信息属于个人敏感信息，拒绝提供该信息仅会使您无法使用上述功能，但不影响您正常使用小红书及相关服务的其他功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 33,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了特定个人敏感信息（通讯录）的收集目的、拒绝提供的后果，属于个人信息处理与利用的具体说明。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "敏感个人信息或强认证；对照标准9、20。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#55",
+      "doc_id": "小红书",
+      "sent_index": 55,
+      "text": "3.当您购买商品或服务时，如您需要编辑收货信息，我们可能会向您请求通讯录权限，通讯录权限是敏感权限，拒绝提供仅会使您无法通过通讯录编辑收货信息，但不影响其他功能的使用。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 34,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子具体描述了为特定目的（编辑收货信息）收集和使用敏感个人信息（通讯录权限）的场景、后果及替代方案，属于个人信息处理与利用的实质内容。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "敏感个人信息或强认证；对照标准9、20。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#56",
+      "doc_id": "小红书",
+      "sent_index": 56,
+      "text": "4.当您选择使用扫码添加好友时，我们可能会向您请求相机（摄像头）权限，相机（摄像头）权限是敏感权限，拒绝提供仅会使您无法通过扫码途径添加好友，不影响其他功能的使用。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 35,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定功能（扫码添加好友）收集和使用敏感个人信息（相机权限）的具体场景、目的及拒绝后果，属于个人信息处理与利用的实质内容。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "敏感个人信息或强认证；对照标准9、20。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#58",
+      "doc_id": "小红书",
+      "sent_index": 58,
+      "text": "为了方便您查询虚拟财产，并尽量降低可能存在的风险，【钱包】会记录您的充值、余额与使用情况。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 36,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（查询虚拟财产、降低风险）而记录用户的充值、余额与使用情况，这属于对个人信息的收集和使用行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#60",
+      "doc_id": "小红书",
+      "sent_index": 60,
+      "text": "1.当您使用身份认证功能申请成为认证用户时，我们可能会收集您的身份信息，包括您的真实姓名、身份证件号码或照片、面部识别信息，用于证实您的个人身份。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 37,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（身份认证）而收集特定个人信息（真实姓名、身份证件号码、面部识别信息）的行为，属于个人信息处理与利用的具体描述。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "敏感个人信息或强认证；对照标准9、20。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#62",
+      "doc_id": "小红书",
+      "sent_index": 62,
+      "text": "2.当您使用账号找回功能时，我们可能会收集您的身份信息，包括您的真实姓名、身份证件号码或照片、面部识别信息，用于证实您的身份，便于您找回小红书账号。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 38,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（账号找回）收集和使用特定类型的个人信息（身份信息、生物识别信息），属于具体的个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "敏感个人信息或强认证；对照标准9、20。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#64",
+      "doc_id": "小红书",
+      "sent_index": 64,
+      "text": "3.当您申请开通直播功能时，根据法律法规的要求，我们可能会收集您的身份信息，包括您的真实姓名、身份证件号码或照片、面部识别信息，用于证实您的个人身份。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 39,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（开通直播功能）收集特定类型的个人信息（身份信息、面部识别信息），属于个人信息处理与利用的具体行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "敏感个人信息或强认证；对照标准9、20。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#66",
+      "doc_id": "小红书",
+      "sent_index": 66,
+      "text": "4.当您申请商品合作功能时，根据法律法规的要求，我们可能会收集您的身份信息，包括您的真实姓名、身份证件号码或照片、面部识别信息，用于证实您的个人身份；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 40,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定功能（商品合作）收集特定个人信息（身份信息、面部识别信息）的目的和用途，属于个人信息收集与使用的具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "敏感个人信息或强认证；对照标准9、20。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#67",
+      "doc_id": "小红书",
+      "sent_index": 67,
+      "text": "为了帮助您顺利完成商品合作，我们可能收集您的手机号或微信号。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 41,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（商品合作）而收集特定个人信息（手机号或微信号）的行为，属于个人信息处理与利用中的收集环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#69",
+      "doc_id": "小红书",
+      "sent_index": 69,
+      "text": "5.当您申请品牌合作功能时，为了验证您的个人身份并判断您是否符合使用品牌合作功能的准入条件，我们可能会收集您的真实姓名、身份证件号码或照片、小红书账号信息、职业、学历以及收入明细信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 42,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（验证身份、判断准入条件）而收集多项具体个人信息（姓名、身份证号、照片、账号、职业、学历、收入明细），属于个人信息收集与使用的具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "敏感个人信息或强认证；对照标准9、20。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#73",
+      "doc_id": "小红书",
+      "sent_index": 73,
+      "text": "为了帮助您顺利完成交易、保障您的交易安全、查询订单信息、提供物流服务，在您下单交易或为了完成交易时，我们会收集您的交易商品/服务信息、订单号、下单时间、交易金额、支付方式、收货人姓名、地址、联系电话、物流信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 43,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子具体描述了为特定目的（完成交易、保障安全、提供物流）而收集多项个人信息（如订单信息、收货人信息、联系方式）的行为，属于明确的个人信息收集与使用场景。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#74",
+      "doc_id": "小红书",
+      "sent_index": 74,
+      "text": "对于部分特殊类型的商品和服务，您还需要提供该商品或服务所必需的其他信息，例如涉及跨境交易时您需要提供您的真实姓名、身份证件号码以及身份证件正反面照片以完成清关。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 44,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为完成特定服务（跨境交易清关）而收集个人敏感信息（真实姓名、身份证件号码及照片）的具体行为，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "敏感个人信息或强认证；对照标准9、20。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#77",
+      "doc_id": "小红书",
+      "sent_index": 77,
+      "text": "为了您的账号与系统安全，我们可能需要您提供相关个人信息与您之前提供的个人信息相匹配以验证您的用户身份。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 45,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为验证用户身份而收集和使用个人信息的具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#78",
+      "doc_id": "小红书",
+      "sent_index": 78,
+      "text": "验证成功后，我们可能会收集您与我们的沟通信息（账号信息、订单信息、您为了证明相关事实而提供的图片/视频/文字信息及有关信息）、您的联系方式以及您与我们的沟通记录，包括线上沟通记录、电话录音，以便尽快为您解决问题和改进我们的产品与/或服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 46,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在特定场景下收集个人信息（沟通信息、联系方式、沟通记录）的目的（解决问题和改进服务），属于具体的个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#79",
+      "doc_id": "小红书",
+      "sent_index": 79,
+      "text": "同时，我们可能会以电话、短信、站内信及相关方式主动联系您，沟通您在使用我们产品及服务过程中产生的问题。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 47,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了通过特定方式（电话、短信等）联系用户以沟通服务问题，这属于个人信息（联系方式）的具体使用行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#80",
+      "doc_id": "小红书",
+      "sent_index": 80,
+      "text": "1.当您使用小红书服务与平台或者商家发生纠纷时，我们可调取并使用录音信息作为解决纠纷的参考依据。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 48,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（解决纠纷）而使用个人信息（录音信息），属于个人信息的具体使用行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#81",
+      "doc_id": "小红书",
+      "sent_index": 81,
+      "text": "2.为了向您提供客服和售后服务，我们可能将您的通话录音存储在第三方客服系统中，我们会通过协议约束等方式，确保第三方无法访问您的通话录音；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 49,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了将个人信息（通话录音）存储于第三方系统的具体处理行为，并涉及安全保护措施（协议约束）。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#86",
+      "doc_id": "小红书",
+      "sent_index": 86,
+      "text": "在您使用该功能的过程中可能会需要进行支付，在支付过程中，我们可能会收集您的第三方支付账号（支付宝账号、微信账号、银联账号及有关账号）。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 50,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在特定场景（支付）下收集特定类型个人信息（第三方支付账号）的行为，属于个人信息处理与利用中的收集环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#88",
+      "doc_id": "小红书",
+      "sent_index": 88,
+      "text": "您在小红书平台填写表单或订单信息时，为帮您节省填写时间，我们会根据您注册、购物时向平台提供的姓名、性别（如有）、手机号码、地区（如有）帮您自动填充表单信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 51,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（节省填写时间）而使用已收集的个人信息（姓名、性别、手机号码、地区）进行自动填充，属于个人信息的具体使用行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#90",
+      "doc_id": "小红书",
+      "sent_index": 90,
+      "text": "当您使用小红书提供的测肤或试妆功能时，我们可能需要在通过弹窗征得您单独同意后收集您的存储（相册、媒体和其他文件）、相机（摄像头）权限或面部信息以为您提供该项服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 52,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定功能（测肤/试妆）收集个人信息（面部信息）和处理行为（通过弹窗征得单独同意、收集系统权限），属于具体的个人信息处理活动。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "敏感个人信息或强认证；对照标准9、20。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#91",
+      "doc_id": "小红书",
+      "sent_index": 91,
+      "text": "但我们在提供测肤和试妆服务后不会存储您的面部特征信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 53,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了特定服务（测肤和试妆）后对个人敏感信息（面部特征信息）的存储处理行为，属于个人信息处理与利用的具体环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "敏感个人信息或强认证；对照标准9、20。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#92",
+      "doc_id": "小红书",
+      "sent_index": 92,
+      "text": "若您拒绝提供前述面部特征信息，您将无法体验我们的测肤、试妆功能，但不会影响小红书其他功能的正常使用。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 54,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了因用户拒绝提供特定个人信息（面部特征信息）而导致的具体功能限制，直接涉及个人信息的收集与使用条件。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "敏感个人信息或强认证；对照标准9、20。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#93",
+      "doc_id": "小红书",
+      "sent_index": 93,
+      "text": "为保证您在使用小红书平台服务时能够与后台服务器保持即时通信、且您能够及时收到个性化内容推送，我们会i）向您获取及调用您的开机广播权限用于启动小红书或其关联公司移动客户端软件，ii）采用第三方消息推送服务为您生成标识ID用于区分您的设备的唯一性，iii）读取手机状态，用于判断小红书软件处在前台还是后台，以提升推送服务的时效性。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 55,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子具体描述了为提供特定服务而收集（获取及调用开机广播权限、读取手机状态）和使用（采用第三方服务生成设备ID）个人信息的行为，属于对个人信息处理与利用的直接说明。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "个性化推荐/自动化决策；对照标准13。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#94",
+      "doc_id": "小红书",
+      "sent_index": 94,
+      "text": "为向您展示个性化的内容，或确保您能获知更为适宜的内容，我们可能会收集在您在小红书平台上搜索/播放/展示推荐内容的记录、音视频播放记录，或使用您填写的个人资料信息（如性别、生日）。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 56,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（个性化内容推荐）而收集和使用用户个人信息（搜索记录、播放记录、个人资料）的具体行为，属于对个人信息处理与利用的直接描述。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "个性化推荐/自动化决策；对照标准13。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#96",
+      "doc_id": "小红书",
+      "sent_index": 96,
+      "text": "您也可选择关闭推送信息，具体可前往【我】-点击左上角-【设置】-【隐私设置】-【个性化选项】关闭个性化推荐机制。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 57,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户如何行使权利（关闭个性化推荐）来管理其个人信息的处理方式，属于用户权利响应范畴。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "个性化推荐/自动化决策；对照标准13。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#97",
+      "doc_id": "小红书",
+      "sent_index": 97,
+      "text": "为向您提供更便捷、更符合您个性化需求的商品信息展示、搜索及推送服务，在使用本应用时，我们会根据您的设备信息（包括2.2条所述设备信息及应用列表信息）和您使用小红书客户端时的浏览使用信息、购买记录，提取您的偏好特征，并基于特征标签产出间接人群画像，用于向您展示、推送信息和可能的商业广告（请您理解，单独的设备信息无法识别特定自然人的身份信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 58,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了基于设备信息、浏览使用信息、购买记录等个人信息进行偏好特征提取、人群画像构建，并用于信息展示、推送和商业广告，属于对个人信息的收集、使用和处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "个性化推荐/自动化决策；对照标准13。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#98",
+      "doc_id": "小红书",
+      "sent_index": 98,
+      "text": "如果我们将这类非个人信息与其他信息结合用于识别特定自然人身份，或者将其与个人信息结合使用，则在结合使用期间，这类非个人信息将被视为个人信息，除取得您授权或法律法规另有规定外，我们会将该类个人信息做匿名化处理）。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 59,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了将非个人信息与个人信息结合使用时的处理规则，涉及个人信息的识别、使用和匿名化处理，属于具体的个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#99",
+      "doc_id": "小红书",
+      "sent_index": 99,
+      "text": "请您知悉并同意，我们在运营过程中可能会通过您在使用我们产品或服务的过程中提供的联系方式（电话、邮箱及其他联系方式）向您发送一种或多种的通知，例如消息告知、身份验证、安全验证、用户使用体验调研；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 60,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（发送通知、验证、调研）而使用用户提供的联系方式，属于对个人信息的直接使用行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#115",
+      "doc_id": "小红书",
+      "sent_index": 115,
+      "text": "1.发现或推荐通讯录中的好友（含消息推送形式）",
+      "keyword_hint": true,
+      "labeling_queue_rank": 61,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了基于通讯录信息进行好友推荐和推送的具体使用行为，属于个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "编号功能/权限场景小标题；与用途说明合并对照标准21。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#131",
+      "doc_id": "小红书",
+      "sent_index": 131,
+      "text": "3.使用测肤、试妆功能时进行拍摄",
+      "keyword_hint": true,
+      "labeling_queue_rank": 62,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了在特定功能（测肤、试妆）下通过拍摄收集用户生物识别信息（面部特征）的具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "编号功能/权限场景小标题；与用途说明合并对照标准21。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#148",
+      "doc_id": "小红书",
+      "sent_index": 148,
+      "text": "根据用户所在位置推荐内容，如附近功能",
+      "keyword_hint": true,
+      "labeling_queue_rank": 63,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了基于用户位置信息（个人信息）进行内容推荐（使用行为），属于具体的个人信息处理与利用活动。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "个性化推荐/自动化决策；对照标准13。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#149",
+      "doc_id": "小红书",
+      "sent_index": 149,
+      "text": "用户发布内容时定位所在区域，如用户使用含定位的贴纸、发布定位标签、使用标记功能",
+      "keyword_hint": true,
+      "labeling_queue_rank": 64,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定功能（发布内容）而收集用户地理位置信息，属于个人信息的收集行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#166",
+      "doc_id": "小红书",
+      "sent_index": 166,
+      "text": "发布内容时读取相册和媒体内容、进行存储",
+      "keyword_hint": true,
+      "labeling_queue_rank": 65,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（发布内容）而进行的个人信息（相册和媒体内容）的收集（读取）和存储行为，属于具体的处理活动。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#170",
+      "doc_id": "小红书",
+      "sent_index": 170,
+      "text": "消息：私信下载、与商城在线客服沟通时读取相册内容",
+      "keyword_hint": true,
+      "labeling_queue_rank": 66,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子具体描述了在特定场景（私信下载、在线客服沟通）下读取相册内容的行为，属于对个人信息（相册内容）的收集和使用。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#172",
+      "doc_id": "小红书",
+      "sent_index": 172,
+      "text": "编辑资料选择头像图片时读取相册内容",
+      "keyword_hint": true,
+      "labeling_queue_rank": 67,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定功能（编辑资料）而收集个人信息（读取相册内容）的具体行为，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#173",
+      "doc_id": "小红书",
+      "sent_index": 173,
+      "text": "用\"意见反馈\"功能时读取相册内容",
+      "keyword_hint": true,
+      "labeling_queue_rank": 68,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在特定功能（意见反馈）下收集（读取）个人信息（相册内容）的具体行为，属于个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#174",
+      "doc_id": "小红书",
+      "sent_index": 174,
+      "text": "添加好友或活动相关二维码扫描时读取相册内容",
+      "keyword_hint": true,
+      "labeling_queue_rank": 69,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（添加好友或扫描活动二维码）而收集个人信息（读取相册内容）的具体行为，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#190",
+      "doc_id": "小红书",
+      "sent_index": 190,
+      "text": "（4）为公共利益实施新闻报道、舆论监督等行为，在合理的范围内处理个人信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 70,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定公共利益目的（新闻报道、舆论监督）在合理范围内处理个人信息，属于个人信息处理与利用的具体情形。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#191",
+      "doc_id": "小红书",
+      "sent_index": 191,
+      "text": "（5）依照《个人信息保护法》规定在合理的范围内处理个人自行公开或者其他已经合法公开的个人信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 71,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了处理个人信息的具体法律依据和场景（处理已公开信息），属于个人信息处理与利用的实质内容。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#197",
+      "doc_id": "小红书",
+      "sent_index": 197,
+      "text": "A.平台的第三方商家：为帮助您实现产品或服务的购买或者为您提供售后服务，平台的第三方商家会与我们共享您的订单和交易相关信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 72,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（实现购买、提供售后）而进行的个人信息共享行为，属于个人信息处理与利用的具体操作。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#198",
+      "doc_id": "小红书",
+      "sent_index": 198,
+      "text": "B.第三方物流服务商：当您成功下单后，如商品需第三方配送的，我们为了准确、安全向您完成货物的交付及配送。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 73,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了为完成商品交付而向第三方物流服务商共享个人信息的具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#199",
+      "doc_id": "小红书",
+      "sent_index": 199,
+      "text": "第三方物流公司在发货及配送环节内不可避免地会获知您的相关配送信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 74,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在特定环节（发货及配送）中，第三方（物流公司）会获知用户的个人信息（配送信息），这属于个人信息的共享或披露行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#200",
+      "doc_id": "小红书",
+      "sent_index": 200,
+      "text": "我们向您承诺，我们会以最大努力保障您的个人信息安全，我们会严格要求第三方物流公司对您的个人信息保密，只以配送之目的获悉和使用，不得对外泄露或做其他任何用途。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 75,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了向第三方共享个人信息（物流公司）并对其使用目的（配送）和保密义务进行限制，属于个人信息处理与利用中的共享和安全保护行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#201",
+      "doc_id": "小红书",
+      "sent_index": 201,
+      "text": "C.广告和统计分析类合作伙伴：为帮助进行广告或决策建议、提高广告有效触达率、进一步了解用户需求，我们可能会与委托我们进行信息推广和广告投放的合作伙伴、或统计分析类合作伙伴共享去标识化的设备信息或统计信息，这些信息难以或无法与你的真实身份相关联。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 76,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了与合作伙伴共享去标识化信息的具体目的和场景，属于个人信息处理与利用中的共享行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#203",
+      "doc_id": "小红书",
+      "sent_index": 203,
+      "text": "D.内容审核服务商：为保证用户在互联网信息平台上发布的内容是安全的，我们可能会向委托的第三方内容审核服务商共享您在平台上发布的内容信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 77,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为内容审核目的，向第三方服务商共享用户发布的内容信息，属于个人信息处理与利用中的共享行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#204",
+      "doc_id": "小红书",
+      "sent_index": 204,
+      "text": "E.实名认证审核服务商：当您进行实名认证或使用找回账号功能时，我们会向第三方审核服务商共享您的个人信息，以便您顺利找回账号。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 78,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（实名认证、找回账号）向第三方共享个人信息的具体行为，属于个人信息处理与利用中的共享环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#205",
+      "doc_id": "小红书",
+      "sent_index": 205,
+      "text": "F.测肤功能的服务商：具体测肤功能由与小红书合作的第三方服务商提供，当您使用该功能时，我们会向第三方服务商共享您基于此功能向平台提供的个人信息，以便您顺利体验该功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 79,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为提供特定功能而向第三方服务商共享用户个人信息的具体行为，属于个人信息处理与利用中的共享环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#206",
+      "doc_id": "小红书",
+      "sent_index": 206,
+      "text": "G.第三方小程序：当您使用第三方小程序时，未经您同意，我们不会向这些开发者、运营者共享您的个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 80,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在特定场景（使用第三方小程序）下，个人信息共享行为的处理规则（未经同意不共享），属于对个人信息处理与利用的具体说明。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#207",
+      "doc_id": "小红书",
+      "sent_index": 207,
+      "text": "当您使用小程序时，小程序可能会使用您授权的相关系统权限，您可以在相应的小程序中撤回该等授权。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 81,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了用户授权系统权限（收集）以及撤回授权（用户权利响应）的具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "权利行使或撤回；对照标准3、5–8、15。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#208",
+      "doc_id": "小红书",
+      "sent_index": 208,
+      "text": "H.数字藏品技术服务提供方：当您使用数字藏品功能，我们会向第三方技术服务商共享您向平台提供的个人信息，以便您顺利体验该功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 82,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定功能（数字藏品）向第三方技术服务商共享用户个人信息的行为，属于个人信息处理与利用中的共享环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#210",
+      "doc_id": "小红书",
+      "sent_index": 210,
+      "text": "您授权我们有权与委托我们进行推广和广告投放的合作伙伴共享我们使用您的相关信息集合形成的间接用户画像，以帮助其进行广告或决策建议、提高广告有效触达率、进一步了解用户需求。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 83,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为广告投放目的，将间接用户画像共享给合作伙伴，属于个人信息的共享与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "个性化推荐/自动化决策；对照标准13。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#211",
+      "doc_id": "小红书",
+      "sent_index": 211,
+      "text": "但我们承诺：未经您的同意，我们不会与其共享可以识别您身份的个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 84,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了个人信息共享行为的限制条件，属于对个人信息处理与利用的具体规定。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#212",
+      "doc_id": "小红书",
+      "sent_index": 212,
+      "text": "J.合作的第三方SDK服务商：当您使用小红书APP中由第三方提供的功能时，我们可能会接入由第三方提供的软件开发包（SDK）以实现相关功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 85,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定功能而接入第三方SDK，涉及个人信息的共享或委托处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#213",
+      "doc_id": "小红书",
+      "sent_index": 213,
+      "text": "此时，第三方SDK服务商可能会收集您相关的个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 86,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了第三方SDK服务商可能收集用户个人信息，属于个人信息处理行为中的收集环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#214",
+      "doc_id": "小红书",
+      "sent_index": 214,
+      "text": "我们会尽到审慎义务，对前述第三方SDK进行严格的安全监测，以保护个人信息安全：",
+      "keyword_hint": true,
+      "labeling_queue_rank": 87,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为保护个人信息安全而对第三方SDK进行安全监测，属于个人信息安全保护的具体措施。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#215",
+      "doc_id": "小红书",
+      "sent_index": 215,
+      "text": "a.一键登录功能：为给您提供账号登录--一键登录功能，第三方服务商可能会获取您的必要设备信息、网络相关信息、地理位置、存储（相册、媒体和其他文件）（包括在后台状态下收集）信息.",
+      "keyword_hint": true,
+      "labeling_queue_rank": 88,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为提供特定功能而收集和使用个人信息的场景，涉及收集设备信息、网络信息、地理位置等具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#216",
+      "doc_id": "小红书",
+      "sent_index": 216,
+      "text": "b.第三方账号登录功能：为给您提供第三方账号登录的功能，第三方服务商可能会获取您的必要设备信息、网络相关信息、地理位置、存储（相册、媒体和其他文件）（包括在后台状态下收集）信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 89,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为提供特定功能（第三方账号登录），第三方服务商收集和使用用户个人信息（设备信息、网络信息、地理位置、存储信息）的具体行为，属于对个人信息处理与利用的直接说明。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#217",
+      "doc_id": "小红书",
+      "sent_index": 217,
+      "text": "c.消息推送服务：为给您提供消息推送，第三方推送服务商可能会获取您的推送SDK版本号、必要设备信息、手机状态信息、地理位置信息、网络相关信息、存储（相册、媒体和其他文件）（包括在后台状态下收集）信息以便推送您可能更感兴趣的信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 90,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子具体描述了第三方服务商为提供消息推送服务而收集和使用多种个人信息（如设备信息、位置信息等），属于明确的个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#218",
+      "doc_id": "小红书",
+      "sent_index": 218,
+      "text": "d.地理位置服务：为给您提供地理位置服务（内容推荐、内容发布、购物时编辑收货信息、资料编辑），第三方地理位置服务商会收集您的设备信息及地理位置信息以便可以向您推送附近内容；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 91,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为提供特定服务，第三方服务商收集用户的设备信息和地理位置信息，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "个性化推荐/自动化决策；对照标准13。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#219",
+      "doc_id": "小红书",
+      "sent_index": 219,
+      "text": "e.云储存服务：为给您提供云端储存服务（您上传至小红书的图片、音视频内容会储存在云端以及有关场景），第三方服务商可能会收集您的设备信息、网络相关信息、运营商信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 92,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为提供云储存服务，第三方服务商可能收集用户的设备信息、网络信息、运营商信息，这直接涉及个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#220",
+      "doc_id": "小红书",
+      "sent_index": 220,
+      "text": "f.账号安全服务：为保障您和其他用户的账号与财产安全，使您和我们的正当合法权益免受不法侵害，第三方安全服务商可能会收集您的必要设备信息、网络相关信息、运营商信息、日志信息、存储（相册、媒体和其他文件）（包括在后台状态下收集）信息以提供账号安全服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 93,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为提供账号安全服务，第三方安全服务商收集特定个人信息（设备信息、网络信息、日志信息等）的行为，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#221",
+      "doc_id": "小红书",
+      "sent_index": 221,
+      "text": "g.支付服务：为保障您顺利购买平台上的商品/服务、虚拟商品，第三方支付服务商可能会收集您的设备信息、网络信息、运营商信息以实现顺利完成支付以及保证支付安全。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 94,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（支付）而由第三方收集特定类型个人信息（设备信息、网络信息、运营商信息）的行为，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#222",
+      "doc_id": "小红书",
+      "sent_index": 222,
+      "text": "h.直播服务：为保障平台直播功能的顺利使用，第三方服务商可能会收集您的设备信息、网络相关信息、推送SDK版本号、运营商信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 95,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为提供直播服务，第三方服务商收集用户设备信息、网络信息等具体个人信息的处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#223",
+      "doc_id": "小红书",
+      "sent_index": 223,
+      "text": "（4）当您选择参加我们及我们的关联方或平台上的第三方举办的营销活动时，可能需要您提供姓名、性别、通信地址、联系方式、银行账号信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 96,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（营销活动）而收集多项具体个人信息（姓名、联系方式、银行账号等），属于个人信息收集行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#224",
+      "doc_id": "小红书",
+      "sent_index": 224,
+      "text": "这些信息可能涉及敏感个人信息，拒绝提供可能会影响您参加相关活动，但不会影响其他功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 97,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子直接描述了收集敏感个人信息及其后果，属于具体的个人信息处理行为描述。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "敏感个人信息或强认证；对照标准9、20。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#225",
+      "doc_id": "小红书",
+      "sent_index": 225,
+      "text": "只有经过您的同意，我们才会将这些信息与关联方或第三方共享，以保障您在活动中获得体验一致的服务，或委托第三方及时向您兑现奖励。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 98,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在用户同意前提下，进行个人信息共享和委托处理的具体场景，属于对个人信息处理与利用行为的直接说明。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#226",
+      "doc_id": "小红书",
+      "sent_index": 226,
+      "text": "（5）与我们的关联公司必要共享：我们可能会与我们的关联公司共享您的个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 99,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了与关联公司共享个人信息这一具体的处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#227",
+      "doc_id": "小红书",
+      "sent_index": 227,
+      "text": "我们只会共享必要的个人信息，且这种共享受本政策所声明的目的的约束。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 100,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子直接描述了个人信息共享的具体原则和限制，属于对个人信息处理行为的实质性说明。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#228",
+      "doc_id": "小红书",
+      "sent_index": 228,
+      "text": "关联公司如要改变个人信息的处理目的，将再次征得您的授权和同意；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 101,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了关联公司改变个人信息处理目的时需再次征得用户同意的具体处理行为，属于个人信息处理与利用的实质内容。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#229",
+      "doc_id": "小红书",
+      "sent_index": 229,
+      "text": "（6）登录、使用小红书视频版：您将已持有的小红书账号及相关信息授权我们同步到小红书视频版后，您将通过同一账号同时使用小红书和小红书视频版的相关服务和功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 102,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了将用户账号信息（个人信息）从一项服务授权同步到另一项服务，属于个人信息的具体使用和共享行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#230",
+      "doc_id": "小红书",
+      "sent_index": 230,
+      "text": "（7）您可以基于小红书平台与第三人（包括不特定对象）共享您的个人信息或其他信息，但因您的共享行为而导致的信息泄露、被使用及相关情况，与小红书无关，小红书不因此承担法律责任。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 103,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了用户主动共享个人信息的行为、潜在后果及平台的责任豁免，直接涉及个人信息的共享与利用环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#234",
+      "doc_id": "小红书",
+      "sent_index": 234,
+      "text": "（3）如果公司发生合并、分立、解散、被宣告破产，将可能涉及到个人信息转让，此种情况下我们会告知您接收方的名称或者姓名和联系方式并要求新的持有您个人信息的公司、组织继续受本政策的约束。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 104,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在特定公司重组或破产场景下，个人信息将被转让的具体处理行为，并涉及告知义务和约束延续，属于实质性的个人信息处理条款。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#235",
+      "doc_id": "小红书",
+      "sent_index": 235,
+      "text": "若接收方变更个人信息处理目的、处理方式的，我们将要求其重新获取您的明示同意。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 105,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了个人信息共享后，接收方变更处理目的或方式时，需重新获取用户同意的具体处理规则，属于个人信息处理与利用的实质内容。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#244",
+      "doc_id": "小红书",
+      "sent_index": 244,
+      "text": "（4）为公共利益实施新闻报道、舆论监督等行为，在合理的范围内处理个人信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 106,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定公共利益目的（新闻报道、舆论监督）在合理范围内处理个人信息，属于个人信息处理与利用的具体情形。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#245",
+      "doc_id": "小红书",
+      "sent_index": 245,
+      "text": "（5）依照《个人信息保护法》规定在合理的范围内处理个人自行公开或者其他已经合法公开的个人信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 107,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子直接描述了处理个人信息的法律依据和具体情形（处理已公开信息），属于个人信息处理与利用的实质内容。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#254",
+      "doc_id": "小红书",
+      "sent_index": 254,
+      "text": "（1）通过【我-编辑资料】访问、获取、更正自己的个人资料，含头像、昵称、性别、常住地、院校及入学时间、生日、个人介绍；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 108,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了用户如何行使访问、获取、更正其个人信息的权利，属于个人信息处理与利用中的用户权利响应环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "权利行使或撤回；对照标准3、5–8、15。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#255",
+      "doc_id": "小红书",
+      "sent_index": 255,
+      "text": "（2）通过【我-设置-账号与安全】设置、访问、获取、更正账号信息，含手机号（每月仅可换绑一次）、登录密码、绑定的第三方平台账号（含微信、微博和QQ账号）；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 109,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子具体描述了用户如何访问、更正其账号信息（含手机号、密码、第三方绑定），直接涉及用户对其个人信息的处理与权利行使。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "权利行使或撤回；对照标准3、5–8、15。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#256",
+      "doc_id": "小红书",
+      "sent_index": 256,
+      "text": "（3）通过【我-设置-隐私】设置、访问、获取、更正隐私信息，含评论设置、@设置、通讯录推荐设置、微博推荐设置、位置信息设置和黑名单设置；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 110,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子具体描述了用户如何行使权利（访问、更正）来管理其个人隐私信息，涉及个人信息的处理与利用中的用户权利响应环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "权利行使或撤回；对照标准3、5–8、15。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#257",
+      "doc_id": "小红书",
+      "sent_index": 257,
+      "text": "（4）通过【我-笔记/收藏/赞过】访问、获取、更正、删除相关信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 111,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了用户行使个人信息权利（访问、获取、更正、删除）的具体路径和方式，属于个人信息处理与利用中的用户权利响应环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "权利行使或撤回；对照标准3、5–8、15。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#259",
+      "doc_id": "小红书",
+      "sent_index": 259,
+      "text": "（2）我们已停止提供产品或者服务，或者保存期限已届满；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 112,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了个人信息存储期限届满或服务停止后的处理情形，属于个人信息处理生命周期中的存储与处置环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#264",
+      "doc_id": "小红书",
+      "sent_index": 264,
+      "text": "您可通过【我-设置-通知设置/隐私/通用】变更或撤回授权范围，包括：1）微信账号、微博账号和QQ账号的绑定；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 113,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户如何行使权利（变更或撤回授权）来管理其个人信息的处理（账号绑定），属于个人信息处理与利用中的用户权利响应环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "权利行使或撤回；对照标准3、5–8、15。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#268",
+      "doc_id": "小红书",
+      "sent_index": 268,
+      "text": "5）图片/视频自带的媒体信息中的位置信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 114,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了收集的具体个人信息类型（位置信息），属于个人信息处理行为中的收集环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#272",
+      "doc_id": "小红书",
+      "sent_index": 272,
+      "text": "6.在符合相关法律要求的情况下，您的近亲属可以对您的相关个人信息行使上述查阅、复制、更正、删除等权利；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 115,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了特定主体（近亲属）在特定条件下可行使的用户个人信息权利（查阅、复制、更正、删除），属于个人信息处理与利用中用户权利响应环节的具体规定。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "权利行使或撤回；对照标准3、5–8、15。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#278",
+      "doc_id": "小红书",
+      "sent_index": 278,
+      "text": "（1）在您接受cookies的情况下，小红书会在您的计算机以及相关移动设备上设定或取用cookies，以便您能登录或使用依赖于cookies的小红书平台服务或功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 116,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了通过cookies收集和使用个人信息的具体行为，属于个人信息处理与利用的范畴。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "Cookie/同类技术；对照标准2及告知方式。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#279",
+      "doc_id": "小红书",
+      "sent_index": 279,
+      "text": "小红书使用cookies可为您提供更加周到的个性化服务，包括推广服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 117,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了通过cookies收集和使用个人信息以提供个性化及推广服务，属于具体的处理与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "个性化推荐/自动化决策；对照标准13。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#282",
+      "doc_id": "小红书",
+      "sent_index": 282,
+      "text": "但如果您选择拒绝接受cookies，则您可能无法登录或使用依赖于cookies的小红书平台服务或功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 118,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了因拒绝特定技术（cookies）而影响服务功能的使用，这直接涉及个人信息的收集（通过cookies）和使用（用于登录和服务功能），属于具体的处理行为描述。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "Cookie/同类技术；对照标准2及告知方式。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#284",
+      "doc_id": "小红书",
+      "sent_index": 284,
+      "text": "1.若用户是未满18周岁的未成年人（特别是未满十四周岁的儿童用户），应在监护人监护、指导并获得监护人同意情况下阅读本协议和使用小红书相关服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 119,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在特定条件下（未成年人/儿童）使用服务需获得监护人同意，直接涉及未成年人个人信息处理的合规要求。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "未成年人；对照标准11。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#285",
+      "doc_id": "小红书",
+      "sent_index": 285,
+      "text": "2.我们重视对未成年人个人信息的保护，未成年用户在填写个人信息时，请加强个人保护意识并谨慎对待，请在监护人指导时正确使用小红书相关服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 120,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子直接描述了保护未成年人个人信息的措施，属于个人信息处理与利用中的未成年人保护环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "未成年人；对照标准11。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#286",
+      "doc_id": "小红书",
+      "sent_index": 286,
+      "text": "3.我们将根据国家相关法律法规及本政策的规定保护未成年人用户信息的保密性及安全性。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 121,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了保护未成年人用户信息（保密性及安全性）的具体措施，属于未成年人保护这一个人信息处理与利用的具体环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "未成年人；对照标准11。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#287",
+      "doc_id": "小红书",
+      "sent_index": 287,
+      "text": "如果我们发现自己在未事先获得可证实的父母或法定监护人同意的情况下收集了未成年人的个人信息，则会设法尽快删除相关数据。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 122,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"直接描述了未成年人个人信息收集后的处理（删除）行为，属于个人信息处理与利用的具体合规条款。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "未成年人；对照标准11。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#288",
+      "doc_id": "小红书",
+      "sent_index": 288,
+      "text": "同时我们建立了严格的未成年人信息收集使用规则，以保护儿童和青少年个人信息安全，您可以通过阅读《小红书儿童/青少年个人信息保护规则》了解更具体的内容。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 123,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为保护未成年人个人信息安全而建立的信息收集使用规则，属于个人信息处理与利用中的未成年人保护措施。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "未成年人；对照标准11。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#289",
+      "doc_id": "小红书",
+      "sent_index": 289,
+      "text": "若您是未成年人的监护人，当您对您所监护的未成年人使用我们的服务或其向我们提供的用户信息有任何疑问时，请您根据本政策第十条提供的联系方式及时与我们联系。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 124,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了监护人如何就未成年人信息问题行使权利（联系处理者），属于用户权利响应及未成年人保护的具体处理环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "未成年人；对照标准11。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#293",
+      "doc_id": "小红书",
+      "sent_index": 293,
+      "text": "如您对个人信息保护问题有任何投诉、建议、疑问，或您对本政策有任何疑问，您可以通过以下方式联系我们，我们将尽快审核所涉问题，并在验证您的用户身份后的十五个工作日内予以答复：shuduizhang@xiaohongshu.com。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 125,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了用户行使个人信息相关权利（投诉、建议、疑问）的渠道和企业的响应承诺（审核、答复），属于个人信息处理与利用中的用户权利响应环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#295",
+      "doc_id": "小红书",
+      "sent_index": 295,
+      "text": "2.如果您认为我们的个人信息处理行为损害了您的合法权益，您也可向有关政府部门进行反映。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 126,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了用户对个人信息处理行为提出异议和寻求救济的权利响应渠道，属于个人信息处理与利用中的用户权利响应环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#83",
+      "doc_id": "小红书",
+      "sent_index": 83,
+      "text": "b.被录音的一方持司法机关出具的法律文件依法调取。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 127,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子描述了在特定法律程序下，个人信息（录音）被调取和披露的具体情形，属于个人信息处理行为中的披露环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#19",
+      "doc_id": "小红书",
+      "sent_index": 19,
+      "text": "若您希望关闭我们基于有关信息向您进行的推荐，您可参照本政策2.14条进行操作。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 128,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户如何行使权利（关闭个性化推荐）以管理其个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "个性化推荐/自动化决策；对照标准13。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#22",
+      "doc_id": "小红书",
+      "sent_index": 22,
+      "text": "为了提升视频的上传速度、丰富发布功能和优化体验，在您点击\"发布笔记\"前，我们会将您编辑的视频临时加载至服务器。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 129,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在特定用户操作（发布笔记）前，将用户编辑的视频临时加载至服务器的行为，这属于个人信息的收集和存储处理。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#24",
+      "doc_id": "小红书",
+      "sent_index": 24,
+      "text": "您可通过【我-设置-通用设置-不允许发布时提前上传视频】关闭此功能。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 130,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户如何通过具体操作路径（关闭特定功能）来管理其个人信息（视频）的发布前处理行为，涉及用户对个人信息处理方式的控制权。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#39",
+      "doc_id": "小红书",
+      "sent_index": 39,
+      "text": "请您理解，为动态检测您的账户是否存在异常登录，每次您把小红书切换至后台或重新启动程序时，我们可能会再次读取，我们将把读取频次控制在合理范围内。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 131,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定目的（检测异常登录）而收集和使用个人信息（读取行为）的具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#51",
+      "doc_id": "小红书",
+      "sent_index": 51,
+      "text": "同时，您点赞或收藏的内容会向您的粉丝展示，您可将收藏的内容设置仅自己可见，可以在【我】-【收藏】-【收藏专辑】中开启仅自己可见。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 132,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了用户个人信息的处理（点赞或收藏内容向粉丝展示）和用户对个人信息的控制方式（设置仅自己可见），属于具体的个人信息使用和用户权利行使行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#76",
+      "doc_id": "小红书",
+      "sent_index": 76,
+      "text": "当您联系我们的客服或提出我们的产品与/或服务的售后申请时，我们系统可能会记录您与客服之间的通讯记录。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 133,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为处理售后申请而收集（记录）用户与客服的通讯记录，属于个人信息的收集行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#82",
+      "doc_id": "小红书",
+      "sent_index": 82,
+      "text": "除以下情形外，平台不会将录音提供给任何人（包括通话主、被叫方）：a.有权机关依法定程序调取；",
+      "keyword_hint": false,
+      "labeling_queue_rank": 134,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了个人信息（录音）的披露条件和例外情形，属于对个人信息处理与利用的具体规定。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#95",
+      "doc_id": "小红书",
+      "sent_index": 95,
+      "text": "如您对推送内容不感兴趣或希望减少某些信息推送时，您可以在长按笔记内容，点击\"不感兴趣\"。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 135,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户通过特定操作（点击“不感兴趣”）来管理其个人信息（推送内容偏好），属于用户权利响应中的“撤回同意”或“个性化推荐管理”的具体行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#100",
+      "doc_id": "小红书",
+      "sent_index": 100,
+      "text": "我们也可能会以短信、电话的方式，为您提供您可能感兴趣的服务，功能或活动及相关商业性信息。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 136,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了通过短信、电话方式使用个人信息进行商业营销，属于个人信息的处理与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#102",
+      "doc_id": "小红书",
+      "sent_index": 102,
+      "text": "如果您不想接受我们给您发送的商业广告，您可通过短信提示回复退订或提供的其他方式进行退订或关闭，也可以直接与我们联系进行退订。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 137,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户如何行使其拒绝接收商业广告的权利，属于对个人信息的处理与利用（用户权利响应）的具体操作说明。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#103",
+      "doc_id": "小红书",
+      "sent_index": 103,
+      "text": "．在您分享或被分享信息、参加活动情形下，我们需要访问您的剪切板，读取其中包含的口令、分享码、链接，以为您实现跳转、分享、活动联动功能或服务。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 138,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为特定功能（跳转、分享、活动联动）而收集（访问、读取）个人信息（剪切板内容）的具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#108",
+      "doc_id": "小红书",
+      "sent_index": 108,
+      "text": "1.发布内容时进行录音",
+      "keyword_hint": false,
+      "labeling_queue_rank": 139,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子直接描述了在特定场景（发布内容）下收集个人信息（录音）的行为，属于个人信息处理与利用中的收集环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#109",
+      "doc_id": "小红书",
+      "sent_index": 109,
+      "text": "2.开启直播时进行录音",
+      "keyword_hint": false,
+      "labeling_queue_rank": 140,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子直接描述了在特定场景（开启直播）下收集个人信息（录音）的具体行为，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#110",
+      "doc_id": "小红书",
+      "sent_index": 110,
+      "text": "与其他用户聊天时发送语音消息、向商城在线客服发布短视频内容时进行录音",
+      "keyword_hint": false,
+      "labeling_queue_rank": 141,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子直接描述了为特定功能（聊天、客服）而进行的个人信息收集行为（录音），属于具体的个人信息处理活动。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#116",
+      "doc_id": "小红书",
+      "sent_index": 116,
+      "text": "2.用户购买商品或服务时，编辑收货信息",
+      "keyword_hint": false,
+      "labeling_queue_rank": 142,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了在特定场景（购买商品或服务）下，用户需要编辑收货信息，这直接涉及个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "编号功能/权限场景小标题；与用途说明合并对照标准21。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#129",
+      "doc_id": "小红书",
+      "sent_index": 129,
+      "text": "1.开启直播时进行拍摄",
+      "keyword_hint": false,
+      "labeling_queue_rank": 143,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了在特定场景（开启直播）下收集个人信息（拍摄）的行为，属于个人信息处理与利用的具体操作。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "编号功能/权限场景小标题；与用途说明合并对照标准21。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#133",
+      "doc_id": "小红书",
+      "sent_index": 133,
+      "text": "与其他用户聊天时进行拍摄",
+      "keyword_hint": false,
+      "labeling_queue_rank": 144,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了在特定场景（聊天）下收集和使用个人信息（拍摄可能涉及图像、视频等个人敏感信息）的具体行为。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "权限/场景片段标题；与用途正文合并对照标准21。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#134",
+      "doc_id": "小红书",
+      "sent_index": 134,
+      "text": "6.注册和认证时进行拍摄",
+      "keyword_hint": false,
+      "labeling_queue_rank": 145,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子直接描述了在特定场景（注册和认证）下收集个人信息（拍摄）的具体行为，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "编号功能/权限场景小标题；与用途说明合并对照标准21。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#145",
+      "doc_id": "小红书",
+      "sent_index": 145,
+      "text": "购物时编辑收货信息",
+      "keyword_hint": false,
+      "labeling_queue_rank": 146,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述用户主动编辑收货信息（如姓名、电话、地址）的行为，直接涉及个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "权限/场景片段标题；与用途正文合并对照标准21。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#150",
+      "doc_id": "小红书",
+      "sent_index": 150,
+      "text": "用户购买商品或服务时，编辑收货信息",
+      "keyword_hint": false,
+      "labeling_queue_rank": 147,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了在特定场景（购买商品或服务）下，用户需要编辑收货信息，这直接涉及个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#165",
+      "doc_id": "小红书",
+      "sent_index": 165,
+      "text": "注册和认证时上传照片或视频",
+      "keyword_hint": false,
+      "labeling_queue_rank": 148,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在特定场景（注册和认证）下收集个人信息（照片或视频）的具体行为，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#168",
+      "doc_id": "小红书",
+      "sent_index": 168,
+      "text": "直播：上传照片、下载直播内容、观看本地视频",
+      "keyword_hint": false,
+      "labeling_queue_rank": 149,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了直播场景下对个人信息（照片、视频内容）的具体处理行为（上传、下载、观看），属于对个人信息收集与使用的直接说明。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "权限/场景片段标题；与用途正文合并对照标准21。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#187",
+      "doc_id": "小红书",
+      "sent_index": 187,
+      "text": "（1）为订立、履行个人作为一方当事人的合同所必需，或者按照依法制定的劳动规章制度和依法签订的集体合同实施人力资源管理所必需；",
+      "keyword_hint": false,
+      "labeling_queue_rank": 150,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子直接描述了处理个人信息的合法性基础（履行合同、人力资源管理），属于对个人信息处理行为的实质性描述。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#188",
+      "doc_id": "小红书",
+      "sent_index": 188,
+      "text": "（2）为履行法定职责或者法定义务所必需；",
+      "keyword_hint": false,
+      "labeling_queue_rank": 151,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"直接描述了个人信息处理的法定依据，属于处理与利用的具体情形。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#189",
+      "doc_id": "小红书",
+      "sent_index": 189,
+      "text": "（3）为应对突发公共卫生事件，或者紧急情况下为保护自然人的生命健康和财产安全所必需；",
+      "keyword_hint": false,
+      "labeling_queue_rank": 152,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了在特定紧急情况下处理个人信息的必要性，属于个人信息处理与利用的具体场景。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#202",
+      "doc_id": "小红书",
+      "sent_index": 202,
+      "text": "请您知悉，为了您的信息安全，我们目前仅与已签署严格数据安全保密协议的合作伙伴进行合作。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 153,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了与合作伙伴共享个人信息时的安全措施（签署保密协议），属于个人信息处理与利用中的共享环节。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#241",
+      "doc_id": "小红书",
+      "sent_index": 241,
+      "text": "（1）为订立、履行个人作为一方当事人的合同所必需，或者按照依法制定的劳动规章制度和依法签订的集体合同实施人力资源管理所必需；",
+      "keyword_hint": false,
+      "labeling_queue_rank": 154,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子直接描述了处理个人信息的合法性基础（履行合同、人力资源管理），属于对个人信息处理行为的实质性描述。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#242",
+      "doc_id": "小红书",
+      "sent_index": 242,
+      "text": "（2）为履行法定职责或者法定义务所必需；",
+      "keyword_hint": false,
+      "labeling_queue_rank": 155,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"直接描述了个人信息处理的法定依据，属于处理与利用的具体情形。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#243",
+      "doc_id": "小红书",
+      "sent_index": 243,
+      "text": "（3）为应对突发公共卫生事件，或者紧急情况下为保护自然人的生命健康和财产安全所必需；",
+      "keyword_hint": false,
+      "labeling_queue_rank": 156,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了在特定紧急情况下处理个人信息的必要性，属于个人信息处理与利用的具体情形。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#280",
+      "doc_id": "小红书",
+      "sent_index": 280,
+      "text": "（2）您有权选择接受或拒绝接受cookies。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 157,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"直接描述了用户对个人信息处理技术（cookies）的选择权，属于用户权利响应范畴。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "Cookie/同类技术；对照标准2及告知方式。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#281",
+      "doc_id": "小红书",
+      "sent_index": 281,
+      "text": "您可以通过修改浏览器设置的方式或在移动设备中设置拒绝接受cookies。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 158,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户如何通过具体操作（修改浏览器或设备设置）来拒绝接受cookies，这直接涉及对个人信息收集（通过cookies）的控制和管理，属于用户权利响应中的具体行使方式。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "Cookie/同类技术；对照标准2及告知方式。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#283",
+      "doc_id": "小红书",
+      "sent_index": 283,
+      "text": "（3）通过小红书所设cookies所取得的有关信息，将适用本政策。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 159,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了通过技术手段（cookies）收集信息，并规定了该信息的处理适用政策，属于个人信息收集与利用的具体行为描述。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "引用本政策；与 Cookie 正文合并。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#13",
+      "doc_id": "小红书",
+      "sent_index": 13,
+      "text": "请您谨慎考虑后提供这类信息，若您拒绝提供，您可能无法正常使用相应的功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 160,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.85, \"reason\": \"过渡类文本 / 片段类文本（用户告知与后果提示）；涉及信息提供与功能使用的关系，但未具体描述处理行为本身，属于原则性告知或后果说明。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#120",
+      "doc_id": "小红书",
+      "sent_index": 120,
+      "text": "可以，关闭后APP内容无法实时读取与更新，无法正常使用APP",
+      "keyword_hint": true,
+      "labeling_queue_rank": 161,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.85, \"reason\": \"过渡类文本，描述关闭某项功能后的使用影响，未直接描述具体的个人信息处理行为（如收集、使用等）。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#2",
+      "doc_id": "小红书",
+      "sent_index": 2,
+      "text": "小红书特别提请未满18周岁的未成年（特别是未满十四周岁的儿童）及其监护人的注意，我们已明确未成年保护专门章节（以粗体提示），请您仔细阅读。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 162,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本，无需处理\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "未成年人；对照标准11。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#5",
+      "doc_id": "小红书",
+      "sent_index": 5,
+      "text": "七、我们如何使用Cookie和其他同类技术",
+      "keyword_hint": true,
+      "labeling_queue_rank": 163,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；涉及Cookie技术使用主题，与标准2实质内容需下文，避免标题单独当合规依据。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "章节标题；与标准2等正文需对应。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#7",
+      "doc_id": "小红书",
+      "sent_index": 7,
+      "text": "我们将在本政策中依次向您说明每项功能可能收集的个人信息范围、收集目的、收集方式，以及拒绝提供个人信息可能导致的结果。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 164,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本，无需处理\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#9",
+      "doc_id": "小红书",
+      "sent_index": 9,
+      "text": "1.账号注册及登录",
+      "keyword_hint": true,
+      "labeling_queue_rank": 165,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；与标准2实质内容需下文，避免标题单独当合规依据。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "编号功能/权限场景小标题；与用途说明合并对照标准21。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#35",
+      "doc_id": "小红书",
+      "sent_index": 35,
+      "text": "您可以通过本隐私政策第四条第三款中提示的路径开启或关闭该功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 166,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（操作指引）；指向具体条款但未描述处理行为本身。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "引用他节路径；单句不构成告知。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#57",
+      "doc_id": "小红书",
+      "sent_index": 57,
+      "text": "购买、查询、使用虚拟财产。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 167,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（功能或服务标题）；未描述具体的个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "权限/场景片段标题；与用途正文合并对照标准21。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#59",
+      "doc_id": "小红书",
+      "sent_index": 59,
+      "text": "身份认证功能及账号找回。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 168,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；涉及身份认证和账号找回，与标准2（收集使用）和标准3（用户权利）的实质内容需下文对应，标题本身不构成具体处理行为描述。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "功能小标题；与认证收集合并。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#61",
+      "doc_id": "小红书",
+      "sent_index": 61,
+      "text": "若您拒绝提供，不会影响小红书其他功能的正常使用。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 169,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本，无需处理\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#63",
+      "doc_id": "小红书",
+      "sent_index": 63,
+      "text": "若您拒绝提供，不会影响小红书其他功能的正常使用。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 170,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本，无需处理\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#65",
+      "doc_id": "小红书",
+      "sent_index": 65,
+      "text": "若您拒绝提供，不会影响小红书其他功能的正常使用。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 171,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本，无需处理\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#68",
+      "doc_id": "小红书",
+      "sent_index": 68,
+      "text": "若您拒绝提供，不会影响小红书其他功能的正常使用。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 172,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本，无需处理\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#70",
+      "doc_id": "小红书",
+      "sent_index": 70,
+      "text": "若您拒绝提供，不会影响小红书其他功能的正常使用。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 173,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本，无需处理\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#104",
+      "doc_id": "小红书",
+      "sent_index": 104,
+      "text": "设备权限调用汇总",
+      "keyword_hint": true,
+      "labeling_queue_rank": 174,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；涉及权限调用主题，与标准2实质内容需下文，避免标题单独当合规依据。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "结构词或小标题；无实质处理描述。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#156",
+      "doc_id": "小红书",
+      "sent_index": 156,
+      "text": "内容保存",
+      "keyword_hint": true,
+      "labeling_queue_rank": 175,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；与标准2保存期限、存储安全措施需对应。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "结构词或小标题；无实质处理描述。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#167",
+      "doc_id": "小红书",
+      "sent_index": 167,
+      "text": "日志信息记录、信息缓存",
+      "keyword_hint": true,
+      "labeling_queue_rank": 176,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题或列举项）；涉及收集（日志）和存储（缓存）主题，但仅为标题或列举，无具体处理行为描述。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#169",
+      "doc_id": "小红书",
+      "sent_index": 169,
+      "text": "使用测肤、试妆功能时",
+      "keyword_hint": true,
+      "labeling_queue_rank": 177,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（功能场景描述）；需结合下文具体处理行为判断，单独出现不构成合规条款。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#185",
+      "doc_id": "小红书",
+      "sent_index": 185,
+      "text": "3.我们可能从第三方间接获取您的个人信息",
+      "keyword_hint": true,
+      "labeling_queue_rank": 178,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；涉及间接获取个人信息主题，与标准2实质内容需下文，避免标题单独当合规依据。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#193",
+      "doc_id": "小红书",
+      "sent_index": 193,
+      "text": "1.共享：",
+      "keyword_hint": true,
+      "labeling_queue_rank": 179,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题或列表项）；仅提及处理行为类别，无具体处理方式、目的、范围等实质内容。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "编号功能/权限场景小标题；与用途说明合并对照标准21。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#196",
+      "doc_id": "小红书",
+      "sent_index": 196,
+      "text": "（3）与商业合作伙伴的必要共享：",
+      "keyword_hint": true,
+      "labeling_queue_rank": 180,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（条款标题）；涉及共享主题，与标准12正文需对应。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "列举标题/占位；与正文合并审计。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#209",
+      "doc_id": "小红书",
+      "sent_index": 209,
+      "text": "I.其他业务合作伙伴：委托我们进行推广和广告投放相关的合作伙伴。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 181,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（列举项标题或定义）；涉及委托处理主题，但仅为列举项标题，需与下文具体处理行为合并审计。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#231",
+      "doc_id": "小红书",
+      "sent_index": 231,
+      "text": "2.转让：",
+      "keyword_hint": true,
+      "labeling_queue_rank": 182,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；涉及转让主题，与标准12正文需对应。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "编号功能/权限场景小标题；与用途说明合并对照标准21。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#237",
+      "doc_id": "小红书",
+      "sent_index": 237,
+      "text": "3.公开披露：",
+      "keyword_hint": true,
+      "labeling_queue_rank": 183,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；涉及公开披露主题，与标准12正文需对应。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#240",
+      "doc_id": "小红书",
+      "sent_index": 240,
+      "text": "4.共享、转让、公开披露个人信息授权同意的例外情形",
+      "keyword_hint": true,
+      "labeling_queue_rank": 184,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；涉及共享/转让/披露主题，与标准12正文需对应。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "第三方或共享转让披露；对照标准12、14。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#247",
+      "doc_id": "小红书",
+      "sent_index": 247,
+      "text": "1.存储：",
+      "keyword_hint": true,
+      "labeling_queue_rank": 185,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；与标准2保存期限、存储安全措施需对应。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "编号功能/权限场景小标题；与用途说明合并对照标准21。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#250",
+      "doc_id": "小红书",
+      "sent_index": 250,
+      "text": "（3）您通过互联网进行跨境交易等个人主动行为。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 186,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（列举项片段）；描述用户行为场景，未涉及企业方的具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "跨境；对照标准10。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#253",
+      "doc_id": "小红书",
+      "sent_index": 253,
+      "text": "2.个人信息副本的访问、获取、更正和删除相关信息",
+      "keyword_hint": true,
+      "labeling_queue_rank": 187,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；涉及用户权利行使主题，与标准3权利行使正文需对应。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "权利行使或撤回；对照标准3、5–8、15。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#258",
+      "doc_id": "小红书",
+      "sent_index": 258,
+      "text": "（1）处理目的已实现、无法实现或者为实现处理目的不再必要；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 188,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（个人信息保存期限届满的触发条件半句）；与标准2「保存期限」相关但不成条，需与完整条款合并审计。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#260",
+      "doc_id": "小红书",
+      "sent_index": 260,
+      "text": "（3）您已明确撤回同意；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 189,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（政策修订触发条件半句）；与用户权利行使相关但不成条，需与完整条款合并审计。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "权利行使或撤回；对照标准3、5–8、15。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#261",
+      "doc_id": "小红书",
+      "sent_index": 261,
+      "text": "（4）如您有足够的理由认为我们违反法律、行政法规或者违反约定处理您的个人信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 190,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（用户投诉或行使权利的触发条件半句）；与标准3「用户权利响应」相关但不成条，需与完整权利条款合并审计。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#263",
+      "doc_id": "小红书",
+      "sent_index": 263,
+      "text": "3.变更或撤回授权范围",
+      "keyword_hint": true,
+      "labeling_queue_rank": 191,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；涉及用户权利行使主题，与标准3权利行使正文需对应。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "权利行使或撤回；对照标准3、5–8、15。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#266",
+      "doc_id": "小红书",
+      "sent_index": 266,
+      "text": "3）评论设置、@设置、通讯录推荐设置、微博推荐设置、位置信息设置和黑名单设置；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 192,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（设置项列表）；仅为功能或设置选项的列举，未描述具体的处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "个性化推荐/自动化决策；对照标准13。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#267",
+      "doc_id": "小红书",
+      "sent_index": 267,
+      "text": "4）系统默认字体的获取和使用设置；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 193,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（功能设置项标题）；描述系统字体设置，与个人信息处理行为无直接关联。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "设置项枚举片段；与设置路径正文合并。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#270",
+      "doc_id": "小红书",
+      "sent_index": 270,
+      "text": "4.附条件的个人信息转移权",
+      "keyword_hint": true,
+      "labeling_queue_rank": 194,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；涉及用户权利主题，与标准3权利行使正文需对应。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#275",
+      "doc_id": "小红书",
+      "sent_index": 275,
+      "text": "七、我们如何使用Cookie和其他同类技术",
+      "keyword_hint": true,
+      "labeling_queue_rank": 195,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；涉及Cookie技术使用，与标准2实质内容需下文，避免标题单独当合规依据。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "章节标题；与标准2等正文需对应。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#277",
+      "doc_id": "小红书",
+      "sent_index": 277,
+      "text": "Cookies的使用",
+      "keyword_hint": true,
+      "labeling_queue_rank": 196,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；涉及Cookies使用主题，与标准2收集使用正文需对应。\"}"
+      },
+      "human": {
+        "pii_related": false,
+        "notes": "Cookie 小节标题；与标准2正文合并。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#294",
+      "doc_id": "小红书",
+      "sent_index": 294,
+      "text": "1.因本政策以及我们处理您个人信息事宜引起的任何争议，您可诉至上海市黄浦区人民法院。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 197,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（争议解决条款）；涉及个人信息处理争议的管辖约定，但本身不描述具体的处理行为，属于法律程序性条款。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#41",
+      "doc_id": "小红书",
+      "sent_index": 41,
+      "text": "境内展示到省(区、市)，境外展示到国家(地区)，信息以网络运营商数据为准。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 198,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.85, \"reason\": \"过渡类文本 / 片段类文本（位置信息展示规则说明）；描述信息展示的颗粒度，未直接涉及收集、使用等具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "跨境；对照标准10。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    },
+    {
+      "id": "小红书#111",
+      "doc_id": "小红书",
+      "sent_index": 111,
+      "text": "可以，关闭后仅影响对应功能，不影响APP其他功能",
+      "keyword_hint": false,
+      "labeling_queue_rank": 199,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.85, \"reason\": \"过渡类文本 / 片段类文本（功能关闭影响的说明）；未直接描述具体的个人信息处理行为（如收集、使用、共享等），仅为对用户操作后果的一般性描述。\"}"
+      },
+      "human": {
+        "pii_related": true,
+        "notes": "句级涉及收集、使用、存储、共享、安全或权利等；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+        "reviewed_at": "2026-04-13T16:00:00+08:00",
+        "reviewer_id": "human-cursor"
+      }
+    }
+  ],
+  "merged_human_from": "reviews\\human_evaluations.json",
+  "merged_at_utc": "2026-04-13T06:52:56.020031+00:00"
+}

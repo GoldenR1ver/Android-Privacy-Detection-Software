@@ -1,0 +1,29 @@
+{
+  "created_at_utc": "2026-04-13T05:41:59.207165+00:00",
+  "input": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_5\\src\\data\\Hi 医生.txt",
+  "mode": "classify",
+  "provider": "mock",
+  "ollama_model": "qwen3.5:9b",
+  "keyword_hint": true,
+  "limit": 20,
+  "max_chars": 0,
+  "num_sentences": 106,
+  "num_classified": 20,
+  "write_week3_csv": true,
+  "week3_csv_path": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_5\\src\\output\\e2e_sample_20260413_134121\\Hi 医生\\sentences_week3_2_2.csv",
+  "pre_audit_clustering": {
+    "applied": true,
+    "reason_skipped": null,
+    "cluster_embed_backend": "flag",
+    "cluster_model": "BAAI/bge-small-zh-v1.5",
+    "audit_ds_max_chars": 12000,
+    "audit_ds_max_peers": 50,
+    "pre_audit_cluster_summary": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_5\\src\\output\\e2e_sample_20260413_134121\\Hi 医生\\pre_audit_cluster_summary.json"
+  },
+  "stats_summary": {
+    "total_sentences": 106,
+    "pii_related_ratio_of_total": null,
+    "pii_related_ratio_of_labeled": 0.35,
+    "keyword_hint_ratio_of_total": 0.839622641509434
+  }
+}

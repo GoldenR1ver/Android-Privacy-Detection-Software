@@ -1,0 +1,13 @@
+\frametitle{实验内容：Few-shot 机制}
+    \begin{itemize}
+        \item \textbf{注入点}：句级分类（\texttt{llm\_related.classify\_sentence}）在提示中拼接 \texttt{ref/shots.json} 中的示例（\texttt{text} + 布尔 \texttt{related} + 可选 \texttt{reason\_hint}）。
+        \item \textbf{流水线开关}：\texttt{-FullPipeline} 且存在默认 \texttt{src/ref/shots.json} 时自动启用；\texttt{pii\_shots\_max} 控制每次最多条数（本次运行为 12）。
+        \item \textbf{与人工闭环}：对 \texttt{review\_bundle} 标注后，可用 \texttt{pii\_shots.py extract} 从人机分歧抽取样例 \textbf{merge} 回 \texttt{shots.json}，迭代收紧边界句。
+    \end{itemize}
+    \vspace{0.25em}
+    \tiny
+\begin{lstlisting}[language={}, alsoletter={|}]
+# 示例（在 WEEK_5/src 下）
+python pii_shots.py extract --bundle path/to/review_bundle_merged.json ^
+  --out ref/shots.json --merge --mode all_disagree
+\end{lstlisting}

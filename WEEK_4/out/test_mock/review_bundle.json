@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "kind": "privacy_sentence_review_bundle",
+  "created_at_utc": "2026-04-10T11:46:01.289910+00:00",
+  "source_jsonl": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_4\\out\\test_mock\\for_labeling.jsonl",
+  "note": "",
+  "items": [
+    {
+      "id": "Soul#0",
+      "doc_id": "Soul",
+      "sent_index": 0,
+      "text": "Soul App个人信息保护政策",
+      "keyword_hint": false,
+      "labeling_queue_rank": 0,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.5,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.5, \"reason\": \"mock\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "Soul#1",
+      "doc_id": "Soul",
+      "sent_index": 1,
+      "text": "更新日期：2023年11月21日",
+      "keyword_hint": false,
+      "labeling_queue_rank": 1,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.5,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.5, \"reason\": \"mock\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "Soul#2",
+      "doc_id": "Soul",
+      "sent_index": 2,
+      "text": "生效日期：2023年11月28日",
+      "keyword_hint": false,
+      "labeling_queue_rank": 2,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.5,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.5, \"reason\": \"mock\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "Soul#3",
+      "doc_id": "Soul",
+      "sent_index": 3,
+      "text": "Soul App是由上海任意门科技有限公司及其关联公司（注册地址为：中国（上海）自由贸易试验区芳春路400号1幢3层304室，以下简称\"我们\"或\"Soul\"）为用户（以下简称\"您\"，详情请查阅关键词定义）提供的社交类应用软件，包括移动应用、小程序及快应用（以下简称\"Soul App\"）。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 3,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.5,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.5, \"reason\": \"mock\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "Soul#4",
+      "doc_id": "Soul",
+      "sent_index": 4,
+      "text": "我们通过Soul App为您提供\"灵魂匹配、发帖回复、聊天\"等功能，我们现在或将来还可能为您提供其他产品与/或服务（以下简称\"Soul产品与/或服务或本产品与/或服务\"，详情请查阅关键词定义）。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 4,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.5,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.5, \"reason\": \"mock\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "Soul#5",
+      "doc_id": "Soul",
+      "sent_index": 5,
+      "text": "我们根据《中华人民共和国个人信息保护法》和《中华人民共和国网络安全法》等相关法律法规制定《Soul App个人信息保护政策》（以下简称\"本政策\"）并保护您的个人信息安全。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 5,
+      "labeling_priority_score": 0,
+      "ai": {
+        "pii_related": null,
+        "confidence": null,
+        "raw_model_output": ""
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "Soul#6",
+      "doc_id": "Soul",
+      "sent_index": 6,
+      "text": "所有Soul产品与/或服务均适用本政策。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 6,
+      "labeling_priority_score": 0,
+      "ai": {
+        "pii_related": null,
+        "confidence": null,
+        "raw_model_output": ""
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "Soul#7",
+      "doc_id": "Soul",
+      "sent_index": 7,
+      "text": "本政策介绍了我们在向您提供Soul产品与/或服务的过程中处理您个人信息的目的、方式、范围、保存期限和信息安全保护措施，以及您行使法律规定权利的方式和程序。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 7,
+      "labeling_priority_score": 0,
+      "ai": {
+        "pii_related": null,
+        "confidence": null,
+        "raw_model_output": ""
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    }
+  ]
+}

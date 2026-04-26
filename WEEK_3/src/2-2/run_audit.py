@@ -66,6 +66,12 @@ Output format strictly as JSON:
 {{"incorrect": 0 or 1, "incomplete": 0 or 1, "inconsistent": 0 or 1}}
 Return JSON only.
 
+Batch note: "Data Safety" may be (1) a Play-style JSON blob, (2) an empty placeholder dict, or
+(3) a text block built from peer sentences in the same embedding/HDBSCAN cluster (synthetic cluster disclosure).
+"Privacy Policy" is always the single current policy sentence. Apply the same three labels; for (3), treat the
+left block as "what the cluster jointly conveys about data practices" versus the right sentence for omission,
+granularity (incomplete), and contradiction (inconsistent).
+
 Data Safety:
 {data_safety}
 
@@ -166,10 +172,19 @@ class MockProvider(BaseProvider):
         has_no_data = ("no data" in pp) or ("content not provided" in pp)
         ds_empty = ("'data_shared': []" in ds and "'data_collected': []" in ds)
 
-        incorrect = 1 if ds_empty and not has_no_data else 0
-        incomplete = 1 if ds_empty and not has_no_data else 0
-        inconsistent = 0
-        return {"incorrect": incorrect, "incomplete": incomplete, "inconsistent": inconsistent}
+        if ds_empty:
+            incorrect = 1 if ds_empty and not has_no_data else 0
+            incomplete = 1 if ds_empty and not has_no_data else 0
+            inconsistent = 0
+            return {"incorrect": incorrect, "incomplete": incomplete, "inconsistent": inconsistent}
+
+        if len(data_safety) > len(privacy_policy) * 1.4 and len(privacy_policy) > 20:
+            return {"incorrect": 0, "incomplete": 1, "inconsistent": 0}
+        if ("不收集" in data_safety or "不會收集" in data_safety) and (
+            "收集" in privacy_policy or "收集" in pp
+        ):
+            return {"incorrect": 0, "incomplete": 0, "inconsistent": 1}
+        return {"incorrect": 0, "incomplete": 0, "inconsistent": 0}
 
 
 class DeepSeekProvider(BaseProvider):

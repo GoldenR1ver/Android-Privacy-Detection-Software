@@ -1,0 +1,32 @@
+{
+  "pipeline_root": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_5\\src\\output\\e2e_sample_20260413_134121",
+  "source_summary": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_5\\src\\output\\e2e_sample_20260413_134121\\pipeline_summary.json",
+  "total_sentences_all_apps": 106,
+  "per_app": [
+    {
+      "doc_id": "Hi 医生",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_5\\src\\output\\e2e_sample_20260413_134121\\Hi 医生",
+      "total_sentences": 106,
+      "audit_summary": {
+        "rows": 20,
+        "incorrect_1": 0,
+        "incomplete_1": 5,
+        "inconsistent_1": 0
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_5\\src\\output\\e2e_sample_20260413_134121\\Hi 医生\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 0,
+        "review_bundle_present": false
+      }
+    }
+  ],
+  "flags_from_summary": {
+    "bundle": "WEEK_5",
+    "prepare_mode": "classify",
+    "provider": "mock",
+    "run_audit": true
+  }
+}

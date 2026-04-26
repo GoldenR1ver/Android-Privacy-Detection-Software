@@ -1,0 +1,6 @@
+# 运行产物（保留 output/.gitkeep）
+src/output/run_*/
+
+# Python
+src/__pycache__/
+*.pyc
