@@ -1,0 +1,1469 @@
+{
+  "schema_version": 1,
+  "kind": "privacy_sentence_review_bundle",
+  "created_at_utc": "2026-04-27T00:25:10.532763+00:00",
+  "source_jsonl": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\心脏健康研究\\for_labeling.jsonl",
+  "note": "run_prepare",
+  "items": [
+    {
+      "id": "心脏健康研究#9",
+      "doc_id": "心脏健康研究",
+      "sent_index": 9,
+      "text": "若您不想继续提供这类信息，可在\"APP首页右上角快捷入口\"中\"退出研究项目\"，退出研究后本服务将会停止继续收集您的测量数据，服务器上的数据暂不会删除，心脏健康研究将持续保存至2022年12月31日，但我们会统一对个人敏感信息做加密和匿名化处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 0,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了用户退出研究后停止收集测量数据、服务器数据保存期限及对个人敏感信息进行加密和匿名化处理，涉及个人信息的收集、存储和安全保护。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#13",
+      "doc_id": "心脏健康研究",
+      "sent_index": 13,
+      "text": "为对您的心脏健康状况进行分析，我们需要同步您的智能穿戴设备采集的数据，若您在权限设置中开启了自启动，APP每隔一小时将自动同步穿戴设备采集的数据（同步过程中将消耗一定流量），并在手机本地进行分析，这些数据被用来分析心脏健康状况，并以此给出针对性的建议。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 1,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集、使用智能穿戴设备数据（含同步、分析）用于健康分析，属于个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#14",
+      "doc_id": "心脏健康研究",
+      "sent_index": 14,
+      "text": "我们将按照以下方式使用穿戴设备采集的数据：在心脏健康研究APP中进行筛查分析并显示您的筛查结果数据和相应的建议。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 2,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了使用穿戴设备采集的个人数据（健康数据）进行筛查分析并显示结果，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#15",
+      "doc_id": "心脏健康研究",
+      "sent_index": 15,
+      "text": "同时，穿戴设备采集的原始数据将保存到云服务器中，在您的昵称、帐号信息被加密和匿名化处理后，这些数据将用于大数据分析，以提升心律失常筛查结果的准确性和建议的准确性。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 3,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了穿戴设备采集的原始数据保存到云服务器、加密和匿名化处理、用于大数据分析，涉及个人信息的存储、处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#17",
+      "doc_id": "心脏健康研究",
+      "sent_index": 17,
+      "text": "若您不想继续提供这类信息可在\"APP首页右上角快捷入口\"中\"退出房颤风险预测\"，退出研究后本服务将会停止继续收集您的预测数据，服务器上的数据暂不会删除，房颤风险预测研究将持续保存至2022年12月31日，但我们会统一对个人敏感信息做加密和匿名化处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 4,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了用户退出研究后停止收集预测数据、服务器数据保存期限及对个人敏感信息进行加密和匿名化处理，涉及个人信息的收集、存储和安全保护。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#21",
+      "doc_id": "心脏健康研究",
+      "sent_index": 21,
+      "text": "当检测出不规则心律（疑似房颤）时，您可以加入房颤风险预测研究，并通过设置APP权限来获取消息通知，我们会在检测到房颤预警时，向您发送消息提醒，但因为手机系统限制，通知机制可能不会每次都生效。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 5,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了收集健康数据（心律/房颤）用于研究，并通过APP权限发送通知，涉及个人敏感信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#24",
+      "doc_id": "心脏健康研究",
+      "sent_index": 24,
+      "text": "若您不想继续提供这类信息，可在\"APP首页右上角快捷入口\"中\"退出研究项目\"，退出项目研究数据后本服务将会停止继续收集您的测量数据，服务器上的数据暂不会删除，睡眠呼吸暂停研究将持续保存至2024年12月31日 ，但我们会统一对个人敏感信息做加密和匿名化处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 6,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了停止收集测量数据、数据保存期限、对个人敏感信息进行加密和匿名化处理，涉及个人信息的收集、存储和安全保护。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#29",
+      "doc_id": "心脏健康研究",
+      "sent_index": 29,
+      "text": "为了管理您的个人信息和智能穿戴设备采集的数据，需要您注册并登录心脏健康研究APP的帐号;同时，您也可以使用华为帐号进行登录，我们将通过华为帐号服务SDK获取您的帐号唯一识别码AuthCode，方便您快速、安全登录；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 7,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了收集和使用个人信息（注册登录、获取帐号唯一识别码AuthCode）的具体行为，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#30",
+      "doc_id": "心脏健康研究",
+      "sent_index": 30,
+      "text": "通过华为推送服务SDK获取您的推送识别码DeviceToken，以提供消息通知服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 8,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK获取推送识别码（个人信息）用于消息通知服务，涉及个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#31",
+      "doc_id": "心脏健康研究",
+      "sent_index": 31,
+      "text": "同时，在获得您的同意并授权后，我们将通过心脏健康研究APP从华为运动健康APP获取您的头像、名字/昵称（若未设定昵称，将获取匿名化手机号码/邮箱地址）身高、体重、心率、压力、放松训练、步数、距离、热量、运动目标、血糖、血压及睡眠数据，用于睡眠呼吸暂停筛查和房颤风险预测研究及提升心脏健康研究的相关功能，若您不想提供这些数据，可在华为运动健康APP\"我的-设置-隐私-三方服务授权-控制对您帐号的访问\"中\"取消授权\"，本服务将会停止继续收集您的运动健康数据，取消授权后，将导致我们无法为您提供睡眠呼吸暂停筛查服务并影响心脏健康研究相关功能的提升，但不影响您使用心脏健康研究APP的心律失常筛查服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 9,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了在用户授权后从第三方获取多项个人信息（头像、昵称、健康数据等）用于特定研究目的，涉及收集、使用、共享及用户撤销授权的权利响应。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#36",
+      "doc_id": "心脏健康研究",
+      "sent_index": 36,
+      "text": "为了管理穿戴设备（包括手环、手表），我们需要收集您的设备信息和网络信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 10,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了为管理穿戴设备而收集设备信息和网络信息，属于个人信息的收集行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#37",
+      "doc_id": "心脏健康研究",
+      "sent_index": 37,
+      "text": "设备信息包括设备类型、版本型号及MAC地址。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 11,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确列举了收集的设备信息类型（设备类型、版本型号及MAC地址），属于个人信息收集行为的具体描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#38",
+      "doc_id": "心脏健康研究",
+      "sent_index": 38,
+      "text": "收集此类信息的目的是建立蓝牙连接、管理设备配置、完成版本升级、显示数据来源。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 12,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集个人信息（如蓝牙连接、设备配置等）的目的，属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#39",
+      "doc_id": "心脏健康研究",
+      "sent_index": 39,
+      "text": "若您不提供这类信息，将无法使用\"心脏健康研究APP\"连接穿戴设备，或导致部分功能受限。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 13,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了因用户不提供个人信息（如健康数据）导致无法使用特定功能，涉及个人信息的收集与使用后果，属于处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#41",
+      "doc_id": "心脏健康研究",
+      "sent_index": 41,
+      "text": "为改进产品质量并提升使用体验，我们需要获取您使用心脏健康研究APP应用的行为数据，包括您在应用中打开的页面和点击的按钮，用来分析和改进心脏健康研究APP的使用体验。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 14,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集用户行为数据（页面打开、按钮点击）用于分析和改进产品，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#42",
+      "doc_id": "心脏健康研究",
+      "sent_index": 42,
+      "text": "如果您使用华为帐号进行登录，我们将使用华为分析服务SDK记录用户您使用心脏健康研究APP的行为数据。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 15,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集用户行为数据的具体处理行为，涉及个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#44",
+      "doc_id": "心脏健康研究",
+      "sent_index": 44,
+      "text": "我们会在心脏健康研究APP中统计并显示您的相关数据，您的数据也会经过匿名化处理后，用于心脏健康研究APP大数据分析，未来也可能用于申请医疗器械注册用途。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 16,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了对个人数据的统计、显示、匿名化处理及用于大数据分析和医疗器械注册用途，涉及个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#46",
+      "doc_id": "心脏健康研究",
+      "sent_index": 46,
+      "text": "若您不想继续提供这类信息，可在\"我的-设置\"中\"注销帐号\"，注销帐户后本服务将会停止继续收集您心脏健康研究项目和睡眠呼吸暂停研究项目的测量数据并将删除您的注册电话信息，服务器上的数据暂不会删除，心脏健康研究项目将持续保存至2022年12月31日，睡眠呼吸暂停研究项目将持续保存至2024年12月31日，但我们会统一对个人敏感信息做加密和匿名化处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 17,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\n  \"related\": true,\n  \"confidence\": 0.95,\n  \"reason\": \"句子明确描述了用户注销账号后停止收集、删除注册电话信息、对个人敏感信息做加密和匿名化处理等具体处理行为，涉及个人信息的收集、删除和安全保护。\"\n}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#47",
+      "doc_id": "心脏健康研究",
+      "sent_index": 47,
+      "text": "若您\"注销帐号\"将导致我们无法为您提供相关筛查服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 18,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户注销账号后对个人信息处理（停止服务）的影响，与用户权利响应相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#51",
+      "doc_id": "心脏健康研究",
+      "sent_index": 51,
+      "text": "存储权限：当您更新本应用时，我们需要申请并获取此权限，以存储本应用更新包及检测结果数据等。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 19,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了为更新应用而申请存储权限以存储更新包和检测数据，属于个人信息的收集与存储行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#52",
+      "doc_id": "心脏健康研究",
+      "sent_index": 52,
+      "text": "如您选择不开启此权限，将无法使用心脏健康研究APP提供的相关服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 20,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了因用户不开启权限（涉及个人信息处理）而影响服务使用，属于个人信息收集与利用的关联场景。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#56",
+      "doc_id": "心脏健康研究",
+      "sent_index": 56,
+      "text": "在您使用心脏健康研究APP应用期间，为了您可以更加便捷地访问、更正、删除您的个人信息，同时保障您撤回对个人信息使用的同意的权利，我们在产品设计中为您提供了相应的操作设置，您可以参考下面的指引进行操作。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 21,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在用户使用应用期间，为保障用户访问、更正、删除个人信息及撤回同意等权利而提供的操作设置，涉及用户权利响应，属于个人信息的处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#60",
+      "doc_id": "心脏健康研究",
+      "sent_index": 60,
+      "text": "在\"我的-设置\"中\"注销帐号\"，将会停止继续收集您的测量数据并将删除您的注册电话信息，服务器上的数据暂不会删除，心脏健康研究项目将持续保存至2022年12月31日，睡眠呼吸暂停研究项目将持续保存至2024年12月31日，但我们会统一对个人敏感信息进行加密和匿名化处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 22,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了注销账号时停止收集、删除电话信息、保留数据并加密匿名化处理，涉及个人信息的收集、删除、存储和安全保护等处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#61",
+      "doc_id": "心脏健康研究",
+      "sent_index": 61,
+      "text": "若您\"注销帐号\"将导致我们无法为您提供相关筛查服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 23,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户注销账号后对个人信息处理（停止服务）的影响，与用户权利响应相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#65",
+      "doc_id": "心脏健康研究",
+      "sent_index": 65,
+      "text": "本服务的授权可以随时撤销，在\"我的-设置\"中，通过\"注销帐号\"页面可以撤销授权并退出心脏健康研究APP应用，下次打开应用时需要重新授权。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 24,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了用户通过注销账号撤销授权，涉及用户权利响应（撤回同意）及账号注销处理流程。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#69",
+      "doc_id": "心脏健康研究",
+      "sent_index": 69,
+      "text": "心脏健康研究项目实施时间截止至2022年12月31日，超过这个时间，我们将会在合理的期限内删除本地和服务器上您的个人信息或进行加密和匿名化处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 25,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了个人信息在项目截止后的删除、加密或匿名化处理行为，属于个人信息的存储与安全保护。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#70",
+      "doc_id": "心脏健康研究",
+      "sent_index": 70,
+      "text": "睡眠呼吸暂停研究项目实施时间截止至2024年12月31日，超过这个时间，我们将会在合理的期限内删除本地和服务器上您的个人信息或进行加密和匿名化处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 26,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了个人信息在项目结束后的删除、加密或匿名化处理，属于个人信息的存储与安全保护行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#72",
+      "doc_id": "心脏健康研究",
+      "sent_index": 72,
+      "text": "我们设立了个人信息保护专职部门（或个人信息保护专员），您可以通过发送电子邮件至mafaii@163.com与其取得联系。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 27,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及个人信息保护专职部门的设立及联系方式，属于个人信息安全保护措施的具体描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#11",
+      "doc_id": "心脏健康研究",
+      "sent_index": 11,
+      "text": "退出后，进入APP需重新加入本研究并授权。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 28,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及用户退出后重新授权个人信息的处理，属于用户权利响应中的撤回同意或重新授权场景。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#19",
+      "doc_id": "心脏健康研究",
+      "sent_index": 19,
+      "text": "退出后，进入APP需重新加入本研究并授权。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 29,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及用户退出后重新授权个人信息的处理，属于用户权利响应中的撤回同意或重新授权场景。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#26",
+      "doc_id": "心脏健康研究",
+      "sent_index": 26,
+      "text": "退出后，进入APP需重新加入本研究项目并授权。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 30,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"描述退出后重新加入项目并授权，涉及用户授权（同意）这一个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#48",
+      "doc_id": "心脏健康研究",
+      "sent_index": 48,
+      "text": "退出后，进入APP需重新注册和授权。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 31,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"描述退出后重新注册和授权的处理行为，涉及用户个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#62",
+      "doc_id": "心脏健康研究",
+      "sent_index": 62,
+      "text": "退出后，进入APP需重新注册和授权。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 32,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"描述退出后重新注册和授权的处理行为，涉及个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#7",
+      "doc_id": "心脏健康研究",
+      "sent_index": 7,
+      "text": "心脏健康研究，为记录和管理您的心律失常筛查结果数据，我们需要记录您的智能穿戴设备采集的数据（包括心率、心电（仅针对华为ECG款智能穿戴设备）等）、最低心率、平均心率、最高心率、有效检测次数、异常心律次数、未见异常次数、异常心律比例等信息。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 33,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为记录和管理心律失常筛查结果而收集智能穿戴设备数据（包括心率、心电等具体信息），属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#8",
+      "doc_id": "心脏健康研究",
+      "sent_index": 8,
+      "text": "这些信息被用来提供心律失常筛查相关数据的记录和显示，为您提供针对性的建议。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 34,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述个人信息（心律失常筛查相关数据）被用于记录、显示和提供建议，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#10",
+      "doc_id": "心脏健康研究",
+      "sent_index": 10,
+      "text": "若您\"退出心脏健康研究\"将导致我们无法为您提供心律失常筛查服务。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 35,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户退出特定研究后，个人信息处理（提供心律失常筛查服务）的中止，涉及个人信息的收集与使用关联。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#18",
+      "doc_id": "心脏健康研究",
+      "sent_index": 18,
+      "text": "若您\"退出房颤风险预测研究\"将导致我们无法为您提供房颤风险预测服务。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 36,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户退出研究导致服务无法提供，涉及个人信息的处理与利用（服务提供与用户权利响应）。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#25",
+      "doc_id": "心脏健康研究",
+      "sent_index": 25,
+      "text": "若您\"退出睡眠呼吸暂停研究\"将导致我们无法为您提供睡眠呼吸暂停风险筛查服务。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 37,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户退出研究后对个人信息处理（提供筛查服务）的影响，涉及个人信息的收集与使用目的变更。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#34",
+      "doc_id": "心脏健康研究",
+      "sent_index": 34,
+      "text": "若不提供性别、年龄等信息，将影响建议推荐的准确性。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 38,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了因不提供个人信息（性别、年龄）而影响服务（建议推荐）的后果，涉及个人信息的收集与使用影响。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#53",
+      "doc_id": "心脏健康研究",
+      "sent_index": 53,
+      "text": "获取软件安装列表：目的是为了获取到运动健康APP的版本号以提示用户是否需要升级。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 39,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述收集软件安装列表的具体目的（获取版本号以提示升级），属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#54",
+      "doc_id": "心脏健康研究",
+      "sent_index": 54,
+      "text": "通过安卓系统官方提供的API，定向获取运动健康APP的版本号。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 40,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了通过API定向获取其他APP信息的行为，涉及个人信息的收集与处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#58",
+      "doc_id": "心脏健康研究",
+      "sent_index": 58,
+      "text": "在心脏健康研究APP应用中，可以通过进入不同的研究项目，查看研究项目的筛查分析报告、历史记录访问您的健康状况数据。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 41,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了通过APP访问健康状况数据的具体处理行为，涉及个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#0",
+      "doc_id": "心脏健康研究",
+      "sent_index": 0,
+      "text": "关于心脏健康研究APP与隐私的声明",
+      "keyword_hint": true,
+      "labeling_queue_rank": 42,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（标题）；与具体个人信息处理行为无关，仅为声明标题。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#3",
+      "doc_id": "心脏健康研究",
+      "sent_index": 3,
+      "text": "我们深知个人信息对您的重要性，并会尽全力保护您的个人信息安全可靠。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 43,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 口号类文本，仅为表达保护意愿，未描述具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#4",
+      "doc_id": "心脏健康研究",
+      "sent_index": 4,
+      "text": "我们承诺，将按法律要求和业界成熟的安全标准，采取相应的安全保护措施来保护您的个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 44,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 法律套话，未描述具体处理行为或措施细节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#28",
+      "doc_id": "心脏健康研究",
+      "sent_index": 28,
+      "text": "帐号登录和个人信息管理",
+      "keyword_hint": true,
+      "labeling_queue_rank": 45,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；与具体处理行为无关，需下文内容对应。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#32",
+      "doc_id": "心脏健康研究",
+      "sent_index": 32,
+      "text": "在同意本《关于心脏健康研究APP与隐私的声明》前，请阅读并了解《关于华为运动健康与隐私的声明》。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 46,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本，引导用户阅读其他隐私声明，未描述具体个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#33",
+      "doc_id": "心脏健康研究",
+      "sent_index": 33,
+      "text": "若您没有登录心脏健康研究APP帐号，将无法使用心脏健康研究APP提供的相关服务；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 47,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本，描述未登录状态下的服务限制，未涉及具体的个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#57",
+      "doc_id": "心脏健康研究",
+      "sent_index": 57,
+      "text": "访问个人信息",
+      "keyword_hint": true,
+      "labeling_queue_rank": 48,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；与标准3用户权利行使正文需对应。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#59",
+      "doc_id": "心脏健康研究",
+      "sent_index": 59,
+      "text": "删除个人信息",
+      "keyword_hint": true,
+      "labeling_queue_rank": 49,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题或操作名称）；与标准3用户权利中删除权正文需对应，标题本身不构成具体处理行为描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#63",
+      "doc_id": "心脏健康研究",
+      "sent_index": 63,
+      "text": "更新个人信息",
+      "keyword_hint": true,
+      "labeling_queue_rank": 50,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；与标准3用户权利中更正/更新个人信息需对应，但标题本身不构成具体处理行为描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#64",
+      "doc_id": "心脏健康研究",
+      "sent_index": 64,
+      "text": "撤回同意",
+      "keyword_hint": true,
+      "labeling_queue_rank": 51,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；与标准3用户权利响应正文需对应。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#66",
+      "doc_id": "心脏健康研究",
+      "sent_index": 66,
+      "text": "数据存储地点",
+      "keyword_hint": true,
+      "labeling_queue_rank": 52,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；与标准2存储地点具体内容需下文对应。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#67",
+      "doc_id": "心脏健康研究",
+      "sent_index": 67,
+      "text": "数据存储期限",
+      "keyword_hint": true,
+      "labeling_queue_rank": 53,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；与标准2保存期限实质内容需下文对应。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#1",
+      "doc_id": "心脏健康研究",
+      "sent_index": 1,
+      "text": "最近更新日期：2022年9月30日",
+      "keyword_hint": false,
+      "labeling_queue_rank": 54,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（版本更新日期）；与个人信息处理行为无直接关联。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#2",
+      "doc_id": "心脏健康研究",
+      "sent_index": 2,
+      "text": "心脏健康研究APP应用是由中国人民解放军总医院及其关联公司（以下称\"我们\"或\"中国人民解放军总医院\"）运营的为您提供心律失常筛查及整合研究管理、睡眠呼吸暂停研究管理的不具有医疗目的的软件产品（或服务）。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 55,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（产品介绍）；仅说明运营主体和产品性质，未涉及具体个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#5",
+      "doc_id": "心脏健康研究",
+      "sent_index": 5,
+      "text": "心脏健康研究项目功能服务",
+      "keyword_hint": false,
+      "labeling_queue_rank": 56,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（功能名称或标题）；未描述具体个人信息处理行为，需结合下文内容判断。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#6",
+      "doc_id": "心脏健康研究",
+      "sent_index": 6,
+      "text": "心律失常筛查数据记录",
+      "keyword_hint": false,
+      "labeling_queue_rank": 57,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（标题或短语）；未描述具体处理行为，仅为数据类别名称。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#12",
+      "doc_id": "心脏健康研究",
+      "sent_index": 12,
+      "text": "心律失常筛查和就诊建议提供",
+      "keyword_hint": false,
+      "labeling_queue_rank": 58,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（服务功能名称）；与具体个人信息处理行为无关，需结合上下文判断是否涉及收集或使用健康信息。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#16",
+      "doc_id": "心脏健康研究",
+      "sent_index": 16,
+      "text": "房颤风险预测数据记录",
+      "keyword_hint": false,
+      "labeling_queue_rank": 59,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（标题或数据项名称）；未描述具体的个人信息处理行为，仅为数据记录名称。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#20",
+      "doc_id": "心脏健康研究",
+      "sent_index": 20,
+      "text": "房颤风险预警通知",
+      "keyword_hint": false,
+      "labeling_queue_rank": 60,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（功能名称或标题）；与个人信息处理与利用的具体行为无关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#22",
+      "doc_id": "心脏健康研究",
+      "sent_index": 22,
+      "text": "睡眠呼吸暂停研究项目功能服务",
+      "keyword_hint": false,
+      "labeling_queue_rank": 61,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（功能名称）；与具体个人信息处理行为无关，需结合下文描述判断。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#23",
+      "doc_id": "心脏健康研究",
+      "sent_index": 23,
+      "text": "睡眠呼吸暂停筛查数据记录",
+      "keyword_hint": false,
+      "labeling_queue_rank": 62,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题或功能名称）；与具体处理行为无关，需结合下文内容判断。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#27",
+      "doc_id": "心脏健康研究",
+      "sent_index": 27,
+      "text": "心脏健康研究APP功能服务",
+      "keyword_hint": false,
+      "labeling_queue_rank": 63,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（功能服务名称）；与具体个人信息处理行为无关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#35",
+      "doc_id": "心脏健康研究",
+      "sent_index": 35,
+      "text": "智能穿戴设备管理",
+      "keyword_hint": false,
+      "labeling_queue_rank": 64,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；与具体个人信息处理行为无关，需结合下文内容判断。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#40",
+      "doc_id": "心脏健康研究",
+      "sent_index": 40,
+      "text": "应用行为数据记录",
+      "keyword_hint": false,
+      "labeling_queue_rank": 65,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题或功能描述）；与具体处理行为无关，需结合下文内容判断。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#43",
+      "doc_id": "心脏健康研究",
+      "sent_index": 43,
+      "text": "问题与建议",
+      "keyword_hint": false,
+      "labeling_queue_rank": 66,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题或引导语）；与具体个人信息处理行为无关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#45",
+      "doc_id": "心脏健康研究",
+      "sent_index": 45,
+      "text": "问卷调查",
+      "keyword_hint": false,
+      "labeling_queue_rank": 67,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（标题或活动名称）；与具体个人信息处理行为无关，需结合上下文判断是否涉及收集使用个人信息。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#49",
+      "doc_id": "心脏健康研究",
+      "sent_index": 49,
+      "text": "线上活动",
+      "keyword_hint": false,
+      "labeling_queue_rank": 68,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（活动名称）；与具体个人信息处理行为无关，需结合上下文判断。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#50",
+      "doc_id": "心脏健康研究",
+      "sent_index": 50,
+      "text": "活动及奖品领取服务",
+      "keyword_hint": false,
+      "labeling_queue_rank": 69,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（服务名称）；与具体个人信息处理行为无关，需结合下文具体描述判断。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#55",
+      "doc_id": "心脏健康研究",
+      "sent_index": 55,
+      "text": "如果无此功能，当运动健康APP版本号较低时，将无法连接智能穿戴设备。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 70,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"描述功能兼容性，不涉及个人信息处理与利用的具体行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#68",
+      "doc_id": "心脏健康研究",
+      "sent_index": 68,
+      "text": "在心脏健康研究APP中，您的个人数据具体留存时间如下：",
+      "keyword_hint": false,
+      "labeling_queue_rank": 71,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节引导句）；仅引出留存时间信息，未描述具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "心脏健康研究#71",
+      "doc_id": "心脏健康研究",
+      "sent_index": 71,
+      "text": "如果您有任何疑问、意见或建议，请通过服务热线400-606-0596（座机）或通过在线客服与我们联系。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 72,
+      "labeling_priority_score": 2,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 联系方式告知，与具体个人信息处理行为无关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    }
+  ]
+}

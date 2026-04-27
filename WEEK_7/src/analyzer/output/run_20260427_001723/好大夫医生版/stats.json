@@ -1,0 +1,17 @@
+{
+  "total_sentences": 386,
+  "pii_related": {
+    "true": 113,
+    "false": 273,
+    "null": 0,
+    "ratio_of_total": 0.2927461139896373,
+    "ratio_of_labeled": 0.2927461139896373,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 226,
+    "false": 160,
+    "ratio_of_total": 0.5854922279792746
+  },
+  "doc_id": "好大夫医生版"
+}

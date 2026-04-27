@@ -1,0 +1,10 @@
+metric,value
+total_sentences,325
+keyword_hint_ratio_of_total,0.7046153846153846
+pii_related_ratio_of_total,0.5507692307692308
+pii_related_ratio_of_labeled,0.5507692307692308
+jsonl_sentences_loaded,325
+audit_rows,325
+audit_right_claim_count,217
+audit_method_claim_count,36
+audit_app_test_candidate_count,36

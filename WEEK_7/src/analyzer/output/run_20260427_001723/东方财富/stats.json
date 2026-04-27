@@ -1,0 +1,17 @@
+{
+  "total_sentences": 243,
+  "pii_related": {
+    "true": 119,
+    "false": 124,
+    "null": 0,
+    "ratio_of_total": 0.4897119341563786,
+    "ratio_of_labeled": 0.4897119341563786,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 163,
+    "false": 80,
+    "ratio_of_total": 0.6707818930041153
+  },
+  "doc_id": "东方财富"
+}

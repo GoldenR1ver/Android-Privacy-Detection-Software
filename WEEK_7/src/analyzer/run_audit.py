@@ -11,71 +11,137 @@ from typing import Dict, List, Optional, Tuple
 from urllib import request
 
 
+LAB3_LABELS = ["right_claim", "method_claim", "app_test_candidate"]
+LAB3_LIST_FIELDS = ["right_types", "execution_channels"]
+LAB3_TEXT_FIELDS = [
+    "path_text",
+    "target_data",
+    "access_copy_type",
+    "time_limit",
+    "dynamic_test_goal",
+    "usability_risk",
+    "reason",
+]
+LAB3_ALLOWED_RIGHT_TYPES = {
+    "inform_decision",
+    "consent",
+    "withdraw_consent",
+    "access_copy",
+    "correction",
+    "deletion",
+    "account_cancellation",
+    "personalized_recommendation",
+    "complaint",
+    "other",
+}
+LAB3_ALLOWED_CHANNELS = {
+    "app_ui",
+    "web",
+    "email",
+    "phone",
+    "customer_service",
+    "mail",
+    "offline",
+    "unknown",
+}
+LAB3_ALLOWED_RISK = {"low", "medium", "high", "unknown"}
+LAB3_ALLOWED_ACCESS_COPY_TYPE = {"copy", "non_copy", "unknown", ""}
+
+
 SYSTEM_PROMPT = (
-    "You are an expert in analyzing the correctness, completeness, and consistency "
-    "between Android Data Safety declaration and Privacy Policy."
+    "你是中文 Android 隐私政策与用户隐私权执行方式分析助手。"
+    "你的依据是《个人信息保护法》中个人信息、个人信息处理、以及个人在处理活动中的权利。"
+    "你的任务是从单条隐私政策句子中识别用户权利、执行渠道、可动态验证目标与可用性风险，"
+    "用于 Lab3：APP 用户隐私权力执行方式的自动化识别与可用性评估。"
 )
 
 
-USER_PROMPT_TEMPLATE = """Let's compare and analyze the information between Data Safety and Privacy Policy.
+USER_PROMPT_TEMPLATE = """请分析“当前隐私政策句子”是否描述 APP 用户隐私权利及其执行方式。
 
-Classify three labels:
-1) incorrect: Data Safety does NOT provide information, but Privacy Policy mentions it.
-2) incomplete: Data Safety provides information, but less complete than Privacy Policy.
-3) inconsistent: Data Safety is provided, but conflicts with Privacy Policy.
+法律与实验判断依据：
+1. 个人信息：以电子或者其他方式记录的、与已识别或者可识别自然人有关的各种信息，不包括匿名化处理后的信息。典型 PII 包括姓名、手机号、邮箱、身份证号；其它个人信息包括位置、交易记录、浏览记录、搜索记录、设备信息等。
+2. 个人信息处理：包括个人信息的收集、存储、使用、加工、传输、提供、公开、删除等。
+3. 知情、决定权（第四十四条）：用户有权知道个人信息如何被处理，并有权限制或拒绝他人处理其个人信息。隐私政策若明确告知“收集哪些数据、为何收集、如何使用、如何存储/共享/删除”，属于知情权信号；若提供同意、拒绝、关闭、限制、选择等控制方式，属于决定权信号。
+4. 访问权（第四十五条）：用户有权查阅、复制个人信息；重点看是否提供访问、查询、复制、下载副本的路径，以及可访问/复制的信息范围是否充分。访问权需要进一步区分“个人信息副本”和“非副本”：个人信息副本通常可下载保存到本地、可传输给第三方、常为机器可读格式，突出表述包括“下载个人信息副本”“导出数据”“导出个人信息”“下载数据副本”，目的在于实现数据可携带性；非副本通常是在 App 或网页界面内查看个人信息，嵌入在页面中，无法或不易导出为独立文件。
+5. 修改权（第四十六条）：用户有权请求更正、补充不准确或不完整的个人信息；重点看是否提供更正、更改、修改、补充的对象范围和路径。
+6. 删除权（第四十七条）：符合目的已实现/不再必要、停止服务、保存期限届满、撤回同意、违法违规处理等情形时，应主动删除或允许用户请求删除；注销账号也常是删除权的执行方式之一。
 
-Few-shot examples for conflict judgment of each label:
+请围绕 Lab3 四个问题打标：
+问题1：隐私政策声明与隐私法规是否一致？文本阶段主要看句子是否覆盖上述法定权利和个人信息处理对象；明显只写空泛法条、不说明数据或权利时风险更高。
+问题2：是否提供用户权利执行方式？对应 method_claim。
+问题3：执行方式可用性如何？对应 usability_risk，并依据路径清晰度、步骤复杂度、是否依赖客服/邮箱/人工审核判断。
+问题4：执行方式有效性如何？单句文本无法最终证明有效性；若存在可测试路径，则 app_test_candidate=1，并在 dynamic_test_goal 中给出后续 Appium/网页/人工验证目标。
 
-[incorrect example -> 1]
-Data Safety: "No data shared. No data collected."
-Privacy Policy: "We collect device identifiers and share them with analytics providers."
-Reason: Data Safety omits a data practice explicitly stated in Privacy Policy.
-Output: {{"incorrect": 1, "incomplete": 0, "inconsistent": 0}}
+请输出严格 JSON，不要输出解释性正文。JSON 字段必须包含：
+- "right_claim": 0 或 1。句子是否声明用户隐私权利、数据控制权或与个人信息处理相关的知情内容。
+- "method_claim": 0 或 1。句子是否提供执行方式、渠道、路径、入口、联系方式、网页、开关或处理时限。
+- "app_test_candidate": 0 或 1。句子是否适合进入 Appium/网页自动化或人工动态验证；只要出现 App 内路径、网页链接、设置入口、开关、下载/删除/注销流程、客服/邮箱等可验证执行方式，就应为 1。
+- "right_types": 数组。可选值只从 ["inform_decision","consent","withdraw_consent","access_copy","correction","deletion","account_cancellation","personalized_recommendation","complaint","other"] 选择；无则 []。
+- "execution_channels": 数组。可选值只从 ["app_ui","web","email","phone","customer_service","mail","offline","unknown"] 选择；无明确渠道但有执行方式时用 ["unknown"]。
+- "path_text": 字符串。摘录最具体的执行路径、入口、链接、邮箱、电话或步骤；无则 ""。
+- "target_data": 字符串。涉及的数据对象，例如“姓名、手机号、位置信息、浏览记录、个人信息副本、账号信息”；无则 ""。
+- "access_copy_type": "copy"、"non_copy"、"unknown" 或 ""。仅在 right_types 包含 "access_copy" 时判断：能下载/导出/保存为本地文件或机器可读副本，填 "copy"；只能在 App/网页内查看，填 "non_copy"；访问权句子未说明是否可导出，填 "unknown"；非访问权句子填 ""。
+- "time_limit": 字符串。处理时限或响应期限；无则 ""。
+- "dynamic_test_goal": 字符串。建议后续验证目标，例如“在 App 设置页查找删除账号入口”；不适合动态验证则 ""。
+- "usability_risk": "low"、"medium"、"high" 或 "unknown"。明确的一键入口/清晰 App 内路径为 low；需要多步但路径明确、网页跳转、邮箱/客服/人工审核为 medium；仅说“联系我们”“可申请”但无具体路径、范围很窄或条件不清为 high；无法判断为 unknown。
+- "reason": 字符串。一句话说明判断依据，必须点明对应权利类型和路径/风险依据。
 
-[incorrect example -> 0]
-Data Safety: "Location is collected."
-Privacy Policy: "We collect approximate location."
-Reason: Both mention collection; this is not a missing-disclosure conflict.
-Output: {{"incorrect": 0, "incomplete": 0, "inconsistent": 0}}
+判标细则：
+1. 只描述“我们收集/使用/存储/共享哪些个人信息及目的”，属于知情权，right_claim=1，right_types 包含 "inform_decision"；但若没有用户可执行路径，method_claim=0，app_test_candidate=0。
+2. 出现“自行选择、拒绝、同意、授权、关闭、开启、限制处理、隐私设置检查、个性化推荐开关”等，属于决定权或同意/撤回同意相关信号。
+3. “查询/查阅/访问/复制/下载/导出个人信息或副本”属于访问权；如果只允许查询少量账号资料，应在 reason 中说明范围有限、可用性风险较高。若出现“下载个人信息副本”“导出数据”“导出个人信息”“机器可读格式”“传输给第三方”等，access_copy_type="copy"；若只是“在账号资料页查看/查询/访问”且无导出文件能力，access_copy_type="non_copy"。
+4. “更正/更改/修改/补充个人信息”属于修改权；如果仅限昵称、头像等少量资料，应说明范围有限。
+5. “删除/清除个人信息、注销账号、撤回同意后删除”属于删除权；若只给客服或邮箱渠道，通常 usability_risk=medium；若路径含糊，risk=high。
+6. “参考上下文”可能是同簇句子汇总，仅用于辅助理解主题；最终只给“当前隐私政策句子”打标和抽取字段。
 
-[incomplete example -> 1]
-Data Safety: "Personal info is collected for app functionality."
-Privacy Policy: "We collect name, email, phone, and address for account, support, and fraud prevention."
-Reason: Data Safety has the same direction but clearly less complete coverage.
-Output: {{"incorrect": 0, "incomplete": 1, "inconsistent": 0}}
+Few-shot 示例：
 
-[incomplete example -> 0]
-Data Safety: "Contacts are collected for social features."
-Privacy Policy: "Contacts are collected for social features."
-Reason: Information granularity is aligned.
-Output: {{"incorrect": 0, "incomplete": 0, "inconsistent": 0}}
+句子：我们可能还会从可信的合作伙伴处收集您的相关信息，包括目录服务合作伙伴、营销合作伙伴以及安全保护合作伙伴提供的信息，以便防范滥用行为、提供广告和研究服务。
+输出：{{"right_claim":1,"method_claim":0,"app_test_candidate":0,"right_types":["inform_decision"],"execution_channels":[],"path_text":"","target_data":"合作伙伴提供的相关信息、潜在客户信息、安全保护相关信息","access_copy_type":"","time_limit":"","dynamic_test_goal":"","usability_risk":"unknown","reason":"句子告知了个人信息来源和使用目的，属于知情权信号，但未提供用户执行方式。"}}
 
-[inconsistent example -> 1]
-Data Safety: "No location data is collected."
-Privacy Policy: "We collect precise GPS location."
-Reason: Direct contradiction between two sources.
-Output: {{"incorrect": 0, "incomplete": 0, "inconsistent": 1}}
+句子：我们会利用 Cookie、像素代码、本地存储、数据库和服务器日志收集和存储信息。
+输出：{{"right_claim":1,"method_claim":0,"app_test_candidate":0,"right_types":["inform_decision"],"execution_channels":[],"path_text":"","target_data":"Cookie、像素代码、本地存储、数据库和服务器日志","access_copy_type":"","time_limit":"","dynamic_test_goal":"","usability_risk":"unknown","reason":"句子说明了信息收集和存储技术，属于个人信息处理的知情内容，但没有用户可执行路径。"}}
 
-[inconsistent example -> 0]
-Data Safety: "Device ID is collected and shared with advertisers."
-Privacy Policy: "We collect device ID and share with ad partners."
-Reason: Statements are mutually consistent.
-Output: {{"incorrect": 0, "incomplete": 0, "inconsistent": 0}}
+句子：您可以使用 Android 设备的“设置”应用开启或关闭设备的位置信息功能。
+输出：{{"right_claim":1,"method_claim":1,"app_test_candidate":1,"right_types":["inform_decision","consent"],"execution_channels":["app_ui"],"path_text":"Android 设备的设置应用开启或关闭设备的位置信息功能","target_data":"位置信息","access_copy_type":"","time_limit":"","dynamic_test_goal":"验证设备或 App 权限设置中是否可以开启或关闭位置信息权限","usability_risk":"low","reason":"句子给出了用户控制位置信息收集的明确设置入口，属于决定权/同意控制，路径清晰。"}}
 
-Output format strictly as JSON:
-{{"incorrect": 0 or 1, "incomplete": 0 or 1, "inconsistent": 0 or 1}}
-Return JSON only.
+句子：您可以在“隐私设置检查”部分查看和调整重要的隐私设置。
+输出：{{"right_claim":1,"method_claim":1,"app_test_candidate":1,"right_types":["inform_decision"],"execution_channels":["web"],"path_text":"隐私设置检查","target_data":"重要的隐私设置","access_copy_type":"","time_limit":"","dynamic_test_goal":"验证隐私设置检查页面是否存在并可调整隐私控制项","usability_risk":"low","reason":"句子提供了集中查看和调整隐私设置的入口，属于决定权执行方式，且路径明确。"}}
 
-Batch note: "Data Safety" may be (1) a Play-style JSON blob, (2) an empty placeholder dict, or
-(3) a text block built from peer sentences in the same embedding/HDBSCAN cluster (synthetic cluster disclosure).
-"Privacy Policy" is always the single current policy sentence. Apply the same three labels; for (3), treat the
-left block as "what the cluster jointly conveys about data practices" versus the right sentence for omission,
-granularity (incomplete), and contradiction (inconsistent).
+句子：点击底部“设置”——点击“订阅号消息个性推荐”，自行选择关闭订阅号消息中的推荐功能的个性化内容推荐服务。
+输出：{{"right_claim":1,"method_claim":1,"app_test_candidate":1,"right_types":["personalized_recommendation"],"execution_channels":["app_ui"],"path_text":"底部设置-订阅号消息个性推荐-关闭个性化内容推荐服务","target_data":"个性化内容推荐服务","access_copy_type":"","time_limit":"","dynamic_test_goal":"用 Appium 验证 App 内是否存在订阅号消息个性推荐关闭入口","usability_risk":"low","reason":"句子提供了关闭个性化推荐的具体 App 内路径，属于决定权执行方式且可动态验证。"}}
 
-Data Safety:
+句子：拒绝提供该信息仅会使你无法使用上述功能，但不影响你正常使用微信的其他功能。
+输出：{{"right_claim":1,"method_claim":0,"app_test_candidate":0,"right_types":["inform_decision","consent"],"execution_channels":[],"path_text":"","target_data":"上述功能所需信息","access_copy_type":"","time_limit":"","dynamic_test_goal":"","usability_risk":"unknown","reason":"句子说明用户可拒绝提供信息及拒绝后果，属于决定权/同意相关说明，但没有具体操作入口。"}}
+
+句子：您可以在账号资料页查询您的昵称、头像、手机号等账号信息。
+输出：{{"right_claim":1,"method_claim":1,"app_test_candidate":1,"right_types":["access_copy"],"execution_channels":["app_ui"],"path_text":"账号资料页","target_data":"昵称、头像、手机号等账号信息","access_copy_type":"non_copy","time_limit":"","dynamic_test_goal":"验证账号资料页是否可查看上述个人信息，并确认是否仅为界面查看而无法导出副本","usability_risk":"medium","reason":"句子提供了访问个人信息的 App 内入口，但只是界面内查询账号资料，未体现可下载或导出个人信息副本，访问权覆盖可能有限。"}}
+
+句子：您可以在数据导出页面下载个人信息副本，副本通常以机器可读格式提供，便于您保存或传输给第三方服务。
+输出：{{"right_claim":1,"method_claim":1,"app_test_candidate":1,"right_types":["access_copy"],"execution_channels":["web"],"path_text":"数据导出页面下载个人信息副本","target_data":"个人信息副本","access_copy_type":"copy","time_limit":"","dynamic_test_goal":"验证数据导出页面是否可下载机器可读的个人信息副本","usability_risk":"low","reason":"句子明确包含下载个人信息副本、机器可读格式和传输给第三方，属于可携带的数据副本。"}}
+
+句子：您可以通过“设置-账号与安全-导出数据”申请导出您的账号资料、浏览记录和交易记录。
+输出：{{"right_claim":1,"method_claim":1,"app_test_candidate":1,"right_types":["access_copy"],"execution_channels":["app_ui"],"path_text":"设置-账号与安全-导出数据","target_data":"账号资料、浏览记录和交易记录","access_copy_type":"copy","time_limit":"","dynamic_test_goal":"用 Appium 验证 App 内是否存在导出数据入口，并记录可导出的文件类型和数据范围","usability_risk":"low","reason":"句子提供 App 内导出数据路径，导出意味着可保存为独立副本，属于访问权中的个人信息副本。"}}
+
+句子：您有权查阅、复制您的个人信息。
+输出：{{"right_claim":1,"method_claim":0,"app_test_candidate":0,"right_types":["access_copy"],"execution_channels":[],"path_text":"","target_data":"个人信息","access_copy_type":"unknown","time_limit":"","dynamic_test_goal":"","usability_risk":"high","reason":"句子声明访问权，但未说明查询、复制或下载副本的路径，也无法判断是否提供个人信息副本。"}}
+
+句子：如您发现个人信息不准确或不完整，您可以在“我的-编辑资料”中更改头像、昵称和性别。
+输出：{{"right_claim":1,"method_claim":1,"app_test_candidate":1,"right_types":["correction"],"execution_channels":["app_ui"],"path_text":"我的-编辑资料","target_data":"头像、昵称和性别","access_copy_type":"","time_limit":"","dynamic_test_goal":"验证我的-编辑资料页面是否可以修改头像、昵称和性别","usability_risk":"medium","reason":"句子提供了修改权的 App 内路径，但可修改的信息范围较有限。"}}
+
+句子：您可以通过“设置-账号与安全-注销账号”申请注销账号，注销后我们将删除或匿名化处理您的相关个人信息。
+输出：{{"right_claim":1,"method_claim":1,"app_test_candidate":1,"right_types":["deletion","account_cancellation"],"execution_channels":["app_ui"],"path_text":"设置-账号与安全-注销账号","target_data":"账号相关个人信息","access_copy_type":"","time_limit":"","dynamic_test_goal":"用 Appium 验证注销账号入口是否存在，并记录注销流程是否说明删除或匿名化结果","usability_risk":"low","reason":"句子给出了注销账号路径，并声明注销后删除或匿名化个人信息，属于删除权执行方式。"}}
+
+句子：如需删除个人信息，请通过 privacy@example.com 联系我们，我们将在15个工作日内处理。
+输出：{{"right_claim":1,"method_claim":1,"app_test_candidate":1,"right_types":["deletion"],"execution_channels":["email"],"path_text":"privacy@example.com","target_data":"个人信息","access_copy_type":"","time_limit":"15个工作日","dynamic_test_goal":"验证邮箱删除请求渠道是否可用并记录响应要求","usability_risk":"medium","reason":"句子提供删除权邮箱渠道和处理时限，但依赖人工响应，可用性中等。"}}
+
+句子：您可以联系我们请求删除您的个人信息。
+输出：{{"right_claim":1,"method_claim":1,"app_test_candidate":1,"right_types":["deletion"],"execution_channels":["customer_service"],"path_text":"联系我们","target_data":"个人信息","access_copy_type":"","time_limit":"","dynamic_test_goal":"核查政策或 App 中是否存在具体联系方式，并验证删除请求入口是否可达","usability_risk":"high","reason":"句子声明删除权并给出笼统客服渠道，但没有具体路径、联系方式或时限，可用性风险高。"}}
+
+参考上下文（可为空或为同簇句子汇总）：
 {data_safety}
 
-Privacy Policy:
+当前隐私政策句子：
 {privacy_policy}
 """
 
@@ -119,15 +185,47 @@ class RuntimeLogger:
             self._log_fp = None
 
 
-def normalize_prediction(d: Dict) -> Dict[str, int]:
-    return {
-        "incorrect": int(d.get("incorrect", 0)),
-        "incomplete": int(d.get("incomplete", 0)),
-        "inconsistent": int(d.get("inconsistent", 0)),
-    }
+def _as_binary(value: object) -> int:
+    if isinstance(value, bool):
+        return 1 if value else 0
+    if isinstance(value, (int, float)):
+        return 1 if int(value) == 1 else 0
+    if isinstance(value, str):
+        v = value.strip().lower()
+        if v in {"1", "true", "yes", "y"}:
+            return 1
+    return 0
 
 
-def extract_json_dict(text: str) -> Dict[str, int]:
+def _as_str_list(value: object, allowed: set[str]) -> List[str]:
+    if value is None:
+        return []
+    raw_items = value if isinstance(value, list) else [value]
+    out: List[str] = []
+    for item in raw_items:
+        s = str(item).strip()
+        if s in allowed and s not in out:
+            out.append(s)
+    return out
+
+
+def normalize_prediction(d: Dict) -> Dict[str, object]:
+    pred: Dict[str, object] = {label: _as_binary(d.get(label, 0)) for label in LAB3_LABELS}
+    pred["right_types"] = _as_str_list(d.get("right_types"), LAB3_ALLOWED_RIGHT_TYPES)
+    pred["execution_channels"] = _as_str_list(
+        d.get("execution_channels"),
+        LAB3_ALLOWED_CHANNELS,
+    )
+    for field in LAB3_TEXT_FIELDS:
+        pred[field] = str(d.get(field, "") or "").strip()
+    if pred["access_copy_type"] not in LAB3_ALLOWED_ACCESS_COPY_TYPE:
+        pred["access_copy_type"] = "unknown" if "access_copy" in pred["right_types"] else ""
+    if pred["usability_risk"] not in LAB3_ALLOWED_RISK:
+        pred["usability_risk"] = "unknown"
+    return pred
+
+
+def extract_json_dict(text: str) -> Dict[str, object]:
     stripped = text.strip()
 
     if stripped.startswith("```"):
@@ -157,35 +255,93 @@ def extract_json_dict(text: str) -> Dict[str, int]:
             except Exception:
                 pass
 
-    return {"incorrect": 0, "incomplete": 0, "inconsistent": 0}
+    return normalize_prediction({})
 
 
 class BaseProvider:
-    def infer(self, data_safety: str, privacy_policy: str) -> Dict[str, int]:
+    def infer(self, data_safety: str, privacy_policy: str) -> Dict[str, object]:
         raise NotImplementedError
 
 
 class MockProvider(BaseProvider):
-    def infer(self, data_safety: str, privacy_policy: str) -> Dict[str, int]:
-        ds = data_safety.lower()
-        pp = privacy_policy.lower()
-        has_no_data = ("no data" in pp) or ("content not provided" in pp)
-        ds_empty = ("'data_shared': []" in ds and "'data_collected': []" in ds)
-
-        if ds_empty:
-            incorrect = 1 if ds_empty and not has_no_data else 0
-            incomplete = 1 if ds_empty and not has_no_data else 0
-            inconsistent = 0
-            return {"incorrect": incorrect, "incomplete": incomplete, "inconsistent": inconsistent}
-
-        # Cluster-aggregate or free-text DS: coarse heuristic for tests only.
-        if len(data_safety) > len(privacy_policy) * 1.4 and len(privacy_policy) > 20:
-            return {"incorrect": 0, "incomplete": 1, "inconsistent": 0}
-        if ("不收集" in data_safety or "不會收集" in data_safety) and (
-            "收集" in privacy_policy or "收集" in pp
-        ):
-            return {"incorrect": 0, "incomplete": 0, "inconsistent": 1}
-        return {"incorrect": 0, "incomplete": 0, "inconsistent": 0}
+    def infer(self, data_safety: str, privacy_policy: str) -> Dict[str, object]:
+        text = privacy_policy
+        right_patterns = {
+            "inform_decision": (
+                "收集",
+                "使用",
+                "存储",
+                "保存",
+                "共享",
+                "提供",
+                "公开",
+                "个人信息",
+                "位置信息",
+                "浏览记录",
+                "交易记录",
+                "Cookie",
+                "日志",
+            ),
+            "withdraw_consent": ("撤回", "取消授权", "关闭授权", "拒绝"),
+            "access_copy": ("查阅", "复制", "访问", "下载", "副本", "导出", "查询", "查看"),
+            "correction": ("更正", "补充", "修改"),
+            "deletion": ("删除", "清除"),
+            "account_cancellation": ("注销", "销户"),
+            "personalized_recommendation": ("个性化", "定向推送", "推荐"),
+            "complaint": ("投诉", "举报", "申诉"),
+            "consent": ("同意", "授权"),
+        }
+        rights = [
+            key
+            for key, words in right_patterns.items()
+            if any(word in text for word in words)
+        ]
+        channels: List[str] = []
+        if any(word in text for word in ("设置", "页面", "页", "开关", "入口", "App", "APP", "应用内")):
+            channels.append("app_ui")
+        if any(word in text for word in ("http://", "https://", "网页", "网站", "链接")):
+            channels.append("web")
+        if any(word in text for word in ("邮箱", "邮件", "@")):
+            channels.append("email")
+        if any(word in text for word in ("电话", "热线")):
+            channels.append("phone")
+        if any(word in text for word in ("客服", "联系", "我们")):
+            channels.append("customer_service")
+        method = bool(channels) or any(word in text for word in ("路径", "方式", "申请", "提交", "发送"))
+        if method and not channels:
+            channels.append("unknown")
+        app_test = method and bool(rights)
+        risk = "unknown"
+        if method:
+            risk = "low" if "设置" in text or "开关" in text else "medium"
+        if method and any(word in text for word in ("联系我们", "客服", "邮箱", "邮件", "申请")):
+            risk = "medium"
+        if rights and not method:
+            risk = "high"
+        access_copy_type = ""
+        if "access_copy" in rights:
+            if any(word in text for word in ("副本", "导出", "下载", "机器可读", "传输给第三方")):
+                access_copy_type = "copy"
+            elif any(word in text for word in ("查询", "查看", "访问", "账号资料", "页面")):
+                access_copy_type = "non_copy"
+            else:
+                access_copy_type = "unknown"
+        return normalize_prediction(
+            {
+                "right_claim": 1 if rights else 0,
+                "method_claim": 1 if method else 0,
+                "app_test_candidate": 1 if app_test else 0,
+                "right_types": rights or ([] if not rights else ["other"]),
+                "execution_channels": channels,
+                "path_text": "",
+                "target_data": "个人信息" if "个人信息" in text else "",
+                "access_copy_type": access_copy_type,
+                "time_limit": "",
+                "dynamic_test_goal": "验证隐私权执行入口是否可用" if app_test else "",
+                "usability_risk": risk,
+                "reason": "mock：基于关键词规则的 Lab3 行权方式占位判断",
+            }
+        )
 
 
 class DeepSeekProvider(BaseProvider):
@@ -210,7 +366,7 @@ class DeepSeekProvider(BaseProvider):
         self.base_url = base_url
         self.timeout = timeout
 
-    def infer(self, data_safety: str, privacy_policy: str) -> Dict[str, int]:
+    def infer(self, data_safety: str, privacy_policy: str) -> Dict[str, object]:
         user_prompt = build_user_prompt(data_safety, privacy_policy)
         payload = {
             "model": self.model,
@@ -259,7 +415,7 @@ class OllamaProvider(BaseProvider):
         self.base_url = base_url
         self.timeout = timeout
 
-    def infer(self, data_safety: str, privacy_policy: str) -> Dict[str, int]:
+    def infer(self, data_safety: str, privacy_policy: str) -> Dict[str, object]:
         user_prompt = build_user_prompt(data_safety, privacy_policy)
         payload = {
             "model": self.model,
@@ -307,7 +463,7 @@ class LocalHFProvider(BaseProvider):
             return_full_text=False,
         )
 
-    def infer(self, data_safety: str, privacy_policy: str) -> Dict[str, int]:
+    def infer(self, data_safety: str, privacy_policy: str) -> Dict[str, object]:
         user_prompt = build_user_prompt(data_safety, privacy_policy)
 
         try:
@@ -434,7 +590,7 @@ def postprocess_results(input_csv: Path, output_csv: Path, logger: RuntimeLogger
         fieldnames = list(reader.fieldnames or [])
         if "result" in fieldnames:
             fieldnames.remove("result")
-        for c in ["incorrect", "incomplete", "inconsistent"]:
+        for c in LAB3_LABELS + LAB3_LIST_FIELDS + LAB3_TEXT_FIELDS:
             if c not in fieldnames:
                 fieldnames.append(c)
         writer = csv.DictWriter(fout, fieldnames=fieldnames)
@@ -443,7 +599,11 @@ def postprocess_results(input_csv: Path, output_csv: Path, logger: RuntimeLogger
         for idx, row in enumerate(reader, start=1):
             pred = extract_json_dict(row.get("result", ""))
             row.pop("result", None)
-            row.update({k: str(v) for k, v in pred.items()})
+            for k, v in pred.items():
+                if isinstance(v, list):
+                    row[k] = json.dumps(v, ensure_ascii=False)
+                else:
+                    row[k] = str(v)
             writer.writerow(row)
             logger.log(f"[postprocess] processed row {idx}")
     logger.log("[postprocess] completed")
@@ -482,7 +642,7 @@ def evaluate_results(
 
         plt = _plt
 
-    labels = ["incorrect", "incomplete", "inconsistent"]
+    labels = LAB3_LABELS
     pred_df = pd.read_csv(prediction_csv)
     gt_df = pd.read_csv(groundtruth_csv)
 
@@ -578,7 +738,7 @@ def build_parser() -> argparse.ArgumentParser:
         help="LLM backend provider（默认 deepseek + deepseek-chat API）",
     )
     common_llm.add_argument("--local-model-id", default="microsoft/Phi-3-mini-4k-instruct")
-    common_llm.add_argument("--max-new-tokens", type=int, default=256)
+    common_llm.add_argument("--max-new-tokens", type=int, default=512)
     common_llm.add_argument("--api-key", default=None, help="DeepSeek API key")
     common_llm.add_argument("--deepseek-model", default="deepseek-chat")
     common_llm.add_argument("--base-url", default="https://api.deepseek.com/chat/completions")

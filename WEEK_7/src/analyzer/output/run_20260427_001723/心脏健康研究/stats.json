@@ -1,0 +1,17 @@
+{
+  "total_sentences": 73,
+  "pii_related": {
+    "true": 42,
+    "false": 31,
+    "null": 0,
+    "ratio_of_total": 0.5753424657534246,
+    "ratio_of_labeled": 0.5753424657534246,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 40,
+    "false": 33,
+    "ratio_of_total": 0.547945205479452
+  },
+  "doc_id": "心脏健康研究"
+}

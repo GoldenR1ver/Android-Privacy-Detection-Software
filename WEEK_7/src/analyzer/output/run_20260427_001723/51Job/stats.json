@@ -1,0 +1,17 @@
+{
+  "total_sentences": 2674,
+  "pii_related": {
+    "true": 922,
+    "false": 1752,
+    "null": 0,
+    "ratio_of_total": 0.34480179506357517,
+    "ratio_of_labeled": 0.34480179506357517,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 1224,
+    "false": 1450,
+    "ratio_of_total": 0.45774121166791326
+  },
+  "doc_id": "51Job"
+}

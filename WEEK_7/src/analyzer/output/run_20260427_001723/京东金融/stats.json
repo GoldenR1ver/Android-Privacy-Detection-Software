@@ -1,0 +1,17 @@
+{
+  "total_sentences": 300,
+  "pii_related": {
+    "true": 164,
+    "false": 136,
+    "null": 0,
+    "ratio_of_total": 0.5466666666666666,
+    "ratio_of_labeled": 0.5466666666666666,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 208,
+    "false": 92,
+    "ratio_of_total": 0.6933333333333334
+  },
+  "doc_id": "京东金融"
+}

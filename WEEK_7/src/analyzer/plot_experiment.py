@@ -74,7 +74,7 @@ def plot_sentence_lengths(rows: List[Dict[str, Any]], out_dir: Path) -> None:
 
 
 def plot_audit_label_counts(audit_csv: Path, out_dir: Path) -> Dict[str, Any]:
-    cols = ["incorrect", "incomplete", "inconsistent"]
+    cols = ["right_claim", "method_claim", "app_test_candidate"]
     counts = {c: 0 for c in cols}
     n = 0
     with audit_csv.open(newline="", encoding="utf-8") as f:
@@ -89,7 +89,7 @@ def plot_audit_label_counts(audit_csv: Path, out_dir: Path) -> Dict[str, Any]:
                     pass
     fig, ax = plt.subplots(figsize=(6, 4))
     ax.bar(list(counts.keys()), list(counts.values()), color=["#e67e22", "#1abc9c", "#34495e"])
-    ax.set_title(f'Rows with label=1 (n={n} rows) — Data Safety vs policy sentence')
+    ax.set_title(f"Rows with Lab3 label=1 (n={n} rows)")
     ax.set_ylabel("Count")
     for i, c in enumerate(cols):
         ax.text(i, counts[c], str(counts[c]), ha="center", va="bottom")
@@ -147,7 +147,7 @@ def main() -> None:
         "--audit-processed-csv",
         type=Path,
         default=None,
-        help="Optional: run_audit postprocess output with incorrect/incomplete/inconsistent columns",
+        help="Optional: run_audit postprocess output with Lab3 right/method/test-candidate columns",
     )
     parser.add_argument(
         "--output-dir",

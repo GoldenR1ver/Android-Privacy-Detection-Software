@@ -4,6 +4,7 @@ import argparse
 import json
 import os
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -13,6 +14,11 @@ from pii_shots import load_shots_for_classify
 from pipeline import build_rows_for_text
 from review_store import build_bundle, save_bundle
 from week3_csv import compute_privacy_stats, write_week3_sentence_csv
+
+
+def log(message: str) -> None:
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    print(f"[{ts}] {message}", flush=True)
 
 
 def load_text(path: Path) -> str:
@@ -207,7 +213,14 @@ def main() -> None:
         default=50,
         help="簇内最多拼接多少条同伴句",
     )
+    parser.add_argument(
+        "--log-every",
+        type=int,
+        default=1,
+        help="classify 模式下每隔多少句输出一次 LLM 进度日志；1=每句，0=只输出阶段日志",
+    )
     args = parser.parse_args()
+    started = time.perf_counter()
 
     ds_key = (args.deepseek_api_key or os.getenv("DEEPSEEK_API_KEY") or "").strip()
     if args.mode == "classify" and args.provider == "deepseek" and not ds_key:
@@ -216,10 +229,19 @@ def main() -> None:
     pii_shots: List[Dict[str, Any]] = []
     if args.mode == "classify" and args.provider != "mock" and args.pii_shots_json:
         pii_shots = load_shots_for_classify(args.pii_shots_json, max_n=args.pii_shots_max)
+        log(
+            f"[prepare] loaded pii few-shot shots={len(pii_shots)} "
+            f"path={args.pii_shots_json}"
+        )
 
     doc_id = args.input.stem
     raw = load_text(args.input)
     lim = args.limit if args.limit and args.limit > 0 else None
+    log(
+        f"[prepare] start doc={doc_id!r} input={args.input} output={args.output_dir} "
+        f"mode={args.mode} provider={args.provider} raw_chars={len(raw)} "
+        f"limit={lim or 'all'} write_week3_csv={bool(args.write_week3_csv)}"
+    )
 
     rows, num_classified = build_rows_for_text(
         raw,
@@ -235,16 +257,25 @@ def main() -> None:
         limit=lim,
         max_chars=args.max_chars,
         pii_shots=pii_shots or None,
+        log_callback=log,
+        log_every=args.log_every if args.mode == "classify" else 0,
     )
+    log(f"[prepare] rows ready doc={doc_id!r}: rows={len(rows)}, classified={num_classified}")
 
     out_dir = args.output_dir
     pre_audit_clustering_applied = False
     if args.write_week3_csv:
         if not os.getenv("HF_ENDPOINT"):
             os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
+            log("[prepare] HF_ENDPOINT unset; set to https://hf-mirror.com for embedding model downloads")
         if len(rows) >= 2:
             from sentence_cluster import run_clustering
 
+            log(
+                f"[prepare] pre-audit clustering start doc={doc_id!r}: "
+                f"rows={len(rows)} backend={args.cluster_embed_backend} model={args.cluster_model}"
+            )
+            cluster_t0 = time.perf_counter()
             ufp: Optional[bool] = None
             if args.cluster_use_fp16 == "true":
                 ufp = True
@@ -277,14 +308,23 @@ def main() -> None:
                 encoding="utf-8",
             )
             pre_audit_clustering_applied = True
+            log(
+                f"[prepare] pre-audit clustering completed doc={doc_id!r}: "
+                f"elapsed={time.perf_counter() - cluster_t0:.2f}s "
+                f"summary={out_dir / 'pre_audit_cluster_summary.json'}"
+            )
+        else:
+            log(f"[prepare] pre-audit clustering skipped doc={doc_id!r}: need at least 2 rows")
 
     write_jsonl(rows, out_dir / "sentences.jsonl")
+    log(f"[prepare] wrote sentences jsonl: {out_dir / 'sentences.jsonl'}")
 
     label_top = args.labeling_top_n if args.labeling_top_n > 0 else None
     labeling_info = None
     if args.export_labeling_queue:
         n_q = write_labeling_jsonl(rows, out_dir / "for_labeling.jsonl", limit=label_top)
         labeling_info = {"path": str(out_dir / "for_labeling.jsonl"), "rows": n_q}
+        log(f"[prepare] wrote labeling queue rows={n_q}: {out_dir / 'for_labeling.jsonl'}")
 
     review_info = None
     if args.export_review_json:
@@ -300,10 +340,15 @@ def main() -> None:
             "path": str((out_dir / "review_bundle.json").resolve()),
             "items": len(export_rows),
         }
+        log(f"[prepare] wrote review bundle items={len(export_rows)}: {out_dir / 'review_bundle.json'}")
 
     app_name = args.app_name.strip() or doc_id
     if args.write_week3_csv:
         csv_path = out_dir / "sentences_week3_2_2.csv"
+        log(
+            f"[prepare] writing audit CSV doc={doc_id!r}: {csv_path} "
+            f"ds_mode={'cluster_peers' if pre_audit_clustering_applied else 'empty'}"
+        )
         write_week3_sentence_csv(
             csv_path,
             rows,
@@ -315,6 +360,7 @@ def main() -> None:
             cluster_ds_max_chars=args.audit_ds_max_chars,
             cluster_ds_max_peers=args.audit_ds_max_peers,
         )
+        log(f"[prepare] wrote audit CSV: {csv_path}")
 
     stats = compute_privacy_stats(rows)
     stats["doc_id"] = doc_id
@@ -322,6 +368,7 @@ def main() -> None:
         json.dumps(stats, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+    log(f"[prepare] wrote stats: {out_dir / 'stats.json'}")
 
     manifest = build_manifest(args, len(rows), num_classified)
     if args.write_week3_csv:
@@ -358,11 +405,13 @@ def main() -> None:
         json.dumps(manifest, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+    log(f"[prepare] wrote manifest: {out_dir / 'manifest.json'}")
     out_msg: Dict[str, Any] = {
         "wrote": str(out_dir),
         "sentences": len(rows),
         "classified": num_classified,
         "stats": manifest["stats_summary"],
+        "elapsed_sec": round(time.perf_counter() - started, 2),
     }
     if args.write_week3_csv:
         out_msg["pre_audit_clustering_applied"] = pre_audit_clustering_applied

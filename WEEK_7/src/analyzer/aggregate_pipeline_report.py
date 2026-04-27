@@ -1,6 +1,6 @@
 """
 读取流水线输出根目录（含 pipeline_summary.json），
-汇总各应用的 stats、audit 三标签正例数、聚类/送标产物是否存在，写入 week5_aggregate_report.json。
+汇总各应用的 stats、Lab3 audit 三标签正例数、聚类/送标产物是否存在，写入 week5_aggregate_report.json。
 （WEEK_5 自包含工程默认由 run_pipeline.ps1 在每次 run_* 末尾调用。）
 """
 
@@ -19,28 +19,44 @@ def _read_json(path: Path) -> Dict[str, Any]:
 
 
 def _audit_counts(audit_csv: Path) -> Dict[str, int]:
-    inc = incomp = incons = 0
+    right = method = candidate = 0
+    access_copy = access_non_copy = access_unknown = 0
     n = 0
     with audit_csv.open(newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
             n += 1
             try:
-                if int(str(row.get("incorrect", "0")).strip() or 0) == 1:
-                    inc += 1
+                if int(str(row.get("right_claim", "0")).strip() or 0) == 1:
+                    right += 1
             except ValueError:
                 pass
             try:
-                if int(str(row.get("incomplete", "0")).strip() or 0) == 1:
-                    incomp += 1
+                if int(str(row.get("method_claim", "0")).strip() or 0) == 1:
+                    method += 1
             except ValueError:
                 pass
             try:
-                if int(str(row.get("inconsistent", "0")).strip() or 0) == 1:
-                    incons += 1
+                if int(str(row.get("app_test_candidate", "0")).strip() or 0) == 1:
+                    candidate += 1
             except ValueError:
                 pass
-    return {"rows": n, "incorrect_1": inc, "incomplete_1": incomp, "inconsistent_1": incons}
+            access_type = str(row.get("access_copy_type", "")).strip()
+            if access_type == "copy":
+                access_copy += 1
+            elif access_type == "non_copy":
+                access_non_copy += 1
+            elif access_type == "unknown":
+                access_unknown += 1
+    return {
+        "rows": n,
+        "right_claim_1": right,
+        "method_claim_1": method,
+        "app_test_candidate_1": candidate,
+        "access_copy_type_copy": access_copy,
+        "access_copy_type_non_copy": access_non_copy,
+        "access_copy_type_unknown": access_unknown,
+    }
 
 
 def _count_jsonl_rows(path: Path) -> int:

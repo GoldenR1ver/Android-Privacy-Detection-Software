@@ -1,0 +1,17 @@
+{
+  "total_sentences": 106,
+  "pii_related": {
+    "true": 50,
+    "false": 56,
+    "null": 0,
+    "ratio_of_total": 0.4716981132075472,
+    "ratio_of_labeled": 0.4716981132075472,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 89,
+    "false": 17,
+    "ratio_of_total": 0.839622641509434
+  },
+  "doc_id": "Hi 医生"
+}

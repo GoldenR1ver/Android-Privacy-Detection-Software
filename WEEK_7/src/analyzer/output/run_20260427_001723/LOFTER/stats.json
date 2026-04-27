@@ -1,0 +1,17 @@
+{
+  "total_sentences": 227,
+  "pii_related": {
+    "true": 128,
+    "false": 99,
+    "null": 0,
+    "ratio_of_total": 0.5638766519823789,
+    "ratio_of_labeled": 0.5638766519823789,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 136,
+    "false": 91,
+    "ratio_of_total": 0.5991189427312775
+  },
+  "doc_id": "LOFTER"
+}

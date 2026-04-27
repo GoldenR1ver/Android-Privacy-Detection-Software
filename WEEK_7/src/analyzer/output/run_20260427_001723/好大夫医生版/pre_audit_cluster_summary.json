@@ -1,0 +1,49 @@
+{
+  "num_clusters": 3,
+  "noise_count": 0,
+  "noise_fraction": 0.0,
+  "hard_example_indices": [],
+  "clusters": {
+    "0": {
+      "size": 21,
+      "sample_texts": [
+        "隐私政策链接:website_url_lnk",
+        "隐私政策链接:website_url_lnk",
+        "隐私政策链接:website_url_lnk",
+        "隐私政策链接：website_url_lnk",
+        "隐私政策链接:website_url_lnk"
+      ]
+    },
+    "1": {
+      "size": 25,
+      "sample_texts": [
+        "官网链接:website_url_lnk",
+        "官网链接:website_url_lnk",
+        "官网链接:website_url_lnk",
+        "官网链接:website_url_lnk",
+        "官网链接：website_url_lnk"
+      ]
+    },
+    "2": {
+      "size": 340,
+      "sample_texts": [
+        "更新日期：2022年10月11日",
+        "与国家安全、国防安全直接相关的；",
+        "第三方支付类.",
+        "在个人信息使用时，例如个人信息展示、个人信息关联计算，我们会采用包括内容替换、哈希算法在内多种数据脱敏技术增强个人信息在使用中安全性；",
+        "本隐私政策为《好大夫在线服务协议》的重要组成部分。"
+      ]
+    }
+  },
+  "embed_backend": "flag",
+  "model_name": "BAAI/bge-small-zh-v1.5",
+  "umap": {
+    "n_neighbors": 15,
+    "min_dist": 0.08,
+    "metric": "cosine"
+  },
+  "hdbscan": {
+    "min_cluster_size": 8,
+    "min_samples": 3
+  }
+}

@@ -31,37 +31,37 @@ def _load_aggregate(path: Path) -> Dict[str, Any]:
 def _extract_series(data: Dict[str, Any]) -> Tuple[List[str], List[int], List[int], List[int], List[int]]:
     apps: List[str] = []
     totals: List[int] = []
-    inc: List[int] = []
-    incomp: List[int] = []
-    incons: List[int] = []
+    right: List[int] = []
+    method: List[int] = []
+    candidate: List[int] = []
     for p in data.get("per_app") or []:
         apps.append(str(p.get("doc_id", "?")))
         a = p.get("audit_summary") or {}
         totals.append(int(a.get("rows", 0)))
-        inc.append(int(a.get("incorrect_1", 0)))
-        incomp.append(int(a.get("incomplete_1", 0)))
-        incons.append(int(a.get("inconsistent_1", 0)))
-    return apps, totals, inc, incomp, incons
+        right.append(int(a.get("right_claim_1", 0)))
+        method.append(int(a.get("method_claim_1", 0)))
+        candidate.append(int(a.get("app_test_candidate_1", 0)))
+    return apps, totals, right, method, candidate
 
 
 def plot_grouped_counts_by_app(
     apps: List[str],
-    inc: List[int],
-    incomp: List[int],
-    incons: List[int],
+    right: List[int],
+    method: List[int],
+    candidate: List[int],
     out_path: Path,
     run_label: str,
 ) -> None:
     x = np.arange(len(apps))
     w = 0.25
     fig, ax = plt.subplots(figsize=(10, 4.2))
-    ax.bar(x - w, inc, width=w, label="incorrect (=1)", color="#e67e22")
-    ax.bar(x, incomp, width=w, label="incomplete (=1)", color="#1abc9c")
-    ax.bar(x + w, incons, width=w, label="inconsistent (=1)", color="#34495e")
+    ax.bar(x - w, right, width=w, label="right_claim (=1)", color="#e67e22")
+    ax.bar(x, method, width=w, label="method_claim (=1)", color="#1abc9c")
+    ax.bar(x + w, candidate, width=w, label="app_test_candidate (=1)", color="#34495e")
     ax.set_xticks(x)
     ax.set_xticklabels(apps, rotation=18, ha="right")
     ax.set_ylabel("句数（全量 audit 行）")
-    ax.set_title(f"各应用三标签正例计数（全量）— {run_label}")
+    ax.set_title(f"各应用 Lab3 行权三标签计数（全量）— {run_label}")
     ax.legend(loc="upper right", fontsize=9)
     ax.grid(axis="y", alpha=0.28)
     fig.tight_layout()
@@ -72,9 +72,9 @@ def plot_grouped_counts_by_app(
 def plot_rates_by_app(
     apps: List[str],
     totals: List[int],
-    inc: List[int],
-    incomp: List[int],
-    incons: List[int],
+    right: List[int],
+    method: List[int],
+    candidate: List[int],
     out_path: Path,
     run_label: str,
 ) -> None:
@@ -82,22 +82,22 @@ def plot_rates_by_app(
     def rate(num: int, den: int) -> float:
         return 100.0 * num / den if den else 0.0
 
-    r_inc = [rate(a, t) for a, t in zip(inc, totals)]
-    r_incomp = [rate(a, t) for a, t in zip(incomp, totals)]
-    r_incons = [rate(a, t) for a, t in zip(incons, totals)]
+    r_right = [rate(a, t) for a, t in zip(right, totals)]
+    r_method = [rate(a, t) for a, t in zip(method, totals)]
+    r_candidate = [rate(a, t) for a, t in zip(candidate, totals)]
 
     x = np.arange(len(apps))
     w = 0.25
     fig, ax = plt.subplots(figsize=(10, 4.2))
-    ax.bar(x - w, r_inc, width=w, label="incorrect %", color="#e67e22")
-    ax.bar(x, r_incomp, width=w, label="incomplete %", color="#1abc9c")
-    ax.bar(x + w, r_incons, width=w, label="inconsistent %", color="#34495e")
+    ax.bar(x - w, r_right, width=w, label="right_claim %", color="#e67e22")
+    ax.bar(x, r_method, width=w, label="method_claim %", color="#1abc9c")
+    ax.bar(x + w, r_candidate, width=w, label="app_test_candidate %", color="#34495e")
     ax.set_xticks(x)
     ax.set_xticklabels(apps, rotation=18, ha="right")
     ax.set_ylabel("占该应用审计行比例（%）")
-    ax.set_title(f"各应用三标签正例率（全量）— {run_label}")
+    ax.set_title(f"各应用 Lab3 行权三标签正例率（全量）— {run_label}")
     ax.legend(loc="upper right", fontsize=9)
-    combined = r_inc + r_incomp + r_incons
+    combined = r_right + r_method + r_candidate
     ymax = max(combined) if combined else 0.0
     ax.set_ylim(0, ymax * 1.15 + 0.5)
     ax.grid(axis="y", alpha=0.28)
@@ -107,17 +107,17 @@ def plot_rates_by_app(
 
 
 def plot_global_totals_stacked(
-    inc: List[int],
-    incomp: List[int],
-    incons: List[int],
+    right: List[int],
+    method: List[int],
+    candidate: List[int],
     out_path: Path,
     run_label: str,
 ) -> None:
-    tot_inc = sum(inc)
-    tot_incomp = sum(incomp)
-    tot_incons = sum(incons)
-    labels = ["incorrect", "incomplete", "inconsistent"]
-    vals = [tot_inc, tot_incomp, tot_incons]
+    tot_right = sum(right)
+    tot_method = sum(method)
+    tot_candidate = sum(candidate)
+    labels = ["right_claim", "method_claim", "app_test_candidate"]
+    vals = [tot_right, tot_method, tot_candidate]
     colors = ["#e67e22", "#1abc9c", "#34495e"]
     fig, ax = plt.subplots(figsize=(8.5, 2.8))
     left = 0
@@ -127,7 +127,7 @@ def plot_global_totals_stacked(
         left += v
     ax.set_yticks([])
     ax.set_xlabel("句数（全库合计，与各行 audit_processed 一致）")
-    ax.set_title(f"全库三标签正例合计 — {run_label}")
+    ax.set_title(f"全库 Lab3 行权三标签正例合计 — {run_label}")
     ax.legend(loc="lower center", bbox_to_anchor=(0.5, 1.02), ncol=3, fontsize=9)
     ax.set_xlim(0, left * 1.02)
     ax.grid(axis="x", alpha=0.28)
@@ -160,22 +160,26 @@ def main() -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
 
     data = _load_aggregate(agg_path)
-    apps, totals, inc, incomp, incons = _extract_series(data)
+    apps, totals, right, method, candidate = _extract_series(data)
 
     p1 = out_dir / "fig_audit_full_grouped_by_app.png"
     p2 = out_dir / "fig_audit_full_rates_by_app.png"
     p3 = out_dir / "fig_audit_full_totals_stacked.png"
 
-    plot_grouped_counts_by_app(apps, inc, incomp, incons, p1, run_label)
-    plot_rates_by_app(apps, totals, inc, incomp, incons, p2, run_label)
-    plot_global_totals_stacked(inc, incomp, incons, p3, run_label)
+    plot_grouped_counts_by_app(apps, right, method, candidate, p1, run_label)
+    plot_rates_by_app(apps, totals, right, method, candidate, p2, run_label)
+    plot_global_totals_stacked(right, method, candidate, p3, run_label)
 
     print(
         json.dumps(
             {
                 "wrote": [str(p1), str(p2), str(p3)],
                 "apps": apps,
-                "totals": {"incorrect": sum(inc), "incomplete": sum(incomp), "inconsistent": sum(incons)},
+                "totals": {
+                    "right_claim": sum(right),
+                    "method_claim": sum(method),
+                    "app_test_candidate": sum(candidate),
+                },
             },
             ensure_ascii=False,
             indent=2,

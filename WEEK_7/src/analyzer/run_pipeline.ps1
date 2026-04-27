@@ -59,14 +59,32 @@ param(
 
     [string]$OutDir = "",
 
-    [switch]$SkipAggregate
+    [switch]$SkipAggregate,
+
+    [int]$PrepareLogEvery = 1,
+
+    [int]$AuditLogEvery = 1
 )
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
+function Write-Log {
+    param([string]$Message)
+    $ts = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    Write-Host "[$ts] $Message"
+}
+
+function Format-Elapsed {
+    param([TimeSpan]$Elapsed)
+    if ($Elapsed.TotalSeconds -lt 90) {
+        return ("{0:N1}s" -f $Elapsed.TotalSeconds)
+    }
+    return ("{0:N1}min" -f $Elapsed.TotalMinutes)
+}
+
 if ($FullPipeline) {
-    Write-Host "==> FullPipeline: classify + RunAudit + RunClusterAnalysis + ExportLabelingQueue + ExportReviewJson; LabelingTopN=200 if unset; PII shots if ref\shots.json exists."
+    Write-Log "==> FullPipeline: classify + RunAudit + RunClusterAnalysis + ExportLabelingQueue + ExportReviewJson; LabelingTopN=200 if unset; PII shots if ref\shots.json exists."
     $PrepareMode = "classify"
     $RunAudit = $true
     $RunClusterAnalysis = $true
@@ -86,7 +104,7 @@ if (-not $DataDir) {
 }
 if (-not (Test-Path -LiteralPath $DataDir)) {
     New-Item -ItemType Directory -Path $DataDir -Force | Out-Null
-    Write-Host "Created empty data directory: $DataDir"
+    Write-Log "Created empty data directory: $DataDir"
 }
 $txtFiles = @(Get-ChildItem -LiteralPath $DataDir -Filter "*.txt" -File | Sort-Object Name)
 if ($txtFiles.Count -eq 0) {
@@ -102,6 +120,15 @@ if (-not $OutDir) {
     $OutDir = Join-Path $outParent "run_$stamp"
 }
 New-Item -ItemType Directory -Path $OutDir -Force | Out-Null
+Write-Log "Pipeline start"
+Write-Log "  src_root=$SrcRoot"
+Write-Log "  data_dir=$DataDir"
+Write-Log "  output_root=$OutDir"
+Write-Log "  documents=$($txtFiles.Count): $($txtFiles.BaseName -join ', ')"
+Write-Log "  prepare_mode=$PrepareMode provider=$Provider deepseek_model=$DeepSeekModel classify_limit=$ClassifyLimit"
+Write-Log "  run_audit=$([bool]$RunAudit) audit_limit=$AuditLimit run_cluster_analysis=$([bool]$RunClusterAnalysis)"
+Write-Log "  cluster_backend=$ClusterEmbedBackend cluster_model=$ClusterModel"
+Write-Log "  prepare_log_every=$PrepareLogEvery audit_log_every=$AuditLogEvery"
 
 if ($Provider -eq "deepseek" -and -not $env:DEEPSEEK_API_KEY) {
     if ($PrepareMode -eq "classify" -or $RunAudit) {
@@ -110,17 +137,21 @@ if ($Provider -eq "deepseek" -and -not $env:DEEPSEEK_API_KEY) {
 }
 if (-not $env:HF_ENDPOINT) {
     $env:HF_ENDPOINT = "https://hf-mirror.com"
-    Write-Host "HF_ENDPOINT was unset: set to https://hf-mirror.com (pre-audit clustering + optional cluster_analysis)."
+    Write-Log "HF_ENDPOINT was unset: set to https://hf-mirror.com (pre-audit clustering + optional cluster_analysis)."
 }
 
 $perDoc = [System.Collections.ArrayList]@()
 
 Push-Location -LiteralPath $SrcRoot
 try {
+    $pipelineStart = Get-Date
+    $docIndex = 0
     foreach ($f in $txtFiles) {
+        $docIndex += 1
+        $docStart = Get-Date
         $stem = $f.BaseName
         $subOut = Join-Path $OutDir $stem
-        Write-Host "==> [$stem] prepare -> $subOut"
+        Write-Log "==> [$docIndex/$($txtFiles.Count)] [$stem] prepare -> $subOut (file_size=$($f.Length) bytes)"
 
         $prep = @(
             "run_prepare.py",
@@ -128,7 +159,8 @@ try {
             "--output-dir", $subOut,
             "--write-week3-csv",
             "--mode", $PrepareMode,
-            "--provider", $Provider
+            "--provider", $Provider,
+            "--log-every", "$PrepareLogEvery"
         )
         if ($ClassifyLimit -gt 0) {
             $prep += @("--limit", "$ClassifyLimit")
@@ -159,8 +191,11 @@ try {
         }
         $prep += @("--cluster-embed-backend", $ClusterEmbedBackend)
         $prep += @("--cluster-model", $ClusterModel)
+        $stageStart = Get-Date
+        Write-Log "[$stem] command: $Py $($prep -join ' ')"
         & $Py @prep
         if ($LASTEXITCODE -ne 0) { throw "run_prepare failed for $($f.Name)" }
+        Write-Log "[$stem] prepare completed in $(Format-Elapsed ((Get-Date) - $stageStart))"
 
         $week3csv = Join-Path $subOut "sentences_week3_2_2.csv"
         $auditRaw = Join-Path $subOut "audit_raw.csv"
@@ -168,13 +203,14 @@ try {
         $sentJsonl = Join-Path $subOut "sentences.jsonl"
 
         if ($RunAudit) {
-            Write-Host "==> [$stem] run_audit.py audit (WEEK_5 bundled)"
+            Write-Log "==> [$stem] run_audit.py audit"
             $auditArgs = @(
                 "run_audit.py", "audit",
                 "--input-csv", (Resolve-Path -LiteralPath $week3csv).Path,
                 "--output-csv", $auditRaw,
                 "--provider", $Provider,
-                "--log-file", (Join-Path $subOut "audit.log")
+                "--log-file", (Join-Path $subOut "audit.log"),
+                "--log-every", "$AuditLogEvery"
             )
             if ($AuditLimit -gt 0) {
                 $auditArgs += @("--limit", "$AuditLimit")
@@ -182,10 +218,14 @@ try {
             if ($Provider -eq "deepseek") {
                 $auditArgs += @("--deepseek-model", $DeepSeekModel)
             }
+            $stageStart = Get-Date
+            Write-Log "[$stem] command: $Py $($auditArgs -join ' ')"
             & $Py @auditArgs
             if ($LASTEXITCODE -ne 0) { throw "run_audit audit failed for $($f.Name)" }
+            Write-Log "[$stem] audit completed in $(Format-Elapsed ((Get-Date) - $stageStart)); raw=$auditRaw"
 
-            Write-Host "==> [$stem] run_audit.py postprocess"
+            Write-Log "==> [$stem] run_audit.py postprocess"
+            $stageStart = Get-Date
             & $Py @(
                 "run_audit.py", "postprocess",
                 "--input-csv", $auditRaw,
@@ -193,10 +233,11 @@ try {
                 "--log-file", (Join-Path $subOut "postprocess.log")
             )
             if ($LASTEXITCODE -ne 0) { throw "run_audit postprocess failed for $($f.Name)" }
+            Write-Log "[$stem] postprocess completed in $(Format-Elapsed ((Get-Date) - $stageStart)); processed=$auditProc"
         }
 
         if (-not $SkipPlot) {
-            Write-Host "==> [$stem] plot_experiment"
+            Write-Log "==> [$stem] plot_experiment"
             $plotArgs = @(
                 "plot_experiment.py",
                 "--experiment-dir", $subOut
@@ -204,8 +245,10 @@ try {
             if ($RunAudit -and (Test-Path -LiteralPath $auditProc)) {
                 $plotArgs += @("--audit-processed-csv", $auditProc)
             }
+            $stageStart = Get-Date
             & $Py @plotArgs
             if ($LASTEXITCODE -ne 0) { throw "plot_experiment failed for $($f.Name)" }
+            Write-Log "[$stem] plot completed in $(Format-Elapsed ((Get-Date) - $stageStart))"
         }
 
         $clusterDir = $null
@@ -214,7 +257,7 @@ try {
                 throw "RunClusterAnalysis requires sentences.jsonl at $sentJsonl"
             }
             $clusterDir = Join-Path $subOut "cluster_analysis"
-            Write-Host "==> [$stem] cluster_analysis -> $clusterDir"
+            Write-Log "==> [$stem] cluster_analysis -> $clusterDir"
             $clusterArgs = @(
                 "cluster_analysis.py",
                 "--sentences-jsonl", (Resolve-Path -LiteralPath $sentJsonl).Path,
@@ -225,8 +268,11 @@ try {
             if ($RunAudit -and (Test-Path -LiteralPath $auditProc)) {
                 $clusterArgs += @("--audit-processed", (Resolve-Path -LiteralPath $auditProc).Path)
             }
+            $stageStart = Get-Date
+            Write-Log "[$stem] command: $Py $($clusterArgs -join ' ')"
             & $Py @clusterArgs
             if ($LASTEXITCODE -ne 0) { throw "cluster_analysis failed for $($f.Name)" }
+            Write-Log "[$stem] cluster_analysis completed in $(Format-Elapsed ((Get-Date) - $stageStart))"
         }
 
         $forLabeling = Join-Path $subOut "for_labeling.jsonl"
@@ -241,6 +287,7 @@ try {
                 review_bundle_json = if (Test-Path -LiteralPath $reviewBundle) { $reviewBundle } else { $null }
                 cluster_analysis_dir = $clusterDir
             })
+        Write-Log "<== [$docIndex/$($txtFiles.Count)] [$stem] completed in $(Format-Elapsed ((Get-Date) - $docStart)); output=$subOut"
     }
 }
 finally {
@@ -278,12 +325,14 @@ $utf8NoBom = New-Object System.Text.UTF8Encoding $false
 [System.IO.File]::WriteAllText($summaryPath, $summaryJson, $utf8NoBom)
 
 if (-not $SkipAggregate) {
-    Write-Host "==> aggregate_pipeline_report.py"
+    Write-Log "==> aggregate_pipeline_report.py"
     $agg = Join-Path $SrcRoot "aggregate_pipeline_report.py"
+    $stageStart = Get-Date
     & $Py $agg "--pipeline-root" (Resolve-Path -LiteralPath $OutDir).Path
     if ($LASTEXITCODE -ne 0) { throw "aggregate_pipeline_report.py failed" }
+    Write-Log "aggregate completed in $(Format-Elapsed ((Get-Date) - $stageStart))"
 }
 
 Write-Host ""
-Write-Host "Pipeline finished. Output root: $OutDir"
-Write-Host "Summary: $summaryPath"
+Write-Log "Pipeline finished in $(Format-Elapsed ((Get-Date) - $pipelineStart)). Output root: $OutDir"
+Write-Log "Summary: $summaryPath"

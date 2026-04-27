@@ -1,0 +1,17 @@
+{
+  "total_sentences": 270,
+  "pii_related": {
+    "true": 155,
+    "false": 115,
+    "null": 0,
+    "ratio_of_total": 0.5740740740740741,
+    "ratio_of_labeled": 0.5740740740740741,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 187,
+    "false": 83,
+    "ratio_of_total": 0.6925925925925925
+  },
+  "doc_id": "小荷健康"
+}

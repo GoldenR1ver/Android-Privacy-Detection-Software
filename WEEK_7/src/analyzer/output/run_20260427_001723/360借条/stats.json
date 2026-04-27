@@ -1,0 +1,17 @@
+{
+  "total_sentences": 697,
+  "pii_related": {
+    "true": 267,
+    "false": 430,
+    "null": 0,
+    "ratio_of_total": 0.3830703012912482,
+    "ratio_of_labeled": 0.3830703012912482,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 290,
+    "false": 407,
+    "ratio_of_total": 0.41606886657101866
+  },
+  "doc_id": "360借条"
+}

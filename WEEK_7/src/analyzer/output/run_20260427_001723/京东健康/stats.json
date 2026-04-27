@@ -1,0 +1,17 @@
+{
+  "total_sentences": 323,
+  "pii_related": {
+    "true": 178,
+    "false": 145,
+    "null": 0,
+    "ratio_of_total": 0.5510835913312694,
+    "ratio_of_labeled": 0.5510835913312694,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 218,
+    "false": 105,
+    "ratio_of_total": 0.6749226006191951
+  },
+  "doc_id": "京东健康"
+}

@@ -4,7 +4,8 @@ import csv
 from pathlib import Path
 from typing import Any, Dict, List, Literal
 
-# Aligns with WEEK_3/src/2-2/data/*.csv column names and typical empty Data Safety cell.
+# Aligns with the legacy WEEK_3 CSV shape. In Lab3 mode, data_safety_content is reused
+# as optional same-cluster context; privacy_policy_content is the current sentence.
 WEEK3_FIELDNAMES = [
     "app_id",
     "app_pkg",
@@ -29,11 +30,11 @@ def build_audit_ds_from_cluster_peers(
     separator: str = "\n【同簇句】\n",
 ) -> str:
     """
-    Synthetic Data Safety text: concatenate peer sentences in the same HDBSCAN cluster
-    (excluding the current sentence). Privacy policy side stays the single current sentence.
+    Synthetic context text: concatenate peer sentences in the same HDBSCAN cluster
+    (excluding the current sentence). The policy side stays the single current sentence.
 
     Noise points (cluster_id < 0): use a sample of other sentences from the same document
-    as weak context so the model can still judge incomplete vs incorrect.
+    as weak context so the model can still identify the Lab3 right/method/test-candidate labels.
     """
     row = rows[index]
     cid_raw = row.get("cluster_id", -1)
@@ -51,8 +52,8 @@ def build_audit_ds_from_cluster_peers(
         sample = others[: min(20, len(others))]
         body = separator.join(sample) if sample else "（同文档无其它句）"
         header = (
-            "【Data Safety 侧说明】本句在句向量聚类中为噪声点（未归入稠密簇）。"
-            "下列为同文档中抽取的若干其它句子，仅作弱参照，不等价于应用商店 Data Safety 官方字段。\n\n"
+            "【参考上下文】本句在句向量聚类中为噪声点（未归入稠密簇）。"
+            "下列为同文档中抽取的若干其它句子，仅作 Lab3 行权方式识别的弱参照。\n\n"
         )
         return (header + body)[:max_chars]
 
@@ -63,7 +64,7 @@ def build_audit_ds_from_cluster_peers(
     ]
     if not peers:
         return (
-            "【Data Safety 侧说明】同簇除当前句外无其它同伴句；簇内披露视为极简。"
+            "【参考上下文】同簇除当前句外无其它同伴句。"
         )[:max_chars]
 
     parts: List[str] = []
@@ -76,9 +77,8 @@ def build_audit_ds_from_cluster_peers(
         used += step
     body = separator.join(parts)
     header = (
-        f"【Data Safety 侧：簇内语义聚合】以下为与当前 Privacy Policy 句同属 HDBSCAN 簇 #{cid} 的"
-        "其它句子汇总（不含当前句）。请将其视作「簇内数据实践摘要 / 简化披露」，"
-        "与右侧「当前单句 Privacy Policy」比对，判断 incorrect / incomplete / inconsistent。\n\n"
+        f"【参考上下文：簇内语义聚合】以下为与当前隐私政策句同属 HDBSCAN 簇 #{cid} 的"
+        "其它句子汇总（不含当前句）。仅用于辅助理解主题；最终仍只对当前句抽取 Lab3 行权字段。\n\n"
     )
     return (header + body)[:max_chars]
 
@@ -100,7 +100,7 @@ def write_week3_sentence_csv(
     app_id = app_id_start + sent_index (unique within this export).
 
     ds_mode:
-      empty: fixed EMPTY_DATA_SAFETY_CONTENT (legacy; incomplete/inconsistent rarely fire).
+      empty: fixed EMPTY_DATA_SAFETY_CONTENT (legacy placeholder; Lab3 prompt treats it as empty context).
       cluster_peers: rows must have been augmented with cluster_id from sentence_cluster.run_clustering.
     """
     path.parent.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,255 @@
+{
+    "bundle":  "WEEK_5",
+    "week5_root":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src",
+    "created_at_local":  "2026-04-27T09:30:26.4228994+08:00",
+    "full_pipeline":  true,
+    "data_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\data",
+    "output_root":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723",
+    "prepare_mode":  "classify",
+    "provider":  "deepseek",
+    "classify_limit":  0,
+    "run_audit":  true,
+    "audit_limit":  0,
+    "export_labeling_queue":  true,
+    "export_review_json":  true,
+    "labeling_top_n":  200,
+    "use_pii_shots":  true,
+    "pii_shots_json":  null,
+    "pii_shots_max":  12,
+    "run_cluster_analysis":  true,
+    "pre_audit_clustering_in_prepare":  true,
+    "cluster_embed_backend":  "flag",
+    "cluster_model":  "BAAI/bge-small-zh-v1.5",
+    "documents":  [
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\360借条\\audit_raw.csv",
+                          "doc_id":  "360借条",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\360借条\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\360借条",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\360借条\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\360借条\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\360借条\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\360借条\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\51Job\\audit_raw.csv",
+                          "doc_id":  "51Job",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\51Job\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\51Job",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\51Job\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\51Job\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\51Job\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\51Job\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\58同城\\audit_raw.csv",
+                          "doc_id":  "58同城",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\58同城\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\58同城",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\58同城\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\58同城\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\58同城\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\58同城\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Blued极速版\\audit_raw.csv",
+                          "doc_id":  "Blued极速版",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Blued极速版\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Blued极速版",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Blued极速版\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Blued极速版\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Blued极速版\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Blued极速版\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\BOSS\\audit_raw.csv",
+                          "doc_id":  "BOSS",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\BOSS\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\BOSS",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\BOSS\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\BOSS\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\BOSS\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\BOSS\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\BOSS直聘\\audit_raw.csv",
+                          "doc_id":  "BOSS直聘",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\BOSS直聘\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\BOSS直聘",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\BOSS直聘\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\BOSS直聘\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\BOSS直聘\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\BOSS直聘\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Hi 医生\\audit_raw.csv",
+                          "doc_id":  "Hi 医生",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Hi 医生\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Hi 医生",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Hi 医生\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Hi 医生\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Hi 医生\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Hi 医生\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Keep\\audit_raw.csv",
+                          "doc_id":  "Keep",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Keep\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Keep",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Keep\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Keep\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Keep\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Keep\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\LOFTER\\audit_raw.csv",
+                          "doc_id":  "LOFTER",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\LOFTER\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\LOFTER",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\LOFTER\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\LOFTER\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\LOFTER\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\LOFTER\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Soul\\audit_raw.csv",
+                          "doc_id":  "Soul",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Soul\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Soul",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Soul\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Soul\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Soul\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Soul\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\店长直聘\\audit_raw.csv",
+                          "doc_id":  "店长直聘",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\店长直聘\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\店长直聘",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\店长直聘\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\店长直聘\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\店长直聘\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\店长直聘\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\东方财富\\audit_raw.csv",
+                          "doc_id":  "东方财富",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\东方财富\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\东方财富",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\东方财富\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\东方财富\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\东方财富\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\东方财富\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\好大夫医生版\\audit_raw.csv",
+                          "doc_id":  "好大夫医生版",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\好大夫医生版\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\好大夫医生版",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\好大夫医生版\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\好大夫医生版\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\好大夫医生版\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\好大夫医生版\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\京东健康\\audit_raw.csv",
+                          "doc_id":  "京东健康",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\京东健康\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\京东健康",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\京东健康\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\京东健康\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\京东健康\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\京东健康\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\京东金融\\audit_raw.csv",
+                          "doc_id":  "京东金融",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\京东金融\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\京东金融",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\京东金融\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\京东金融\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\京东金融\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\京东金融\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\平安证券\\audit_raw.csv",
+                          "doc_id":  "平安证券",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\平安证券\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\平安证券",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\平安证券\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\平安证券\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\平安证券\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\平安证券\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\世纪佳缘\\audit_raw.csv",
+                          "doc_id":  "世纪佳缘",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\世纪佳缘\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\世纪佳缘",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\世纪佳缘\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\世纪佳缘\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\世纪佳缘\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\世纪佳缘\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\小荷健康\\audit_raw.csv",
+                          "doc_id":  "小荷健康",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\小荷健康\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\小荷健康",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\小荷健康\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\小荷健康\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\小荷健康\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\小荷健康\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\小红书\\audit_raw.csv",
+                          "doc_id":  "小红书",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\小红书\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\小红书",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\小红书\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\小红书\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\小红书\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\小红书\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\心脏健康研究\\audit_raw.csv",
+                          "doc_id":  "心脏健康研究",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\心脏健康研究\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\心脏健康研究",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\心脏健康研究\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\心脏健康研究\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\心脏健康研究\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\心脏健康研究\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\支付宝\\audit_raw.csv",
+                          "doc_id":  "支付宝",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\支付宝\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\支付宝",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\支付宝\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\支付宝\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\支付宝\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\支付宝\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\智联招聘\\audit_raw.csv",
+                          "doc_id":  "智联招聘",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\智联招聘\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\智联招聘",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\智联招聘\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\智联招聘\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\智联招聘\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\智联招聘\\sentences_week3_2_2.csv"
+                      },
+                      {
+                          "audit_raw":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\中国工商银行\\audit_raw.csv",
+                          "doc_id":  "中国工商银行",
+                          "for_labeling_jsonl":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\中国工商银行\\for_labeling.jsonl",
+                          "output_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\中国工商银行",
+                          "audit_processed":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\中国工商银行\\audit_processed.csv",
+                          "review_bundle_json":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\中国工商银行\\review_bundle.json",
+                          "cluster_analysis_dir":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\中国工商银行\\cluster_analysis",
+                          "week3_csv":  "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\中国工商银行\\sentences_week3_2_2.csv"
+                      }
+                  ]
+}

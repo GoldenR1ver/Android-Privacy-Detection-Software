@@ -1,0 +1,17 @@
+{
+  "total_sentences": 347,
+  "pii_related": {
+    "true": 181,
+    "false": 166,
+    "null": 0,
+    "ratio_of_total": 0.521613832853026,
+    "ratio_of_labeled": 0.521613832853026,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 231,
+    "false": 116,
+    "ratio_of_total": 0.6657060518731989
+  },
+  "doc_id": "Soul"
+}
