@@ -1,0 +1,51 @@
+{
+  "app_name": "好大夫医生版",
+  "right_type": "access",
+  "test_cases": 2,
+  "passed": 0,
+  "failed": 0,
+  "error": 0,
+  "skipped": 2,
+  "pass_rate": 0.0,
+  "avg_findability": 1.0,
+  "avg_functionality": 1.0,
+  "avg_efficiency": 1.0,
+  "avg_consistency": 1.0,
+  "avg_score": 20.0,
+  "results": [
+    {
+      "case_id": "好大夫医生版-access-0257",
+      "app_name": "好大夫医生版",
+      "right_type": "access",
+      "channel": "web",
+      "status": "SKIP",
+      "findability_score": 1,
+      "functionality_score": 1,
+      "efficiency_score": 1,
+      "consistency_score": 1,
+      "usability_score": 20.0,
+      "steps_taken": [],
+      "error_message": "path_text 中未提取到有效URL: 登录【我的中心】",
+      "screenshot_paths": [],
+      "duration_sec": 0.00019979476928710938,
+      "notes": "需人工确认网址"
+    },
+    {
+      "case_id": "好大夫医生版-access-0260",
+      "app_name": "好大夫医生版",
+      "right_type": "access",
+      "channel": "web",
+      "status": "SKIP",
+      "findability_score": 1,
+      "functionality_score": 1,
+      "efficiency_score": 1,
+      "consistency_score": 1,
+      "usability_score": 20.0,
+      "steps_taken": [],
+      "error_message": "path_text 中未提取到有效URL: 访问website_url_lnk",
+      "screenshot_paths": [],
+      "duration_sec": 4.291534423828125e-06,
+      "notes": "需人工确认网址"
+    }
+  ]
+}

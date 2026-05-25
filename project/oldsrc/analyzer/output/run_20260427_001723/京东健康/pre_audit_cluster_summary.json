@@ -1,0 +1,49 @@
+{
+  "num_clusters": 3,
+  "noise_count": 0,
+  "noise_fraction": 0.0,
+  "hard_example_indices": [],
+  "clusters": {
+    "0": {
+      "size": 19,
+      "sample_texts": [
+        "We're sorry but jdh-red-packet-h5 doesn't work properly without JavaScript enabled.",
+        "（3）下单",
+        "（3）android.permission.",
+        "（6）android.permission.",
+        "（9）(android.permission."
+      ]
+    },
+    "1": {
+      "size": 15,
+      "sample_texts": [
+        "INTERNET（访问网络权限）：实现应用程序联网",
+        "VIBRATE（使用振动权限）：允许手机振动",
+        "MODIFY_AUDIO_SETTINGS（修改声音设置权限）：修改全局音频设置，例如调节音量和用于输出的扬声器",
+        "SYSTEM_ALERT_WINDOW（悬浮窗权限）：观看直播、短视频悬浮窗播放",
+        "GET_TASKS（获取任务信息权限）：允许应用获取当前或最近运行的应用"
+      ]
+    },
+    "2": {
+      "size": 289,
+      "sample_texts": [
+        "本政策仅适用于北京京东叁佰陆拾度电子商务有限公司及其关联公司（包括但不限于北京京东世纪贸易有限公司，以下或称\"我们\"或\"京东健康\"）提供的产品和服务及其延伸的功能（以下简称\"京东健康服务\"），包括京东健康 APP、网站、客户端、小程序以及随技术发展出现的新形态向您提供的各项产品和服务。",
+        "未来我们可能会将人脸识别技术应用于更多场景，但那时我们会再次与您确认您是否愿意我们使用您的面部信息来实现这些扩展功能。",
+        "您可根据自己的偏好管理或删除 Cookies。",
+        "安全认证和服务。",
+        "而且我们在推荐窗内设置了屏蔽功能，您可选择屏蔽您不喜欢的广告。"
+      ]
+    }
+  },
+  "embed_backend": "flag",
+  "model_name": "BAAI/bge-small-zh-v1.5",
+  "umap": {
+    "n_neighbors": 15,
+    "min_dist": 0.08,
+    "metric": "cosine"
+  },
+  "hdbscan": {
+    "min_cluster_size": 8,
+    "min_samples": 3
+  }
+}

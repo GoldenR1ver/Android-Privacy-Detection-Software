@@ -1,0 +1,17 @@
+{
+  "total_sentences": 387,
+  "pii_related": {
+    "true": 251,
+    "false": 136,
+    "null": 0,
+    "ratio_of_total": 0.648578811369509,
+    "ratio_of_labeled": 0.648578811369509,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 312,
+    "false": 75,
+    "ratio_of_total": 0.8062015503875969
+  },
+  "doc_id": "中国工商银行"
+}

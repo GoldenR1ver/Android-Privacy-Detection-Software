@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "stage": "stage3_dynamic",
+  "app_name": "支付宝",
+  "app_package": "com.eg.android.AlipayGphone",
+  "dry_run": false,
+  "generated_at_utc": "2026-05-25T04:45:18.481892+00:00",
+  "candidate_pii": [
+    "imei",
+    "android_id",
+    "location",
+    "ip_address",
+    "mac_address",
+    "phone_number"
+  ],
+  "ui_result": {
+    "runner": "appium",
+    "mode": "real",
+    "timestamp_utc": "2026-05-25T04:45:18.481447+00:00",
+    "steps": [
+      "adb_foreground_before=com.eg.android.AlipayGphone",
+      "session_created_attempt1=ok",
+      "session_created",
+      "foreground_ok[com.eg.android.AlipayGphone]=attempt1",
+      "foreground_package=com.eg.android.AlipayGphone",
+      "navigate_path_1=我 > 用户保护中心 > 隐私设置",
+      "tap[我]=ok",
+      "tap[用户保护中心]=miss_try_me_first",
+      "fallback_tap[我的]=ok",
+      "tap[用户保护中心]=miss_try_scroll",
+      "scroll_gesture_down[用户保护中心]=ok",
+      "tap[用户保护中心]=miss_try_sidebar_fallback",
+      "sidebar_xml_before:xml_drawer_open=False xml_trigger=False menu=-",
+      "sidebar_skip=no_drawer_trigger_in_xml",
+      "tap[用户保护中心]=miss",
+      "nav_path_1_stopped_at=用户保护中心",
+      "path_2_reset_start",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.eg.android.AlipayGphone",
+      "foreground_ok[com.eg.android.AlipayGphone]=post_activate1",
+      "path_2_reset=terminate_activate",
+      "navigate_path_2=我 > 设置 > 账号与安全",
+      "tap[我]=ok",
+      "tap[设置]=ok",
+      "tap[账号与安全]=miss_try_me_first",
+      "tap[账号与安全]=timeout_15s",
+      "nav_path_2_stopped_at=账号与安全",
+      "screenshot_captured"
+    ],
+    "policy_path_hints": [
+      "5 、您可以通过本政策介绍的方式访问和管理您的信息、设置隐私功能、注销支付宝账户或进行投诉举报",
+      "（ 7 ） 为了提升用户服务体验，为用户推荐更为优质或适合的服务， 我们可能会根据用户的个人信息（包括身份信息、设备信息、网络信息、操作记录）进行综合分析，用于向用户提供其可能感兴趣的营销活动通知、商业性电子信息或广告。如您不希望接收此类信息，您可通过短信、消息通知设置或按照我们提示的方法选择是否接收 ， 您还可以通过支付宝 APP \" 用户保护中心 → 隐私设置 \" 中的功能进行设置",
+      "为了确保转账、收款目标对象的准确性，避免因输错账号导致资金损失，他人可通过搜索您的 邮箱、手机号 搜索到您，并看到您账户对应的 脱敏后的支付宝登录名以及对应的昵称、头像、是否已实名及地区 ，以便向您转账、收款或添加您为支付宝好友。您可通过支付宝 APP\" 我的 → 用户保护中心 → 隐私设置 → 常用隐私设置 \" 予以关闭通过邮箱或手机号搜索到您的功能。同时，您还可以开启 \" 加我为朋友时需要验证 \" 功能",
+      "您在登录支付宝账户且完成必要的身份核验后，可通过支付宝官方网站的 \" 账户管理 \" 和 \" 服务大厅 → 自助服务 \" ，或通过支付宝 APP 的 \" 我的 → 个人信息 \" 、 \" 我的 → 设置 \" 、 \" 用户保护中心, 隐私保护 \" 管理您的信息：",
+      "（ 1 ） 查阅您的身份信息、账单信息、账户信息、登录设备以及绑定的银行卡信息。 为了您的个人信息安全，您的身份证号码和银行账户会进行脱敏展示； 为了保护您的信息安全，您可以通过支付宝 APP 中的 \" 我的 → 设置 → 账号与安全 → 解锁设置 \" 选择需要解锁的页面，完成设置后，必须完成指纹、面容 ID 或手势解锁后方可进入相应的页面",
+      "（ 4 ）您可以通过\"我的 → 用户保护中心 → 个人信息已收集清单 → 身份信息\"导出、下载个人信息，通过支付宝 APP 或支付宝官方网站申请开具、下载转账电子回单、交易记录账单",
+      "如您想改变授权范围，您可通过手机权限设置及支付宝 APP\" 我的 → 用户保护中心 → 隐私设置 → 常用隐私设置 \" 修改授权范围，例如：是否向好友公开您的真实姓名、是否开启生日提醒等；还可通过支付宝 APP\" 我的 → 用户保护中心 → 隐私设置 → 授权管理 / 账号授权 \" 取消向第三方共享信息的授权。当您取消信息收集的授权后，我们将不再收集该信息；在您取消向第三方共享信息的授权后，我们将不再在该业务场景下向该第三方提供信息。您亦可通过向在线客服或客服热线提出申请，管理您的设备相关应用信息 / 软件安装列表的信息收集",
+      "支付宝官网操作路径：打开 website_url_lnk 登录支付宝账户，通过 \" 服务大厅 → 自助服务 → 账户自助 → 注销账户 \" "
+    ],
+    "navigation_paths": [
+      [
+        "我",
+        "用户保护中心",
+        "隐私设置"
+      ],
+      [
+        "我",
+        "设置",
+        "账号与安全"
+      ]
+    ],
+    "navigation_path_records": [
+      {
+        "source_hint": "（ 7 ） 为了提升用户服务体验，为用户推荐更为优质或适合的服务， 我们可能会根据用户的个人信息（包括身份信息、设备信息、网络信息、操作记录）进行综合分析，用于向用户提供其可能感兴趣的营销活动通知、商业性电子信息或广告。如您不希望接收此类信息，您可通过短信、消息通知设置或按照我们提示的方法选择是否接收 ， 您还可以通过支付宝 APP \" 用户保护中心 → 隐私设置 \" 中的功能进行设置",
+        "original_path": [
+          "我",
+          "用户保护中心",
+          "隐私设置"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我",
+          "用户保护中心",
+          "隐私设置"
+        ],
+        "would_have_inserted_at": null,
+        "path_index": 1,
+        "matched_hint": "（ 7 ） 为了提升用户服务体验，为用户推荐更为优质或适合的服务， 我们可能会根据用户的个人信息（包括身份信息、设备信息、网络信息、操作记录）进行综合分析，用于向用户提供其可能感兴趣的营销活动通知、商业性电子信息或广告。如您不希望接收此类信息，您可通过短信、消息通知设置或按照我们提示的方法选择是否接收 ， 您还可以通过支付宝 APP \" 用户保护中心 → 隐私设置 \" 中的功能进行设置",
+        "expanded_path": [
+          "我",
+          "用户保护中心",
+          "隐私设置"
+        ]
+      },
+      {
+        "source_hint": "（ 1 ） 查阅您的身份信息、账单信息、账户信息、登录设备以及绑定的银行卡信息。 为了您的个人信息安全，您的身份证号码和银行账户会进行脱敏展示； 为了保护您的信息安全，您可以通过支付宝 APP 中的 \" 我的 → 设置 → 账号与安全 → 解锁设置 \" 选择需要解锁的页面，完成设置后，必须完成指纹、面容 ID 或手势解锁后方可进入相应的页面",
+        "original_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 2,
+        "matched_hint": "（ 1 ） 查阅您的身份信息、账单信息、账户信息、登录设备以及绑定的银行卡信息。 为了您的个人信息安全，您的身份证号码和银行账户会进行脱敏展示； 为了保护您的信息安全，您可以通过支付宝 APP 中的 \" 我的 → 设置 → 账号与安全 → 解锁设置 \" 选择需要解锁的页面，完成设置后，必须完成指纹、面容 ID 或手势解锁后方可进入相应的页面",
+        "expanded_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ]
+      }
+    ],
+    "screenshots": [
+      "output\\stage3_dynamic_real\\支付宝\\screenshots\\支付宝_20260525_124414_launch.png",
+      "output\\stage3_dynamic_real\\支付宝\\screenshots\\支付宝_20260525_124419_path1.png",
+      "output\\stage3_dynamic_real\\支付宝\\screenshots\\支付宝_20260525_124442_path1.png",
+      "output\\stage3_dynamic_real\\支付宝\\screenshots\\支付宝_20260525_124459_path2.png",
+      "output\\stage3_dynamic_real\\支付宝\\screenshots\\支付宝_20260525_124501_path2.png",
+      "output\\stage3_dynamic_real\\支付宝\\screenshots\\支付宝_20260525_124518_path2.png"
+    ],
+    "keyword_checks": [
+      {
+        "path_index": 1,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": true,
+          "我的": true,
+          "个人": true,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": true
+        }
+      },
+      {
+        "path_index": 1,
+        "step_token": "用户保护中心",
+        "matched": true,
+        "checks": {
+          "用户保护中心": false,
+          "我的": true,
+          "隐私": false,
+          "设置": true,
+          "我": true
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": true,
+          "我的": true,
+          "个人": false,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": true
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "设置",
+        "matched": true,
+        "checks": {
+          "设置": true,
+          "我的": false,
+          "隐私": false,
+          "我": false
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "账号与安全",
+        "matched": false,
+        "checks": {
+          "账号与安全": false,
+          "我的": false,
+          "隐私": false,
+          "设置": true,
+          "我": false
+        }
+      }
+    ],
+    "error": ""
+  },
+  "frida_result": {
+    "runner": "frida",
+    "mode": "real",
+    "launch_mode": "attach",
+    "package": "com.eg.android.AlipayGphone",
+    "registered_hooks": {
+      "imei": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js"
+      ],
+      "android_id": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js"
+      ],
+      "location": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js"
+      ],
+      "ip_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "mac_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "phone_number": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js"
+      ]
+    },
+    "events": [],
+    "error": "Frida attach failed: unable to attach with Java to 'com.eg.android.AlipayGphone' (app_name='支付宝'): pid(12087,Alipay)#1: java_not_ready; pid(12087,Alipay)#2: java_not_ready; pid(12087,Alipay)#3: java_not_ready. On MuMu, keep 支付宝 in foreground; avoid attaching only the child process named 'com.eg.android.AlipayGphone' if injection is refused.. Open 支付宝 on the emulator and keep it in the foreground, then retry.",
+    "sync_mode": true,
+    "capture_started_at_utc": "2026-05-25T04:43:05.755156+00:00",
+    "runtime_event_count": 0
+  },
+  "path_suggestions": [
+    "5 、您可以通过本政策介绍的方式访问和管理您的信息、设置隐私功能、注销支付宝账户或进行投诉举报。",
+    "（ 7 ） 为了提升用户服务体验，为用户推荐更为优质或适合的服务， 我们可能会根据用户的个人信息（包括身份信息、设备信息、网络信息、操作记录）进行综合分析，用于向用户提供其可能感兴趣的营销活动通知、商业性电子信息或广告。如您不希望接收此类信息，您可通过短信、消息通知设置或按照我们提示的方法选择是否接收 ， 您还可以通过支付宝 APP \" 用户保护中心 → 隐私设置 \" 中的功能进行设置。",
+    "为了确保转账、收款目标对象的准确性，避免因输错账号导致资金损失，他人可通过搜索您的 邮箱、手机号 搜索到您，并看到您账户对应的 脱敏后的支付宝登录名以及对应的昵称、头像、是否已实名及地区 ，以便向您转账、收款或添加您为支付宝好友。您可通过支付宝 APP\" 我的 → 用户保护中心 → 隐私设置 → 常用隐私设置 \" 予以关闭通过邮箱或手机号搜索到您的功能。同时，您还可以开启 \" 加我为朋友时需要验证 \" 功能。",
+    "您在登录支付宝账户且完成必要的身份核验后，可通过支付宝官方网站的 \" 账户管理 \" 和 \" 服务大厅 → 自助服务 \" ，或通过支付宝 APP 的 \" 我的 → 个人信息 \" 、 \" 我的 → 设置 \" 、 \" 用户保护中心, 隐私保护 \" 管理您的信息：",
+    "（ 1 ） 查阅您的身份信息、账单信息、账户信息、登录设备以及绑定的银行卡信息。 为了您的个人信息安全，您的身份证号码和银行账户会进行脱敏展示； 为了保护您的信息安全，您可以通过支付宝 APP 中的 \" 我的 → 设置 → 账号与安全 → 解锁设置 \" 选择需要解锁的页面，完成设置后，必须完成指纹、面容 ID 或手势解锁后方可进入相应的页面；",
+    "（ 4 ）您可以通过\"我的 → 用户保护中心 → 个人信息已收集清单 → 身份信息\"导出、下载个人信息，通过支付宝 APP 或支付宝官方网站申请开具、下载转账电子回单、交易记录账单。",
+    "如您想改变授权范围，您可通过手机权限设置及支付宝 APP\" 我的 → 用户保护中心 → 隐私设置 → 常用隐私设置 \" 修改授权范围，例如：是否向好友公开您的真实姓名、是否开启生日提醒等；还可通过支付宝 APP\" 我的 → 用户保护中心 → 隐私设置 → 授权管理 / 账号授权 \" 取消向第三方共享信息的授权。当您取消信息收集的授权后，我们将不再收集该信息；在您取消向第三方共享信息的授权后，我们将不再在该业务场景下向该第三方提供信息。您亦可通过向在线客服或客服热线提出申请，管理您的设备相关应用信息 / 软件安装列表的信息收集。",
+    "支付宝官网操作路径：打开 website_url_lnk 登录支付宝账户，通过 \" 服务大厅 → 自助服务 → 账户自助 → 注销账户 \" 。",
+    "UI observed steps: adb_foreground_before=com.eg.android.AlipayGphone | session_created_attempt1=ok | session_created",
+    "Check path for pii_type=imei"
+  ],
+  "explanation": "Collected dynamic evidence for 支付宝: candidate_pii=6, ui_steps=27, screenshots=6, frida_registered_types=6, frida_events=0. This explanation is descriptive only and does not produce verdict.",
+  "evidence_items": [
+    {
+      "app_name": "支付宝",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_dynamic_real\\支付宝\\screenshots\\支付宝_20260525_124414_launch.png",
+      "timestamp_utc": "2026-05-25T04:45:18.481447+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "支付宝",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_dynamic_real\\支付宝\\screenshots\\支付宝_20260525_124419_path1.png",
+      "timestamp_utc": "2026-05-25T04:45:18.481447+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "支付宝",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_dynamic_real\\支付宝\\screenshots\\支付宝_20260525_124442_path1.png",
+      "timestamp_utc": "2026-05-25T04:45:18.481447+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "支付宝",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_dynamic_real\\支付宝\\screenshots\\支付宝_20260525_124459_path2.png",
+      "timestamp_utc": "2026-05-25T04:45:18.481447+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "支付宝",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_dynamic_real\\支付宝\\screenshots\\支付宝_20260525_124501_path2.png",
+      "timestamp_utc": "2026-05-25T04:45:18.481447+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "支付宝",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_dynamic_real\\支付宝\\screenshots\\支付宝_20260525_124518_path2.png",
+      "timestamp_utc": "2026-05-25T04:45:18.481447+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    }
+  ],
+  "capture_meta": {
+    "sync_mode": true,
+    "frida_grace_sec": 5,
+    "frida_tail_sec": 3,
+    "frida_runtime_events": 0
+  },
+  "summary": {
+    "ui_steps": 27,
+    "screenshots": 6,
+    "keyword_checks": 5,
+    "keyword_match_count": 4,
+    "registered_hook_types": 6,
+    "frida_events": 0,
+    "frida_runtime_events": 0,
+    "candidate_pii_count": 6
+  }
+}

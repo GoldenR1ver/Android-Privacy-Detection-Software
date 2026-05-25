@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "stage": "stage3_dynamic",
+  "app_name": "好大夫医生版",
+  "app_package": "com.haodf.android.doctor",
+  "dry_run": false,
+  "generated_at_utc": "2026-05-24T13:24:11.373196+00:00",
+  "candidate_pii": [
+    "android_id",
+    "contact_list",
+    "imei",
+    "ip_address",
+    "location"
+  ],
+  "ui_result": {
+    "runner": "appium",
+    "mode": "real",
+    "timestamp_utc": "2026-05-24T13:24:11.372926+00:00",
+    "steps": [
+      "session_created",
+      "app_activated",
+      "foreground_package=com.haodf.android.doctor",
+      "navigate_path_1=我们 > 关于我们",
+      "tap[我们]=miss_try_me_first",
+      "fallback_tap[我]=ok",
+      "tap[我们]=miss_try_sidebar_fallback",
+      "sidebar_xml_before:xml_drawer_open=False xml_trigger=False menu=-",
+      "sidebar=timeout",
+      "sidebar_fallback_after_我们=failed",
+      "tap[我们]=timeout_15s",
+      "nav_path_1_stopped_at=我们",
+      "path_2_reset_start",
+      "path_2_reset=terminate_activate",
+      "navigate_path_2=您可通过APP上【我 > 点击头像",
+      "tap[您可通过APP上【我]=miss_try_me_first",
+      "fallback_tap[我]=ok",
+      "tap[您可通过APP上【我]=miss_try_sidebar_fallback",
+      "sidebar_xml_before:xml_drawer_open=False xml_trigger=False menu=-",
+      "sidebar=timeout",
+      "sidebar_fallback_after_您可通过APP上【我=failed",
+      "tap[您可通过APP上【我]=timeout_15s",
+      "nav_path_2_stopped_at=您可通过APP上【我",
+      "screenshot_captured"
+    ],
+    "policy_path_hints": [
+      "本隐私政策适用于好大夫医生版 App 软件，开发者为北京新医强国科技有限公司（好大夫在线），以下简称为「我们」，联系地址：北京市朝阳区三间房南里4号院DREAM2049国际文创产业园B05栋。有关好大夫在线的更多信息，请访问我们官网中「关于我们」的部分，网址为website_url_lnk",
+      "您可通过APP上【我 → 点击头像 → 维护资料】，更新头像、出生日期、职称、教学职称、更新职业证件信息",
+      "您可通过【我 → 推广与活动】，点击右上角的删除按钮，删除医院活动",
+      "您可通过【我 → 设置 → 清空缓存】，删除您在好大夫在线的浏览记录",
+      "您有权获取您的个人信息副本，您可通过【我 → 设置 → 隐私管理 →个人信息浏览与导出 】导出您的个人信息副本，我们将在 15 日内对您的请求进行处理"
+    ],
+    "navigation_paths": [
+      [
+        "我们",
+        "关于我们"
+      ],
+      [
+        "您可通过APP上【我",
+        "点击头像"
+      ]
+    ],
+    "navigation_path_records": [
+      {
+        "source_hint": "本隐私政策适用于好大夫医生版 App 软件，开发者为北京新医强国科技有限公司（好大夫在线），以下简称为「我们」，联系地址：北京市朝阳区三间房南里4号院DREAM2049国际文创产业园B05栋。有关好大夫在线的更多信息，请访问我们官网中「关于我们」的部分，网址为website_url_lnk",
+        "original_path": [
+          "我们",
+          "关于我们"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "更多",
+        "canonical_path": [
+          "我们",
+          "关于我们"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 1,
+        "matched_hint": "本隐私政策适用于好大夫医生版 App 软件，开发者为北京新医强国科技有限公司（好大夫在线），以下简称为「我们」，联系地址：北京市朝阳区三间房南里4号院DREAM2049国际文创产业园B05栋。有关好大夫在线的更多信息，请访问我们官网中「关于我们」的部分，网址为website_url_lnk",
+        "expanded_path": [
+          "我们",
+          "关于我们"
+        ]
+      },
+      {
+        "source_hint": "您可通过APP上【我 → 点击头像 → 维护资料】，更新头像、出生日期、职称、教学职称、更新职业证件信息",
+        "original_path": [
+          "您可通过APP上【我",
+          "点击头像"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "您可通过APP上【我",
+          "点击头像"
+        ],
+        "would_have_inserted_at": null,
+        "path_index": 2,
+        "matched_hint": "您可通过APP上【我 → 点击头像 → 维护资料】，更新头像、出生日期、职称、教学职称、更新职业证件信息",
+        "expanded_path": [
+          "您可通过APP上【我",
+          "点击头像"
+        ]
+      }
+    ],
+    "screenshots": [
+      "output\\stage3_dynamic_real\\好大夫医生版\\screenshots\\好大夫医生版_20260524_212336_launch.png",
+      "output\\stage3_dynamic_real\\好大夫医生版\\screenshots\\好大夫医生版_20260524_212352_path1.png",
+      "output\\stage3_dynamic_real\\好大夫医生版\\screenshots\\好大夫医生版_20260524_212410_path2__APP.png"
+    ],
+    "keyword_checks": [
+      {
+        "path_index": 1,
+        "step_token": "我们",
+        "matched": false,
+        "checks": {
+          "我们": false,
+          "我的": false,
+          "隐私": false,
+          "设置": false,
+          "我": false
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "您可通过APP上【我",
+        "matched": false,
+        "checks": {
+          "您可通过APP上【我": false,
+          "我的": false,
+          "隐私": false,
+          "设置": false,
+          "我": false
+        }
+      }
+    ],
+    "error": ""
+  },
+  "frida_result": {
+    "runner": "frida",
+    "mode": "real",
+    "launch_mode": "attach",
+    "package": "com.haodf.android.doctor",
+    "registered_hooks": {
+      "android_id": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js"
+      ],
+      "contact_list": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js"
+      ],
+      "imei": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js"
+      ],
+      "ip_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "location": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js"
+      ]
+    },
+    "events": [],
+    "error": "Frida attach failed: no process found for package='com.haodf.android.doctor' app_name='好大夫医生版'; open Keep and keep it in foreground before stage3. Keep com.haodf.android.doctor in foreground and retry.",
+    "sync_mode": true,
+    "capture_started_at_utc": "2026-05-24T13:23:28.006298+00:00",
+    "runtime_event_count": 0
+  },
+  "path_suggestions": [
+    "您可通过APP上【我 → 点击头像 → 维护资料】，更新头像、出生日期、职称、教学职称、更新职业证件信息；",
+    "您可通过【我 → 推广与活动】，点击右上角的删除按钮，删除医院活动；",
+    "您可通过【我 → 设置 → 清空缓存】，删除您在好大夫在线的浏览记录；",
+    "您有权获取您的个人信息副本，您可通过【我 → 设置 → 隐私管理 →个人信息浏览与导出 】导出您的个人信息副本，我们将在 15 日内对您的请求进行处理。",
+    "UI observed steps: session_created | app_activated | foreground_package=com.haodf.android.doctor",
+    "Check path for pii_type=android_id",
+    "Check path for pii_type=contact_list",
+    "Check path for pii_type=imei"
+  ],
+  "explanation": "Collected dynamic evidence for 好大夫医生版: candidate_pii=5, ui_steps=24, screenshots=3, frida_registered_types=5, frida_events=0. This explanation is descriptive only and does not produce verdict.",
+  "evidence_items": [
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_dynamic_real\\好大夫医生版\\screenshots\\好大夫医生版_20260524_212336_launch.png",
+      "timestamp_utc": "2026-05-24T13:24:11.372926+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_dynamic_real\\好大夫医生版\\screenshots\\好大夫医生版_20260524_212352_path1.png",
+      "timestamp_utc": "2026-05-24T13:24:11.372926+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_dynamic_real\\好大夫医生版\\screenshots\\好大夫医生版_20260524_212410_path2__APP.png",
+      "timestamp_utc": "2026-05-24T13:24:11.372926+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    }
+  ],
+  "capture_meta": {
+    "sync_mode": true,
+    "frida_grace_sec": 5,
+    "frida_tail_sec": 3,
+    "frida_runtime_events": 0
+  },
+  "summary": {
+    "ui_steps": 24,
+    "screenshots": 3,
+    "keyword_checks": 2,
+    "keyword_match_count": 0,
+    "registered_hook_types": 5,
+    "frida_events": 0,
+    "frida_runtime_events": 0,
+    "candidate_pii_count": 5
+  }
+}

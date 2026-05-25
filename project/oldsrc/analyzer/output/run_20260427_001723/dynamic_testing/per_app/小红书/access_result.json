@@ -1,0 +1,119 @@
+{
+  "app_name": "小红书",
+  "right_type": "access",
+  "test_cases": 4,
+  "passed": 2,
+  "failed": 2,
+  "error": 0,
+  "skipped": 0,
+  "pass_rate": 0.5,
+  "avg_findability": 3.25,
+  "avg_functionality": 3.0,
+  "avg_efficiency": 3.0,
+  "avg_consistency": 3.0,
+  "avg_score": 61.5,
+  "results": [
+    {
+      "case_id": "小红书-access-0256",
+      "app_name": "小红书",
+      "right_type": "access",
+      "channel": "app_ui",
+      "status": "PASS",
+      "findability_score": 5,
+      "functionality_score": 5,
+      "efficiency_score": 5,
+      "consistency_score": 5,
+      "usability_score": 100.0,
+      "steps_taken": [
+        "tap → 「我」（XPath精确文本: 我）",
+        "tap → 「设置」（跨页兜底：个人页后命中，app-xpath）",
+        "tap → 「隐私」（XPath精确文本: 隐私设置）",
+        "LLM评估: 隐私设置页面可直接访问，包含多项隐私选项，符合政策描述"
+      ],
+      "error_message": "",
+      "screenshot_paths": [
+        "output\\run_20260427_001723\\dynamic_testing\\per_app\\小红书\\screenshots\\20260509_014326_314_小红书-access-0256_end.png"
+      ],
+      "duration_sec": 50.19,
+      "notes": "LLM: 隐私设置页面可直接访问，包含多项隐私选项，符合政策描述"
+    },
+    {
+      "case_id": "小红书-access-0257",
+      "app_name": "小红书",
+      "right_type": "access",
+      "channel": "app_ui",
+      "status": "FAIL",
+      "findability_score": 2,
+      "functionality_score": 1,
+      "efficiency_score": 1,
+      "consistency_score": 1,
+      "usability_score": 26.0,
+      "steps_taken": [
+        "tap → 「我」（XPath精确文本: 我）",
+        "tap_any候选无跳页: 笔记，继续尝试下一个",
+        "tap_any命中: tap → 「收藏」（XPath精确文本: 收藏）（页面已变化）",
+        "替代通道探测路径: tap → 「设置」（跨页兜底：个人页后命中，app-xpath）",
+        "替代通道探测路径: check → 帮助与客服: 记录（非自动化验证）",
+        "替代通道探测: 通过路径「设置 - 帮助与客服」发现「帮助与客服」入口",
+        "LLM评估: 当前页面为个人主页，未找到‘笔记/收藏/赞过’的访问入口，无法验证访问、更正、删除功能"
+      ],
+      "error_message": "",
+      "screenshot_paths": [
+        "output\\run_20260427_001723\\dynamic_testing\\per_app\\小红书\\screenshots\\20260509_014425_606_小红书-access-0257_end.png"
+      ],
+      "duration_sec": 51.16,
+      "notes": "LLM: 当前页面为个人主页，未找到‘笔记/收藏/赞过’的访问入口，无法验证访问、更正、删除功能 | 归因: 产品缺口（App内缺少导出副本入口） | 替代通道: 已发现客服/工单/邮箱入口"
+    },
+    {
+      "case_id": "小红书-access-0254",
+      "app_name": "小红书",
+      "right_type": "access",
+      "channel": "app_ui",
+      "status": "PASS",
+      "findability_score": 5,
+      "functionality_score": 5,
+      "efficiency_score": 5,
+      "consistency_score": 5,
+      "usability_score": 100.0,
+      "steps_taken": [
+        "tap → 「我」（XPath精确文本: 我）",
+        "tap → 「编辑资料」（XPath可点击精确匹配: 编辑资料）",
+        "替代通道探测路径: tap → 「设置」：未找到该元素",
+        "替代通道探测路径: tap → 「我」（图标底栏兜底: index=4）",
+        "替代通道探测路径: tap → 「设置」：未找到该元素",
+        "替代通道探测路径: check → 帮助与客服: 记录（非自动化验证）",
+        "替代通道探测: 未发现客服/工单/邮箱类入口",
+        "LLM评估: 页面标题为'编辑资料'，与路径'我-编辑资料'一致，可查看并修改个人资料，且无导出副本功能，符合隐私政策声明。"
+      ],
+      "error_message": "",
+      "screenshot_paths": [
+        "output\\run_20260427_001723\\dynamic_testing\\per_app\\小红书\\screenshots\\20260509_014641_069_小红书-access-0254_end.png"
+      ],
+      "duration_sec": 125.88,
+      "notes": "LLM: 页面标题为'编辑资料'，与路径'我-编辑资料'一致，可查看并修改个人资料，且无导出副本功能，符合隐私政策声明。"
+    },
+    {
+      "case_id": "小红书-access-0255",
+      "app_name": "小红书",
+      "right_type": "access",
+      "channel": "app_ui",
+      "status": "FAIL",
+      "findability_score": 1,
+      "functionality_score": 1,
+      "efficiency_score": 1,
+      "consistency_score": 1,
+      "usability_score": 20.0,
+      "steps_taken": [
+        "tap → 「我」（XPath精确文本: 我）",
+        "tap → 「设置」：未找到该元素",
+        "LLM评估: 当前屏幕为系统弹窗，未进入目标页面，无法验证"
+      ],
+      "error_message": "",
+      "screenshot_paths": [
+        "output\\run_20260427_001723\\dynamic_testing\\per_app\\小红书\\screenshots\\20260509_015229_100_小红书-access-0255_end.png"
+      ],
+      "duration_sec": 339.95,
+      "notes": "LLM: 当前屏幕为系统弹窗，未进入目标页面，无法验证 | 归因: 导航未达目标页 | 替代通道: 未发现明确入口"
+    }
+  ]
+}

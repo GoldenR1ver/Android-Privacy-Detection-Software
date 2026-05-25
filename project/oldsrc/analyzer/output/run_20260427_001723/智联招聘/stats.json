@@ -1,0 +1,17 @@
+{
+  "total_sentences": 372,
+  "pii_related": {
+    "true": 205,
+    "false": 167,
+    "null": 0,
+    "ratio_of_total": 0.5510752688172043,
+    "ratio_of_labeled": 0.5510752688172043,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 233,
+    "false": 139,
+    "ratio_of_total": 0.6263440860215054
+  },
+  "doc_id": "智联招聘"
+}

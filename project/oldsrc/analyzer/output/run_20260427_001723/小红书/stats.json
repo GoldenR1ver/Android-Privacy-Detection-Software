@@ -1,0 +1,17 @@
+{
+  "total_sentences": 296,
+  "pii_related": {
+    "true": 160,
+    "false": 136,
+    "null": 0,
+    "ratio_of_total": 0.5405405405405406,
+    "ratio_of_labeled": 0.5405405405405406,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 165,
+    "false": 131,
+    "ratio_of_total": 0.5574324324324325
+  },
+  "doc_id": "小红书"
+}

@@ -1,0 +1,17 @@
+{
+  "total_sentences": 221,
+  "pii_related": {
+    "true": 108,
+    "false": 113,
+    "null": 0,
+    "ratio_of_total": 0.48868778280542985,
+    "ratio_of_labeled": 0.48868778280542985,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 131,
+    "false": 90,
+    "ratio_of_total": 0.5927601809954751
+  },
+  "doc_id": "店长直聘"
+}

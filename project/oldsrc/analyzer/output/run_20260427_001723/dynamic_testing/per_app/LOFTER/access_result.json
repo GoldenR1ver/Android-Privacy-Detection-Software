@@ -1,0 +1,34 @@
+{
+  "app_name": "LOFTER",
+  "right_type": "access",
+  "test_cases": 1,
+  "passed": 0,
+  "failed": 0,
+  "error": 0,
+  "skipped": 1,
+  "pass_rate": 0.0,
+  "avg_findability": 3.0,
+  "avg_functionality": 0.0,
+  "avg_efficiency": 2.0,
+  "avg_consistency": 3.0,
+  "avg_score": 35.0,
+  "results": [
+    {
+      "case_id": "LOFTER-access-0181",
+      "app_name": "LOFTER",
+      "right_type": "access",
+      "channel": "customer_service",
+      "status": "SKIP",
+      "findability_score": 3,
+      "functionality_score": 0,
+      "efficiency_score": 2,
+      "consistency_score": 3,
+      "usability_score": 35.0,
+      "steps_taken": [],
+      "error_message": "在线客服渠道需要人工验证: 联系渠道",
+      "screenshot_paths": [],
+      "duration_sec": 0.0,
+      "notes": "请在APP内找到客服入口（联系渠道），验证目标: 核查政策或App中是否存在具体联系渠道，并验证访问、更新和删除请求入口是否可达，记录客服入口位置、响应速度和问题解决能力。"
+    }
+  ]
+}

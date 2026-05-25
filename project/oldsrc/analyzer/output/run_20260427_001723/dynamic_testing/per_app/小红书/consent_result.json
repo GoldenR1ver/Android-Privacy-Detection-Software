@@ -1,0 +1,219 @@
+{
+  "app_name": "小红书",
+  "right_type": "consent",
+  "test_cases": 10,
+  "passed": 0,
+  "failed": 6,
+  "error": 0,
+  "skipped": 4,
+  "pass_rate": 0.0,
+  "avg_findability": 1.2,
+  "avg_functionality": 0.6,
+  "avg_efficiency": 0.8,
+  "avg_consistency": 1.2,
+  "avg_score": 18.2,
+  "results": [
+    {
+      "case_id": "小红书-consent-0024",
+      "app_name": "小红书",
+      "right_type": "consent",
+      "channel": "app_ui",
+      "status": "FAIL",
+      "findability_score": 1,
+      "functionality_score": 1,
+      "efficiency_score": 1,
+      "consistency_score": 1,
+      "usability_score": 20.0,
+      "steps_taken": [
+        "tap → 「我」（XPath精确文本: 我）",
+        "tap → 「设置」（通过content-desc XPath找到: 设置）",
+        "tap → 「通用设置」（XPath精确文本: 通用设置）",
+        "tap → 「不允许发布时提前上传视频」：未找到该元素"
+      ],
+      "error_message": "导航到目标路径失败",
+      "screenshot_paths": [
+        "output\\run_20260427_001723\\dynamic_testing\\per_app\\小红书\\screenshots\\20260508_204137_282_小红书-consent-0024_end.png"
+      ],
+      "duration_sec": 231.00460720062256,
+      "notes": "tap → 「设置」（通过content-desc XPath找到: 设置）; tap → 「通用设置」（XPath精确文本: 通用设置）; tap → 「不允许发布时提前上传视频」：未找到该元素"
+    },
+    {
+      "case_id": "小红书-consent-0051",
+      "app_name": "小红书",
+      "right_type": "consent",
+      "channel": "app_ui",
+      "status": "FAIL",
+      "findability_score": 1,
+      "functionality_score": 1,
+      "efficiency_score": 1,
+      "consistency_score": 1,
+      "usability_score": 20.0,
+      "steps_taken": [
+        "tap → 「我」（XPath精确文本: 我）",
+        "tap → 「收藏」（XPath精确文本: 收藏）",
+        "tap → 「收藏专辑」：未找到该元素"
+      ],
+      "error_message": "导航到目标路径失败",
+      "screenshot_paths": [
+        "output\\run_20260427_001723\\dynamic_testing\\per_app\\小红书\\screenshots\\20260508_204356_839_小红书-consent-0051_end.png"
+      ],
+      "duration_sec": 131.98203110694885,
+      "notes": "tap → 「我」（XPath精确文本: 我）; tap → 「收藏」（XPath精确文本: 收藏）; tap → 「收藏专辑」：未找到该元素"
+    },
+    {
+      "case_id": "小红书-consent-0263",
+      "app_name": "小红书",
+      "right_type": "consent",
+      "channel": "app_ui",
+      "status": "FAIL",
+      "findability_score": 1,
+      "functionality_score": 1,
+      "efficiency_score": 1,
+      "consistency_score": 1,
+      "usability_score": 20.0,
+      "steps_taken": [
+        "tap → 「手机操作系统或小红书App的“我的」：未找到该元素"
+      ],
+      "error_message": "导航到目标路径失败",
+      "screenshot_paths": [
+        "output\\run_20260427_001723\\dynamic_testing\\per_app\\小红书\\screenshots\\20260508_204450_826_小红书-consent-0263_end.png"
+      ],
+      "duration_sec": 45.75331997871399,
+      "notes": "tap → 「手机操作系统或小红书App的“我的」：未找到该元素"
+    },
+    {
+      "case_id": "小红书-consent-0264",
+      "app_name": "小红书",
+      "right_type": "consent",
+      "channel": "app_ui",
+      "status": "FAIL",
+      "findability_score": 1,
+      "functionality_score": 1,
+      "efficiency_score": 1,
+      "consistency_score": 1,
+      "usability_score": 20.0,
+      "steps_taken": [
+        "tap → 「我」（XPath精确文本: 我）",
+        "tap → 「设置」（通过content-desc XPath找到: 设置）",
+        "tap → 「通知设置」（XPath精确文本: 通知设置）",
+        "tap → 「隐私」：未找到该元素"
+      ],
+      "error_message": "导航到目标路径失败",
+      "screenshot_paths": [
+        "output\\run_20260427_001723\\dynamic_testing\\per_app\\小红书\\screenshots\\20260508_205023_913_小红书-consent-0264_end.png"
+      ],
+      "duration_sec": 324.40092730522156,
+      "notes": "tap → 「设置」（通过content-desc XPath找到: 设置）; tap → 「通知设置」（XPath精确文本: 通知设置）; tap → 「隐私」：未找到该元素"
+    },
+    {
+      "case_id": "小红书-consent-0266",
+      "app_name": "小红书",
+      "right_type": "consent",
+      "channel": "app_ui",
+      "status": "FAIL",
+      "findability_score": 1,
+      "functionality_score": 1,
+      "efficiency_score": 1,
+      "consistency_score": 1,
+      "usability_score": 20.0,
+      "steps_taken": [
+        "tap → 「评论设置」：未找到该元素"
+      ],
+      "error_message": "导航到目标路径失败",
+      "screenshot_paths": [
+        "output\\run_20260427_001723\\dynamic_testing\\per_app\\小红书\\screenshots\\20260508_205118_365_小红书-consent-0266_end.png"
+      ],
+      "duration_sec": 46.25810503959656,
+      "notes": "tap → 「评论设置」：未找到该元素"
+    },
+    {
+      "case_id": "小红书-consent-0207",
+      "app_name": "小红书",
+      "right_type": "consent",
+      "channel": "app_ui",
+      "status": "FAIL",
+      "findability_score": 1,
+      "functionality_score": 1,
+      "efficiency_score": 1,
+      "consistency_score": 1,
+      "usability_score": 20.0,
+      "steps_taken": [
+        "tap → 「相应的小程序中撤回该等授权」：未找到该元素"
+      ],
+      "error_message": "导航到目标路径失败",
+      "screenshot_paths": [
+        "output\\run_20260427_001723\\dynamic_testing\\per_app\\小红书\\screenshots\\20260508_205213_160_小红书-consent-0207_end.png"
+      ],
+      "duration_sec": 45.60889434814453,
+      "notes": "tap → 「相应的小程序中撤回该等授权」：未找到该元素"
+    },
+    {
+      "case_id": "小红书-consent-0030",
+      "app_name": "小红书",
+      "right_type": "consent",
+      "channel": "unknown",
+      "status": "SKIP",
+      "findability_score": 1,
+      "functionality_score": 0,
+      "efficiency_score": 0,
+      "consistency_score": 1,
+      "usability_score": 9.0,
+      "steps_taken": [],
+      "error_message": "未知渠道，无法自动化验证: 本隐私政策第四条第三款",
+      "screenshot_paths": [],
+      "duration_sec": 0.0,
+      "notes": "渠道信息不足: 本隐私政策第四条第三款，建议人工阅读隐私政策原文确认执行方式。政策原文: 我们也会在推荐地理位置锚点时使用该图片/视频自带的媒体信息中的位置信息，您可以通过本隐私政策第四条第三款控制该信息的获取。"
+    },
+    {
+      "case_id": "小红书-consent-0035",
+      "app_name": "小红书",
+      "right_type": "consent",
+      "channel": "unknown",
+      "status": "SKIP",
+      "findability_score": 1,
+      "functionality_score": 0,
+      "efficiency_score": 0,
+      "consistency_score": 1,
+      "usability_score": 9.0,
+      "steps_taken": [],
+      "error_message": "未知渠道，无法自动化验证: 本隐私政策第四条第三款中提示的路径",
+      "screenshot_paths": [],
+      "duration_sec": 0.0,
+      "notes": "渠道信息不足: 本隐私政策第四条第三款中提示的路径，建议人工阅读隐私政策原文确认执行方式。政策原文: 您可以通过本隐私政策第四条第三款中提示的路径开启或关闭该功能。"
+    },
+    {
+      "case_id": "小红书-consent-0102",
+      "app_name": "小红书",
+      "right_type": "consent",
+      "channel": "customer_service",
+      "status": "SKIP",
+      "findability_score": 3,
+      "functionality_score": 0,
+      "efficiency_score": 2,
+      "consistency_score": 3,
+      "usability_score": 35.0,
+      "steps_taken": [],
+      "error_message": "在线客服渠道需要人工验证: 也可以直接与我们联系",
+      "screenshot_paths": [],
+      "duration_sec": 0.0,
+      "notes": "请在APP内找到客服入口（也可以直接与我们联系），验证目标: 验证短信退订渠道是否有效，以及联系客服退订的流程是否可行，记录客服入口位置、响应速度和问题解决能力。"
+    },
+    {
+      "case_id": "小红书-consent-0281",
+      "app_name": "小红书",
+      "right_type": "consent",
+      "channel": "unknown",
+      "status": "SKIP",
+      "findability_score": 1,
+      "functionality_score": 0,
+      "efficiency_score": 0,
+      "consistency_score": 1,
+      "usability_score": 9.0,
+      "steps_taken": [],
+      "error_message": "未知渠道，无法自动化验证: 修改浏览器设置或在移动设备中设置拒绝接受cook",
+      "screenshot_paths": [],
+      "duration_sec": 0.0,
+      "notes": "渠道信息不足: 修改浏览器设置或在移动设备中设置拒绝接受cook，建议人工阅读隐私政策原文确认执行方式。政策原文: 您可以通过修改浏览器设置的方式或在移动设备中设置拒绝接受cookies。"
+    }
+  ]
+}

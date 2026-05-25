@@ -1,0 +1,112 @@
+{
+  "app_name": "Soul",
+  "right_type": "access",
+  "test_cases": 5,
+  "passed": 3,
+  "failed": 2,
+  "error": 0,
+  "skipped": 0,
+  "pass_rate": 0.6,
+  "avg_findability": 3.2,
+  "avg_functionality": 3.6,
+  "avg_efficiency": 3.2,
+  "avg_consistency": 3.0,
+  "avg_score": 66.2,
+  "results": [
+    {
+      "case_id": "Soul-access-0070",
+      "app_name": "Soul",
+      "right_type": "access",
+      "channel": "app_ui",
+      "status": "FAIL",
+      "findability_score": 2,
+      "functionality_score": 2,
+      "efficiency_score": 2,
+      "consistency_score": 1,
+      "usability_score": 37.0,
+      "steps_taken": [
+        "mock: 失败 - 模拟执行"
+      ],
+      "error_message": "",
+      "screenshot_paths": [],
+      "duration_sec": 4.5,
+      "notes": "[DRY-RUN] 模拟测试失败"
+    },
+    {
+      "case_id": "Soul-access-0246",
+      "app_name": "Soul",
+      "right_type": "access",
+      "channel": "app_ui",
+      "status": "FAIL",
+      "findability_score": 1,
+      "functionality_score": 2,
+      "efficiency_score": 1,
+      "consistency_score": 1,
+      "usability_score": 27.0,
+      "steps_taken": [
+        "mock: 失败 - 模拟执行"
+      ],
+      "error_message": "",
+      "screenshot_paths": [],
+      "duration_sec": 2.31,
+      "notes": "[DRY-RUN] 模拟测试失败"
+    },
+    {
+      "case_id": "Soul-access-0240",
+      "app_name": "Soul",
+      "right_type": "access",
+      "channel": "app_ui",
+      "status": "PASS",
+      "findability_score": 4,
+      "functionality_score": 5,
+      "efficiency_score": 3,
+      "consistency_score": 4,
+      "usability_score": 83.0,
+      "steps_taken": [
+        "mock: 成功 - 模拟执行"
+      ],
+      "error_message": "",
+      "screenshot_paths": [],
+      "duration_sec": 2.56,
+      "notes": "[DRY-RUN] 模拟测试通过"
+    },
+    {
+      "case_id": "Soul-access-0243",
+      "app_name": "Soul",
+      "right_type": "access",
+      "channel": "app_ui",
+      "status": "PASS",
+      "findability_score": 4,
+      "functionality_score": 5,
+      "efficiency_score": 5,
+      "consistency_score": 4,
+      "usability_score": 91.0,
+      "steps_taken": [
+        "mock: 成功 - 模拟执行"
+      ],
+      "error_message": "",
+      "screenshot_paths": [],
+      "duration_sec": 3.23,
+      "notes": "[DRY-RUN] 模拟测试通过"
+    },
+    {
+      "case_id": "Soul-access-0244",
+      "app_name": "Soul",
+      "right_type": "access",
+      "channel": "app_ui",
+      "status": "PASS",
+      "findability_score": 5,
+      "functionality_score": 4,
+      "efficiency_score": 5,
+      "consistency_score": 5,
+      "usability_score": 93.0,
+      "steps_taken": [
+        "mock: 成功 - 模拟执行"
+      ],
+      "error_message": "",
+      "screenshot_paths": [],
+      "duration_sec": 2.12,
+      "notes": "[DRY-RUN] 模拟测试通过"
+    }
+  ]
+}

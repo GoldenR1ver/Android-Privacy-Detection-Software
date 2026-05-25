@@ -1,0 +1,193 @@
+{
+  "A_01": {
+    "raw": "一般",
+    "normalized": "general",
+    "conditional_sensitive": false
+  },
+  "A_02": {
+    "raw": "⚠️（CCPA）/ 一般（GDPR/PIPL）",
+    "normalized": "general",
+    "conditional_sensitive": false
+  },
+  "A_03": {
+    "raw": "一般",
+    "normalized": "general",
+    "conditional_sensitive": false
+  },
+  "A_04": {
+    "raw": "一般",
+    "normalized": "general",
+    "conditional_sensitive": false
+  },
+  "A_05": {
+    "raw": "一般",
+    "normalized": "general",
+    "conditional_sensitive": false
+  },
+  "A_06": {
+    "raw": "敏感（CCPA）",
+    "normalized": "sensitive",
+    "conditional_sensitive": false
+  },
+  "B_01": {
+    "raw": "敏感",
+    "normalized": "sensitive",
+    "conditional_sensitive": false
+  },
+  "B_02": {
+    "raw": "敏感",
+    "normalized": "sensitive",
+    "conditional_sensitive": false
+  },
+  "B_03": {
+    "raw": "敏感",
+    "normalized": "sensitive",
+    "conditional_sensitive": false
+  },
+  "B_04": {
+    "raw": "敏感",
+    "normalized": "sensitive",
+    "conditional_sensitive": false
+  },
+  "B_05": {
+    "raw": "敏感",
+    "normalized": "sensitive",
+    "conditional_sensitive": false
+  },
+  "B_06": {
+    "raw": "敏感",
+    "normalized": "sensitive",
+    "conditional_sensitive": false
+  },
+  "B_07": {
+    "raw": "敏感",
+    "normalized": "sensitive",
+    "conditional_sensitive": false
+  },
+  "B_08": {
+    "raw": "敏感",
+    "normalized": "sensitive",
+    "conditional_sensitive": false
+  },
+  "B_09": {
+    "raw": "敏感（PIPL/CCPA）",
+    "normalized": "sensitive",
+    "conditional_sensitive": false
+  },
+  "B_10": {
+    "raw": "敏感",
+    "normalized": "sensitive",
+    "conditional_sensitive": false
+  },
+  "B_11": {
+    "raw": "敏感",
+    "normalized": "sensitive",
+    "conditional_sensitive": false
+  },
+  "B_12": {
+    "raw": "敏感",
+    "normalized": "sensitive",
+    "conditional_sensitive": false
+  },
+  "B_13": {
+    "raw": "敏感（CCPA）；一般（GDPR/PIPL）",
+    "normalized": "sensitive",
+    "conditional_sensitive": false
+  },
+  "B_14": {
+    "raw": "敏感",
+    "normalized": "sensitive",
+    "conditional_sensitive": false
+  },
+  "C_01": {
+    "raw": "一般",
+    "normalized": "general",
+    "conditional_sensitive": false
+  },
+  "C_02": {
+    "raw": "一般",
+    "normalized": "general",
+    "conditional_sensitive": false
+  },
+  "C_03": {
+    "raw": "一般",
+    "normalized": "general",
+    "conditional_sensitive": false
+  },
+  "C_04": {
+    "raw": "一般",
+    "normalized": "general",
+    "conditional_sensitive": false
+  },
+  "D_01": {
+    "raw": "一般",
+    "normalized": "general",
+    "conditional_sensitive": false
+  },
+  "D_02": {
+    "raw": "一般",
+    "normalized": "general",
+    "conditional_sensitive": false
+  },
+  "D_03": {
+    "raw": "一般",
+    "normalized": "general",
+    "conditional_sensitive": false
+  },
+  "D_04": {
+    "raw": "一般",
+    "normalized": "general",
+    "conditional_sensitive": false
+  },
+  "D_05": {
+    "raw": "一般",
+    "normalized": "general",
+    "conditional_sensitive": false
+  },
+  "D_06": {
+    "raw": "一般",
+    "normalized": "general",
+    "conditional_sensitive": false
+  },
+  "E_01": {
+    "raw": "一般",
+    "normalized": "general",
+    "conditional_sensitive": false
+  },
+  "E_02": {
+    "raw": "一般（照片仅在用于生物识别时为敏感）",
+    "normalized": "general",
+    "conditional_sensitive": true
+  },
+  "F_01": {
+    "raw": "一般",
+    "normalized": "general",
+    "conditional_sensitive": false
+  },
+  "F_02": {
+    "raw": "一般",
+    "normalized": "general",
+    "conditional_sensitive": false
+  },
+  "G_01": {
+    "raw": "一般",
+    "normalized": "general",
+    "conditional_sensitive": false
+  },
+  "H_01": {
+    "raw": null,
+    "normalized": null
+  },
+  "H_02": {
+    "raw": null,
+    "normalized": null
+  },
+  "H_03": {
+    "raw": null,
+    "normalized": null
+  },
+  "H_04": {
+    "raw": null,
+    "normalized": null
+  }
+}

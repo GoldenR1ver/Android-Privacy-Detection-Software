@@ -1,0 +1,462 @@
+{
+  "total": 32,
+  "passed": 4,
+  "failed": 12,
+  "error": 0,
+  "skipped": 16,
+  "overall_pass_rate": 0.125,
+  "overall_avg_score": 31.9,
+  "by_right": {
+    "consent": {
+      "count": 0
+    },
+    "access": {
+      "count": 32,
+      "passed": 4,
+      "failed": 12,
+      "error": 0,
+      "skipped": 16,
+      "pass_rate": 0.125,
+      "avg_score": 31.9,
+      "median_score": 20.0,
+      "min_score": 9.0,
+      "max_score": 100.0,
+      "avg_findability": 2.03,
+      "avg_functionality": 1.12,
+      "avg_efficiency": 1.5,
+      "avg_consistency": 1.94
+    },
+    "deletion": {
+      "count": 0
+    }
+  },
+  "by_app": {
+    "Keep": {
+      "count": 9,
+      "passed": 2,
+      "failed": 4,
+      "error": 0,
+      "skipped": 3,
+      "pass_rate": 0.222,
+      "avg_score": 40.3,
+      "median_score": 27.0,
+      "min_score": 9.0,
+      "max_score": 100.0,
+      "per_right": {
+        "consent": {
+          "count": 0
+        },
+        "access": {
+          "count": 9,
+          "passed": 2,
+          "failed": 4,
+          "error": 0,
+          "skipped": 3,
+          "pass_rate": 0.222,
+          "avg_score": 40.3,
+          "median_score": 27.0,
+          "min_score": 9.0,
+          "max_score": 100.0,
+          "avg_findability": 2.56,
+          "avg_functionality": 1.56,
+          "avg_efficiency": 1.78,
+          "avg_consistency": 2.33
+        },
+        "deletion": {
+          "count": 0
+        }
+      }
+    },
+    "小红书": {
+      "count": 4,
+      "passed": 2,
+      "failed": 2,
+      "error": 0,
+      "skipped": 0,
+      "pass_rate": 0.5,
+      "avg_score": 61.5,
+      "median_score": 63.0,
+      "min_score": 20.0,
+      "max_score": 100.0,
+      "per_right": {
+        "consent": {
+          "count": 0
+        },
+        "access": {
+          "count": 4,
+          "passed": 2,
+          "failed": 2,
+          "error": 0,
+          "skipped": 0,
+          "pass_rate": 0.5,
+          "avg_score": 61.5,
+          "median_score": 63.0,
+          "min_score": 20.0,
+          "max_score": 100.0,
+          "avg_findability": 3.25,
+          "avg_functionality": 3,
+          "avg_efficiency": 3,
+          "avg_consistency": 3
+        },
+        "deletion": {
+          "count": 0
+        }
+      }
+    },
+    "支付宝": {
+      "count": 3,
+      "passed": 0,
+      "failed": 2,
+      "error": 0,
+      "skipped": 1,
+      "pass_rate": 0.0,
+      "avg_score": 16.3,
+      "median_score": 20.0,
+      "min_score": 9.0,
+      "max_score": 20.0,
+      "per_right": {
+        "consent": {
+          "count": 0
+        },
+        "access": {
+          "count": 3,
+          "passed": 0,
+          "failed": 2,
+          "error": 0,
+          "skipped": 1,
+          "pass_rate": 0.0,
+          "avg_score": 16.3,
+          "median_score": 20.0,
+          "min_score": 9.0,
+          "max_score": 20.0,
+          "avg_findability": 1,
+          "avg_functionality": 0.67,
+          "avg_efficiency": 0.67,
+          "avg_consistency": 1
+        },
+        "deletion": {
+          "count": 0
+        }
+      }
+    },
+    "智联招聘": {
+      "count": 10,
+      "passed": 0,
+      "failed": 4,
+      "error": 0,
+      "skipped": 6,
+      "pass_rate": 0.0,
+      "avg_score": 23.4,
+      "median_score": 20.0,
+      "min_score": 9.0,
+      "max_score": 35.0,
+      "per_right": {
+        "consent": {
+          "count": 0
+        },
+        "access": {
+          "count": 10,
+          "passed": 0,
+          "failed": 4,
+          "error": 0,
+          "skipped": 6,
+          "pass_rate": 0.0,
+          "avg_score": 23.4,
+          "median_score": 20.0,
+          "min_score": 9.0,
+          "max_score": 35.0,
+          "avg_findability": 1.6,
+          "avg_functionality": 0.6,
+          "avg_efficiency": 1.2,
+          "avg_consistency": 1.6
+        },
+        "deletion": {
+          "count": 0
+        }
+      }
+    },
+    "LOFTER": {
+      "count": 1,
+      "passed": 0,
+      "failed": 0,
+      "error": 0,
+      "skipped": 1,
+      "pass_rate": 0.0,
+      "avg_score": 35.0,
+      "median_score": 35.0,
+      "min_score": 35.0,
+      "max_score": 35.0,
+      "per_right": {
+        "consent": {
+          "count": 0
+        },
+        "access": {
+          "count": 1,
+          "passed": 0,
+          "failed": 0,
+          "error": 0,
+          "skipped": 1,
+          "pass_rate": 0.0,
+          "avg_score": 35.0,
+          "median_score": 35.0,
+          "min_score": 35.0,
+          "max_score": 35.0,
+          "avg_findability": 3,
+          "avg_functionality": 0,
+          "avg_efficiency": 2,
+          "avg_consistency": 3
+        },
+        "deletion": {
+          "count": 0
+        }
+      }
+    },
+    "世纪佳缘": {
+      "count": 1,
+      "passed": 0,
+      "failed": 0,
+      "error": 0,
+      "skipped": 1,
+      "pass_rate": 0.0,
+      "avg_score": 9.0,
+      "median_score": 9.0,
+      "min_score": 9.0,
+      "max_score": 9.0,
+      "per_right": {
+        "consent": {
+          "count": 0
+        },
+        "access": {
+          "count": 1,
+          "passed": 0,
+          "failed": 0,
+          "error": 0,
+          "skipped": 1,
+          "pass_rate": 0.0,
+          "avg_score": 9.0,
+          "median_score": 9.0,
+          "min_score": 9.0,
+          "max_score": 9.0,
+          "avg_findability": 1,
+          "avg_functionality": 0,
+          "avg_efficiency": 0,
+          "avg_consistency": 1
+        },
+        "deletion": {
+          "count": 0
+        }
+      }
+    },
+    "东方财富": {
+      "count": 1,
+      "passed": 0,
+      "failed": 0,
+      "error": 0,
+      "skipped": 1,
+      "pass_rate": 0.0,
+      "avg_score": 9.0,
+      "median_score": 9.0,
+      "min_score": 9.0,
+      "max_score": 9.0,
+      "per_right": {
+        "consent": {
+          "count": 0
+        },
+        "access": {
+          "count": 1,
+          "passed": 0,
+          "failed": 0,
+          "error": 0,
+          "skipped": 1,
+          "pass_rate": 0.0,
+          "avg_score": 9.0,
+          "median_score": 9.0,
+          "min_score": 9.0,
+          "max_score": 9.0,
+          "avg_findability": 1,
+          "avg_functionality": 0,
+          "avg_efficiency": 0,
+          "avg_consistency": 1
+        },
+        "deletion": {
+          "count": 0
+        }
+      }
+    },
+    "好大夫医生版": {
+      "count": 2,
+      "passed": 0,
+      "failed": 0,
+      "error": 0,
+      "skipped": 2,
+      "pass_rate": 0.0,
+      "avg_score": 20.0,
+      "median_score": 20.0,
+      "min_score": 20.0,
+      "max_score": 20.0,
+      "per_right": {
+        "consent": {
+          "count": 0
+        },
+        "access": {
+          "count": 2,
+          "passed": 0,
+          "failed": 0,
+          "error": 0,
+          "skipped": 2,
+          "pass_rate": 0.0,
+          "avg_score": 20.0,
+          "median_score": 20.0,
+          "min_score": 20.0,
+          "max_score": 20.0,
+          "avg_findability": 1,
+          "avg_functionality": 1,
+          "avg_efficiency": 1,
+          "avg_consistency": 1
+        },
+        "deletion": {
+          "count": 0
+        }
+      }
+    },
+    "小荷健康": {
+      "count": 1,
+      "passed": 0,
+      "failed": 0,
+      "error": 0,
+      "skipped": 1,
+      "pass_rate": 0.0,
+      "avg_score": 35.0,
+      "median_score": 35.0,
+      "min_score": 35.0,
+      "max_score": 35.0,
+      "per_right": {
+        "consent": {
+          "count": 0
+        },
+        "access": {
+          "count": 1,
+          "passed": 0,
+          "failed": 0,
+          "error": 0,
+          "skipped": 1,
+          "pass_rate": 0.0,
+          "avg_score": 35.0,
+          "median_score": 35.0,
+          "min_score": 35.0,
+          "max_score": 35.0,
+          "avg_findability": 3,
+          "avg_functionality": 0,
+          "avg_efficiency": 2,
+          "avg_consistency": 3
+        },
+        "deletion": {
+          "count": 0
+        }
+      }
+    }
+  },
+  "app_ranking": [
+    {
+      "rank": 1,
+      "app": "小红书",
+      "score": 61.5
+    },
+    {
+      "rank": 2,
+      "app": "Keep",
+      "score": 40.3
+    },
+    {
+      "rank": 3,
+      "app": "LOFTER",
+      "score": 35.0
+    },
+    {
+      "rank": 4,
+      "app": "小荷健康",
+      "score": 35.0
+    },
+    {
+      "rank": 5,
+      "app": "智联招聘",
+      "score": 23.4
+    },
+    {
+      "rank": 6,
+      "app": "好大夫医生版",
+      "score": 20.0
+    },
+    {
+      "rank": 7,
+      "app": "支付宝",
+      "score": 16.3
+    },
+    {
+      "rank": 8,
+      "app": "世纪佳缘",
+      "score": 9.0
+    },
+    {
+      "rank": 9,
+      "app": "东方财富",
+      "score": 9.0
+    }
+  ],
+  "channel_distribution": {
+    "app_ui": 16,
+    "unknown": 5,
+    "email": 1,
+    "customer_service": 6,
+    "web": 4
+  },
+  "failure_reason_breakdown": {
+    "product_capability_gap": 1,
+    "navigation_not_reached": 2,
+    "feature_missing_or_not_hit": 5,
+    "other": 4,
+    "total_failed": 12
+  },
+  "automated_summary": {
+    "total": 16,
+    "passed": 4,
+    "failed": 12,
+    "error": 0,
+    "skipped": 0,
+    "pass_rate": 0.25,
+    "avg_score": 41.1
+  },
+  "non_automated_summary": {
+    "total": 16,
+    "by_channel": {
+      "unknown": {
+        "count": 5,
+        "skipped": 5,
+        "pass": 0,
+        "fail": 0,
+        "error": 0
+      },
+      "email": {
+        "count": 1,
+        "skipped": 1,
+        "pass": 0,
+        "fail": 0,
+        "error": 0
+      },
+      "customer_service": {
+        "count": 6,
+        "skipped": 6,
+        "pass": 0,
+        "fail": 0,
+        "error": 0
+      },
+      "web": {
+        "count": 4,
+        "skipped": 4,
+        "pass": 0,
+        "fail": 0,
+        "error": 0
+      }
+    }
+  }
+}

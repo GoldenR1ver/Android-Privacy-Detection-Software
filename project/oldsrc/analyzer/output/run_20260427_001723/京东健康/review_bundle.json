@@ -1,0 +1,4009 @@
+{
+  "schema_version": 1,
+  "kind": "privacy_sentence_review_bundle",
+  "created_at_utc": "2026-04-26T22:29:03.159487+00:00",
+  "source_jsonl": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\京东健康\\for_labeling.jsonl",
+  "note": "run_prepare",
+  "items": [
+    {
+      "id": "京东健康#149",
+      "doc_id": "京东健康",
+      "sent_index": 149,
+      "text": "您可以清除计算机上保存的所有 Cookies，大部分网络浏览器会自动接受 Cookies，但您通常可根据自己的需要来修改浏览器的设置以拒绝 Cookies；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 0,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及通过Cookies收集个人信息的技术手段，并说明用户可拒绝Cookies，属于个人信息收集与用户控制权的描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#151",
+      "doc_id": "京东健康",
+      "sent_index": 151,
+      "text": "但如果您这么做，您可能需要在每一次访问京东健康网站时亲自更改用户设置，而且您之前所记录的相应信息也均会被删除，并且可能会对您所使用服务的安全性有一定影响。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 1,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子描述了用户拒绝或更改设置后，个人信息（记录的信息）被删除以及影响服务安全性的后果，涉及个人信息的存储、删除及安全保护，属于个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#176",
+      "doc_id": "京东健康",
+      "sent_index": 176,
+      "text": "这些支持包括为我们的供货或提供基础设施技术服务、物流配送服务、支付服务、数据处理等。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 2,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子明确提及委托第三方进行数据处理，属于个人信息的委托处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#186",
+      "doc_id": "京东健康",
+      "sent_index": 186,
+      "text": "为了保障数据在第三方安全可控，我们推出了云鼎服务，在云端提供安全可靠的数据使用和存储环境，确保用户数据的安全性。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 3,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子描述了通过云鼎服务在云端提供数据使用和存储环境以保障数据安全，涉及个人信息的存储与安全保护。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#200",
+      "doc_id": "京东健康",
+      "sent_index": 200,
+      "text": "在法律法规许可的前提下，我们披露的文件均在加密密钥的保护之下。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 4,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及个人信息披露时的安全保护措施（加密密钥），属于个人信息处理与利用中的安全保护环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#212",
+      "doc_id": "京东健康",
+      "sent_index": 212,
+      "text": "6、互联网并非绝对安全的环境，而且电子邮件、即时通讯、社交软件等与其他用户的交流方式无法确定是否完全加密，我们建议您使用此类工具时请使用复杂密码，并注意保护您的个人信息安全。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 5,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及个人信息安全保护建议，与安全保护措施相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#214",
+      "doc_id": "京东健康",
+      "sent_index": 214,
+      "text": "请您妥善保护自己的个人信息，仅在必要的情形下向他人提供。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 6,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"句子涉及用户对个人信息的保护义务，与个人信息的安全保护相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#12",
+      "doc_id": "京东健康",
+      "sent_index": 12,
+      "text": "本隐私政策中涉及的个人信息包括：基本信息（包括个人姓名、生日、性别、住址、个人电话号码、电子邮箱）；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 7,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确列举了个人信息的具体类别，属于个人信息收集与利用的范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#18",
+      "doc_id": "京东健康",
+      "sent_index": 18,
+      "text": "个人上网记录（包括网页浏览记录、软件使用记录、点击记录）；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 8,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确列举了个人上网记录作为个人信息类型，属于个人信息收集范围。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#28",
+      "doc_id": "京东健康",
+      "sent_index": 28,
+      "text": "为方便您在京东健康浏览、购买商品及服务，您使用京东网站（website_url_lnk 当您注册时，您需要至少向我们提供您准备使用的京东账户名、密码、您本人的手机号码、电子邮箱地址（用于验证邮箱），我们将通过发送短信验证码或邮件的方式来验证您的身份是否有效。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 9,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了收集用户手机号码、电子邮箱地址等个人信息用于注册和身份验证，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#29",
+      "doc_id": "京东健康",
+      "sent_index": 29,
+      "text": "为确保您在我们提供的所有服务中使用同一会员身份，如您使用的服务需要京东账户，我们可能会使用您提供的账户注册信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 10,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了为统一会员身份而收集和使用账户注册信息，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#30",
+      "doc_id": "京东健康",
+      "sent_index": 30,
+      "text": "为实现您在京东商城及京东健康的订单查询、浏览和售后等相关服务，您授权并同意我们在京东商城和京东健康中同步及共享您使用京东网站和京东健康过程中提供、形成的信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 11,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了为实现订单查询等服务，在京东商城与京东健康之间同步及共享用户信息，属于个人信息的共享与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#31",
+      "doc_id": "京东健康",
+      "sent_index": 31,
+      "text": "京东商城和京东健康将依据《京东隐私政策》和《京东健康隐私政策》收集并存储您所提供的个人信息并可根据信息服务必要性共享您授权的信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 12,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集、存储和共享个人信息的处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#32",
+      "doc_id": "京东健康",
+      "sent_index": 32,
+      "text": "京东和京东健康会采用符合业界标准的安全防护措施以及各种合理的制度、安全技术和措施来保护您的个人信息安全。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 13,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确提及采用安全防护措施保护个人信息安全，属于个人信息安全保护的具体措施描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#34",
+      "doc_id": "京东健康",
+      "sent_index": 34,
+      "text": "为了让您快速地找到您所需要的商品，我们可能会收集您使用我们的产品与/或服务的设备信息（包括设备名称、设备型号、设备识别码、操作系统和应用程序版本、语言设置、分辨率、服务提供商网络 ID（PLMN）、网络类型）、浏览器类型来为您提供商品信息展示的最优方式。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 14,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了为提供商品信息展示而收集设备信息等个人信息的行为，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#35",
+      "doc_id": "京东健康",
+      "sent_index": 35,
+      "text": "我们也会为了不断改进和优化上述的功能来使用您的上述个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 15,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了为改进优化功能而使用个人信息，属于个人信息的处理与利用中的使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#36",
+      "doc_id": "京东健康",
+      "sent_index": 36,
+      "text": "如您想管理我们给您发送的个性化内容，您可以在\"我的-账户设置-通用-隐私设置-个性化推荐设置\"中进行设置。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 16,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户对个性化推荐（基于个人信息处理）的管理设置，属于用户权利响应中的个性化内容控制。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#44",
+      "doc_id": "京东健康",
+      "sent_index": 44,
+      "text": "为提高您使用我们的产品与/或服务时系统的稳定性与安全性，防止您的个人信息被非法获取，更准确地预防钓鱼网站欺诈和保护账户安全，我们需要收集您的设备信息（设备传感器信息、设备型号、设备序列号、设备 Mac 地址、应用进程列表、设备识别码、操作系统及软件版本、设备状态、网络状况）、历史上网记录、日志信息、面部信息、IP 地址、位置信息、浏览信息、订单信息、常用软件列表、ssid、bssid、wifi 信息来判断您的账号风险，并可能会记录一些我们认为有风险的链接（\"URL\"）；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 17,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了为安全目的收集多种个人信息（设备信息、位置信息等）的具体行为，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#45",
+      "doc_id": "京东健康",
+      "sent_index": 45,
+      "text": "我们也会收集您的设备信息对京东健康系统问题进行分析、统计流量并排查可能存在的风险、在您选择向我们发送异常信息时予以排查。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 18,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述收集设备信息用于分析、统计和风险排查，属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#46",
+      "doc_id": "京东健康",
+      "sent_index": 46,
+      "text": "如果您不提供上述信息，我们则无法在您使用京东健康服务过程中对您的服务及账号安全进行保护。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 19,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了因用户不提供信息而无法进行安全保护，涉及个人信息处理中的安全保护措施，与个人信息处理与利用直接相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#47",
+      "doc_id": "京东健康",
+      "sent_index": 47,
+      "text": "1、您可选择使用京东健康提供的医疗健康类服务及周边产品与配套服务，使用上述服务时，我们可能会收集与使用您的个人信息，这些服务包括：",
+      "keyword_hint": true,
+      "labeling_queue_rank": 20,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确提及收集与使用个人信息，属于个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#49",
+      "doc_id": "京东健康",
+      "sent_index": 49,
+      "text": "您在选择使用我们提供的健康档案类服务产品时，您可选择提供身体健康情况相关信息（健康数据如血压、血糖、脉搏、身高、体重、胸围、腰围、臀围，健康资料如门急诊病历记录、住院病历记录、体检报告、生活习惯、健康史），让接诊医生更加了解您全面的身体健康情况。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 21,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述收集健康数据（个人敏感信息）用于医疗服务，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#50",
+      "doc_id": "京东健康",
+      "sent_index": 50,
+      "text": "此外，为便利您的健康管理，我们会将上述个人健康数据共享至我们的关联方。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 22,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了将个人健康数据共享至关联方的处理行为，涉及个人信息的共享与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#51",
+      "doc_id": "京东健康",
+      "sent_index": 51,
+      "text": "但当我们需向外部第三方提供您对应个人健康数据时，我们将再次征求您的同意。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 23,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述向第三方提供个人敏感信息（健康数据）并需再次征得同意，涉及个人信息的共享与处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#53",
+      "doc_id": "京东健康",
+      "sent_index": 53,
+      "text": "我们可能会为您提供上述服务之外的其他医疗健康产品或服务，如需使用您的个人信息，我们将严格根据《京东健康隐私政策》及您的授权提供相关服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 24,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确提及使用个人信息提供其他服务，涉及个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#54",
+      "doc_id": "京东健康",
+      "sent_index": 54,
+      "text": "2、在您使用我们的产品与/或服务时，为了提升您在京东健康的使用体验，我们的以下扩展功能中可能会收集和使用您的个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 25,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确提及在扩展功能中收集和使用个人信息，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#55",
+      "doc_id": "京东健康",
+      "sent_index": 55,
+      "text": "如果您不提供这些个人信息，您依然可以使用我们的产品与/或服务，但您可能无法使用这些可以为您所带来便捷体验的扩展功能或在使用某些产品与/或服务时需要重复填写一些信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 26,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了不提供个人信息对使用扩展功能的影响，涉及个人信息收集与使用的后果说明，属于个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#57",
+      "doc_id": "京东健康",
+      "sent_index": 57,
+      "text": "（1）基于位置信息的个性化推荐功能（LOCATION）：我们会收集您的位置信息（我们仅收集您当时所处的地理位置，但不会将您各时段的位置信息进行结合以判断您的行踪轨迹）来判断您所处的地点，自动为您推荐您所在区域可以购买的商品或服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 27,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集位置信息用于个性化推荐，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#59",
+      "doc_id": "京东健康",
+      "sent_index": 59,
+      "text": "（2）基于摄像头（相机）的扩展功能（CAMERA）：您可以使用这个扩展功能完成视频拍摄、拍照、扫码、人脸识别登录、AI测肤及视力检测功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 28,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过摄像头收集视频、照片、人脸等个人信息的具体处理行为，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#60",
+      "doc_id": "京东健康",
+      "sent_index": 60,
+      "text": "当您同意使用人脸识别相关功能时，我们会收集您的面部信息，且在您授权范围内限制使用。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 29,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述收集面部信息（个人敏感信息）及限制使用，涉及个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#61",
+      "doc_id": "京东健康",
+      "sent_index": 61,
+      "text": "未来我们可能会将人脸识别技术应用于更多场景，但那时我们会再次与您确认您是否愿意我们使用您的面部信息来实现这些扩展功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 30,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确提及未来可能收集和使用面部信息（个人敏感信息），涉及个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#62",
+      "doc_id": "京东健康",
+      "sent_index": 62,
+      "text": "（3）基于图片上传的扩展功能：您可以在京东健康上传您的照片来实现上传纸质处方、拍照购物功能和晒单、评价、问答及AI测肤功能， 我们会使用您所上传的图片或视频来识别您需要购买的产品与/或服务或使用包含您所上传图片或视频的晒单、评价及问答内容。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 31,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集和使用用户上传的图片或视频等个人信息，用于实现特定功能，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#63",
+      "doc_id": "京东健康",
+      "sent_index": 63,
+      "text": "（4）基于语音技术的扩展功能（READ_AUDIO）：您可以直接使用麦克风来进行语音搜索或与我们的客服进行咨询和互动。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 32,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了通过麦克风收集语音信息以提供语音搜索和客服互动功能，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#64",
+      "doc_id": "京东健康",
+      "sent_index": 64,
+      "text": "在这些功能中我们会收集您的录音内容以识别您的服务需求以及客服与售后需求。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 33,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集录音内容用于识别服务需求，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#65",
+      "doc_id": "京东健康",
+      "sent_index": 65,
+      "text": "（5）基于通讯录信息的扩展功能（READ_CONTACTS）：我们将收集您的通讯录信息以方便您在使用产品与/或服务时不再手动输入您通讯录中联系人的信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 34,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集通讯录信息的具体目的和方式，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#66",
+      "doc_id": "京东健康",
+      "sent_index": 66,
+      "text": "为了增加您使用产品与/或服务时的社交乐趣，在获得您的同意下我们也可以判断您的好友是否也同为京东健康用户，并在京东健康为你们的交流建立联系。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 35,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述在获得用户同意后，利用用户信息判断好友是否为同一平台用户并建立联系，涉及个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#67",
+      "doc_id": "京东健康",
+      "sent_index": 67,
+      "text": "（6）基于日历权限的扩展功能（READ_CALENDAR）：当您使用京东健康相关服务时，您可以通过开启日历权限便捷管理您的自定义事项、设定重要事项提醒。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 36,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述通过日历权限收集个人信息（自定义事项、重要事项提醒）以提供扩展功能，涉及个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#69",
+      "doc_id": "京东健康",
+      "sent_index": 69,
+      "text": "（7）基于读取电话状态权限的扩展功能（READ_PHONE_STATE）：当您运行 Android 版本京东健康 APP 时，我们会向您申请获取此权限，目的是正常识别您的本机识别码，以便完成安全风控、进行统计和服务推送。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 37,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集本机识别码（IMEI等）用于安全风控、统计和服务推送，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#72",
+      "doc_id": "京东健康",
+      "sent_index": 72,
+      "text": "(WRITE_EXTERNAL_STORAGE)(READ_EXTERNAL_STORAGE)：当您使用 Android 版本京东健康 APP 中的扫一扫、头像设置、客服、评论或分享、图像识别、将文件下载至本地或打开使用本地文件时，您可以通过开启存储权限使用或保存图片、视频或文件。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 38,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了通过开启存储权限收集和使用图片、视频或文件等个人信息的具体场景，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#74",
+      "doc_id": "京东健康",
+      "sent_index": 74,
+      "text": "（9）基于面容 ID/触控 ID 权限的扩展功能：若您使用支持人脸识别的苹果设备，您可以使用京东健康 APP 中的面容 ID 支付、面容 ID 解锁功能；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 39,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了基于面容ID/触控ID权限的个人信息处理行为，涉及生物识别信息的收集与使用，属于个人敏感信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#75",
+      "doc_id": "京东健康",
+      "sent_index": 75,
+      "text": "若您使用支持指纹识别的苹果设备，您可以使用京东健康 APP 中的指纹支付、指纹解锁功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 40,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了通过指纹识别技术进行支付和解锁，涉及个人生物识别信息的收集与使用，属于个人敏感信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#76",
+      "doc_id": "京东健康",
+      "sent_index": 76,
+      "text": "您需要在您的设备上提前录入面容信息或指纹信息，并在使用服务时在您的设备上完成信息验证。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 41,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述收集和使用面容信息或指纹信息（个人敏感信息）进行验证，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#77",
+      "doc_id": "京东健康",
+      "sent_index": 77,
+      "text": "我们需要使用您的面容 ID/触控 ID 权限以便接收验证结果，但我们并不收集您的面容 ID/触控 ID 信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 42,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了使用面容ID/触控ID权限进行验证，涉及个人信息的收集与使用，属于个人信息处理与利用的具体行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#79",
+      "doc_id": "京东健康",
+      "sent_index": 79,
+      "text": "（10）基于剪切板的扩展功能：当您复制商品信息、标题、口令、短信验证码，分享或接收被分享信息时，您的剪切板功能可能会被调用。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 43,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述通过剪切板功能收集用户复制信息，属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#80",
+      "doc_id": "京东健康",
+      "sent_index": 80,
+      "text": "剪切板信息仅会在您的设备上进行处理，我们不会存储您的剪切板信息用于任何其他途径。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 44,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了剪切板信息的处理方式（仅在设备上处理）及不存储的承诺，涉及个人信息的收集与存储行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#81",
+      "doc_id": "京东健康",
+      "sent_index": 81,
+      "text": "3、我们会为您提供报告解读服务，如您确认使用该服务，京东健康-互联网医院医生团队可查阅您使用智能初筛机器人检测的所有历史报告，以便给您非常贴心有效的健康建议。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 45,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了个人信息（历史报告）的查阅与使用，属于个人信息的处理与利用中的委托处理或共享场景。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#82",
+      "doc_id": "京东健康",
+      "sent_index": 82,
+      "text": "4、上述扩展功能可能需要您在您的设备中向我们开启您的地理位置（位置信息）、相机（摄像头）、相册（图片库）、蓝牙、日历、通讯录、电话状态、外部存储、面容 ID/触控 ID 权限，以实现这些功能所涉及的信息的收集和使用。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 46,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过开启设备权限收集和使用个人信息（如地理位置、相机等），涉及个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#83",
+      "doc_id": "京东健康",
+      "sent_index": 83,
+      "text": "您可以在京东健康 APP 通过\"我的-账户设置-通用-隐私设置\"中逐项查看您上述权限的开启状态，并可以决定将这些权限随时的开启或关闭（我们会指引您在您的设备系统中完成设置）。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 47,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述用户通过隐私设置管理权限开启或关闭，涉及用户权利响应中的权限控制，属于个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#84",
+      "doc_id": "京东健康",
+      "sent_index": 84,
+      "text": "请您注意，您开启这些权限即代表您授权我们可以收集和使用这些个人信息来实现上述的功能，您关闭权限即代表您取消了这些授权，则我们将不再继续收集和使用您的这些个人信息，也无法为您提供上述与这些授权所对应的功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 48,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述通过权限开关授权收集和使用个人信息，涉及个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#85",
+      "doc_id": "京东健康",
+      "sent_index": 85,
+      "text": "您关闭权限的决定不会影响此前基于您的授权所进行的个人信息的处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 49,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确提及基于用户授权进行的个人信息处理，涉及处理行为的合法性和用户授权的影响，属于个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#88",
+      "doc_id": "京东健康",
+      "sent_index": 88,
+      "text": "INTERNET（访问网络权限）：实现应用程序联网",
+      "keyword_hint": true,
+      "labeling_queue_rank": 50,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述访问网络权限的具体用途，涉及个人信息处理中的系统权限使用说明，与个人信息收集使用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#90",
+      "doc_id": "京东健康",
+      "sent_index": 90,
+      "text": "ACCESS_WIFI_STATE（获取WiFi状态权限）：监控网络变化，提示用户当前网络环境",
+      "keyword_hint": true,
+      "labeling_queue_rank": 51,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了收集WiFi状态权限的具体目的（监控网络变化、提示网络环境），属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#108",
+      "doc_id": "京东健康",
+      "sent_index": 108,
+      "text": "ACCESS_BACKGROUND_LOCATION（支持后台访问位置权限）：保持持续定位能力",
+      "keyword_hint": true,
+      "labeling_queue_rank": 52,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及后台位置权限的收集与使用，属于个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#122",
+      "doc_id": "京东健康",
+      "sent_index": 122,
+      "text": "6、从合法公开披露的信息中收集的您的个人信息的，如合法的新闻报道、政府信息公开等渠道；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 53,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了从公开渠道收集个人信息的场景，属于个人信息收集行为的具体情形。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#126",
+      "doc_id": "京东健康",
+      "sent_index": 126,
+      "text": "10、学术研究机构基于公共利益开展统计或学术研究所必要，且对外提供学术研究或描述的结果时，对结果中所包含的个人信息进行去标识化处理的；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 54,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了在特定条件下对个人信息进行去标识化处理的行为，属于个人信息的处理与利用范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#128",
+      "doc_id": "京东健康",
+      "sent_index": 128,
+      "text": "（五）京东健康 APP 涉及嵌入第三方代码、插件传输个人信息的情形逐项列举，请见此处。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 55,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确提及第三方代码、插件传输个人信息，涉及委托处理或共享，属于个人信息处理与利用的具体情形。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#129",
+      "doc_id": "京东健康",
+      "sent_index": 129,
+      "text": "1、我们会根据本隐私政策的约定并为实现我们的产品与/或服务功能对所收集的个人信息进行使用。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 56,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了为实现服务功能而对收集的个人信息进行使用，属于个人信息处理与利用中的使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#130",
+      "doc_id": "京东健康",
+      "sent_index": 130,
+      "text": "2、在收集您的个人信息后，我们将通过技术手段对数据进行去标识化处理，去标识化处理的信息将无法识别主体。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 57,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了对收集后的个人信息进行去标识化处理，属于个人信息处理与利用中的安全保护措施。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#131",
+      "doc_id": "京东健康",
+      "sent_index": 131,
+      "text": "请您了解并同意，在此情况下我们有权使用已经去标识化的信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 58,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及对已去标识化信息的使用行为，属于个人信息处理与利用中的使用环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#132",
+      "doc_id": "京东健康",
+      "sent_index": 132,
+      "text": "并在不透露您个人信息的前提下，我们有权对用户数据库进行分析并予以商业化的利用。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 59,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及对用户数据库（含个人信息）进行分析和商业化利用，属于个人信息的处理与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#133",
+      "doc_id": "京东健康",
+      "sent_index": 133,
+      "text": "3、 请您了解并同意，您在使用我们的产品与/或服务时所提供的所有个人信息，除非您删除或通过系统设置拒绝我们收集，否则将在您使用我们的产品与/或服务期间持续授权我们使用。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 60,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了个人信息的收集与使用授权期限，涉及个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#134",
+      "doc_id": "京东健康",
+      "sent_index": 134,
+      "text": "在您注销账号时，我们将停止使用并删除您的个人信息，具体请详见本隐私政策附件《京东账号注销须知》。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 61,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了注销账号时停止使用并删除个人信息的处理行为，涉及用户权利响应中的删除权。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#135",
+      "doc_id": "京东健康",
+      "sent_index": 135,
+      "text": "4、我们会对我们的产品与/或服务使用情况进行统计，并可能会与公众或第三方共享这些统计信息，以展示我们的产品与/或服务的整体使用趋势。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 62,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了对产品/服务使用统计信息的共享行为，属于个人信息的处理与利用中的共享环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#137",
+      "doc_id": "京东健康",
+      "sent_index": 137,
+      "text": "5、当我们展示您的个人信息时，我们会采用包括内容替换、匿名处理方式对您的信息进行脱敏，以保护您的信息安全。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 63,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了在展示个人信息时采用脱敏处理的具体行为，属于个人信息处理与利用中的安全保护措施。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#138",
+      "doc_id": "京东健康",
+      "sent_index": 138,
+      "text": "6、当我们要将您的个人信息用于本隐私政策未载明的其它用途时，或基于特定目的收集而来的信息用于其他目的时，会实现征求您的明示同意。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 64,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述将个人信息用于其他用途时需征得用户同意，涉及个人信息的处理与利用中的使用环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#140",
+      "doc_id": "京东健康",
+      "sent_index": 140,
+      "text": "如果您选择使用本隐私政策中尚未列明的其他产品与/或服务时，我们会在收集您的个人信息前通过协议、页面提示等方式向您详细说明信息收集的目的、方式、范围并征求您的同意。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 65,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了在收集个人信息前需说明目的、方式、范围并征得同意，属于个人信息收集与用户同意的具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#141",
+      "doc_id": "京东健康",
+      "sent_index": 141,
+      "text": "若您不同意提供前述信息，您可能无法使用该项产品与/或服务，但不影响您使用现有产品与/或服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 66,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了因不同意提供个人信息而影响服务使用的后果，涉及个人信息收集与利用的关联性。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#145",
+      "doc_id": "京东健康",
+      "sent_index": 145,
+      "text": "我们会在您的计算机或移动设备上发送一个或多个名为 Cookies 的小数据文件，指定给您的 Cookies 是唯一的，它只能被将 Cookies 发布给您的域中的 Web 服务器读取。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 67,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述通过Cookies收集和存储个人信息的具体行为，属于个人信息的收集与存储处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#146",
+      "doc_id": "京东健康",
+      "sent_index": 146,
+      "text": "我们向您发送 Cookies 是为了简化您重复登录的步骤、存储您的购物偏好或您购物车中的商品等数据进而为您提供购物的偏好设置、帮助您优化对广告的选择与互动、帮助判断您的登录状态以及账户或数据安全。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 68,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了通过Cookies收集、存储和使用个人信息（如登录状态、购物偏好、商品数据）以提供特定服务，属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#147",
+      "doc_id": "京东健康",
+      "sent_index": 147,
+      "text": "2、我们不会将 Cookies 用于本隐私政策所述目的之外的任何用途。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 69,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及Cookies的使用目的限制，属于个人信息处理与利用中的使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#148",
+      "doc_id": "京东健康",
+      "sent_index": 148,
+      "text": "您可根据自己的偏好管理或删除 Cookies。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 70,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户对Cookies的管理与删除，属于个人信息处理与利用中的用户权利响应。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#150",
+      "doc_id": "京东健康",
+      "sent_index": 150,
+      "text": "另外，您也可以清除软件内保存的所有 Cookies。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 71,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户对个人信息（Cookies）的删除管理操作，属于用户权利响应中的删除权行使。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#153",
+      "doc_id": "京东健康",
+      "sent_index": 153,
+      "text": "除 Cookies 外，我们还会在网站上使用网络 Beacon 等其他同类技术。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 72,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了使用网络Beacon等同类技术，属于个人信息收集与利用的技术手段，与处理行为直接相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#156",
+      "doc_id": "京东健康",
+      "sent_index": 156,
+      "text": "1、通过在京东健康网站上使用网络 Beacon，计算用户访问数量，并通过访问 Cookies 辨认注册的京东健康用户。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 73,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过技术手段收集用户访问数据并识别注册用户，属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#157",
+      "doc_id": "京东健康",
+      "sent_index": 157,
+      "text": "2、通过得到的 Cookies 信息，为您提供个性化服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 74,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述通过Cookies信息提供个性化服务，涉及个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#158",
+      "doc_id": "京东健康",
+      "sent_index": 158,
+      "text": "1、我们不会与京东健康以外的任何公司、组织和个人共享您的个人信息，但以下情况除外：",
+      "keyword_hint": true,
+      "labeling_queue_rank": 75,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及个人信息的共享行为及例外情况，属于个人信息处理与利用中的共享环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#162",
+      "doc_id": "京东健康",
+      "sent_index": 162,
+      "text": "（4）只有共享您的个人信息，才能实现我们的产品与/或服务的核心功能或提供您需要的服务；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 76,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述共享个人信息以实现核心功能，涉及个人信息的共享处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#163",
+      "doc_id": "京东健康",
+      "sent_index": 163,
+      "text": "（5）应您需求为您处理您与他人的纠纷或争议；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 77,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及根据用户需求处理其与他人的纠纷或争议，属于对个人信息的处理与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#165",
+      "doc_id": "京东健康",
+      "sent_index": 165,
+      "text": "（7）基于学术研究而使用；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 78,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述基于学术研究目的使用个人信息，属于个人信息的处理与利用场景。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#166",
+      "doc_id": "京东健康",
+      "sent_index": 166,
+      "text": "（8）基于符合法律法规的社会公共利益而使用。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 79,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了基于社会公共利益这一合法事由对个人信息进行使用，属于个人信息的处理与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#167",
+      "doc_id": "京东健康",
+      "sent_index": 167,
+      "text": "2、为实现基于京东账户向您提供相关产品或服务，向您展示可能感兴趣的内容，保护您的账户与交易安全，我们可能会将您的个人信息与我们的关联方共享。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 80,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了为实现特定目的（展示内容、保护安全）将个人信息与关联方共享，属于个人信息的共享处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#168",
+      "doc_id": "京东健康",
+      "sent_index": 168,
+      "text": "我们将会根据本隐私政策的约定与我们的关联方共享您的个人信息，但我们只会共享必要的个人信息，且受本隐私政策中所声明目的的约束。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 81,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述与关联方共享个人信息的处理行为，涉及共享主题。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#169",
+      "doc_id": "京东健康",
+      "sent_index": 169,
+      "text": "我们的关联方如要改变个人信息的处理目的，将再次征求您的授权同意。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 82,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及关联方改变个人信息处理目的时需重新征得授权同意，属于个人信息处理与利用中的共享与用户权利响应。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#170",
+      "doc_id": "京东健康",
+      "sent_index": 170,
+      "text": "3、我们可能会向合作伙伴等第三方共享您的订单信息、账户信息、设备信息以及位置信息，以保障为您提供的服务顺利完成。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 83,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述向第三方共享个人信息的具体类型（订单、账户、设备、位置信息）及目的，属于个人信息处理中的共享行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#171",
+      "doc_id": "京东健康",
+      "sent_index": 171,
+      "text": "但我们仅会出于合法、正当、必要、特定、明确的目的共享您的个人信息，并且只会共享提供服务所必要的个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 84,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述共享个人信息的条件与目的，涉及个人信息的共享处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#172",
+      "doc_id": "京东健康",
+      "sent_index": 172,
+      "text": "我们的合作伙伴无权将共享的个人信息用于任何其他用途。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 85,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及个人信息共享及用途限制，属于个人信息处理与利用中的共享环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#175",
+      "doc_id": "京东健康",
+      "sent_index": 175,
+      "text": "我们可能会将您的个人信息共享给支持我们功能的第三方。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 86,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述将个人信息共享给第三方，属于个人信息的共享处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#177",
+      "doc_id": "京东健康",
+      "sent_index": 177,
+      "text": "我们共享这些信息的目的是可以实现我们产品与/或服务的核心购物功能，例如我们必须与物流服务提供商共享您的订单信息才能安排送货；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 87,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了为实现核心购物功能而共享个人信息（订单信息）给物流服务提供商，属于个人信息的共享处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#178",
+      "doc_id": "京东健康",
+      "sent_index": 178,
+      "text": "当您下单的商品或服务由供应商直接发货或提供服务时，我们需要将您订单中的订购信息和收货信息共享给供应商，以指示其交付商品或提供服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 88,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了为实现商品交付目的，将订单中的订购信息和收货信息共享给供应商，属于个人信息的共享处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#180",
+      "doc_id": "京东健康",
+      "sent_index": 180,
+      "text": "我们必须将您的订单信息与交易有关的必要信息与第三方商家共享来实现您向其购买商品或服务的需求，并促使其可以完成后续的售后服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 89,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了为实现交易目的将订单信息共享给第三方商家，属于个人信息的共享处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#182",
+      "doc_id": "京东健康",
+      "sent_index": 182,
+      "text": "有时我们会代表其他企业向使用我们产品与/或服务的用户群提供促销推广的服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 90,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了代表其他企业向用户提供促销推广服务，涉及个人信息的委托处理或共享，属于个人信息处理与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#183",
+      "doc_id": "京东健康",
+      "sent_index": 183,
+      "text": "我们可能会使用您的个人信息以及您的非个人信息集合形成的间接用户画像与委托我们进行推广的合作伙伴（\"委托方\"）共享，但我们仅会向这些委托方提供推广的覆盖面和有效性的信息，而不会提供您的个人身份信息，或者我们将这些信息进行汇总，以便它不会识别您个人。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 91,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了使用个人信息形成用户画像并与委托方共享的行为，涉及个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#184",
+      "doc_id": "京东健康",
+      "sent_index": 184,
+      "text": "例如我们可以告知该委托方有多少人看了他们的推广信息或在看到这些信息后购买了委托方的商品，或者向他们提供不能识别个人身份的统计信息，帮助他们了解其受众或顾客。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 92,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了向委托方提供统计信息（不能识别个人身份），属于委托处理中的信息共享与利用，涉及个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#185",
+      "doc_id": "京东健康",
+      "sent_index": 185,
+      "text": "4、对我们与之共享个人信息的公司、组织和个人，我们会与其签署严格的保密协定，要求他们按照我们的说明、本隐私政策以及其他任何相关的保密和安全措施来处理个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 93,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述与第三方共享个人信息时的保密协定和安全措施要求，涉及个人信息的共享与处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#187",
+      "doc_id": "京东健康",
+      "sent_index": 187,
+      "text": "在个人敏感数据使用上，我们要求第三方采用数据脱敏和加密技术，从而更好地保护用户数据。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 94,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在个人敏感数据使用中要求第三方采取脱敏和加密技术，涉及委托处理中的安全保护措施，属于个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#189",
+      "doc_id": "京东健康",
+      "sent_index": 189,
+      "text": "5、为了遵守法律、执行或适用我们的使用条件和其他协议，或者为了保护京东健康、您或其他京东健康客户的权利及其财产或安全，例如为防止欺诈等违法活动和减少信用风险，而与其他公司和组织交换信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 95,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述为遵守法律、保护权利等目的而与其他公司交换信息，涉及个人信息的共享与披露处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#190",
+      "doc_id": "京东健康",
+      "sent_index": 190,
+      "text": "不过,这并不包括违反本隐私政策中所作的承诺而为获利目的出售、出租、共享或以其它方式披露的个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 96,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确涉及个人信息的出售、出租、共享、披露等处理行为，属于个人信息处理与利用的具体描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#194",
+      "doc_id": "京东健康",
+      "sent_index": 194,
+      "text": "4、在涉及合并、收购、资产转让或类似的交易时，如涉及到个人信息转让，我们会要求新的持有您个人信息的公司、组织继续受本隐私政策的约束，否则,我们将要求该公司、组织重新向您征求授权同意。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 97,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述在合并、收购等交易场景下涉及个人信息转让的处理要求，属于个人信息的共享与转让范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#195",
+      "doc_id": "京东健康",
+      "sent_index": 195,
+      "text": "1、根据您的需求，在您明确同意的披露方式下披露您所指定的个人信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 98,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述在用户同意下披露个人信息的处理行为，涉及披露环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#196",
+      "doc_id": "京东健康",
+      "sent_index": 196,
+      "text": "2、根据法律、法规的要求、强制性的行政执法或司法要求所必须提供您个人信息的情况下，我们可能会依据所要求的个人信息类型和披露方式公开披露您的个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 99,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在特定法律要求下公开披露个人信息的场景，属于个人信息的披露处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#197",
+      "doc_id": "京东健康",
+      "sent_index": 197,
+      "text": "在符合法律法规的前提下，当我们收到上述披露信息的请求时，我们会要求必须出具与之相应的法律文件，如传票或调查函。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 100,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了在特定法律条件下对个人信息披露请求的处理要求，涉及个人信息的披露行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#203",
+      "doc_id": "京东健康",
+      "sent_index": 203,
+      "text": "在个人信息使用时，个人信息展示、个人信息关联计算，我们会采用包括内容替换、SHA256在内多种数据脱敏技术增强个人信息在使用中安全性。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 101,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述个人信息使用过程中的脱敏处理技术，属于个人信息安全保护措施，与处理与利用直接相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#206",
+      "doc_id": "京东健康",
+      "sent_index": 206,
+      "text": "我们存储您个人信息的底层云技术取得了数据中心联盟颁发的\"可信云\"认证三级认证、通过了公安部安全等级保护三级认证，同时还获得了 ISO27000 认证。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 102,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了个人信息存储环节的安全保护措施，涉及存储安全与认证，属于个人信息处理与利用中的安全保护相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#207",
+      "doc_id": "京东健康",
+      "sent_index": 207,
+      "text": "3、我们仅允许有必要知晓这些信息的京东健康及京东健康关联方的员工、合作伙伴访问个人信息，并为此设置了严格的访问权限控制和监控机制。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 103,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了访问权限控制和监控机制，涉及个人信息的安全保护措施。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#208",
+      "doc_id": "京东健康",
+      "sent_index": 208,
+      "text": "我们同时要求可能接触到您个人信息的所有人员履行相应的保密义务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 104,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及对接触个人信息的人员施加保密义务，属于个人信息安全保护措施的具体描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#210",
+      "doc_id": "京东健康",
+      "sent_index": 210,
+      "text": "4、我们会采取一切合理可行的措施，确保未收集无关的个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 105,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及个人信息收集的范围控制，属于个人信息处理与利用中的收集环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#211",
+      "doc_id": "京东健康",
+      "sent_index": 211,
+      "text": "5、我们还在用户数据保护上做了一些创造性工作，在配送体系，采用了独特的\"微笑面单\"，避免用户敏感信息在配送环节的暴露，同时,大力强化对京东物流员工的数据安全培训和要求，提高物流员工保护用户敏感信息的意识。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 106,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了在配送环节采用'微笑面单'避免用户敏感信息暴露，并强化员工数据安全培训，涉及个人信息的安全保护措施。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#213",
+      "doc_id": "京东健康",
+      "sent_index": 213,
+      "text": "在通过京东、京东健康与第三方进行网上产品与/或服务的交易时，您不可避免的要向交易对方或潜在的交易对方披露自己的个人信息，如联络方式或者邮政地址等。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 107,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了用户向交易对方披露个人信息（如联络方式、邮政地址）的行为，属于个人信息的披露处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#217",
+      "doc_id": "京东健康",
+      "sent_index": 217,
+      "text": "如果我们的物理、技术、或管理防护设施遭到破坏，导致信息被非授权访问、公开披露、篡改、或毁坏，导致您的合法权益受损，我们将承担相应的法律责任。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 108,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了安全防护设施破坏导致个人信息被非授权访问、公开披露等风险，涉及个人信息的保护与法律责任，属于个人信息处理与利用中的安全保护范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#219",
+      "doc_id": "京东健康",
+      "sent_index": 219,
+      "text": "如您发现自己的个人信息泄密，尤其是您的账户及密码发生泄露，请您立即通过本隐私政策【八、如何联系我们】中约定的联系方式联络我们，以便我们采取相应措施。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 109,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及个人信息泄露后的用户通知与响应措施，属于安全保护与用户权利响应范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#220",
+      "doc_id": "京东健康",
+      "sent_index": 220,
+      "text": "1、您的个人信息将存储于中华人民共和国境内。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 110,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及个人信息的存储地点，属于个人信息处理与利用中的存储环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#221",
+      "doc_id": "京东健康",
+      "sent_index": 221,
+      "text": "如您使用跨境交易服务，且需要向境外传输您的个人信息完成交易的，我们会单独征得您的授权同意并要求接收方按照我们的说明、本隐私政策以及其他任何相关的保密和安全措施来处理这些个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 111,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述跨境传输个人信息的场景及处理要求，涉及个人信息处理与利用中的跨境传输和授权同意。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#222",
+      "doc_id": "京东健康",
+      "sent_index": 222,
+      "text": "2、在您使用我们的产品与/或服务期间，您的个人信息将在为了实现本政策所述目的之期限内保存，同时将结合法律有强制的留存要求期限的规定确定，如《中华人民共和国电子商务法》要求商品和服务信息、交易信息保存时间自交易完成之日起不少于三年。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 112,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了个人信息的保存期限，涉及存储处理行为，与个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#223",
+      "doc_id": "京东健康",
+      "sent_index": 223,
+      "text": "在超出保存期间后，我们会根据适用法律的要求删除您的个人信息，或进行匿名化处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 113,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了超出保存期限后对个人信息的删除或匿名化处理，属于个人信息存储与安全保护的具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#224",
+      "doc_id": "京东健康",
+      "sent_index": 224,
+      "text": "3、请您注意，当您成功注销京东账户后，我们将对您的个人信息进行删除或匿名化处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 114,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及个人信息删除或匿名化处理，属于个人信息处理与利用中的安全保护措施。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#225",
+      "doc_id": "京东健康",
+      "sent_index": 225,
+      "text": "当您或我们协助您删除相关信息后，因为适用的法律和安全技术限制，我们可能无法立即从备份系统中删除相应的信息，我们将安全地存储您的个人信息并限制对其的任何进一步的处理，直到备份可以删除或实现匿名化。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 115,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了删除个人信息后的存储与处理限制，涉及个人信息的存储与安全保护。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#226",
+      "doc_id": "京东健康",
+      "sent_index": 226,
+      "text": "4、如果我们终止服务或运营，我们会至少提前三十日向您通知，并在终止服务或运营后对您的个人信息进行删除或匿名化处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 116,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及个人信息在终止服务后的删除或匿名化处理，属于个人信息的安全保护与处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#228",
+      "doc_id": "京东健康",
+      "sent_index": 228,
+      "text": "（1）您的账户信息：移动端您可以在\"我的\"中查阅与更正您的昵称，可以在\"我的-账户设置\"中查阅与更正您的登录密码、手机号码、银行卡信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 117,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了用户对个人账户信息（昵称、密码、手机号、银行卡信息）的查阅与更正操作，涉及用户权利响应中的个人信息访问与更正处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#229",
+      "doc_id": "京东健康",
+      "sent_index": 229,
+      "text": "（2）您的收货信息：移动端您可以在\"我的-账户设置-地址管理\"中随时添加、更改、删除您的收货地址信息（包括收货人姓名、收货地址、收货人的电话号码），您也可以将最常用的收货地址设置为默认地址，如此您下次购买商品时在您未更改收货地址时，您的商品会配送到您默认地址。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 118,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了用户对收货信息（含姓名、地址、电话）的添加、更改、删除等处理操作，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#231",
+      "doc_id": "京东健康",
+      "sent_index": 231,
+      "text": "您可以选择删除已经完成和已取消的订单来删除您的订单信息，但这样可能导致我们无法准确判断您的购买信息而难以提供相应的售后服务，您也无法对删除的订单使用我们的晒单和评价功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 119,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了用户删除订单信息的行为及其对个人信息处理的影响，涉及个人信息的删除与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#233",
+      "doc_id": "京东健康",
+      "sent_index": 233,
+      "text": "您可通过此路径对您的上述信息进行删除和修改。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 120,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户权利响应中的删除和修改个人信息操作，属于个人信息处理与利用的具体行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#234",
+      "doc_id": "京东健康",
+      "sent_index": 234,
+      "text": "（5）对于您在使用我们的产品与/或服务过程中产生的其他个人信息需要访问或更正，请随时联系我们。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 121,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户权利响应中的访问与更正请求，属于个人信息处理与利用的具体操作。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#235",
+      "doc_id": "京东健康",
+      "sent_index": 235,
+      "text": "我们会根据本隐私政策所列明的方式和期限响应您的请求。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 122,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户权利响应，属于个人信息处理与利用中的用户权利响应环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#236",
+      "doc_id": "京东健康",
+      "sent_index": 236,
+      "text": "（6）您无法访问和更正的个人信息：除上述列明的信息外，您的部分个人信息我们还无法为您提供访问和更正的服务，这些信息主要是为了提升您的用户体验和保证交易安全所收集的您的设备信息、您使用扩展功能时产生的个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 123,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了用户无法访问和更正的个人信息类型及收集目的，涉及用户权利响应（访问和更正）及个人信息收集与利用，属于个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#237",
+      "doc_id": "京东健康",
+      "sent_index": 237,
+      "text": "上述信息我们会在您的授权范围内进行使用，您无法访问和更正，但您可联系我们进行删除或做匿名化处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 124,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了个人信息的使用、删除和匿名化处理行为，涉及用户权利响应。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#244",
+      "doc_id": "京东健康",
+      "sent_index": 244,
+      "text": "若我们决定响应您的删除请求，我们还将同时通知从我们获得您的个人信息的实体，要求其及时删除，除非法律法规另有规定，或这些实体获得您的独立授权。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 125,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了响应删除请求后通知第三方删除个人信息的处理行为，涉及用户权利响应与共享后的删除义务。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#245",
+      "doc_id": "京东健康",
+      "sent_index": 245,
+      "text": "若我们响应您的删除请求，我们不能保证立即从备份系统中删除相应的信息，但会在备份系统更新时删除这些信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 126,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了在用户请求删除个人信息时，备份系统中的删除处理方式，涉及用户权利响应中的删除权执行。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#248",
+      "doc_id": "京东健康",
+      "sent_index": 248,
+      "text": "您可以在我们的产品中直接申请注销账户。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 127,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户权利响应中的账户注销操作，属于个人信息处理与利用中的用户权利响应环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#249",
+      "doc_id": "京东健康",
+      "sent_index": 249,
+      "text": "您可以通过京东健康移动端访问\"我的-账户设置-关于京东健康 APP -使用帮助-京东账户注销须知\"，在京东网站（jd.com）移动端京东 APP 访问\"我的--账户设置-账户与安全-注销服务\"完成账户注销；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 128,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户通过具体路径行使账户注销权，属于个人信息处理中的用户权利响应（删除权/注销权），与个人信息处理与利用直接相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#250",
+      "doc_id": "京东健康",
+      "sent_index": 250,
+      "text": "您还可以通过京东网站（jd.com）PC 端访问我的京东-账户设置-账户安全-注销账号完成账户注销。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 129,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了用户通过具体操作路径行使注销账户的权利，属于用户权利响应中的删除权/注销权实现方式。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#252",
+      "doc_id": "京东健康",
+      "sent_index": 252,
+      "text": "您注销账户后，我们将停止为您提供产品与/或服务，并依据您的要求，除法律法规另有规定外，我们将删除您的个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 130,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了注销账户后删除个人信息的处理行为，涉及用户权利响应中的删除权。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#258",
+      "doc_id": "京东健康",
+      "sent_index": 258,
+      "text": "（4）我们会与第三方的平台或媒体（\"平台\"）合作基于您的个人信息向您推荐个性化的商品。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 131,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述基于个人信息向第三方平台合作进行个性化推荐，涉及个人信息的共享与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#259",
+      "doc_id": "京东健康",
+      "sent_index": 259,
+      "text": "这些个人信息包括诸如在本网站的产品与/或服务使用情况、访问本网站关联公司网站的情况及您在您的账户设置中填写的兴趣爱好。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 132,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确列举了收集的个人信息类型（使用情况、访问记录、兴趣爱好），属于个人信息收集行为的描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#260",
+      "doc_id": "京东健康",
+      "sent_index": 260,
+      "text": "您可以通过京东健康 APP \"我的-账户设置-通用-隐私设置-个性化推荐设置\"开启或关闭个性化推荐。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 133,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户通过具体路径开启或关闭个性化推荐，涉及个人信息的处理与利用（个性化推荐属于个人信息使用范畴），且为用户权利响应（关闭/开启）的具体操作指引。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#261",
+      "doc_id": "京东健康",
+      "sent_index": 261,
+      "text": "平台仅向我们提供了展示商品的窗口，窗口内容的链接是京东健康站内的个性化商品展示信息，由京东健康进行管理，因此我们不会向广告商提供您的任何个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 134,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了平台不向广告商提供用户个人信息，涉及个人信息的共享与披露行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#265",
+      "doc_id": "京东健康",
+      "sent_index": 265,
+      "text": "（5）为了保护您的隐私，我们不会以任何方式和途径向您推送涉及宗教信仰、性取向等相关敏感内容的促销或商品信息给您。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 135,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了个人信息处理中的使用行为，即不推送涉及敏感内容的促销信息，属于个人信息的利用与保护措施。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#267",
+      "doc_id": "京东健康",
+      "sent_index": 267,
+      "text": "如果您无法通过上述方式访问、更正或删除您的个人信息，或您需要访问、更正或删除您在使用我们产品与/或服务时所产生的其他个人信息或者获取个人信息副本，或您认为京东健康存在任何违反法律法规或与您关于个人信息的收集或使用的约定，您均可以发送电子邮件至 privacy@jd.com 或通过本隐私政策中的其他方式与我们联系。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 136,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户行使访问、更正、删除个人信息等权利的具体途径，涉及用户权利响应，属于个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#280",
+      "doc_id": "京东健康",
+      "sent_index": 280,
+      "text": "若您是18周岁以下的未成年人，在使用我们的产品与/或服务前，应事先取得您监护人的同意。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 137,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及未成年人个人信息处理的监护人同意要求，属于个人信息处理与利用中的未成年人保护相关条款。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#281",
+      "doc_id": "京东健康",
+      "sent_index": 281,
+      "text": "京东健康根据国家相关法律法规的规定保护未成年人的个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 138,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确提及对未成年人个人信息的保护，涉及未成年人个人信息处理与利用的安全保护义务。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#282",
+      "doc_id": "京东健康",
+      "sent_index": 282,
+      "text": "2、我们不会主动直接向未成年人收集其个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 139,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及未成年人个人信息的收集行为，属于个人信息处理与利用中的未成年人保护范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#283",
+      "doc_id": "京东健康",
+      "sent_index": 283,
+      "text": "对于经监护人同意而收集未成年人个人信息的情况，我们只会在受到法律允许、监护人同意或者保护未成年人所必要的情况下使用、共享、转让或披露此信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 140,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了在特定条件下对未成年人个人信息的使用、共享、转让或披露行为，属于个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#284",
+      "doc_id": "京东健康",
+      "sent_index": 284,
+      "text": "3、如果有事实证明未成年人在未取得监护人同意的情况下注册使用了我们的产品与/或服务，我们会与相关监护人协商，并设法尽快删除相关个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 141,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及未成年人个人信息处理，包括删除相关个人信息的措施，属于个人信息处理与利用中的未成年人保护内容。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#285",
+      "doc_id": "京东健康",
+      "sent_index": 285,
+      "text": "4、对于可能涉及的不满14周岁的儿童个人信息，我们进一步采取以下措施予以保障：",
+      "keyword_hint": true,
+      "labeling_queue_rank": 142,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确提及对不满14周岁儿童个人信息的保障措施，涉及未成年人个人信息保护的具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#286",
+      "doc_id": "京东健康",
+      "sent_index": 286,
+      "text": "（1）对于收集到的儿童个人信息，我们除遵守本隐私政策关于用户个人信息的约定外，还会秉持正当必要、知情同意、目的明确、安全保障、依法利用的原则，严格遵循《儿童个人信息网络保护规定》等法律法规的要求进行存储、使用、披露，且不会超过实现收集、使用目的所必须的期限，到期后我们会对儿童个人信息进行删除或匿名化处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 143,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了儿童个人信息的存储、使用、披露、删除等具体处理行为，涉及未成年人保护与个人信息处理利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#287",
+      "doc_id": "京东健康",
+      "sent_index": 287,
+      "text": "我们会指定专人负责儿童个人信息保护事宜，并设立了儿童个人信息保护的专门邮箱childprivacy@jd.com。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 144,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及儿童个人信息的保护措施，包括指定负责人和设立专门邮箱，属于个人信息安全保护的具体行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#288",
+      "doc_id": "京东健康",
+      "sent_index": 288,
+      "text": "我们还会制定儿童个人信息保护的内部专门制度。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 145,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确提及制定儿童个人信息保护的内部专门制度，属于未成年人个人信息保护的具体措施，与个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#289",
+      "doc_id": "京东健康",
+      "sent_index": 289,
+      "text": "（2）当您作为监护人为被监护的儿童选择使用京东健康相关服务时，我们可能需要向您收集被监护的儿童个人信息，用于向您履行相关服务之必要。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 146,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述收集被监护儿童个人信息用于履行服务，涉及个人信息收集与未成年人保护。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#290",
+      "doc_id": "京东健康",
+      "sent_index": 290,
+      "text": "在具体服务中需要向您收集儿童个人信息的，我们会事先取得您的授权同意，并告知您收集的目的和用途。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 147,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及收集儿童个人信息，需取得授权同意并告知目的用途，属于个人信息处理与利用中的收集与未成年人保护。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#292",
+      "doc_id": "京东健康",
+      "sent_index": 292,
+      "text": "此外，您在使用晒单、评价及问答功能分享商品相关信息时可能会主动向我们提供儿童个人信息，请您明确知悉并谨慎选择。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 148,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了用户在使用特定功能时可能主动提供儿童个人信息，涉及个人信息的收集与处理，且与未成年人保护相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#293",
+      "doc_id": "京东健康",
+      "sent_index": 293,
+      "text": "您作为监护人应当正确履行监护职责，保护儿童个人信息安全。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 149,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及监护人保护儿童个人信息安全，属于未成年人保护范畴，与个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#294",
+      "doc_id": "京东健康",
+      "sent_index": 294,
+      "text": "若儿童本人需要注册或使用我们的产品与/或服务，您应正确引导并予以监护。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 150,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及未成年人个人信息处理，属于个人信息处理与利用中的未成年人保护场景。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#295",
+      "doc_id": "京东健康",
+      "sent_index": 295,
+      "text": "（3）儿童或其监护人有权随时访问和更正儿童个人信息，还可以向我们提出更正和删除的请求。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 151,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及儿童个人信息访问、更正和删除的用户权利响应，属于个人信息处理与利用中的用户权利行使。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#296",
+      "doc_id": "京东健康",
+      "sent_index": 296,
+      "text": "如您对儿童个人信息相关事宜有任何意见、建议或投诉、举报，请联系我们。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 152,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及儿童个人信息的投诉、举报与联系，属于未成年人保护及用户权利响应范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#310",
+      "doc_id": "京东健康",
+      "sent_index": 310,
+      "text": "3、我们还会将本隐私政策的旧版本存档，供您查阅。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 153,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及个人信息处理中的存储与用户权利响应（存档旧版本供查阅），属于个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#311",
+      "doc_id": "京东健康",
+      "sent_index": 311,
+      "text": "4、为了您能及时接收到通知，建议您在联系方式更新时及时通知我们。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 154,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"涉及用户更新联系方式的通知义务，与个人信息更新及用户权利响应相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#22",
+      "doc_id": "京东健康",
+      "sent_index": 22,
+      "text": "您选择绑定健康监测硬件监测的健康信息(如血糖、血压、血脂、体温、脉搏、心电、步数、血氧、潮气量、呼吸频率、呼吸周期身体监测数据)；",
+      "keyword_hint": false,
+      "labeling_queue_rank": 155,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了收集健康监测硬件产生的个人敏感信息（如血糖、血压等），属于个人信息的收集行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#58",
+      "doc_id": "京东健康",
+      "sent_index": 58,
+      "text": "例如向您推荐离您最近的可选药店。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 156,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及收集和使用用户地理位置信息进行个性化推荐，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#70",
+      "doc_id": "京东健康",
+      "sent_index": 70,
+      "text": "若您不想接收相关推送信息，可以根据本政策指引进行关闭。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 157,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户权利响应（拒绝推送），属于个人信息处理与利用中的用户权利行使。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#124",
+      "doc_id": "京东健康",
+      "sent_index": 124,
+      "text": "8、用于维护所提供的产品与/或服务的安全稳定运行所必需的，例如发现、处置产品与/或服务的故障；",
+      "keyword_hint": false,
+      "labeling_queue_rank": 158,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了为维护安全稳定运行而处理个人信息（如发现、处置故障），属于个人信息的处理与利用中的安全保护目的。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#136",
+      "doc_id": "京东健康",
+      "sent_index": 136,
+      "text": "但这些统计信息不包含您的任何身份识别信息。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 159,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及个人信息处理中的使用与安全保护，说明统计信息不包含身份识别信息，属于对个人信息处理行为的描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#159",
+      "doc_id": "京东健康",
+      "sent_index": 159,
+      "text": "（1）事先获得您明确的同意或授权；",
+      "keyword_hint": false,
+      "labeling_queue_rank": 160,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及个人信息处理的前提条件，即获取用户同意或授权，属于收集和使用个人信息的合规要求。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#160",
+      "doc_id": "京东健康",
+      "sent_index": 160,
+      "text": "（2）根据适用的法律法规、法律程序的要求、强制性的行政或司法要求所必须的情况下进行提供；",
+      "keyword_hint": false,
+      "labeling_queue_rank": 161,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述在特定法律或行政要求下必须提供个人信息，涉及个人信息的披露与共享，属于处理与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#161",
+      "doc_id": "京东健康",
+      "sent_index": 161,
+      "text": "（3）在法律法规允许的范围内，为维护京东健康、京东健康的关联方或合作伙伴、您或其他京东健康用户或社会公众利益、财产或安全免遭损害而有必要提供；",
+      "keyword_hint": false,
+      "labeling_queue_rank": 162,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了在特定条件下共享个人信息的场景，涉及个人信息的处理与利用中的共享行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#164",
+      "doc_id": "京东健康",
+      "sent_index": 164,
+      "text": "（6）符合与您签署的相关协议（包括在线签署的电子协议以及相应的平台规则）或其他的法律文件约定所提供；",
+      "keyword_hint": false,
+      "labeling_queue_rank": 163,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了基于协议或法律文件约定提供个人信息，属于个人信息的处理与利用中的共享或披露行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#191",
+      "doc_id": "京东健康",
+      "sent_index": 191,
+      "text": "1、事先获得您明确的同意或授权；",
+      "keyword_hint": false,
+      "labeling_queue_rank": 164,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及个人信息处理的前提条件（用户同意/授权），属于收集与利用环节的合规要求。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#192",
+      "doc_id": "京东健康",
+      "sent_index": 192,
+      "text": "2、根据适用的法律法规、法律程序的要求、强制性的行政或司法要求所必须的情况进行提供；",
+      "keyword_hint": false,
+      "labeling_queue_rank": 165,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了在法律法规等强制要求下提供个人信息，属于个人信息的披露与共享处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#193",
+      "doc_id": "京东健康",
+      "sent_index": 193,
+      "text": "3、符合与您签署的相关协议（包括在线签署的电子协议以及相应的平台规则）或其他的法律文件约定所提供；",
+      "keyword_hint": false,
+      "labeling_queue_rank": 166,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了基于协议或法律文件约定处理个人信息的情形，属于个人信息的处理与利用中的使用场景。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#199",
+      "doc_id": "京东健康",
+      "sent_index": 199,
+      "text": "我们对所有的请求都进行了慎重的审查，以确保其具备合法依据，且仅限于执法部门因特定调查目的且有合法权利获取的数据。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 167,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及向执法部门披露个人信息的审查与处理行为，属于个人信息的披露与安全保护范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#202",
+      "doc_id": "京东健康",
+      "sent_index": 202,
+      "text": "京东健康的网络服务采取了传输层安全协议等加密技术，通过https等方式提供浏览服务，确保用户数据在传输过程中的安全。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 168,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了个人信息在传输过程中的安全保护措施，属于个人信息的处理与利用中的安全保护环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#230",
+      "doc_id": "京东健康",
+      "sent_index": 230,
+      "text": "（3）您的订单信息：移动端您可以在\"我的-全部订单/待付款/待收货/已完成/已取消\"处查看。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 169,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户查看订单信息的具体路径，涉及个人信息的收集与访问，属于个人信息处理与利用中的用户权利响应。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#232",
+      "doc_id": "京东健康",
+      "sent_index": 232,
+      "text": "（4）您的健康档案信息：移动端您可以在 \"我的-健康档案\"中，主动添加、编辑、查看您的健康档案 ，使您在购买健康产品与/或服务时更加便捷。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 170,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述用户主动添加、编辑、查看健康档案信息，涉及个人信息的收集与处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#254",
+      "doc_id": "京东健康",
+      "sent_index": 254,
+      "text": "6、如果您不想接受我们给您发送的促销信息，您随时可通过以下方式取消：",
+      "keyword_hint": false,
+      "labeling_queue_rank": 171,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户对个人信息（促销信息）的拒绝权响应，属于用户权利响应中的撤回同意或退订机制。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#255",
+      "doc_id": "京东健康",
+      "sent_index": 255,
+      "text": "（1）您可通过 PC 端账户设置页面的邮件订阅菜单中取消邮件订阅的促销信息。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 172,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户对个人信息（促销信息邮件订阅）的处理权利响应，即取消订阅操作，属于用户权利响应范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#256",
+      "doc_id": "京东健康",
+      "sent_index": 256,
+      "text": "（2）您可以根据促销短信内容提示，来取消我们给您发送的手机促销短信。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 173,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了用户取消促销短信的具体操作，涉及个人信息的处理与利用（用户权利响应中的撤回同意）。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#257",
+      "doc_id": "京东健康",
+      "sent_index": 257,
+      "text": "（3）您可以通过移动端 APP \"消息中心-消息设置\"设置是否接受我们通过\"通知\"推动给您的商品和促销信息。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 174,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户通过设置控制是否接收商品和促销信息，属于用户权利响应中的营销信息管理，与个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#262",
+      "doc_id": "京东健康",
+      "sent_index": 262,
+      "text": "而且我们在推荐窗内设置了屏蔽功能，您可选择屏蔽您不喜欢的广告。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 175,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了在推荐窗内设置屏蔽功能，涉及用户对个人信息（广告偏好）的处理与利用，属于用户权利响应中的个性化推荐控制。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#263",
+      "doc_id": "京东健康",
+      "sent_index": 263,
+      "text": "如您不愿意接受京东健康在单个平台上的推荐服务，请联系平台进行关闭。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 176,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户拒绝个性化推荐服务的权利响应，属于个人信息处理与利用中的用户权利响应范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#268",
+      "doc_id": "京东健康",
+      "sent_index": 268,
+      "text": "为了保障安全，我们可能需要您提供书面请求，或提供您的身份证明文件，我们将在收到您反馈并验证您的身份后的15天内答复您的请求。",
+      "keyword_hint": false,
+      "labeling_queue_rank": 177,
+      "labeling_priority_score": 4,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了用户行使个人信息权利（如请求处理）时，要求提供身份证明文件进行验证，涉及用户权利响应中的身份验证流程。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#3",
+      "doc_id": "京东健康",
+      "sent_index": 3,
+      "text": "如我们提供的某款产品有单独的隐私政策或相应的用户服务协议当中存在特殊约定，则该产品的隐私政策将优先适用；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 178,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（条款适用优先级说明）；与具体处理行为无关，仅为法律套话。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#4",
+      "doc_id": "京东健康",
+      "sent_index": 4,
+      "text": "该款产品隐私政策和用户服务协议未涵盖的内容，以本政策内容为准。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 179,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 法律套话，未描述具体个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#11",
+      "doc_id": "京东健康",
+      "sent_index": 11,
+      "text": "二、我们如何使用 Cookies 和同类技术",
+      "keyword_hint": true,
+      "labeling_queue_rank": 180,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（章节标题）；与标准2 Cookies 使用说明需对应，但标题本身不构成具体处理行为描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#15",
+      "doc_id": "京东健康",
+      "sent_index": 15,
+      "text": "网络身份标识信息（包括个人信息主体账号、IP 地址）；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 181,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（仅列举信息类型定义）；与具体处理行为无关，需结合上下文判断。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#17",
+      "doc_id": "京东健康",
+      "sent_index": 17,
+      "text": "通讯录；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 182,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（仅列出数据类型）；与具体处理行为无关，需结合上下文判断。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#19",
+      "doc_id": "京东健康",
+      "sent_index": 19,
+      "text": "个人常用设备信息（包括设备传感器信息、硬件型号、设备 MAC 地址、蓝牙地址信息、设备序列号、操作系统类型、软件列表唯一设备识别码（如 IMEI/android ID/IDFA/OPENUDID/GUID、SIM 卡 IMSI 信息在内的描述个人常用设备基本情况的信息）、获取WIFI扫描结果）；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 183,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（仅为个人信息类型列举，未描述具体处理行为如收集、使用等）。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#20",
+      "doc_id": "京东健康",
+      "sent_index": 20,
+      "text": "个人位置信息（包括行程信息、精准定位信息、住宿信息、经纬度）；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 184,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（仅列举信息类型）；与具体处理行为无关，需结合上下文判断。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#25",
+      "doc_id": "京东健康",
+      "sent_index": 25,
+      "text": "其中，字体加粗部分为涉及的个人敏感信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 185,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本，仅为格式说明，未描述具体处理行为\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#68",
+      "doc_id": "京东健康",
+      "sent_index": 68,
+      "text": "若您不开启此权限，您将无法使用日历管理相关的功能，但不影响您使用其他服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 186,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"该句描述权限关闭对功能的影响，属于功能说明，未涉及个人信息的收集、使用等具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#71",
+      "doc_id": "京东健康",
+      "sent_index": 71,
+      "text": "（8）基于读取/写入外部存储器权限的扩展功能",
+      "keyword_hint": true,
+      "labeling_queue_rank": 187,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（权限分类标题）；与标准2权限收集目的说明需对应，但标题本身不构成具体处理行为描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#73",
+      "doc_id": "京东健康",
+      "sent_index": 73,
+      "text": "若您不开启此权限，您将无法使用与存储卡读取或缓存相关的功能，但不影响您使用其他服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 188,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本，描述权限关闭的影响，未涉及具体的个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#78",
+      "doc_id": "京东健康",
+      "sent_index": 78,
+      "text": "若您不开启此权限，您将无法使用前述服务，但不影响您选择其他支付或解锁方式。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 189,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本，描述权限关闭的影响，不涉及具体的个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#86",
+      "doc_id": "京东健康",
+      "sent_index": 86,
+      "text": "除此以外，我们在相关业务功能中可能还需要您开启设备的其他访问权限，详细权限和使用目的如下：",
+      "keyword_hint": true,
+      "labeling_queue_rank": 190,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本，引导用户查看权限列表，未描述具体处理行为\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#92",
+      "doc_id": "京东健康",
+      "sent_index": 92,
+      "text": "ACCESS_NETWORK_STATE（获取网络状态权限）：监控网络变化，提示用户当前网络环境",
+      "keyword_hint": true,
+      "labeling_queue_rank": 191,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（权限名称及功能说明）；与标准2收集使用目的相关但非完整合规条款，需与具体处理行为合并审计。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#94",
+      "doc_id": "京东健康",
+      "sent_index": 94,
+      "text": "VIBRATE（使用振动权限）：允许手机振动",
+      "keyword_hint": true,
+      "labeling_queue_rank": 192,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（权限说明标题）；与标准2权限收集目的需对应，但本身仅为权限名称及功能描述，未涉及具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#96",
+      "doc_id": "京东健康",
+      "sent_index": 96,
+      "text": "WAKE_LOCK（唤醒锁定权限）：允许程序在手机屏幕关闭后后台进程仍然运行，保持屏幕唤醒",
+      "keyword_hint": true,
+      "labeling_queue_rank": 193,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（权限名称及功能说明）；仅为系统权限解释，未描述具体个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#98",
+      "doc_id": "京东健康",
+      "sent_index": 98,
+      "text": "RESTART_PACKAGES（结束系统任务权限）：重新启动应用",
+      "keyword_hint": true,
+      "labeling_queue_rank": 194,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（权限名称及说明）；仅为系统权限列举，未描述具体个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#102",
+      "doc_id": "京东健康",
+      "sent_index": 102,
+      "text": "BLUETOOTH（使用蓝牙权限）：小程序蓝牙功能模块使用",
+      "keyword_hint": true,
+      "labeling_queue_rank": 195,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（权限说明标题）；与标准2收集使用正文需对应，非具体处理行为描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#104",
+      "doc_id": "京东健康",
+      "sent_index": 104,
+      "text": "BLUETOOTH_ADMIN)（蓝牙管理权限）：小程序蓝牙功能模块使用",
+      "keyword_hint": true,
+      "labeling_queue_rank": 196,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（权限名称及功能说明片段）；与标准2权限收集使用相关但非完整合规条款，需与正文合并审计。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#106",
+      "doc_id": "京东健康",
+      "sent_index": 106,
+      "text": "SYSTEM_ALERT_WINDOW（悬浮窗权限）：观看直播、短视频悬浮窗播放",
+      "keyword_hint": true,
+      "labeling_queue_rank": 197,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（权限名称及用途说明）；仅为系统权限列举，未描述具体的个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#110",
+      "doc_id": "京东健康",
+      "sent_index": 110,
+      "text": "WRITE SYSTEM（读写系统设置权限）：允许应用读写系统设置项",
+      "keyword_hint": true,
+      "labeling_queue_rank": 198,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（权限说明标题）；仅为权限名称及功能描述，未涉及具体个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "京东健康#112",
+      "doc_id": "京东健康",
+      "sent_index": 112,
+      "text": "GET_TASKS（获取任务信息权限）：允许应用获取当前或最近运行的应用",
+      "keyword_hint": true,
+      "labeling_queue_rank": 199,
+      "labeling_priority_score": 3,
+      "ai": {
+        "pii_related": false,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": false, \"confidence\": 0.9, \"reason\": \"过渡类文本 / 片段类文本（系统权限说明）；仅描述权限功能，未涉及具体的个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    }
+  ]
+}

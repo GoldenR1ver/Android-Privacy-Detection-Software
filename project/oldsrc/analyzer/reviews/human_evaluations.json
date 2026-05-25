@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "世纪佳缘#119",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#288",
+    "human": {
+      "pii_related": false,
+      "notes": "Cookie 技术常识或泛化体验表述；无本应用具体处理目的/类型，单句不作主要审计依据。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#290",
+    "human": {
+      "pii_related": false,
+      "notes": "Cookie 技术常识或泛化体验表述；无本应用具体处理目的/类型，单句不作主要审计依据。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#38",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#289",
+    "human": {
+      "pii_related": true,
+      "notes": "Cookie/同类技术用途或管理；对照标准2、17。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#296",
+    "human": {
+      "pii_related": true,
+      "notes": "用户权利行使；对照标准3、5–8。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#3",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#5",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#6",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#8",
+    "human": {
+      "pii_related": true,
+      "notes": "敏感个人信息；对照标准9、20。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#9",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#10",
+    "human": {
+      "pii_related": true,
+      "notes": "用户权利行使；对照标准3、5–8。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#11",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#12",
+    "human": {
+      "pii_related": true,
+      "notes": "敏感个人信息；对照标准9、20。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#24",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#25",
+    "human": {
+      "pii_related": true,
+      "notes": "敏感个人信息；对照标准9、20。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#26",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#27",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#28",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#30",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#31",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#32",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#33",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#34",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#35",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#36",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#37",
+    "human": {
+      "pii_related": true,
+      "notes": "安全与去标识化措施；对照标准16、18。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#39",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#40",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#41",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#42",
+    "human": {
+      "pii_related": true,
+      "notes": "安全与去标识化措施；对照标准16、18。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#43",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#44",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#45",
+    "human": {
+      "pii_related": true,
+      "notes": "用户权利行使；对照标准3、5–8。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#47",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#48",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#49",
+    "human": {
+      "pii_related": true,
+      "notes": "敏感个人信息；对照标准9、20。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#50",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#52",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#53",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#54",
+    "human": {
+      "pii_related": true,
+      "notes": "个性化/自动化决策；对照标准13。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#55",
+    "human": {
+      "pii_related": false,
+      "notes": "场景引导/列举引导句；与下文具体收集说明合并审计标准2。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#56",
+    "human": {
+      "pii_related": true,
+      "notes": "敏感个人信息；对照标准9、20。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#57",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#58",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#59",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#63",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#64",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#65",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#66",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#67",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#68",
+    "human": {
+      "pii_related": true,
+      "notes": "个性化/自动化决策；对照标准13。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#69",
+    "human": {
+      "pii_related": false,
+      "notes": "场景引导/列举引导句；与下文具体收集说明合并审计标准2。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#75",
+    "human": {
+      "pii_related": true,
+      "notes": "敏感个人信息；对照标准9、20。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#76",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#77",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#79",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#80",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#81",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#82",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#83",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#84",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#85",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#86",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#87",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#88",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#89",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#90",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#91",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#92",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#93",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#94",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#95",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#96",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#97",
+    "human": {
+      "pii_related": true,
+      "notes": "用户权利行使；对照标准3、5–8。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#98",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#99",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#100",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#101",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#103",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#104",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#105",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#106",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#107",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#108",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#109",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#110",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#111",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#112",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#113",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#116",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#118",
+    "human": {
+      "pii_related": true,
+      "notes": "个性化/自动化决策；对照标准13。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#120",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#121",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#122",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#123",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#124",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#125",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#126",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#127",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#132",
+    "human": {
+      "pii_related": true,
+      "notes": "安全与去标识化措施；对照标准16、18。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#133",
+    "human": {
+      "pii_related": true,
+      "notes": "安全与去标识化措施；对照标准16、18。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#134",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#137",
+    "human": {
+      "pii_related": true,
+      "notes": "安全与去标识化措施；对照标准16、18。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#139",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#140",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#141",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#143",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#144",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#147",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#148",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#149",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#153",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#154",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#155",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#156",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#157",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#158",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#160",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#163",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#165",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#167",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#168",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#170",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#171",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#172",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#173",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#174",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#175",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#176",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#181",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#182",
+    "human": {
+      "pii_related": true,
+      "notes": "委托/共享/第三方；对照标准12、14。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#223",
+    "human": {
+      "pii_related": false,
+      "notes": "章节或小节标题；与前后正文合并对照 ref/分类和正例依据.md。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#271",
+    "human": {
+      "pii_related": true,
+      "notes": "用户权利行使；对照标准3、5–8。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#272",
+    "human": {
+      "pii_related": true,
+      "notes": "用户权利行使；对照标准3、5–8。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#274",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#287",
+    "human": {
+      "pii_related": false,
+      "notes": "Cookie 技术常识或泛化体验表述；无本应用具体处理目的/类型，单句不作主要审计依据。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#291",
+    "human": {
+      "pii_related": true,
+      "notes": "个性化/自动化决策；对照标准13。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#292",
+    "human": {
+      "pii_related": true,
+      "notes": "Cookie/同类技术用途或管理；对照标准2、17。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#293",
+    "human": {
+      "pii_related": true,
+      "notes": "用户权利行使；对照标准3、5–8。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#294",
+    "human": {
+      "pii_related": true,
+      "notes": "Cookie/同类技术用途或管理；对照标准2、17。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#295",
+    "human": {
+      "pii_related": true,
+      "notes": "Cookie/同类技术用途或管理；对照标准2、17。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#298",
+    "human": {
+      "pii_related": true,
+      "notes": "Cookie/同类技术用途或管理；对照标准2、17。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#311",
+    "human": {
+      "pii_related": true,
+      "notes": "未成年人；对照标准11。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#317",
+    "human": {
+      "pii_related": true,
+      "notes": "联系方式或投诉渠道；对照标准1、3。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#320",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#322",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#315",
+    "human": {
+      "pii_related": true,
+      "notes": "联系方式或投诉渠道；对照标准1、3。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#46",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#51",
+    "human": {
+      "pii_related": true,
+      "notes": "个性化/自动化决策；对照标准13。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#60",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#61",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#62",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#70",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#71",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#74",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#102",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#114",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#115",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#135",
+    "human": {
+      "pii_related": true,
+      "notes": "安全与去标识化措施；对照标准16、18。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#136",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#142",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#150",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#179",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#185",
+    "human": {
+      "pii_related": false,
+      "notes": "章节或小节标题；与前后正文合并对照 ref/分类和正例依据.md。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#188",
+    "human": {
+      "pii_related": false,
+      "notes": "界面操作步骤片段；与完整权利说明合并对照标准5、6。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#275",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#299",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#301",
+    "human": {
+      "pii_related": true,
+      "notes": "Cookie/同类技术用途或管理；对照标准2、17。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#302",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#286",
+    "human": {
+      "pii_related": false,
+      "notes": "Cookie 技术常识或泛化体验表述；无本应用具体处理目的/类型，单句不作主要审计依据。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#2",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#4",
+    "human": {
+      "pii_related": false,
+      "notes": "引用外链清单/附件；实质内容在清单，单句不作完整告知。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#7",
+    "human": {
+      "pii_related": false,
+      "notes": "引用外链清单/附件；实质内容在清单，单句不作完整告知。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#13",
+    "human": {
+      "pii_related": false,
+      "notes": "章节或小节标题；与前后正文合并对照 ref/分类和正例依据.md。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#14",
+    "human": {
+      "pii_related": false,
+      "notes": "章节或小节标题；与前后正文合并对照 ref/分类和正例依据.md。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#16",
+    "human": {
+      "pii_related": false,
+      "notes": "章节或小节标题；与前后正文合并对照 ref/分类和正例依据.md。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#18",
+    "human": {
+      "pii_related": false,
+      "notes": "章节或小节标题；与前后正文合并对照 ref/分类和正例依据.md。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#20",
+    "human": {
+      "pii_related": false,
+      "notes": "章节或小节标题；与前后正文合并对照 ref/分类和正例依据.md。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#22",
+    "human": {
+      "pii_related": false,
+      "notes": "章节或小节标题；与前后正文合并对照 ref/分类和正例依据.md。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#29",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#78",
+    "human": {
+      "pii_related": false,
+      "notes": "场景引导/列举引导句；与下文具体收集说明合并审计标准2。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#128",
+    "human": {
+      "pii_related": false,
+      "notes": "章节或小节标题；与前后正文合并对照 ref/分类和正例依据.md。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#129",
+    "human": {
+      "pii_related": false,
+      "notes": "章节或小节标题；与前后正文合并对照 ref/分类和正例依据.md。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#130",
+    "human": {
+      "pii_related": false,
+      "notes": "章节或小节标题；与前后正文合并对照 ref/分类和正例依据.md。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#138",
+    "human": {
+      "pii_related": false,
+      "notes": "章节或小节标题；与前后正文合并对照 ref/分类和正例依据.md。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#146",
+    "human": {
+      "pii_related": true,
+      "notes": "句级实质涉及个人信息处理或权利保障；可作个保法审计依据（参见 ref/分类和正例依据.md）。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#151",
+    "human": {
+      "pii_related": false,
+      "notes": "过渡、标题或片段类文本；与相邻条款合并审计。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#152",
+    "human": {
+      "pii_related": false,
+      "notes": "引用外链清单/附件；实质内容在清单，单句不作完整告知。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#161",
+    "human": {
+      "pii_related": false,
+      "notes": "引用外链清单/附件；实质内容在清单，单句不作完整告知。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#166",
+    "human": {
+      "pii_related": false,
+      "notes": "引用外链清单/附件；实质内容在清单，单句不作完整告知。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#169",
+    "human": {
+      "pii_related": false,
+      "notes": "引用外链清单/附件；实质内容在清单，单句不作完整告知。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#184",
+    "human": {
+      "pii_related": false,
+      "notes": "章节或小节标题；与前后正文合并对照 ref/分类和正例依据.md。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#198",
+    "human": {
+      "pii_related": false,
+      "notes": "章节或小节标题；与前后正文合并对照 ref/分类和正例依据.md。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#201",
+    "human": {
+      "pii_related": false,
+      "notes": "界面操作步骤片段；与完整权利说明合并对照标准5、6。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#202",
+    "human": {
+      "pii_related": false,
+      "notes": "界面操作步骤片段；与完整权利说明合并对照标准5、6。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#203",
+    "human": {
+      "pii_related": false,
+      "notes": "章节或小节标题；与前后正文合并对照 ref/分类和正例依据.md。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#206",
+    "human": {
+      "pii_related": false,
+      "notes": "界面操作步骤片段；与完整权利说明合并对照标准5、6。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#207",
+    "human": {
+      "pii_related": false,
+      "notes": "界面操作步骤片段；与完整权利说明合并对照标准5、6。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  },
+  {
+    "id": "世纪佳缘#217",
+    "human": {
+      "pii_related": false,
+      "notes": "章节或小节标题；与前后正文合并对照 ref/分类和正例依据.md。",
+      "reviewed_at": "2026-04-13T18:00:00+08:00",
+      "reviewer_id": "human-cursor"
+    }
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "created_at_utc": "2026-04-27T01:14:37.766298+00:00",
+  "input": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\data\\中国工商银行.txt",
+  "mode": "classify",
+  "provider": "deepseek",
+  "ollama_model": "qwen3.5:9b",
+  "keyword_hint": true,
+  "limit": 0,
+  "max_chars": 0,
+  "num_sentences": 387,
+  "num_classified": 387,
+  "write_week3_csv": true,
+  "week3_csv_path": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\中国工商银行\\sentences_week3_2_2.csv",
+  "pre_audit_clustering": {
+    "applied": true,
+    "reason_skipped": null,
+    "cluster_embed_backend": "flag",
+    "cluster_model": "BAAI/bge-small-zh-v1.5",
+    "audit_ds_max_chars": 12000,
+    "audit_ds_max_peers": 50,
+    "pre_audit_cluster_summary": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\中国工商银行\\pre_audit_cluster_summary.json"
+  },
+  "labeling_queue": {
+    "path": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\中国工商银行\\for_labeling.jsonl",
+    "rows": 200
+  },
+  "review_bundle": {
+    "path": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\中国工商银行\\review_bundle.json",
+    "items": 200
+  },
+  "pii_shots": {
+    "path": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\ref\\shots.json",
+    "used_in_prompt": 12,
+    "max_configured": 12
+  },
+  "stats_summary": {
+    "total_sentences": 387,
+    "pii_related_ratio_of_total": 0.648578811369509,
+    "pii_related_ratio_of_labeled": 0.648578811369509,
+    "keyword_hint_ratio_of_total": 0.8062015503875969
+  }
+}

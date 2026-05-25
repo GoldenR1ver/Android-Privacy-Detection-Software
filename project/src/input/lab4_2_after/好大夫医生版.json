@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "stage": "stage3_dynamic",
+  "app_name": "好大夫医生版",
+  "dry_run": true,
+  "source": "oldsrc_lab3_derived",
+  "candidate_pii": [
+    "ip_address",
+    "minor_info",
+    "permission_info",
+    "phone_number",
+    "rights_info",
+    "security_info"
+  ],
+  "frida_result": {
+    "events": []
+  },
+  "ui_result": {
+    "runner": "oldsrc_lab3",
+    "mode": "imported",
+    "steps": [
+      "imported_cases=0"
+    ],
+    "notes": {
+      "cases": [],
+      "source": "oldsrc_test_cases"
+    }
+  }
+}

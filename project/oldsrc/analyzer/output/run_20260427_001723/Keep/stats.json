@@ -1,0 +1,17 @@
+{
+  "total_sentences": 325,
+  "pii_related": {
+    "true": 179,
+    "false": 146,
+    "null": 0,
+    "ratio_of_total": 0.5507692307692308,
+    "ratio_of_labeled": 0.5507692307692308,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 229,
+    "false": 96,
+    "ratio_of_total": 0.7046153846153846
+  },
+  "doc_id": "Keep"
+}

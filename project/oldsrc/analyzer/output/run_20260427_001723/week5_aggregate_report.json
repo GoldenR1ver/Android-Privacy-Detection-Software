@@ -1,0 +1,519 @@
+{
+  "pipeline_root": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723",
+  "source_summary": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\pipeline_summary.json",
+  "total_sentences_all_apps": 9639,
+  "per_app": [
+    {
+      "doc_id": "360借条",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\360借条",
+      "total_sentences": 697,
+      "audit_summary": {
+        "rows": 697,
+        "right_claim_1": 326,
+        "method_claim_1": 47,
+        "app_test_candidate_1": 47,
+        "access_copy_type_copy": 0,
+        "access_copy_type_non_copy": 3,
+        "access_copy_type_unknown": 6
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\360借条\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 200,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "51Job",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\51Job",
+      "total_sentences": 2674,
+      "audit_summary": {
+        "rows": 2674,
+        "right_claim_1": 826,
+        "method_claim_1": 213,
+        "app_test_candidate_1": 207,
+        "access_copy_type_copy": 4,
+        "access_copy_type_non_copy": 27,
+        "access_copy_type_unknown": 2
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\51Job\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 200,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "58同城",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\58同城",
+      "total_sentences": 346,
+      "audit_summary": {
+        "rows": 346,
+        "right_claim_1": 215,
+        "method_claim_1": 46,
+        "app_test_candidate_1": 46,
+        "access_copy_type_copy": 0,
+        "access_copy_type_non_copy": 8,
+        "access_copy_type_unknown": 1
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\58同城\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 200,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "Blued极速版",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Blued极速版",
+      "total_sentences": 192,
+      "audit_summary": {
+        "rows": 192,
+        "right_claim_1": 138,
+        "method_claim_1": 27,
+        "app_test_candidate_1": 27,
+        "access_copy_type_copy": 0,
+        "access_copy_type_non_copy": 2,
+        "access_copy_type_unknown": 2
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Blued极速版\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 192,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "BOSS",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\BOSS",
+      "total_sentences": 338,
+      "audit_summary": {
+        "rows": 338,
+        "right_claim_1": 234,
+        "method_claim_1": 65,
+        "app_test_candidate_1": 65,
+        "access_copy_type_copy": 0,
+        "access_copy_type_non_copy": 8,
+        "access_copy_type_unknown": 4
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\BOSS\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 200,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "BOSS直聘",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\BOSS直聘",
+      "total_sentences": 338,
+      "audit_summary": {
+        "rows": 338,
+        "right_claim_1": 234,
+        "method_claim_1": 65,
+        "app_test_candidate_1": 65,
+        "access_copy_type_copy": 0,
+        "access_copy_type_non_copy": 8,
+        "access_copy_type_unknown": 4
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\BOSS直聘\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 200,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "Hi 医生",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Hi 医生",
+      "total_sentences": 106,
+      "audit_summary": {
+        "rows": 106,
+        "right_claim_1": 79,
+        "method_claim_1": 3,
+        "app_test_candidate_1": 3,
+        "access_copy_type_copy": 0,
+        "access_copy_type_non_copy": 0,
+        "access_copy_type_unknown": 0
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Hi 医生\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 106,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "Keep",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Keep",
+      "total_sentences": 325,
+      "audit_summary": {
+        "rows": 325,
+        "right_claim_1": 217,
+        "method_claim_1": 36,
+        "app_test_candidate_1": 36,
+        "access_copy_type_copy": 1,
+        "access_copy_type_non_copy": 5,
+        "access_copy_type_unknown": 2
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Keep\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 200,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "LOFTER",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\LOFTER",
+      "total_sentences": 227,
+      "audit_summary": {
+        "rows": 227,
+        "right_claim_1": 144,
+        "method_claim_1": 18,
+        "app_test_candidate_1": 18,
+        "access_copy_type_copy": 0,
+        "access_copy_type_non_copy": 0,
+        "access_copy_type_unknown": 1
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\LOFTER\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 200,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "Soul",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Soul",
+      "total_sentences": 347,
+      "audit_summary": {
+        "rows": 347,
+        "right_claim_1": 234,
+        "method_claim_1": 42,
+        "app_test_candidate_1": 42,
+        "access_copy_type_copy": 2,
+        "access_copy_type_non_copy": 4,
+        "access_copy_type_unknown": 3
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\Soul\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 200,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "店长直聘",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\店长直聘",
+      "total_sentences": 221,
+      "audit_summary": {
+        "rows": 221,
+        "right_claim_1": 127,
+        "method_claim_1": 31,
+        "app_test_candidate_1": 31,
+        "access_copy_type_copy": 0,
+        "access_copy_type_non_copy": 4,
+        "access_copy_type_unknown": 5
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\店长直聘\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 200,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "东方财富",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\东方财富",
+      "total_sentences": 243,
+      "audit_summary": {
+        "rows": 243,
+        "right_claim_1": 160,
+        "method_claim_1": 30,
+        "app_test_candidate_1": 29,
+        "access_copy_type_copy": 1,
+        "access_copy_type_non_copy": 2,
+        "access_copy_type_unknown": 1
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\东方财富\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 200,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "好大夫医生版",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\好大夫医生版",
+      "total_sentences": 386,
+      "audit_summary": {
+        "rows": 386,
+        "right_claim_1": 167,
+        "method_claim_1": 26,
+        "app_test_candidate_1": 26,
+        "access_copy_type_copy": 2,
+        "access_copy_type_non_copy": 1,
+        "access_copy_type_unknown": 4
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\好大夫医生版\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 200,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "京东健康",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\京东健康",
+      "total_sentences": 323,
+      "audit_summary": {
+        "rows": 323,
+        "right_claim_1": 221,
+        "method_claim_1": 45,
+        "app_test_candidate_1": 45,
+        "access_copy_type_copy": 0,
+        "access_copy_type_non_copy": 4,
+        "access_copy_type_unknown": 6
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\京东健康\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 200,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "京东金融",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\京东金融",
+      "total_sentences": 300,
+      "audit_summary": {
+        "rows": 300,
+        "right_claim_1": 200,
+        "method_claim_1": 40,
+        "app_test_candidate_1": 40,
+        "access_copy_type_copy": 3,
+        "access_copy_type_non_copy": 0,
+        "access_copy_type_unknown": 6
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\京东金融\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 200,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "平安证券",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\平安证券",
+      "total_sentences": 608,
+      "audit_summary": {
+        "rows": 608,
+        "right_claim_1": 318,
+        "method_claim_1": 75,
+        "app_test_candidate_1": 75,
+        "access_copy_type_copy": 5,
+        "access_copy_type_non_copy": 2,
+        "access_copy_type_unknown": 5
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\平安证券\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 200,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "世纪佳缘",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\世纪佳缘",
+      "total_sentences": 323,
+      "audit_summary": {
+        "rows": 323,
+        "right_claim_1": 209,
+        "method_claim_1": 39,
+        "app_test_candidate_1": 39,
+        "access_copy_type_copy": 1,
+        "access_copy_type_non_copy": 6,
+        "access_copy_type_unknown": 3
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\世纪佳缘\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 200,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "小荷健康",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\小荷健康",
+      "total_sentences": 270,
+      "audit_summary": {
+        "rows": 270,
+        "right_claim_1": 191,
+        "method_claim_1": 24,
+        "app_test_candidate_1": 24,
+        "access_copy_type_copy": 1,
+        "access_copy_type_non_copy": 1,
+        "access_copy_type_unknown": 3
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\小荷健康\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 200,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "小红书",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\小红书",
+      "total_sentences": 296,
+      "audit_summary": {
+        "rows": 296,
+        "right_claim_1": 204,
+        "method_claim_1": 25,
+        "app_test_candidate_1": 25,
+        "access_copy_type_copy": 0,
+        "access_copy_type_non_copy": 4,
+        "access_copy_type_unknown": 3
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\小红书\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 200,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "心脏健康研究",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\心脏健康研究",
+      "total_sentences": 73,
+      "audit_summary": {
+        "rows": 73,
+        "right_claim_1": 52,
+        "method_claim_1": 12,
+        "app_test_candidate_1": 12,
+        "access_copy_type_copy": 0,
+        "access_copy_type_non_copy": 1,
+        "access_copy_type_unknown": 2
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\心脏健康研究\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 73,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "支付宝",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\支付宝",
+      "total_sentences": 247,
+      "audit_summary": {
+        "rows": 247,
+        "right_claim_1": 172,
+        "method_claim_1": 35,
+        "app_test_candidate_1": 35,
+        "access_copy_type_copy": 1,
+        "access_copy_type_non_copy": 1,
+        "access_copy_type_unknown": 0
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\支付宝\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 200,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "智联招聘",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\智联招聘",
+      "total_sentences": 372,
+      "audit_summary": {
+        "rows": 372,
+        "right_claim_1": 263,
+        "method_claim_1": 74,
+        "app_test_candidate_1": 74,
+        "access_copy_type_copy": 4,
+        "access_copy_type_non_copy": 4,
+        "access_copy_type_unknown": 6
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\智联招聘\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 200,
+        "review_bundle_present": true
+      }
+    },
+    {
+      "doc_id": "中国工商银行",
+      "output_dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\中国工商银行",
+      "total_sentences": 387,
+      "audit_summary": {
+        "rows": 387,
+        "right_claim_1": 249,
+        "method_claim_1": 35,
+        "app_test_candidate_1": 35,
+        "access_copy_type_copy": 0,
+        "access_copy_type_non_copy": 2,
+        "access_copy_type_unknown": 1
+      },
+      "cluster_analysis": {
+        "dir": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\中国工商银行\\cluster_analysis",
+        "manifest_present": true
+      },
+      "labeling": {
+        "for_labeling_jsonl_rows": 200,
+        "review_bundle_present": true
+      }
+    }
+  ],
+  "flags_from_summary": {
+    "bundle": "WEEK_5",
+    "prepare_mode": "classify",
+    "provider": "deepseek",
+    "run_audit": true
+  }
+}

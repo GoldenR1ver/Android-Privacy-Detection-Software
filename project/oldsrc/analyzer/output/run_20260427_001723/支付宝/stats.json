@@ -1,0 +1,17 @@
+{
+  "total_sentences": 247,
+  "pii_related": {
+    "true": 141,
+    "false": 106,
+    "null": 0,
+    "ratio_of_total": 0.5708502024291497,
+    "ratio_of_labeled": 0.5708502024291497,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 168,
+    "false": 79,
+    "ratio_of_total": 0.680161943319838
+  },
+  "doc_id": "支付宝"
+}

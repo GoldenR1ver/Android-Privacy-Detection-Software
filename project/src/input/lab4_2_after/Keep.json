@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "stage": "stage3_dynamic",
+  "app_name": "Keep",
+  "dry_run": true,
+  "source": "oldsrc_lab3_derived",
+  "candidate_pii": [
+    "account_info",
+    "clipboard",
+    "location",
+    "minor_info",
+    "permission_info",
+    "phone_number",
+    "profile_info",
+    "rights_info",
+    "sdk_info",
+    "security_info"
+  ],
+  "frida_result": {
+    "events": []
+  },
+  "ui_result": {
+    "runner": "oldsrc_lab3",
+    "mode": "imported",
+    "steps": [
+      "imported_cases=6"
+    ],
+    "notes": {
+      "cases": [
+        {
+          "case_id": "Keep-access-0231",
+          "status": "PASS",
+          "channel": "app_ui",
+          "matched": [
+            "account_info",
+            "phone_number",
+            "rights_info",
+            "sdk_info",
+            "security_info"
+          ]
+        },
+        {
+          "case_id": "Keep-access-0232",
+          "status": "FAIL",
+          "channel": "app_ui",
+          "matched": [
+            "location",
+            "profile_info",
+            "rights_info"
+          ]
+        },
+        {
+          "case_id": "Keep-access-0233",
+          "status": "PASS",
+          "channel": "app_ui",
+          "matched": [
+            "rights_info"
+          ]
+        },
+        {
+          "case_id": "Keep-access-0229",
+          "status": "FAIL",
+          "channel": "app_ui",
+          "matched": [
+            "rights_info"
+          ]
+        },
+        {
+          "case_id": "Keep-access-0230",
+          "status": "FAIL",
+          "channel": "app_ui",
+          "matched": [
+            "account_info",
+            "rights_info",
+            "sdk_info"
+          ]
+        },
+        {
+          "case_id": "Keep-access-0234",
+          "status": "FAIL",
+          "channel": "app_ui",
+          "matched": [
+            "phone_number",
+            "rights_info"
+          ]
+        }
+      ],
+      "source": "oldsrc_test_cases"
+    }
+  }
+}

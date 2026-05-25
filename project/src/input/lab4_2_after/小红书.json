@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "stage": "stage3_dynamic",
+  "app_name": "小红书",
+  "dry_run": true,
+  "source": "oldsrc_lab3_derived",
+  "candidate_pii": [
+    "account_info",
+    "contact_list",
+    "location",
+    "minor_info",
+    "permission_info",
+    "phone_number",
+    "profile_info",
+    "rights_info",
+    "sdk_info",
+    "security_info"
+  ],
+  "frida_result": {
+    "events": []
+  },
+  "ui_result": {
+    "runner": "oldsrc_lab3",
+    "mode": "imported",
+    "steps": [
+      "imported_cases=3"
+    ],
+    "notes": {
+      "cases": [
+        {
+          "case_id": "小红书-access-0256",
+          "status": "PASS",
+          "channel": "app_ui",
+          "matched": [
+            "contact_list",
+            "location",
+            "profile_info",
+            "rights_info"
+          ]
+        },
+        {
+          "case_id": "小红书-access-0257",
+          "status": "FAIL",
+          "channel": "app_ui",
+          "matched": [
+            "rights_info"
+          ]
+        },
+        {
+          "case_id": "小红书-access-0254",
+          "status": "PASS",
+          "channel": "app_ui",
+          "matched": [
+            "account_info",
+            "rights_info"
+          ]
+        }
+      ],
+      "source": "oldsrc_test_cases"
+    }
+  }
+}

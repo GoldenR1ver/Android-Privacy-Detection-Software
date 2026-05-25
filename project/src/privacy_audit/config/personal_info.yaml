@@ -1,0 +1,190 @@
+# Schema (Stage 0):
+# pii_type:
+#   aliases: [policy names, common variants]
+#   policy_keywords: [keywords for policy parser]
+#   permissions: [Android permissions]
+#   apis: [static API signatures or method names]
+#   hooks: [frida hook script names]
+#   network_keys: [possible upload keys]
+#   related_rights: [informed, consent, access, correction, deletion]
+#   sensitivity: [normal | sensitive]
+
+imei:
+  aliases: ["IMEI", "device_id", "设备号", "设备识别码"]
+  policy_keywords: ["IMEI", "设备识别码", "设备标识符"]
+  permissions: ["READ_PHONE_STATE"]
+  apis: ["getImei", "getDeviceId", "TelephonyManager.getImei"]
+  hooks: ["hook_imei.js"]
+  network_keys: ["imei", "device_id"]
+  related_rights: ["informed", "consent", "access", "deletion"]
+  sensitivity: ["sensitive"]
+
+android_id:
+  aliases: ["Android ID", "ANDROID_ID", "OAID"]
+  policy_keywords: ["Android ID", "安卓ID", "OAID"]
+  permissions: []
+  apis: ["Settings.Secure.ANDROID_ID", "getString"]
+  hooks: ["hook_android_id.js", "hook_oaid.js"]
+  network_keys: ["android_id", "oaid"]
+  related_rights: ["informed", "consent", "access", "deletion"]
+  sensitivity: ["sensitive"]
+
+location:
+  aliases: ["location", "gps", "地理位置", "位置信息"]
+  policy_keywords: ["地理位置", "位置信息", "定位"]
+  permissions: ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+  apis: ["getLastKnownLocation", "requestLocationUpdates", "getCurrentLocation"]
+  hooks: ["hook_location.js"]
+  network_keys: ["lat", "lng", "latitude", "longitude", "location"]
+  related_rights: ["informed", "consent", "access", "deletion"]
+  sensitivity: ["sensitive"]
+
+ip_address:
+  aliases: ["IP", "IP地址", "互联网协议地址"]
+  policy_keywords: ["IP地址", "归属地", "网络地址"]
+  permissions: []
+  apis: ["WifiInfo.getIpAddress", "InetAddress"]
+  hooks: ["hook_mac_ip.js"]
+  network_keys: ["ip", "ip_address"]
+  related_rights: ["informed", "access", "deletion"]
+  sensitivity: ["normal"]
+
+mac_address:
+  aliases: ["MAC", "Mac地址", "蓝牙Mac地址"]
+  policy_keywords: ["MAC地址", "蓝牙Mac地址"]
+  permissions: ["BLUETOOTH_CONNECT"]
+  apis: ["WifiInfo.getMacAddress", "BluetoothAdapter.getAddress"]
+  hooks: ["hook_mac_ip.js"]
+  network_keys: ["mac", "mac_address", "bt_mac"]
+  related_rights: ["informed", "consent", "access", "deletion"]
+  sensitivity: ["sensitive"]
+
+phone_number:
+  aliases: ["手机号", "手机号码", "电话"]
+  policy_keywords: ["手机号", "手机号码", "短信验证码"]
+  permissions: ["READ_PHONE_NUMBERS"]
+  apis: ["getLine1Number", "PhoneNumberUtils"]
+  hooks: ["hook_phone.js"]
+  network_keys: ["phone", "mobile", "phone_number"]
+  related_rights: ["informed", "access", "correction", "deletion"]
+  sensitivity: ["sensitive"]
+
+contact_list:
+  aliases: ["通讯录", "联系人", "联系人列表"]
+  policy_keywords: ["通讯录", "联系人", "地址簿"]
+  permissions: ["READ_CONTACTS"]
+  apis: ["ContactsContract", "ContentResolver.query"]
+  hooks: ["hook_contacts.js"]
+  network_keys: ["contacts", "contact_name", "contact_phone"]
+  related_rights: ["informed", "consent", "access", "deletion"]
+  sensitivity: ["sensitive"]
+
+clipboard:
+  aliases: ["剪贴板", "复制内容", "粘贴板"]
+  policy_keywords: ["剪贴板", "复制", "粘贴"]
+  permissions: []
+  apis: ["ClipboardManager.getPrimaryClip"]
+  hooks: ["hook_clipboard.js"]
+  network_keys: ["clipboard", "paste_text"]
+  related_rights: ["informed", "consent", "access", "deletion"]
+  sensitivity: ["sensitive"]
+
+identity_info:
+  aliases: ["身份信息", "实名认证", "身份证号"]
+  policy_keywords: ["身份信息", "实名认证", "身份证号码"]
+  permissions: []
+  apis: []
+  hooks: []
+  network_keys: ["id_no", "real_name"]
+  related_rights: ["informed", "access", "correction", "deletion"]
+  sensitivity: ["sensitive"]
+
+minor_info:
+  aliases: ["未成年人信息", "儿童信息", "监护人信息"]
+  policy_keywords: ["未成年人", "儿童", "监护人"]
+  permissions: []
+  apis: []
+  hooks: []
+  network_keys: ["minor_mode", "guardian"]
+  related_rights: ["informed", "consent", "access", "deletion"]
+  sensitivity: ["sensitive"]
+
+account_info:
+  aliases: ["账号信息", "账户信息", "个人资料"]
+  policy_keywords: ["账号", "账户", "个人资料"]
+  permissions: []
+  apis: []
+  hooks: []
+  network_keys: ["account", "profile"]
+  related_rights: ["informed", "access", "correction", "deletion"]
+  sensitivity: ["normal"]
+
+permission_info:
+  aliases: ["权限信息", "系统权限", "设备权限"]
+  policy_keywords: ["权限", "系统权限", "授权"]
+  permissions: []
+  apis: []
+  hooks: []
+  network_keys: []
+  related_rights: ["informed", "consent", "access"]
+  sensitivity: ["normal"]
+
+log_info:
+  aliases: ["日志信息", "网络日志", "行为日志"]
+  policy_keywords: ["日志", "网络日志", "使用记录"]
+  permissions: []
+  apis: []
+  hooks: []
+  network_keys: ["log", "event", "trace"]
+  related_rights: ["informed", "access", "deletion"]
+  sensitivity: ["normal"]
+
+sdk_info:
+  aliases: ["第三方SDK信息", "技术组件", "合作方信息"]
+  policy_keywords: ["第三方", "SDK", "技术组件"]
+  permissions: []
+  apis: []
+  hooks: []
+  network_keys: []
+  related_rights: ["informed", "consent", "access"]
+  sensitivity: ["normal"]
+
+profile_info:
+  aliases: ["画像信息", "个性化偏好", "推荐标签"]
+  policy_keywords: ["个性化", "推荐", "画像", "偏好"]
+  permissions: []
+  apis: []
+  hooks: []
+  network_keys: ["profile_tag", "preference"]
+  related_rights: ["informed", "consent", "access", "deletion"]
+  sensitivity: ["normal"]
+
+security_info:
+  aliases: ["安全信息", "风控信息", "投诉处理信息"]
+  policy_keywords: ["安全", "风控", "投诉", "处理时限"]
+  permissions: []
+  apis: []
+  hooks: []
+  network_keys: ["risk", "security"]
+  related_rights: ["informed", "access"]
+  sensitivity: ["normal"]
+
+rights_info:
+  aliases: ["权利信息", "查阅更正删除请求", "导出请求信息"]
+  policy_keywords: ["查阅", "更正", "删除", "导出", "权利"]
+  permissions: []
+  apis: []
+  hooks: []
+  network_keys: []
+  related_rights: ["informed", "access", "correction", "deletion"]
+  sensitivity: ["normal"]
+
+biometric_info:
+  aliases: ["生物识别信息", "指纹信息", "人脸信息"]
+  policy_keywords: ["生物识别", "指纹", "人脸"]
+  permissions: ["USE_BIOMETRIC"]
+  apis: []
+  hooks: []
+  network_keys: ["face", "fingerprint", "biometric"]
+  related_rights: ["informed", "consent", "access", "deletion"]
+  sensitivity: ["sensitive"]

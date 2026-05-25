@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "stage": "stage3_dynamic",
+  "app_name": "支付宝",
+  "dry_run": true,
+  "source": "oldsrc_lab3_derived",
+  "candidate_pii": [
+    "account_info",
+    "identity_info",
+    "ip_address",
+    "minor_info",
+    "permission_info",
+    "phone_number",
+    "rights_info",
+    "sdk_info",
+    "security_info"
+  ],
+  "frida_result": {
+    "events": []
+  },
+  "ui_result": {
+    "runner": "oldsrc_lab3",
+    "mode": "imported",
+    "steps": [
+      "imported_cases=1"
+    ],
+    "notes": {
+      "cases": [
+        {
+          "case_id": "支付宝-access-0180",
+          "status": "FAIL",
+          "channel": "app_ui",
+          "matched": [
+            "identity_info"
+          ]
+        }
+      ],
+      "source": "oldsrc_test_cases"
+    }
+  }
+}

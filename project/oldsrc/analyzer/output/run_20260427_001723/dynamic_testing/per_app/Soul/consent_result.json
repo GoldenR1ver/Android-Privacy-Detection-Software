@@ -1,0 +1,112 @@
+{
+  "app_name": "Soul",
+  "right_type": "consent",
+  "test_cases": 5,
+  "passed": 4,
+  "failed": 1,
+  "error": 0,
+  "skipped": 0,
+  "pass_rate": 0.8,
+  "avg_findability": 3.4,
+  "avg_functionality": 3.6,
+  "avg_efficiency": 3.2,
+  "avg_consistency": 3.8,
+  "avg_score": 69.8,
+  "results": [
+    {
+      "case_id": "Soul-consent-0051",
+      "app_name": "Soul",
+      "right_type": "consent",
+      "channel": "app_ui",
+      "status": "PASS",
+      "findability_score": 4,
+      "functionality_score": 3,
+      "efficiency_score": 4,
+      "consistency_score": 4,
+      "usability_score": 73.0,
+      "steps_taken": [
+        "mock: 成功 - 模拟执行"
+      ],
+      "error_message": "",
+      "screenshot_paths": [],
+      "duration_sec": 4.45,
+      "notes": "[DRY-RUN] 模拟测试通过"
+    },
+    {
+      "case_id": "Soul-consent-0068",
+      "app_name": "Soul",
+      "right_type": "consent",
+      "channel": "app_ui",
+      "status": "PASS",
+      "findability_score": 3,
+      "functionality_score": 5,
+      "efficiency_score": 3,
+      "consistency_score": 5,
+      "usability_score": 80.0,
+      "steps_taken": [
+        "mock: 成功 - 模拟执行"
+      ],
+      "error_message": "",
+      "screenshot_paths": [],
+      "duration_sec": 4.29,
+      "notes": "[DRY-RUN] 模拟测试通过"
+    },
+    {
+      "case_id": "Soul-consent-0109",
+      "app_name": "Soul",
+      "right_type": "consent",
+      "channel": "app_ui",
+      "status": "PASS",
+      "findability_score": 3,
+      "functionality_score": 5,
+      "efficiency_score": 3,
+      "consistency_score": 5,
+      "usability_score": 80.0,
+      "steps_taken": [
+        "mock: 成功 - 模拟执行"
+      ],
+      "error_message": "",
+      "screenshot_paths": [],
+      "duration_sec": 1.42,
+      "notes": "[DRY-RUN] 模拟测试通过"
+    },
+    {
+      "case_id": "Soul-consent-0223",
+      "app_name": "Soul",
+      "right_type": "consent",
+      "channel": "app_ui",
+      "status": "PASS",
+      "findability_score": 5,
+      "functionality_score": 3,
+      "efficiency_score": 5,
+      "consistency_score": 4,
+      "usability_score": 83.0,
+      "steps_taken": [
+        "mock: 成功 - 模拟执行"
+      ],
+      "error_message": "",
+      "screenshot_paths": [],
+      "duration_sec": 1.18,
+      "notes": "[DRY-RUN] 模拟测试通过"
+    },
+    {
+      "case_id": "Soul-consent-0257",
+      "app_name": "Soul",
+      "right_type": "consent",
+      "channel": "app_ui",
+      "status": "FAIL",
+      "findability_score": 2,
+      "functionality_score": 2,
+      "efficiency_score": 1,
+      "consistency_score": 1,
+      "usability_score": 33.0,
+      "steps_taken": [
+        "mock: 失败 - 模拟执行"
+      ],
+      "error_message": "",
+      "screenshot_paths": [],
+      "duration_sec": 3.92,
+      "notes": "[DRY-RUN] 模拟测试失败"
+    }
+  ]
+}

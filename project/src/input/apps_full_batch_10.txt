@@ -1,0 +1,12 @@
+# 10 个 App 全量实验（证据 + Stage2/3 + Lab4-1/2/3）
+# 使用前请确认 input/pii_text/<App>.txt 与（可选）input/apks/<App>.apk 已就绪
+Keep
+小红书
+58同城
+支付宝
+LOFTER
+智联招聘
+好大夫医生版
+小荷健康
+东方财富
+世纪佳缘

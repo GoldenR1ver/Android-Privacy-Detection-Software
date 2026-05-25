@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "stage": "stage3_dynamic",
+  "app_name": "LOFTER",
+  "app_package": "com.lofter.android",
+  "dry_run": false,
+  "generated_at_utc": "2026-05-24T13:22:27.746174+00:00",
+  "candidate_pii": [
+    "imei",
+    "android_id",
+    "location",
+    "ip_address",
+    "mac_address",
+    "phone_number"
+  ],
+  "ui_result": {
+    "runner": "appium",
+    "mode": "real",
+    "timestamp_utc": "2026-05-24T13:22:27.745942+00:00",
+    "steps": [
+      "session_created",
+      "app_activated",
+      "foreground_package=com.lofter.android",
+      "navigate_path_1=我 > 设置 > 隐私设置",
+      "tap[我]=ok",
+      "tap[设置]=miss_try_me_first",
+      "fallback_tap[我的]=ok",
+      "tap[设置]=miss_try_sidebar_fallback",
+      "sidebar_xml_before:xml_drawer_open=False xml_trigger=False menu=-",
+      "sidebar_quick_text[更多]=ok",
+      "sidebar_fallback_after_设置=failed",
+      "tap[设置]=miss",
+      "nav_path_1_stopped_at=设置",
+      "path_2_reset_start",
+      "path_2_reset=terminate_activate",
+      "navigate_path_2=我 > 设置 > 账号与安全",
+      "tap[我]=ok",
+      "tap[设置]=miss_try_me_first",
+      "fallback_tap[我的]=ok",
+      "tap[设置]=miss_try_sidebar_fallback",
+      "sidebar_xml_before:xml_drawer_open=False xml_trigger=False menu=-",
+      "sidebar_quick=timeout",
+      "sidebar_fallback_after_设置=failed",
+      "tap[设置]=miss",
+      "nav_path_2_stopped_at=设置",
+      "screenshot_captured"
+    ],
+    "policy_path_hints": [
+      "2、通过手机端登陆LOFTER APP 进行账号注销操作，操作路径：我的-设置-账号管理-注销账号"
+    ],
+    "navigation_paths": [
+      [
+        "我",
+        "设置",
+        "隐私设置"
+      ],
+      [
+        "我",
+        "设置",
+        "账号与安全"
+      ]
+    ],
+    "navigation_path_records": [
+      {
+        "source_hint": "2、通过手机端登陆LOFTER APP 进行账号注销操作，操作路径：我的-设置-账号管理-注销账号",
+        "original_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 1,
+        "matched_hint": "2、通过手机端登陆LOFTER APP 进行账号注销操作，操作路径：我的-设置-账号管理-注销账号",
+        "expanded_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ]
+      },
+      {
+        "source_hint": "2、通过手机端登陆LOFTER APP 进行账号注销操作，操作路径：我的-设置-账号管理-注销账号",
+        "original_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 2,
+        "matched_hint": "2、通过手机端登陆LOFTER APP 进行账号注销操作，操作路径：我的-设置-账号管理-注销账号",
+        "expanded_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ]
+      }
+    ],
+    "screenshots": [
+      "output\\stage3_dynamic_real\\LOFTER\\screenshots\\LOFTER_20260524_212137_launch.png",
+      "output\\stage3_dynamic_real\\LOFTER\\screenshots\\LOFTER_20260524_212143_path1.png",
+      "output\\stage3_dynamic_real\\LOFTER\\screenshots\\LOFTER_20260524_212200_path1.png",
+      "output\\stage3_dynamic_real\\LOFTER\\screenshots\\LOFTER_20260524_212210_path2.png",
+      "output\\stage3_dynamic_real\\LOFTER\\screenshots\\LOFTER_20260524_212227_path2.png"
+    ],
+    "keyword_checks": [
+      {
+        "path_index": 1,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": true,
+          "我的": true,
+          "个人": false,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": false
+        }
+      },
+      {
+        "path_index": 1,
+        "step_token": "设置",
+        "matched": true,
+        "checks": {
+          "设置": false,
+          "我的": true,
+          "隐私": false,
+          "我": true
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": true,
+          "我的": true,
+          "个人": false,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": false
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "设置",
+        "matched": true,
+        "checks": {
+          "设置": false,
+          "我的": true,
+          "隐私": false,
+          "我": true
+        }
+      }
+    ],
+    "error": ""
+  },
+  "frida_result": {
+    "runner": "frida",
+    "mode": "real",
+    "launch_mode": "attach",
+    "package": "com.lofter.android",
+    "registered_hooks": {
+      "imei": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js"
+      ],
+      "android_id": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js"
+      ],
+      "location": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js"
+      ],
+      "ip_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "mac_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "phone_number": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js"
+      ]
+    },
+    "events": [],
+    "error": "Frida attach failed: the connection is closed. Keep com.lofter.android in foreground and retry.",
+    "sync_mode": true,
+    "capture_started_at_utc": "2026-05-24T13:21:29.044603+00:00",
+    "runtime_event_count": 0
+  },
+  "path_suggestions": [
+    "3、我们仅允许有必要知晓这些信息的网易员工、合作伙伴访问您的个人信息，并为此设置了严格的访问权限控制和监控机制。我们同时要求可能接触到您的个人信息的所有人员履行相应的保密义务。如果未能履行这些义务，可能会被追究法律责任或被中止与LOFTER的合作关系。",
+    "2、通过手机端登陆LOFTER APP 进行账号注销操作，操作路径：我的-设置-账号管理-注销账号；",
+    "UI observed steps: session_created | app_activated | foreground_package=com.lofter.android",
+    "Check path for pii_type=imei",
+    "Check path for pii_type=android_id",
+    "Check path for pii_type=location"
+  ],
+  "explanation": "Collected dynamic evidence for LOFTER: candidate_pii=6, ui_steps=26, screenshots=5, frida_registered_types=6, frida_events=0. This explanation is descriptive only and does not produce verdict.",
+  "evidence_items": [
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_dynamic_real\\LOFTER\\screenshots\\LOFTER_20260524_212137_launch.png",
+      "timestamp_utc": "2026-05-24T13:22:27.745942+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_dynamic_real\\LOFTER\\screenshots\\LOFTER_20260524_212143_path1.png",
+      "timestamp_utc": "2026-05-24T13:22:27.745942+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_dynamic_real\\LOFTER\\screenshots\\LOFTER_20260524_212200_path1.png",
+      "timestamp_utc": "2026-05-24T13:22:27.745942+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_dynamic_real\\LOFTER\\screenshots\\LOFTER_20260524_212210_path2.png",
+      "timestamp_utc": "2026-05-24T13:22:27.745942+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_dynamic_real\\LOFTER\\screenshots\\LOFTER_20260524_212227_path2.png",
+      "timestamp_utc": "2026-05-24T13:22:27.745942+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    }
+  ],
+  "capture_meta": {
+    "sync_mode": true,
+    "frida_grace_sec": 5,
+    "frida_tail_sec": 3,
+    "frida_runtime_events": 0
+  },
+  "summary": {
+    "ui_steps": 26,
+    "screenshots": 5,
+    "keyword_checks": 4,
+    "keyword_match_count": 4,
+    "registered_hook_types": 6,
+    "frida_events": 0,
+    "frida_runtime_events": 0,
+    "candidate_pii_count": 6
+  }
+}

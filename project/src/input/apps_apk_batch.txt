@@ -1,0 +1,11 @@
+# Apps with APK in input/apk/ and matching input/pii_text/<name>.txt
+Keep
+小红书
+支付宝
+LOFTER
+智联招聘
+世纪佳缘
+好大夫医生版
+东方财富
+小荷健康
+58同城

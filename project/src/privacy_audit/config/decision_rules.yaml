@@ -1,0 +1,18 @@
+# Deprecated mirror of rule matrix.
+# Primary file: src/privacy_audit/rules/decision_rules.yaml
+rules:
+  - when: "declared and observed"
+    verdict: "consistent"
+    risk_level: "low"
+    message: "Policy declared and runtime/static evidence observed."
+    evidence_fields: ["claims.declared_pii", "evidence.observed_pii"]
+  - when: "not_declared and observed"
+    verdict: "inconsistent_high_risk"
+    risk_level: "high"
+    message: "Observed without declaration in policy."
+    evidence_fields: ["evidence.observed_pii"]
+  - when: "declared and not_observed"
+    verdict: "declared_not_observed"
+    risk_level: "medium"
+    message: "Declared in policy but not observed in current evidence."
+    evidence_fields: ["claims.declared_pii"]

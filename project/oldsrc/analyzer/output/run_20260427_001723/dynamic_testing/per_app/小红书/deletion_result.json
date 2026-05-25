@@ -1,0 +1,65 @@
+{
+  "app_name": "小红书",
+  "right_type": "deletion",
+  "test_cases": 2,
+  "passed": 0,
+  "failed": 2,
+  "error": 0,
+  "skipped": 0,
+  "pass_rate": 0.0,
+  "avg_findability": 1.0,
+  "avg_functionality": 1.0,
+  "avg_efficiency": 2.5,
+  "avg_consistency": 2.0,
+  "avg_score": 29.0,
+  "results": [
+    {
+      "case_id": "小红书-deletion-0257",
+      "app_name": "小红书",
+      "right_type": "deletion",
+      "channel": "app_ui",
+      "status": "FAIL",
+      "findability_score": 1,
+      "functionality_score": 1,
+      "efficiency_score": 4,
+      "consistency_score": 3,
+      "usability_score": 38.0,
+      "steps_taken": [
+        "tap → 「我」（XPath精确文本）",
+        "tap → 「笔记」（XPath精确文本）",
+        "tap → 「收藏」（XPath精确文本）",
+        "tap → 「赞过」（XPath精确文本）",
+        "删除/注销入口 → 未找到",
+        "未进入确认弹窗 — 仅验证入口可达性",
+        "安全状态: 未进入确认流程"
+      ],
+      "error_message": "",
+      "screenshot_paths": [
+        "output\\run_20260427_001723\\dynamic_testing\\per_app\\小红书\\screenshots\\20260508_183450_283_小红书-deletion-0257_end.png"
+      ],
+      "duration_sec": 60.75,
+      "notes": "未找到删除/注销入口"
+    },
+    {
+      "case_id": "小红书-deletion-0026",
+      "app_name": "小红书",
+      "right_type": "deletion",
+      "channel": "app_ui",
+      "status": "FAIL",
+      "findability_score": 1,
+      "functionality_score": 1,
+      "efficiency_score": 1,
+      "consistency_score": 1,
+      "usability_score": 20.0,
+      "steps_taken": [
+        "tap → 「随时删除这些信息」：未找到该元素"
+      ],
+      "error_message": "导航到删除/注销入口失败",
+      "screenshot_paths": [
+        "output\\run_20260427_001723\\dynamic_testing\\per_app\\小红书\\screenshots\\20260508_184001_904_小红书-deletion-0026_end.png"
+      ],
+      "duration_sec": 42.58298182487488,
+      "notes": "tap → 「随时删除这些信息」：未找到该元素"
+    }
+  ]
+}

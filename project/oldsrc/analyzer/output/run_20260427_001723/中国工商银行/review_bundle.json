@@ -1,0 +1,4009 @@
+{
+  "schema_version": 1,
+  "kind": "privacy_sentence_review_bundle",
+  "created_at_utc": "2026-04-27T01:14:37.688460+00:00",
+  "source_jsonl": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\中国工商银行\\for_labeling.jsonl",
+  "note": "run_prepare",
+  "items": [
+    {
+      "id": "中国工商银行#100",
+      "doc_id": "中国工商银行",
+      "sent_index": 100,
+      "text": "（5）基于蓝牙的功能：您可使用蓝牙U盾等服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 0,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"描述基于蓝牙的功能涉及个人信息处理（如蓝牙U盾服务），属于个人信息的收集与使用场景。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#105",
+      "doc_id": "中国工商银行",
+      "sent_index": 105,
+      "text": "（9）基于NFC的功能：您可使用云闪付、工银芯管家等服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 1,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子描述了基于NFC功能收集或使用个人信息（如云闪付、工银芯管家服务），涉及个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#110",
+      "doc_id": "中国工商银行",
+      "sent_index": 110,
+      "text": "（14）基于应用内下载安装App的功能：您可使用检测到新版本后的客户端升级服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 2,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"描述了对个人信息的处理行为（应用内下载安装功能涉及客户端升级服务），属于个人信息收集与使用场景。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#297",
+      "doc_id": "中国工商银行",
+      "sent_index": 297,
+      "text": "d.其他依法需要公开、编辑或透露个人信息的情况。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 3,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子明确提及公开、编辑或透露个人信息，属于个人信息的披露与处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#318",
+      "doc_id": "中国工商银行",
+      "sent_index": 318,
+      "text": "6.为了向您提供更完善、优质的产品和服务，我行的某些服务将由第三方提供。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 4,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及委托处理或共享个人信息给第三方，属于个人信息处理与利用中的共享或委托处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#356",
+      "doc_id": "中国工商银行",
+      "sent_index": 356,
+      "text": "上述方式可能会导致我行或相关第三方无法为您提供相应服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 5,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子描述了因个人信息处理方式（收集、使用等）受阻而影响服务提供，涉及处理行为的后果，与个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#93",
+      "doc_id": "中国工商银行",
+      "sent_index": 93,
+      "text": "对于您在使用该第三方服务时产生的信息，应由您与该第三方依法约定上述信息的收集和使用事项。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 6,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"句子明确涉及第三方服务中个人信息的收集和使用事项，属于个人信息的处理与利用范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#4",
+      "doc_id": "中国工商银行",
+      "sent_index": 4,
+      "text": "Ⅲ.融e行不会主动提供或转让您的个人信息与第三方，如存在其他提供或转让您的个人信息情形，我行会征得您的明示同意。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 7,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及个人信息的提供与转让行为，并提及征得用户同意的处理规则。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#5",
+      "doc_id": "中国工商银行",
+      "sent_index": 5,
+      "text": "明示同意是指您通过书面、口头等方式主动作出纸质或电子形式的声明，或者自主作出肯定性动作，对您的个人信息进行特定处理作出明确授权的行为（注：肯定性动作包括您主动勾选、主动点击\"确定\"\"同意\"\"注册\"\"发送\"\"拨打\"、主动填写或提供等）。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 8,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"该句子明确描述了用户通过肯定性动作对个人信息处理进行授权，涉及个人信息的收集与利用中的用户同意机制。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#7",
+      "doc_id": "中国工商银行",
+      "sent_index": 7,
+      "text": "为向您提供服务并确保您的融e行账户安全，在您使用融e行服务过程中，融e行会收集您在使用服务过程中主动输入或因使用服务而产生的信息：",
+      "keyword_hint": true,
+      "labeling_queue_rank": 9,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集个人信息的行为，涉及个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#8",
+      "doc_id": "中国工商银行",
+      "sent_index": 8,
+      "text": "1.当您注册融e行时，依据法律法规及监管要求，您需要向我行提供或授权我行收集必要的个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 10,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述在注册场景下收集个人信息的行为，涉及个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#11",
+      "doc_id": "中国工商银行",
+      "sent_index": 11,
+      "text": "若您已是中国工商银行电子银行注册客户或融e行、融e联、e生活客户，您可以使用电子银行注册手机号/用户名/卡（账）号直接登录融e行，我行会收集您提供的登录信息并对信息进行验证核对。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 11,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集登录信息并进行验证核对，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#12",
+      "doc_id": "中国工商银行",
+      "sent_index": 12,
+      "text": "（2）当您使用他行卡注册融e行时，我行会收集您的他行卡号、姓名、性别、手机号码、证件类型、证件号码、证件有效期、联络地址、职业、国籍，同时将您的姓名、证件类型、证件号码、他行卡号发送至中国银联或人民银行进行信息查询与核验，以帮助您完成融e行注册。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 12,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集个人信息（他行卡号、姓名等）以及向第三方共享信息进行核验的具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#15",
+      "doc_id": "中国工商银行",
+      "sent_index": 15,
+      "text": "2.当您使用融e行功能或服务时，您可能需要向我行提供或授权我行收集相应服务所需的个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 13,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述用户提供或授权银行收集个人信息的行为，涉及个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#17",
+      "doc_id": "中国工商银行",
+      "sent_index": 17,
+      "text": "（1）当您登录融e行时，我行将对登录手机号码、登录密码或手势密码进行有效性核验，首次登录时将验证银行卡取款密码和短信验证码，必要时会验证人脸信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 14,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了登录过程中对手机号码、密码、人脸信息等个人信息的收集与核验处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#18",
+      "doc_id": "中国工商银行",
+      "sent_index": 18,
+      "text": "如您忘记登录密码需要重置时，我行将根据您所选择场景的需要验证您的身份信息，包括手机号码、姓名、证件类型、证件号码、银行卡号、银行卡取款密码、人脸信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 15,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了在密码重置场景中收集和使用身份信息（含敏感个人信息）的具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#19",
+      "doc_id": "中国工商银行",
+      "sent_index": 19,
+      "text": "我行还会收集设备信息用于硬件绑定和登录安全加固。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 16,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集设备信息用于硬件绑定和登录安全加固，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#20",
+      "doc_id": "中国工商银行",
+      "sent_index": 20,
+      "text": "如您不提供以上信息，您将无法登录或者找回密码，但这不影响您正常使用未登录情况下可用的功能或服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 17,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了因不提供个人信息（登录/找回密码所需信息）而导致的后果，涉及个人信息的收集与使用，属于处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#21",
+      "doc_id": "中国工商银行",
+      "sent_index": 21,
+      "text": "（2）为了让您更安全、便捷地使用登录服务，如您的设备与融e行移动端版本均支持指纹/面容ID功能，您可以选择通过指纹/面容ID功能登录融e行移动端。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 18,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述通过指纹/面容ID（生物识别信息，属于个人敏感信息）进行登录服务的收集与使用，涉及个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#23",
+      "doc_id": "中国工商银行",
+      "sent_index": 23,
+      "text": "我行仅接收验证结果，并不收集您的指纹/面容信息，其信息仅在您授权采集指纹/面容信息的设备上保存和处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 19,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了个人信息的收集（不收集指纹/面容信息）及处理（仅在设备上保存和处理），涉及个人信息的收集与存储行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#26",
+      "doc_id": "中国工商银行",
+      "sent_index": 26,
+      "text": "（3）为了让您更安全、便捷地使用登录服务，如您的融e行移动端版本支持声纹登录功能，您可选择通过声纹登录融e行移动端，我行会采集您的声纹信息，在经过您的明示同意和身份认证后，您的声纹信息将被加密存储于我行信息系统后台数据库中。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 20,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集声纹信息（个人敏感信息）用于登录服务，涉及个人信息的收集、存储与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#29",
+      "doc_id": "中国工商银行",
+      "sent_index": 29,
+      "text": "（4）当您在注册、登录、注销电子银行，或在功能开通、查询、变更等交易需核实身份或辅助认证场景时，出于维护您的信息、账户、资金安全及风险控制等原因，或法律法规、监管规定要求必须开展客户身份核实的场景时，我行会要求您通过人脸识别进行身份核验。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 21,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了在注册、登录、注销等场景下，通过人脸识别进行身份核验，涉及个人敏感信息的收集与处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#30",
+      "doc_id": "中国工商银行",
+      "sent_index": 30,
+      "text": "如您是未成年人，需要由您的监护人通过人脸识别完成验证。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 22,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及未成年人个人信息的处理与利用，具体描述了通过人脸识别完成验证的收集与验证行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#31",
+      "doc_id": "中国工商银行",
+      "sent_index": 31,
+      "text": "如您拒绝授权我行采集您的人脸信息，我行将可能无法向您提供需完成人脸识别认证后方可使用的产品或服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 23,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确涉及个人敏感信息（人脸信息）的采集与使用，以及拒绝授权后的服务限制，属于个人信息处理与利用的具体描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#32",
+      "doc_id": "中国工商银行",
+      "sent_index": 32,
+      "text": "您可以授权我行将您的人脸信息保存至我行信息库，可实现7*24小时人脸识别认证服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 24,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及个人敏感信息（人脸信息）的收集与存储，属于个人信息处理与利用的具体行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#33",
+      "doc_id": "中国工商银行",
+      "sent_index": 33,
+      "text": "经过您的明示同意和身份认证后，您的人脸信息将被加密存储于我行人脸识别信息库。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 25,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了人脸信息（个人敏感信息）的收集、存储和处理，涉及明示同意和加密存储等具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#35",
+      "doc_id": "中国工商银行",
+      "sent_index": 35,
+      "text": "（5）为了让您更安全、便捷地使用转账、支付服务，如您的设备与融e行移动端版本均支持指纹/面容功能，对于某些品牌或型号的设备，您可选择开通指纹/刷脸支付功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 26,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了通过指纹/面容功能收集生物识别信息用于支付服务，属于个人敏感信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#37",
+      "doc_id": "中国工商银行",
+      "sent_index": 37,
+      "text": "我行仅接收验证结果，并不收集您的指纹/面容信息，其信息仅在您授权采集指纹/面容信息的设备上保存和处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 27,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了个人信息的收集（不收集指纹/面容信息）及处理（仅在设备上保存和处理），涉及个人信息的收集与存储行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#40",
+      "doc_id": "中国工商银行",
+      "sent_index": 40,
+      "text": "（6）当您通过第三方授权登录融e行移动端时，我行可能从第三方（如微信、支付宝、Apple）收集您授权提供的账户信息（头像、昵称、地区、性别），并在您同意本政策后将您的第三方账户与您的融e行账户绑定，使您可以通过第三方账户直接登录并使用我行的产品或服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 28,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过第三方授权登录时收集用户账户信息（头像、昵称等）并用于绑定和登录，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#41",
+      "doc_id": "中国工商银行",
+      "sent_index": 41,
+      "text": "您可以通过融e行移动端\"我的-设置-登录管理\"开启或关闭上述第三方授权登录功能，并可以查询第三方账户绑定历史。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 29,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户通过具体操作管理第三方授权登录功能，涉及个人信息的共享与授权管理，属于个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#42",
+      "doc_id": "中国工商银行",
+      "sent_index": 42,
+      "text": "（7）当您使用融e行提供的实名认证服务时，我行将根据您所选择场景的需要验证您的姓名、证件类型（身份证、护照、军官证、士兵证、港澳台居民往来通行证、临时身份证、户口本、警官证、外国人永久居留证、边民出入境通行证）、证件号码、银行卡号/账号、短信验证码、人脸信息，并可能通过验证账号/卡密码方式对有关信息进行有效性核验。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 30,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了在实名认证场景下收集姓名、证件信息、银行卡号、人脸信息等个人敏感信息的具体行为，属于个人信息的收集与处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#43",
+      "doc_id": "中国工商银行",
+      "sent_index": 43,
+      "text": "如您不提供上述信息，我行将无法向您提供需完成实名认证后方可使用的产品或服务，但这不影响您正常使用融e行的其他功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 31,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了因用户不提供个人信息（实名认证信息）导致无法使用特定服务，涉及个人信息的收集与使用，属于个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#44",
+      "doc_id": "中国工商银行",
+      "sent_index": 44,
+      "text": "（8）当您使用工银信使、融e行移动端消息服务时，我行会收集您的账户信息及交易信息，以便及时向您发送账户资金变动及相关交易通知；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 32,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集账户信息及交易信息的具体目的和场景，属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#45",
+      "doc_id": "中国工商银行",
+      "sent_index": 45,
+      "text": "我行也可能会向我行的合作伙伴收集其合法留存并经您授权可以提供使用的信息，以便为您提供相应消息通知服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 33,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述从合作伙伴处收集个人信息用于提供消息通知服务，涉及个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#46",
+      "doc_id": "中国工商银行",
+      "sent_index": 46,
+      "text": "（9）当您使用融e行提供的搜索服务时，我行会收集您的搜索关键词信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 34,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集搜索关键词信息的行为，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#47",
+      "doc_id": "中国工商银行",
+      "sent_index": 47,
+      "text": "当搜索关键词信息无法单独识别您的个人身份时，该信息不属于您的个人信息，我行可以对其加以其他目的使用；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 35,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在特定条件下对搜索关键词信息进行其他目的使用的行为，涉及个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#48",
+      "doc_id": "中国工商银行",
+      "sent_index": 48,
+      "text": "只有当搜索关键词信息与您的其他信息结合使用并可以识别您的个人身份时，则在结合使用期间，我行会将您的搜索关键词信息作为您的个人信息，对其加以保护处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 36,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了搜索关键词信息在特定条件下作为个人信息进行保护处理，涉及个人信息的识别与处理利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#49",
+      "doc_id": "中国工商银行",
+      "sent_index": 49,
+      "text": "（10）当您使用网点预约、第三方位置信息服务等基于定位的相关功能以及我行用于网络金融交易风控时，我行会收集您的地理位置信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 37,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集地理位置信息的行为，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#50",
+      "doc_id": "中国工商银行",
+      "sent_index": 50,
+      "text": "如您拒绝提供该信息，您将无法使用上述服务中基于定位的相关功能，但这不影响您正常使用融e行的其他功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 38,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了拒绝提供个人信息（定位信息）对服务功能的影响，涉及个人信息的收集与使用后果说明，属于个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#51",
+      "doc_id": "中国工商银行",
+      "sent_index": 51,
+      "text": "（11）当您使用手机号转账、话费充值、汇款短信通知等涉及通讯录的功能时，我行仅收集您从通讯录中点选的联系人信息，并进行加密传输以防恶意截取。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 39,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集联系人信息并进行加密传输的个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#52",
+      "doc_id": "中国工商银行",
+      "sent_index": 52,
+      "text": "上述信息属于敏感个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 40,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"直接对信息进行敏感个人信息定性，涉及个人信息分类与处理规则，属于个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#53",
+      "doc_id": "中国工商银行",
+      "sent_index": 53,
+      "text": "如您拒绝提供上述信息，您可以选择手动输入联系人信息继续使用上述功能，这不会影响您正常使用融e行的其他功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 41,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户拒绝提供个人信息时的替代处理方式（手动输入联系人信息），涉及个人信息的收集与使用，属于个人信息处理与利用的具体场景。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#54",
+      "doc_id": "中国工商银行",
+      "sent_index": 54,
+      "text": "（12）当您使用转账汇款、工银e支付、扫码支付等收付款功能时，您需要提供收款方的姓名、银行卡卡号/账号或手机号码，并可能需要提供您的姓名、手机号码、证件类型及证件号码，以便于验证身份及使用上述功能的支付服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 42,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了在收付款功能中收集姓名、银行卡号、手机号码、证件信息等个人信息的场景，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#55",
+      "doc_id": "中国工商银行",
+      "sent_index": 55,
+      "text": "此外，我行还会收集您的相关收付款交易记录以便于您查询。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 43,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集收付款交易记录的行为，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#57",
+      "doc_id": "中国工商银行",
+      "sent_index": 57,
+      "text": "上述信息属于敏感个人信息，如您拒绝提供该信息，仅会使您无法使用上述功能，但不影响您正常使用融e行的其他功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 44,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确提及敏感个人信息的收集与使用，并说明拒绝提供的影响，属于个人信息处理与利用的具体描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#61",
+      "doc_id": "中国工商银行",
+      "sent_index": 61,
+      "text": "（13）当您使用融e行内嵌的第三方商户服务时，您需要在订单页面中填写收货人姓名、收货地址及手机号码，同时该订单中会载明订单号、您所购买的商品或服务信息、您应支付的金额及支付方式等信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 45,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集收货人姓名、地址、手机号、订单号、商品信息、金额等个人信息的行为，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#62",
+      "doc_id": "中国工商银行",
+      "sent_index": 62,
+      "text": "（14）当您使用融e行移动端\"明细\"功能时，我行会将经您知晓并同意提供的照片信息保护起来，储存在后台服务器上，不存储在手机本地。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 46,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了个人信息的收集、存储和处理行为（照片信息），涉及用户同意和后台存储。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#63",
+      "doc_id": "中国工商银行",
+      "sent_index": 63,
+      "text": "您一旦删除\"明细\"中存储的照片，服务器上将不再保存。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 47,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户删除照片后服务器不再保存的具体处理行为，属于个人信息存储与删除的实质描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#64",
+      "doc_id": "中国工商银行",
+      "sent_index": 64,
+      "text": "我行不会收集您存储在\"明细\"中的照片。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 48,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了不收集用户照片的行为，涉及个人信息的收集处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#65",
+      "doc_id": "中国工商银行",
+      "sent_index": 65,
+      "text": "除国家有权机构要求或本政策另有约定情形，我行不向任何第三方/他人提供。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 49,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及个人信息的共享与提供行为，属于个人信息处理与利用中的共享/披露环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#66",
+      "doc_id": "中国工商银行",
+      "sent_index": 66,
+      "text": "（15）当您使用融e行移动端\"云保管\"功能时，我行会将经您知晓并同意提供的个人信息保护起来，储存在后台服务器上，不存储在手机本地。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 50,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了个人信息的收集、存储和处理行为，涉及用户同意及后台服务器存储。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#67",
+      "doc_id": "中国工商银行",
+      "sent_index": 67,
+      "text": "您可以将照片（例如png）、文件（例如pdf）等不同信息放入\"云保管\"中，具体类型以\"云保管\"实际支持的为准，并通过\"登录密码+人脸\"验证解锁以及加密存储、传输等技术方案，保护您的文件安全。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 51,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了将照片、文件等个人信息放入云保管，并通过加密存储、传输等技术方案进行安全保护，涉及个人信息的存储与安全保护处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#68",
+      "doc_id": "中国工商银行",
+      "sent_index": 68,
+      "text": "您一旦删除或取走\"云保管\"内的资料，服务器上将不再保存。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 52,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述用户删除或取走资料后服务器不再保存，涉及个人信息的存储与删除处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#69",
+      "doc_id": "中国工商银行",
+      "sent_index": 69,
+      "text": "我行不会收集您存放在\"云保管\"的资料。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 53,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了不收集用户资料的行为，涉及个人信息的收集处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#70",
+      "doc_id": "中国工商银行",
+      "sent_index": 70,
+      "text": "除国家有权机构要求或本政策另有约定情形，我行不向任何第三方/他人提供。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 54,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及个人信息的共享与提供行为，属于个人信息处理与利用中的共享/披露环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#74",
+      "doc_id": "中国工商银行",
+      "sent_index": 74,
+      "text": "（16）当您启动融e行移动端时，我行会有条件地读取您手机剪切板内容，在手机剪切板上出现连续数字并由系统判断为银行账号时会读取数字部分，用于询问您是否需要向此银行账号转账，如您确认转账并登录融e行后，页面会跳转至转账汇款功能并自动将读取的数字部分填写至收款账号输入框中，简化您的操作。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 55,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了收集和使用用户剪切板中的银行账号信息，属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#75",
+      "doc_id": "中国工商银行",
+      "sent_index": 75,
+      "text": "在您复制了产品分享口令时，会读取手机剪切板内容并展现弹框，如您点击查看会跳转至对应的产品页面。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 56,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了收集手机剪切板内容（个人信息）的行为，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#76",
+      "doc_id": "中国工商银行",
+      "sent_index": 76,
+      "text": "为切实保障您的个人信息安全，读取的内容仅存储在客户端本地（仅存储最新的一条，不留存历史记录），不上传至我行服务器。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 57,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了个人信息的存储方式（本地存储、不上传服务器），涉及个人信息处理中的存储与安全保护。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#77",
+      "doc_id": "中国工商银行",
+      "sent_index": 77,
+      "text": "（17）当您在融e行桌面端进行登录或交易认证时，我行提供的密码输入控件或扩展程序会收集您在融e行桌面端登录或交易中输入的登录密码或信用卡CVV码，并对其进行加密保护后上传至我行服务器，以增强密码输入的安全性；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 58,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集登录密码或信用卡CVV码等个人信息，并涉及加密上传处理，属于个人信息的收集与安全保护。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#78",
+      "doc_id": "中国工商银行",
+      "sent_index": 78,
+      "text": "我行提供的U盾控件或U盾扩展程序会收集您在融e行桌面端使用U盾认证时的U盾密码和交易信息，并对其进行加密保护后上传至我行服务器，以增强密码输入和交易认证的安全性。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 59,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集U盾密码和交易信息并上传至服务器进行加密保护的具体处理行为，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#79",
+      "doc_id": "中国工商银行",
+      "sent_index": 79,
+      "text": "上述信息属于敏感个人信息，如您拒绝提供该信息，您将无法登录或者登录后无法进行交易认证，但这不会影响您正常使用融e行的其他功能或服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 60,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确提及敏感个人信息的收集与使用，并说明拒绝提供的后果，属于个人信息处理与利用的具体描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#80",
+      "doc_id": "中国工商银行",
+      "sent_index": 80,
+      "text": "（18）当您使用融e行移动端账户密码重置、解除借记卡挂失、修改手机号等需要远程视频审核的功能时，我行将通过音视频通话的方式为您办理业务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 61,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了通过音视频通话方式处理个人信息（账户密码重置、解除挂失、修改手机号等），涉及个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#81",
+      "doc_id": "中国工商银行",
+      "sent_index": 81,
+      "text": "为确保本人办理，我行需收集您提供的银行卡号、手机号、身份信息、相关证明材料、手写签名信息、人脸信息，以便远程视频审核人员验证您的身份真实性。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 62,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集银行卡号、手机号、身份信息等个人信息的种类及目的（验证身份真实性），属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#82",
+      "doc_id": "中国工商银行",
+      "sent_index": 82,
+      "text": "我行将同步为您保存业务办理过程中的全部音视频信息，包括客户与座席双方交互的对话音频和影像视频，以作为交易留证资料。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 63,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集和存储音视频信息（含对话音频和影像视频）作为交易留证资料，属于个人信息的收集与存储行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#83",
+      "doc_id": "中国工商银行",
+      "sent_index": 83,
+      "text": "（19）当您使用融e行移动端同屏解说功能时，在屏幕共享开启过程中，我行会收集您与我行远程坐席人员的通话录音和共享屏幕的录屏视频，其中可能包含您的设备中正在显示或播放的银行账号、交易信息、照片、音频、视频、通知消息（密码除外），上述信息仅用于同屏解说服务过程的凭证留存。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 64,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了在屏幕共享过程中收集通话录音、录屏视频及其中包含的银行账号、交易信息等个人信息，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#84",
+      "doc_id": "中国工商银行",
+      "sent_index": 84,
+      "text": "（20）当您使用融e行养老规划测算功能时，我行可能需要收集您的出生年月、参加工作时间、每月工资，以便为您进行养老资金缺口的测算。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 65,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集出生年月、参加工作时间、每月工资等个人信息，用于养老规划测算，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#85",
+      "doc_id": "中国工商银行",
+      "sent_index": 85,
+      "text": "（21）当您使用融e行理财产品购买功能时，按照监管要求，我行会将您当次理财产品购买流程及结果进行记录，除理财产品的投资管理机构以外，我行不会将相关记录告知第三方（另行取得您的单独授权，或法律、法规、监管要求另有规定或有权机关另有要求的除外）。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 66,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了在理财产品购买场景下对个人信息的记录、使用及共享限制，涉及个人信息的收集、使用与共享处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#86",
+      "doc_id": "中国工商银行",
+      "sent_index": 86,
+      "text": "如您不同意我行记录上述信息，您将无法使用理财产品购买功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 67,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了因用户不同意记录信息而影响功能使用，涉及个人信息的收集与处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#87",
+      "doc_id": "中国工商银行",
+      "sent_index": 87,
+      "text": "3.当您使用融e行服务时，为了维护服务的正常运行，优化我行的服务体验及保障您的账户安全，我行可能会收集以下基础信息，包括您的设备型号、操作系统、设备唯一标识（安卓为Android ID、iOS为IDFV）、融e行移动端版本号、登录IP地址、设备MAC地址、接入网络的方式、类型和状态、网络质量数据、设备感应数据（如加速度传感器、触屏感应等）、操作日志、系统参数、应用权限、安装的应用信息或正在运行的进程信息、服务日志信息（如您在融e行搜索、查看的信息、引荐网址、服务故障信息等），这些信息是为您提供服务必需收集的基础信息，以保障您正常使用我行的服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 68,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了收集设备型号、操作系统、唯一标识、IP地址、MAC地址、网络信息、操作日志等基础信息，属于个人信息的收集行为，且说明了目的和必要性。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#88",
+      "doc_id": "中国工商银行",
+      "sent_index": 88,
+      "text": "4.为向您提供更加准确、个性和便捷的服务，提升服务体验、改进服务质量，或为防范风险，我行会收集您反馈意见建议或举报时提供的信息，收集您参与问卷调查时向我行反馈的信息，收集您使用融e行功能或服务的类别、方式和操作信息，及您在我行的个人信息，我行会对这些信息进行统计、分析，并会根据上述信息向您提供相应服务或产品。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 69,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了收集用户反馈、操作信息及个人信息，并进行统计、分析以提供服务或产品，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#89",
+      "doc_id": "中国工商银行",
+      "sent_index": 89,
+      "text": "5.当您在融e行中使用第三方提供的服务时，第三方可能会通过融e行收集您的昵称、头像等公开信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 70,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述第三方通过平台收集用户公开信息，涉及个人信息的收集与共享处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#90",
+      "doc_id": "中国工商银行",
+      "sent_index": 90,
+      "text": "如您已明示同意该第三方可以收集您的地理位置信息，我行将授予该第三方获得终端地理位置信息接口，其可以通过该接口获得您的具体位置信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 71,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述第三方通过接口收集用户地理位置信息的具体处理行为，涉及个人信息的收集与共享。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#91",
+      "doc_id": "中国工商银行",
+      "sent_index": 91,
+      "text": "在经过您的明示同意后，第三方可收集您的手机号等信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 72,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了第三方在用户同意后收集个人信息（手机号）的行为，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#92",
+      "doc_id": "中国工商银行",
+      "sent_index": 92,
+      "text": "对于您在使用第三方提供的服务时主动提供给第三方的相关信息，我行将视为您允许该第三方收集上述此类信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 73,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户向第三方提供信息时银行视为允许第三方收集，涉及个人信息的收集与委托处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#94",
+      "doc_id": "中国工商银行",
+      "sent_index": 94,
+      "text": "如您拒绝第三方在提供服务时收集、使用或者传递上述信息，将可能会导致您无法在融e行中使用第三方的相应服务，但这不影响您使用融e行的其他功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 74,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了第三方收集、使用或传递个人信息的行为，涉及个人信息的处理与利用，且与用户拒绝后的服务影响相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#95",
+      "doc_id": "中国工商银行",
+      "sent_index": 95,
+      "text": "6.以下情形中，您可选择是否授权我行收集、使用您的个人信息：",
+      "keyword_hint": true,
+      "labeling_queue_rank": 75,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确涉及个人信息的收集与使用，且提及用户授权选择，属于个人信息处理与利用的具体描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#96",
+      "doc_id": "中国工商银行",
+      "sent_index": 96,
+      "text": "（1）基于相机（摄像头）的功能：您可使用扫码支付、二维码识别、银行卡识别、身份证识别、人脸识别、同屏解说、远程视频审核等服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 76,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了基于相机功能收集个人信息（如人脸、身份证、银行卡识别等），属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#97",
+      "doc_id": "中国工商银行",
+      "sent_index": 97,
+      "text": "（2）基于相册（图片库）的功能：您可使用头像上传、电子回单保存、二维码识别、银行卡及身份证识别等服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 77,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过相册功能收集和使用个人信息（头像、图片、证件信息）的具体场景，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#98",
+      "doc_id": "中国工商银行",
+      "sent_index": 98,
+      "text": "（3）基于地理位置的功能：您可开启定位服务，用于网络金融交易风控，提高查询附近网点、获得优惠商户信息的准确性。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 78,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了基于地理位置的功能，涉及收集和使用个人位置信息用于风控和提供商户信息，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#99",
+      "doc_id": "中国工商银行",
+      "sent_index": 99,
+      "text": "（4）基于麦克风的功能：您可使用音频U盾、声纹识别、语音搜索、语音转账、语音唤醒、同屏解说、远程视频审核等服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 79,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述基于麦克风收集音频信息（如声纹、语音）用于具体功能，属于个人信息收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#101",
+      "doc_id": "中国工商银行",
+      "sent_index": 101,
+      "text": "（6）Face ID：您可使用登录、支付等服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 80,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述使用Face ID进行登录、支付等个人信息的处理行为，涉及生物识别信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#102",
+      "doc_id": "中国工商银行",
+      "sent_index": 102,
+      "text": "（7）基于存储的功能：用于手机银行登录、我的客服、扫一扫、登录头像图片保存、同屏解说等功能或服务，提供客户端升级相关信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 81,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了基于存储功能收集和使用个人信息（如登录、头像保存等），涉及个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#106",
+      "doc_id": "中国工商银行",
+      "sent_index": 106,
+      "text": "（10）基于通讯录的功能：您可使用手机号转账、话费充值、汇款短信通知等服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 82,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述基于通讯录的个人信息（手机号）用于转账、充值、通知等处理行为，涉及收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#107",
+      "doc_id": "中国工商银行",
+      "sent_index": 107,
+      "text": "（11）基于指纹的功能：您可使用指纹登录、指纹登录设置等服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 83,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述基于指纹的个人信息（生物识别信息）用于登录功能，涉及个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#108",
+      "doc_id": "中国工商银行",
+      "sent_index": 108,
+      "text": "（12）基于剪切板的功能：您可使用云口令识别、转账快捷跳转功能，我行系统后台不保存您的剪切板内容。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 84,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了基于剪切板的功能中个人信息的处理方式，明确说明系统后台不保存剪切板内容，涉及个人信息的收集与存储行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#111",
+      "doc_id": "中国工商银行",
+      "sent_index": 111,
+      "text": "（15）基于悬浮窗的功能：您可参加任务中心活动，使用音视频审核服务和同屏解说服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 85,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了基于悬浮窗功能收集和使用个人信息的具体场景，涉及个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#112",
+      "doc_id": "中国工商银行",
+      "sent_index": 112,
+      "text": "（16）基于加速度传感器的功能：您可使用翻转退出登录和摇一摇服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 86,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了基于加速度传感器收集用户行为数据（翻转、摇动）以实现特定功能，涉及个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#113",
+      "doc_id": "中国工商银行",
+      "sent_index": 113,
+      "text": "上述功能可能需要您在您的设备中向我行开启您的相机（摄像头）、相册（图片库）、地理位置（位置信息）、麦克风、蓝牙、Face ID、存储空间、电话、NFC、通讯录、指纹、剪切板、投屏录屏、应用内下载安装App、悬浮窗的访问权限，以实现这些功能所涉及的信息的收集和使用。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 87,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了通过开启设备权限收集和使用个人信息（如相机、相册、地理位置等），涉及个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#114",
+      "doc_id": "中国工商银行",
+      "sent_index": 114,
+      "text": "请您注意，您开启这些权限即代表您授权我行可以收集和使用这些信息来实现上述功能，如您取消了这些授权，则我行将不再继续收集和使用您的这些信息，也无法为您提供上述与这些授权所对应的功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 88,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述用户授权与银行收集、使用个人信息（权限相关）的关联，涉及个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#115",
+      "doc_id": "中国工商银行",
+      "sent_index": 115,
+      "text": "7.在向您提供服务的过程中，我行系统还可能通过第三方服务商提供的软件开发工具包（简称\"SDK\"）来为您提供服务，由第三方服务商收集您的必要信息，如您拒绝提供相关信息或权限，您将无法使用相关功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 89,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过第三方SDK收集用户必要信息的行为，涉及个人信息的委托处理与共享。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#117",
+      "doc_id": "中国工商银行",
+      "sent_index": 117,
+      "text": "（1）社保卡SDK：当您申请电子社保卡功能时，需要收集姓名、身份证件号码、手机号、手机系统版本、手机型号、网络状态信息并加密传输至国家人力资源和社会保障部系统，用于生成电子社保卡。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 90,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集姓名、身份证件号码等个人信息并传输至第三方系统的具体处理行为，涉及收集、共享和跨境传输（如适用）\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#120",
+      "doc_id": "中国工商银行",
+      "sent_index": 120,
+      "text": "（2）网证SDK：当您使用居民身份证网上功能凭证时，需要收集姓名、身份证件号码、身份证有效期，用于生成网证。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 91,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集姓名、身份证件号码、身份证有效期等个人信息的具体行为，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#123",
+      "doc_id": "中国工商银行",
+      "sent_index": 123,
+      "text": "（3）华为推送SDK:为了向您及时推送消息通知，我行使用了华为推送SDK，该SDK需要收集手机IMEI、AAID、Token、Topic订阅关系、设备组关系信息，用于实现融e行移动端推送服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 92,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了使用华为推送SDK收集手机IMEI、AAID等个人信息用于推送服务，涉及个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#127",
+      "doc_id": "中国工商银行",
+      "sent_index": 127,
+      "text": "（4）小米推送SDK:为了向您及时推送消息通知，我行使用了小米推送SDK，该SDK需要收集手机IMEI、AAID、VAID、Android ID、MID、设备型号，用于实现融e行移动端推送服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 93,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集手机IMEI、设备型号等个人信息用于推送服务，涉及个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#131",
+      "doc_id": "中国工商银行",
+      "sent_index": 131,
+      "text": "（5）OPPO推送SDK：为了向您及时推送消息通知，我行使用了OPPO推送SDK，该SDK需要收集手机IMEI、Serial Number、IMSI、User ID、Android ID、Google advertising ID、手机Region设置、设备型号、手机电量、手机操作系统版本及语言，用于实现融e行移动端推送服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 94,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集多种个人设备标识信息用于推送服务，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#135",
+      "doc_id": "中国工商银行",
+      "sent_index": 135,
+      "text": "（6）vivo推送SDK：为了向您及时推送消息通知，我行使用了vivo推送SDK，该SDK需要收集手机IMEI、Serial Number、IMSI、Android ID、系统设置信息，用于实现融e行移动端推送服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 95,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集手机IMEI、Serial Number等个人信息用于推送服务，涉及个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#139",
+      "doc_id": "中国工商银行",
+      "sent_index": 139,
+      "text": "（7）百度地图SDK：为了向您提供基于位置的服务，我行使用了百度地图SDK，该SDK需要收集手机IMEI、IMSI、硬件型号、操作系统版本、设备配置、MAC地址、经纬度信息，用于实现定位功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 96,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了第三方SDK收集个人敏感信息（IMEI、IMSI、MAC地址、经纬度等）用于定位功能，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#143",
+      "doc_id": "中国工商银行",
+      "sent_index": 143,
+      "text": "（8）微信SDK：为了向您提供微信授权登录融e行移动端的服务，我行使用了微信SDK，该SDK需要从微信收集您授权提供的账户信息（头像、昵称、地区、性别），用于您的微信账户与您的融e行账户绑定，使您可以通过微信账户直接登录并使用融e行的产品或服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 97,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过微信SDK收集用户账户信息（头像、昵称等）用于授权登录和账户绑定，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#145",
+      "doc_id": "中国工商银行",
+      "sent_index": 145,
+      "text": "（9）支付宝SDK：为了向您提供支付宝授权登录融e行移动端的服务，我行使用了支付宝SDK，该SDK需要从支付宝收集您授权提供的账户信息（头像、昵称、地区），用于您的支付宝账户与您的融e行账户绑定，使您可以通过支付宝账户直接登录并使用融e行的产品或服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 98,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集账户信息（头像、昵称、地区）用于登录绑定，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#149",
+      "doc_id": "中国工商银行",
+      "sent_index": 149,
+      "text": "（10）同盾SDK：为落实《反电信网络诈骗法》，及时甄别异常账户和可疑交易，保护您的资金安全，保障融e行移动端服务安全稳定运行，我行使用了同盾SDK，该SDK需要收集获取设备品牌及型号、运营商信息、屏幕分辨率、CPU型号、设备传感器信息（加速度、重力、光线、磁性、方向、陀螺仪传感器）、安卓的Android ID和设备序列号、IP地址、设备MAC地址、WLAN热点、服务集标识（SSID、BSSID）、蓝牙MAC地址、终端设备唯一标志符(UUID、IMEI和IMSI)、应用名称、应用版本号、iOS的应用开发商标识符IDFV、软件安装列表信息、定位信息（GPS定位信息、基站信息）、SIM卡信息（SIM卡序列号、语音信箱号码）、麦克风权限，我行收集上述信息仅用于反电信网络诈骗的风险识别。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 99,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了通过同盾SDK收集多种个人信息（如设备标识、位置、SIM卡信息等）用于反电信网络诈骗的风险识别，属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#153",
+      "doc_id": "中国工商银行",
+      "sent_index": 153,
+      "text": "（11）字节SDK（仅涉及安卓）：为了减少融e行移动端应用程序大小，通过动态下发的方式更新资源，我行使用了字节跳动SDK，该SDK需要收集获取手机电话状态和读取、写入外置存储器权限，分别用于收集网络状态，判断是否符合资源下载时机、下载新功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 100,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了使用第三方SDK收集手机电话状态和读写外置存储器权限，涉及个人信息的收集与处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#157",
+      "doc_id": "中国工商银行",
+      "sent_index": 157,
+      "text": "（12）博睿SDK（安卓）：为了提升融e行移动端应用程序的稳定性，我行使用了博睿SDK，该SDK需要收集Android ID、CPU、设备型号、手机系统版本、手机电量、网络状态、应用程序内部分点击记录、粗略位置信息，用于实现应用程序的网络请求、崩溃等性能监控和优化。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 101,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了SDK收集个人信息（Android ID、设备型号等）用于性能监控和优化，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#161",
+      "doc_id": "中国工商银行",
+      "sent_index": 161,
+      "text": "（13）博睿SDK（iOS）：为了提升融e行移动端应用程序的稳定性，我行使用了博睿SDK，该SDK需要收集手机IDFV、CPU、设备型号、手机系统版本、手机电量、网络状态、应用程序内部分点击记录、粗略位置信息，用于实现应用程序的网络请求、崩溃等性能监控和优化。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 102,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了通过SDK收集手机IDFV、CPU、设备型号、网络状态、位置信息等多项个人信息，用于性能监控和优化，属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#165",
+      "doc_id": "中国工商银行",
+      "sent_index": 165,
+      "text": "（14）凡泰极客SDK：为了向您提供证券开户服务，我行使用了凡泰极客SDK，该SDK需要收集设备号（IMEI、Android ID）、IP地址、MAC地址、手机型号信息，用于验证客户身份并进行在线证券开户。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 103,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集设备号、IP地址、MAC地址、手机型号等个人信息用于证券开户服务，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#169",
+      "doc_id": "中国工商银行",
+      "sent_index": 169,
+      "text": "（15）神州泰岳SDK：为了向您提供消息中心消息推送服务，我行使用了神州泰岳SDK，该SDK需要获取角标权限以便显示消息数量；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 104,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集和使用角标权限以提供消息推送服务，属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#170",
+      "doc_id": "中国工商银行",
+      "sent_index": 170,
+      "text": "为了保证推送信息的唯一性，需要收集获取IMEI、UUID、系统类型、系统版本、网络状态、网络类型，以及手机存储、位置信息和电话权限，保证推送信息的唯一性。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 105,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集IMEI、UUID、系统类型等个人信息的具体行为，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#173",
+      "doc_id": "中国工商银行",
+      "sent_index": 173,
+      "text": "（16）国民认证（FIDO）SDK：为了向您提供指纹、3D人脸等安全认证服务，我行使用了国民认证（FIDO）SDK，该SDK需要收集手机设备型号、设备名称、手机厂商名称、操作系统版本，用于机型兼容性支持和问题排查。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 106,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集设备信息用于安全认证服务，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#177",
+      "doc_id": "中国工商银行",
+      "sent_index": 177,
+      "text": "（17）ZXing二维码扫描SDK：为了向您提供扫一扫服务，我行使用了ZXing二维码扫描SDK，该SDK需要获取相机（摄像头）权限。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 107,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集相机权限以提供扫一扫服务，属于个人信息的收集与处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#179",
+      "doc_id": "中国工商银行",
+      "sent_index": 179,
+      "text": "（18）安全辅助SDK：为了提升登录、支付、金融交易等功能的安全性，我行使用了自行研发的msdeviceinfo SDK，该SDK需要收集Android ID（安卓）、UUID（iOS）、CPU型号、生产厂商、设备型号、系统类型、运营商信息、网络类别信息，用于交易安全性分析。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 108,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集多种个人信息（如Android ID、UUID、设备信息等）用于交易安全性分析，属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#180",
+      "doc_id": "中国工商银行",
+      "sent_index": 180,
+      "text": "（19）腾讯人脸识别SDK：为了向您提供人脸识别服务，我行使用了腾讯人脸识别SDK，该SDK将收集获取操作系统版本、设备序列号、OAID、运营商信息、IDFV、网络状态、IP地址、相机权限、相机参数信息、人脸视频及照片，用于人脸识别的活体检测，收集上述设备信息并进行必要处理后用于真人实时认证的风险检测和故障问题排查分析。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 109,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集设备信息、人脸视频及照片等个人信息，并用于人脸识别活体检测和风险分析，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#184",
+      "doc_id": "中国工商银行",
+      "sent_index": 184,
+      "text": "（20）云从人脸识别SDK：为了向您提供人脸识别服务，我行使用了云从人脸识别SDK，该SDK需要收集获取操作系统版本、运营商信息、网络状态、相机权限、人脸视频及照片，用于人脸识别的活体检测，并将上述采集的设备信息进行必要处理后用于真人实时认证的风险检测。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 110,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集操作系统版本、运营商信息、网络状态、相机权限、人脸视频及照片等个人信息，并用于人脸识别活体检测和风险检测，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#186",
+      "doc_id": "中国工商银行",
+      "sent_index": 186,
+      "text": "（21）声扬SDK：为了向您提供安卓设备的声纹服务，我行使用了声扬SDK，该SDK需要收集获取设备运营商信息、网络状态信息，麦克风权限，用于录音进行声纹识别。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 111,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集设备运营商信息、网络状态信息及使用麦克风权限进行声纹识别的个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#187",
+      "doc_id": "中国工商银行",
+      "sent_index": 187,
+      "text": "该SDK仅收集数据以及识别转换数据，不保存用户的声纹数据信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 112,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了SDK对个人数据（声纹数据）的收集、处理及不保存行为，属于个人信息处理与利用的具体操作说明。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#189",
+      "doc_id": "中国工商银行",
+      "sent_index": 189,
+      "text": "（22）银联乘车码SDK：为了向您提供乘车码服务，我行使用了银联乘车码SDK，该SDK需要收集获取手机终端唯一标识信息（IMEI）、经纬度信息、手机号码、存储权限，用于提供乘车码出码服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 113,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集IMEI、经纬度、手机号码等个人信息用于提供乘车码服务，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#190",
+      "doc_id": "中国工商银行",
+      "sent_index": 190,
+      "text": "同时为了保证数据和用户信息安全，防止SDK中乘车码签名密钥、授权信息等数据泄露或被恶意篡改，该SDK使用了网易易盾提供的安全加固服务，对SDK中乘车码数据和信息进行安全加密保护。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 114,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了通过安全加固服务对SDK中的用户数据和信息进行安全加密保护，属于个人信息的存储与安全保护处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#192",
+      "doc_id": "中国工商银行",
+      "sent_index": 192,
+      "text": "（23）AR扫描SDK：为了向您提供AR扫描功能，我行使用了自行研发的AR扫描SDK，该SDK需要获取相机权限，捕捉您周围的环境图像，用于AR扫描的目标识别。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 115,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集环境图像（个人信息）用于AR扫描功能，涉及个人信息的收集与处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#193",
+      "doc_id": "中国工商银行",
+      "sent_index": 193,
+      "text": "（24）手机号认证SDK（移动）：为了向您提供登录服务，我行使用了手机号认证SDK，该SDK需要收集Android ID、iOS BundleID、IP信息、系统类型、系统版本、设备厂商、手机型号、SIM卡运营商信息、网络类型，用于融e行移动端登录认证。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 116,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集多种个人信息（如Android ID、IP信息、设备信息等）用于登录认证，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#195",
+      "doc_id": "中国工商银行",
+      "sent_index": 195,
+      "text": "（25）手机号认证SDK（联通）：为了向您提供登录服务，我行使用了手机号认证SDK，该SDK需要收集Android ID、iOS BundleID、IP信息、系统类型、系统版本、设备厂商、手机型号、SIM卡运营商信息、网络类型，用于融e行移动端登录认证。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 117,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集多种个人信息（如Android ID、IP信息、设备信息等）用于登录认证，属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#197",
+      "doc_id": "中国工商银行",
+      "sent_index": 197,
+      "text": "（26）手机号认证SDK（电信）：为了向您提供登录服务，我行使用了手机号认证SDK，该SDK需要收集Android ID、iOS BundleID、IP信息、系统类型、系统版本、设备厂商、手机型号、SIM卡运营商信息、网络类型，用于融e行移动端登录认证。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 118,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集多种个人信息（如Android ID、IP信息等）用于登录认证，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#199",
+      "doc_id": "中国工商银行",
+      "sent_index": 199,
+      "text": "（27）云闪付网络支付SDK：为了向您提供银联云网支付服务，我行使用了云闪付网络支付SDK，该SDK 需要收集获取姓名、证件号、证件类型、银行卡号、手机号、设备相关信息（设备型号、MAC地址、系统版本、手机型号、IMEI、IMSI），需要手机地理位置权限、手机状态与身份权限、手机存储权限、网络/查看WLAN状态、通讯录权限、通知权限，用于提供主被扫付款、卡片管理、通过银联云闪付网络支付合作商户唤起融e行移动端支付服务，以及展示当前匹配可用的营销优惠券，支付时的身份识别、风险控制、数据缓存与读取和网络连接状态确认。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 119,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了SDK收集姓名、证件号、银行卡号、手机号、设备信息等个人信息，并用于支付、身份识别、风险控制等处理目的。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#201",
+      "doc_id": "中国工商银行",
+      "sent_index": 201,
+      "text": "（28）神策SDK：为了向您提供银联云网支付服务，我行使用的云闪付网络支付SDK中引用了神策SDK，该SDK需要收集iOS的设备型号、系统版本号、屏幕高度、屏幕宽度、WIFI连接情况、运营商名称、应用版本号、应用名称信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 120,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了通过SDK收集用户设备信息（如设备型号、系统版本等），属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#202",
+      "doc_id": "中国工商银行",
+      "sent_index": 202,
+      "text": "安卓的操作系统版本、设备型号、系统版本号、屏幕高度、屏幕宽度、WIFI连接情况、运营商名称、应用版本号、设备ID、设备类型、操作日志信息、SDK版本、设备制造商、网络类型信息、IMSI、Android ID，用于提供云闪付网络支付的数据埋点采集功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 121,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确列举了多项个人信息（如设备ID、IMSI、Android ID等），并说明用于数据埋点采集，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#204",
+      "doc_id": "中国工商银行",
+      "sent_index": 204,
+      "text": "（29）数美SDK：为了向您提供银联云网支付服务，我行使用的云闪付网络支付SDK中引用了数美SDK，该SDK需要收集设备型号、硬件序列号、系统版本号、MAC地址、IMEI、IMSI、地理位置，用于提供识别欺诈用户，保障交易安全服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 122,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了SDK收集设备型号、硬件序列号、MAC地址、IMEI、IMSI、地理位置等个人信息，用于识别欺诈用户和保障交易安全，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#206",
+      "doc_id": "中国工商银行",
+      "sent_index": 206,
+      "text": "（30）科大讯飞SDK：为了向您提供智能语音识别服务，我行使用了科大讯飞SDK，该SDK需要收集获取语音信息，获取录音权限、麦克风权限、网络权限和读取SD卡权限，用于提供实时语音识别播报。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 123,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集语音信息、获取权限等个人信息处理行为，涉及收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#208",
+      "doc_id": "中国工商银行",
+      "sent_index": 208,
+      "text": "（31）华虹U盾SDK：为了向您提供音频U盾、蓝牙U盾服务，我行使用了华虹U盾SDK，该SDK需要收集获取IMEI、设备信息、网络权限、读写外部存储文件、位置信息、蓝牙权限，用于实现U盾验签、证书下载、修改密码等服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 124,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集IMEI、设备信息、网络权限等个人信息，用于U盾验签等服务，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#211",
+      "doc_id": "中国工商银行",
+      "sent_index": 211,
+      "text": "（32）飞天U盾SDK：为了向您提供音频U盾、蓝牙U盾服务，我行使用了飞天U盾SDK，该SDK需要收集获取IMEI、设备信息、网络权限、读写外部存储文件、位置信息、蓝牙权限，用于实现U盾验签、证书下载、修改密码等服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 125,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集IMEI、设备信息、网络权限等个人信息用于U盾服务，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#213",
+      "doc_id": "中国工商银行",
+      "sent_index": 213,
+      "text": "（33）明华U盾SDK：为了向您提供音频U盾、蓝牙U盾服务，我行使用了明华U盾SDK，该SDK需要收集获取IMEI、设备信息、网络权限、读写外部存储文件、位置信息、蓝牙权限，用于实现U盾验签、证书下载、修改密码等服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 126,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集IMEI、设备信息、网络权限等个人信息，用于U盾验签等服务，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#215",
+      "doc_id": "中国工商银行",
+      "sent_index": 215,
+      "text": "（34）天地融U盾SDK：为了向您提供音频U盾、蓝牙U盾服务，我行使用了天地融U盾SDK，该SDK需要收集获取IMEI、设备信息、网络权限、读写外部存储文件、位置信息、蓝牙权限，用于实现U盾验签、证书下载、修改密码等服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 127,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集IMEI、设备信息、网络权限等个人信息，用于U盾验签等服务，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#218",
+      "doc_id": "中国工商银行",
+      "sent_index": 218,
+      "text": "（35）视频播放SDK：为了向您提供视频播放服务，我行使用了视频播放SDK，该SDK不收集个人信息和设备权限。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 128,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了使用第三方SDK提供视频播放服务，并说明其不收集个人信息，涉及委托处理或第三方服务提供者的个人信息处理与利用相关说明。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#220",
+      "doc_id": "中国工商银行",
+      "sent_index": 220,
+      "text": "（36）SMIT充值宝SDK：为了向您提供蓝牙连接充值服务，我行使用了SMIT充值宝SDK，该SDK需要收集获取Android ID（安卓）、UUID（iOS）和蓝牙权限。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 129,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集Android ID、UUID和蓝牙权限用于充值服务，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#222",
+      "doc_id": "中国工商银行",
+      "sent_index": 222,
+      "text": "（37）无码埋点SDK：为了实现页面访问数据分析，我行使用了无码埋点SDK，该SDK需要收集Android ID（安卓）、UUID（iOS）、CPU型号、生产厂商、设备型号、系统类型、运营商信息、网络类别信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 130,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集Android ID、UUID、设备型号等个人信息用于数据分析，属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#225",
+      "doc_id": "中国工商银行",
+      "sent_index": 225,
+      "text": "（38）数字货币可视卡SDK：为了向您提供数字人民币钱包服务，我行使用了数字货币可视卡SDK，该SDK不收集获取个人信息和设备权限，用于实现数字人民币硬钱包的初始化指令拼装以及指令透传通道。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 131,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了使用SDK提供数字人民币钱包服务，并说明该SDK不收集个人信息，属于个人信息处理与利用的否定性说明，涉及委托处理或技术实现中的个人信息保护声明。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#227",
+      "doc_id": "中国工商银行",
+      "sent_index": 227,
+      "text": "（39）数字人SDK：为了向您提供数字人服务，我行使用了数字人SDK，该SDK需要获取网络权限，用于实现数字人形象。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 132,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集和使用个人信息（数字人形象）以提供服务，涉及个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#229",
+      "doc_id": "中国工商银行",
+      "sent_index": 229,
+      "text": "（40）数字证书SDK：为了向您提供数字证书签名服务，我行使用了数字证书SDK，该SDK需要收集IMEI、Android ID、IMSI、硬件型号、操作系统版本、CPU信息和内部存储信息，用于实现基于设备的证书下载和协同签名服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 133,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集IMEI、Android ID等个人信息用于数字证书签名服务，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#232",
+      "doc_id": "中国工商银行",
+      "sent_index": 232,
+      "text": "（41）微付充SDK：为了向您提供NFC刷卡乘车服务，我行使用了微付充SDK，该SDK需要获取网络权限和NFC权限。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 134,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集和使用个人信息（NFC刷卡乘车服务），涉及个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#234",
+      "doc_id": "中国工商银行",
+      "sent_index": 234,
+      "text": "（42）AnyChat SDK：为了向您提供证券开户服务，我行使用的凡泰极客SDK中引用了AnyChat SDK，该SDK需要收集获取设备号（IMEI、Android ID）、IP、MAC地址、手机型号信息，需要获取麦克风、摄像头、相册、定位权限，用于验证客户身份并进行在线证券开户。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 135,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集设备号、IP、MAC地址、手机型号等个人信息，并获取麦克风、摄像头等权限，用于证券开户服务，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#237",
+      "doc_id": "中国工商银行",
+      "sent_index": 237,
+      "text": "（43）腾讯TBS SDK：为了向您提供证券开户服务，我行使用的凡泰极客SDK中引用了腾讯TBS SDK，该SDK不收集获取个人信息和设备权限，用于验证客户身份并进行在线证券开户。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 136,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了通过SDK提供证券开户服务，涉及个人信息的处理（验证客户身份），属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#239",
+      "doc_id": "中国工商银行",
+      "sent_index": 239,
+      "text": "（44）直播SDK：为了向您提供直播服务，我行使用了直播SDK，该SDK需要获取相机权限、麦克风权限和安卓浮窗权限。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 137,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集个人信息（相机、麦克风权限）用于提供直播服务，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#242",
+      "doc_id": "中国工商银行",
+      "sent_index": 242,
+      "text": "为了向您提供生僻字展示和输入服务，我行使用了方正生僻字SDK，该SDK不收集获取个人信息和设备权限。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 138,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了使用第三方SDK提供生僻字服务，并声明不收集个人信息，涉及个人信息的委托处理与利用相关说明。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#245",
+      "doc_id": "中国工商银行",
+      "sent_index": 245,
+      "text": "为了实现移动应用客户端与服务器之间的通道加密，我行使用了国密SSL SDK，该SDK不收集获取个人信息和设备权限。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 139,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了使用SDK进行通道加密，并声明该SDK不收集个人信息，涉及个人信息的处理与利用（收集）的否定性说明，属于相关内容。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#247",
+      "doc_id": "中国工商银行",
+      "sent_index": 247,
+      "text": "8.为了统计客户访问情况，融e行移动端部分营销广告和活动页面中使用了百度统计组件和友盟+（站长统计）组件，此页面统计组件需要收集您的设备唯一标识（安卓为Android ID、iOS为IDFV）和网络ip所在区域信息，用于实现PV（页面浏览量）、UV（独立访客）的相关数据统计。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 140,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集设备唯一标识和网络IP区域信息用于统计，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#248",
+      "doc_id": "中国工商银行",
+      "sent_index": 248,
+      "text": "组件提供方名称：北京锐讯通讯科技有限公司（友盟公司）、百度网讯科技有限公司（百度公司），联系方式：ext_tongji_reply@baidu.com（百度统计），隐私政策（百度统计）。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 141,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确列出了个人信息处理相关的第三方组件提供方名称、联系方式及隐私政策链接，涉及共享或委托处理个人信息的具体主体信息。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#249",
+      "doc_id": "中国工商银行",
+      "sent_index": 249,
+      "text": "9.请您理解，我行向您提供的功能和服务是不断更新和发展的，如果某一功能或服务未在本政策载明且收集了您的个人信息，我行会通过页面提示、交互流程、网站公告等方式另行向您说明信息收集、使用的内容、范围和目的，并在使用前征得您的授权同意。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 142,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了在功能或服务更新时收集个人信息的行为，并涉及信息收集、使用、说明及征得同意等处理环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#250",
+      "doc_id": "中国工商银行",
+      "sent_index": 250,
+      "text": "授权同意是指您对您个人信息进行特定处理作出明确授权的行为，包括通过积极的行为作出授权（即明示同意），或者通过消极的不作为而作出授权（如信息采集区域内的您在被告知信息收集行为后没有离开该区域）。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 143,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了个人信息处理中的授权同意行为，涉及用户对个人信息收集、使用的授权方式，属于个人信息处理与利用的核心环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#251",
+      "doc_id": "中国工商银行",
+      "sent_index": 251,
+      "text": "1.为向您提供更优质的服务，经您同意，我行可将您的个人信息用于营销、用户体验改进或者市场调查等用途。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 144,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述经用户同意后将个人信息用于营销、改进等用途，属于个人信息的利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#255",
+      "doc_id": "中国工商银行",
+      "sent_index": 255,
+      "text": "2.为确保服务安全，帮助我行更好地了解融e行运行情况，我行可能记录融e行运行的相关信息，比如，您使用融e行的频率、崩溃数据、总体使用情况、性能数据等。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 145,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集使用频率、崩溃数据等个人信息用于服务安全分析，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#256",
+      "doc_id": "中国工商银行",
+      "sent_index": 256,
+      "text": "我行不会将存储在分析软件中的信息与您在融e行中输入的任何个人身份信息相结合。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 146,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了个人信息处理行为（不结合存储信息与个人身份信息），涉及存储与使用环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#257",
+      "doc_id": "中国工商银行",
+      "sent_index": 257,
+      "text": "3.我行在收集您的个人信息后，可能会通过技术手段对您的信息数据进行去标识化处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 147,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了对收集后的个人信息进行去标识化处理，属于个人信息处理与利用中的安全保护措施。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#258",
+      "doc_id": "中国工商银行",
+      "sent_index": 258,
+      "text": "去标识化处理后的信息将无法直接识别个人信息主体，您同意我行对去标识化的数据进行分析并予以使用。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 148,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了对个人信息进行去标识化处理后的使用行为，涉及个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#259",
+      "doc_id": "中国工商银行",
+      "sent_index": 259,
+      "text": "4.为了给您提供更好的使用体验，我行可能会根据您的身份信息、交易信息、设备信息、服务日志，经过去标识化处理后，提取您的偏好特征，并基于特征标签的用户画像、用户风险评级，用于展现智能语音搜索推荐内容、投资理财产品推荐内容。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 149,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述收集身份信息、交易信息等个人信息，并用于用户画像和推荐内容，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#273",
+      "doc_id": "中国工商银行",
+      "sent_index": 273,
+      "text": "为确保服务正常运转，我行会在您的计算机或移动设备上存储名为Cookie的小数据文件。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 150,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过Cookie在用户设备上存储数据文件的行为，属于个人信息的存储与收集。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#274",
+      "doc_id": "中国工商银行",
+      "sent_index": 274,
+      "text": "Cookie通常包含标识符、站点名称以及一些号码和字符。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 151,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了Cookie包含标识符等个人信息，涉及个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#275",
+      "doc_id": "中国工商银行",
+      "sent_index": 275,
+      "text": "借助于Cookie，我行后台服务器能够对融e行移动端的访问情况进行有效分配，以便提供更优质的服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 152,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了通过Cookie收集用户访问信息以优化服务，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#276",
+      "doc_id": "中国工商银行",
+      "sent_index": 276,
+      "text": "我行不会将Cookie用于本政策所述目的之外的任何用途。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 153,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及Cookie的使用目的限制，属于个人信息处理与利用中的使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#277",
+      "doc_id": "中国工商银行",
+      "sent_index": 277,
+      "text": "您可根据自己的偏好管理或删除Cookie。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 154,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户对Cookie的管理或删除，属于个人信息处理中的用户权利响应。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#280",
+      "doc_id": "中国工商银行",
+      "sent_index": 280,
+      "text": "1.我行会按照法律法规及监管要求规定，将在中华人民共和国境内收集和产生的个人信息存储在中华人民共和国境内。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 155,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了个人信息的境内存储行为，属于个人信息处理与利用中的存储环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#281",
+      "doc_id": "中国工商银行",
+      "sent_index": 281,
+      "text": "但为处理跨境业务（如跨境汇款、留学汇款等）并在获得您的授权同意后，您的部分个人信息（汇款人名称、地址、联系电话、转出账号以及收款人名称、详细地址）将作为交易信息的一部分被传输到境外。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 156,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了跨境传输个人信息的场景，涉及具体数据字段和授权同意，属于个人信息处理与利用中的跨境传输行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#283",
+      "doc_id": "中国工商银行",
+      "sent_index": 283,
+      "text": "2.我行仅在本政策所述目的所必需期间和法律法规及监管要求的时限内保留您的个人信息,例如：",
+      "keyword_hint": true,
+      "labeling_queue_rank": 157,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述个人信息的保留期限，涉及存储与利用，属于个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#284",
+      "doc_id": "中国工商银行",
+      "sent_index": 284,
+      "text": "手机号码：当您需要使用融e行服务时，我行需要一直保存您的手机号码，以保证您正常使用该服务，当您注销融e行账户后，我行将删除相应的信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 158,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了个人信息的存储目的（保证正常使用服务）和删除条件（注销账户后），属于个人信息存储与删除的具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#285",
+      "doc_id": "中国工商银行",
+      "sent_index": 285,
+      "text": "登录地区：当您登录后，我行会记录您持有卡片的注册地信息作为登录地区，以保证您正常使用融e行服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 159,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了收集和使用用户的登录地区信息（注册地信息），属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#286",
+      "doc_id": "中国工商银行",
+      "sent_index": 286,
+      "text": "此信息随着App的卸载而删除。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 160,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了个人信息在App卸载时的删除处理行为，涉及个人信息的存储与删除。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#287",
+      "doc_id": "中国工商银行",
+      "sent_index": 287,
+      "text": "（1）我行会对您存储在\"云保管\"的信息进行加密存储，从技术上保证信息的保密性；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 161,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了对个人信息进行加密存储的技术安全保护措施，属于个人信息的存储与安全保护环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#288",
+      "doc_id": "中国工商银行",
+      "sent_index": 288,
+      "text": "（2）我行会对您存储在\"云保管\"的信息，通过我行后台服务器进行储存，保证数据资料的安全性，即便在服务器灾难等特殊情况时也能做到您数据及时恢复，保证您数据不丢失；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 162,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了个人信息的存储方式及安全保护措施，属于个人信息处理与利用中的存储与安全保护环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#289",
+      "doc_id": "中国工商银行",
+      "sent_index": 289,
+      "text": "（3）在您自主操作\"云保管\"数据时，备份存储在我行的数据会同步变化。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 163,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述个人数据在用户操作下的备份存储与同步变化，涉及个人信息的存储与处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#290",
+      "doc_id": "中国工商银行",
+      "sent_index": 290,
+      "text": "如果由于您误操作导致数据被删除的，则备份存储在我行的数据也会同步删除；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 164,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了因用户误操作导致数据删除时，银行备份数据同步删除的处理行为，涉及个人信息的存储与删除处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#291",
+      "doc_id": "中国工商银行",
+      "sent_index": 291,
+      "text": "（4）您存储在\"云保管\"的内容，只有您本人凭\"登录密码+人脸\"验证解锁后才能查看编辑，您不应将其账号、密码转让或出借他人使用；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 165,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了个人信息的存储与访问控制措施，涉及安全保护与用户权利响应。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#292",
+      "doc_id": "中国工商银行",
+      "sent_index": 292,
+      "text": "（5）我行对您存储在\"云保管\"里的内容不做任何主动的审查，工作人员也无法查看您存储的任何内容；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 166,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了对用户存储内容的处理方式（不审查、不查看），涉及个人信息的存储与安全保护。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#293",
+      "doc_id": "中国工商银行",
+      "sent_index": 293,
+      "text": "（6）我行在未经您同意时，不会向第三方提供您存储在\"云保管\"中的内容，除非有下列情况出现：",
+      "keyword_hint": true,
+      "labeling_queue_rank": 167,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述未经同意不向第三方提供存储内容，涉及个人信息的共享与披露行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#294",
+      "doc_id": "中国工商银行",
+      "sent_index": 294,
+      "text": "a.根据法律的有关规定，或者行政、司法机构的要求，向第三方或者行政、司法机构披露；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 168,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了在特定法律或行政司法要求下向第三方或机构披露个人信息的行为，属于个人信息的披露处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#298",
+      "doc_id": "中国工商银行",
+      "sent_index": 298,
+      "text": "1.我行将遵守相关法律规定，采取必要措施保障个人信息的安全，以防止个人信息在意外的、未经授权的情况下被非法访问、复制、修改、传送、破坏、处理或使用。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 169,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了个人信息的安全保护措施，涉及防止非法访问、复制、修改等处理行为，属于个人信息处理与利用中的安全保护环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#299",
+      "doc_id": "中国工商银行",
+      "sent_index": 299,
+      "text": "例如，信息加密存储、使用加密技术进行信息传输、去标识化处理信息、数据库加锁等手段来保护您的个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 170,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了个人信息的安全保护措施（加密存储、加密传输、去标识化处理等），属于个人信息处理与利用中的安全保护环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#301",
+      "doc_id": "中国工商银行",
+      "sent_index": 301,
+      "text": "例如，严格限制信息访问权限、对信息访问及处理行为进行系统监控、要求相关工作人员签署保密协议等。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 171,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了个人信息安全保护的具体措施，涉及存储与安全保护环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#302",
+      "doc_id": "中国工商银行",
+      "sent_index": 302,
+      "text": "3.若发生个人信息泄露等安全事件，我行会启动应急预案，阻止安全事件扩大，并将及时将事件相关情况以推送通知、邮件或电话等方式告知您，难以逐一告知个人信息主体的，我行会采取公告等合理、有效的方式告知。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 172,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了个人信息泄露安全事件后的应急处理、通知用户等安全保护措施，属于个人信息的处理与利用中的安全保护环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#304",
+      "doc_id": "中国工商银行",
+      "sent_index": 304,
+      "text": "如果我行的物理、技术、或管理防护设施遭到破坏，导致信息被非授权访问、公开披露、篡改、或毁坏，导致您的合法权益受损，我行将承担相应的法律责任。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 173,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了因安全防护设施破坏导致个人信息被非授权访问、公开披露等风险，涉及个人信息的处理与利用中的安全保护及法律责任，属于相关内容。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#305",
+      "doc_id": "中国工商银行",
+      "sent_index": 305,
+      "text": "5.如我行提供的全部或部分电子银行业务停止运营，我行相关产品或服务将通过逐-送达或公告的形式向您告知，同时停止相关产品或服务对您个人信息的收集等操作，对存储的个人信息数据做匿名化或删除处理，保护您的个人信息安全。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 174,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了停止运营时对个人信息的收集停止、存储数据匿名化或删除等处理行为，属于个人信息处理与利用的具体操作。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#308",
+      "doc_id": "中国工商银行",
+      "sent_index": 308,
+      "text": "2.如业务需要对外提供、转让您的个人信息，我行会向您告知提供、转让个人信息的目的、数据接收方的名称或者姓名、联系方式、处理方式和个人信息的种类，并事先征得您的授权同意。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 175,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了对外提供、转让个人信息的场景，涉及告知义务和授权同意，属于个人信息处理与利用中的共享与转让行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#309",
+      "doc_id": "中国工商银行",
+      "sent_index": 309,
+      "text": "涉及敏感信息的，我行还会告知敏感信息的类型、数据接收方的身份和数据安全能力，并征得您的明示同意。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 176,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述涉及敏感信息处理时的告知和同意要求，属于个人信息处理与利用中的告知同意环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#310",
+      "doc_id": "中国工商银行",
+      "sent_index": 310,
+      "text": "我行会准确记录和存储个人信息的提供、转让情况，包括对外提供、转让的日期、规模、目的，以及数据接收方基本情况等。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 177,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了对个人信息提供、转让情况的记录和存储，涉及个人信息的处理与利用中的存储和转让环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#311",
+      "doc_id": "中国工商银行",
+      "sent_index": 311,
+      "text": "3.我行可能会向第三方（推送服务或移动设备厂商）提供您的部分基础信息，包括您的设备型号、设备唯一标识（安卓为Android ID、iOS为IDFV）、设备状态信息、网络设备MAC地址，以便及时向您的移动设备发送金融服务提醒及相关交易通知。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 178,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了向第三方提供个人信息（设备型号、设备唯一标识、MAC地址等）用于发送通知，属于个人信息的共享与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#312",
+      "doc_id": "中国工商银行",
+      "sent_index": 312,
+      "text": "在经过您的授权同意后，第三方可收集您的以上个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 179,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述第三方在授权同意后收集个人信息，涉及个人信息的收集与共享处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#313",
+      "doc_id": "中国工商银行",
+      "sent_index": 313,
+      "text": "4.我行可能会为您提供基于位置的服务，第三方位置提供商可能会基于您对系统定位的授权及设定，收集您的部分基础信息，包括您的设备型号、设备唯一标识（安卓为Android ID、iOS为IDFV）、国际移动设备身份码IMEI、网络设备MAC地址。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 180,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了第三方位置提供商收集用户设备型号、唯一标识、IMEI、MAC地址等个人信息，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#314",
+      "doc_id": "中国工商银行",
+      "sent_index": 314,
+      "text": "在经过您的授权同意后，第三方可收集您的以上个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 181,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述第三方在授权同意后收集个人信息，涉及个人信息的收集与共享处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#315",
+      "doc_id": "中国工商银行",
+      "sent_index": 315,
+      "text": "5.您的个人信息可能会在我行及附属公司内部进行共享，共享个人信息的范围将根据具体业务情况而定。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 182,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述个人信息在银行及附属公司内部共享的行为，涉及个人信息的共享处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#316",
+      "doc_id": "中国工商银行",
+      "sent_index": 316,
+      "text": "我行只有在经过您的单独授权同意下才会进行共享，且这种共享受本政策所声明目的的约束。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 183,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了在获得单独授权同意后共享个人信息的条件，涉及个人信息的共享处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#317",
+      "doc_id": "中国工商银行",
+      "sent_index": 317,
+      "text": "一旦改变个人信息的处理目的、方式，将再次征求您的授权同意。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 184,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及处理目的和方式变更时需重新征得同意，属于个人信息处理与利用中的用户权利响应。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#319",
+      "doc_id": "中国工商银行",
+      "sent_index": 319,
+      "text": "我行可能会向第三方提供您的某些个人信息，以提供更好的客户服务和用户体验。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 185,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述向第三方提供个人信息的行为，涉及共享/披露，属于个人信息处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#320",
+      "doc_id": "中国工商银行",
+      "sent_index": 320,
+      "text": "我行会遵循合法、正当、必要、诚信原则，且经过您的单独授权同意下才会提供您的个人信息，只会提供服务所必要的个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 186,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了在获得单独授权同意后提供个人信息的处理行为，涉及个人信息的共享与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#321",
+      "doc_id": "中国工商银行",
+      "sent_index": 321,
+      "text": "我行会通过协议签署的方式，要求第三方严格遵守法律法规与监管要求并承诺仅在授权范围内处理您的个人信息，仅在为实现本协议目的所必要的最短期限内保存您的个人信息，应对您的个人信息进行安全存储、严格保密，并加密传输。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 187,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了委托处理场景下对第三方处理个人信息的要求，涉及共享、存储、保密和加密传输等具体处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#322",
+      "doc_id": "中国工商银行",
+      "sent_index": 322,
+      "text": "如果您拒绝提供开展第三方服务所必需的您的个人信息，将可能导致您无法在我行使用该第三方服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 188,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了因用户拒绝提供个人信息而影响第三方服务使用的后果，涉及个人信息的收集与利用，属于处理行为相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#323",
+      "doc_id": "中国工商银行",
+      "sent_index": 323,
+      "text": "7.根据法律法规和商业惯例，在我行发生合并、收购、资产转让等类似交易中，如涉及到个人信息转让，我行将通过逐-送达或公告的形式向您告知有关情况，并会要求新的持有您个人信息的公司、组织继续受本政策的约束，否则我行将要求该公司、组织重新向您征求授权同意。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 189,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了在合并、收购等交易中涉及个人信息转让时的告知义务和约束要求，属于个人信息的共享与转让处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#324",
+      "doc_id": "中国工商银行",
+      "sent_index": 324,
+      "text": "8.请您理解，我行可能会根据法律法规规定，或按政府主管部门的强制性要求，对外提供您的个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 190,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述因法律法规或政府要求对外提供个人信息，属于个人信息的披露处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#325",
+      "doc_id": "中国工商银行",
+      "sent_index": 325,
+      "text": "我行会对第三方收集个人信息的应用程序接口（API）、软件工具开发包（SDK）进行严格的安全检测，并与第三方约定严格的数据保护措施，令其按照我行的说明、本政策以及其他任何相关的保密和安全措施来处理个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 191,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了银行对第三方收集个人信息的API/SDK进行安全检测，并约定数据保护措施，涉及委托处理和安全保护。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#326",
+      "doc_id": "中国工商银行",
+      "sent_index": 326,
+      "text": "1.我行不会对外公开披露所收集的个人信息，如须披露，我行会向您告知公开披露的目的、披露信息的类型、数据接收方的类型及可能涉及的敏感信息，并征得您的明示同意。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 192,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及个人信息的公开披露行为，包括告知目的、信息类型、接收方及敏感信息，并需征得明示同意，属于个人信息处理与利用中的披露环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#327",
+      "doc_id": "中国工商银行",
+      "sent_index": 327,
+      "text": "我行将准确记录和存储个人信息的公开披露的情况，包括公开披露的日期、规模、目的、公开范围等。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 193,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了对个人信息公开披露情况的记录和存储，属于个人信息的处理与利用中的存储和披露环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#328",
+      "doc_id": "中国工商银行",
+      "sent_index": 328,
+      "text": "2.请您理解，在法律、法律程序、诉讼或政府主管部门强制性要求的情况下，我行可能会公开披露您的个人信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 194,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了在特定法律或政府要求下公开披露个人信息的场景，属于个人信息的披露处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#329",
+      "doc_id": "中国工商银行",
+      "sent_index": 329,
+      "text": "3.我行不会公开披露个人生物识别信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 195,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及个人生物识别信息的公开披露行为，属于个人信息处理与利用中的披露环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#333",
+      "doc_id": "中国工商银行",
+      "sent_index": 333,
+      "text": "4.为公共利益实施新闻报道、舆论监督等行为，在合理的范围内处理个人信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 196,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了在特定场景下（公共利益、新闻报道等）处理个人信息的行为，属于个人信息处理与利用的范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#334",
+      "doc_id": "中国工商银行",
+      "sent_index": 334,
+      "text": "5.依照本法规定在合理的范围内处理个人自行公开或者其他已经合法公开的个人信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 197,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述在合理范围内处理个人自行公开或已合法公开的个人信息，属于个人信息处理与利用的具体情形。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#336",
+      "doc_id": "中国工商银行",
+      "sent_index": 336,
+      "text": "您有权通过融e行访问、更正、更新您的个人信息，法律法规另有规定的除外。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 198,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了用户行使访问、更正、更新个人信息的权利，属于用户权利响应，与个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "中国工商银行#337",
+      "doc_id": "中国工商银行",
+      "sent_index": 337,
+      "text": "在您修改个人信息之前，我行会验证您的身份。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 199,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户修改个人信息前的身份验证，属于用户权利响应中的个人信息处理环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    }
+  ]
+}

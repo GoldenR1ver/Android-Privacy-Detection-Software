@@ -1,0 +1,17 @@
+{
+  "total_sentences": 338,
+  "pii_related": {
+    "true": 205,
+    "false": 133,
+    "null": 0,
+    "ratio_of_total": 0.606508875739645,
+    "ratio_of_labeled": 0.606508875739645,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 211,
+    "false": 127,
+    "ratio_of_total": 0.6242603550295858
+  },
+  "doc_id": "BOSS直聘"
+}

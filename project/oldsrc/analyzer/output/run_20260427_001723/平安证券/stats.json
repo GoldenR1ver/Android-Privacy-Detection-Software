@@ -1,0 +1,17 @@
+{
+  "total_sentences": 608,
+  "pii_related": {
+    "true": 237,
+    "false": 371,
+    "null": 0,
+    "ratio_of_total": 0.38980263157894735,
+    "ratio_of_labeled": 0.38980263157894735,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 336,
+    "false": 272,
+    "ratio_of_total": 0.5526315789473685
+  },
+  "doc_id": "平安证券"
+}

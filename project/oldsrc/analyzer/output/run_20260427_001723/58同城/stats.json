@@ -1,0 +1,17 @@
+{
+  "total_sentences": 346,
+  "pii_related": {
+    "true": 199,
+    "false": 147,
+    "null": 0,
+    "ratio_of_total": 0.5751445086705202,
+    "ratio_of_labeled": 0.5751445086705202,
+    "note": null
+  },
+  "keyword_hint": {
+    "true": 240,
+    "false": 106,
+    "ratio_of_total": 0.6936416184971098
+  },
+  "doc_id": "58同城"
+}

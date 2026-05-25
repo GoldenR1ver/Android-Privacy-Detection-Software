@@ -1,0 +1,4009 @@
+{
+  "schema_version": 1,
+  "kind": "privacy_sentence_review_bundle",
+  "created_at_utc": "2026-04-26T17:49:57.566959+00:00",
+  "source_jsonl": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\WEEK_7\\src\\analyzer\\output\\run_20260427_001723\\51Job\\for_labeling.jsonl",
+  "note": "run_prepare",
+  "items": [
+    {
+      "id": "51Job#71",
+      "doc_id": "51Job",
+      "sent_index": 71,
+      "text": "（4）51Job认为有必要的情况下，有权对用户发布的信息做出审查、指导，并有权要求用户做出解释、更正或说明。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 0,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子描述了平台对用户发布信息的审查、指导及要求解释、更正或说明的行为，涉及对个人信息的处理与利用（如审查、指导），属于个人信息处理活动。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#125",
+      "doc_id": "51Job",
+      "sent_index": 125,
+      "text": "对于用户的投诉/举报，51Job将尽合理努力进行核实和处理，但无法保证一定能满足投诉/举报者的要求。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 1,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及对用户投诉/举报中可能包含的个人信息的核实与处理，属于个人信息处理与利用中的用户权利响应环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#179",
+      "doc_id": "51Job",
+      "sent_index": 179,
+      "text": "51Job运用自己的技术力量和存储数据为用户提供有偿服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 2,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子明确提及运用技术力量和存储数据提供有偿服务，涉及个人信息的存储与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#485",
+      "doc_id": "51Job",
+      "sent_index": 485,
+      "text": "（8）合格使用者在个人资料上受到应届生论坛保护，除非重大事故并经应届生求职网编辑部讨论通过后才可以接受资料查询。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 3,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子描述了个人资料的保护和查询条件，涉及个人信息的存储与披露限制，属于个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#507",
+      "doc_id": "51Job",
+      "sent_index": 507,
+      "text": "但应届生论坛合格使用者的私人信件请自行保存，应届生论坛不负保管责任。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 4,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及个人信息的存储与安全保护责任，明确说明论坛不负保管责任，属于个人信息处理与利用中的存储与安全保护相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#521",
+      "doc_id": "51Job",
+      "sent_index": 521,
+      "text": "作为求职者，我们也强烈建议您完成在线实名认证服务，保障自己的合法权益。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 5,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子涉及收集个人信息（实名认证）以保障权益，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#582",
+      "doc_id": "51Job",
+      "sent_index": 582,
+      "text": "51Job对网络知识产权保护尽合理、审慎的义务，在有理由相信视频面试中存在侵犯任何第三人权利时，有权不事先通知并删除相关视频。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 6,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及对视频面试中个人信息的删除处理行为，属于个人信息处理与利用中的安全保护措施。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#805",
+      "doc_id": "51Job",
+      "sent_index": 805,
+      "text": "（4）本网站认为有必要的情况下，有权对用户发布的信息做出审查、指导，并有权要求用户做出解释、更正或说明。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 7,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及对用户发布信息的审查、指导及要求解释、更正或说明，属于对个人信息的处理与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#860",
+      "doc_id": "51Job",
+      "sent_index": 860,
+      "text": "对于用户的投诉/举报，51Job将尽合理努力进行核实和处理，但无法保证一定能满足投诉/举报者的要求。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 8,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及对用户投诉/举报中可能包含的个人信息的核实与处理，属于个人信息处理与利用中的用户权利响应环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#916",
+      "doc_id": "51Job",
+      "sent_index": 916,
+      "text": "当您跳转至第三方产品或服务后，需受其隐私政策约束，但这并不意味着51Job平台认可或负责该第三方运营网站的隐私政策。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 9,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及个人信息共享至第三方时的隐私政策约束说明，与委托处理/共享相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#994",
+      "doc_id": "51Job",
+      "sent_index": 994,
+      "text": "如果您没有根据要求提供需要的信息，可能会影响到您使用企业校园招聘产品和/或服务、企业定制化简历产品和/或服务，但不会影响您使用除此服务外的51Job平台其他产品和/或服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 10,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子描述了因用户未提供个人信息而可能影响服务使用，涉及个人信息收集与利用的后果说明，与处理行为相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1179",
+      "doc_id": "51Job",
+      "sent_index": 1179,
+      "text": "课程分享，支持课程分享的图片保存至相册；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 11,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及个人信息的收集与利用（图片保存至相册），属于个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1193",
+      "doc_id": "51Job",
+      "sent_index": 1193,
+      "text": "您可以清除计算机上保存的所有 Cookies，大部分网络浏览器会自动接受Cookie，但您通常可根据自己的需要来修改浏览器的设置以拒绝 Cookie。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 12,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及通过Cookie收集个人信息的技术手段，并说明用户可拒绝Cookie，属于个人信息收集与用户控制权的描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1255",
+      "doc_id": "51Job",
+      "sent_index": 1255,
+      "text": "为了遵守我们的法律义务，我们可能会保留并使用一些必要的匿名化处理后的信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 13,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子明确提及保留和使用匿名化处理后的信息，涉及个人信息的存储与利用，属于处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1330",
+      "doc_id": "51Job",
+      "sent_index": 1330,
+      "text": "我们会妥善处理并及时反馈您的疑问、意见、建议以及申诉，一般情况下，我们会在15天内对您的请求予以答复。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 14,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及用户权利响应（处理疑问、意见、建议及申诉），属于个人信息处理与利用中的用户权利响应环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1360",
+      "doc_id": "51Job",
+      "sent_index": 1360,
+      "text": "当您跳转至第三方产品或服务后，需受其隐私政策约束，但这并不意味着51Job平台认可或负责该第三方运营网站的隐私政策。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 15,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及个人信息共享至第三方时的隐私政策约束说明，与委托处理/共享相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1438",
+      "doc_id": "51Job",
+      "sent_index": 1438,
+      "text": "如果您没有根据要求提供需要的信息，可能会影响到您使用企业校园招聘产品和/或服务、企业定制化简历产品和/或服务，但不会影响您使用除此服务外的51Job平台其他产品和/或服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 16,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子描述了因用户未提供个人信息而可能影响服务使用，涉及个人信息收集与利用的后果说明，与处理行为相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1623",
+      "doc_id": "51Job",
+      "sent_index": 1623,
+      "text": "课程分享，支持课程分享的图片保存至相册；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 17,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及个人信息的收集与利用（图片保存至相册），属于个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1637",
+      "doc_id": "51Job",
+      "sent_index": 1637,
+      "text": "您可以清除计算机上保存的所有 Cookies，大部分网络浏览器会自动接受Cookie，但您通常可根据自己的需要来修改浏览器的设置以拒绝 Cookie。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 18,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及通过Cookie收集个人信息的技术手段，并说明用户可拒绝Cookie，属于个人信息收集与用户控制权的描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1699",
+      "doc_id": "51Job",
+      "sent_index": 1699,
+      "text": "为了遵守我们的法律义务，我们可能会保留并使用一些必要的匿名化处理后的信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 19,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子明确提及保留和使用匿名化处理后的信息，涉及个人信息的存储与利用，属于处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1774",
+      "doc_id": "51Job",
+      "sent_index": 1774,
+      "text": "我们会妥善处理并及时反馈您的疑问、意见、建议以及申诉，一般情况下，我们会在15天内对您的请求予以答复。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 20,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及用户权利响应（处理疑问、意见、建议及申诉），属于个人信息处理与利用中的用户权利响应环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1915",
+      "doc_id": "51Job",
+      "sent_index": 1915,
+      "text": "若第三方在线测评服务公司未提供完整的Ai面试报告或您对报告质量有异议，双方应就该等异议进行协商，若双方仍未达成一致，则应向51Job提供相关证据证明，51Job有权作出判断，并以51Job的最终判断为准。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 21,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及第三方服务公司处理个人信息（Ai面试报告），并描述了争议处理中可能涉及的个人信息提供与判断流程，属于个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1934",
+      "doc_id": "51Job",
+      "sent_index": 1934,
+      "text": "您应当采取必要的安全管理措施并建立数据权限管理制度，确保被调查人的信息安全。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 22,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子明确要求采取安全管理措施和建立数据权限管理制度以保护个人信息安全，涉及个人信息的存储与安全保护。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1948",
+      "doc_id": "51Job",
+      "sent_index": 1948,
+      "text": "侯选人授权后视作产品已使用，不再返还点数。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 23,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及个人信息（候选人授权）后的处理与利用（产品使用、点数不返还），属于个人信息使用与存储相关条款。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1962",
+      "doc_id": "51Job",
+      "sent_index": 1962,
+      "text": "51Job提供的数据仅代表51Job通过调研和分析合规收集的信息所得的结果，您谅解51Job尽最大能力保证数据的可靠性，但不代表完全的准确性。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 24,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子描述了51Job对合规收集的个人信息进行调研、分析和提供结果，涉及个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#2045",
+      "doc_id": "51Job",
+      "sent_index": 2045,
+      "text": "用户行为(包括但不限于购买/使用/兑换/激活产品、注销账号等)可能影响VIP套餐中相关产品或道具的有效期。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 25,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子描述了用户行为（如购买、使用、注销账号）可能影响VIP产品有效期，涉及个人信息处理中的用户权利响应和账号管理，与个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#2114",
+      "doc_id": "51Job",
+      "sent_index": 2114,
+      "text": "51Job运用自己的技术力量和存储数据为用户提供有偿服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 26,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子明确提及运用技术力量和存储数据提供有偿服务，涉及个人信息的存储与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#2218",
+      "doc_id": "51Job",
+      "sent_index": 2218,
+      "text": "51Job运用自己的技术力量和存储数据为用户提供有偿服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 27,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子明确提及运用技术力量和存储数据为用户提供有偿服务，涉及个人信息的存储与利用，属于处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#2272",
+      "doc_id": "51Job",
+      "sent_index": 2272,
+      "text": "51Job运用自己的技术力量和存储数据为用户提供有偿服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 28,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子明确提及运用技术力量和存储数据提供有偿服务，涉及个人信息的存储与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#2470",
+      "doc_id": "51Job",
+      "sent_index": 2470,
+      "text": "用户应当如实向51Job反馈自身经营范围情况，如有更新的，应当及时告知51Job，同时51Job有权定期或不定期的对用户的经营范围进行审查，如发现用户存在前述情形的，用户了解并同意51Job有权立即关闭用户的相关权限，由此造成的损失由用户自行承担，用户已支付的费用将不予退还。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 29,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"句子涉及51Job对用户经营范围的审查及权限关闭，属于对用户信息的处理与利用，与个人信息处理相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#2586",
+      "doc_id": "51Job",
+      "sent_index": 2586,
+      "text": "为了保证问题能够及时有效地处理，请务必根据同行的要求提交真实有效、完整清晰的身份证明以及要求的其他材料，否则我们可能无法受理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 30,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及用户权利响应中的身份验证材料提交要求，属于个人信息处理与利用中的用户权利响应环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#2665",
+      "doc_id": "51Job",
+      "sent_index": 2665,
+      "text": "1.在有必要的情况下，51Job有权对您发布的信息做出审查、指导，并有权要求您做出解释、更正或请您补充提供有关材料。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 31,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.85,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.85, \"reason\": \"涉及对用户发布信息的审查、指导、要求解释或补充材料，属于对个人信息的处理与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#221",
+      "doc_id": "51Job",
+      "sent_index": 221,
+      "text": "用户应自行负责妥善且正确地保管、使用、维护其在51Job申请取得的账户及账户密码。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 32,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"涉及用户账户及密码的保管与使用，属于个人信息安全保护范畴，与个人信息的处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#307",
+      "doc_id": "51Job",
+      "sent_index": 307,
+      "text": "51Job可能会不定期的更新本协议，用户可在51Job网站查阅本协议的最新版本。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 33,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"涉及隐私政策的更新与告知，属于个人信息处理中的用户权利响应与透明度要求。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#358",
+      "doc_id": "51Job",
+      "sent_index": 358,
+      "text": "职场导师为您优化完成的简历，以您提供的简历信息为基础，您需对自己提供的简历及个人信息真实性负责。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 34,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"句子描述了基于用户提供的简历信息进行优化处理，涉及个人信息的收集与利用，且强调用户对信息真实性的责任，与个人信息处理行为直接相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#745",
+      "doc_id": "51Job",
+      "sent_index": 745,
+      "text": "（2）如有证据证明或51Job有理由相信您存在不当注册或不当使用51Job账号的情形，51Job可以不提出警告而对相关账号进行管理、关闭或采取其他合理措施，如果51Job认为确有其必要，屡犯者将立即受到暂停使用或停止使用的处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 35,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"句子描述了平台对用户账号的管理、关闭或暂停使用等处理措施，涉及用户个人信息的账号使用管理，属于个人信息的处理与利用范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#964",
+      "doc_id": "51Job",
+      "sent_index": 964,
+      "text": "此类信息是实现该功能所要求的必需信息，您可以选择不使用视频简介功能，不影响您使用在线简历。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 36,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"句子描述了收集个人信息（视频简介功能所需信息）的必要性及用户选择权，涉及个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1297",
+      "doc_id": "51Job",
+      "sent_index": 1297,
+      "text": "我们积极建立数据分类分级制度、数据安全管理规范、数据安全开发规范来管理规范信息的存储和使用，确保未收集与我们提供的服务无关的信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 37,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"句子明确描述了通过建立数据分类分级制度、安全管理规范等措施来管理信息的存储和使用，涉及个人信息的存储与使用处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1305",
+      "doc_id": "51Job",
+      "sent_index": 1305,
+      "text": "我们会使用受信赖的保护机制防止数据遭到恶意攻击；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 38,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"涉及个人信息的安全保护措施，属于个人信息的处理与利用中的安全保护环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1408",
+      "doc_id": "51Job",
+      "sent_index": 1408,
+      "text": "此类信息是实现该功能所要求的必需信息，您可以选择不使用视频简介功能，不影响您使用在线简历。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 39,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"句子描述了收集个人信息（视频简介功能所需信息）的必要性及用户选择权，涉及个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1741",
+      "doc_id": "51Job",
+      "sent_index": 1741,
+      "text": "我们积极建立数据分类分级制度、数据安全管理规范、数据安全开发规范来管理规范信息的存储和使用，确保未收集与我们提供的服务无关的信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 40,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"句子明确描述了通过建立数据分类分级制度、安全管理规范等措施来管理信息的存储和使用，涉及个人信息的存储与使用处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1749",
+      "doc_id": "51Job",
+      "sent_index": 1749,
+      "text": "我们会使用受信赖的保护机制防止数据遭到恶意攻击；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 41,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"涉及个人信息的安全保护措施，属于个人信息的处理与利用中的安全保护环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1849",
+      "doc_id": "51Job",
+      "sent_index": 1849,
+      "text": "用户应自行负责妥善且正确地保管、使用、维护其在51Job申请取得的账户及账户密码。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 42,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"涉及用户账户及密码的保管与使用，属于个人信息安全保护范畴，与个人信息的处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#2021",
+      "doc_id": "51Job",
+      "sent_index": 2021,
+      "text": "为了向您提供多样的求职或招聘产品和/或服务，51在线培训接入了大量、专业的第三方增值服务商。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 43,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"句子描述了接入第三方服务商以提供产品或服务，涉及个人信息的委托处理或共享，属于个人信息处理与利用范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#2123",
+      "doc_id": "51Job",
+      "sent_index": 2123,
+      "text": "1． 用户接受本条款并完成相应程序，缴纳相应服务费用后，即成为服务的合法使用者。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 44,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"涉及用户接受条款后成为服务使用者，隐含个人信息的收集与使用（如注册、缴费），与个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#2175",
+      "doc_id": "51Job",
+      "sent_index": 2175,
+      "text": "1． 用户接受本条款并完成相应程序，缴纳相应服务费用后，即成为服务的合法使用者。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 45,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"涉及用户接受条款后成为服务使用者，隐含个人信息的收集与使用（如注册、缴费），与个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#2227",
+      "doc_id": "51Job",
+      "sent_index": 2227,
+      "text": "1． 用户接受本条款并完成相应程序，缴纳相应服务费用后，即成为服务的合法使用者。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 46,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"涉及用户接受条款后成为服务使用者，隐含个人信息的收集与使用（如注册、缴费），与个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#2281",
+      "doc_id": "51Job",
+      "sent_index": 2281,
+      "text": "1． 用户接受本条款并完成相应程序，缴纳相应服务费用后，即成为服务的合法使用者。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 47,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"涉及用户接受条款后成为服务使用者，隐含个人信息的收集与使用（如注册、缴费），与个人信息处理相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#2320",
+      "doc_id": "51Job",
+      "sent_index": 2320,
+      "text": "3、根据产品的升级，申请、使用权限的类型与目的可能会有变动，我们将及时根据这些变动对列表进行调整，以确保您及时获悉权限的申请与使用情况。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 48,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"句子描述了根据产品升级调整权限申请与使用类型，涉及个人信息的收集与使用，属于个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#2322",
+      "doc_id": "51Job",
+      "sent_index": 2322,
+      "text": "5、在使用产品的过程中，您可能会使用第三方开发的H5页面或小程序，这些第三方开发的插件或小程序也可能因业务功能所必需而申请或使用相关操作系统权限。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 49,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"描述第三方插件或小程序因业务功能申请或使用操作系统权限，涉及个人信息的收集与处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#2445",
+      "doc_id": "51Job",
+      "sent_index": 2445,
+      "text": "51Job可能会根据用户及市场的需求、产品及服务类型的变化等各种因素，对现有无忧通可兑换使用的增值服务种类、功能、价格、权益进行调整以及不断推出新的增值服务种类。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 50,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"描述了根据需求调整增值服务种类、功能、价格、权益，涉及个人信息处理相关的服务变更，与用户权益相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#2464",
+      "doc_id": "51Job",
+      "sent_index": 2464,
+      "text": "用户使用第三方支付工具购买无忧通产品，还应相应遵守第三方服务提供商的相应规则。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 51,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"涉及用户使用第三方支付工具时的个人信息处理，与共享、委托处理相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#2505",
+      "doc_id": "51Job",
+      "sent_index": 2505,
+      "text": "用户应自行负责妥善且正确地保管、使用、维护其在51Job申请取得的账户及账户密码。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 52,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"涉及用户账户及密码的保管与使用，属于个人信息安全保护范畴，与个人信息的处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#2667",
+      "doc_id": "51Job",
+      "sent_index": 2667,
+      "text": "2.若您发布违反本规则规定的内容，您的信息可能随时被拒绝发布或被驳回/部分或全部屏蔽/删除。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 53,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.9,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.9, \"reason\": \"句子描述了因用户违规发布内容，平台可能对用户信息进行拒绝发布、屏蔽或删除等处理行为，涉及个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#3",
+      "doc_id": "51Job",
+      "sent_index": 3,
+      "text": "欢迎您注册51Job账号并使用51Job的服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 54,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确提及注册账号，涉及个人信息的收集与使用，属于个人信息处理与利用的具体行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#18",
+      "doc_id": "51Job",
+      "sent_index": 18,
+      "text": "（3）为了更好地享有51Job网络信息发布平台服务，用户应遵守51Job注册机制的要求，向51Job提供合法、真实、有效、完整的注册资料（包括但不限于：营业执照或有关部门批准设立文件、法定代表人身份证信息、对公账户信息、经办人员/被授权人员身份证信息、职务或岗位信息、委托证明、授权书等相关信息及证明材料），您承诺提交相关信息及证明材料均应真实合法有效且不会侵犯任何第三方的合法权益，如有变动，您应及时更新。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 55,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确要求用户提供注册资料（含营业执照、身份证、对公账户等个人信息），属于个人信息的收集行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#22",
+      "doc_id": "51Job",
+      "sent_index": 22,
+      "text": "（1）您知悉并同意，当您完成本平台注册时，本平台将为您生成本平台账号，账号的所有权归51Job所有，您将获得该账号的使用权，该使用权不可转让，且仅限于个人寻找职业和雇主寻找雇员之目的使用。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 56,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了账号生成与使用权分配，涉及个人信息的收集与利用（账号生成），属于个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#24",
+      "doc_id": "51Job",
+      "sent_index": 24,
+      "text": "（2）为求职安全之考虑及保护广大用户的权益，如用户在使用我们的服务期间存在投诉、举报、监管部门质疑或大众媒体曝光等情形的， 51Job有权根据前述情况对用户进行审查，要求用户提供相应证明资料，用以说明用户自身行为的合法性及必要性，用户应当予以配合，如用户拒不配合或未能提供或未能通过审查的，51Job有权视情况暂停或终止向该用户提供部分或全部服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 57,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了51Job基于投诉、举报等情形对用户进行审查并要求提供证明资料，涉及个人信息的收集与处理，属于个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#25",
+      "doc_id": "51Job",
+      "sent_index": 25,
+      "text": "（3）基于风控策略、求职安全等考量，为更好地落实我们的核验更新义务，我们有权定期或不定期地对您提供的企业或授权等相关信息的真实性、合法性、有效性进行审查，同时我们可能要求您补充提供材料（相关要求会以邮件、站内信或人工客服等方式通知，涉及材料包括但不限于：企业资质证明、授权书、承诺书、说明书等），审查期间我们可能会对用户采取限制用户使用部分或全部服务等措施。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 58,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了基于风控和安全考量，对用户提供的企业或授权信息进行审查（收集与处理），并可能要求补充材料，涉及个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#34",
+      "doc_id": "51Job",
+      "sent_index": 34,
+      "text": "请您不要轻信索要密码或财产的网络信息，不要将上述信息提供给任何第三方使用，不从事任何可能使用户名、密码存在泄露危险的行为。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 59,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子涉及个人信息（密码、用户名）的安全保护，提醒用户防止泄露，属于个人信息处理与利用中的安全保护范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#35",
+      "doc_id": "51Job",
+      "sent_index": 35,
+      "text": "当您发现账户的不当使用或有任何其他可能危及账户安全的情形时，应立即联系我们，51Job将积极协助您进行处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 60,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户账户安全事件响应，属于个人信息安全保护中的用户权利响应与协助处理义务。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#38",
+      "doc_id": "51Job",
+      "sent_index": 38,
+      "text": "您需按照51Job官方渠道提供的注销流程和操作指引，在相关功能设置页面进行注销操作；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 61,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户权利响应中的注销操作，属于个人信息处理与利用中的用户权利响应环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#41",
+      "doc_id": "51Job",
+      "sent_index": 41,
+      "text": "（2）在账号注销期间，如果您的账号涉及争议纠纷，包括但不限于投诉、举报、诉讼、仲裁、国家有权机关调查等，51Job有权暂停终止此账号的注销操作。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 62,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及账号注销期间因争议纠纷暂停终止注销操作，属于用户权利响应中的账号注销处理流程，与个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#44",
+      "doc_id": "51Job",
+      "sent_index": 44,
+      "text": "b）此账号的个人资料和历史信息（包括但不限于用户名、头像、简历、投递记录、购买订单等）都将无法找回。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 63,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了账号删除后个人资料和历史信息无法找回，涉及个人信息的存储与删除处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#46",
+      "doc_id": "51Job",
+      "sent_index": 46,
+      "text": "您理解并同意，注销后，平台无法帮助您重新恢复以上服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 64,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户注销后的个人信息处理（无法恢复服务），与用户权利响应相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#67",
+      "doc_id": "51Job",
+      "sent_index": 67,
+      "text": "（2）用户在平台指定位置(包括本平台各级页面、为招聘者生成的公司主页等)可自行操作发布招聘相关信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 65,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述用户发布招聘信息的行为，涉及个人信息的收集与使用，属于个人信息处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#80",
+      "doc_id": "51Job",
+      "sent_index": 80,
+      "text": "通过第三方平台或渠道（如淘宝、京东等平台上的店铺）出售或购买51Job服务的；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 66,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述通过第三方平台出售或购买服务时涉及个人信息的共享与委托处理，属于个人信息处理与利用的具体场景。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#114",
+      "doc_id": "51Job",
+      "sent_index": 114,
+      "text": "Job将不时地指定51Job (所有者)的关联公司或者第三方作为51Job的代理、基础服务商、技术支持方等，以便为用户提供本平台相应的服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 67,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了将个人信息处理委托给关联公司或第三方，涉及委托处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#115",
+      "doc_id": "51Job",
+      "sent_index": 115,
+      "text": "如用户需使用第三方服务以便使用51Job相应功能(例如使用第三方支付工具购买51Job付费服务等)，还应相应遵守第三方服务提供商的相应规则。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 68,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户使用第三方服务时涉及的个人信息处理（如支付工具），与委托处理或共享相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#122",
+      "doc_id": "51Job",
+      "sent_index": 122,
+      "text": "对于用户通过非51Job指定方式获取51Job服务或将51Job账号及其服务提供给第三方使用或对外出售的， 51Job有权采取一定的处理措施，包括但不限于要求整改、删除信息、部分或全部终止用户使用51Job服务的资格。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 69,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户违规使用账号时，平台可采取删除信息、终止服务等处理措施，涉及个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#130",
+      "doc_id": "51Job",
+      "sent_index": 130,
+      "text": "请您注意，您在使用51Job服务时上传、提交、存储或发布的内容（包括但不限于文字、图片、视频、音频、动画等）均由您原创或已获合法授权。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 70,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了用户上传、提交、存储或发布内容的行为，属于个人信息的收集与存储处理活动。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#132",
+      "doc_id": "51Job",
+      "sent_index": 132,
+      "text": "一旦接受本用户协议，即表明您主动将上述内容的非专属、可转让的财产性权利，如著作权（包括但不限于：复制权、发行权、出租权、改编权、翻译权、汇编权以及应当由著作权人享有的其他可转让权利），排他地、无地域限制地免费地授权给51Job及其关联公司。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 71,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户授权平台处理其内容相关的财产性权利，涉及个人信息的收集与利用（如著作权转让），属于个人信息处理与利用范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#133",
+      "doc_id": "51Job",
+      "sent_index": 133,
+      "text": "51Job及其关联公司或其所授权许可的第三方可通过对上述授权内容进行修改、复制、改编、翻译、汇编或制作，形成衍生产品。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 72,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了第三方对个人信息（授权内容）进行修改、复制、改编等处理行为，属于个人信息的利用与委托处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#141",
+      "doc_id": "51Job",
+      "sent_index": 141,
+      "text": "您同意授权51Job及其关联公司以自己的名义或委托专业第三方针对有关您上传、提交、存储或发布的内容（含衍生作品）的侵权行为进行独立自主的维权并获得全部赔偿。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 73,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了委托第三方处理个人信息（内容）进行维权，涉及委托处理与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#157",
+      "doc_id": "51Job",
+      "sent_index": 157,
+      "text": "2.您在符合条件的情况下通过自助\"注销账号\"的方式注销您的51Job账号，本用户协议于账号注销之日终止；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 74,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户通过注销账号行使删除权，属于用户权利响应中的个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#162",
+      "doc_id": "51Job",
+      "sent_index": 162,
+      "text": "51Job将无法继续向您提供任何服务或履行任何其他义务，包括但不限于为您保留或向您展示原51Job账号中的任何信息，例如向您或其他第三方发送您所形成的信息资料等。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 75,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了停止服务后对用户个人信息（账号信息、信息资料）的处理方式，涉及信息的保留、展示和发送，属于个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#189",
+      "doc_id": "51Job",
+      "sent_index": 189,
+      "text": "1．用户接受本条款并完成相应程序，缴纳相应服务费用后，即成为服务的合法使用者。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 76,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述用户接受条款、完成程序并缴费后成为服务使用者，涉及用户身份确认及服务使用，与个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#209",
+      "doc_id": "51Job",
+      "sent_index": 209,
+      "text": "如开具的纸质发票需要邮寄，还需要用户提供收件人姓名、手机号和快递地址，我们会以顺丰到付的形式寄出，51Job客服会反馈给您快递单号，还请您注意查收。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 77,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了收集用户姓名、手机号、快递地址等个人信息用于邮寄发票的处理行为，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#253",
+      "doc_id": "51Job",
+      "sent_index": 253,
+      "text": "51Job付费课程的收费标准由51Job根据自身运营策略独立决定（包括后续可能的资费调整等），用户同意继续操作的行为（包括但不限于点击同意、支付行为、继续使用本服务的行为等），即视为知悉并同意该收费标准。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 78,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子涉及用户个人信息处理中的支付行为及同意机制，属于个人信息的收集与利用相关描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#254",
+      "doc_id": "51Job",
+      "sent_index": 254,
+      "text": "您知悉并同意，因用户的个人原因发生错误购买/使用或无法正常使用课程，51Job不予退款。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 79,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子涉及因用户个人原因导致的课程使用问题及退款政策，与个人信息的处理与利用无直接关联，但提及了用户行为对服务使用的影响，属于服务条款范畴，非个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#261",
+      "doc_id": "51Job",
+      "sent_index": 261,
+      "text": "除非用户另有证明，51Job储存在服务器上的数据是用户购买使用无忧学园付费课程的唯一有效证明。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 80,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了51Job对用户数据的存储行为，并将其作为付费课程的唯一有效证明，涉及个人信息的存储与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#263",
+      "doc_id": "51Job",
+      "sent_index": 263,
+      "text": "如您使用的是苹果手机，您可以通过游客身份（即未登陆51Job账号）购买付费课程，但请您注意，此时，您购买的付费课程将仅限在购买时候使用的账户进行课程播放，其他权限将受限。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 81,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了通过游客身份购买付费课程时，对课程播放权限的限制，涉及个人信息的处理与利用（账户关联及权限管理）。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#267",
+      "doc_id": "51Job",
+      "sent_index": 267,
+      "text": "如在51Job无忧学园平台展示的课程为非51Job无忧学园的，将提示跳转至第三方页面或者由第三方专人为用户提供服务（包括收费服务（如有））。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 82,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述涉及向第三方跳转或由第三方提供服务，属于个人信息的共享与委托处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#283",
+      "doc_id": "51Job",
+      "sent_index": 283,
+      "text": "（7） 损害第三方利益，通过51Job收集第三方资料信息，破坏或盗取第三方账号，发送诈骗邮件和垃圾邮件等非法信息，侵犯第三方合法权益，包括但不限于隐私权、知识产权、财产权等；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 83,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确提及通过平台收集第三方资料信息，属于个人信息的收集行为，且涉及侵犯第三方隐私权等合法权益，与个人信息处理与利用直接相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#301",
+      "doc_id": "51Job",
+      "sent_index": 301,
+      "text": "如开具的纸质发票需要邮寄，还需要用户提供收件人姓名、手机号和快递地址，我们会以顺丰到付的形式寄出，51Job客服会反馈给您快递单号，还请您注意查收。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 84,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了收集用户姓名、手机号、快递地址等个人信息用于邮寄发票的处理行为，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#305",
+      "doc_id": "51Job",
+      "sent_index": 305,
+      "text": "用户可以通过在线申请注销的方式注销51Job用户账号。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 85,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户权利响应中的账号注销操作，属于个人信息处理与利用中的用户权利响应环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#306",
+      "doc_id": "51Job",
+      "sent_index": 306,
+      "text": "账号一旦注销，用户将无法继续使用51Job或/及其关联公司的所有 产品与服务，并视为主动放弃在使用51Job或/及其关联公司的产品/服务期间已经产生但未消耗完毕的用户权益（包括但不限于用户权益）以及未来的预期利益，包括用户通过51Job已购买的付费课程。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 86,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了账号注销后用户权益的处理，涉及个人信息的删除或停止使用，属于个人信息处理与利用中的用户权利响应。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#346",
+      "doc_id": "51Job",
+      "sent_index": 346,
+      "text": "51Job已为您开通：微信、支付宝支付渠道，请您妥善保存并使用您的支付密码，51Job不对任何由个人操作不当，泄露第三方支付账号、密码等原因导致的财产损失负责。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 87,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子涉及支付渠道开通及对用户支付密码、第三方支付账号等个人信息的保护提示，属于个人信息安全保护范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#357",
+      "doc_id": "51Job",
+      "sent_index": 357,
+      "text": "如开具的纸质发票需要邮寄，还需要用户提供收件人姓名、手机号和快递地址，我们会以顺丰到付的形式寄出，51Job客服会反馈给您快递单号，还请您注意查收。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 88,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了收集用户姓名、手机号、快递地址等个人信息用于邮寄发票的处理行为，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#389",
+      "doc_id": "51Job",
+      "sent_index": 389,
+      "text": "51Job已为您开通：微信、支付宝支付渠道，请您妥善保存并使用您的支付密码，51Job不对任何由个人操作不当，泄露第三方支付账号、密码等原因导致的财产损失负责。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 89,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子涉及支付渠道开通及对用户支付密码、第三方支付账号等个人信息的保护提示，属于个人信息安全保护范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#400",
+      "doc_id": "51Job",
+      "sent_index": 400,
+      "text": "如开具的纸质发票需要邮寄，还需要用户提供收件人姓名、手机号和快递地址，我们会以顺丰到付的形式寄出，51Job客服会反馈给您快递单号，还请您注意查收。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 90,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了收集用户姓名、手机号、快递地址等个人信息用于邮寄发票的处理行为，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#433",
+      "doc_id": "51Job",
+      "sent_index": 433,
+      "text": "51Job已为您开通：微信、支付宝支付渠道，请您妥善保存并使用您的支付密码，51Job不对任何由个人操作不当，泄露第三方支付账号、密码等原因导致的财产损失负责。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 91,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子涉及支付渠道开通及对用户支付密码、第三方支付账号等个人信息的保护提示，属于个人信息安全保护范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#444",
+      "doc_id": "51Job",
+      "sent_index": 444,
+      "text": "如开具的纸质发票需要邮寄，还需要用户提供收件人姓名、手机号和快递地址，我们会以顺丰到付的形式寄出，51Job客服会反馈给您快递单号，还请您注意查收。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 92,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了收集用户姓名、手机号、快递地址等个人信息用于邮寄发票的处理行为，属于个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#460",
+      "doc_id": "51Job",
+      "sent_index": 460,
+      "text": "实名认证服务：本服务由腾讯云慧眼和中胜信用管理有限公司提供技术支持，通过手机号核验、身份信息核验、人脸核验等方式确认您身份的真实性，并将认证结果反馈给前程无忧51Job的服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 93,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了通过收集手机号、身份信息、人脸信息等个人敏感信息进行实名认证处理，涉及个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#461",
+      "doc_id": "51Job",
+      "sent_index": 461,
+      "text": "1 为了向您提供认证服务，我们需要将您填写的\"姓名、身份证号、手机号\"提供给中胜信用管理有限公司和腾讯云慧眼。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 94,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述将个人信息（姓名、身份证号、手机号）提供给第三方用于认证服务，涉及个人信息的共享与委托处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#462",
+      "doc_id": "51Job",
+      "sent_index": 462,
+      "text": "2 为了准确核验您的身份，尽量防止您的身份被冒用，您将授权腾讯云慧眼人脸核身SDK采集您的设备信息以验证您在进行认证时是否处于可信环境并收集您的人脸照片。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 95,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK采集设备信息和人脸照片用于身份核验，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#463",
+      "doc_id": "51Job",
+      "sent_index": 463,
+      "text": "3 点击\"我已阅读《实名认证用户服务协议》并同意本次授权\"，即视为你同意并授权使用你所提交的个人身份信息及人脸影像数据用于实现验证身份功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 96,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了用户同意并授权使用个人身份信息及人脸影像数据用于身份验证，涉及个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#464",
+      "doc_id": "51Job",
+      "sent_index": 464,
+      "text": "4 在使用到身份证号时，会另外征得您的同意和授权；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 97,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及个人敏感信息（身份证号）的收集与使用，并提及需征得用户同意，属于个人信息处理与利用的具体行为描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#465",
+      "doc_id": "51Job",
+      "sent_index": 465,
+      "text": "在使用到人脸信息时，会另外征得您的同意和授权。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 98,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及人脸信息（个人敏感信息）的收集与同意授权，属于个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#466",
+      "doc_id": "51Job",
+      "sent_index": 466,
+      "text": "授权均仅当次有效，下次使用到对应功能时，会再次征得您的同意和授权。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 99,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了对个人信息的授权使用规则，涉及用户同意和授权机制，属于个人信息处理与利用中的用户权利响应。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#481",
+      "doc_id": "51Job",
+      "sent_index": 481,
+      "text": "（6）应届生论坛使用者在注册时应填写真实详细个人资料。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 100,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确要求注册时填写个人资料，涉及个人信息的收集行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#483",
+      "doc_id": "51Job",
+      "sent_index": 483,
+      "text": "如发现用户的头像、简介等个人信息中包含违法和不良信息的，应届生论坛保留取消其用户资格的权利，应届生论坛使用者的注册资料经认定为虚假资料者立即删除其帐号，相应后果由用户自行承担。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 101,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了平台对用户个人信息（头像、简介、注册资料）的审查、删除及取消资格等处理行为，涉及个人信息的收集、使用和删除，属于个人信息处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#484",
+      "doc_id": "51Job",
+      "sent_index": 484,
+      "text": "（7）用户帐号的所有权归应届生论坛，用户仅享有使用权，同时须遵守应届生论坛的管理规则，用户有义务保证密码和帐号的安全，用户利用该密码和帐号所进行的一切活动引起的任何损失或损害，由用户自行承担全部责任，应届生论坛不承担任何责任，因黑客行为或用户的保管疏忽导致帐号非法使用，应届生论坛不承担任何责任。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 102,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子涉及用户账号的使用权、密码安全义务及责任归属，属于个人信息处理与利用中的安全保护及用户权利响应范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#497",
+      "doc_id": "51Job",
+      "sent_index": 497,
+      "text": "（14）对于应届生论坛的合格使用者在应届生论坛公开发表的任何作品，应届生论坛在全世界范围内不限形式和载体地享有永久的、不可撤销的、免费的、非独家的使用权和转授权的权利，包括但不限于修改、复制、发行、展览、改编、汇编、出版、翻译、信息网络传播、广播、表演和再创作及著作权法等法律法规确定的其他权利， 原作品有附带版权声明者除外。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 103,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了应届生论坛对用户公开发表作品的使用权，包括复制、发行、信息网络传播等，属于个人信息的处理与利用中的使用和转让行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#506",
+      "doc_id": "51Job",
+      "sent_index": 506,
+      "text": "（20）应届生论坛保护合格使用者私人信件的隐私权。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 104,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确提及保护使用者私人信件的隐私权，涉及个人信息的隐私保护与处理，属于个人信息安全保护范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#508",
+      "doc_id": "51Job",
+      "sent_index": 508,
+      "text": "应届生论坛保留因需要而清理应届生论坛使用者私人信件的权利。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 105,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了平台保留清理用户私人信件的权利，涉及个人信息的存储与处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#517",
+      "doc_id": "51Job",
+      "sent_index": 517,
+      "text": "51Job作为网络服务提供者，为企业招聘用户和个人求职用户在使用视频功能进行招聘/面试时提供相应的技术支持。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 106,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了51Job作为网络服务提供者，在视频招聘/面试场景中提供技术支持，涉及个人信息的收集与处理（如视频数据），属于个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#520",
+      "doc_id": "51Job",
+      "sent_index": 520,
+      "text": "为保障用户求职安全，作为招聘官，您将要完成企业实名认证并提供相应的身份信息（包括但不限于营业执照或有关部门批准设立文件、法定代表人身份证信息、对公账户信息、经办人员/被授权人员身份证信息、委托证明等信息），否则可能无法使用本服务或在使用过程中受到限制。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 107,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了收集用户身份信息（如营业执照、身份证信息等）用于企业实名认证，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#533",
+      "doc_id": "51Job",
+      "sent_index": 533,
+      "text": "您理解并同意，在使用本服务过程中，按照相关部门监管要求，我们可以录制视频面试的音视频文件并存储，这是我们提供视频面试整体方案的一部分。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 108,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集（录制）和存储音视频文件的行为，属于个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#541",
+      "doc_id": "51Job",
+      "sent_index": 541,
+      "text": "您未经51Job事先书面同意，将获知的51Job未公布的信息告知其他任何第三方",
+      "keyword_hint": true,
+      "labeling_queue_rank": 109,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户对获知的平台未公布信息的共享行为限制，属于个人信息处理与利用中的共享与披露相关条款。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#571",
+      "doc_id": "51Job",
+      "sent_index": 571,
+      "text": "处理标准：经用户举报或51Job审核通过，违规内容会被删除，51Job对帐号进行冻结，情节严重者会直接封禁帐号。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 110,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了基于用户举报或审核对违规内容进行删除、账号冻结或封禁的处理行为，涉及对用户个人信息（如账号）的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#592",
+      "doc_id": "51Job",
+      "sent_index": 592,
+      "text": "51Job将尽可能保存视频面试过程中产生的合法内容，但不承诺永久保存上述内容，您应自行就前述内容备份。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 111,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了平台对视频面试过程中产生的个人信息（合法内容）的存储行为，涉及个人信息的保存与存储处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#640",
+      "doc_id": "51Job",
+      "sent_index": 640,
+      "text": "尊敬的用户，欢迎您注册、登录前程无忧51Job，我们将按照《登录政策》处理您的个人信息，因此请您务必在注册、登录前程无忧51Job之前，认真完整地阅读并理解、同意本政策条款。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 112,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确提及注册、登录过程中处理个人信息，涉及个人信息的收集与使用，属于具体处理行为描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#641",
+      "doc_id": "51Job",
+      "sent_index": 641,
+      "text": "当您使用登录功能时，您需要向我们提供您注册时的手机号码，并输入验证码或者采取一键登录的方式进行登录；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 113,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集手机号码和验证码用于登录功能的个人信息收集行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#642",
+      "doc_id": "51Job",
+      "sent_index": 642,
+      "text": "针对此前使用用户名 （和/或邮箱地址）进行注册的部分老用户，您可以继续通过输入您注册时的用户名 （和/或邮箱地址）和密码的方式进行登录，但根据相关法律法规要求，还可能需要提供您的手机号码和相应的验证码进行验证；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 114,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了收集手机号码和验证码用于登录验证，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#643",
+      "doc_id": "51Job",
+      "sent_index": 643,
+      "text": "当您忘记登录密码需要找回密码时，您需要向我们提供您注册时所用的手机号码或邮箱地址，我们会向该手机号码或邮箱地址发送验证码，待验证成功后，您可以通过输入新密码并重新登录。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 115,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了在找回密码场景下收集手机号码或邮箱地址用于验证的具体个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#644",
+      "doc_id": "51Job",
+      "sent_index": 644,
+      "text": "请您注意，若您提供的手机号码未在本平台进行注册过，我们将通过快速注册方式直接为您注册前程无忧51Job账号并为您登录。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 116,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了收集手机号码并进行注册、登录的个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#677",
+      "doc_id": "51Job",
+      "sent_index": 677,
+      "text": "擅自打印、复制或使用有关雇员的任何个人资料或有关雇主的商业信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 117,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了未经授权对个人资料进行打印、复制或使用的行为，属于个人信息的处理与利用中的使用环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#680",
+      "doc_id": "51Job",
+      "sent_index": 680,
+      "text": "未经同意，将他人简历资料、个人信息等公诸于众或扩大公开范围，或出售、非法提供给任何第三方。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 118,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述未经同意公开、出售或提供个人信息给第三方，涉及个人信息的披露与共享处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#707",
+      "doc_id": "51Job",
+      "sent_index": 707,
+      "text": "除了本平台在信息保密中提出的条款外，使用者理解并同意，51job在不公开姓名的情况下，可以为用户应聘或招聘的目的 向第三方提供综合性的资料。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 119,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了在特定条件下向第三方提供用户综合性资料的行为，涉及个人信息的共享与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#708",
+      "doc_id": "51Job",
+      "sent_index": 708,
+      "text": "除非司法行政等公务需要，在未经本人同意的情况下，51job将不向任何 第三方公开用户相关资料。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 120,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了在特定条件下不向第三方公开用户资料，涉及个人信息的共享与披露行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#720",
+      "doc_id": "51Job",
+      "sent_index": 720,
+      "text": "欢迎您注册51Job账号并使用51Job的服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 121,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确提及注册账号，涉及个人信息的收集与使用，属于个人信息处理与利用的具体行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#727",
+      "doc_id": "51Job",
+      "sent_index": 727,
+      "text": "请注意，如您选择不注册51Job账号，您可作为访客使用51Job服务的部分功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 122,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户不注册账号时作为访客使用部分功能，涉及个人信息处理（账号注册与访客模式下的数据收集与使用），与个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#736",
+      "doc_id": "51Job",
+      "sent_index": 736,
+      "text": "（4）为了更好地享有51Job网络信息发布平台服务，用户应遵守51Job注册机制的要求，向51Job提供合法、真实和准确的注册资料并承诺提交的资料及发布的招聘信息不会侵犯任何第三方的合法权益，相关资料如有变动，您应及时更新。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 123,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确要求用户提供注册资料（个人信息收集），并涉及资料更新义务，属于个人信息的收集与处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#737",
+      "doc_id": "51Job",
+      "sent_index": 737,
+      "text": "我们有权定期或不定期地对您提供的企业或授权等相关信息的真实性、合法性进行审查，审查范围包括但不限于：营业执照或有关部门批准设立文件、法定代表人身份证信息、对公账户信息、经办人员/被授权人员身份证信息、委托证明等。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 124,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了收集和审查企业及个人身份信息（如身份证、营业执照等），属于个人信息的收集与处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#743",
+      "doc_id": "51Job",
+      "sent_index": 743,
+      "text": "（1）您知悉并同意，当您完成本网站注册时，本平台将为您生成51Job账号。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 125,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述用户注册时平台生成账号，涉及个人信息的收集与使用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#747",
+      "doc_id": "51Job",
+      "sent_index": 747,
+      "text": "（3）为保护广大用户的权益，如用户在使用我们的服务期间存在投诉、举报、监管部门质疑或大众媒体曝光等情形的，51Job有权根据前述情况对用户进行审查，要求用户提供相应证明资料，用以说明用户自身行为的合法性及必要性，用户应当予以配合。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 126,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了在特定情形下（投诉、举报等）收集用户证明资料以进行审查，属于个人信息的收集与处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#755",
+      "doc_id": "51Job",
+      "sent_index": 755,
+      "text": "建议您尽量不要在第三方应用中使用与51Job帐户相同的密码，不要轻信索要密码或财产的网络信息，不要将上述信息提供给任何第三方使用，不从事任何可能使用户名、密码存在泄露危险的行为。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 127,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子涉及对用户密码等个人信息的保护建议，属于个人信息安全保护措施，与个人信息的处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#756",
+      "doc_id": "51Job",
+      "sent_index": 756,
+      "text": "当您发现账户的不当使用或有任何其他可能危及账户安全的情形时，应立即联系我们，51Job将积极协助您进行处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 128,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户账户安全事件响应，属于个人信息安全保护中的用户权利响应与协助处理义务。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#759",
+      "doc_id": "51Job",
+      "sent_index": 759,
+      "text": "您需按照51Job官方渠道提供的注销流程和操作指引，在相关功能设置页面进行注销操作；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 129,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户权利响应中的注销操作，属于个人信息处理与利用中的用户权利响应环节。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#762",
+      "doc_id": "51Job",
+      "sent_index": 762,
+      "text": "（2）在账号注销期间，如果您的账号涉及争议纠纷，包括但不限于投诉、举报、诉讼、仲裁、国家有权机关调查等，平台有权自行终止此账号的注销操作而无需另行得到您的同意。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 130,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了账号注销期间因争议纠纷平台可终止注销操作，涉及用户个人信息处理（账号注销）的例外情形，与用户权利响应相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#765",
+      "doc_id": "51Job",
+      "sent_index": 765,
+      "text": "b）此账号的个人资料和历史信息（包括但不限于用户名、头像、简历、投递记录、购买订单等）都将无法找回。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 131,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了账号注销后个人资料和历史信息（含用户名、头像、简历等个人信息）无法找回，涉及个人信息的存储与删除处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#767",
+      "doc_id": "51Job",
+      "sent_index": 767,
+      "text": "您理解并同意，注销后，平台无法帮助您重新恢复以上服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 132,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户注销后个人信息的处理（无法恢复服务），与用户权利响应相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#796",
+      "doc_id": "51Job",
+      "sent_index": 796,
+      "text": "用户发表的评论即认可该信息为公开的信息，并独立对此行为承担法律责任，51Job有权对用户发布的信息做出审查、屏蔽、删除等，并要求用户做出相应的修改。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 133,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了平台对用户发布信息的审查、屏蔽、删除等处理行为，涉及个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#801",
+      "doc_id": "51Job",
+      "sent_index": 801,
+      "text": "（2）用户在本网站指定位置(包括本网站各级页面、为招聘者生成的公司主页等)可自行操作发布招聘相关信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 134,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述用户自行发布招聘信息的行为，涉及个人信息的收集与使用，属于个人信息处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#849",
+      "doc_id": "51Job",
+      "sent_index": 849,
+      "text": "Job将不时地指定51Job (所有者)的关联公司或者第三方作为51Job的代理、基础服务商、技术支持方等，以便为用户提供本平台相应的服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 135,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了将个人信息处理委托给关联公司或第三方，涉及委托处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#850",
+      "doc_id": "51Job",
+      "sent_index": 850,
+      "text": "如用户需使用第三方服务以便使用51Job相应功能(例如使用第三方支付工具购买51Job付费服务等)，还应相应遵守第三方服务提供商的相应规则。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 136,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户使用第三方服务时涉及的个人信息处理（如支付工具），与委托处理或共享相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#857",
+      "doc_id": "51Job",
+      "sent_index": 857,
+      "text": "对于用户通过非51Job指定方式获取51Job服务或将51Job账号及其服务提供给第三方使用或对外出售的，51Job有权采取一定的处理措施，包括但不限于要求整改、删除信息、部分或全部终止用户使用51Job服务的资格。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 137,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了51Job对用户违规行为的处理措施，涉及删除信息、终止服务等，属于个人信息处理与利用中的安全保护措施。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#865",
+      "doc_id": "51Job",
+      "sent_index": 865,
+      "text": "请您注意，您在使用51Job服务时上传、提交、存储或发布的内容（包括但不限于文字、图片、视频、音频、动画等）均由您原创或已获合法授权。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 138,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了用户上传、提交、存储或发布内容的行为，属于个人信息的收集与存储处理活动。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#867",
+      "doc_id": "51Job",
+      "sent_index": 867,
+      "text": "一旦接受本用户协议，即表明您主动将上述内容的非专属、可转让的财产性权利，如著作权（包括但不限于：复制权、发行权、出租权、改编权、翻译权、汇编权以及应当由著作权人享有的其他可转让权利），排他地、无地域限制地免费地授权给51Job及其关联公司。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 139,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户授权平台处理其内容相关的财产性权利，涉及个人信息的收集与利用（如著作权转让），属于个人信息处理与利用范畴。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#868",
+      "doc_id": "51Job",
+      "sent_index": 868,
+      "text": "51Job及其关联公司或其所授权许可的第三方可通过对上述授权内容进行修改、复制、改编、翻译、汇编或制作，形成衍生产品。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 140,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了第三方对个人信息（授权内容）进行修改、复制、改编等处理行为，属于个人信息的利用与委托处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#876",
+      "doc_id": "51Job",
+      "sent_index": 876,
+      "text": "您同意授权51Job及其关联公司以自己的名义或委托专业第三方针对有关您上传、提交、存储或发布的内容（含衍生作品）的侵权行为进行独立自主的维权并获得全部赔偿。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 141,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了委托第三方处理个人信息（内容）进行维权，涉及委托处理与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#892",
+      "doc_id": "51Job",
+      "sent_index": 892,
+      "text": "2.您在符合条件的情况下通过自助\"注销账号\"的方式注销您的51Job账号，本用户协议于账号注销之日终止；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 142,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户通过注销账号行使删除权，属于用户权利响应中的个人信息处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#897",
+      "doc_id": "51Job",
+      "sent_index": 897,
+      "text": "51Job将无法继续向您提供任何服务或履行任何其他义务，包括但不限于为您保留或向您展示原51Job账号中的任何信息，例如向您或其他第三方发送您所形成的信息资料等。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 143,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了停止服务后对用户个人信息（账号信息、信息资料）的处理方式，涉及信息的保留、展示和发送，属于个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#910",
+      "doc_id": "51Job",
+      "sent_index": 910,
+      "text": "您在使用51Job平台服务(包括网页(51job.com）、App应用程序、微信公众号、微信小程序以及我们现在或者将来还可能为您提供其他客户端产品和/或服务）时，我们可能会收集和使用您的相关信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 144,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了在用户使用平台服务时，平台可能收集和使用用户相关信息，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#912",
+      "doc_id": "51Job",
+      "sent_index": 912,
+      "text": "（一）您同意本隐私条款仅代表您已了解51Job平台服务提供的功能，以及功能运行所必需的个人信息，并不代表您已同意我们可以收集处理非必需个人信息，在您使用相关服务时如需处理您的非必需个人信息会根据您使用过程中的授权情况单独征求您的同意。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 145,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确涉及个人信息的收集与处理，包括必需与非必需个人信息的区分及单独征求同意的要求，属于个人信息处理与利用的具体描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#913",
+      "doc_id": "51Job",
+      "sent_index": 913,
+      "text": "如需处理敏感个人信息，我们会进行个人信息保护影响评估并征得您单独同意后处理。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 146,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确涉及敏感个人信息的处理条件，包括影响评估和单独同意，属于个人信息处理与利用的具体合规要求。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#914",
+      "doc_id": "51Job",
+      "sent_index": 914,
+      "text": "（四）根据《常见类型移动互联网应用程序必要个人信息范围规定》，前程无忧51Job App属于\"求职招聘类\"App，基本业务功能为\"求职招聘信息交换\"功能，此功能下必需个人信息为：您的手机电话号码和您提供的简历。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 147,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了App收集必要个人信息（手机号、简历）的具体类型和依据，属于个人信息收集行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#915",
+      "doc_id": "51Job",
+      "sent_index": 915,
+      "text": "请注意：51Job平台网站可能会包含第三方运营网站的相关产品和/或服务，在您点击跳转第三方前我们会提醒您是否继续。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 148,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及向第三方网站跳转前的提醒，与个人信息共享或委托处理相关，属于个人信息处理与利用中的共享或披露场景。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#919",
+      "doc_id": "51Job",
+      "sent_index": 919,
+      "text": "51Job旗下产品和/或服务，我们不视作第三方。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 149,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及个人信息共享或委托处理中的第三方界定，与个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#923",
+      "doc_id": "51Job",
+      "sent_index": 923,
+      "text": "当您注册/登录51Job平台账号时，需要您提供手机号码，我们将通过发送短信验证码（口令）方式或者采取一键登录的方式，以验证您所提供的手机号码真实有效。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 150,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集手机号码用于注册/登录，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#924",
+      "doc_id": "51Job",
+      "sent_index": 924,
+      "text": "此类信息属于该功能的必需信息，根据相关法律法规要求，如您不提供手机号码并核验，会导致注册失败。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 151,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了收集手机号码作为必需信息进行核验的具体处理行为，涉及个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#925",
+      "doc_id": "51Job",
+      "sent_index": 925,
+      "text": "此外，您还可以根据自身需求自主设置您的账户密码、完善账号信息（如绑定邮箱地址），此类信息属于非必需信息，如您拒绝提供该类信息会降低账号安全保护能力，但不影响使用注册/登录功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 152,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户自主设置账户密码、完善账号信息（如绑定邮箱地址）的行为，涉及个人信息的收集与使用，且提及非必需信息对账号安全的影响，属于个人信息处理与利用的具体描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#928",
+      "doc_id": "51Job",
+      "sent_index": 928,
+      "text": "为了您可以更加安全便捷地登录/注册您的账号，我们为您提供了本机号码一键登录功能，当您同意并选择使用本机号码一键登录功能时，我们将通过闪验SDK会获取您的IP地址、OAID、SIM卡信息，并会收集设备类型、设备型号、操作系统、网络环境、网关取号报错日志数据，并安全进行身份认证后，为您提供免验证码登录/注册服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 153,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了通过SDK收集IP地址、OAID、SIM卡信息、设备类型等个人信息用于登录/注册服务，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#932",
+      "doc_id": "51Job",
+      "sent_index": 932,
+      "text": "在求职招聘环节，您可以根据需要选择使用实名认证功能，来提升您求职/招聘行为的真实性和可信赖度，也给双方留下彼此的良好印象。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 154,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了在求职招聘环节收集和使用实名认证信息的具体场景，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#933",
+      "doc_id": "51Job",
+      "sent_index": 933,
+      "text": "当您作为求职者用户选择实名认证时，您应当仔细阅读《实名认证服务协议》，了解并知悉进行实名认证需要您提供真实姓名、手机号、身份证号码，当您使用的手机号，实名信息并非您本人时，还需要您提供面部识别信息，以准确核验您的身份，此类信息属于实名认证功能的必需信息，如您拒绝提供上述信息，可能我们无法向您正常提供实名认证服务，但不影响您使用除实名认证的51Job平台其他产品和/或服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 155,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了收集真实姓名、手机号、身份证号码、面部识别信息等个人敏感信息，并说明其用于实名认证目的及拒绝提供的后果，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#935",
+      "doc_id": "51Job",
+      "sent_index": 935,
+      "text": "银行对公账户认证需要提供银行开户名、银行账号、开户总行、开户支行、开户行所在地。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 156,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集银行开户名、账号等个人信息的具体场景和目的，属于个人信息的收集行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#936",
+      "doc_id": "51Job",
+      "sent_index": 936,
+      "text": "企业法人实名认证需要提供统一社会信用代码、法定代表人姓名、法定代表人身份证号码，还可能需要企业法定代表人提供面部识别信息，以准确核验。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 157,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了收集统一社会信用代码、法定代表人姓名、身份证号码及面部识别信息等个人敏感信息用于实名认证，属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#937",
+      "doc_id": "51Job",
+      "sent_index": 937,
+      "text": "请您知悉，上述企业员工身份认证、个人实名认证和企业实名认证所需要的信息均属于选择使用该功能时的必需信息，未通过认证的用户，或您拒绝提供上述信息，我们无法向您正常提供服务，您将无法进入前程无忧企业版（网才招聘系统）进行操作。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 158,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了收集个人信息（企业员工身份认证、个人实名认证、企业实名认证所需信息）作为提供服务的必需条件，涉及个人信息的收集与使用，属于个人信息处理与利用的具体描述。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#940",
+      "doc_id": "51Job",
+      "sent_index": 940,
+      "text": "人脸识别功能通过腾讯云人脸识别SDK实现，将由其直接收集、处理您的面部生物识别信息，此类信息属于活体校验所必须的信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 159,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过第三方SDK收集和处理面部生物识别信息（个人敏感信息），属于个人信息的收集与处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#943",
+      "doc_id": "51Job",
+      "sent_index": 943,
+      "text": "a.如您是求职者用户，当您使用51Job产品和/或服务中的求职功能以创建/编辑简历时，根据您的意愿，您需要填写以下在线简历信息之一、部分或全部。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 160,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述收集求职者简历信息的具体场景和内容，属于个人信息收集行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#946",
+      "doc_id": "51Job",
+      "sent_index": 946,
+      "text": "【个人基本信息】必填：姓名、性别、出生年月、手机号码、开始工作年份、居住地、你的身份（职场人/在校生）；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 161,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确列出收集的个人基本信息字段，属于个人信息收集行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#954",
+      "doc_id": "51Job",
+      "sent_index": 954,
+      "text": "b.如您是求职者用户，在您使用企业校园招聘产品和/或服务、企业定制化简历产品和/或服务中的求职功能以创建/编辑简历时，根据您的意愿，您可以填写以下在线简历信息之一、部分或全部：",
+      "keyword_hint": true,
+      "labeling_queue_rank": 162,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了求职者用户在使用求职功能时创建/编辑简历并填写个人信息（在线简历信息），属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#960",
+      "doc_id": "51Job",
+      "sent_index": 960,
+      "text": "当您上传视频时，需要调用存储权限以读取您的相册信息；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 163,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集个人信息（相册信息）的具体场景和目的，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#966",
+      "doc_id": "51Job",
+      "sent_index": 966,
+      "text": "在您选择照片、图像上传为个人头像时，需要调用您设备的存储权限（Android系统）/相册权限（iOS系统）/本地文件访问权限（51Job PC）；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 164,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了收集个人信息（头像）时调用设备权限的具体处理行为，涉及个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#967",
+      "doc_id": "51Job",
+      "sent_index": 967,
+      "text": "在您选择视频上传为视频简介时，需要调用您设备的存储权限（Android系统）/相册权限（iOS系统）；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 165,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了收集个人信息（视频）时调用设备权限的具体处理行为，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#968",
+      "doc_id": "51Job",
+      "sent_index": 968,
+      "text": "在您选择拍摄图像作为个人头像和拍摄视频作为视频简介时，需要调用您设备的相机权限和麦克风权限；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 166,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了收集个人信息（头像、视频简介）时调用设备权限的具体处理行为，涉及个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#969",
+      "doc_id": "51Job",
+      "sent_index": 969,
+      "text": "在您添加个人作品时，需要调用您设备的存储权限（Android系统）/相册权限（iOS系统）；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 167,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述收集个人信息（个人作品）时调用设备存储/相册权限的具体处理行为，涉及个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#970",
+      "doc_id": "51Job",
+      "sent_index": 970,
+      "text": "在您上传附件简历时需要调用您设备的存储权限。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 168,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了在特定场景下收集个人信息（附件简历）时调用设备存储权限的具体处理行为，涉及个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#971",
+      "doc_id": "51Job",
+      "sent_index": 971,
+      "text": "若您拒绝相关系统权限，您可能无法选择或使用心仪的头像，或无法创建视频简介，或无法添加个人作品，或无法上传附件简历，但不影响您使用在线简历其他功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 169,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了因拒绝系统权限导致无法使用特定功能（头像、视频简介等），涉及个人信息收集与使用的后果说明，属于个人信息处理与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#973",
+      "doc_id": "51Job",
+      "sent_index": 973,
+      "text": "投递简历：对于求职者用户，您可以完善在线简历，51Job会收集您的在线简历。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 170,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集求职者在线简历的行为，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#977",
+      "doc_id": "51Job",
+      "sent_index": 977,
+      "text": "【公开简历（接受虚拟手机号电话沟通）】您的简历会推荐给招聘者用户和51Job平台猎头，也可以被招聘者用户和51Job平台猎头搜索查看或导出。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 171,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了个人信息的收集、使用、共享和披露行为（简历推荐、搜索查看、导出），属于个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#978",
+      "doc_id": "51Job",
+      "sent_index": 978,
+      "text": "招聘者用户和51Job平台猎头都可以看到您的简历，但无法看到您的真实手机号码。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 172,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了个人信息的共享与披露行为，涉及简历和手机号码的处理。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#981",
+      "doc_id": "51Job",
+      "sent_index": 981,
+      "text": "招聘者用户和51Job平台猎头都可以看到您的简历，但无法看到您的手机号码。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 173,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了个人简历信息的共享范围及手机号码的保护措施，涉及个人信息的共享与安全保护。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#984",
+      "doc_id": "51Job",
+      "sent_index": 984,
+      "text": "51Job平台猎头无法看到您的真实手机号码。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 174,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了个人信息（手机号码）在共享场景下的处理方式（脱敏处理），涉及个人信息的共享与安全保护。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#989",
+      "doc_id": "51Job",
+      "sent_index": 989,
+      "text": "当您在51Job平台创建/编辑的在线简历的公开设置为【公开简历（接受虚拟手机号电话沟通）】或【公开简历（仅在线沟通）】或【对无忧猎头公开简历】时，您已同意使用平台相应服务的招聘企业（及人员）和平台猎头可以通过我们的系统功能(如职位、行业、工作年限此类关键词）发现您。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 175,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户设置简历公开状态后，招聘企业和猎头通过平台系统功能发现用户个人信息，涉及个人信息的共享与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#990",
+      "doc_id": "51Job",
+      "sent_index": 990,
+      "text": "相当于法律上许可招聘企业(及人员）和平台猎头对您的简历进行查询、浏览、使用、存储的权利；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 176,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了招聘企业和平台猎头对用户简历进行查询、浏览、使用、存储等个人信息处理行为，涉及收集、使用、存储等具体操作。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#993",
+      "doc_id": "51Job",
+      "sent_index": 993,
+      "text": "此时我们将作为该招聘单位的数据处理者，可能会根据该招聘企业的要求将您的简历提供给该招聘企业，届时请您详细查看或问询该招聘企业的隐私政策。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 177,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了将用户简历（个人信息）提供给第三方招聘企业的共享行为，属于个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#995",
+      "doc_id": "51Job",
+      "sent_index": 995,
+      "text": "同时，如果您报名了空中宣讲会活动，我们可能会向您注册时填写的手机号码发送报名成功的通知。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 178,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了对个人手机号码的收集与使用，用于发送报名通知，属于个人信息处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#998",
+      "doc_id": "51Job",
+      "sent_index": 998,
+      "text": "除上述情形外，我们不会在未经您允许的情况下向任何第三方共享您的个人简历信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 179,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了在特定条件下不向第三方共享个人简历信息，涉及个人信息的共享处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#999",
+      "doc_id": "51Job",
+      "sent_index": 999,
+      "text": "我们会通过APP内消息通知（如果您已开启）、微信服务号提醒（如果您已关注服务号并绑定账号）、邮件告知您哪些招聘者用户查阅了您的简历。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 180,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了通过多种渠道向用户通知简历被查阅的行为，涉及个人信息的处理与利用（披露与通知）。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1002",
+      "doc_id": "51Job",
+      "sent_index": 1002,
+      "text": "拍摄视频需通过腾讯云TRTC SDK实现，此时将收集使用您的网络信息、设备类型、设备型号、操作系统和您的人脸及声音信息，您可通过拒绝相关系统权限或者不使用相关功能，来阻止该SDK获取您的个人信息，这也会影响到您无法使用视频简介的拍摄功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 181,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过SDK收集和使用网络信息、设备信息、人脸及声音信息等个人信息的处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1005",
+      "doc_id": "51Job",
+      "sent_index": 1005,
+      "text": "当您使用51Job平台提供的搜索订阅功能时，我们会根据您的订阅条件以您选定的接收方式，提供跟您的订阅要求相符合的职位信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 182,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了根据用户订阅条件收集和使用个人信息（订阅条件、接收方式）以提供职位信息，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1006",
+      "doc_id": "51Job",
+      "sent_index": 1006,
+      "text": "此类信息属于该功能的必需信息，如您拒绝提供或不开启该功能，将无法查看订阅内容，但不影响您使用平台其他服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 183,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了因用户拒绝提供个人信息（必需信息）而导致功能受限的后果，涉及个人信息的收集与使用必要性说明。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1009",
+      "doc_id": "51Job",
+      "sent_index": 1009,
+      "text": "当您使用查看附近职位、搜索-距离优先排序、查看通勤距离功能时，我们会收集您的位置信息，以更好地为您提供招聘功能以及与位置有关的产品和/或服务。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 184,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集位置信息的具体场景和目的，属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1010",
+      "doc_id": "51Job",
+      "sent_index": 1010,
+      "text": "我们在首次申请获取您的位置信息（GPS定位）前，将先征求您的授权同意。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 185,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述收集位置信息（个人敏感信息）前需征求授权同意，涉及个人信息的收集与处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1011",
+      "doc_id": "51Job",
+      "sent_index": 1011,
+      "text": "我们承诺仅会在您主动使用相关功能时获取您的位置信息，仅按照提供相关服务所需的最低频率收集您的位置信息，不会追踪您的行踪轨迹。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 186,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了位置信息的收集条件、频率和用途，属于个人信息的收集与使用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1012",
+      "doc_id": "51Job",
+      "sent_index": 1012,
+      "text": "此类信息属于该功能的非必需信息，如果拒绝授权，您将无法自动定位，但可以选择手动输入目标求职地点或使用不需要位置信息的招聘或求职功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 187,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了位置信息的收集与使用，涉及个人信息的处理与利用，包括授权拒绝后的功能影响说明。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1014",
+      "doc_id": "51Job",
+      "sent_index": 1014,
+      "text": "当您使用查看附近职位、搜索-距离优先排序功能时，需要获取您的位置信息（GPS定位），如您拒绝授权，将无法自动定位，但可以选择手动输入目标求职地点。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 188,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集位置信息（GPS定位）的具体场景和目的，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1016",
+      "doc_id": "51Job",
+      "sent_index": 1016,
+      "text": "您在查看附近职位、搜索-距离优先排序时，需要使用百度地图SDK和百度定位SDK以便实现定位或匹配位置，您可以通过拒绝系统权限来阻止其获得您的位置信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 189,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了通过SDK收集位置信息用于定位和匹配，涉及个人信息的收集与使用，且提及用户可通过拒绝权限控制，属于个人信息处理与利用的具体行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1019",
+      "doc_id": "51Job",
+      "sent_index": 1019,
+      "text": "当您使用我们的求职推荐功能时，我们会通过您求职者用户身份填写的简历（基本信息、简历亮点、求职意向、职位技能&经验、工作经验、教育经历）并结合您在51Job平台的使用习惯（如：操作记录、搜索、申请记录、聊天行为、订阅、浏览、收藏、屏蔽公司设置及简历公开设置）为您推荐、展示您可能感兴趣的或与您较为匹配的职位信息、公司信息，例如首页推荐职位列表、搜索结果职位列表、职位详情\"你可能还喜欢\"职位列表等。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 190,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了收集简历信息和使用习惯进行个性化推荐，属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1020",
+      "doc_id": "51Job",
+      "sent_index": 1020,
+      "text": "当您主动授权同意我们使用您的位置信息时，我们可以为您推荐、展示您可能感兴趣的或与您较为匹配的附近职位信息，例如首页附近职位列表等。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 191,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述收集和使用位置信息进行个性化推荐，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1021",
+      "doc_id": "51Job",
+      "sent_index": 1021,
+      "text": "此类信息为使用求职推荐功能所要求的必需信息，如您拒绝提供，则将无法使用该功能，但不会影响您使用平台的其他功能。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 192,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确描述了收集个人信息（必需信息）的目的（求职推荐功能）及拒绝提供的后果，属于个人信息的收集与利用相关。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1028",
+      "doc_id": "51Job",
+      "sent_index": 1028,
+      "text": "当您使用APP消息推送功能时，个推推送SDK需要收集上述网络信息、设备类型、设备型号、操作系统信息，以实现手机设备的推送功能，此外，个推推送SDK具有自启动和关联启动功能，为确保本应用处于关闭状态下可正常接收到客户端推送的信息，将存在一定频率进行自启动或者关联启动的行为，这是实现推送功能及服务所必要的。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 193,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了第三方SDK收集网络信息、设备信息等个人信息，并涉及自启动和关联启动行为，属于个人信息的收集与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1029",
+      "doc_id": "51Job",
+      "sent_index": 1029,
+      "text": "同时，我们还有设备厂商推送通道，包括：华为推送、荣耀推送、OPPO推送、VIVO推送、小米推送，需要收集网络信息、基本硬件信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 194,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了通过设备厂商推送通道收集网络信息和基本硬件信息，属于个人信息的收集与利用行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1031",
+      "doc_id": "51Job",
+      "sent_index": 1031,
+      "text": "如您要删除您的搜索记录，您可以在\"搜索\"-\"历史搜索\"中点击删除按钮清除搜索记录，在您主动清除后，我们无法帮您恢复搜索记录。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 195,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"描述了用户删除搜索记录的具体操作，涉及个人信息的删除处理行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1032",
+      "doc_id": "51Job",
+      "sent_index": 1032,
+      "text": "如您想管理您的浏览记录、收藏、屏蔽公司设置，您可以在对应功能处，或者前程无忧网站\"我的51Job\"页面、前程无忧App \"我的\"页面设置关闭或删除。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 196,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子描述了用户管理浏览记录、收藏等个人信息的具体操作路径，涉及用户权利响应（删除/关闭），属于个人信息的处理与利用。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1033",
+      "doc_id": "51Job",
+      "sent_index": 1033,
+      "text": "我们会对个性化推荐服务进行个人信息影响保护评估，如果您不希望平台提供个性化推荐服务，您可以关闭相应功能：在前程无忧网页\"我的51Job\"-\"隐私设置\"-\"个性化推荐\"、前程无忧App\"我的\"-\"设置\"-\"隐私设置\"-\"个性化推荐\"中进行关闭前程无忧网页/App的职位/公司\"推荐\"功能；",
+      "keyword_hint": true,
+      "labeling_queue_rank": 197,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"句子明确涉及个性化推荐服务的个人信息影响评估及用户关闭推荐功能的操作路径，属于个人信息的处理与利用中的用户权利响应。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1036",
+      "doc_id": "51Job",
+      "sent_index": 1036,
+      "text": "如您不希望接收职位推荐/商业化广告，您可以在App\"我的\"-\"设置\"-\"隐私设置\"-\"个性化推荐\"中进行关闭。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 198,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"涉及用户对个人信息用于个性化推荐（处理行为）的关闭权利响应，属于用户权利行使的具体操作说明。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    },
+    {
+      "id": "51Job#1041",
+      "doc_id": "51Job",
+      "sent_index": 1041,
+      "text": "当您选择购买我们的服务时，我们会根据法律规定记录、保存在51Job上的服务信息、交易信息。",
+      "keyword_hint": true,
+      "labeling_queue_rank": 199,
+      "labeling_priority_score": 5,
+      "ai": {
+        "pii_related": true,
+        "confidence": 0.95,
+        "raw_model_output": "{\"related\": true, \"confidence\": 0.95, \"reason\": \"明确描述了在购买服务场景下，根据法律规定记录和保存服务信息、交易信息，属于个人信息的收集与存储行为。\"}"
+      },
+      "human": {
+        "pii_related": null,
+        "notes": "",
+        "reviewed_at": null,
+        "reviewer_id": ""
+      }
+    }
+  ]
+}

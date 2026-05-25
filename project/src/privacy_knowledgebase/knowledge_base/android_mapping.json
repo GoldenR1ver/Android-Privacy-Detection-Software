@@ -1,0 +1,485 @@
+{
+  "schema_version": "1.0",
+  "rules": [
+    {
+      "type": "permission",
+      "match": [
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION"
+      ],
+      "collects": [
+        "B_10",
+        "B_11"
+      ],
+      "collects_categories": [
+        "location"
+      ],
+      "confidence": 0.95,
+      "rationale": "位置权限通常对应精确地理位置和行踪轨迹。"
+    },
+    {
+      "type": "permission",
+      "match": [
+        "android.permission.READ_CONTACTS"
+      ],
+      "collects": [
+        "A_03",
+        "G_01"
+      ],
+      "collects_categories": [
+        "contact",
+        "household"
+      ],
+      "confidence": 0.9,
+      "rationale": "联系人权限可接触联系方式和家庭成员关系。"
+    },
+    {
+      "type": "permission",
+      "match": [
+        "android.permission.READ_PHONE_STATE"
+      ],
+      "collects": [
+        "A_04",
+        "A_02"
+      ],
+      "collects_categories": [
+        "identity",
+        "online_identifier"
+      ],
+      "confidence": 0.9,
+      "rationale": "电话状态权限常见于设备标识和在线标识符收集。"
+    },
+    {
+      "type": "permission",
+      "match": [
+        "android.permission.CAMERA"
+      ],
+      "collects": [
+        "B_01",
+        "E_02"
+      ],
+      "collects_categories": [
+        "biometric",
+        "sensory"
+      ],
+      "confidence": 0.9,
+      "rationale": "相机权限可用于面部、生物识别和图像采集。"
+    },
+    {
+      "type": "permission",
+      "match": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "collects": [
+        "B_01",
+        "E_02"
+      ],
+      "collects_categories": [
+        "biometric",
+        "sensory"
+      ],
+      "confidence": 0.9,
+      "rationale": "录音权限可用于声纹与音频内容采集。"
+    },
+    {
+      "type": "permission",
+      "match": [
+        "android.permission.READ_CALENDAR"
+      ],
+      "collects": [
+        "D_05"
+      ],
+      "collects_categories": [
+        "schedule"
+      ],
+      "confidence": 0.8,
+      "rationale": "日历权限通常接触日程和职业活动。"
+    },
+    {
+      "type": "permission",
+      "match": [
+        "android.permission.READ_SMS"
+      ],
+      "collects": [
+        "B_13"
+      ],
+      "collects_categories": [
+        "communication"
+      ],
+      "confidence": 0.85,
+      "rationale": "短信权限直接触及私人通信内容。"
+    },
+    {
+      "type": "permission",
+      "match": [
+        "android.permission.BODY_SENSORS"
+      ],
+      "collects": [
+        "B_03"
+      ],
+      "collects_categories": [
+        "health"
+      ],
+      "confidence": 0.95,
+      "rationale": "身体传感器权限对应健康和生理数据。"
+    },
+    {
+      "type": "api",
+      "match": [
+        "LocationManager",
+        "FusedLocationProviderClient",
+        "LocationManager.getLastKnownLocation"
+      ],
+      "collects": [
+        "B_10",
+        "B_11"
+      ],
+      "collects_categories": [
+        "location"
+      ],
+      "confidence": 0.9,
+      "rationale": "定位 API 显示地理位置与轨迹采集。"
+    },
+    {
+      "type": "api",
+      "match": [
+        "TelephonyManager",
+        "TelephonyManager.getDeviceId",
+        "TelephonyManager.getImei"
+      ],
+      "collects": [
+        "A_02",
+        "A_04"
+      ],
+      "collects_categories": [
+        "identity",
+        "online_identifier"
+      ],
+      "confidence": 0.95,
+      "rationale": "电话管理 API 常用于设备标识与身份识别。"
+    },
+    {
+      "type": "api",
+      "match": [
+        "AccountManager"
+      ],
+      "collects": [
+        "A_05"
+      ],
+      "collects_categories": [
+        "account"
+      ],
+      "confidence": 0.9,
+      "rationale": "账号管理 API 对应账户身份信息。"
+    },
+    {
+      "type": "api",
+      "match": [
+        "ContactsContract"
+      ],
+      "collects": [
+        "A_03"
+      ],
+      "collects_categories": [
+        "contact"
+      ],
+      "confidence": 0.9,
+      "rationale": "联系人合同 API 对应联系方式。"
+    },
+    {
+      "type": "api",
+      "match": [
+        "CameraX",
+        "CameraManager",
+        "FaceDetector"
+      ],
+      "collects": [
+        "B_01",
+        "E_02"
+      ],
+      "collects_categories": [
+        "biometric",
+        "sensory"
+      ],
+      "confidence": 0.85,
+      "rationale": "相机与人脸检测 API 对应图像和生物识别处理。"
+    },
+    {
+      "type": "api",
+      "match": [
+        "BluetoothAdapter"
+      ],
+      "collects": [
+        "C_04"
+      ],
+      "collects_categories": [
+        "device"
+      ],
+      "confidence": 0.75,
+      "rationale": "蓝牙相关 API 常与设备信息和周边设备交互有关。"
+    },
+    {
+      "type": "api",
+      "match": [
+        "MediaRecorder"
+      ],
+      "collects": [
+        "B_13",
+        "E_02"
+      ],
+      "collects_categories": [
+        "sensory",
+        "communication"
+      ],
+      "confidence": 0.8,
+      "rationale": "录制媒体 API 可触及音频与通信内容。"
+    },
+    {
+      "type": "sdk",
+      "match": [
+        "com.google.firebase.analytics",
+        "Firebase Analytics"
+      ],
+      "collects": [
+        "C_01",
+        "C_02",
+        "C_03",
+        "F_01",
+        "F_02"
+      ],
+      "collects_categories": [
+        "behavior",
+        "profile"
+      ],
+      "confidence": 0.7,
+      "rationale": "分析 SDK 通常用于行为分析和画像。"
+    },
+    {
+      "type": "sdk",
+      "match": [
+        "AppsFlyer"
+      ],
+      "collects": [
+        "A_04",
+        "F_01",
+        "F_02"
+      ],
+      "collects_categories": [
+        "advertising",
+        "profile"
+      ],
+      "confidence": 0.75,
+      "rationale": "归因 SDK 常涉及广告标识与画像。"
+    },
+    {
+      "type": "sdk",
+      "match": [
+        "Facebook SDK"
+      ],
+      "collects": [
+        "F_01",
+        "F_02"
+      ],
+      "collects_categories": [
+        "profile"
+      ],
+      "confidence": 0.7,
+      "rationale": "社交 SDK 常与画像和用户关系数据相关。"
+    },
+    {
+      "type": "sdk",
+      "match": [
+        "Bugly"
+      ],
+      "collects": [
+        "C_04",
+        "A_04"
+      ],
+      "collects_categories": [
+        "device"
+      ],
+      "confidence": 0.65,
+      "rationale": "崩溃分析 SDK 常收集设备和运行环境信息。"
+    },
+    {
+      "type": "sdk",
+      "match": [
+        "Umeng"
+      ],
+      "collects": [
+        "F_01",
+        "F_02",
+        "C_01",
+        "C_02"
+      ],
+      "collects_categories": [
+        "profile",
+        "behavior"
+      ],
+      "confidence": 0.7,
+      "rationale": "统计 SDK 常用于画像与行为分析。"
+    },
+    {
+      "type": "network",
+      "match": [
+        "imei",
+        "deviceid",
+        "oaid",
+        "android_id",
+        "adid",
+        "lat",
+        "lng",
+        "userid",
+        "cookie",
+        "token",
+        "email",
+        "phone"
+      ],
+      "collects": [
+        "A_02",
+        "A_03",
+        "A_04",
+        "B_10",
+        "C_04"
+      ],
+      "collects_categories": [
+        "identity",
+        "contact",
+        "location",
+        "online_identifier"
+      ],
+      "confidence": 0.6,
+      "rationale": "网络参数关键词可直接提示身份、联系方式、位置和在线标识符。",
+      "pattern_type": "keyword"
+    },
+    {
+      "type": "permission",
+      "match": [
+        "android.permission.READ_PHONE_NUMBERS",
+        "android.permission.READ_CALL_LOG"
+      ],
+      "collects": [
+        "A_03"
+      ],
+      "collects_categories": [
+        "contact"
+      ],
+      "confidence": 0.88,
+      "rationale": "读取号码/通话记录权限与联系方式相关。"
+    },
+    {
+      "type": "api",
+      "match": [
+        "getLine1Number",
+        "PhoneNumberUtils",
+        "READ_PHONE_NUMBERS"
+      ],
+      "collects": [
+        "A_03"
+      ],
+      "collects_categories": [
+        "contact"
+      ],
+      "confidence": 0.9,
+      "rationale": "电话号码读取 API。"
+    },
+    {
+      "type": "api",
+      "match": [
+        "Settings.Secure.ANDROID_ID",
+        "ANDROID_ID",
+        "getString"
+      ],
+      "collects": [
+        "A_04"
+      ],
+      "collects_categories": [
+        "online_identifier"
+      ],
+      "confidence": 0.85,
+      "rationale": "Android ID 读取相关 API/常量。"
+    },
+    {
+      "type": "api",
+      "match": [
+        "ClipboardManager",
+        "getPrimaryClip"
+      ],
+      "collects": [
+        "B_13"
+      ],
+      "collects_categories": [
+        "communication"
+      ],
+      "confidence": 0.85,
+      "rationale": "剪贴板访问 API。"
+    },
+    {
+      "type": "api",
+      "match": [
+        "WifiInfo.getIpAddress",
+        "InetAddress",
+        "getHostAddress"
+      ],
+      "collects": [
+        "A_04"
+      ],
+      "collects_categories": [
+        "online_identifier"
+      ],
+      "confidence": 0.8,
+      "rationale": "IP 地址获取 API。"
+    },
+    {
+      "type": "api",
+      "match": [
+        "WifiInfo.getMacAddress",
+        "BluetoothAdapter.getAddress"
+      ],
+      "collects": [
+        "C_04"
+      ],
+      "collects_categories": [
+        "device"
+      ],
+      "confidence": 0.8,
+      "rationale": "MAC/蓝牙地址 API。"
+    },
+    {
+      "type": "sdk",
+      "match": [
+        "sensorsdata",
+        "SensorsAnalytics",
+        "神策"
+      ],
+      "collects": [
+        "F_01",
+        "C_01",
+        "C_03"
+      ],
+      "collects_categories": [
+        "profile",
+        "behavior"
+      ],
+      "confidence": 0.72,
+      "rationale": "行为分析 SDK。"
+    },
+    {
+      "type": "sdk",
+      "match": [
+        "TalkingData",
+        "talkingdata"
+      ],
+      "collects": [
+        "A_04",
+        "F_01"
+      ],
+      "collects_categories": [
+        "online_identifier",
+        "profile"
+      ],
+      "confidence": 0.7,
+      "rationale": "统计/归因 SDK。"
+    }
+  ]
+}

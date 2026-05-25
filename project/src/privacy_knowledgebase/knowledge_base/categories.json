@@ -1,0 +1,1556 @@
+{
+  "schema_version": "2.0",
+  "source": {
+    "input_file": "input.md",
+    "section_count": 8,
+    "row_count": 39
+  },
+  "categories": [
+    {
+      "id": "identifiers",
+      "section_id": "A",
+      "display_name": {
+        "zh": "标识符",
+        "en": "Identifiers"
+      },
+      "sensitive": false,
+      "items": [
+        {
+          "id": "A_01",
+          "slug": "姓名",
+          "label": "姓名",
+          "warning": false,
+          "examples": [
+            "真实姓名",
+            "别名",
+            "用户名"
+          ],
+          "aliases": [
+            "真实姓名",
+            "别名",
+            "用户名"
+          ],
+          "sensitivity": {
+            "normalized": "general",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "A",
+            "section_title_zh": "标识符",
+            "section_title_en": "Identifiers"
+          }
+        },
+        {
+          "id": "A_02",
+          "slug": "身份证件号码",
+          "label": "身份证件号码",
+          "warning": false,
+          "examples": [
+            "身份证号",
+            "社保号",
+            "护照号",
+            "驾照号"
+          ],
+          "aliases": [
+            "身份证号",
+            "社保号",
+            "护照号",
+            "驾照号"
+          ],
+          "sensitivity": {
+            "normalized": "general",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "A",
+            "section_title_zh": "标识符",
+            "section_title_en": "Identifiers"
+          }
+        },
+        {
+          "id": "A_03",
+          "slug": "联系方式",
+          "label": "联系方式",
+          "warning": false,
+          "examples": [
+            "邮政地址",
+            "电子邮箱",
+            "电话号码"
+          ],
+          "aliases": [
+            "邮政地址",
+            "电子邮箱",
+            "电话号码"
+          ],
+          "sensitivity": {
+            "normalized": "general",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "A",
+            "section_title_zh": "标识符",
+            "section_title_en": "Identifiers"
+          }
+        },
+        {
+          "id": "A_04",
+          "slug": "在线标识符",
+          "label": "在线标识符",
+          "warning": false,
+          "examples": [
+            "IP地址",
+            "Cookie ID",
+            "设备ID",
+            "移动广告ID",
+            "RFID标签"
+          ],
+          "aliases": [
+            "IP地址",
+            "Cookie ID",
+            "设备ID",
+            "移动广告ID",
+            "RFID标签"
+          ],
+          "sensitivity": {
+            "normalized": "general",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "A",
+            "section_title_zh": "标识符",
+            "section_title_en": "Identifiers"
+          }
+        },
+        {
+          "id": "A_05",
+          "slug": "账户身份信息",
+          "label": "账户身份信息",
+          "warning": false,
+          "examples": [
+            "账户名",
+            "用户名（不含密码）"
+          ],
+          "aliases": [
+            "账户名",
+            "用户名（不含密码）"
+          ],
+          "sensitivity": {
+            "normalized": "general",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "A",
+            "section_title_zh": "标识符",
+            "section_title_en": "Identifiers"
+          }
+        },
+        {
+          "id": "A_06",
+          "slug": "账户凭证",
+          "label": "账户凭证",
+          "warning": true,
+          "examples": [
+            "登录账号 + 安全码/密码/访问凭证的组合"
+          ],
+          "aliases": [
+            "登录账号 + 安全码/密码/访问凭证的组合"
+          ],
+          "sensitivity": {
+            "normalized": "sensitive",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "A",
+            "section_title_zh": "标识符",
+            "section_title_en": "Identifiers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sensitive_personal_information",
+      "section_id": "B",
+      "display_name": {
+        "zh": "敏感个人信息",
+        "en": "Special Categories"
+      },
+      "sensitive": true,
+      "items": [
+        {
+          "id": "B_01",
+          "slug": "生物识别信息",
+          "label": "生物识别信息",
+          "warning": true,
+          "examples": [
+            "指纹",
+            "面部识别",
+            "虹膜",
+            "声纹",
+            "DNA（用于识别）"
+          ],
+          "aliases": [
+            "指纹",
+            "面部识别",
+            "虹膜",
+            "声纹",
+            "DNA（用于识别）"
+          ],
+          "sensitivity": {
+            "normalized": "sensitive",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "B",
+            "section_title_zh": "敏感个人信息",
+            "section_title_en": "特殊类别数据"
+          }
+        },
+        {
+          "id": "B_02",
+          "slug": "基因数据",
+          "label": "基因数据",
+          "warning": true,
+          "examples": [
+            "DNA",
+            "RNA分析结果",
+            "遗传特征"
+          ],
+          "aliases": [
+            "DNA",
+            "RNA分析结果",
+            "遗传特征"
+          ],
+          "sensitivity": {
+            "normalized": "sensitive",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "B",
+            "section_title_zh": "敏感个人信息",
+            "section_title_en": "特殊类别数据"
+          }
+        },
+        {
+          "id": "B_03",
+          "slug": "健康信息",
+          "label": "健康信息",
+          "warning": true,
+          "examples": [
+            "病历",
+            "诊断",
+            "治疗记录",
+            "残疾",
+            "病史"
+          ],
+          "aliases": [
+            "病历",
+            "诊断",
+            "治疗记录",
+            "残疾",
+            "病史"
+          ],
+          "sensitivity": {
+            "normalized": "sensitive",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "B",
+            "section_title_zh": "敏感个人信息",
+            "section_title_en": "特殊类别数据"
+          }
+        },
+        {
+          "id": "B_04",
+          "slug": "种族或民族出身",
+          "label": "种族或民族出身",
+          "warning": true,
+          "examples": [
+            "种族",
+            "民族"
+          ],
+          "aliases": [
+            "种族",
+            "民族"
+          ],
+          "sensitivity": {
+            "normalized": "sensitive",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "B",
+            "section_title_zh": "敏感个人信息",
+            "section_title_en": "特殊类别数据"
+          }
+        },
+        {
+          "id": "B_05",
+          "slug": "宗教信仰",
+          "label": "宗教信仰",
+          "warning": true,
+          "examples": [
+            "宗教或哲学信仰"
+          ],
+          "aliases": [
+            "宗教或哲学信仰"
+          ],
+          "sensitivity": {
+            "normalized": "sensitive",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "B",
+            "section_title_zh": "敏感个人信息",
+            "section_title_en": "特殊类别数据"
+          }
+        },
+        {
+          "id": "B_06",
+          "slug": "政治观点",
+          "label": "政治观点",
+          "warning": true,
+          "examples": [
+            "政治立场"
+          ],
+          "aliases": [
+            "政治立场"
+          ],
+          "sensitivity": {
+            "normalized": "sensitive",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "B",
+            "section_title_zh": "敏感个人信息",
+            "section_title_en": "特殊类别数据"
+          }
+        },
+        {
+          "id": "B_07",
+          "slug": "工会成员身份",
+          "label": "工会成员身份",
+          "warning": true,
+          "examples": [
+            "是否加入工会"
+          ],
+          "aliases": [
+            "是否加入工会"
+          ],
+          "sensitivity": {
+            "normalized": "sensitive",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "B",
+            "section_title_zh": "敏感个人信息",
+            "section_title_en": "特殊类别数据"
+          }
+        },
+        {
+          "id": "B_08",
+          "slug": "性取向或性生活",
+          "label": "性取向或性生活",
+          "warning": true,
+          "examples": [
+            "性取向",
+            "性生活信息"
+          ],
+          "aliases": [
+            "性取向",
+            "性生活信息"
+          ],
+          "sensitivity": {
+            "normalized": "sensitive",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "B",
+            "section_title_zh": "敏感个人信息",
+            "section_title_en": "特殊类别数据"
+          }
+        },
+        {
+          "id": "B_09",
+          "slug": "金融账户信息",
+          "label": "金融账户信息",
+          "warning": true,
+          "examples": [
+            "银行账号",
+            "信用卡号",
+            "征信信息"
+          ],
+          "aliases": [
+            "银行账号",
+            "信用卡号",
+            "征信信息"
+          ],
+          "sensitivity": {
+            "normalized": "sensitive",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "B",
+            "section_title_zh": "敏感个人信息",
+            "section_title_en": "特殊类别数据"
+          }
+        },
+        {
+          "id": "B_10",
+          "slug": "精确地理位置",
+          "label": "精确地理位置",
+          "warning": true,
+          "examples": [
+            "半径≤1850英尺的地理位置"
+          ],
+          "aliases": [
+            "半径≤1850英尺的地理位置"
+          ],
+          "sensitivity": {
+            "normalized": "sensitive",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "B",
+            "section_title_zh": "敏感个人信息",
+            "section_title_en": "特殊类别数据"
+          }
+        },
+        {
+          "id": "B_11",
+          "slug": "行踪轨迹",
+          "label": "行踪轨迹",
+          "warning": true,
+          "examples": [
+            "实时位置",
+            "出行记录"
+          ],
+          "aliases": [
+            "实时位置",
+            "出行记录"
+          ],
+          "sensitivity": {
+            "normalized": "sensitive",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "B",
+            "section_title_zh": "敏感个人信息",
+            "section_title_en": "特殊类别数据"
+          }
+        },
+        {
+          "id": "B_12",
+          "slug": "不满xx周岁未成年人信息",
+          "label": "不满XX周岁未成年人信息",
+          "warning": true,
+          "examples": [
+            "儿童个人信息"
+          ],
+          "aliases": [
+            "儿童个人信息"
+          ],
+          "sensitivity": {
+            "normalized": "sensitive",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "B",
+            "section_title_zh": "敏感个人信息",
+            "section_title_en": "特殊类别数据"
+          }
+        },
+        {
+          "id": "B_13",
+          "slug": "私人通信内容",
+          "label": "私人通信内容",
+          "warning": true,
+          "examples": [
+            "邮件",
+            "短信",
+            "即时通讯内容"
+          ],
+          "aliases": [
+            "邮件",
+            "短信",
+            "即时通讯内容"
+          ],
+          "sensitivity": {
+            "normalized": "sensitive",
+            "conditional_sensitive": true
+          },
+          "source": {
+            "section_id": "B",
+            "section_title_zh": "敏感个人信息",
+            "section_title_en": "特殊类别数据"
+          }
+        },
+        {
+          "id": "B_14",
+          "slug": "特定身份",
+          "label": "特定身份",
+          "warning": true,
+          "examples": [
+            "法律未穷尽定义"
+          ],
+          "aliases": [
+            "法律未穷尽定义"
+          ],
+          "sensitivity": {
+            "normalized": "sensitive",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "B",
+            "section_title_zh": "敏感个人信息",
+            "section_title_en": "特殊类别数据"
+          }
+        }
+      ]
+    },
+    {
+      "id": "digital_activity",
+      "section_id": "C",
+      "display_name": {
+        "zh": "数字活动信息",
+        "en": "Digital Activity"
+      },
+      "sensitive": false,
+      "items": [
+        {
+          "id": "C_01",
+          "slug": "浏览历史",
+          "label": "浏览历史",
+          "warning": false,
+          "examples": [
+            "访问的网站、网页浏览记录"
+          ],
+          "aliases": [
+            "访问的网站、网页浏览记录"
+          ],
+          "sensitivity": {
+            "normalized": "general",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "C",
+            "section_title_zh": "数字活动信息",
+            "section_title_en": "Digital Activity"
+          }
+        },
+        {
+          "id": "C_02",
+          "slug": "搜索历史",
+          "label": "搜索历史",
+          "warning": false,
+          "examples": [
+            "搜索引擎查询记录"
+          ],
+          "aliases": [
+            "搜索引擎查询记录"
+          ],
+          "sensitivity": {
+            "normalized": "general",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "C",
+            "section_title_zh": "数字活动信息",
+            "section_title_en": "Digital Activity"
+          }
+        },
+        {
+          "id": "C_03",
+          "slug": "交互信息",
+          "label": "交互信息",
+          "warning": false,
+          "examples": [
+            "与网站、应用、广告的点击、停留"
+          ],
+          "aliases": [
+            "与网站、应用、广告的点击、停留"
+          ],
+          "sensitivity": {
+            "normalized": "general",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "C",
+            "section_title_zh": "数字活动信息",
+            "section_title_en": "Digital Activity"
+          }
+        },
+        {
+          "id": "C_04",
+          "slug": "设备信息",
+          "label": "设备信息",
+          "warning": false,
+          "examples": [
+            "设备类型",
+            "操作系统",
+            "MAC地址"
+          ],
+          "aliases": [
+            "设备类型",
+            "操作系统",
+            "MAC地址"
+          ],
+          "sensitivity": {
+            "normalized": "general",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "C",
+            "section_title_zh": "数字活动信息",
+            "section_title_en": "Digital Activity"
+          }
+        }
+      ]
+    },
+    {
+      "id": "commercial_professional",
+      "section_id": "D",
+      "display_name": {
+        "zh": "商业与职业信息",
+        "en": "Commercial & Professional"
+      },
+      "sensitive": false,
+      "items": [
+        {
+          "id": "D_01",
+          "slug": "购买记录",
+          "label": "购买记录",
+          "warning": false,
+          "examples": [
+            "购买或考虑购买的产品或服务"
+          ],
+          "aliases": [
+            "购买或考虑购买的产品或服务"
+          ],
+          "sensitivity": {
+            "normalized": "general",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "D",
+            "section_title_zh": "商业与职业信息",
+            "section_title_en": "Commercial & Professional"
+          }
+        },
+        {
+          "id": "D_02",
+          "slug": "消费历史或倾向",
+          "label": "消费历史或倾向",
+          "warning": false,
+          "examples": [
+            "消费习惯",
+            "购物偏好"
+          ],
+          "aliases": [
+            "消费习惯",
+            "购物偏好"
+          ],
+          "sensitivity": {
+            "normalized": "general",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "D",
+            "section_title_zh": "商业与职业信息",
+            "section_title_en": "Commercial & Professional"
+          }
+        },
+        {
+          "id": "D_03",
+          "slug": "个人财产记录",
+          "label": "个人财产记录",
+          "warning": false,
+          "examples": [
+            "房产",
+            "车辆",
+            "贵重物品"
+          ],
+          "aliases": [
+            "房产",
+            "车辆",
+            "贵重物品"
+          ],
+          "sensitivity": {
+            "normalized": "general",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "D",
+            "section_title_zh": "商业与职业信息",
+            "section_title_en": "Commercial & Professional"
+          }
+        },
+        {
+          "id": "D_04",
+          "slug": "教育信息",
+          "label": "教育信息",
+          "warning": false,
+          "examples": [
+            "学历",
+            "成绩单",
+            "学生记录（FERPA定义）"
+          ],
+          "aliases": [
+            "学历",
+            "成绩单",
+            "学生记录（FERPA定义）"
+          ],
+          "sensitivity": {
+            "normalized": "general",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "D",
+            "section_title_zh": "商业与职业信息",
+            "section_title_en": "Commercial & Professional"
+          }
+        },
+        {
+          "id": "D_05",
+          "slug": "职业信息",
+          "label": "职业信息",
+          "warning": false,
+          "examples": [
+            "工作单位",
+            "职位",
+            "工作经历"
+          ],
+          "aliases": [
+            "工作单位",
+            "职位",
+            "工作经历"
+          ],
+          "sensitivity": {
+            "normalized": "general",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "D",
+            "section_title_zh": "商业与职业信息",
+            "section_title_en": "Commercial & Professional"
+          }
+        },
+        {
+          "id": "D_06",
+          "slug": "专业资质",
+          "label": "专业资质",
+          "warning": false,
+          "examples": [
+            "专业资格",
+            "执照",
+            "证书"
+          ],
+          "aliases": [
+            "专业资格",
+            "执照",
+            "证书"
+          ],
+          "sensitivity": {
+            "normalized": "general",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "D",
+            "section_title_zh": "商业与职业信息",
+            "section_title_en": "Commercial & Professional"
+          }
+        }
+      ]
+    },
+    {
+      "id": "physical_sensory",
+      "section_id": "E",
+      "display_name": {
+        "zh": "生理与感官信息",
+        "en": "Physical & Sensory"
+      },
+      "sensitive": false,
+      "items": [
+        {
+          "id": "E_01",
+          "slug": "身体特征",
+          "label": "身体特征",
+          "warning": false,
+          "examples": [
+            "身高",
+            "体重",
+            "血型"
+          ],
+          "aliases": [
+            "身高",
+            "体重",
+            "血型"
+          ],
+          "sensitivity": {
+            "normalized": "general",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "E",
+            "section_title_zh": "生理与感官信息",
+            "section_title_en": "Physical & Sensory"
+          }
+        },
+        {
+          "id": "E_02",
+          "slug": "感官信息",
+          "label": "感官信息",
+          "warning": false,
+          "examples": [
+            "照片",
+            "录音",
+            "录像",
+            "热成像"
+          ],
+          "aliases": [
+            "照片",
+            "录音",
+            "录像",
+            "热成像"
+          ],
+          "sensitivity": {
+            "normalized": "general",
+            "conditional_sensitive": true
+          },
+          "source": {
+            "section_id": "E",
+            "section_title_zh": "生理与感官信息",
+            "section_title_en": "Physical & Sensory"
+          }
+        }
+      ]
+    },
+    {
+      "id": "profiling_inferences",
+      "section_id": "F",
+      "display_name": {
+        "zh": "画像与推论",
+        "en": "Profiling & Inferences"
+      },
+      "sensitive": false,
+      "items": [
+        {
+          "id": "F_01",
+          "slug": "用户画像",
+          "label": "用户画像",
+          "warning": false,
+          "examples": [
+            "偏好",
+            "特征",
+            "心理趋势",
+            "行为",
+            "态度"
+          ],
+          "aliases": [
+            "偏好",
+            "特征",
+            "心理趋势",
+            "行为",
+            "态度"
+          ],
+          "sensitivity": {
+            "normalized": "general",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "F",
+            "section_title_zh": "画像与推论",
+            "section_title_en": "Profiling & Inferences"
+          }
+        },
+        {
+          "id": "F_02",
+          "slug": "行为预测",
+          "label": "行为预测",
+          "warning": false,
+          "examples": [
+            "工作表现",
+            "经济状况",
+            "健康趋势等"
+          ],
+          "aliases": [
+            "工作表现",
+            "经济状况",
+            "健康趋势等"
+          ],
+          "sensitivity": {
+            "normalized": "general",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "F",
+            "section_title_zh": "画像与推论",
+            "section_title_en": "Profiling & Inferences"
+          }
+        }
+      ]
+    },
+    {
+      "id": "household_information",
+      "section_id": "G",
+      "display_name": {
+        "zh": "家庭信息",
+        "en": "Household Information"
+      },
+      "sensitive": false,
+      "items": [
+        {
+          "id": "G_01",
+          "slug": "家庭成员信息",
+          "label": "家庭成员信息",
+          "warning": false,
+          "examples": [
+            "婚姻状况",
+            "子女信息",
+            "同住人员"
+          ],
+          "aliases": [
+            "婚姻状况",
+            "子女信息",
+            "同住人员"
+          ],
+          "sensitivity": {
+            "normalized": "general",
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "G",
+            "section_title_zh": "家庭信息",
+            "section_title_en": "Household Information"
+          }
+        }
+      ]
+    },
+    {
+      "id": "special_processing_states",
+      "section_id": "H",
+      "display_name": {
+        "zh": "特殊处理状态",
+        "en": "Special Processing States"
+      },
+      "sensitive": false,
+      "items": [
+        {
+          "id": "H_01",
+          "slug": "假名化数据",
+          "label": "假名化数据（Pseudonymized）",
+          "warning": false,
+          "examples": [
+            "需额外信息才能识别"
+          ],
+          "aliases": [
+            "假名化数据",
+            "需额外信息才能识别"
+          ],
+          "sensitivity": {
+            "normalized": null,
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "H",
+            "section_title_zh": "特殊处理状态",
+            "section_title_en": "Special Processing States"
+          }
+        },
+        {
+          "id": "H_02",
+          "slug": "去标识化数据",
+          "label": "去标识化数据（Deidentified）",
+          "warning": false,
+          "examples": [
+            "不能直接识别但可能重新识别"
+          ],
+          "aliases": [
+            "去标识化数据",
+            "不能直接识别但可能重新识别"
+          ],
+          "sensitivity": {
+            "normalized": null,
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "H",
+            "section_title_zh": "特殊处理状态",
+            "section_title_en": "Special Processing States"
+          }
+        },
+        {
+          "id": "H_03",
+          "slug": "匿名化信息",
+          "label": "匿名化信息（Anonymized）",
+          "warning": false,
+          "examples": [
+            "无法识别且不能复原"
+          ],
+          "aliases": [
+            "匿名化信息",
+            "无法识别且不能复原"
+          ],
+          "sensitivity": {
+            "normalized": null,
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "H",
+            "section_title_zh": "特殊处理状态",
+            "section_title_en": "Special Processing States"
+          }
+        },
+        {
+          "id": "H_04",
+          "slug": "聚合消费者信息",
+          "label": "聚合消费者信息",
+          "warning": false,
+          "examples": [
+            "群体统计",
+            "个体已移除"
+          ],
+          "aliases": [
+            "群体统计",
+            "个体已移除"
+          ],
+          "sensitivity": {
+            "normalized": null,
+            "conditional_sensitive": false
+          },
+          "source": {
+            "section_id": "H",
+            "section_title_zh": "特殊处理状态",
+            "section_title_en": "Special Processing States"
+          }
+        }
+      ]
+    }
+  ],
+  "index": {
+    "by_item_id": {
+      "A_01": {
+        "category_id": "identifiers",
+        "category_section_id": "A",
+        "label": "姓名",
+        "slug": "姓名"
+      },
+      "A_02": {
+        "category_id": "identifiers",
+        "category_section_id": "A",
+        "label": "身份证件号码",
+        "slug": "身份证件号码"
+      },
+      "A_03": {
+        "category_id": "identifiers",
+        "category_section_id": "A",
+        "label": "联系方式",
+        "slug": "联系方式"
+      },
+      "A_04": {
+        "category_id": "identifiers",
+        "category_section_id": "A",
+        "label": "在线标识符",
+        "slug": "在线标识符"
+      },
+      "A_05": {
+        "category_id": "identifiers",
+        "category_section_id": "A",
+        "label": "账户身份信息",
+        "slug": "账户身份信息"
+      },
+      "A_06": {
+        "category_id": "identifiers",
+        "category_section_id": "A",
+        "label": "账户凭证",
+        "slug": "账户凭证"
+      },
+      "B_01": {
+        "category_id": "sensitive_personal_information",
+        "category_section_id": "B",
+        "label": "生物识别信息",
+        "slug": "生物识别信息"
+      },
+      "B_02": {
+        "category_id": "sensitive_personal_information",
+        "category_section_id": "B",
+        "label": "基因数据",
+        "slug": "基因数据"
+      },
+      "B_03": {
+        "category_id": "sensitive_personal_information",
+        "category_section_id": "B",
+        "label": "健康信息",
+        "slug": "健康信息"
+      },
+      "B_04": {
+        "category_id": "sensitive_personal_information",
+        "category_section_id": "B",
+        "label": "种族或民族出身",
+        "slug": "种族或民族出身"
+      },
+      "B_05": {
+        "category_id": "sensitive_personal_information",
+        "category_section_id": "B",
+        "label": "宗教信仰",
+        "slug": "宗教信仰"
+      },
+      "B_06": {
+        "category_id": "sensitive_personal_information",
+        "category_section_id": "B",
+        "label": "政治观点",
+        "slug": "政治观点"
+      },
+      "B_07": {
+        "category_id": "sensitive_personal_information",
+        "category_section_id": "B",
+        "label": "工会成员身份",
+        "slug": "工会成员身份"
+      },
+      "B_08": {
+        "category_id": "sensitive_personal_information",
+        "category_section_id": "B",
+        "label": "性取向或性生活",
+        "slug": "性取向或性生活"
+      },
+      "B_09": {
+        "category_id": "sensitive_personal_information",
+        "category_section_id": "B",
+        "label": "金融账户信息",
+        "slug": "金融账户信息"
+      },
+      "B_10": {
+        "category_id": "sensitive_personal_information",
+        "category_section_id": "B",
+        "label": "精确地理位置",
+        "slug": "精确地理位置"
+      },
+      "B_11": {
+        "category_id": "sensitive_personal_information",
+        "category_section_id": "B",
+        "label": "行踪轨迹",
+        "slug": "行踪轨迹"
+      },
+      "B_12": {
+        "category_id": "sensitive_personal_information",
+        "category_section_id": "B",
+        "label": "不满XX周岁未成年人信息",
+        "slug": "不满xx周岁未成年人信息"
+      },
+      "B_13": {
+        "category_id": "sensitive_personal_information",
+        "category_section_id": "B",
+        "label": "私人通信内容",
+        "slug": "私人通信内容"
+      },
+      "B_14": {
+        "category_id": "sensitive_personal_information",
+        "category_section_id": "B",
+        "label": "特定身份",
+        "slug": "特定身份"
+      },
+      "C_01": {
+        "category_id": "digital_activity",
+        "category_section_id": "C",
+        "label": "浏览历史",
+        "slug": "浏览历史"
+      },
+      "C_02": {
+        "category_id": "digital_activity",
+        "category_section_id": "C",
+        "label": "搜索历史",
+        "slug": "搜索历史"
+      },
+      "C_03": {
+        "category_id": "digital_activity",
+        "category_section_id": "C",
+        "label": "交互信息",
+        "slug": "交互信息"
+      },
+      "C_04": {
+        "category_id": "digital_activity",
+        "category_section_id": "C",
+        "label": "设备信息",
+        "slug": "设备信息"
+      },
+      "D_01": {
+        "category_id": "commercial_professional",
+        "category_section_id": "D",
+        "label": "购买记录",
+        "slug": "购买记录"
+      },
+      "D_02": {
+        "category_id": "commercial_professional",
+        "category_section_id": "D",
+        "label": "消费历史或倾向",
+        "slug": "消费历史或倾向"
+      },
+      "D_03": {
+        "category_id": "commercial_professional",
+        "category_section_id": "D",
+        "label": "个人财产记录",
+        "slug": "个人财产记录"
+      },
+      "D_04": {
+        "category_id": "commercial_professional",
+        "category_section_id": "D",
+        "label": "教育信息",
+        "slug": "教育信息"
+      },
+      "D_05": {
+        "category_id": "commercial_professional",
+        "category_section_id": "D",
+        "label": "职业信息",
+        "slug": "职业信息"
+      },
+      "D_06": {
+        "category_id": "commercial_professional",
+        "category_section_id": "D",
+        "label": "专业资质",
+        "slug": "专业资质"
+      },
+      "E_01": {
+        "category_id": "physical_sensory",
+        "category_section_id": "E",
+        "label": "身体特征",
+        "slug": "身体特征"
+      },
+      "E_02": {
+        "category_id": "physical_sensory",
+        "category_section_id": "E",
+        "label": "感官信息",
+        "slug": "感官信息"
+      },
+      "F_01": {
+        "category_id": "profiling_inferences",
+        "category_section_id": "F",
+        "label": "用户画像",
+        "slug": "用户画像"
+      },
+      "F_02": {
+        "category_id": "profiling_inferences",
+        "category_section_id": "F",
+        "label": "行为预测",
+        "slug": "行为预测"
+      },
+      "G_01": {
+        "category_id": "household_information",
+        "category_section_id": "G",
+        "label": "家庭成员信息",
+        "slug": "家庭成员信息"
+      },
+      "H_01": {
+        "category_id": "special_processing_states",
+        "category_section_id": "H",
+        "label": "假名化数据（Pseudonymized）",
+        "slug": "假名化数据"
+      },
+      "H_02": {
+        "category_id": "special_processing_states",
+        "category_section_id": "H",
+        "label": "去标识化数据（Deidentified）",
+        "slug": "去标识化数据"
+      },
+      "H_03": {
+        "category_id": "special_processing_states",
+        "category_section_id": "H",
+        "label": "匿名化信息（Anonymized）",
+        "slug": "匿名化信息"
+      },
+      "H_04": {
+        "category_id": "special_processing_states",
+        "category_section_id": "H",
+        "label": "聚合消费者信息",
+        "slug": "聚合消费者信息"
+      }
+    },
+    "by_alias": {
+      "真实姓名": [
+        "A_01"
+      ],
+      "别名": [
+        "A_01"
+      ],
+      "用户名": [
+        "A_01"
+      ],
+      "身份证号": [
+        "A_02"
+      ],
+      "社保号": [
+        "A_02"
+      ],
+      "护照号": [
+        "A_02"
+      ],
+      "驾照号": [
+        "A_02"
+      ],
+      "邮政地址": [
+        "A_03"
+      ],
+      "电子邮箱": [
+        "A_03"
+      ],
+      "电话号码": [
+        "A_03"
+      ],
+      "IP地址": [
+        "A_04"
+      ],
+      "Cookie ID": [
+        "A_04"
+      ],
+      "设备ID": [
+        "A_04"
+      ],
+      "移动广告ID": [
+        "A_04"
+      ],
+      "RFID标签": [
+        "A_04"
+      ],
+      "账户名": [
+        "A_05"
+      ],
+      "用户名（不含密码）": [
+        "A_05"
+      ],
+      "登录账号 + 安全码/密码/访问凭证的组合": [
+        "A_06"
+      ],
+      "指纹": [
+        "B_01"
+      ],
+      "面部识别": [
+        "B_01"
+      ],
+      "虹膜": [
+        "B_01"
+      ],
+      "声纹": [
+        "B_01"
+      ],
+      "DNA（用于识别）": [
+        "B_01"
+      ],
+      "DNA": [
+        "B_02"
+      ],
+      "RNA分析结果": [
+        "B_02"
+      ],
+      "遗传特征": [
+        "B_02"
+      ],
+      "病历": [
+        "B_03"
+      ],
+      "诊断": [
+        "B_03"
+      ],
+      "治疗记录": [
+        "B_03"
+      ],
+      "残疾": [
+        "B_03"
+      ],
+      "病史": [
+        "B_03"
+      ],
+      "种族": [
+        "B_04"
+      ],
+      "民族": [
+        "B_04"
+      ],
+      "宗教或哲学信仰": [
+        "B_05"
+      ],
+      "政治立场": [
+        "B_06"
+      ],
+      "是否加入工会": [
+        "B_07"
+      ],
+      "性取向": [
+        "B_08"
+      ],
+      "性生活信息": [
+        "B_08"
+      ],
+      "银行账号": [
+        "B_09"
+      ],
+      "信用卡号": [
+        "B_09"
+      ],
+      "征信信息": [
+        "B_09"
+      ],
+      "半径≤1850英尺的地理位置": [
+        "B_10"
+      ],
+      "实时位置": [
+        "B_11"
+      ],
+      "出行记录": [
+        "B_11"
+      ],
+      "儿童个人信息": [
+        "B_12"
+      ],
+      "邮件": [
+        "B_13"
+      ],
+      "短信": [
+        "B_13"
+      ],
+      "即时通讯内容": [
+        "B_13"
+      ],
+      "法律未穷尽定义": [
+        "B_14"
+      ],
+      "访问的网站、网页浏览记录": [
+        "C_01"
+      ],
+      "搜索引擎查询记录": [
+        "C_02"
+      ],
+      "与网站、应用、广告的点击、停留": [
+        "C_03"
+      ],
+      "设备类型": [
+        "C_04"
+      ],
+      "操作系统": [
+        "C_04"
+      ],
+      "MAC地址": [
+        "C_04"
+      ],
+      "购买或考虑购买的产品或服务": [
+        "D_01"
+      ],
+      "消费习惯": [
+        "D_02"
+      ],
+      "购物偏好": [
+        "D_02"
+      ],
+      "房产": [
+        "D_03"
+      ],
+      "车辆": [
+        "D_03"
+      ],
+      "贵重物品": [
+        "D_03"
+      ],
+      "学历": [
+        "D_04"
+      ],
+      "成绩单": [
+        "D_04"
+      ],
+      "学生记录（FERPA定义）": [
+        "D_04"
+      ],
+      "工作单位": [
+        "D_05"
+      ],
+      "职位": [
+        "D_05"
+      ],
+      "工作经历": [
+        "D_05"
+      ],
+      "专业资格": [
+        "D_06"
+      ],
+      "执照": [
+        "D_06"
+      ],
+      "证书": [
+        "D_06"
+      ],
+      "身高": [
+        "E_01"
+      ],
+      "体重": [
+        "E_01"
+      ],
+      "血型": [
+        "E_01"
+      ],
+      "照片": [
+        "E_02"
+      ],
+      "录音": [
+        "E_02"
+      ],
+      "录像": [
+        "E_02"
+      ],
+      "热成像": [
+        "E_02"
+      ],
+      "偏好": [
+        "F_01"
+      ],
+      "特征": [
+        "F_01"
+      ],
+      "心理趋势": [
+        "F_01"
+      ],
+      "行为": [
+        "F_01"
+      ],
+      "态度": [
+        "F_01"
+      ],
+      "工作表现": [
+        "F_02"
+      ],
+      "经济状况": [
+        "F_02"
+      ],
+      "健康趋势等": [
+        "F_02"
+      ],
+      "婚姻状况": [
+        "G_01"
+      ],
+      "子女信息": [
+        "G_01"
+      ],
+      "同住人员": [
+        "G_01"
+      ],
+      "假名化数据": [
+        "H_01"
+      ],
+      "需额外信息才能识别": [
+        "H_01"
+      ],
+      "去标识化数据": [
+        "H_02"
+      ],
+      "不能直接识别但可能重新识别": [
+        "H_02"
+      ],
+      "匿名化信息": [
+        "H_03"
+      ],
+      "无法识别且不能复原": [
+        "H_03"
+      ],
+      "群体统计": [
+        "H_04"
+      ],
+      "个体已移除": [
+        "H_04"
+      ]
+    }
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "stage": "stage3_dynamic",
+  "app_name": "智联招聘",
+  "app_package": "com.zhaopin.social",
+  "dry_run": false,
+  "generated_at_utc": "2026-05-24T13:23:26.320937+00:00",
+  "candidate_pii": [
+    "imei",
+    "android_id",
+    "location",
+    "ip_address",
+    "mac_address",
+    "phone_number"
+  ],
+  "ui_result": {
+    "runner": "appium",
+    "mode": "real",
+    "timestamp_utc": "2026-05-24T13:23:26.320410+00:00",
+    "steps": [
+      "session_created",
+      "app_activated",
+      "foreground_package=com.zhaopin.social",
+      "navigate_path_1=我 > 设置 > 隐私设置",
+      "tap[我]=miss_try_me_tab_fallback",
+      "tap[我]=miss_try_sidebar_fallback",
+      "sidebar_xml_before:xml_drawer_open=False xml_trigger=False menu=-",
+      "sidebar=timeout",
+      "sidebar_fallback_after_我=failed",
+      "tap[我]=timeout_15s",
+      "nav_path_1_stopped_at=我",
+      "path_2_reset_start",
+      "path_2_reset=terminate_activate",
+      "navigate_path_2=我 > 设置 > 账号与安全",
+      "tap[我]=ok",
+      "tap[设置]=miss_try_me_first",
+      "fallback_tap[我的]=ok",
+      "tap[设置]=miss_try_sidebar_fallback",
+      "sidebar_xml_before:xml_drawer_open=False xml_trigger=True menu=-",
+      "sidebar=timeout",
+      "sidebar_fallback_after_设置=failed",
+      "tap[设置]=miss",
+      "nav_path_2_stopped_at=设置",
+      "screenshot_captured"
+    ],
+    "policy_path_hints": [
+      "（1）当您作为求职者用户和招聘者用户注册智联招聘账号并使用智联招聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您所注册的手机号码有效。当您作为猎头用户进行注册时，您还需要向我们提供您的邮箱并设置密码，以便我们为您注册智联招聘账号。当您作为求职者用户注册智联招聘账号并使用智联卓聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您所注册的手机号码有效。根据我国法律法规及出于安全保障目的，如您不提供手机号码进行核验，将导致注册失败，故无法使用本平台的相关功能",
+      "（2）当您作为求职者用户和招聘者用户进行登录智联招聘App时，您需要向我们提供您注册时的手机号码，并在获取验证码后进行登录。 提示您注意，若您提供的手机号码未在本平台进行注册过，我们将通过快速注册方式直接为您注册智联招聘账号并为您登录。当您作为求职者用户和招聘者用户进行登录智联卓聘App时，您需要向我们提供您注册时的手机号码或邮箱及已设置密码，以验证您的身份。 当您作为猎头用户进行登录时，您需要向我们提供您注册时的邮箱和已设置的密码，我们将通过您的邮箱和密码验证您的身份",
+      "如您通过智联招聘APP使用职Q社区服务，为了向您在职Q社区中推荐可能感兴趣的内容，方便您更便捷、快速地找到所需要的信息，我们可能会收集您的行为操作信息（包括浏览、发布、点赞、评论、关注、分享行为记录）。您可以通过智联招聘APP端\"我的-隐私中心-个性化推荐设置-个性化内容推荐\"关闭该功能。（华为鸿蒙应用不涉及前述个性化内容推荐功能。）",
+      "我们将收集求职者用户在智联招聘平台上的求职动作数据（包括求职者在特定时间段内浏览职位、沟通职位、更新简历情况、登录APP时长、发起聊天次数、被发起聊天及回复次数），并适当进行统计、分析。招聘者可以查看求职者在24小时内的最新求职动作、活跃时间段、求职意愿度以及受欢迎程度信息，以帮助招聘者更深入了解求职者，提升求职者的应聘成功率。求职者用户可以通过\"我的\"-\"隐私中心\"-\"个性化推荐设置\"-\"求职偏好展示\"，关闭上述人才洞察功能。在关闭人才洞察功能后，招聘者将无法查看求职者的相关分析数据，可能会影响求职者的求职效率，但不会影响其他功能的使用",
+      "当您使用微信账号进行支付时，为了对应您的身份，我们会从微信获取您的登录信息（微信号及用户标识信息、手机号码、QQ号码、邮箱）以及使用服务相关的设备、系统网络及操作行为信息，包括支付受理终端信息、唯一设备识别码（能识别设备的标识信息，如设备的MAC、IMEI）、硬件设备型号、终端系统类型、软件安装信息、使用的软件版本信息、软件语言设置信息、IP地址、移动网络信息（如Wi-Fi信息）、设备位置信息、所在的地区、网络日志和网络使用习惯以及您使用财付通服务的操作行为记录。当您使用支付宝账号进行支付时，为了对应您的身份，我们会从支付宝获取买家支付宝账号对应的支付宝唯一用户号（以2088 开头的 纯 16 位数字）、匿名化处理后的手机号",
+      "在智联招聘网页端，您可以通过点击\"我的简历\"、\"面试邀请\"、\"谁看了我\"、\"账号设置\"、\"我的收藏\"、\"我的订单\"、\"求职统计\"对您的简历信息、投递和收藏情况、订单信息、账号信息进行访问或更正，具体以产品实际页面为准。在智联卓聘App端，作为求职者用户您可以通过点击\"我的\"对您的简历信息和个人资料进行访问或更正",
+      "如您是 招聘者用户 ，您在智联招聘网页端通过 \"个人信息 \"-\"员工关系\"-\"离开企业\"功能或智联招聘 APP 端\"我的\"-\"设置\"-\"离开公司\"功能离开企业时，我们将对您个人资料中的姓名、职位、公司邮箱、选择的身份信息进行删除",
+      "请您知悉，为了您能正常使用智联招聘产品与/或服务，您需要向我们提供一些基本的个人信息。如果您希望在智联招聘App、智联卓聘App撤回先前同意开启的相关权限，您可以通过点击\" 我的 \"-\" 隐私中心 \"-\" 隐私管理 \"-\" 个人信息权限设置 \"，查看权限说明进行操作"
+    ],
+    "navigation_paths": [
+      [
+        "我",
+        "设置",
+        "隐私设置"
+      ],
+      [
+        "我",
+        "设置",
+        "账号与安全"
+      ]
+    ],
+    "navigation_path_records": [
+      {
+        "source_hint": "（1）当您作为求职者用户和招聘者用户注册智联招聘账号并使用智联招聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您所注册的手机号码有效。当您作为猎头用户进行注册时，您还需要向我们提供您的邮箱并设置密码，以便我们为您注册智联招聘账号。当您作为求职者用户注册智联招聘账号并使用智联卓聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您",
+        "original_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 1,
+        "matched_hint": "（1）当您作为求职者用户和招聘者用户注册智联招聘账号并使用智联招聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您所注册的手机号码有效。当您作为猎头用户进行注册时，您还需要向我们提供您的邮箱并设置密码，以便我们为您注册智联招聘账号。当您作为求职者用户注册智联招聘账号并使用智联卓聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您",
+        "expanded_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ]
+      },
+      {
+        "source_hint": "（1）当您作为求职者用户和招聘者用户注册智联招聘账号并使用智联招聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您所注册的手机号码有效。当您作为猎头用户进行注册时，您还需要向我们提供您的邮箱并设置密码，以便我们为您注册智联招聘账号。当您作为求职者用户注册智联招聘账号并使用智联卓聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您",
+        "original_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 2,
+        "matched_hint": "（1）当您作为求职者用户和招聘者用户注册智联招聘账号并使用智联招聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您所注册的手机号码有效。当您作为猎头用户进行注册时，您还需要向我们提供您的邮箱并设置密码，以便我们为您注册智联招聘账号。当您作为求职者用户注册智联招聘账号并使用智联卓聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您",
+        "expanded_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ]
+      }
+    ],
+    "screenshots": [
+      "output\\stage3_dynamic_real\\智联招聘\\screenshots\\智联招聘_20260524_212236_launch.png",
+      "output\\stage3_dynamic_real\\智联招聘\\screenshots\\智联招聘_20260524_212254_path1.png",
+      "output\\stage3_dynamic_real\\智联招聘\\screenshots\\智联招聘_20260524_212309_path2.png",
+      "output\\stage3_dynamic_real\\智联招聘\\screenshots\\智联招聘_20260524_212325_path2.png"
+    ],
+    "keyword_checks": [
+      {
+        "path_index": 1,
+        "step_token": "我",
+        "matched": false,
+        "checks": {
+          "我": false,
+          "我的": false,
+          "个人": false,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": false
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": true,
+          "我的": true,
+          "个人": false,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": true,
+          "设置": false
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "设置",
+        "matched": true,
+        "checks": {
+          "设置": false,
+          "我的": true,
+          "隐私": true,
+          "我": true
+        }
+      }
+    ],
+    "error": ""
+  },
+  "frida_result": {
+    "runner": "frida",
+    "mode": "real",
+    "launch_mode": "attach",
+    "package": "com.zhaopin.social",
+    "registered_hooks": {
+      "imei": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js"
+      ],
+      "android_id": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js"
+      ],
+      "location": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js"
+      ],
+      "ip_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "mac_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "phone_number": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js"
+      ]
+    },
+    "events": [],
+    "error": "Frida attach failed: no process found for package='com.zhaopin.social' app_name='智联招聘'; open Keep and keep it in foreground before stage3. Keep com.zhaopin.social in foreground and retry.",
+    "sync_mode": true,
+    "capture_started_at_utc": "2026-05-24T13:22:29.111689+00:00",
+    "runtime_event_count": 0
+  },
+  "path_suggestions": [
+    "（1）当您作为求职者用户和招聘者用户注册智联招聘账号并使用智联招聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您所注册的手机号码有效。当您作为猎头用户进行注册时，您还需要向我们提供您的邮箱并设置密码，以便我们为您注册智联招聘账号。当您作为求职者用户注册智联招聘账号并使用智联卓聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您所注册的手机号码有效。根据我国法律法规及出于安全保障目的，如您不提供手机号码进行核验，将导致注册失败，故无法使用本平台的相关功能。",
+    "（2）当您作为求职者用户和招聘者用户进行登录智联招聘App时，您需要向我们提供您注册时的手机号码，并在获取验证码后进行登录。 提示您注意，若您提供的手机号码未在本平台进行注册过，我们将通过快速注册方式直接为您注册智联招聘账号并为您登录。当您作为求职者用户和招聘者用户进行登录智联卓聘App时，您需要向我们提供您注册时的手机号码或邮箱及已设置密码，以验证您的身份。 当您作为猎头用户进行登录时，您需要向我们提供您注册时的邮箱和已设置的密码，我们将通过您的邮箱和密码验证您的身份。",
+    "如您通过智联招聘APP使用职Q社区服务，为了向您在职Q社区中推荐可能感兴趣的内容，方便您更便捷、快速地找到所需要的信息，我们可能会收集您的行为操作信息（包括浏览、发布、点赞、评论、关注、分享行为记录）。您可以通过智联招聘APP端\"我的-隐私中心-个性化推荐设置-个性化内容推荐\"关闭该功能。（华为鸿蒙应用不涉及前述个性化内容推荐功能。）",
+    "我们将收集求职者用户在智联招聘平台上的求职动作数据（包括求职者在特定时间段内浏览职位、沟通职位、更新简历情况、登录APP时长、发起聊天次数、被发起聊天及回复次数），并适当进行统计、分析。招聘者可以查看求职者在24小时内的最新求职动作、活跃时间段、求职意愿度以及受欢迎程度信息，以帮助招聘者更深入了解求职者，提升求职者的应聘成功率。求职者用户可以通过\"我的\"-\"隐私中心\"-\"个性化推荐设置\"-\"求职偏好展示\"，关闭上述人才洞察功能。在关闭人才洞察功能后，招聘者将无法查看求职者的相关分析数据，可能会影响求职者的求职效率，但不会影响其他功能的使用。",
+    "当您使用微信账号进行支付时，为了对应您的身份，我们会从微信获取您的登录信息（微信号及用户标识信息、手机号码、QQ号码、邮箱）以及使用服务相关的设备、系统网络及操作行为信息，包括支付受理终端信息、唯一设备识别码（能识别设备的标识信息，如设备的MAC、IMEI）、硬件设备型号、终端系统类型、软件安装信息、使用的软件版本信息、软件语言设置信息、IP地址、移动网络信息（如Wi-Fi信息）、设备位置信息、所在的地区、网络日志和网络使用习惯以及您使用财付通服务的操作行为记录。当您使用支付宝账号进行支付时，为了对应您的身份，我们会从支付宝获取买家支付宝账号对应的支付宝唯一用户号（以2088 开头的 纯 16 位数字）、匿名化处理后的手机号。",
+    "在智联招聘App，您可以通过清除缓存的方式删除已有的追踪技术，也可以通过手机本身的设置撤回对该App使用存储权限的授权来拒绝使用追踪技术。",
+    "在智联招聘网页端，您可以通过点击\"我的简历\"、\"面试邀请\"、\"谁看了我\"、\"账号设置\"、\"我的收藏\"、\"我的订单\"、\"求职统计\"对您的简历信息、投递和收藏情况、订单信息、账号信息进行访问或更正，具体以产品实际页面为准。在智联卓聘App端，作为求职者用户您可以通过点击\"我的\"对您的简历信息和个人资料进行访问或更正。",
+    "请您知悉，为了您能正常使用智联招聘产品与/或服务，您需要向我们提供一些基本的个人信息。如果您希望在智联招聘App、智联卓聘App撤回先前同意开启的相关权限，您可以通过点击\" 我的 \"-\" 隐私中心 \"-\" 隐私管理 \"-\" 个人信息权限设置 \"，查看权限说明进行操作。",
+    "UI observed steps: session_created | app_activated | foreground_package=com.zhaopin.social",
+    "Check path for pii_type=imei"
+  ],
+  "explanation": "Collected dynamic evidence for 智联招聘: candidate_pii=6, ui_steps=24, screenshots=4, frida_registered_types=6, frida_events=0. This explanation is descriptive only and does not produce verdict.",
+  "evidence_items": [
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_dynamic_real\\智联招聘\\screenshots\\智联招聘_20260524_212236_launch.png",
+      "timestamp_utc": "2026-05-24T13:23:26.320410+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_dynamic_real\\智联招聘\\screenshots\\智联招聘_20260524_212254_path1.png",
+      "timestamp_utc": "2026-05-24T13:23:26.320410+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_dynamic_real\\智联招聘\\screenshots\\智联招聘_20260524_212309_path2.png",
+      "timestamp_utc": "2026-05-24T13:23:26.320410+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_dynamic_real\\智联招聘\\screenshots\\智联招聘_20260524_212325_path2.png",
+      "timestamp_utc": "2026-05-24T13:23:26.320410+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    }
+  ],
+  "capture_meta": {
+    "sync_mode": true,
+    "frida_grace_sec": 5,
+    "frida_tail_sec": 3,
+    "frida_runtime_events": 0
+  },
+  "summary": {
+    "ui_steps": 24,
+    "screenshots": 4,
+    "keyword_checks": 3,
+    "keyword_match_count": 2,
+    "registered_hook_types": 6,
+    "frida_events": 0,
+    "frida_runtime_events": 0,
+    "candidate_pii_count": 6
+  }
+}
