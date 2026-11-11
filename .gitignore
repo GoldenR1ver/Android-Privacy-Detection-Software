@@ -1,87 +1,198 @@
 # =============================================================================
-# Android Privacy Detection Software — .gitignore
-# Git root: Android-Privacy-Detection-Software/
+# Android Privacy Detection Software - .gitignore
+#
+# Git root : Android-Privacy-Detection-Software/
 # Main code: project/
+#          : project/src/           <- run all CLI commands here
+#
+# 原则：
+#   1. 只提交“手工编写、需要评审”的文件（源码、配置、文档、小型测试 fixture）。
+#   2. 一切可重建的产物（output/、缓存、截图、APK、frida-server）都不进仓库。
+#   3. 真实用户数据（导出的个人信息副本）绝不进仓库。
+#   4. 本文件只用 ASCII 标点，避免 Windows 编码转换导致注释乱码。
 # =============================================================================
 
-# ---- OS / IDE ----
+# -----------------------------------------------------------------------------
+# 0. 本地 / 敏感配置（最高优先级，先写，避免被后面的通配符影响）
+# -----------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+secrets/
+secrets.*
+
+# -----------------------------------------------------------------------------
+# 1. 操作系统 / IDE / 编辑器
+# -----------------------------------------------------------------------------
 .DS_Store
+.DS_Store?
+._*
 Thumbs.db
+ehthumbs.db
 Desktop.ini
-*.swp
-*.swo
-*~
+$RECYCLE.BIN/
+
 .idea/
 .vscode/
 *.code-workspace
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*.swn
+*~
+\#*\#
+.\#*
 
-# ---- Python ----
+# -----------------------------------------------------------------------------
+# 2. Python
+# -----------------------------------------------------------------------------
 __pycache__/
 *.py[cod]
 *$py.class
 *.pyo
 .Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+sdist/
+wheels/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# 测试 / 类型 / lint 缓存
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-.coverage
-htmlcov/
 .tox/
 .nox/
-*.egg-info/
-.eggs/
-dist/
-build/
-pip-wheel-metadata/
+.hypothesis/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
 
-# Local virtual / conda env (project/.conda is a local env prefix)
+# 本地虚拟环境（project/.conda 是本地 conda prefix）
 project/.conda/
 .venv/
 venv/
-env/
 ENV/
+env/
+env.bak/
+venv.bak/
 
-# ---- LaTeX / PPT build artifacts ----
+# -----------------------------------------------------------------------------
+# 3. Frida 运行期生成物
+#    __handlers__/ 由 frida-trace 自动生成（数千个 stub 文件），不要提交
+# -----------------------------------------------------------------------------
+__handlers__/
+project/src/frida_trace_out/
+project/src/frida_probe_out/
+
+# frida-server 二进制：版本必须与本机 frida 一致，本地下载即可
+project/tools/frida/*
+!project/tools/frida/README.md
+
+# -----------------------------------------------------------------------------
+# 4. 大体积二进制 / 安装包（准备在本地，不提交）
+# -----------------------------------------------------------------------------
+*.apk
+*.aab
+*.apks
+*.xapk
+*.dex
+*.odex
+*.vdex
+*.so
+*.dylib
+*.dll
+*.exe
+*.jar
+*.aar
+*.keystore
+*.jks
+*.class
+
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.xz
+*.bz2
+*.iso
+
+# APK 输入目录整体忽略（文件名不一定带 .apk）
+project/src/input/apk/
+project/src/input/apks/
+
+# -----------------------------------------------------------------------------
+# 5. LaTeX / 幻灯片构建中间产物（保留 .tex / .pdf / 图片）
+# -----------------------------------------------------------------------------
 *.aux
 *.bbl
 *.blg
+*.brf
 *.fdb_latexmk
 *.fls
 *.lof
+*.log
 *.lot
 *.nav
 *.out
 *.snm
 *.synctex.gz
+*.synctex(busy)
 *.toc
 *.vrb
+*.xdv
 texput.log
+latexindent.pl.bak
 
-# ---- Large binaries & local toolchains ----
-*.apk
-*.aab
-*.dex
-*.so
-*.jar
-*.keystore
-*.jks
-*.xz
-*.zip
-*.7z
-*.tar.gz
+# beamer / PowerPoint 临时文件
+~$*.ppt
+~$*.pptx
+~$*.doc
+~$*.docx
+~$*.xls
+~$*.xlsx
 
-# frida-server binaries (download locally; version must match PC frida)
-project/tools/frida/frida-server*
-project/tools/frida/*.xz
+# -----------------------------------------------------------------------------
+# 6. 流水线产物（全部可由 CLI 重建）
+#    output/ 下含报告、证据、截图、日志、batch_jobs
+# -----------------------------------------------------------------------------
+project/src/output/
+project/src/privacy_audit/utils/screenGrab/output/*
+!project/src/privacy_audit/utils/screenGrab/output/.gitkeep
 
-# =============================================================================
-# project/utils — only referenced trees belong in git
-#
-# Kept (submodules / hook templates referenced by docs or pipeline):
-#   androguard, exodus, frida, awesome-frida, frida-android-hooks
-#
-# Below: local reference clones — install via pip or clone locally, do not commit.
-# =============================================================================
+# 运行期临时文件（调试抓包、自测输出、脚本生成的 App 列表）
+project/src/mitm_flows.json
+project/src/mitm_test_err.txt
+project/src/input/_*.txt
+
+# -----------------------------------------------------------------------------
+# 7. 敏感 / 本地数据（真实用户数据，绝不提交）
+#    input/user_copy/           原始导出副本（xlsx / doc / pdf / zip）
+#    input/user_copy_normalized/规范化后的扁平 JSON
+#    如需给协作者模板，请只在 input/ 下放 *.example.json
+# -----------------------------------------------------------------------------
+project/src/input/user_copy/
+project/src/input/user_copy_normalized/
+project/src/input/access_copy/*.private.json
+project/src/input/access_runtime/*.private.json
+
+# -----------------------------------------------------------------------------
+# 8. project/utils - 第三方参考仓库
+#    仓库内只保留被主流程引用的精简树；其余为本地参考克隆
+#    （缺失的依赖请 pip install 或自行 clone，不要提交）
+# -----------------------------------------------------------------------------
 project/utils/Android-Security-Frida-Magisk/
 project/utils/frida-tools/
 project/utils/frida-trace/
@@ -92,37 +203,26 @@ project/utils/PrivacyMonitorAndroid/
 project/utils/rekit/
 project/utils/tracker-control-android/
 
-# Nested git repos & build cache inside utils/
+# 嵌套仓库与构建缓存
 project/utils/**/.git/
 project/utils/**/.git
 project/utils/**/.gradle/
+project/utils/**/.cxx/
 project/utils/**/build/
 project/utils/**/local.properties
 project/utils/**/node_modules/
-project/utils/**/.cxx/
 
-# =============================================================================
-# Sensitive / local-only inputs
-# =============================================================================
-project/src/input/apk/
-project/src/input/user_copy/
-project/src/input/user_copy_normalized/
-
-# =============================================================================
-# Pipeline outputs (regenerate via privacy_audit CLI / scripts)
-# =============================================================================
-project/src/output/
-
-# ScreenGrab tool — new captures are local; unit-test fixtures may stay tracked
-project/src/privacy_audit/utils/screenGrab/output/**/screenshot.png
-project/src/privacy_audit/utils/screenGrab/output/**/summary.json
-
-# =============================================================================
-# Misc temp / logs
-# =============================================================================
-*.log
+# -----------------------------------------------------------------------------
+# 9. 其他临时文件
+# -----------------------------------------------------------------------------
 *.tmp
 *.temp
 *.bak
 *.orig
+*.rej
+*.cache
 .cache/
+.Trash-*
+*.pid
+*.seed
+*.stackdump

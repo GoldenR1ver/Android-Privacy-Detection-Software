@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import os
+
 # ── Appium / MuMu emulator settings ──────────────────────────────────────────
 
 # MuMu 模拟器默认 ADB 连接端口
@@ -89,7 +91,9 @@ APK_DIR = None  # 设为 Path 对象可启用，如 Path("data/apk")
 
 # ── DeepSeek API ─────────────────────────────────────────────────────────
 
-DEEPSEEK_API_KEY = "REDACTED_DEEPSEEK_KEY"
+# 从环境变量读取，禁止把真实 key 写进仓库。
+# PowerShell: $env:DEEPSEEK_API_KEY="your-key"
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
 DEEPSEEK_MODEL = "deepseek-chat"
 DEEPSEEK_BASE_URL = "https://api.deepseek.com/chat/completions"
 
