@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "app_name": "韭研公社",
+  "package": "com.jiucaigongshe",
+  "slug": "jiuyangongshe",
+  "aliases": ["韭菜公社"],
+  "notes": "Lab4 样本；mitm 曾观测 aaid.umeng.com、log.tbs.qq.com；probe 建议 include push 子进程。",
+  "preferred_launch_mode": "spawn",
+  "spawn_fallback_attach": true,
+  "include_push_subprocess": true,
+  "candidate_pii": [
+    "imei",
+    "android_id",
+    "location",
+    "ip_address",
+    "mac_address",
+    "phone_number",
+    "contact_list",
+    "clipboard",
+    "sdk_info",
+    "network_transmission"
+  ],
+  "known_sdk_signals": [
+    {
+      "vendor": "友盟 Umeng",
+      "evidence": "mitm host aaid.umeng.com",
+      "hook": "hook_sdk_umeng.js"
+    },
+    {
+      "vendor": "腾讯 X5/TBS",
+      "evidence": "mitm host log.tbs.qq.com",
+      "hook": "hook_sdk_tencent_x5.js"
+    },
+    {
+      "vendor": "极光 JPush / 个推",
+      "evidence": "push 子进程 pushcore；常见国内推送 SDK",
+      "hook": "hook_sdk_push.js"
+    }
+  ],
+  "default_hooks": [
+    "hook_java_bridge_probe.js",
+    "hook_sdk_umeng.js",
+    "hook_sdk_tencent_x5.js",
+    "hook_sdk_push.js"
+  ],
+  "project_hooks": [
+    "hook_android_id.js",
+    "hook_oaid.js",
+    "hook_imei.js",
+    "hook_network_okhttp.js",
+    "hook_phone.js",
+    "hook_location.js",
+    "hook_contacts.js",
+    "hook_clipboard.js",
+    "hook_mac_ip.js"
+  ]
+}

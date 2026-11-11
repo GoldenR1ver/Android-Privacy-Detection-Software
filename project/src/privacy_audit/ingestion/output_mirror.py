@@ -1,4 +1,4 @@
-"""Mirror external artifacts under output/ so provenance paths stay output-relative."""
+﻿"""Mirror external artifacts under output/ so provenance paths stay output-relative."""
 
 from __future__ import annotations
 
@@ -30,7 +30,7 @@ def _copy_tree_files(src_dir: Path, dst_dir: Path, pattern: str) -> list[Path]:
     return copied
 
 
-def mirror_stage3_legacy(app_name: str, legacy_run_dir: Path | None) -> Path | None:
+def mirror_legacy_dynamic(app_name: str, legacy_run_dir: Path | None) -> Path | None:
     """Copy per_app dynamic JSON into output/stage3_legacy/<app>/."""
     if legacy_run_dir is None:
         return None
@@ -42,7 +42,7 @@ def mirror_stage3_legacy(app_name: str, legacy_run_dir: Path | None) -> Path | N
     return dst_dir if copied else None
 
 
-def mirror_stage2_legacy_md(app_name: str, legacy_md_run_dir: Path | None) -> Path | None:
+def mirror_legacy_policy_md(app_name: str, legacy_md_run_dir: Path | None) -> Path | None:
     """Copy legacy markdown reports into output/stage2_legacy_md/<app>/."""
     if legacy_md_run_dir is None:
         return None
@@ -54,7 +54,7 @@ def mirror_stage2_legacy_md(app_name: str, legacy_md_run_dir: Path | None) -> Pa
     return dst_dir if copied else None
 
 
-def mirror_oldsrc_test_cases(legacy_run_dir: Path | None) -> Path | None:
+def mirror_legacy_test_cases(legacy_run_dir: Path | None) -> Path | None:
     """Copy shared Lab3 test_cases.json into output/oldsrc_shared/."""
     if legacy_run_dir is None:
         return None
@@ -63,7 +63,7 @@ def mirror_oldsrc_test_cases(legacy_run_dir: Path | None) -> Path | None:
     return _copy_file(src, dst)
 
 
-def mirror_oldsrc_audit_csv(app_name: str, legacy_run_dir: Path | None) -> Path | None:
+def mirror_legacy_audit_csv(app_name: str, legacy_run_dir: Path | None) -> Path | None:
     """Copy audit_processed.csv into output/stage2_oldsrc_audit/<app>/."""
     if legacy_run_dir is None:
         return None
@@ -95,7 +95,8 @@ def mirror_provenance_artifacts(
     legacy_run_dir: Path | None = None,
     legacy_md_run_dir: Path | None = None,
 ) -> None:
-    mirror_stage3_legacy(app_name, legacy_run_dir)
-    mirror_stage2_legacy_md(app_name, legacy_md_run_dir)
-    mirror_oldsrc_audit_csv(app_name, legacy_run_dir)
-    mirror_oldsrc_test_cases(legacy_run_dir)
+    mirror_legacy_dynamic(app_name, legacy_run_dir)
+    mirror_legacy_policy_md(app_name, legacy_md_run_dir)
+    mirror_legacy_audit_csv(app_name, legacy_run_dir)
+    mirror_legacy_test_cases(legacy_run_dir)
+

@@ -1,0 +1,1093 @@
+{
+  "schema_version": 2,
+  "stage": "stage3_dynamic",
+  "app_name": "智联招聘",
+  "app_package": "com.zhaopin.social",
+  "dry_run": false,
+  "generated_at_utc": "2026-06-11T22:19:56.659299+00:00",
+  "candidate_pii": [
+    "imei",
+    "android_id",
+    "location",
+    "ip_address",
+    "mac_address",
+    "phone_number",
+    "contact_list",
+    "clipboard",
+    "sdk_info",
+    "network_transmission"
+  ],
+  "ui_result": {
+    "runner": "appium",
+    "mode": "real",
+    "timestamp_utc": "2026-06-11T22:19:56.476239+00:00",
+    "steps": [
+      "adb_foreground_before=com.zhaopin.social",
+      "session_created_attempt1=ok",
+      "session_created",
+      "foreground_ok[com.zhaopin.social]=attempt1",
+      "foreground_package=com.zhaopin.social",
+      "navigate_path_1=我 > 设置 > 隐私设置",
+      "me_entry_bottom_tab_detected",
+      "bottom_tab_me[bounds]=ok(700,1869,)",
+      "me_entry_bottom_tab_tapped",
+      "tap[我]=me_entry_avatar",
+      "tap[我]=ok",
+      "tap[设置]=settings_open_sidebar",
+      "sidebar=timeout",
+      "tap[设置]=timeout_40s",
+      "nav_path_1_stopped_at=设置",
+      "path_2_reset_start",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.zhaopin.social",
+      "foreground_ok[com.zhaopin.social]=post_activate1",
+      "path_2_reset=terminate_activate",
+      "navigate_path_2=我 > 设置 > 账号与安全",
+      "me_entry_bottom_tab_detected",
+      "bottom_tab_me[bounds]=ok(700,1869,)",
+      "me_entry_bottom_tab_tapped",
+      "tap[我]=me_entry_avatar",
+      "tap[我]=ok",
+      "tap[设置]=miss_try_settings_gear(path_account_security)",
+      "settings_gear_coord=ok(1020,94)",
+      "tap[设置]=settings_open_sidebar",
+      "sidebar=timeout",
+      "tap[设置]=timeout_40s",
+      "nav_path_2_stopped_at=设置",
+      "screenshot_captured",
+      "function_triggers=start",
+      "grant[ACCESS_FINE_LOCATION]=ok",
+      "grant[ACCESS_COARSE_LOCATION]=ok",
+      "grant[READ_PHONE_STATE]=skip",
+      "grant[READ_CONTACTS]=skip",
+      "trigger_perms_granted=2",
+      "reset_back_presses=3",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.zhaopin.social",
+      "foreground_ok[com.zhaopin.social]=post_activate1",
+      "trigger_tab[消息]=ok",
+      "trigger_tab[我的]=ok",
+      "trigger_swipe_up=ok",
+      "trigger_swipe_up=ok",
+      "trigger_swipe_down=ok",
+      "function_triggers=budget_exhausted",
+      "function_triggers=done"
+    ],
+    "policy_path_hints": [
+      "（1）当您作为求职者用户和招聘者用户注册智联招聘账号并使用智联招聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您所注册的手机号码有效。当您作为猎头用户进行注册时，您还需要向我们提供您的邮箱并设置密码，以便我们为您注册智联招聘账号。当您作为求职者用户注册智联招聘账号并使用智联卓聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您所注册的手机号码有效。根据我国法律法规及出于安全保障目的，如您不提供手机号码进行核验，将导致注册失败，故无法使用本平台的相关功能",
+      "（2）当您作为求职者用户和招聘者用户进行登录智联招聘App时，您需要向我们提供您注册时的手机号码，并在获取验证码后进行登录。 提示您注意，若您提供的手机号码未在本平台进行注册过，我们将通过快速注册方式直接为您注册智联招聘账号并为您登录。当您作为求职者用户和招聘者用户进行登录智联卓聘App时，您需要向我们提供您注册时的手机号码或邮箱及已设置密码，以验证您的身份。 当您作为猎头用户进行登录时，您需要向我们提供您注册时的邮箱和已设置的密码，我们将通过您的邮箱和密码验证您的身份",
+      "如您通过智联招聘APP使用职Q社区服务，为了向您在职Q社区中推荐可能感兴趣的内容，方便您更便捷、快速地找到所需要的信息，我们可能会收集您的行为操作信息（包括浏览、发布、点赞、评论、关注、分享行为记录）。您可以通过智联招聘APP端\"我的-隐私中心-个性化推荐设置-个性化内容推荐\"关闭该功能。（华为鸿蒙应用不涉及前述个性化内容推荐功能。）",
+      "我们将收集求职者用户在智联招聘平台上的求职动作数据（包括求职者在特定时间段内浏览职位、沟通职位、更新简历情况、登录APP时长、发起聊天次数、被发起聊天及回复次数），并适当进行统计、分析。招聘者可以查看求职者在24小时内的最新求职动作、活跃时间段、求职意愿度以及受欢迎程度信息，以帮助招聘者更深入了解求职者，提升求职者的应聘成功率。求职者用户可以通过\"我的\"-\"隐私中心\"-\"个性化推荐设置\"-\"求职偏好展示\"，关闭上述人才洞察功能。在关闭人才洞察功能后，招聘者将无法查看求职者的相关分析数据，可能会影响求职者的求职效率，但不会影响其他功能的使用",
+      "当您使用微信账号进行支付时，为了对应您的身份，我们会从微信获取您的登录信息（微信号及用户标识信息、手机号码、QQ号码、邮箱）以及使用服务相关的设备、系统网络及操作行为信息，包括支付受理终端信息、唯一设备识别码（能识别设备的标识信息，如设备的MAC、IMEI）、硬件设备型号、终端系统类型、软件安装信息、使用的软件版本信息、软件语言设置信息、IP地址、移动网络信息（如Wi-Fi信息）、设备位置信息、所在的地区、网络日志和网络使用习惯以及您使用财付通服务的操作行为记录。当您使用支付宝账号进行支付时，为了对应您的身份，我们会从支付宝获取买家支付宝账号对应的支付宝唯一用户号（以2088 开头的 纯 16 位数字）、匿名化处理后的手机号",
+      "在智联招聘网页端，您可以通过点击\"我的简历\"、\"面试邀请\"、\"谁看了我\"、\"账号设置\"、\"我的收藏\"、\"我的订单\"、\"求职统计\"对您的简历信息、投递和收藏情况、订单信息、账号信息进行访问或更正，具体以产品实际页面为准。在智联卓聘App端，作为求职者用户您可以通过点击\"我的\"对您的简历信息和个人资料进行访问或更正",
+      "如您是 招聘者用户 ，您在智联招聘网页端通过 \"个人信息 \"-\"员工关系\"-\"离开企业\"功能或智联招聘 APP 端\"我的\"-\"设置\"-\"离开公司\"功能离开企业时，我们将对您个人资料中的姓名、职位、公司邮箱、选择的身份信息进行删除",
+      "请您知悉，为了您能正常使用智联招聘产品与/或服务，您需要向我们提供一些基本的个人信息。如果您希望在智联招聘App、智联卓聘App撤回先前同意开启的相关权限，您可以通过点击\" 我的 \"-\" 隐私中心 \"-\" 隐私管理 \"-\" 个人信息权限设置 \"，查看权限说明进行操作"
+    ],
+    "navigation_paths": [
+      [
+        "我",
+        "设置",
+        "隐私设置"
+      ],
+      [
+        "我",
+        "设置",
+        "账号与安全"
+      ]
+    ],
+    "navigation_path_records": [
+      {
+        "source_hint": "（1）当您作为求职者用户和招聘者用户注册智联招聘账号并使用智联招聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您所注册的手机号码有效。当您作为猎头用户进行注册时，您还需要向我们提供您的邮箱并设置密码，以便我们为您注册智联招聘账号。当您作为求职者用户注册智联招聘账号并使用智联卓聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您",
+        "original_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 1,
+        "matched_hint": "（1）当您作为求职者用户和招聘者用户注册智联招聘账号并使用智联招聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您所注册的手机号码有效。当您作为猎头用户进行注册时，您还需要向我们提供您的邮箱并设置密码，以便我们为您注册智联招聘账号。当您作为求职者用户注册智联招聘账号并使用智联卓聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您",
+        "expanded_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ]
+      },
+      {
+        "source_hint": "（1）当您作为求职者用户和招聘者用户注册智联招聘账号并使用智联招聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您所注册的手机号码有效。当您作为猎头用户进行注册时，您还需要向我们提供您的邮箱并设置密码，以便我们为您注册智联招聘账号。当您作为求职者用户注册智联招聘账号并使用智联卓聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您",
+        "original_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 2,
+        "matched_hint": "（1）当您作为求职者用户和招聘者用户注册智联招聘账号并使用智联招聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您所注册的手机号码有效。当您作为猎头用户进行注册时，您还需要向我们提供您的邮箱并设置密码，以便我们为您注册智联招聘账号。当您作为求职者用户注册智联招聘账号并使用智联卓聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您",
+        "expanded_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ]
+      }
+    ],
+    "navigation_bridges": {
+      "不把我推荐给可能认识的人": [
+        "找到我的方式"
+      ],
+      "把我推荐给可能认识的人": [
+        "找到我的方式"
+      ],
+      "用户保护中心": [
+        "设置"
+      ]
+    },
+    "llm_nav_enabled": true,
+    "screenshots": [
+      "output\\stage3_lab42_before\\智联招聘\\screenshots\\智联招聘_20260612_061734_launch.png",
+      "output\\stage3_lab42_before\\智联招聘\\screenshots\\智联招聘_20260612_061738_path1.png",
+      "output\\stage3_lab42_before\\智联招聘\\screenshots\\智联招聘_20260612_061819_path1.png",
+      "output\\stage3_lab42_before\\智联招聘\\screenshots\\智联招聘_20260612_061829_path2.png",
+      "output\\stage3_lab42_before\\智联招聘\\screenshots\\智联招聘_20260612_061910_path2.png",
+      "output\\stage3_lab42_before\\智联招聘\\screenshots\\智联招聘_20260612_061937_trigger_tabs.png"
+    ],
+    "keyword_checks": [
+      {
+        "path_index": 1,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": true,
+          "我的": true,
+          "个人": false,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": true,
+          "设置": false,
+          "profile_page": false,
+          "profile_resource_marker": false
+        }
+      },
+      {
+        "path_index": 1,
+        "step_token": "设置",
+        "matched": false,
+        "checks": {
+          "设置": false,
+          "settings_page": false,
+          "帐号与安全": false,
+          "账号与安全": false,
+          "隐私": true,
+          "关于小荷": false,
+          "关于小荷健康": false,
+          "我的": true
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "我",
+        "matched": false,
+        "checks": {
+          "我": false,
+          "我的": false,
+          "个人": false,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": false,
+          "profile_page": false,
+          "profile_resource_marker": false
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "设置",
+        "matched": true,
+        "checks": {
+          "设置": true,
+          "settings_page": false,
+          "帐号与安全": false,
+          "账号与安全": false,
+          "隐私": true,
+          "关于小荷": false,
+          "关于小荷健康": false,
+          "我的": true
+        }
+      }
+    ],
+    "error": ""
+  },
+  "frida_result": {
+    "runner": "frida",
+    "mode": "dry_run",
+    "launch_mode": "attach",
+    "package": "com.zhaopin.social",
+    "registered_hooks": {
+      "imei": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js"
+      ],
+      "android_id": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js"
+      ],
+      "location": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js"
+      ],
+      "ip_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "mac_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "phone_number": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js"
+      ],
+      "contact_list": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js"
+      ],
+      "clipboard": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js"
+      ],
+      "network_transmission": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js"
+      ]
+    },
+    "global_hooks": [
+      "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js"
+    ],
+    "papi_target_count": 28,
+    "events": [
+      {
+        "timestamp_utc": "2026-06-11T22:19:56.571638+00:00",
+        "pii_type": "imei",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js",
+        "api_name": "hook_imei",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:19:56.571654+00:00",
+        "pii_type": "android_id",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "api_name": "hook_android_id",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:19:56.571657+00:00",
+        "pii_type": "android_id",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js",
+        "api_name": "hook_oaid",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:19:56.571660+00:00",
+        "pii_type": "location",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js",
+        "api_name": "hook_location",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:19:56.571662+00:00",
+        "pii_type": "ip_address",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+        "api_name": "hook_mac_ip",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:19:56.571664+00:00",
+        "pii_type": "mac_address",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+        "api_name": "hook_mac_ip",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:19:56.571665+00:00",
+        "pii_type": "phone_number",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js",
+        "api_name": "hook_phone",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:19:56.571667+00:00",
+        "pii_type": "contact_list",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js",
+        "api_name": "hook_contacts",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:19:56.571669+00:00",
+        "pii_type": "clipboard",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js",
+        "api_name": "hook_clipboard",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:19:56.571671+00:00",
+        "pii_type": "network_transmission",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+        "api_name": "hook_network_okhttp",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:19:56.571673+00:00",
+        "pii_type": "network_transmission",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+        "api_name": "OkHttp.execute",
+        "args_summary": "dry_run_network",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:19:56.571675+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getImei",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:19:56.571678+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getMeid",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:19:56.571680+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getDeviceId",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:19:56.571681+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getDeviceSoftwareVersion",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:19:56.571683+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getSimSerialNumber",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:19:56.571687+00:00",
+        "pii_type": "android_id",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.provider.Settings$Secure.getString",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:19:56.571690+00:00",
+        "pii_type": "android_id",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.provider.Settings$System.getString",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:19:56.571692+00:00",
+        "pii_type": "location",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.location.LocationManager.getLastKnownLocation",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      }
+    ],
+    "error": "frida_disabled",
+    "skipped": true
+  },
+  "mitm_result": {
+    "adapter": "mitm_runner",
+    "started_at_utc": "2026-06-11T22:19:56.551629+00:00",
+    "duration_sec": 149.59,
+    "listen_port": 8080,
+    "flows_source": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\output\\stage3_lab42_before\\智联招聘\\mitm_flows.json",
+    "flows": [
+      {
+        "timestamp_utc": "2026-06-11T22:17:27.696343+00:00",
+        "host": "toblog.ctobsnssdk.com",
+        "path": "/service/2/device_sdk/kite/?req_id=bfb56f81-0540-4c5b-97a0-6271b76caffe&tt_data=a",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "tc\u0003\t\u0000\u0001<Õj ËÐ2ÀÒÒüZÐA%\u0015j-\u000bØ7u»i(¬¼\u0005DîQa\u001c\tV¢¿+ÖâjgÍ¸c[d\u0010=\u0000QNÈf%Ð1`Í@úÄøìQ¤ê¿õ\u0017]F\u0005N\\Úª°R&#´ÔG{f%g,VT{'p\u0002>Z7>¡Ø´wÅß¡\u0013õ¶I ÔzÏÇ\"ÎÜ]¾Uæ´@÷q\u0015aÌ²¿7f\u000bõ¨Öb\u0002*¤¼þ\u001f\u0019²xµG[\u0018w\u001d/¼BLå\u0011\u0001uuÎt\u0006T<Åù!ã\u0010â9ïA LÈ Ì82sz%\u001e)ñ¾\u0013VoYÿ\rZ=ùØPjx~\u000fµå^1¡³]»ÉåS¢²QÚ»Ä\u0012Z\u001eÓs\u001f¥^Iét d® 4jú}+nÌÃÈÖè3þ®ÉÞPNCRU^ÐiW\u0003\bO\u001b«ä·'q¾­ê8w·$E\u0017\t§ó®N%úN* ÷Ñ(ØîÄ\u0004I$+sÑ!!É\u001d0F¨ëJ:Æ5~·A­Fü }.û°8\u000f\u00132BÀõ\u0002{q+¿sÕI'L\rµ\u0003eÇ®\u0005\u0007Ö]ãÀþ\u0011_A9¹1Ó\u0007×?\\HÓd³¨kú\u0000äKn.Ýzñ_\u0007ïâß¼ÊcM>N6v%ô\té *°f\u0010\u0002rÑÎ¦²\u0007\\ÎÁÁ$\u0003ÜÎ++\u0001O6ìâ´OáM;ºj\u001d«Û^rÞ°¥£uº¥\u0014ós\u0018\u0017\u0019Û±Ùp|J°</ÚÀ×¶d¦\u001fGq×@rTg±\u0007x\u0011\n¬½v$± |ßSÄ-ñrÁ¥DØyï]wN½ô%4×¤¨Æ¢ä¬\u0015Ç³ôÿsÁêzTur}·zwÐ+®è¾§¼|)ÄÏrÀÒ³\u0012æK¤ÏÙº\u0016³¦F¤Ô\\qX\rgunw\u001bÆ5¦D?\u001et§t\u000e\u0018Àª\u0016»\u00110P.[¹y¢(Ó5´OÞì\"CTêÖï§>Dÿñ?+¿b8ÐÐÔÁ\u0017Êà}b5a²\b«Ug\u001bä%\u0013\u0016\b,Oô¢929æ!åOÏì\u000fÄÛ*ZÁá`ö½wä4rÐÌ£ÕS\\\tg}·õ®w\n\u001cÖ\"­`Y»êÑBG\u0013Ä¾ôÇ~Y¤~É^Ö79£Åu\u0005sÚÛyÄNJ\u001fÿ\u0002ÝãÈ}lðôGGEåB\u001c¦ñ¾/Ë9\u001b\"³?\u0019\"u\u0013q xÖý$\u0017þ\"Õ'Cé2kBë=ôÄ6´ºZ7_Å\u0000uTQ¾YIÔy ó0Ã,uïÛíeÿü<\u0018\u001dHWòp¢×\f8Qª\u0010.\b\u0011§9ÏÈe²!\u0013\u0006¥\t7æÅU\u0011õ©­zª¿}Vêï,\\]\u0014Á\u0010ïñAï\u0006t~cºõ­®¢Ge«ÏÅéI\u0000Ød\u0015ã×ë\u0003o\t6½Gwó¡ÞJ|ª5Q~FãõbÒ½ú·.¬PV´h<r\u0011nPâ\u0006 ð\u00038 VñúÙ÷\u0017l ü6¨>\f\u001c{e&M\\xtÂp\n³¥Õ%\u0002âÂ~ñWýÕq[ÊbîMF^ Ü\u001c³YÅ\u0007ÚÔ\u0017ÔÊU-ô§\u0004EØT\u0016¢KC\\¸e\rg½v#Ön\r\u0016\u0003Z/¬Û(æãD³r±No9©u+ß\u000eÕ\u001cÊYÅ¼ý1VH ÝÐ\u0001<ÎÿE,yF\u00033*Qòï\u0017E\u0010\b5%\u000b\u0001\u0015â;Y¢§i£Ë<l\u0014ËW9ºË|^ 4È^LDÇ½¿°eÊ³ÔÙA\u0011@)¢¬YþÁmï\"¸iï\t¬Ðø|ð\u001fº!\u0017¶ËVÎ,)ùÜ$¦\u001fûeO]'½î&)¢EÃþð\u001a~\u0010\t\\/Móx¯\u0005vòS\u00019GÕ\u0014Wg$/;È/[j0y¿yÔ\u0005:Ï\nW-ÊHÐSjPÆÛÒ\u0012¿\r$\u0017µKEàf°à&|%¬¦]h%ñ\\@\u001b\u0011q|Ç|GB6\f8µm<zrãþ\u0019k¸C¼¨À¶ÍPÎûËväàB»W\u0013 «wAÚÞ\t\u001bDSgVS(­U±(vÐÊáo\\1Z¼û°/¶±?æÅï`¿\u0016Ìí-þcIò\b]ïN®ý³²Ì\u0002«\u0006zñÍ\u0002:`{ÒÝ\tÛÇzJJKÅýÁ_\u0000\u0003b²T\u0002g\\íäÿm\u000fÀGÓ¦ù*F×\u0013£þ\u0004Ð§¾\u0002\\%\u0016P\u0018dÓÛï©[\r\u0000_±Od\u0011­S\u0014S\"\u0002Ý8{£Ó¢^0à¹±©|ab#Ïz\u0010þÔ-V2\t*·\u0001n3}0¨éK+´Iñ·h\f!æQí%z·pùýíóïÜ\u0017Jiûx\u0012có¯¯ð¸wù°T[ÈÝ/Mp\ndP(9Çï¢\u0010I8ì\u001e­AÄ6·0]êCÁÊRa¨\b\u000b7§Ä¼\u0000å\u0011mý¨MiñR*¹÷ç\u0013\\&e³\r\f\\$ëU¶âÓ>ÿb¯ºk:\u0007üó$h\u0003.ßXÎÊ(ÓHî\u001c·§ì/6K\u0000Á\f\u001b\u0000µ49\u001bsÃ\u0017àân`màSRi\u0011G\u0006<ÿbH)ý\b¥{\u001ei\u0011hëÌå\u0015I\u001f\u0002üz#ª\u0014§dÄ\"/ü!rPçB*¼ÙO\\nN«V\u000f$\u0014ÿVÑl«V\u0013Á\u0007\u0017Å\fÛ_m$x.\t3\n®<[SòªÝeô´±K\u0019áè\u0016¸Úw=ÉÌ\u0015eqkkÊQâ\u0002ñ[j\rá]J0ó\u0019Ú8\u0018Q\u001a\u0014²ç½iþ«WEARºÑb\u001c\u001f¿å \u0001¯cMç\u0013¥zJ\u0010§ù6\u0015ÛÛ«ôÂ=¶÷¾÷¥ôÂÝ³­Í¬á\u0019\u000bê%Î·`Ä\u001c_J6Ñ.\u001c+Hx¿Ý\rMÐJC\u001dÜ|1yK7\u0001üä\u0013p\u0003Åy=\u001aØ`3øÏKtËÞ\u0004´ÖP\u0000\u0018\u001f½:'\t\u0014\u0016!å+\u0004\u0001\"brv:Ï!;þ*¤~RãyW~E©)ëv\n¸¡KÞs w»[«­ÛØJý{\t KiJUô[Gûî ËÐ693ÒÒü ì",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:27.896113+00:00",
+        "host": "abtest-ch.snssdk.com",
+        "path": "/?sdk_version=400&device_platform=android&os=android&ssmix=a&_rticket=1781216246554&cdid=cd1d7d37-7bc0-473a-bf23-3e7e699ad811&channel=csj_channel&aid=678560&app_name=com.bytedance.openaweme&version_code=8341&version_name=8.14.15&manifest_version_code=8341&update_version_code=21140000&resolution=1080*1920&dpi=280&device_type=ALN-AL00&device_brand=HUAWEI&language=zh&os_api=32&os_version=12&ac=wifi&iid=889985432052586&device_id=1558488501224440&_rticket=1781216246555&manifest_version_code=8341&webcast_gps_access=1&ecom_host_appid=1371&openlive_personal_recommend=1&iid=889985432052586&channel=csj_channel&device_type=ALN-AL00&language=zh&resolution=1080*1920&webcast_app_id=678560&update_version_code=21140000&cdid=cd1d7d37-7bc0-473a-bf23-3e7e699ad811&os_api=32&webcast_locale=zh_CN&dpi=280&ac=wifi&os=android&device_id=1558488501224440&os_version=12&version_code=8341&webcast_sdk_version=2114&app_name=com.zhaopin.social.boot.ZPMApplication&tob_live_plugin=211443&version_name=8.14.15&device_brand=HUAWEI&webcast_language=zh&device_platform=android&aid=678560&ecom_page_type=native&ecom_appid=7386&ecom_sdk_version=40500",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 404
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:28.920752+00:00",
+        "host": "pro.bugly.qq.com",
+        "path": "/v1/b0e3e0225a/upload-json",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:29.671721+00:00",
+        "host": "api-access.pangolin-sdk-toutiao1.com",
+        "path": "/api/ad/union/sdk/stats/batch/",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u0004UkWìo3öt hK#t(³¶\u001aq&\u0006þ´<ü¤\u001f|ÝID\u0004[ç'Mõ]ë¡\u001b;ì'\b 4(û©°\u0003,§®Ä³î\u0015\u001d|q\u001fºq`þ\u0013¬Ä¹þåò¤bè½¾X|õN7\u0006<«\u0015\u001dnø*\u000b\u000b·Ù\t\u001d~\t­={f|ÅÚî5¨f_\u0010|FcÒ±\u0003µJ3\u0011iÂî¬\u001c\u0013%¶T\u0012.äì(ÄØ5ì±¯_Îä@¾Á&X\u0003FÜ\u0010_ñ¦>6]ò£\u0006-Â%2S-öÑu§\u0018FkË¡ó\u0003ß|=ÃórÅ?[ö(éUá´½ýÙ¸W \u001d,HÖ¯\u0011_ÍYX\b\u0015çUf­D·Z\nØ_ºµå©\u000e~¬úW\u0016(Y7<K¾+0\u0006\\{Ê¥»Þ\u001bÆýÞ¯äÚÚiîBÍ/P¬¡ëoCuõ^î\u001cjsÚ\u0004¬*ÒBæ\u000bPèáÞ\u001c70ÏÂ*­\tÛ4|5}MÑí­Ãa×PâÒ\u000bà©Å^á\u000e/°¨´uà`¥Ó\u0018;1B{),²f}8\u001dÕ02òÁ'\u0011Þ\u001a90@P±³\u0019)á\u0007Üô]Á0Q8LaT5Ð\u001fn)\u0018&îäd\u0017h°\u001d²¯\u0006kuøû2C(ª×õYóú;\u0016ä\n \u0005\u001cixË÷,\u001cúd\u0010í^¡Â¢ÜÐ20\rH4:'ÒQxÿ4é6%ðÈ»jý¿,\u00191aÿ\u0016®)Õ\u0012g·F¾êÚËr'õ¬òA(ìaAÌðÕ!T»jÓó\u001aáý:ZªE¿\u00102ô?ßÄËZ/xÁ­}ôÂÙ\\X\u0000æ¿Ü\u0014ÌA\u0011\u0015o¬×«üíKVÀãóþd\u0005£8v_m\u001e\u001eówéìþ\u0003O\b®µ´­}`­Ñ\u001bi\u001e`\u0000\u0016ö\u0016nf::Ù;cz\u0017~ú0Î=\u00123K3K(ô.ÇµS!­PÞ\\Nÿ&\\Õ$ô!ÆÕYJ¶R¿\u0011êª>úµÎ¹ÅîåºÆ\u0013÷òÉ\u0003ò2\t2{ÒHìmRò2\u0014\u001a©j©ëMÚ¶hÁóiW¥Â\u00067mg\nV!Õ\u001d×Þ\u001c\ny\u001fÕ\fzJQ¾kÄâÕ\u0017'Õ\tD(¹ç\u0006;þ]Ág?\u001eË\u000e>\rtAÛi½QÖ\u000ft´¢óåÅ\u00193\u0011\u001dwåø\u00178°\u0018ÈÜº¶\u0013÷B9à\u0018·Kkp2àâ±Ö\b»fÅ)\u001f3\u0004µö«tÝÇ²â¸u¨\u0016ïì¡>µ«XÃáWtJ7\biYíè®ÕÈV²\u0007\u0014æÉÜ\u001b«îçØÐphNåÑYf\r´ëÈÞù¯~}x\u0016éÆa¤?ë}·¯ãÓVõÛÑ^hýã \u0001r\bô\u0007¢d¯ó,;Ì@ËM.Irà[G6¨Òw\u001f{\u0013{lÄ¸Z½ìdú\u001ciÈQ×Çi&\\Ñ,¶ûÙ¨ð5mÇrz\f¶È3\b·ñeÒCÐÔ´Ã]ÁSB+ª$ÿ×p--¹zT5Nh\rXñ´ãFàVH\u0015Üµ8 .y&^ï\u0003${|ô(#)ëz¦\u000f\fy\u0012\u0002·Æ!Õìô\u000eaJ²<áfù®ÈZê\r\u0001Îñ!\u001e©*úÞ8»¶\t\u001dþ¤á¬Ã§\ba\u0012\u001d7tÁÄ§·¥x~\u0014\u0013:©'ì¶F.X¿\nì?(-ôb]R\u0015-gËÂe(A§¯Ã;¶ôð\"ê|ëTòÈoûè\u001cJqê½6ªé«ÖqÅ^\u0007\u0012dËk9~põÀ0«é\u000eÈ@hS(Ã\u0003(\n2W}\rX¼\u0007¿¼kÎ\u001a×å8ó¹Jê%",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:29.768293+00:00",
+        "host": "apmplus.volces.com",
+        "path": "/monitor/collect/c/cloudcontrol/get?sdk_version=400&update_version_code=211443&uid=0&os=Android&os_api=32&device_id=1558488501224440&channel=csj_channel&device_platform=android&aid=219989",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:29.855046+00:00",
+        "host": "api-access.pangolin-sdk-toutiao1.com",
+        "path": "/api/ad/union/sdk/stats/batch/",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u0004Ú{¼öWè\u0000¹Ì½Õ¤d['¾-\u0012&û\u0014\u0006þÖÔ=¬\u0002ÐØÈÀ\u001dzê\u0004ÄNb\u0004»S\u0011áuÝ%Ù\u000b3_\"eg\b;\u0014W>ukÃ\u0000ñK(áÂ êød 3¦\b\fR·ÌçI\u00065Eæûü(õÜ¡Ù¸6ÜI¤\u001eÕLÍâãy\u0003\bç¾7ù'«3\"èñ\u001aH&d\u0005´?ÄzTA¾lAÉT²×£çãàén\u0013úÈÕçÝW\n\u0013M_\u0018£zâÖ\u0017»ZíTXqÐÃ\u0014úe\u001c~)\u0000ö°\r\nvN\u0010Æð~¿\u0012dÌ\u0017¬Ö¶\u0013fÔ\u0007øR\u0001r(c1ëG¨\u0000¡¼JÞ,Á¼ÄÄ¡'\u001bð\"éúª^p¯öhBä\u0005¼¿\u001d!^®¹\rQà!¨ ý$s\\5¹ßðÞMO(ÓëÇî «\u0000º§&üíãp\u0017}?iá\u001d×sË\nîm\u0017\u0011û¦\nA¿ä¹\u0019Áfo\t\u0019DÃxLÛgg¸ºàÊh÷ÕI-0Ûq^£1b×0\u001d¶\u001e\u0002Þã)³)AõéìÜ\u001bñõÛÿÕAþ\u0017Q\u0010níÕAråj\u000f-¤æw|°¬$\u000fZB7C\u001cÝ¢°ÂÏzç+ã q«ä×PÞçO3=JÂ¿\u0012Âl(|bo\u0011\u00163ìew4a¯6ó\u0010R&ÿ\u0004&¥©ê°Óì_Tú\u0011PkbB&\bL­Å½!\u0012¢|NÛéJ×Ç\n'À¼ü\u001fØd \u0002¿\u0003«(rÑ¢IZtwÄ!\u0007Ñh\u0007îK\u0012\u0004Á\u0004\u0002\u0002f=\u001cö¹Ï¤ûJÚuÌqÕ´\u001eÔKKY\u0011­\u0003Ì\u0013¢¥n6[\u001b¢yoãõ©\u0011u\u0012{\u001a\u0017âÅJÈ'/lØ4\u001büþ^ò\u000e\u0014ß%åÆx-\u0003tIOx\u0002³AÓ¯ç¼0\\\u0017\nã±Ô9\u0000ò\u0004\u001e1\u000bHOjÚ¬|¹tä\u0019_î­óÍEé\u001aX\u0010QÅèxQ\f PE?\u0019{Nm'°!·z¤ý5s\u000er¿Lã\u0013o¨QÊÊ²\u0005Lää4áåP±\u0016á\u001eþÅ0ý\u0013Þ¿q×¾fEë¼$;é\u0017X«LÕ0ý\u000fO¢~\u0014g\u0006ïK<\u0016ú/iÃªpògL\u000b+¼ð5Ê\u000f½ÏÉåÙÜRÞ@qV\u000e¤»Ö\u00179X]\u0003(\n2S}\rX¼n°skBæ\u000e\u0015ÃÓî\u001d¼.\u0014\u001a¹.ß",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:29.922833+00:00",
+        "host": "ds.zhaopin.cn",
+        "path": "/sa?project=zlclient",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "crc=1432722367&gzip=1&data_list=H4sIAAAAAAAAAO2de2%2FcxrXAv4qwzp%2FazbxIDlXkArqK0riwc4VYbYAbFcQsOSvR3iU3JFcPBwHiFgEu0ryK%2B74pehu0t%2B0%2FSZGLAnUcB%2FfD1Cu73%2BKeGXKllbhrPRLba%2BYoiCxyHpw5c%2Bb8zjw4fPPtVlBkKrwVxFFrxSeCMU6JWG4V8UC3VqgnKaMu49KX5ubBEG62bILWciuK8yJOwsKmbVHmeJ7LITIEqSRNDgbpKC%2FDQiEI1RHToaYOFwxixJFOiriIdd5aebv1QnV5EKgkytI4mpvuOGY%2F3Y6TGc%2BezuvxpXhnuaV3IS6EZfqtkc6LN7TeX0uTXrwNGc17QD%2Fu2jLDv8FAFzupzTyNtHm4DWytlrWobgS7OsvjNIEAtyM7okNMgBoOpwJkh4oOdSYpIl2ouG%2FzHXRyneRplkeqUB2VqP5BEYd5p5JUJ49udcI00x1bl048GHY2TQutm8vVPNeDbl9fuQKP00l0Le5uZOlQZ8XBlSv1aJ2baldducKEb4QzLGNWbZQXqhjBX%2BaPrDAFzcNM6yRIlNEVW9LbOyodxkknT8NY9Ts3hn2V76yGRbwL7QFJhmpbW0mttBzi%2BnAn073qRnmhs0xn5VWehcdBcb66DQW9ZtoE7lgJxnkQ7qgk0f0gVP1%2B1%2Bhx1aA91c81RJmER3o3DnUQJ73UNOdEzLXmgyx7cZYXQaQOjnNJ85NtmuZTLUfZxdp9oJJRT4XFqKzoqz9efWP9qg2AMpgmX732Wnv1GrGRuxk084lYc9Wmao29OCp2oOsSSY5v7uh4ewfEQn1m7prefTtNdJD2ermG%2B21hY5u8y65Sa8vJo6vGPvzPe4%2Fu%2FMvhLz59dOc%2FTNBe3ItbK0U2MuJKdLGXZreCyl68cfUVU%2FI027Z5m3plaVocXXRHuc6OrhK914UHVa0EV0E3MA%2FOItf0U%2Fg9dbeKtR%2FcHgZhP4amL8vfq37a0ve6bc5Y2LaX5pfuEUeFQkE68%2BCgr7pW7Caj%2BTWEEJvzKqNWj%2FN8mGZFoIzxcHshdwR3Q4%2F4ohtyX%2Fa6vu4xKhn3XOVMJ8hMAqqlx33WDbVgkCDypZJd2e1K4WkvVEYTL1CLl9O9pJ%2BqaK3UdWOhdbK9P0rKYletEBpxLbcGZY%2Fqjfq2SSf9Yp59DHr9Ub4TnMSBkA533lk%2BwQ5BGJOCOrLGDp9L3mh2xEmSgtaAkdPB0EgLrGaC%2FDjNj7NxMVDw93X4NZsYJ2hxjI8JMc7Dn2OkmPSEIlgQLAiWhQaL63Pmc68%2BJvGF02yu9NMQoJImARjRQZzbjolUOUUVsKsn5VQUOrIKMdLnGqMgdBA6CB2EzgnoUOpK4XOrdaexA%2F82GjtGa6wqxUmhM%2BjbOsiLg75G9tTYMxHQDSufyhIjcZA4SBwkzgWJ47jEdYRPa8QRpMRQc4mzkw50UKiuUUFbOeTMyZWXE%2Ba8VMKRBQ45unit7HWP7nzw4JsPW6dWWhgpGRJMEpLLcurbkgkxhBhCDC0uhtqMeK4kHvNonUOUy0Zz6IXV4XDtMghSoyLdrATyRDh0lmW%2BYn%2B%2BqzUXMCxFf5Z50H09MJ2z0oFN1b2mDtJRMR0WpjAqsuI8YtFRmBUngP5qoQfHKeeLEs04mnE045cw44xQJn0CAphhxZ1mz1%2FdfiuA6tgpLBxK4CI8DguQJ8iTbzssoL4vHUGY69WB4nK%2F0UAxw4KfxHrvhu1tzRkbXNBsvzDKzvvIKYP1HY08cIyANh1tumm3Sa8N5nWV725Lr2S%2BSx05YybIJ82eCTIOL%2B7inbPfyvRls2QzsR7TSw3cF%2Bcy%2FlCOzjDNY7Nvq5NB8sEAytUJ1WA4yju7QNuOqrDQ6WVq20wfddZs6CvQETZBH1%2Bpbrfmv0RyTurgiyaILcRWU7DVplxwLqHCM7glXOTW95JbJyE1bceeCKReBT7e2ImHMyFVUfLxoPpuCTk15wYPxzk3BB2C7vkHnUOFBCkRt0Y6ylizX47BF%2FbPRF6m81HfLsT%2F4beHv%2F5k%2FN%2F3Hn759fj%2F3vvbZ18%2FuHvvpZf%2Bbk0N479XuV630jeUmLzi34O66OgZjOTqY8kpbLr87NWmx4%2FvTBYIP4Qfwu95hx%2F1PJ%2B6gtl3QGvsa%2FYoD9l3gcNqRmGo8xxRhihDlCHKFhFlgnBXEMHr85UUjHijSdaPd3W%2Bk%2B7Zt3%2F0Phhf6PtIs8e8AFSCIzqAvhiHQRyaGlTGuP7Kz7Nbh7s04JBmSDOk2XNMs7bvMdfxJa%2B%2FyEqF4zQaZ7j1%2FFttPcfxFxILiYXEesrEYhyCPG7ZdApYjtvsre2ZilRmRxGBGYYhtGZvd7RAL40A3LAbbMqrRdr6iExDpiHTkGnVOQ4%2Bp75HZe08bkHdhp%2FHraJyKhEnEms4U1VjrL68urHBCHOJYB4xP6Y9IPRE94yG1hTXQffEt08i6BB0CDoE3fl2%2B%2FuSSzpjH4hHmg26%2FODgAFE3B3W9URIaY1QRiz4LZuEUJFIMKYYUO5Nivu9xLviMw1%2BpxylCDCFWQsxFiCHEEGIIsUWEmEOodDlhsyDmNBtiqxsbwevrN358bTNYXXv16vpP1l8O4Ndrm4i02l5GnYRGDdKkf75zopBmSDOkGdLsqU8s%2BoR4HIhW35fPCGn2Rkb7GVujXJWSZnobagdiB%2BGnuLexfrqIkdeRbbcqC%2FbJ3q0Uskhv2V0jrer2kUTzUNvxHa%2BFlLJeaSVplRraZ7%2BwN4qdONlGeiI9kZ5Iz4Wkp%2BMLz4cIfh2ejDX78EgVB%2FsjlfRGOK05bxtKbE359k2gWCUVIuA%2FJBoSDYmGRFtEojHmm4%2F%2F8llAE16zgYYbKudvqLSiaJ3cLYkQQ4ghxBBiCwextudL4lNeP9KfuazZU5pqezvT26rQ%2BKbbbJIdyafqew%2B%2Fvj%2F%2B5J%2BQZkgzpBnSbCFpJiWTXEpSf3ObeQ0%2F%2FxhxhjhDnCHOEGfPLc7c0zjjHhMO8eiM0ZnX9DUzxNnFcLZ69fCjPyLNkGZIM6TZItLMkb5PhTtrA4jnNvt8foTZBWH24O4%2FP7j7X%2BM%2FfTX%2B%2BLfINGQaMg2ZtohMawtBBeHUnwU1r9lH9SPULgi1w998Nv74Fw9%2F%2Fvnh%2B%2F%2BKUEOoIdQQaosINU4dyZk746RIYBoO1JBpU0wb%2F%2B6L8affPLh%2FB4GGQEOgIdAWEWgOZdzx69%2FEBpw1%2BzR%2FxNkFceYQMr5%2FD1mGLEOWIcsWkWVtag7s9z3GZpxCIoVoNM%2FiJElBscDA6cAejWG%2BvFIefIFkw2%2BrIb%2BQX8ivxeYXdZjjSsef9dq0dJq9pxEP0cJDtBCeCE%2BEJ8LzUvD0zNHJnDkzVuZ80eypzH%2FcuP5a2SXWEZazYJnpfNQ3knp7y9Z2q7XCKFnespoCF1st83m3NnHblC0RF1RnhfGtFkQY6DwHAtk4jz76y%2Fjjfxv%2F7stHf%2F4fG1io%2FNbVyIZx6UXQu1ToKN3jvmZ%2BpGUUEcd3WAhddav1jukcE5H%2FcH3TgisPyjwMjc%2FIwcZ%2FKxgqY31bWy%2Ba%2BinD2K0XVbT1YjeODOQ2oLAQc0eryFp%2FMEDQUCtLm9Bj40RvJWGaQO8t2qY7rCyBZPtxWGVzM0%2BTHwDQMjDZL40KMAtbya7KDlaWVsNQD4v2OqSOwA2Y3P6HLIZMpyPleXsNHpCl%2Ffbr%2Bq2Rzov2dVvnMyK9asubbyX7bTWM21l5O45Wls4ULCS5PZykaJ8vSV5kcQgyAPhZq9nOdTjKoNetLA0UFGFbv8Shl7mEkB8sDTNtrN9WArdXlsixCPsg02JnZYlSuAkaDqGbO6NluF760ShZMiq1xFipTEs%2FvL65lei0DT2zPRqZYlIOvocnmS%2FND3eo53EbJVThjm7nhSpG%2BcrS9as3bmwl1sRnapCXDh1ozjBNch1Eo1IJwP5xMAiV%2FzatqZWeVf4OqD06cejEoROHTtwiOnGUesKRYHdnvNXpew0%2Fc2dycFzQA%2F9JR%2BjGnXbjKvFM5i9MH5v65pPZQvzp5%2BP7746%2F%2FNgCRYE%2Fk1fzHEg8JB4SD4m3eMRzPV86hFGvRjzBaLOXrG9GfagNHpc6B3dlVYPtLB2ZHt1Vue7DGL4dvj6hU4mfdj5QmZm%2Bj3RPmXmOZast2gpSujD4FTL0tON2Q8%2FpEiF7JPK6lGld9qmT300UlitHYm7Dxc0oMA3VWnmztbbGPM6l41PyI0E8yV2H%2BMTgbG3tGmXMldC1bZj0iONIRhwbRjkV0qWODYF%2BQAmlogxhxPe5qPIj3IVf1Ia4wieQvbRpmCCOYNWTamWgkxDucwZZ2BDIFjoRIWJmCYgvqxLAKN%2FlDvHK3KQQglM6qZEEReSQiS0DAZWk1Khk%2BTAGECY%2Bt4EOFcKXhJUFNMXzeFl0SA2ZzxEEJJ9XDE6qYjjgFrtQZZuGCMeB3Ly6iCCAQCK%2Feo45uRJKbsvGBRSnyq3eFM6MppDMB%2BH5VVPUysZMbj%2B1qhGmI9ObGbjskc7jTEeBwVxofJaVlscNmUxPCiYm4nxaWeYVwAOMBQx4ZrRx2YeScPjfyJTYKzq5qryuBDwZKIrx1dLEdgHQSQHaqNvKFbItPICG0iRqh1J0Xd2NQOlUqeVx%2FkrcL4z%2FUbk4dTfuaTuS6Dai24huI7qNta2O4BxJgI9b3ysiBG32Efu7hgroNc72Gi%2Fk%2Bh0tIlXWBWBqCBMG5ezJxObsHwTjD77623sfPvz6z%2BN7v28dkz5OopFZTTHPftP6A4a%2Fj3ETt4O9ifU0z6ryyVVfZQfBwNBIGrK3qkUWyOuv737y6IvPHn7x74e%2FuvfwD78cf%2F77B3c%2FOnz%2F3cNf%2Femv7%2F6yPA2lfHH80Z0PHnzz4VTpQDK7cfkFVUcYUwf2HwxpPMwnNZuKrAfDfnpgsGvCTH3McqGxX3aFb%2FzeHyF%2Fu%2B63q%2FqjatmwXNc7Ge9%2BPR6dEe%2BLXz%2F46jen4gkTD8Rov45ALuPFAHL3Y5UejBSIkkEOwPnwYFJdcuTaX2pYMWukUKQAi3QwVAk8RW1D0Pgv%2F%2Fvg7vvjuz87PY7Ih6BZxqGz0URZ2r289CAjsLsts9Oo9ez9yFNaqfatthq1vJl2e1k6qOTJTricEFbq0ETa5Yxka5YbOV1DY5rNeqRdBkYXE11MdDHRxVwEF5M45shw4de3VAlhP1yPLia6mM%2FOxZw%2F34hO5rmdzEtNlT11J%2FMxbiRFNxLdSHQj0Y1EN3Ix3UiXe9J1pay%2Fkw1eZLMXuNGLXHwvct76M%2FqQ5%2FYhOfqQ6EOiD4k%2BJPqQ6EM%2BmalIyVzozpyyWU5ks09GQCfyOXAi52xvRCfy3E4key6cyEuvdvvoYqKLiS4mupjoYi6ki0mF5wrhglWse5iOQxvtYeL5IU%2Fg%2FBDnQueHaCCu1h6TTsS6XrcnufR7fkiZ67IQXJKzzw85K4fW9%2FP8kDMFWz8%2F5OwkT%2F38EGfW%2BSEw8KWe2QHhS%2B66wiOe823ODyF4fgh6cejFoRf3HHtxnkc4JdQnNSfOATem0U6cwknCuZ%2ByiOJqskFFdq6ptM0IMYQYQgwhtmgQazse9xwiZlDM9cj35BAspFidYqUsVl9e3dgwg0PiMDtPb8%2BcgNAT3XMKdCfBM20Bcc4dQYegQ9A9I9C50nWF6%2FP6pg7JnGYf2Y2cu8BojeFoDSGGEEOILQbEfvr%2FvC9R1QkyAQA%3D",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:29.979524+00:00",
+        "host": "api-access.pangolin-sdk-toutiao1.com",
+        "path": "/api/ad/union/sdk/stats/batch/",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u0004PÑ¯\u0003ëúYB\u0002j±~û¥î\r¬Öý§\\¥\u0011÷Ë²ØÖE©ª=26\u0000Õã-IüÖY{u)'N®Mz÷3S;Na>Úkqâ'\u0014]%R¹±n9WäB\u0015À\u001eWÎ\u0001áO+\u00153Myã9\u001eÿfûT:\u001eLeå8f×c\u0017BÓgºÒñe\u001b\tH®¹\u001fgU¤\rë\u0013Ûâ'a\u0006kK@¿ÏíEBq\u0017%tnbpc·7M\u0018z±64æk\u0005|grp.\u0011Ì\u0013ÈÅàâ\nFA·h=90ò·!`´æ\u001e¥qÃ©.â(­A¸¶]~Z¹\u001a¢QÍ&¶¥WQI@c\u0015å\t!Ñ¼È\u0016©¨>\u00021\u0018N;»áf»*´Î¦nK!peÛâ¼\u0014\u001c¢Óîx©¤U¿­+q,þ];ÅÂi\u001dÄ^WgÜ?[­-sgbÕ\t=ÚË¾qw@Ï\u0012\u0005\u0018$R4)H¹~o-\u0006uiõ`ßÆÛþfoöë?±¾ÁðbLé³0É#.\u0011ï^¾wyùtÍÄø¹Pnsæ¨'^\u0007O}!\u001bt\u0015ÄÃµ\u0014Qi\u0003ÁçÜ!c+þ\u0015à°¯·\u0005e\u0004¸{}Ù \u0013â(\u0019&êëübjøÖTð¥Mð\u0013\u001cÛV\u001bå\n£clëÊ\u0007 Åñó\\B\u001aÎ¥f¥}Ë<ÊöE>ÁÇ®¨-×\u0017QÏZe\\¦«¨Òùzt'[ë¶º1·£!w),A69~Å\u001dÍ?Ô\tNh\"b±,|Ø\u001cÜÅ]/OâÌæZwL\u0012×Öòè¶¥ýÇë2àÊÍÙHô¼g\u0010â+ågþMµ¬/,ÔøÖ`{\u001b\u0014\u0018Í,#\u0001ëxfÒ8u\u000b¿¢\u001b\u00073¼\\_E\fØÀSTÕäWÖ&H\u001e)$#¹eb\u001cOK\tG[Ö+ß\u001cý|Ó)ßäDNêqúCðÉ\u001e³\u0012\u0017eøÜ\"13÷Q[zB\u0002\u000fò\u0016ÏjE´b´5±(\u001b;oÄ>\u001eõ\u0005¿ÖAÒPì¤ÿ4{\u001cð#÷´8`t_°¹\u0011Nÿf2V-Îgiî\u000f.1^£D5)\u001e×oÕÛbúÔ[~¦l0\u001aC\u0019¤\u0001a,jRïFgnü\"®ür¯V\u0018Ï}+çç{æü÷_î]°Så¤¨àRüK;\u0015¾ëÒ\b&3Äü\"\u0002*{òy¯¡Ö9$èÁÈLÞý©&\u0000}\n·H\u0010«?°º´V«0zPQ\nuPN±f9Z$=háÃÓ@ù<\u0015kµ\u0003U\u0000­YÖoÔÓîÊbº©ÒÊu|à~~\u0004_B.\u001b¶Ü×<V<*7Ã³Ð¾Õ3·<!¶ðÊÃ¿\b\u0003cq\u0010û\fñ-Î\u0012Xª¸\u000eöGQBÑÚø]j¹dls¹Ñú½À9à°~EÛVOÂq·>åùÉ+{Í\u000e)w!1ò÷_0cô\tº5ïÇò\u001f\u000bAtÖ·åRè^¦©2\u0012Ò¾jêUØ\u0013¨\u0015\u0010\u000bå8'På(éfM\n×#½ËýË\f\u001552É\r»5ÖrÉw\u001a\u000fV\u0016ÕÈ¨¹Ã\btðê\u0007²î(³w[?£8Ã;gÏi$C?\n@J\u0013\u0006[+ÆCÕ©ù³²Z³T_W¬º¨¦\u0004Shî#ÜzÏ;ßqH?\\\u001aà±á|è^'_YmõÆ¸ä[Æ\"þE\u000f«[ÿs0\u0006\u0014G\u001fzcÎÁ¹Ð\u0004ÿÓûOø1Á¥\u001dcß¤o+3-»÷\u001cJoY¯E¡\u0010K7\u0014)wÆx8÷X_®¸ùñA\u001by¹Y¯:ô ³³7¯Íwó\t2\u0016ùØ´BP_ß\u000ekÇ(DêFÝg°ÝuehÆ\rài\u00029ya@£çÂh\u00123ôKÝîËÃÀ[\u0015\u0015\u0007xX\fQ)ù!jÚ:òâÍH æVæ¿\féEÌùññ9}ÿH\u0016\u001ePh8è¤F®\u0000n0µ*{U\u001a¸æ\u0016.ìùÅ¹\u0013+*dÔ÷%\u0001ä@uddÓbC°\u0016u¦ýÖ7oc¬%`TtQ4ÜsxÊº#÷?²RÛÜý\u0005$\u0001Uª÷ËË`ø=\u0003La×v\\\u0006S]w0\u0012%xe\u001c\u000eGÎH7\u001bÈ«$2£ØÌ\fl\u001bæ÷¾'_4ºÖÓ\u0019Ûä(xN`\u000e²xåuèX\b_ëHyÂ­\u0012\u00125½Áß¾Ìÿ&#H öï×4+æá3¥6ú\f>\u0003ÐsòÅüá¬gÃ\u0015#N(>ã¿\u0007@\u0011\rþ[=ñ±F\u0014G\t\u001cËoP\u0019îÉ·è9g\u0019~EÁ\u001f\u0017âhÕ£Lu\u0004úÂÁ\u0011A · ò\bÅÖË'rçú×6!\u0015JöT)Û9ÈråÎß@\rN5RfÙ¸A[E=5ïq\u0007 ªÐ9WÜÂÂÏ¨\u0002~×ÜR\u0013àCò<çØt\u000bE³O$jÚ1´DÈè\bèKþ\u000ewO¶c6¥=-ô²·»¯qÆ\u000b°ÃS ã&c|6)Wyl+%Ë\u0018íkM\u0004÷Ô~\u001bÂJe-{3i±ÒyÓÅ\u001f\u0007s·\t:º4ðÌ¥}%\u0013¦Oû²2µ«J¼BÛ¸;b¿¥£\u0007¦ôßcÙ\u0006ÎK¹®p\u000f)W5Þv\u001eT¯ht\u0005ãErMI³7-¥\u0019Yí~T¦\u0003ÚÂ$R5á#|áOuw¶\njäBÆ×_Xs(\u0005©òóÖ\"°¸:©ø\u001a(ò\u0007>JÏçp|enuÔþå¾Ó<ÈùÀ·DÎYÈ®ÝOGÿõ\u0006C\u000b^ÜËÑNymª]\u0017\u001b};J1Ó0Æ¹÷rÇ7\u0014\nã\u0018~ÊÛÝ\u001a\u001duÚuÍ\u0015\u0013qR_H­¹©ú|ß\f\u001b{ä:GzlNÄª;pã\u0012\u001eË\u0015þÍ\u0001¥Å|R\u001c½Ô>Èæ¦lrpõó1\\êæ|¯Ä\u0010\u000fÊ^­´&\u0003ÓµÓÍ\u000f5YS\u0007ÓêÖIÃ÷Çè eP¤tÉ\u0015³ÅØUÎ\u001c\u0011\u0003³y\u001a|\u0016cÅámÍï1Ù\rn\u0001÷\u0018fOYÀ×gøQ]ø\u0011.¯±³e&\"Q\u0019wiG\u001eª¶9BK¨È\u0019J9W¸yÈ^\u0018!sAU·\b1]Æó!+F\u0005Òz\u000e\u001f\"ÝL\u0016O_â-íÙ\u0007(f_I¥'\u0012ÄMÌ´jG!\u0012ø³<,Â%4]fsÆ¹\u0010\u0015y\u0012&ÊQÃ\næÿ ñK«\u0010g¨ed®í´¨ÿ¸<Î\u001ev¼«Ô!eI\u0016G\u0010fVÇo7·\u000e±ÿ\ffè®dÑÇËÈ|åý]à´ºÄEÝ²íDU\u0013 ¼]ü\u0019Ùº\u0000¶v¾\u000f\f\u0001Ãúb[L4¹V3kaËezÕ1¸°ÖÍ*Y\u0001\u0001&úE~¢ªm¦\nC¾¤ã\u0016Î9åu\u000bdfûþ\u0012Õ²Ø'à­t£)A0³\u0001þ\u0014X+á-\u001c'v~l!ysæå©ÔÉcf\u001b´\u000eÅ«\u0000(û\u0011÷É\"öE¼Úú8£TvA`\u00132<)ô\b\u0016¤îÙfÒÎÄêc/ I>u¥C÷lÄý4qÿ\u000e.Z}[¢Ò×}\u000eóå@c \u001e»l\u0011Ë\f¸È'õ¢ü\u0013·©ipc^>Plð®[¼&9?\u0005A²Õ\u0015ß'ÿFëc\u000fùåÊ³?)Ë?/µ\u0019}¸§½\u0002gáû\u001a\u0006´¦¦â¶\u0004(èÖ¾0µ\u0011\u0005´\u0019å!äéF$v\u0000>Zº25Å!úg\tòÄe\u000fS\u00152©è·³ûp\u001cU&Kt#±ùëÁT\u0014ÌÊDì\r]c`ü¢iIÔN$\"ÍDàY¤vya/VZèK\u001dL\u001c\u0006©\u0001ëä8&èÆ.kæ?ï\u0003(\n2p}\rX¼è\u0013fk¦=rzJß\u000b4}ÛÕ\u0013,Ð",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:30.104529+00:00",
+        "host": "apmplus.volces.com",
+        "path": "/settings/get?sdk_version=1010890&device_id=1558488501224440&app_version=2.1.1.4&package_name=com.zhaopin.social&channel=csj_channel&device_platform=android&sdkmonitor_version=1.1.8&aid=219989&minor_version=1&encrypt=close",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "[{\"aid\":\"219989\",\"os\":\"Android\",\"app_version\":\"2.1.1.4\",\"update_version_code\":\"21140000\",\"channel\":\"csj_channel\",\"os_version\":\"12\",\"device_model\":\"ALN-AL00\",\"device_id\":\"1558488501224440\"}]",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:31.230420+00:00",
+        "host": "api-access.pangolin-sdk-toutiao.com",
+        "path": "/api/ad/union/sdk/settings/",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u00042·Ð6Q`1^5iHåàÅ\u0019Oâùd[çg7>óâp\u0004är°ð\u0004½é\"\u0005÷ZeïBÆä¯øK@\u0010ÃPEç^x¦û¼ÃØ\"ËF\u001c]\u001b&ô\u001b¤R4Eå¶ï4(è0\u0007.N5Ð}_1Qã\u0010\u0000(©e\u0017Ì°~Ç^ÁÖ¼ä¦z(2Ìöæ×\u0006cfFÖ»\u0019Ù\u001d9ÐJÊ\u0011¬ö-®Ó?SçOmk\u0013UâÃÏ?i×Sh\u0015\u000e6(ì-\tügû\u00002Úp´â\u0017}ö\u000e­ f7í}ÈJ(\"äuårbÎ¨@xÂ/\u0015¥n\u0006×ðÅkN- WðúýÐðÔòp2\u00122\u0019¶pgèÍ}uQ\u001dµÝ{*5ÊTÍñFTîý\r¿ ª\u00127jRÿ»2\"+»\u001fj¼G@®­÷%Ã¿Þ{¨<ùÒôVAdåÖÄzn$]s93\u0012ë\u0000/VÐ\\î§äÇÄ \bÜ\nÑùY\u0006U\u000eÀUz;lO*ÆèM!b\u0006Ð­û}·$nP¹µXÆ±Újùë\u00140 ¨µæÔHe©÷`L\u001f%¨ùQ¥L8HT¥!ÄÔãÖ¨\u00194¨{sÿîC<é\u001bÞ\u001eaE;)I\u0016\n^O´©¢?ÎB¬õ:£Êæ-'u^ÉîÁÌæY\u001dÆòÛq\u0017ò-Úó\u001cÛZ\u0003Ä\u0005HR\u001bï\u0014\f\u000b¬\t¯5Èå¹Öf«\u0003B\fá\u001b\u001a(\u0012®\u0007ÌÍÿG¡NfuµÅÐÃ/=¬4ÂýÕ:\u0006:cò²<\u0015UðÃ\u0003uãxÊN9@",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:31.427731+00:00",
+        "host": "api-access.pangolin-sdk-toutiao1.com",
+        "path": "/api/ad/union/sdk/stats/batch/",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u0004ë|ª¹à¨\u0007§U¾BD9s3\u0003ÑiÍ\u001a×«Og8ÿ*\u0015h\u0017\u0001Þ#©ud<Ë\fþk1IÐÄ} kmW¢ØL¥Ô¶\u001ai;W\u001c\u00056ÍêsNÊ;aÚÞ¤\\ Ë¨!ÜÄ¸ù0\u00021¡¬<^z\u0015T]ðÌO ÅcTÔ\")=*9õÎ[öª²ÀµYÅ\u0019J¼­t]<Z\u001c\u001b94Kï;AX=¥ûfÛ\u000f·d¡î#æc«ú­u¦V\u000fvÁJKe\u00128+Ú=JÆÑ.°þ{ò\u001b.¡\u0002A\u0017GqÙ!\u001bîW¸ý\u0001\u0015IÎohÙ\"ú³þ\u000f\u0010Û_P§Ñ°s/N$FNz\u00002@±:]ocö+B\\ç$ÂÔ2\t\\7YÖÆyïs\u0003ãxÓz2ºÜ\u0019Ã£q\u0000ç¯ÒB£\u0010»ÝKqîã\u0014w¢\u0012`»Q.ë'\"ð©QófvÆá\nkcÝZÿL9½OñFÿëç¾\t[Ôè}ï\u0012µYF)æ8,\u001c.ßÛå×Ü3/\u0006¾­ÍÁpP=L[£ðá{Õ6\u0017GtÛ\tZ\u0011¦¼äf ³î\u0000%ÅW³ïE~\b)ó>#C{âÛ\rç/º¥Om\u0013$T\u0012Tô\"]¹Ø{e·³E\b+â\u0006Y!\u0019Íü¢n\u0016Zþ?;>èÆB\u0010Ï4p±Ptü79s©\u001dÐHð±|Ð>xl\u0017Ý|cò³D\u001eÚÈòg¡Ïtöq¢K,\u0011ö2/Xÿ¯ÿ7Æ6°Ï½kj¹!\t@3\u0016ú« GÇ\u0003ßI9\u0004\u00184Î\u0016Ìý¼#\u000e\fáËÒÄÅÌL:ßz\u00113¾èÝ{@Þ\t#\\,\u001b\"O\fQû\u001b¹f&\u001a\u0014ìFFD\u000bH\u0011ä\u0000ÐçZI\u0012AÞ¦ìNÐ\u001e±O×¸Á¶Ñ©Ë­6\u001bVø\u0005T1¬Iz$\u0006 >ß\u0002¢\u0018¡rÖ\n\u0003ËcúÒ¶RO;Ã­ÁbcÓ\u0007\u001bg¿<®Ë«¼\u001dsD\u0002\u0016üÌúpê^$\rÐãõ(ì=\u0001mtjÌÑ¾tYï ò©\u001f!ÞPµFõ\u0004ÌSe*ü8Zç?_\u0013Ø\u001f?ÏÓW=jh6\u0014iaî@bÈ|Ñ`ßÐIQ§;^©éÝ¶õögmøú\u0017\u001d_#\u000f9\u0014>ºyl(µ5aP-\u0001:B\u0018àC^å\fÖ(xËËQÀÜBØìa­\u0012÷\fPÌQÏ3\u0013&|\u001bë¹ f(ñB¿¿²[¨ÃëÅ±GX\r¯ÏüÏWä$U°ã©C\u0006²æ\u0001ÇåúÊ\u0002ìQFÛÿ\u0014FÝ!ÎÞ°Ò+øtBêÀ;Yë&¤$yíMÜëÙ£âÃk,tR\u0001\u001e\u001fÉ5\u0006\u001fÞ°¼m¸b6Ò\t½¾\u000bÎ\u0006Wçé?²\u0010èg½UÁÞ\u001dÙ(û\u0010\f =zcWNJ¸·päN¤}§½zAÔðÆÏ(Å>ù\u0003ñY m°ÀbÐ*rx\u001d\u0010ô\\bý®¾£?³\u0002#¹ô}=7áWcÜ\u001eÞ\u001cm\u000b¥F\"h\u001eb¶~¸\u001aõw·KI6_J3Åûß\u001a@dÿI?¶g~Ô\u0005láª3ö8CÚ÷´8WFC¢\u0006í&øòB0¢ûu\bú-®é\f\u0004Y\u001dùÀ+*\u000bÎá `ìÜ2;à%\u0003C¸\u0019\t/gôÔZÍ3\"õà¦´.QÏ\u0016¼\u000e\u0013Æ$¤2b)6Á¦`z±ø]\u001cÚzBù8~\u0017Yw\u001cÒ­º±ßÞ,°d\u0019SF\u000f\u001b¦ó_@/rì\u001aÅl*§ì\u0016\u0006^\u0001ð^|õÇ£]©®à­\u001f¿á£ePBÐIÑØNhyÜhº\u001c\u0018h:C_½é\\\u0012Crb|·\u001dÚËò\u000bë·ª\u0004í(±ÚÊ\u001dfA¾^/AÊtf\u0005vÆzû.i\u0003z3ø\u0015ãiPSÍ sª~·\u0011\u0006s³¬?ß%$E@­\u000bÆ}¦lG\u0002e.ÌU<Þb®Dô\u0011Î\u001dN[ßT99½\u000b®õ\b\nmÂvèµ-\u001c©e]i­j|Ìäì\fõo.âQS¦`,\u001eqÕ²ìx\u0012oE³¯ÿKDÜ¬\u000bp`?u÷ìÉúá\u000f;½áá¶ð\u0013PêÃø\u001dáR`ÝaÔ­Àð|Ø\tð\u0013Úû\u0004 ÞiaqWÛ,ñô±0r^\u0016\u0001\u0007l!\u0016­:¯4Æ½Ô0lüH,hèg\bò®< ÆäÓ©×\"fÞ'|:.AxÐ7\u0014°\u001d\nCQ¶#uÄç×^ÂF­\u0018´#\u0011Òm}%\u000eW­;{ú6/\tå\u0007\fU9\u0002>Öü\\esð\u0018ð®\b»`Û\u000fTNS=Ô¯þ\f#øÂþ4àmIþÕê:\t+R\u001cÜ{×\u000eÏ¨R\u0012Nlh@\u0016Å+`ÜR\u0005Ø~zå$ºÔßÛ\u0017\u0006·EL\u0018oª ¤P7è\"¯02*ày9L:\u000bþ×ô­øãÍ%£)¬×\u0015/á\bZ]\"DmrQYJCQ÷\u000eB6=þ÷t\u000bC\u0004ÏeÂ§°q\u001fft\tïÁ\u001b5£\n¼R.­\u0018>\tLBaæIÄíÂ\u0011ùS%RµÍ³ý:G\u0018\u001c|dÆÑá%`=\u0006kÍ\u0013tãfsÆ\t¨XÖ\u0018n[Î\u001f,(\\]-b<~±QMt\u000erP6}(³U\u0015tm³©ÈÝç#Ëû³­ÍE7®Àôï~zd*6H)à¼Éo:[àÁ\u0016U\n_x\u0014¶3'ÓvN\u0006ÃxbÌ|kJg÷ÕÊÕ·\u0001\u0013]ªèÊAW\u0014Ö_\u001eÜ5¨\u0004XÐÚ°ÉH\r'\rÈg¯Þ\u0001Ûñ'\u001dz ¢þm\u0005.Ç-å(%s¡6¶\u0007\u0007«\u0002&Ld³@EïÒ;°uzT\u0017;UgÜ{¹óÈF,én\u0016Ùp9%Í}¡É)ãä6¹<º{ý\u0005m8½ß¼é\u0005\u000f¦¾\u0016ÁåçÒ\u0017¹§\u0000\u0013×Gpì\u0000äSë?ÓEpC¡ÆÔóW\n  \u0014\u0004%TªðÕÖg$É¬g Ú\u0014°q©OO~Lq´\u00162sxöFNGì;\u000f2JÒ\fÏÜ7Vpp\u00144Âf(\u001eÈÖU\u001bþ v¸ëT²]·÷§]ßËóÌ1ÞL_ìFlè¢²_Äo¯ï²ö%SY¶ø­Íûð·R¬dR®ÖÕ»ÚPdf³\u0012d¨yçû§\u000f\u0005¸Í³\nSX\u0003T÷\u0013éÂ\u0011²\u0006Ecó¼j>\u0012ÞÿW\u0016å·\u0000*(Í}S¥©ÿ»të¾\u001dÒ\u001fÓÈáî¿?¡ÊéÑWÔZTÜô¬(Å¹\u000bt\u001c¼¬ìi]ñ»½\u0004Qp©p<a@ë\fïÛæ|(îÆbÏOè¹K©ÿìì\u001bJ\fú\u0004£(E¦Ì\u000e\\ÆÜGÊµ´Ä§\u001aWOb¢wR\u0000.±ðË2NÚëG§óL\u0001®\u0004º^kìWpA¦>[Åe\u000f\u001e³és\u0011B=¿¹9äÄd]àÐº²ä\u0018å\tçz\r\u0019½å@.Íw^(\u0011õý:@Ï\u0004\u0018R·%ÄÀ8ôiè\tÈà~ßQÙ@DÎ½Aò¸ ï:\u0005,?§°Xx=X\u0000$Må¶Jaº?s¾\u0016J¥Ëd·º\u0004L\u001aS£ÿ\u000f\u0016¦\u000eTç$cÖôéá\u001bbÛXÔ{õ\u001dAØÂz¾2XÖ¯ÂV\u0017ÆÆÍ0¥¼½^9\u0004FW\u001bfpù´l\u0015Aý{ñ\u0015åÖp8e¸øKê\u0010»$Ãâ¾kç¨\u000e¶oV<8\u001c(=A#çêd·\t\"%ðñ¦®é=±îA¬«\"+\u0002»\u001býí¶ð½\u000e\u001a\u0005A\u001fõq[]{Ê\u0004\u0015Î\t\u000b×>cE\u001a\u0019ær\u000fóÅ\u0003ß!(5M\u0013CBÆÕÍ£¯}%Ø³ñ+ùTÂË¬éÁc[=R\"\u0006\u001b\u001dü`\u0018½,'Ïhß\u001d(â¤ÓC\u0016\u001bw×ï«÷ã\u0018çfK8äÚµ¤µÎn´\u001f\n¼QèWd¤h r&\u001fÕw {\u001f°¥çC\t<\u0017ÿãàà\u0005¯#\u000fÊ4<§",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:31.433817+00:00",
+        "host": "api-access.pangolin-sdk-toutiao1.com",
+        "path": "/api/ad/union/sdk/stats/batch/",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u0004\u001f4 \u001cu=.î&J2o~³n³úÆ\bÎ\u0006ÐÂÁ|â\u001e:<\u000bW<³_X9\u0016½ëÜ¾6k8ÇæÐÛ%Øþ1àd% L<Ò&S5DÃöT\u0017°§ê«NÄ:\u001b\n}Àk²^è\u0000sT=¢µG7aB=\u0001\\G®ªîÙ-ª}õ\u0019ißÜèü&ÿù'Öex¬¬Ç±^v©t^G¡¢B¬NUe]\b\\ã}/\u0019wyX\u001f\u0017Ô«àrd\u0004µ`\u0001ë\u000f?Eû&æ5Dëå*ÿ5æí|!ÆV\u0012F«tËÉ§\u001d_a®¼iý$[ ¹\u0018¥aX´.0¡k&ÀsÉút·\u001e\u000bÆo­# 8MiÎxò£Q\u0007\u001aÎÇ1C¥c3ðÿÒü\u001cï»9EK1#\u0001\u0012ä@Õ)äëÄ£ÛÂ\f\u0006ëf\u000eVoÉÌMF[(Ðý*\u000b\u0002¯÷¿é[èw´\\\tY!yA¿\u0018[§\u0018Ne\u00026\rû)!ÊÂWÕR¸±Ú­@E[ÌY@r\u0001[Æ_\u0010ÒÏ¯Ä éØ~ëñ\u0004Û\u0019¬Å\u0003\u001bõsÐ\u0019@¸Y:vSâP6\u001dà«·/\u0013Aµ\bíz Ö÷¦UÂ\u001bg­»C8¯lÀ2Ç×\u0014\u000fÀq%FÇP7»¶ÎQÅÿwå\u001eÔ\u000eÂ®\u001bõi\u0005\u001bpTdÈ\u001aGÝ5~I»UDhPµ\"uG:\u0006\u0002ÚÎ»ìÎVÄä\noØöôågmJ\u0015ºB\tÇ§·c<G\rÓ@ºmæÎµÁÆÔ\\¡XÇRëã\u0012ÊhÇÑH¼V83\n'yïm(}xu@ù§\u000f\\´{Ò³C\t±B>iHJ\u0002ëBªlû\u0010\tB¶¿=mÄ#Ñç}£Ç×´ºÓ'1yÌ\u0018\u0006Ëé}ËÑ/\u0003\u001d'ó\u0004È4\u000e®¢)sV\u001aòø\u0011R\u0013çEÐ)Õw {°¥ç\u001aó{<¿£Q\u0013¶íP8­r²Ô£Q",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:32.699252+00:00",
+        "host": "gromore.pangolin-sdk-toutiao.com",
+        "path": "/api/ad/union/mediation/config/",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"message\":\"2f7be03664a6fd16aRswhFVdXJW3S2QMAmCpsxcKT2q9dR8ev3ONNBpZr2DtRwRUSK6twhsHumOeumq+yg4aMSv3BOm9l\\n2YIrGibYs6DSLf\\/8k2AXr9DMYJUaR6KuoMaPk5An6zGRrOpML12jeZkzFS0dThBl3by6kIyhIDtB\\n\\/s572O5R\\/gMbO4xSXX57FWyjduUuiPdVXa65rjRKzuyTLtSOdchmu9jvbuGjqQIBMNWFdWog99Xr\\nQJYzZ2AjyzkgUPLJVv9shVkM+9BnGRMpLQUjXF7rncu7dpofA+3ZrZeZShxbxsJXfgrE0IlYeoO6\\nxMOUAZSU9hVRJcKhk+3BSWqOWtbi4OzUraCgucqq\\/CKVTuNJocV62PPcTRk+Gmfo7\\/lt0y+G1KJm\\n37Y\\/epzBvYJLVzUcV2QRp6YLbcriyow3pYmPv5t1o82+6ByGsNqLgO9XlMbDbKcCa031sy3jSh+6\\nRv7iYTw0V\\/MxhWmQROl2T9Un+feb\\/3u46qo7zqhe4xPxbC7vcKWj01pKW6EdRA5gN9SxYDTE+v8C\\nexsBmWElIqmptrOmvgBrzGaY+5I3xEX+dLdfXDhYFoUkH15SpK601IPujQijAkiVyzS911Mk+a9C\\nVpZ6oQpfpu3EGoIA4t73iRXlRqQuiD5G\\/xve1+KQVDqpVX8MJO9DCF4hfO5mB6ovHnS6u+3fjkPn\\nc1u3jNj8xqf0nnYwSzHOfPfxr1ahTW8ITM5t38t\\/+aINn6niQYy3Fy4HHhKKHsobstTT+97aEajX\\n5pDqWFdrvbG1iRYA200tHfTyfbW7S1hA8wl2tQMcqouGdLrX\\/HB7L4l4QZJg6cdb\\/JXWLk2vXO06\\nEJJdwucM048dYh6jci0B85Kyke6NyiBlSG5gd17DxKVEpAP\\/h1fhOTpw6dTSoGUWP73oDKULGAnB\\n8yPtcl\\/5AstgnXJscty+f6WnUmJ4NOo8pPNQZCsGo03O61shOhuI4G5BNKYFl9975HvyFlspTyke\\nhMGnPSH\\/uyhAsbhJRSle5fSc3xQlngDz7NC7EUlEMe\\/Ef3A55Fh3hb3QQO+HBTWEf2XmyRUnK9MP\\nzhl9mrsYsLrrlKWBcperKzl9r7VdkDkPgVp128KIfyoM9Q==\\n\",\"cypher\":2}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:33.584133+00:00",
+        "host": "gromore.pangolin-sdk-toutiao.com",
+        "path": "/api/ad/union/mediation/config/",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"message\":\"22e2483ea7bbd3f66l6laXfZxYZO8js9dtFGB3mqpYtiXzsvv+q0c6uozuyBe\\/bP4F3e4djX9Qk6VekSK2nLS67a8CdCM\\n\\/VJSbKEwiIhfU8WXqFBIkmAPpzIdqAIj7lG3YU4dElJYGMQ+LqtWQuMp+u6hjU4GzoP0iJNx6qGk\\npCdFGUTC0dTbRqoyTp6O8\\/8IhCWrBC451sSBo\\/MIKGm\\/VkD6aZJbggFN8DVosoVeZBYHDlWnaPT+\\nDS95hSX5xyMTHPZS0M2aIlUvjVZnLf6AGR1jZuYwGmAxXgPvY+EduW2fC1ATVHfz1fFBcVM+DJVI\\nuTdpy59+2VnrKEu4ivFudbfQFv4XILIQpVTdU5toYwgjPPf\\/teOS3n4sTsDETl8UlNhqlx6jUxGF\\nxPy9N6kBs9ycdMBAzK48O4Fx338Nv\\/NBrrGSy8+plhf9t5g7qNB1KxKPpNgdP\\/lB4hnOOa2bjyzY\\n+M53Ki8O2eyS9BCW4jb08CRJ\\/0q8ocOHBHTz2PLnOZKb5OKYHppF+2MV2NI7LKcdzLety0kZLYhw\\nMPeIBhatoR0iKs9Rb3XRI6EYbaLixn6rZq+bQq36K1LXXRJLpTX0Vz9yP\\/zxMnOUNWnuZ75j6MTT\\nfAYXOEZ6o7G+8TaHfdrhDxkS6+k5y48yJPu7NeLWcyVU\\/0+UM\\/ig3nv9z\\/efCcLwyPPkzTnIWvli\\nenT5BFRHtdjRkAv+Pjv+2tagJ4esqfW6xoZa6C2GqczIwXvUT5L3cdoYXYdZzJFkZ+5MrWP5gZG1\\n76N1UnNqHUDrG974e9brbL604rcZEVX3ac7IDwBYFHn6046\\/eNoH2qTCo\\/+4CvubfM+f12GlTfLg\\nAA\\/2W7+sI7qOQqfVSRM1b\\/ZfvzxMNdwqRIqlsufRXKLJxQX4\\/O41NoLsFYf7pV0231mFORDHKZb\\/\\nIzv4Pa2eUvfrrP0lk1qaUF5QRr0uR3BuWZ+lXnjPu2IWKHA2w56kB7GGt9YVIwHKydhPjQtda4jl\\nyXBvqndIyxSvoUHl4qO9RQZ\\/YMeW0eKSarOz\\n\",\"cypher\":2}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:33.809547+00:00",
+        "host": "pro.bugly.qq.com",
+        "path": "/v1/b0e3e0225a/upload-json",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      }
+    ],
+    "flow_count": 15,
+    "unique_hosts": [
+      "abtest-ch.snssdk.com",
+      "api-access.pangolin-sdk-toutiao.com",
+      "api-access.pangolin-sdk-toutiao1.com",
+      "apmplus.volces.com",
+      "ds.zhaopin.cn",
+      "gromore.pangolin-sdk-toutiao.com",
+      "pro.bugly.qq.com",
+      "toblog.ctobsnssdk.com"
+    ],
+    "mitm_blocked": null,
+    "stderr_tail": "",
+    "dry_run": false
+  },
+  "network_result": {
+    "schema_version": 1,
+    "adapter": "traffic_checker",
+    "flow_count": 15,
+    "unique_hosts": [
+      "abtest-ch.snssdk.com",
+      "api-access.pangolin-sdk-toutiao.com",
+      "api-access.pangolin-sdk-toutiao1.com",
+      "apmplus.volces.com",
+      "ds.zhaopin.cn",
+      "gromore.pangolin-sdk-toutiao.com",
+      "pro.bugly.qq.com",
+      "toblog.ctobsnssdk.com"
+    ],
+    "mitm_blocked": null,
+    "mitm_duration_sec": 149.59,
+    "flows_source": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\output\\stage3_lab42_before\\智联招聘\\mitm_flows.json",
+    "tracker_hits": [
+      {
+        "tracker_id": "bugly",
+        "tracker_company": "Bugly",
+        "purpose": "crash_reporting",
+        "host": "pro.bugly.qq.com",
+        "path": "/v1/b0e3e0225a/upload-json",
+        "timestamp_utc": "2026-06-11T22:17:28.920752+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      }
+    ],
+    "pii_key_hits": [
+      {
+        "pii_type": "location",
+        "network_key": "lng",
+        "host": "ds.zhaopin.cn",
+        "path": "/sa?project=zlclient",
+        "timestamp_utc": "2026-06-11T22:17:29.922833+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "log",
+        "host": "ds.zhaopin.cn",
+        "path": "/sa?project=zlclient",
+        "timestamp_utc": "2026-06-11T22:17:29.922833+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "imei",
+        "network_key": "device_id",
+        "host": "apmplus.volces.com",
+        "path": "/settings/get?sdk_version=1010890&device_id=1558488501224440&app_version=2.1.1.4&package_name=com.zhaopin.social&channel=csj_channel&device_platform=android&sdkmonitor_version=1.1.8&aid=219989&minor_version=1&encrypt=close",
+        "timestamp_utc": "2026-06-11T22:17:30.104529+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "location",
+        "network_key": "lng",
+        "host": "gromore.pangolin-sdk-toutiao.com",
+        "path": "/api/ad/union/mediation/config/",
+        "timestamp_utc": "2026-06-11T22:17:32.699252+00:00",
+        "evidence_level": "S3_network_pii_key"
+      }
+    ],
+    "summary": {
+      "tracker_hit_count": 1,
+      "tracker_company_count": 1,
+      "tracker_companies": [
+        "Bugly"
+      ],
+      "tracker_hosts": [
+        "pro.bugly.qq.com"
+      ],
+      "pii_key_hit_count": 4,
+      "pii_types_observed": [
+        "imei",
+        "location",
+        "log_info"
+      ]
+    }
+  },
+  "path_suggestions": [
+    "（1）当您作为求职者用户和招聘者用户注册智联招聘账号并使用智联招聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您所注册的手机号码有效。当您作为猎头用户进行注册时，您还需要向我们提供您的邮箱并设置密码，以便我们为您注册智联招聘账号。当您作为求职者用户注册智联招聘账号并使用智联卓聘App时，您需要向我们提供您的手机号码，我们会向您的手机号码发送短信验证码，以验证您所注册的手机号码有效。根据我国法律法规及出于安全保障目的，如您不提供手机号码进行核验，将导致注册失败，故无法使用本平台的相关功能。",
+    "（2）当您作为求职者用户和招聘者用户进行登录智联招聘App时，您需要向我们提供您注册时的手机号码，并在获取验证码后进行登录。 提示您注意，若您提供的手机号码未在本平台进行注册过，我们将通过快速注册方式直接为您注册智联招聘账号并为您登录。当您作为求职者用户和招聘者用户进行登录智联卓聘App时，您需要向我们提供您注册时的手机号码或邮箱及已设置密码，以验证您的身份。 当您作为猎头用户进行登录时，您需要向我们提供您注册时的邮箱和已设置的密码，我们将通过您的邮箱和密码验证您的身份。",
+    "如您通过智联招聘APP使用职Q社区服务，为了向您在职Q社区中推荐可能感兴趣的内容，方便您更便捷、快速地找到所需要的信息，我们可能会收集您的行为操作信息（包括浏览、发布、点赞、评论、关注、分享行为记录）。您可以通过智联招聘APP端\"我的-隐私中心-个性化推荐设置-个性化内容推荐\"关闭该功能。（华为鸿蒙应用不涉及前述个性化内容推荐功能。）",
+    "我们将收集求职者用户在智联招聘平台上的求职动作数据（包括求职者在特定时间段内浏览职位、沟通职位、更新简历情况、登录APP时长、发起聊天次数、被发起聊天及回复次数），并适当进行统计、分析。招聘者可以查看求职者在24小时内的最新求职动作、活跃时间段、求职意愿度以及受欢迎程度信息，以帮助招聘者更深入了解求职者，提升求职者的应聘成功率。求职者用户可以通过\"我的\"-\"隐私中心\"-\"个性化推荐设置\"-\"求职偏好展示\"，关闭上述人才洞察功能。在关闭人才洞察功能后，招聘者将无法查看求职者的相关分析数据，可能会影响求职者的求职效率，但不会影响其他功能的使用。",
+    "当您使用微信账号进行支付时，为了对应您的身份，我们会从微信获取您的登录信息（微信号及用户标识信息、手机号码、QQ号码、邮箱）以及使用服务相关的设备、系统网络及操作行为信息，包括支付受理终端信息、唯一设备识别码（能识别设备的标识信息，如设备的MAC、IMEI）、硬件设备型号、终端系统类型、软件安装信息、使用的软件版本信息、软件语言设置信息、IP地址、移动网络信息（如Wi-Fi信息）、设备位置信息、所在的地区、网络日志和网络使用习惯以及您使用财付通服务的操作行为记录。当您使用支付宝账号进行支付时，为了对应您的身份，我们会从支付宝获取买家支付宝账号对应的支付宝唯一用户号（以2088 开头的 纯 16 位数字）、匿名化处理后的手机号。",
+    "在智联招聘App，您可以通过清除缓存的方式删除已有的追踪技术，也可以通过手机本身的设置撤回对该App使用存储权限的授权来拒绝使用追踪技术。",
+    "在智联招聘网页端，您可以通过点击\"我的简历\"、\"面试邀请\"、\"谁看了我\"、\"账号设置\"、\"我的收藏\"、\"我的订单\"、\"求职统计\"对您的简历信息、投递和收藏情况、订单信息、账号信息进行访问或更正，具体以产品实际页面为准。在智联卓聘App端，作为求职者用户您可以通过点击\"我的\"对您的简历信息和个人资料进行访问或更正。",
+    "请您知悉，为了您能正常使用智联招聘产品与/或服务，您需要向我们提供一些基本的个人信息。如果您希望在智联招聘App、智联卓聘App撤回先前同意开启的相关权限，您可以通过点击\" 我的 \"-\" 隐私中心 \"-\" 隐私管理 \"-\" 个人信息权限设置 \"，查看权限说明进行操作。",
+    "UI observed steps: adb_foreground_before=com.zhaopin.social | session_created_attempt1=ok | session_created",
+    "Check path for pii_type=imei"
+  ],
+  "explanation": "Collected dynamic evidence for 智联招聘: candidate_pii=10, ui_steps=48, screenshots=6, frida_registered_types=9, frida_events=19. This explanation is descriptive only and does not produce verdict.",
+  "evidence_items": [
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\智联招聘\\screenshots\\智联招聘_20260612_061734_launch.png",
+      "timestamp_utc": "2026-06-11T22:19:56.476239+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\智联招聘\\screenshots\\智联招聘_20260612_061738_path1.png",
+      "timestamp_utc": "2026-06-11T22:19:56.476239+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\智联招聘\\screenshots\\智联招聘_20260612_061819_path1.png",
+      "timestamp_utc": "2026-06-11T22:19:56.476239+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\智联招聘\\screenshots\\智联招聘_20260612_061829_path2.png",
+      "timestamp_utc": "2026-06-11T22:19:56.476239+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\智联招聘\\screenshots\\智联招聘_20260612_061910_path2.png",
+      "timestamp_utc": "2026-06-11T22:19:56.476239+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\智联招聘\\screenshots\\智联招聘_20260612_061937_trigger_tabs.png",
+      "timestamp_utc": "2026-06-11T22:19:56.476239+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.frida",
+      "signal": "hook_imei",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:19:56.571638+00:00",
+      "pii_type": "imei",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.frida",
+      "signal": "hook_android_id",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:19:56.571654+00:00",
+      "pii_type": "android_id",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.frida",
+      "signal": "hook_oaid",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:19:56.571657+00:00",
+      "pii_type": "android_id",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.frida",
+      "signal": "hook_location",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:19:56.571660+00:00",
+      "pii_type": "location",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.frida",
+      "signal": "hook_mac_ip",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:19:56.571662+00:00",
+      "pii_type": "ip_address",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.frida",
+      "signal": "hook_mac_ip",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:19:56.571664+00:00",
+      "pii_type": "mac_address",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.frida",
+      "signal": "hook_phone",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:19:56.571665+00:00",
+      "pii_type": "phone_number",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.frida",
+      "signal": "hook_contacts",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:19:56.571667+00:00",
+      "pii_type": "contact_list",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.frida",
+      "signal": "hook_clipboard",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:19:56.571669+00:00",
+      "pii_type": "clipboard",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.frida",
+      "signal": "hook_network_okhttp",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:19:56.571671+00:00",
+      "pii_type": "network_transmission",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.frida",
+      "signal": "OkHttp.execute",
+      "value": "dry_run_network",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:19:56.571673+00:00",
+      "pii_type": "network_transmission",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getImei",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:19:56.571675+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getMeid",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:19:56.571678+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getDeviceId",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:19:56.571680+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getDeviceSoftwareVersion",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:19:56.571681+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getSimSerialNumber",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:19:56.571683+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.frida",
+      "signal": "android.provider.Settings$Secure.getString",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:19:56.571687+00:00",
+      "pii_type": "android_id",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.frida",
+      "signal": "android.provider.Settings$System.getString",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:19:56.571690+00:00",
+      "pii_type": "android_id",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.frida",
+      "signal": "android.location.LocationManager.getLastKnownLocation",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:19:56.571692+00:00",
+      "pii_type": "location",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "pro.bugly.qq.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T22:17:28.920752+00:00",
+      "context": "Bugly",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lng",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:17:29.922833+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "log",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T22:17:29.922833+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "device_id",
+      "pii_type": "imei",
+      "timestamp_utc": "2026-06-11T22:17:30.104529+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "智联招聘",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lng",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:17:32.699252+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    }
+  ],
+  "capture_meta": {
+    "sync_mode": true,
+    "frida_grace_sec": 30,
+    "frida_tail_sec": 60,
+    "frida_launch_mode": "attach",
+    "frida_code_prefixes": [
+      "com.zhaopin.social"
+    ],
+    "frida_tier": "tier3",
+    "spawn_fallback_attach": true,
+    "dynamic_track": {
+      "dynamic_track_requested": "lab42",
+      "dynamic_track_resolved": "mitm",
+      "enable_frida": false,
+      "enable_mitm": true,
+      "java_bridge": "",
+      "tier": "tier3",
+      "preferred_dynamic_tracks": [],
+      "mitm_primary": true,
+      "probe_path": "output\\frida_probe\\zhilianzhaopin.json"
+    },
+    "enable_mitm": true,
+    "frida_enabled": false,
+    "frida_runtime_events": 0,
+    "frida_java_active_count": 0,
+    "mitm_flow_count": 15,
+    "tracker_hit_count": 1,
+    "post_run_app_closed": true
+  },
+  "summary": {
+    "ui_steps": 48,
+    "screenshots": 6,
+    "keyword_checks": 4,
+    "keyword_match_count": 2,
+    "registered_hook_types": 9,
+    "frida_events": 19,
+    "frida_runtime_events": 0,
+    "frida_java_active_count": 0,
+    "candidate_pii_count": 10,
+    "mitm_flow_count": 15,
+    "tracker_hit_count": 1,
+    "pii_key_hit_count": 4
+  }
+}

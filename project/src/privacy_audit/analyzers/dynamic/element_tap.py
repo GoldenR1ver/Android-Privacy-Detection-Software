@@ -27,6 +27,7 @@ _SCROLLABLE_TOKENS = frozenset(
     {
         "设置",
         "隐私设置",
+        "常用隐私设置",
         "隐私",
         "账号与安全",
         "帐号与安全",
@@ -39,6 +40,9 @@ _SCROLLABLE_TOKENS = frozenset(
         "关于我们",
         "撤回授权",
         "个人信息收集设置",
+        "找到我的方式",
+        "把我推荐给可能认识的人",
+        "不把我推荐给可能认识的人",
     }
 )
 SCROLLABLE_TOKENS = _SCROLLABLE_TOKENS
@@ -142,6 +146,76 @@ def label_matches_query(query: str, text: str, content_desc: str) -> bool:
     return False
 
 
+def label_matches_query_relaxed(query: str, text: str, content_desc: str) -> bool:
+    """Exact match, or substring / first-line match (支付宝设置项常用 content-desc)."""
+    if label_matches_query(query, text, content_desc):
+        return True
+    q = query.strip()
+    if len(q) < 4:
+        return False
+    for raw in (text, content_desc):
+        if not raw or q in {"我", "我的"}:
+            continue
+        if q in raw:
+            return True
+        first_line = raw.split("\n")[0].strip()
+        if first_line == q:
+            return True
+    return False
+
+
+def _bounds_contains(
+    outer: tuple[int, int, int, int],
+    inner: tuple[int, int, int, int],
+) -> bool:
+    return outer[0] <= inner[0] and outer[1] <= inner[1] and outer[2] >= inner[2] and outer[3] >= inner[3]
+
+
+def _resolve_tap_element(
+    el: UiElement,
+    elements: list[UiElement],
+) -> UiElement | None:
+    if el.clickable and el.displayed:
+        return el
+    if not el.bounds:
+        return None
+    best: UiElement | None = None
+    best_area: int | None = None
+    for cand in elements:
+        if not cand.clickable or not cand.displayed or not cand.bounds:
+            continue
+        if not _bounds_contains(cand.bounds, el.bounds):
+            continue
+        area = (cand.bounds[2] - cand.bounds[0]) * (cand.bounds[3] - cand.bounds[1])
+        if best is None or (best_area is not None and area < best_area):
+            best = cand
+            best_area = area
+    return best
+
+
+def wait_for_label_in_hierarchy(
+    driver: Any,
+    label: str,
+    steps: list[str],
+    *,
+    timeout_sec: float = 6.0,
+    poll_sec: float = 0.45,
+) -> bool:
+    """Poll page_source until a label appears (H5/RecyclerView lists may load late)."""
+    deadline = time.monotonic() + timeout_sec
+    while time.monotonic() < deadline:
+        try:
+            source = driver.page_source or ""
+        except Exception:
+            source = ""
+        if source and label in source:
+            steps.append(f"wait_label[{label}]=visible")
+            return True
+        time.sleep(poll_sec)
+    steps.append(f"wait_label[{label}]=timeout_{int(timeout_sec)}s")
+    return False
+
+
 def score_element_for_query(
     query: str,
     el: UiElement,
@@ -187,15 +261,23 @@ def collect_clickable_candidates(
             height = max(height, el.bounds[3])
     ranked: list[tuple[float, UiElement]] = []
     for el in elements:
+        text, desc = visible_labels(el)
+        if not label_matches_query_relaxed(query, text, desc):
+            continue
+        tap_el = _resolve_tap_element(el, elements)
+        if tap_el is None:
+            continue
         score = score_element_for_query(
             query,
-            el,
+            tap_el,
             screen_width=width,
             screen_height=height,
             prefer_bottom_tab=prefer_bottom_tab,
         )
+        if score < 0 and label_matches_query_relaxed(query, text, desc):
+            score = 80.0 - max(0, len(text or desc) - len(query)) * 2.0
         if score >= 0:
-            ranked.append((score, el))
+            ranked.append((score, tap_el))
     ranked.sort(key=lambda item: (-item[0], item[1].center[1] if item[1].center else 0))
     return ranked
 
@@ -286,6 +368,11 @@ def scroll_to_label(driver: Any, label: str, steps: list[str], appium_by: Any) -
             appium_by.ANDROID_UIAUTOMATOR,
             f'new UiScrollable(new UiSelector().scrollable(true).instance(0))'
             f'.scrollIntoView(new UiSelector().textContains("{safe}"))',
+        ),
+        (
+            appium_by.ANDROID_UIAUTOMATOR,
+            f'new UiScrollable(new UiSelector().scrollable(true).instance(0))'
+            f'.scrollIntoView(new UiSelector().descriptionContains("{safe}"))',
         ),
     ]
     for by, query in queries:
@@ -397,6 +484,11 @@ def tap_bottom_tab_me(driver: Any, steps: list[str]) -> bool:
                 return True
         return False
 
+    # Profile tab is the bottom-RIGHT tab on virtually all apps. Among the bottom
+    # 我/我的 labels prefer those in the right half, then take the rightmost.
+    right_half = [e for e in label_els if e.center and e.center[0] >= width * 0.5]
+    if right_half:
+        label_els = right_half
     label_els.sort(key=lambda e: (e.center[0] if e.center else 0), reverse=True)
     target = label_els[0]
     if not target.center:
@@ -414,8 +506,16 @@ def tap_bottom_tab_me(driver: Any, steps: list[str]) -> bool:
             clickable_hosts.append((area, el))
 
     if clickable_hosts:
-        clickable_hosts.sort(key=lambda item: -item[0])
-        _, host = clickable_hosts[0]
+        # Prefer a single-tab-sized host (not the full-width nav bar, whose center
+        # is the MIDDLE tab); then the tightest one around the 我/我的 label.
+        tab_sized = [
+            (area, el)
+            for area, el in clickable_hosts
+            if (el.bounds[2] - el.bounds[0]) <= width * 0.4
+        ]
+        pool = tab_sized or clickable_hosts
+        pool.sort(key=lambda item: item[0])
+        _, host = pool[0]
         if tap_best_element(driver, [(100.0, host)], steps, "bottom_tab_me"):
             time.sleep(0.7)
             return True
@@ -551,11 +651,18 @@ def tap_me_entry(
     if has_bottom_me:
         steps.append("me_entry_bottom_tab_detected")
         if tap_bottom_tab_me(driver, steps):
+            time.sleep(0.6)
+            # The bottom-right 我/我的 tab IS the canonical profile entry. Accept it
+            # even when app-specific profile markers are unknown (e.g. Keep, whose
+            # profile resource-ids differ from our marker set) so navigation can
+            # continue to 设置 instead of stalling on 我.
             try:
                 if profile_page_visible(driver.page_source or ""):
-                    return True
+                    steps.append("me_entry_profile_confirmed")
             except Exception:
-                return True
+                pass
+            steps.append("me_entry_bottom_tab_tapped")
+            return True
 
     if appium_by is not None:
         for label in ("我的", "我"):
@@ -680,6 +787,8 @@ _SETTINGS_PAGE_MENU_MARKERS: tuple[str, ...] = (
     "关于小荷健康",
     "隐私设置",
     "切换基本版",
+    "个人信息下载",
+    "个人信息查阅与管理",
 )
 # When content-desc / text is present, classify toolbar icons before position heuristics.
 _SETTINGS_TOOLBAR_LABEL_SETTINGS: tuple[str, ...] = ("设置",)
@@ -859,6 +968,35 @@ def tap_settings_gear_icon(driver: Any, steps: list[str]) -> bool:
     except Exception as exc:
         steps.append(f"settings_gear_coord=fail({exc})")
         return False
+
+
+def polarity_aliases(token: str) -> list[str]:
+    """
+    Policy often states the desired outcome (不X); the UI switch label is often X.
+
+    Example: policy 不把我推荐给可能认识的人 -> switch 把我推荐给可能认识的人.
+    """
+    token = token.strip()
+    if token.startswith("不") and len(token) > 3:
+        stripped = token[1:].strip()
+        if stripped and stripped != token:
+            return [stripped]
+    return []
+
+
+def parse_policy_slash_aliases(token: str) -> list[str] | None:
+    """
+    Policy 【...】 paths use A/B/C for alternative on-screen labels, not extra steps.
+
+    Example: 通知设置/隐私/通用 — tap whichever label the app shows for that entry.
+    """
+    token = token.strip()
+    if not token or "://" in token or not re.search(r"[/／]", token):
+        return None
+    parts = [part.strip() for part in re.split(r"[/／]+", token) if part.strip()]
+    if len(parts) >= 2 and all(len(part) <= 16 for part in parts):
+        return parts
+    return None
 
 
 def extract_bracket_policy_tokens(hint: str) -> list[str]:

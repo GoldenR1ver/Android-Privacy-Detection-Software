@@ -3,19 +3,18 @@
 from __future__ import annotations
 
 from pathlib import Path
+from typing import Any
 
 
-def load_personal_info_taxonomy(config_path: Path) -> dict[str, dict[str, list[str]]]:
-    """Load a minimal taxonomy from a simple YAML file.
+def _load_taxonomy_minimal(text: str) -> dict[str, dict[str, Any]]:
+    """Fallback parser for the simple ``field: [a, b, c]`` schema (no PyYAML).
 
-    This loader intentionally supports the current project schema only:
-    top-level key -> aliases/permissions/apis list.
+    Only understands single-line string lists; nested block structures such as
+    ``api_targets`` are ignored. Kept so the loader still works without PyYAML.
     """
-    lines = config_path.read_text(encoding="utf-8").splitlines()
-    taxonomy: dict[str, dict[str, list[str]]] = {}
+    taxonomy: dict[str, dict[str, Any]] = {}
     current_key: str | None = None
-
-    for raw in lines:
+    for raw in text.splitlines():
         line = raw.strip()
         if not line or line.startswith("#"):
             continue
@@ -37,6 +36,29 @@ def load_personal_info_taxonomy(config_path: Path) -> dict[str, dict[str, list[s
             items = [part.strip("\"'") for part in parts if part]
         taxonomy[current_key][field] = items
     return taxonomy
+
+
+def load_personal_info_taxonomy(config_path: Path) -> dict[str, dict[str, Any]]:
+    """Load the personal-info taxonomy from YAML.
+
+    Prefers PyYAML (so nested fields like ``api_targets`` — lists of
+    ``{clazz, method}`` / ``{enumerate}`` dicts — are preserved for the
+    data-driven Frida monitor). Falls back to a minimal string-list parser when
+    PyYAML is unavailable or the file fails to parse.
+    """
+    text = config_path.read_text(encoding="utf-8")
+    try:
+        import yaml  # type: ignore
+
+        data = yaml.safe_load(text)
+        if isinstance(data, dict):
+            return {
+                str(key): (value if isinstance(value, dict) else {})
+                for key, value in data.items()
+            }
+    except Exception:
+        pass
+    return _load_taxonomy_minimal(text)
 
 
 def parse_declared_pii(policy_text: str, taxonomy: dict[str, dict[str, list[str]]]) -> list[str]:

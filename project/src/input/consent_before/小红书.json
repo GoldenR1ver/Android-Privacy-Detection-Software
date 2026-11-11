@@ -1,0 +1,1305 @@
+{
+  "schema_version": 2,
+  "stage": "stage3_dynamic",
+  "app_name": "小红书",
+  "app_package": "com.xingin.xhs",
+  "dry_run": false,
+  "generated_at_utc": "2026-06-11T22:15:04.864712+00:00",
+  "candidate_pii": [
+    "imei",
+    "android_id",
+    "location",
+    "ip_address",
+    "mac_address",
+    "phone_number",
+    "contact_list",
+    "clipboard",
+    "sdk_info",
+    "network_transmission"
+  ],
+  "ui_result": {
+    "runner": "appium",
+    "mode": "real",
+    "timestamp_utc": "2026-06-11T22:15:04.656094+00:00",
+    "steps": [
+      "adb_foreground_before=com.xingin.xhs",
+      "session_created_attempt1=ok",
+      "session_created",
+      "foreground_ok[com.xingin.xhs]=attempt1",
+      "foreground_package=com.xingin.xhs",
+      "navigate_path_1=我 > 设置 > 隐私设置",
+      "me_entry_bottom_tab_detected",
+      "bottom_tab_me[bounds]=ok(972,1880,我)",
+      "me_entry_bottom_tab_tapped",
+      "tap[我]=me_entry_avatar",
+      "tap[我]=ok",
+      "tap[设置]=ok",
+      "tap[隐私设置]=ok",
+      "path_2_reset_start",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.xingin.xhs",
+      "foreground_ok[com.xingin.xhs]=post_activate1",
+      "path_2_reset=terminate_activate",
+      "navigate_path_2=我 > 设置 > 通知设置/隐私/通用",
+      "me_entry_bottom_tab_detected",
+      "bottom_tab_me[bounds]=ok(972,1880,我)",
+      "me_entry_bottom_tab_tapped",
+      "tap[我]=me_entry_avatar",
+      "tap[我]=ok",
+      "tap[设置]=ok",
+      "tap[通知设置/隐私/通用]=ok",
+      "path_3_reset_start",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.xingin.xhs",
+      "foreground_ok[com.xingin.xhs]=post_activate1",
+      "path_3_reset=terminate_activate",
+      "navigate_path_3=我 > 设置 > 隐私设置 > 不把我推荐给可能认识的人",
+      "me_entry_bottom_tab_detected",
+      "bottom_tab_me[bounds]=ok(972,1880,我)",
+      "me_entry_bottom_tab_tapped",
+      "tap[我]=me_entry_avatar",
+      "tap[我]=ok",
+      "tap[设置]=ok",
+      "tap[隐私设置]=ok",
+      "tap[不把我推荐给可能认识的人]=miss_try_me_first",
+      "tap[不把我推荐给可能认识的人]=miss_try_scroll",
+      "scroll_gesture_down[不把我推荐给可能认识的人]=ok",
+      "tap[不把我推荐给可能认识的人]=miss_try_bridge_找到我的方式",
+      "bridge[不把我推荐给可能认识的人]=failed",
+      "tap[不把我推荐给可能认识的人]=miss_try_sidebar_fallback",
+      "sidebar_xml_before:xml_drawer_open=True xml_trigger=False menu=设置",
+      "scroll_gesture_down[不把我推荐给可能认识的人]=ok",
+      "sidebar_fallback_after_不把我推荐给可能认识的人=failed",
+      "tap[不把我推荐给可能认识的人]=miss_try_llm_bridge",
+      "tap[不把我推荐给可能认识的人]=miss",
+      "nav_path_3_stopped_at=不把我推荐给可能认识的人",
+      "screenshot_captured",
+      "function_triggers=start",
+      "grant[ACCESS_FINE_LOCATION]=ok",
+      "grant[ACCESS_COARSE_LOCATION]=ok",
+      "grant[READ_PHONE_STATE]=ok",
+      "grant[READ_CONTACTS]=ok",
+      "trigger_perms_granted=4",
+      "reset_back_presses=3",
+      "foreground_ok[com.xingin.xhs]=attempt1",
+      "trigger_tab[首页]=ok",
+      "trigger_tab[发现]=ok",
+      "trigger_tab[消息]=ok",
+      "trigger_swipe_up=ok",
+      "trigger_swipe_up=ok",
+      "trigger_swipe_down=ok",
+      "function_triggers=budget_exhausted",
+      "function_triggers=done"
+    ],
+    "policy_path_hints": [
+      "2.当您使用发布、编辑内容功能时，我们会请求您授权存储（相册、媒体和其他文件）、相机（摄像头）、麦克风（录音）权限。您如果拒绝授权提供，将无法使用相应功能，但不影响您正常使用小红书的其他功能。为了提升视频的上传速度、丰富发布功能和优化体验，在您点击\"发布笔记\"前，我们会将您编辑的视频临时加载至服务器。如果您退出编辑页面、或者因其他原因未发布笔记，我们会立即删除相关视频。您可通过【我-设置-通用设置-不允许发布时提前上传视频】关闭此功能",
+      "安全运行与风控验证。为了保障软件与服务的安全运行，防止您的个人信息被非法获取，更准确地预防欺诈和保护账号安全，我们会主动收集您的设备信息【包括：设备/硬件型号、设备名称、SIM卡序列号（如ICCID）、硬件/设备序列号（SN）、设备唯一标识符（包括：IMEI、IMSI、AndroidID、IDFA、IDFV、OAID、MEID）】、运行中的进程、存储（相册、媒体和其他文件）、浏览器类型和设置、语言设置、传感器、操作系统、操作系统版本号和应用程序版本、应用列表、网络设备硬件地址（MAC地址）、WLAN-MAC、WLAN接入点（如SSID，BSSID）、IP地址、蓝牙地址、接入网络的方式、网络质量数据、基站、移动网络信息（包括运营商名称）、设备传感器数据（如加速度传感器、线性加速度传感器、重力传感器、陀螺仪传感器）、软件版本号以及软件使用记录信息上传到服务器处理，用于安全风控验证。如您不同意我们收集前述信息，可能无法完成风控验证。请您理解，为动态检测您的账户是否存在异常登录，每次您把小红书切换至后台或重新启动程序时，我们可能会再次读取，我们将把读取频次控制在合理范围内。为了维护网络安全、保障良好生态，您的IP地址所对应的归属地域信息将会展示在您的个人资料页、笔记发布页和评论中。境内展示到省(区、市)，境外展示到国家(地区)，信息以网络运营商数据为准",
+      "1.当您关注您感兴趣的账号、进行浏览、评论、点赞、收藏、分享内容时，我们会收集您关注的账号和前述信息，并向您展示您关注账号发布的内容；同时，您点赞或收藏的内容会向您的粉丝展示，您可将收藏的内容设置仅自己可见，可以在【我】-【收藏】-【收藏专辑】中开启仅自己可见",
+      "2.当您使用推荐通讯录好友功能或您主动发现好友时，在获得您明示同意后，我们会收集您的通讯录信息，用于向您展示通讯录中的好友，您的好友也能看到您使用小红书服务。如果您不希望被推荐，可以在【我】-点击左上角-【设置】-【隐私设置】-【不把我推荐给可能认识的人】中选择关闭。通讯录信息属于个人敏感信息，拒绝提供该信息仅会使您无法使用上述功能，但不影响您正常使用小红书及相关服务的其他功能",
+      "为向您展示个性化的内容，或确保您能获知更为适宜的内容，我们可能会收集在您在小红书平台上搜索/播放/展示推荐内容的记录、音视频播放记录，或使用您填写的个人资料信息（如性别、生日）。如您对推送内容不感兴趣或希望减少某些信息推送时，您可以在长按笔记内容，点击\"不感兴趣\"。您也可选择关闭推送信息，具体可前往【我】-点击左上角-【设置】-【隐私设置】-【个性化选项】关闭个性化推荐机制",
+      "（2）通过【我-设置-账号与安全】设置、访问、获取、更正账号信息，含手机号（每月仅可换绑一次）、登录密码、绑定的第三方平台账号（含微信、微博和QQ账号）",
+      "（3）通过【我-设置-隐私】设置、访问、获取、更正隐私信息，含评论设置、@设置、通讯录推荐设置、微博推荐设置、位置信息设置和黑名单设置",
+      "您可通过【我-设置-通知设置/隐私/通用】变更或撤回授权范围，包括：1）微信账号、微博账号和QQ账号的绑定；2）互动、私信、社区内容、和商城通知；3）评论设置、@设置、通讯录推荐设置、微博推荐设置、位置信息设置和黑名单设置；4）系统默认字体的获取和使用设置；5）图片/视频自带的媒体信息中的位置信息；6）\"限定回忆\"功能"
+    ],
+    "navigation_paths": [
+      [
+        "我",
+        "设置",
+        "隐私设置"
+      ],
+      [
+        "我",
+        "设置",
+        "通知设置/隐私/通用"
+      ],
+      [
+        "我",
+        "设置",
+        "隐私设置",
+        "不把我推荐给可能认识的人"
+      ]
+    ],
+    "navigation_path_records": [
+      {
+        "source_hint": "2.当您使用推荐通讯录好友功能或您主动发现好友时，在获得您明示同意后，我们会收集您的通讯录信息，用于向您展示通讯录中的好友，您的好友也能看到您使用小红书服务。如果您不希望被推荐，可以在【我】-点击左上角-【设置】-【隐私设置】-【不把我推荐给可能认识的人】中选择关闭。通讯录信息属于个人敏感信息，拒绝提供该信息仅会使您无法使用上述功能，但不影响您正常使用小红书及相关服务的其他功能",
+        "original_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "左上角",
+        "canonical_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 1,
+        "matched_hint": "2.当您使用推荐通讯录好友功能或您主动发现好友时，在获得您明示同意后，我们会收集您的通讯录信息，用于向您展示通讯录中的好友，您的好友也能看到您使用小红书服务。如果您不希望被推荐，可以在【我】-点击左上角-【设置】-【隐私设置】-【不把我推荐给可能认识的人】中选择关闭。通讯录信息属于个人敏感信息，拒绝提供该信息仅会使您无法使用上述功能，但不影响您正常使用小红书及相关服务的其他功能",
+        "expanded_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ]
+      },
+      {
+        "source_hint": "您可通过【我-设置-通知设置/隐私/通用】变更或撤回授权范围，包括：1）微信账号、微博账号和QQ账号的绑定；2）互动、私信、社区内容、和商城通知；3）评论设置、@设置、通讯录推荐设置、微博推荐设置、位置信息设置和黑名单设置；4）系统默认字体的获取和使用设置；5）图片/视频自带的媒体信息中的位置信息；6）\"限定回忆\"功能",
+        "original_path": [
+          "我",
+          "设置",
+          "通知设置/隐私/通用"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我",
+          "设置",
+          "通知设置/隐私/通用"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 2,
+        "matched_hint": "您可通过【我-设置-通知设置/隐私/通用】变更或撤回授权范围，包括：1）微信账号、微博账号和QQ账号的绑定；2）互动、私信、社区内容、和商城通知；3）评论设置、@设置、通讯录推荐设置、微博推荐设置、位置信息设置和黑名单设置；4）系统默认字体的获取和使用设置；5）图片/视频自带的媒体信息中的位置信息；6）\"限定回忆\"功能",
+        "expanded_path": [
+          "我",
+          "设置",
+          "通知设置/隐私/通用"
+        ]
+      },
+      {
+        "source_hint": "2.当您使用推荐通讯录好友功能或您主动发现好友时，在获得您明示同意后，我们会收集您的通讯录信息，用于向您展示通讯录中的好友，您的好友也能看到您使用小红书服务。如果您不希望被推荐，可以在【我】-点击左上角-【设置】-【隐私设置】-【不把我推荐给可能认识的人】中选择关闭。通讯录信息属于个人敏感信息，拒绝提供该信息仅会使您无法使用上述功能，但不影响您正常使用小红书及相关服务的其他功能",
+        "original_path": [
+          "我",
+          "设置",
+          "隐私设置",
+          "不把我推荐给可能认识的人"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "左上角",
+        "canonical_path": [
+          "我",
+          "设置",
+          "隐私设置",
+          "不把我推荐给可能认识的人"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 3,
+        "matched_hint": "2.当您使用推荐通讯录好友功能或您主动发现好友时，在获得您明示同意后，我们会收集您的通讯录信息，用于向您展示通讯录中的好友，您的好友也能看到您使用小红书服务。如果您不希望被推荐，可以在【我】-点击左上角-【设置】-【隐私设置】-【不把我推荐给可能认识的人】中选择关闭。通讯录信息属于个人敏感信息，拒绝提供该信息仅会使您无法使用上述功能，但不影响您正常使用小红书及相关服务的其他功能",
+        "expanded_path": [
+          "我",
+          "设置",
+          "隐私设置",
+          "不把我推荐给可能认识的人"
+        ]
+      }
+    ],
+    "navigation_bridges": {
+      "不把我推荐给可能认识的人": [
+        "找到我的方式"
+      ],
+      "把我推荐给可能认识的人": [
+        "找到我的方式"
+      ],
+      "用户保护中心": [
+        "设置"
+      ]
+    },
+    "llm_nav_enabled": true,
+    "screenshots": [
+      "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061257_launch.png",
+      "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061300_path1.png",
+      "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061303_path1.png",
+      "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061306_path1.png",
+      "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061315_path2.png",
+      "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061318_path2.png",
+      "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061320_path2.png",
+      "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061329_path3.png",
+      "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061332_path3.png",
+      "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061334_path3.png",
+      "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061419_path3.png",
+      "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061436_trigger_tabs.png"
+    ],
+    "keyword_checks": [
+      {
+        "path_index": 1,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": true,
+          "我的": true,
+          "个人": true,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": true,
+          "profile_page": false,
+          "profile_resource_marker": false
+        }
+      },
+      {
+        "path_index": 1,
+        "step_token": "设置",
+        "matched": true,
+        "checks": {
+          "设置": true,
+          "settings_page": true,
+          "帐号与安全": false,
+          "账号与安全": true,
+          "隐私": true,
+          "关于小荷": false,
+          "关于小荷健康": false,
+          "我的": false
+        }
+      },
+      {
+        "path_index": 1,
+        "step_token": "隐私设置",
+        "matched": true,
+        "checks": {
+          "隐私设置": true,
+          "我的": true,
+          "隐私": true,
+          "设置": true,
+          "我": true
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": true,
+          "我的": true,
+          "个人": true,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": true,
+          "profile_page": false,
+          "profile_resource_marker": false
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "设置",
+        "matched": true,
+        "checks": {
+          "设置": true,
+          "settings_page": true,
+          "帐号与安全": false,
+          "账号与安全": true,
+          "隐私": true,
+          "关于小荷": false,
+          "关于小荷健康": false,
+          "我的": false
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "通知设置/隐私/通用",
+        "matched": true,
+        "checks": {
+          "通知设置": true,
+          "我的": false,
+          "隐私": false,
+          "设置": true,
+          "我": false,
+          "通用": false
+        }
+      },
+      {
+        "path_index": 3,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": true,
+          "我的": true,
+          "个人": true,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": true,
+          "profile_page": false,
+          "profile_resource_marker": false
+        }
+      },
+      {
+        "path_index": 3,
+        "step_token": "设置",
+        "matched": true,
+        "checks": {
+          "设置": true,
+          "settings_page": true,
+          "帐号与安全": false,
+          "账号与安全": true,
+          "隐私": true,
+          "关于小荷": false,
+          "关于小荷健康": false,
+          "我的": false
+        }
+      },
+      {
+        "path_index": 3,
+        "step_token": "隐私设置",
+        "matched": true,
+        "checks": {
+          "隐私设置": true,
+          "我的": false,
+          "隐私": true,
+          "设置": true,
+          "我": false
+        }
+      },
+      {
+        "path_index": 3,
+        "step_token": "不把我推荐给可能认识的人",
+        "matched": false,
+        "checks": {
+          "不把我推荐给可能认识的人": false,
+          "把我推荐给可能认识的人": false,
+          "我的": false,
+          "隐私": true,
+          "设置": true,
+          "我": false
+        }
+      }
+    ],
+    "error": ""
+  },
+  "frida_result": {
+    "runner": "frida",
+    "mode": "dry_run",
+    "launch_mode": "attach",
+    "package": "com.xingin.xhs",
+    "registered_hooks": {
+      "imei": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js"
+      ],
+      "android_id": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js"
+      ],
+      "location": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js"
+      ],
+      "ip_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "mac_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "phone_number": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js"
+      ],
+      "contact_list": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js"
+      ],
+      "clipboard": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js"
+      ],
+      "network_transmission": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js"
+      ]
+    },
+    "global_hooks": [
+      "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js"
+    ],
+    "papi_target_count": 28,
+    "events": [
+      {
+        "timestamp_utc": "2026-06-11T22:15:04.757652+00:00",
+        "pii_type": "imei",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js",
+        "api_name": "hook_imei",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:04.757671+00:00",
+        "pii_type": "android_id",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "api_name": "hook_android_id",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:04.757675+00:00",
+        "pii_type": "android_id",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js",
+        "api_name": "hook_oaid",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:04.757677+00:00",
+        "pii_type": "location",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js",
+        "api_name": "hook_location",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:04.757679+00:00",
+        "pii_type": "ip_address",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+        "api_name": "hook_mac_ip",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:04.757682+00:00",
+        "pii_type": "mac_address",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+        "api_name": "hook_mac_ip",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:04.757683+00:00",
+        "pii_type": "phone_number",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js",
+        "api_name": "hook_phone",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:04.757685+00:00",
+        "pii_type": "contact_list",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js",
+        "api_name": "hook_contacts",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:04.757687+00:00",
+        "pii_type": "clipboard",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js",
+        "api_name": "hook_clipboard",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:04.757689+00:00",
+        "pii_type": "network_transmission",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+        "api_name": "hook_network_okhttp",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:04.757692+00:00",
+        "pii_type": "network_transmission",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+        "api_name": "OkHttp.execute",
+        "args_summary": "dry_run_network",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:04.757694+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getImei",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:04.757697+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getMeid",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:04.757699+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getDeviceId",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:04.757701+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getDeviceSoftwareVersion",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:04.757703+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getSimSerialNumber",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:04.757704+00:00",
+        "pii_type": "android_id",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.provider.Settings$Secure.getString",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:04.757706+00:00",
+        "pii_type": "android_id",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.provider.Settings$System.getString",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:04.757707+00:00",
+        "pii_type": "location",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.location.LocationManager.getLastKnownLocation",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      }
+    ],
+    "error": "frida_disabled",
+    "skipped": true
+  },
+  "mitm_result": {
+    "adapter": "mitm_runner",
+    "started_at_utc": "2026-06-11T22:15:04.732013+00:00",
+    "duration_sec": 134.83,
+    "listen_port": 8080,
+    "flows_source": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\output\\stage3_lab42_before\\小红书\\mitm_flows.json",
+    "flows": [
+      {
+        "timestamp_utc": "2026-06-11T22:12:50.893004+00:00",
+        "host": "crash.xiaohongshu.com",
+        "path": "/api/v2/android/crash",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"breadcrumbs\":[{\"category\":\"ui.lifecycle\",\"data\":{\"screen\":\"com.xingin.xhs.index.v2.IndexActivityV2\",\"state\":\"created\"},\"level\":\"info\",\"timestamp\":\"2026-06-11T22:12:43.155Z\",\"type\":\"navigation\"},{\"category\":\"ui.lifecycle\",\"data\":{\"screen\":\"com.xingin.xhs.index.v2.IndexActivityV2\",\"state\":\"started\"},\"level\":\"info\",\"timestamp\":\"2026-06-11T22:12:43.444Z\",\"type\":\"navigation\"},{\"category\":\"ui.lifecycle\",\"data\":{\"screen\":\"com.xingin.xhs.index.v2.IndexActivityV2\",\"state\":\"resumed\"},\"level\":\"info\",\"timestamp\":\"2026-06-11T22:12:43.493Z\",\"type\":\"navigation\"}],\"contexts\":{\"app\":{\"app_build\":\"8790866\",\"app_identifier\":\"com.xingin.xhs\",\"app_name\":\"小红书\",\"app_start_time\":\"2026-06-11T22:12:42.322Z\",\"app_update_version_code\":\"8790866\",\"app_version\":\"8.79.0\",\"app_version_code\":\"8790866\"},\"os\":{\"build\":\"V417IR release-keys\",\"kernel_version\":\"Linux version 5.4.32-perf-gda349bfae95e (build-user@build-host) (gcc version 4.6 20120106 (prerelease) (GCC), GNU ld (GNU Binutils) 2.23.2) #3 SMP PREEMPT Fri May 15 13:37:50 UTC 2026\",\"name\":\"Android\",\"rooted\":true,\"version\":\"12\"},\"device\":{\"arch\":\"arm64-v8a\",\"archs\":[\"arm64-v8a\",\"armeabi-v7a\",\"armeabi\"],\"boot_time\":\"2026-06-11T18:38:03.270Z\",\"brand\":\"HUAWEI\",\"connection_type\":\"wifi\",\"family\":\"ALN-AL00\",\"free_memory\":4162363392,\"free_storage\":116190314496,\"id\":\"82d462f7-5dee-3a4d-8958-579d12e84add\",\"language\":\"zh_CN\",\"low_memory\":false,\"manufacturer\":\"HUAWEI\",\"memory_size\":6238478336,\"model\":\"ALN-AL00\",\"model_id\":\"V417IR\",\"name\":\"ALN-AL00\",\"online\":true,\"orientation\":\"landscape\",\"simulator\":false,\"storage_size\":134208294912,\"timezone\":\"Asia/Shanghai\"}},\"debug_meta\":{\"images\":[{\"type\":\"proguard\",\"uuid\":\"bb7b4167-0271-42d8-ad8f-3e3d3c712de5\"},{\"code_file\":\"/apex/com.android.art/lib64/libart.so\",\"debug_id\":\"00000000-0000-0000-0000-000000000000\",\"image_addr\":\"0x0\",\"image_size\":9897600,\"type\":\"elf\"},{\"code_file\":\"/data/app/com.xingin.xhs/libtuner.so\",\"code_id\":\"fd9fee551d9694508dae5920059977837c6a6eb8\",\"debug_id\":\"55ee9ffd-961d-5094-8dae-592005997783\",\"image_addr\":\"0x0\",\"image_size\":108656,\"type\":\"elf\"},{\"code_file\":\"/system/lib64/arm64/nb/libtcb.so\",\"debug_id\":\"00000000-0000-0000-0000-000000000000\",\"image_addr\":\"0x0\",\"image_size\":1567000,\"type\":\"elf\"}]},\"dist\":\"8790866\",\"environment\":\"production\",\"event_id\":\"23a618114cdf4ab88300b19ce4142785\",\"event_type\":\"native\",\"exception\":{\"values\":[{\"mechanism\":{\"handled\":false,\"synthetic\":true,\"type\":\"signalhandler\"},\"stacktrace\":{\"frames\":[{\"native\":true,\"package\":\"/system/lib64/arm64/nb/libtcb.so\",\"addr_mode\":\"rel:00000000-0000-0000-0000-000000000000\",\"filename\":\"/system/lib64/arm64/nb/libtcb.so\",\"function\":\"\",\"in_app\":false,\"instruction_addr\":\"0x1133dc\",\"platform\":\"native\"},{\"native\":true,\"package\":\"/data/app/com.xingin.xhs/libtuner.so\",\"addr_mode\":\"rel:55ee9ffd-961d-5094-8dae-592005997783\",\"filename\":\"/data/app/com.xingin.xhs/libtuner.so\",\"function\":\"\",\"in_app\":true,\"instruction_addr\":\"0x700c\",\"platform\":\"native\"}]},\"thread_id\":30019,\"type\":\"signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault addr 0x7d8470690ad8\"}]},\"extra\":{\"1_regs\":\"  x0  00007d8470690000  x1  00007d8470691000  x2  0000000000000003  x3  0000000000000023\\n  x4  00000000c0300c03  x5  0000000000000000  x6  2f1f6f2c2c711f2f  x7  7f7f7f7f7f7f7f7f\\n  x8  00000000000000e2  x9  000000000003a57a  x10 0000000000090ad8  x11 0000000000090ad8\\n  x12 000000000b9a2735  x13 00007d83f7b9d678  x14 0000000000000025  x15 000000000000002e\\n  x16 00007d843626ee58  x17 000000000ba1a970  x18 0000000000000000  x19 00007d84b3b49ed8\\n  x20 00007d8470690000  x21 00007d83f7b9dbf8  x22 00007d8470690ad8  x23 0000000000000000\\n  x24 0000000000000000  x25 0000000000000000  x26 0000000000000000  x27 0000000000000000\\n  x28 0000000000000000  x29 00007d83f7b9dbe0\\n  sp  00007d83f7b9db90  lr  00007d843625b000  pc  00007d843625b00c\",\"7_4_processDalvikDetails\":\"Process Dalvik Details (From: /proc/PID/smaps)\\n   .Boot vdex       65        0        0        0      468        0        0\\n     .App dex     2158        0     4312        0        4        0        0\\n    .App vdex   105420    74520        0        0    61800    74520        0\\n    .Boot art        7        0        0        0       96        0        0\\n\",\"session_data\":{\"launchId\":\"c7d623aa-8da9-4263-a091-4ee9d72268f5\",\"id\":\"ec682fad15da4509b196a3f0b428c07c-000\"},\"7_3_processDetails\":\"Process Details (From: /proc/PID/smaps)\\n                   Pss      Pss   Shared  Private   Shared  Private  SwapPss\\n                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty\\n                ------   ------   ------   ------   ------   ------   ------\\n  Native Heap        0        0        0        0        0        0        0\\n  Dalvik Heap        0        0        0        0        0        0        0\\n        Stack       94        0       48       72        0        0        0\\n       Ashmem       21        0      320        0       16        0        0\\n    Other dev      262        0      316        0        0      260        0\\n     .so mmap    63635    52588     7900      356    48264    52588        0\\n    .jar mmap     8471     1196        0        0    32384     1196        0\\n    .apk mmap     3856     1312        0        0    10224     1312        0\\n    .ttf mmap     3632     3544        0        0      176     3544        0\\n    .dex mmap   107643    74520     4312        0    62272    74520        0\\n    .oat mmap     1574       40       64        0    16096       40        0\\n    .art mmap        7        0        0        0       96        0        0\\n   Other mmap    13333        0     3168      444     3228    10544        0\\n      Unknown   280264        0   193384   192796      684        0        0\\n        TOTAL   482792   133200   209512   193668   173440   144004        0\\n\",\"2_javaTraces\":\"Java Stacktrace:\\n  SourceFile in nativeSetMinFreeHeapAfterGcForAlloc at line -2\\n  SourceFile in a at line 11\\n  SourceFile in execute at line 2\\n  SourceFile in run at line 9\\n  Executors.java in call at line 462\\n  FutureTask.java in run at line 266\\n  ScheduledThreadPoolExecutor.java in run at line 301\\n  null in F at line 14\\n  SourceFile in run at line 9\\n  SourceFile in run at line 2\\n  ThreadPoolExecutor.java in runWorker at line 1167\\n  ThreadPoolExecutor.java in run at line 641\\n  Thread.java in run at line 920\\n\",\"device_data\":{\"orientation\":\"landscape\",\"modelId\":\"V417IR\",\"ipAddress\":\"10.0.2.15\",\"androidApiLevel\":\"32\",\"deviceId\":\"82d462f7-5dee-3a4d-8958-579d12e84add\",\"version\":\"12\",\"manufacturer\":\"HUAWEI\",\"networkAccess\":\"wifi\",\"build\":\"V417IR release-keys\",\"kernelVersion\":\"Linux version 5.4.32-perf-gda349bfae95e (build-user@build-host) (gcc version 4.6 20120106 (prerelease) (GCC), GNU ld (GNU Binutils) 2.23.2) #3 SMP PREEMPT Fri May 15 13:37:50 UTC 2026\",\"name\":\"Android\",\"deviceLevel\":\"3\",\"model\":\"ALN-AL00\",\"family\":\"ALN-AL00\",\"brand\":\"HUAWEI\"},\"7_2_processLimits\":\"Process Limits (From: /proc/PID/limits)\\n  Limit                     Soft Limit           Hard Limit           Units\\n  Max cpu time              unlimited            unlimited            seconds\\n  Max file size             unlimited            unlimited            bytes\\n  Max data size             unlimited            unlimited            bytes\\n  Max stack size            8388608              unlimited            bytes\\n  Max core file size        0                    unlimited            bytes\\n  Max resident set          unlimited            unlimited            bytes\\n  Max processes             23778                23778                processes\\n  Max open files            32768                32768                files\\n  Max locked memory         65536                65536                bytes\\n  Max address space         unlimited            unlimited            bytes\\n  Max file locks            unlimited            unlimited            locks\\n  Max pending signals       23778                23778                signals\\n  Max msgqueue size         819200               819200               bytes\\n  M",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:12:51.041306+00:00",
+        "host": "infra-app-log-1251524319.cos.ap-shanghai.myqcloud.com",
+        "path": "/xhslog/1040g2103219s15l1nk405pq5ndvndktocr8san8?partNumber=3&uploadId=1781215969d6ed64db01c1a0129c49a28c79061db5d9e61c38a1a09c620e10dc3c31bde969",
+        "method": "PUT",
+        "scheme": "https",
+        "request_body": "°±¿¯\u0010êOD\u0002D\f¹\u0016Á®\n#µV\u0011äÔJ [\u001eî£å\".sat8)w,;Ý\u00156ÑúÒºy¬mö¦Á.²ÿ÷U¯{ë{.dUåéº\u0018@Å¿ý/±íxd\u0006Éß\u001d¤\u0017\u0001\u000fõn8M J£÷7É9 òl\u001dGÏÓ¬Ô\u0011v\u001dUX{ïú'Î3dBÔH¹\\ºp\b\t\"\u001a2ÈÏR\u0011ÀÅJ\f«\u000bz\u0018â¾6×2?ÇjË}¡:~ñ~\u0007Äõå\r¬Ö\u0004kv/ðë;X\u0005\u0012Ù°[vÛGeèn9ÊÝ£ÊtRxÁS°ù\u0001xÅkpéÃ°V¶?à. a|¹¬CJ/\u0017Qð)Á\u001d?\u001cu¿×Ìm7Kß¸\u001a\u0010µ^uù%\\ \u001eù\u000e\"p&â9¸A\u001eXg\\.¸×Aß\"qGÐ£ºÒ6#a61Cãm\u0017`£CC¯\u0003ÿmßâÞp\u0013e\u000e3\u0007Z%\u0016¹ÉîÌm¸£æ\u001fdFÔ:­¾ø)\u0015ó\u001eÜF£eÃ~#\u001aù\u001c@û\u0017Å&âôó\"³± WÃÚÕ ^Ò\u000bìðSÿË~¾\u0012¯S[¨ñõü\u0011®\u0011r}[É&\u0005$h¬eOél¥$¡,Zd\u0015úÝD¿\\¥¼!£`#éÓN:å\u0010äàt¨»@§\u0011KØÍÏiÓö×$Ì\u001an\u0006EroìUÜö°1OPØ2±«#üïS'%N1\"¿p6$ÞÂ\",r\rkoüé¶\bTîºé`¸¢¸ÊÌl.ö\u0003¿Ô\u000eR®fÔ\u0010í¤5Füwb·\u0016XËÌ\u0002u\u001bG5\u001exÐPFÂ°\u001fm8>»_»Ì#B´ë{\f¶neã\u0014&j2\u0000Ï@½³Â(£Ô;\u0003îyÚ\u001c:Z\n«IunÕÙ­×ª!Ú¶t¥Ëåý`Ô\u00198\u0019½áþ@öåy,ÿ|µðõüzoBõDÈ|áFØaÔÏM1S¬\u000bø`JõôwÞë.c@é%'±^·ðÛ[ôÖËÌ3ô\rÝ\u001bZ\u001ctmb\u0014ôåz ÛË-Z.ëú4þq«È\u000e©\u0013ü\u0010'-R?ÏÚ´&!üÈa9±\u0002V&NÓAìÿû½\u001dG`\u001c]ÜY{¯Ô´\u0005/ãPöË3g<|±\u0015PDÞÛ¬IvÿxÝàð¾\u0001_\täxýr\u0010q8a8yq2\u0015¶\u000e$cæÚ'\u000fjpZKêi¼ºËfÉ\u0013âVÄïåE\u0014Ú\u0005b÷L[±KÏDUQW ÿ_Äâ±± \\\u001e+a}Atz±&æ¾nÓ#3\bW¼¬(µxÇ\b\u0014%Í4Ï6@á\u0016kK\u001eV\rCx.u \u0000R\u001d5\u0016>õ\u001c[Í\u0010q¸h¾5*m\u00035nÆÄ »©.\u0007û¨ LU~ÆþÑ³A¬¼Ûæ\u0002\u0019\u001d@õDÆ*w3ø>?jév¤¢F×ß£ö)YÁ\u0012O-àU°£\u0018lÙÈB\u001dDÜNõËàÚ\u0002ä@Î¥Ð:YÉV\u0003}±ø®Z{M\u001b Ðª\\qÆÎ\u0001%V£q4²¨ÚÅAö²rûû\u0013âjÖN1é\u0017ÂÖ¥»åPNìÕ@\u000eâU»\u0002Ý9!rfñªOÃÕ IÛ!Ñ\u0005\u0014Aw(Aè»QE(ÝXÖ§¥¨X¹~`(ÚãsË85¦\u001d`\u0004\u0019*<µÊ^°ÆÓTÛÁúÐt\t1!N¼\u001a=Ût\n=\\G\u0002=Ú?þ·\u0002!ìÊÂm\u000eßD»dåìvW±Pê® Y®l z\u001aÀÇ».ÕVmíÄpà\u0011M\u0012Iá#-ê\u00136\u001fQ°´£\\å]\t\"%hO°N[¾HÕ\u001aÿýÉî\u0010\u0016\u001ddz\nËzÔ$i\u0006\u000eQº2õÚ\u0017¥[«°(îÿ»N®ãOjfÐ\u001b&Êùc7öo \réÃý9î÷ñ_ÅIÐ)óü9ìS\u0014.³¨Q\u001b­»`ÊAjDÂ]2é±ù´\u0014à\u0001Jv)D¹\u0000\u0000\u0000\u0000ÿÿ\u0002\u0000A\u0004é;\u001f\u0005%¹bëèèªÜ´Új\u0000Ýrõm5ñ¶Ð(éèqP¯3\u001a\\¬CH#b:CÍ r3G\u0018p<Àk)µ£þ\u0000\u0000\u0015>N.JTò#${âqD\u000e·-ÕûC\u0007°ÛÎ°\u0001\u0010p¯\u001dÊ5\u000fûL\u0014\\\u0005xâÙÀ57ë\u001f¯° 43§ø9/Óçô­¬?Q¢Xäsx17©]\u0001Úø?\tÜñ~\u0006³¯OÎ*/AÂ¢öN\u000e±gqs¦ñ'@JÐý5ò½\rùZ§¢ôz\u0006¾G\n_ã¥Ä\u001fS}sÁÛñdUr ^1<?ºÅ\u001fD\t\u0001Úª¾<ÿ(&ÐY°\u000e§÷\biõá\u00186·\u0016Ç*#OD^¢ô\u001eEÚ\u0005ÊuTfÙµ£avå\bY6©ÉtªÐuåøÅ\u0006ègÞâV\b9}cIm¥ð¥\u0007\n41R·SéìÅÿÈäÃT\u0012a­çAæwÙÔëmFÑ\u0012\u0010Á½àU´\u0014Ôjæ\t\u0019äµ¼ú\u0011øi^Föî_?\u0015ªû.]\bö^VjK\u0012\u0011AÔS°5N\u0004Uè-ç=Ü\u001eºKL#l£\u0015p·Î\u001b´ÐWÇîÑ\u000eä\u0011l5Ãkÿ«lm\nÛE\rA¯îÞ\u0011uf\\m\u001f8ùó;5ýÜ)îná·±Z¢K\rn5É³¶·\u0001ëjlU+f/§G\u0012xÞ4éÿ\u0012¬k$è¬¼Ø\u0014ÕËþ8ì_ ËêV\u0006\u0011ïåÿÄbx\b°,fÏ@ÈP\u000bD\u001a;BA¤NÚò­_üa`òaÐ­\u0012u\u0006ÅßAÇû§¹¾[%i3\u000f2ÔüäC\\ºÙ\røV?M\u001aÓ¯]\u0007Þñh}_\u0005ñÞ´ö\t\u0011¡¨?È?\u0010îªåïî`PÉ\u001a\u0001,4#v¯ô{ÆÌ0>`5|¯MÇ\u000eò\næã^Tòz[$B\u0011wÅGQºçü\u000fì0¿\u001ad~îå\u001cx`æ?Ú\u001bk×MV\u0019¬IbM óxP»Zâ\u001bú%øHËtdqÄÓKÛü\u000bÅ\\-\u0006ó32|#0Äðxµõó$¨÷^{}÷*õ#½?ù.wA¯§b,ä<fç)»øæ·\u000f¤\\¥±G7{K0nAB\u00027xÍ¨{'%í¼ÍÌÙ\r|ÚÄ0¥´Çk\u0011\n6ù-CRõ¦Ðq\\\u000fÏÛ5j_/\u0018:äX3£\u001fiï\"½ØÞëF\u0011§HO´õþß19çÃ¨¾>è\nÙK|ó\" 1ÂÇfä÷È¹\u0003êÙ¤ñ¿\rÄô¤*³?ös\u0019£ÆãDç×\u001937û¤µ¹OtÒøÚÊ¼\u0011ã\f[6ÓøDè_ÆÌi\u0004ùìïx\u000fzR¤\r'`6!½Ýð!¥\u0006Ãø\u0016v}\u001dTÄYIîBHm\u0014`\u0005üèIÏU³Èçv\u000bC©ó¡ýÓþØÊJ¿\u0007eÄÕ(\u0014vG\u0006\u0004j\u001b«ÙÏø2!ª`ÎÔ,\u000f»Åß9\u000b\u001an3çi\u0018¨ç Á¶ôs=JüO%Ä\u0005f¥|R«Ò{ZÐ\u0014&_\u0012zt^çª~ßîXïÞ\u001f! ç\u0015¯¸Ù\u0003ë;µQ¡! äêôÇÇzfs\u0018\u0004ÀM\u00196º\u00152/=wÿÛ\u0012\u00162±\\æ¶68ý^¬ÞÂ»Ü\u000bç,ð³g;<ì¿.Íæ\u0000ño\u0005¤\t¼Óã\u001b'6ß#\u001c3\u0003Z úãñ9o\u001f\u0013vyÚ1>\u0002Ài\t+©æò_\u0019¾R^\u001d¦ <^ëc\u001d\rüv#È@û\u0011ü\blz®\u001f=wÆb\tÁ}ÞEk2ì?Ð¢ßÉ|ògxÙ\u0004Ør\u001d0¼%lê¦Gõd!#ÇLkcÔ\u0016\u001fX\rf¿®©^\f7û8^\u001d\u0001MÓ+ð\"¤¤RIûåÅ¦}â£ Î$bs,É½GºÓv¤òÝ9Ä©\u0010ò:[\\UùSR\u0012dPIó§ÉÒ©\u0007°Ä\u0004+ÏÕ)¬·{\u0003M\r$5ÍßÎ¥°#óÆõØOø'h¾E\tñD=DsHl{´c \u0018@çÑ<&ýxæÀ\u0006-B=J©\u0015ó I(A{¯<NGBe\u001cÀBÿåÞñ\u0015!Ý¯r\"\u0006§³H;·Õ\u001ax°\u0016o×Ë!HG22bh£\u0013ÀH!às\u0012yX!épÞ²pë$9·h)ºþ\u001d\\XáB\\2À³fË^þ×_Ø:æòöaë\nÐøf\u000eÓÝk®_I,ÀëÇ«7h®tMySw>,§\u0006É\\³ðÉ\u0000F\u000eÏf¼\rpIÁ[<={÷¡K\fyË\u0001ÛD·¡7Ý¤ó³rëv¸§ù[6\u0000ëS@d¨ÔöD{dPäÊPM·ü\u0010\u000bçÊ»¹üµO ÖX¢\\­\u0001?^Æ2\u0002D^\u0006î>Cc|öÕ[7à¡\u000eú\f\u000fséNá!¿7»\u000fC¿\"ª\u001c\u0016¬Òû\u0014TáÅf\bÿ¢£\u001fd¿^?tüÁßç¯LÓ\u0018ÚNôd¥\u0012÷Ê.ù\b\u0001N°\u00123ð?Ð\u001c@*b14\u0015Zº9²Y×`°Û#\u0014\u0007ßÕf!Ô)übX\u0018$YÅã\u0019¤b\u001dº*T£)ÎÏÄ!pá4xrWôÄý¨¾Kì\u0003'G\u0017$íØgÒ@CSÊ@ÞT*Ç¥Ø²êÃ\"%(MmÅçl\u001bPè;@1Cl¬5L\u0014`l¯G\u0011«È_ÖÄ]BÚAJÏtmºá\u0011\bÂ8Zè\t­WHýÈvÛìOc[~©Bëú3U\u0015nÝäÄ®ï÷È\u0017ÜÝ\u0000\u0015Æ»cG¿ÏÎ\u0019¾lÚò\fúÊ\u0012ÀñÄâ´:g\u0005Ógîv\u0003÷)H`'¼äH\u001a.Ë+õ&î49ü\fb÷²OQw\u001f°\u0013;%òsÄAø¿qüuã\u0003v\u0000^eD[6\u0013¯×\u001c?9\u0007ÑÒÓ07>vëHÊ±=â9pîè×-\u0006\u0002©¹|ã¹ü\u0013îÂ÷b%oC^\u0001&ý\u0001væm§GT§E¸ì«¸üõÞù:K\u001aJH\u0002Ée$´ú£U\u0019X/°\u001dQlSf¯ P\u0005ô²G}Ü%ôzE\u0007Ñý\u0007iµ\u0014\f/1;nÕ\u000f¾/¹YÑ\u0017û·t\tF¶5\u001b\u0011%O¾c\u0019ÞÎòG\u0018\u0005rÒÀy>ð(>u/PeRÿ#òJÝF#û\u0017TKu+XÚ?6>¹Å\u000bÆ\u0007ÿf£ðh\fþHã¨H`Xú)ºÈ4}º½\rd£¥x\u0005ãÞ\"-·÷ À±ÌnH\u0002ÁZÔ³\u0014á£\u0002I8ñùËw¢\\Ñ\u001eÊ\u0005Ù#\u0001ûÝý5ýï¹T,'\u0001J¶Ò\u0000¥,^\u0002û9GÆ}(É{Û\f;Ù¢\u0012F\bÇÿ××v\u00005m¤\u0007$u\u0012èH/å¬yk×6A{\u001fbÁùhúH\u001etQf+]2+¨\u0004Ná^âX)®<Ç%xÕG_\u000fúðöÉqcÇ\u0010\u0014Í?ÊÌØsºLâ\u00109I»K¥Í·C.\u0011jù}~ãïêODÚÔgs0a¥*R®&º&ô<ß\u0013Ãö\u000eNêîh\rüÿ¬\fÁîã>ïÍ;tÂfÕÛ£Ñ\u0002A¢î\u0001î\u0010Á\\\tb\u0019\u001f1Ú\u0001ÍëâË¡ÉÓMTÈö\u0007÷¾\f'?Ö®ÝAKÙá\u001faªIN°\u001cI\u0004$@\u001dÛ\fÅ¿\u0016û5\u0010yïM´é\u0016¦jªs8¼Î¨\u001b\u0012íÜ5ô ¯:C¦¶0¿«múÚ8Þ\u001d[¶4Õ5¸nfàY\u0013 KÎ\u000bÔ*î\u0015lÉ©È\u0012Ek=\u0019/Ó¶R\nÎõªnBÜ\u0013ó}oÍCR}[:B9zX\"cø\u000e\u001f\u001c\bå\u0001q­\u0012D~#¸ÊvÑ¶ÿ«Æ\u0007V~L\u001aôD()7BsyE+L\u0014\u001d¬\u000b£\r§½­Â\u0017w=\u001f.!\\V\u0002ç\rôúú2üK­{'6¢ï­ßtøKÀT\u0004Q//\u00148²½}¢ì#\u000e\u001cú+~i*ÿÌßtãá¹Ò\u0019Õ+á@#GØ\u001dò:\u0015Õ\u0018tH[Wè2 \u0002kdzcpf9ß³ô\u0011Ð)]½æ\u0010_*Í)5ûb/ÉþÁ¿\u001a\tÄ²ÑÓDÙäd\u0007¦NåâºÀ \u0015ìûG\u0011B]§ÔiÌ\b\u001dÕa/í²+1õ\u0018|#}ÚÉºñDÞõÉ'W\näs\u0018ø´Õk7ÊÜº>AÙßÜÀ6å²-]pýR¢)\u0017\u001bY8[mû\nDøËÿ\\ükà\u0017¥é¢)Ô$2lI\u0006ºw5h\u0003um2ö:\u0000\nÁ©¼òÈtTÿb?ÌðÞõ:\u000f[\u0004IX=dI¬\u0006 BÂ\u0000\u0004&äðÀ;8·R\u0003éÆÛ£éè+t¢ \u000bCc\u0004øXåÄ¼£5§¡8$ÎÐ§ ÔÐq^íÉ°~¥eJA§t÷]|;ÅyÆ-j\u001a\u001eÈxë\u0012-Ù¥Þj\u0017Ý?\u000fºx\u0018aì\u0001*ZwÎªå¶\u00117sýáXôÊ­1ª{[¦=ýußÄ§ÉG\"M £i®sÍr\u0000Îï\n9eù¸m\u0014$\u001a\u0017T²9ý£®l}fß\u0001Ý`\u0007\u0010ÇfDOîc,¨§Å\"¯~\u0017âÿ¼ý\u0002SG]¾@èñ\fÄ1ïóñ1\u000eÄÏ\u0011ãU1e¢9î¾ìfUÝ¡Ë:8ÐÇ*G³h.¼@AÓ¤Óg%VÐãS\u0015JoÚÿÿþ\u001f°ÏzZTsZwþÓìt\u0017ÉµëÝöW\u0002\u000f\ré§ë\u0001!¿\u0018r¢\u0003ÜMyÉÇxÍ^{Ê*n\u0003\u000bR_jK\u0014øO9¡_äàèÜta1®ÅIº\u001a÷­\u000f_n\n\u0011+¨Èw\r?Äæd\u0002(®Ê@û\u0013\rI:vs1mw{)ÙYì8\u0005c\u0007X2ý\u001dÔ_·@8üw(J\b>@r¢à2\u0011®ã ²BýtÞj\u001a\"Àã\u00141zg¹Bàöñ£Ký\u001eø½`ÂúfÎuÑ%\u0006\u0016ô)ÚA}6SÒÉÉ~ÃÍÌ,õ\fR\u001fy$\u0018)¿è \u001d^ëáîÊìHl£HE\u001a£\r\nd §\u000b5o\b3ý¥Kªd¿\u0015\u0015Hí@\u0007=O±\nî\u0010\u0004É^H(S¢ÐT@5ÞÝ/\u000bÒ\u0012[¬ZK®é1b®Ï®?aK¥\u0012\u0016Þ\u000fVb'4Áà\u0006îþáàÝjÑ$\u0011fàXÔ\u001d'4[\u0005ãí\u0013\"pÂÂÉÑ\u001fuã\u000bÀÌÇA(\t¢·Ä\u001co\r\f&3_\u0006=ºßÙ´ìÈì\u0007Q1NuÔ\fÇ¤\b>}ï$F\u0010Î±l\u001fEXä vý\u001d&á`aqéº¢T®n'8~â\u001aõÎ\nU\u001eÜºIÓ/­ÅØ>ôí Ä´°íù`¥>Å=\u0014óâg±;àÆ>\u000b\u0002ò#\u0005ÍÏ?Ä\u001ar\tãùo^\u001d&ØÐfüíßDb|Pl½µ)ÕDwT}MXI+U|í\u0012äéW¢\u0003=\b6Bû5îmG\u0005p?í»×:\f\u0014¢\u0000ÒThØÀK\u0007§\u0001\n5\n\u001eJ\u000e\b¡h'm\\«TLà§m\bÿ\u0002¹´0ès\u001aº\u0002\u001fæG\u0010JÀO;÷\b@\u001aF!;.*:)¦\u001c\u0012¢\r#KkQ»ôa¼\u0006¢ªÎa_BÝÜé#$ònÐÉÆìá\u001dÔú¶µÔ¡Õ\u001clÏ¨í\u000e8ï;\u0014æ.§1<Ì>óv1\rÏ1[@üï¦#Ûl`ÕÈDã\u000f®f\u0016zo^¦*Ó©éÿ,áÞN\u0018ÜºÂ|;ó¢\u0012:ðgÄ*Ä¸°wæEÇªÅ3i5\\XU\u0010\u0006bÀsU·\rÖc!úðuô¬±»æ\u001bÈWpÂ\u001búPÄfñ»äÛ[öcí\u0018¼!D\u000bô&ù\u0019Vku\u0014¿wüEÇ/evÜÖ=©Wjø\u0005\u0011\u0002»ÝAØ1ÜìC\u0017ÿx¤oý^+DBdÄuÎ5ÌIðÕ\u0005ú+ ¦}5Üm_µd,øNê±Æ\u0017Üfå¢Yþóþ.ì7b}\u000b:\"RÉBBxT0[,zuMC\"hÐÆÖÉ»»X_4\u001c#d ÑØ)÷\u0001½éÿl/\r\u0003\u001eJb\u0014³í¹ãkÀs\u0011HÈ³ç\u0006\t\rbü¦LP­\u0011Ö\u000bpÔè(áÀfõ¥\u001aD\u0015ú¢:PÒuNùÚ!ãÊ²¨ìwâÎ1Vi\u001e¹S¶\u0017(åHYEíkÄ\nðl}!#~zÁ_\u0002\u0000öZF!ª<ÜÿëêrÉ\u000eok/:\u0000Óe>&|¼#iuÿÁ\u0001æ,36eô \u0002Iì2pmª¡è[q\n¸z\u0006õ\u0003°ÿDX9Vã\u001f\u001aØÃÄ§)\u0003\u001c®.ì`Æ\u000eô½nHÝLy®êÛá?ÔU§­(qo\u0014¢å\u0012S\u0003v)¸\u001bÔ¦e£°\u001c£\u001fT©\\\u0016T~ç×Â\u00132¡ò\u0017gê6\n1ÆÀ»ÚBa1Â.:&\t£ì`à%å\u001a\u0002Úr©_ÃÈà\r\u0000 k¬iÔ\u0001*LTá-o<ëf<¡ ±Y9¤\u000e@ÓÉ¬e\u0004Ðíï´§\\å53ÃhiÓ\tÓ~TUÓ*Àp¦Û\u0005¾p0h\u001cþßÎl,Ã\u0005\u0019ã\t¼é\rwcBU×õX¸a\u001cbÎü×q\tO^áP×èq£\u0015\u000b(S<÷´`Ë÷Da'LÞ¢&½j]ìEÅÇnX\u000e\u001bõìN}È'î1à±Ô£_ªd~=ÅWäè_|x!Ý°¾ï©=,µk\\\fN\u0004¤ýB¤t¹Q\"m@ÌÎæAü\bSáÞÿV7Qf1T\u0018Gü[ µ_·Hm£Ç×wísÚ\u0011\"a¯­\u001bö]UÏ÷W\n¥ü\f_ Ó7\r_ÔKPÃRQÆÆ\u00024p\u0010e \u0006Y¶û_ÆYÖÍY_SþV[°ùë\u000bè\u001cùÂ#§sÃ%wÿ \u0015\b}Y¾c|\u0001Ø§:\u0004ÜûûÔø\\\u0019ßãSäôöGKÿ]§\u0019á[è\u000fßìFìYµp=(÷n¿é©Âk\táïQ¾*õ6\u000e\u0012ç\u0010¥­Öu`\u00123§J}öMà&3¥ÝM~nïÈhX>G¹.\u0010þü\u000e­:î\u001bTPê£-R¦;\u0016P`þô&½îÜR\u0001õ\u0004ÊÅf\u0012`íÇ\t\u0011&R\"²\u0016\u0007Jø\u0000\u001cBÔ½\u001fÚªxñpDãéYlhà~¬&\u001a\\¦e;2½V7F\u000eÀàù)ÿì\u000e§'\u0016ycó?\u000bU1÷þüÓ¯åUÁ\u0000Fh\u000b¼~­\u000b\u001a\u0015@cU\u0019bÇé]o/\u0016VKhÕ*`a\u0004%Ý\u0014.±juÙ±}Ð<\u001bßIF@¼¦\u001e\u001eFiÈFýcRD\u001d»ÿß\té}\u0011X\u0018KH²ìÄ\u0013é,´¥S?UÛÕï)\u0019x\u0007XpåçÝ[T$ÕDÙrý³$ü-¢¸MWÖÉ¿vùª8f.zws¦4\u001aÃ¸\u0006Ú­\n\u0003wUü=Tº;²>¼âÛäë\u0005ú7\u0016³\u0004\u0003ÆÙöª \u001b°uúS¼L~A}ÚÚëbP\u0005]\u0019Æâ\u0000Â½¨¡P}Ð«F\u0002\u0001Gî³è0\u001cù­\u001a\u0011\u0013F\u000b=\u0019w;ÎyÝÿ\u0017]2ò\u000eq­-×¿©ÕÖ#=.ÒËÃpº=_³ÿÚÏ±ý_T<ÁØK¾Õß2Þ\u0004\u001b}1ëK¨E¶&\u001f£vO§ßÆËéÏgvy/oÆné§C-[bA\u0010ÈP~P9ágÒ¥@ö\u000fä*æÚÇ\u001e\tÓæ\u0004àlàyN¥{¤Çg\u0012icú\u0004{rá_n$ÆÀDòM²s&ÛK^ëïzV÷fRÿÿ\u001a\u001a1¨7\u0000\u0000\u0000\u0000ÿÿ\u0002\u0000A\u0004\u0015ùâëÚù9Ç}V4ë­>|\rãUt\u0019¹@ªÚ\u0014á][<\fï\u0016á_^û\u0001v|Ò6ýÐM\u0005èÃO6×~~\u0005\u001fG{\u0000\u0000\u0013^ð$Ðv\nlñÂuùëè\u0006\flÞâM5îRËá\u0018ëE1,XpTõ FoÙ>\u001a§\u0006«=ûI\u001b·\u0005X½J'íúêyd ôàûQüÈ\u0002«\n \r'&û²ï\u0018-m.\u000e}ãTßL$\u001fB6[§E4J\u0005-v@!¶,\u001aO\u001e)°©¦\u000fMðÏjñ¥À*\u0018!¼'\u0004\bð\u000e!ÌanNÞ=5xôáV1³GÁY*/ÈêIÃìÊoÂ\"\u0010f`ÿZ£YûTÐV(\u0010òJ×]zêP í,\u0014¾ûËÙá\u0013¨¢»>Ú\u0014]²Ì6Qyæ&Á^jKã\u0010x;ê(¯f\u0002\u001c`RÍørýé?º_~\u000fÔ¨*G\u0001N\u0001Ö£¾#æúñ\u000eÊÜÞ\u0012\r^s\r¸ò/â1#û©UµrÄ¿\u0010\n¿ÁE\u001b÷¢Ú.þ¿i\u0007wÅDV§\\ú·\u0010ç\u0007'tIÖ\bß{@pP?\u0001Þ\u0017V$ë\u0013[£,É,ÆBËBØ\u000bÝ·B¼´Û,ssÆi \u0014ÓMc\u0005Jk¥5\u0007 Î5|b½¨ïn~æg±ÁÕád\n\u0000¼u{ú}»!æ>\u0003Ô\u001ap¥òbüDiÅ\u001dzÈ/noÕ\u0019¼p\u0007\u0003_\\Ú}ç\u0011CíëÔÿWÀáÉUôà¹YÚ×É\u0006Y\u0000?¡³\u0007(¹um°Ç½÷µ\u0019kDÊ,UF°¾]ö«qnÓ^ì\u0014vÐjÐ¯¬ß« õk\u0013\u0012@e8¹b÷`EwI )5é<ªfæÐÐYÛ@§ß}Êýmß\u0013mvÀÚÕB \u000bé\u0014'Ê)\u0015½\u001båá)\u000býÒ2ú\u0005¬\u0019{ÃP\u0004<Zçr\u0019C[\u000eO&Þ,ÔúëY¢AµÈÄõ¯&?\r).W\u001d_ZW\u001aè>\u0010ñ¬ù\"×\"tAHGTÖ<.M÷?©Ù¹~d\\\u000em¼íä\u0016ÆC.^_û;¯Rí\u0006Vó\fÇ©½µ\u000f©¿­WI\u000b&\u0001ãAåáÚrîÏÓ®kÐ\u0016h2!L¾Bi°ZBn°¯XæõÎ1-¿Òýïäj-À²\u001bìÄ§÷­6).m%\u001aÓ$\u0004mþÓ\u0019\u0002\u0016&º´c+\n§ï.MR9Ù\u0019ª&¡»\tì±\u0003\u0015²±-bqõiË¡[hÌ±ÿÝ\"eÉ3<*Á\u0012tôâ\rï8º`ðÊÄQëP×\u0005!\b\u0001£³\u0014ª\u001e© \u0018\b×á\\§\u0016\u0002'\u001e²\u0013õ!ºIâÕ3ÌÎ£\u0011\u0016»Ád)ðlÔ\u001bR\u001aé+1<b¶Þ\u001cÕëRØx³ü²EõìæÃ'\u001f¤ð¹}D\bEHã¼\u001d,µIÅôÓ \u00033\u0011²Ötþ¶2±Ã\u0006 Æ÷[q~;¹·ã¾hoBn\u001e7\u0005Hùÿ|\u0016.\"/ìÑNfº½IÅ3º\u001eMEï¨ôàO2duM[]ôÜ|*oF6$`Æ",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:12:51.140897+00:00",
+        "host": "infra-app-log-1251524319.cos.ap-shanghai.myqcloud.com",
+        "path": "/xhslog/1040g2103219s15l1nk405pq5ndvndktocr8san8?partNumber=2&uploadId=1781215969d6ed64db01c1a0129c49a28c79061db5d9e61c38a1a09c620e10dc3c31bde969",
+        "method": "PUT",
+        "scheme": "https",
+        "request_body": "Wne6\u000bõ0Ò \u0012Ê\u0002qè\u0014\u0010Ó\u0016p\u0000AÂg÷¹NR³\u0012DÇãhè´¾oyì\u0001\u0012§ÓLhÐf* T»-fÐGÜÖUË92!\u0004»Q Îz_¢êä\u0013é¡áÿ6H¼9ÅÏ»¾ú/GZÀ\u00100ê^ªY\f\\Ô\u000eÔ5é;à0Ï#s¾}\u0003ö÷<^KõÜ3ý/`Wß~Ï\u0018M®4X¿Ö³O\u0019æ°b{\u0004ÅÖ³='Þ-á£hsËÉ-\u0005\u0005¢ûwÄ£Ð½G×ú\u0011ø¨õzâ\"óÛy&¡P\u001cðr\b¼\u0006`ÙÎºÖ®óÏâ>LUÕ\fÏXÏ\nZDag\f@tÕªw-ý\u001dF\tË¶\r \t½\u0003\u0002;L¡dÏ+SÅlî\u0016_¹eåålF¯¶Û@\u0012y£'¢])¶\u0003&}ù*\f/)Ò@ÒñBA¤UÚÑ\u001bníHª\u0014F£Ív3çØ¦\t¼\u000eJV\n0³ÀÿJ|1D'(Ùsg_ÐØ\u000b( ß£o\u0011BÑµôv.Ä\nÎÖ|â¹\u0012{/4h?âa0@E\u0002\u001dóÑú\u0018°;dAÃ§C'hìÐ\u0002d¸];²ò@0i¤ç\u0001ªpÁÑûù/ÅÉ(F¯^+O\u0016\u0005C\u0017ù±eÛÏÚÏX·\u001cæû; ~H:ecý@g?¯fæ\f}2ë\r¡¾é_Çë¸õÛ\b\u0010cÝªø-^=|Ò_H\u0015§¢ ¦vò\u000fox~z£.D\"\b;dµpe\u000bªStD¹ÉÞÏ%~D±7Íãè\u0010\t\u0013ÆRYï,s\u0011\u001aõD}Ö\u0014°\u000eî½ÿ\u0017D:Ëd\u0019D]d.·µÉ@ï&c\u001eöß³ÝI!ôÉ-ßÀÄ{É0e\u0013èØ\u0010íBÑ9ûÏ\u0007è´>û Kê/\u0013eWM\u0005?|i¶\u0016ëüÞR®ùD\u00069ìkè\u0006@ûE\\{LU9±ünL¾µR\u001a¼w_áÐ&DVaôÆ\n¬ÐëvÓ÷ç\u0015U\u0005íÄÌ{Ë\u0018ª¢ïm\u0003D_Aös.¤\u0011LUÖ}k¡AgÉÑÒ\u0017:ø\u0015­s\u0011:ªU\bK×}\u001eÑS±¤ÓæyjÑ^îüw:1Àÿß\u001a@æM$y_ZUQØL£\u001d\u0013ÃÞ\u0016û÷ ðsÛª`/q;{äÓò«Ø¥\r+\u0014¤úÀ\u001cXÙ\u001e\u0018kÔ«­ï\u0013¹%\u0005ý¿-ÓËBÎÈl»nÕû\u0012÷\u0002`?r\u0012QÔå#ôBM¾[$aØWüÁ6.ë^\u000fm½]\\Lìn\u0004a@ '\u0002G\u001e&²5\u0007¬jO \u0005Vå¿dæº\u0016\u0012UheVÙÏ\nªYà¡\u0010R-Ýç¥8oC0 M¤dl²\u001e\n\u0016EqóVà¬¥¸¦+BoÉPguÔ3ã²\u0019¼;Ä ç\u0005\u001dnÏ\u001aø²V*ðKd\u001eoÎ·÷Îo°\u001d ù}tWaløÇ\u0014f@&õÍC¨æ´\tò[ßgçråÜ\u0017á8Aí\u001e&¢e@ØI4Áq7[ÜÑ\u0004ç(ax±s\reÓ$|\u0018®©D`µ\u0010Ñk)[\u0014^Ã]³ßº\u0006m\u0019äÖZa¤[;ï\\$[ÚÎ9Ù,{µÌ<8åñD\u0005¥DøyT\rÄü\u0010±9=Ò¦Hûj¦a\u0016\u0010iV\u001dÞî´O\u0001WC\u0003!r´¥à\u001c¿Áe¢5{ç\u0015äã\u001c#?Ñ{?iªk£\u0005p¶µÛ£^X\u0019SeÐìØËX?³5YÿBg}f«ë¥u\u001a¬\u0017?îp\u0014g_U×\u0014^gq/SbçD0á\u001b/ç·\u0014ÐñTnàtK.(cñXUú£¥x\u0002\\ñÈ±ø\u000eóXäV¬ní#®aíÈJûÜßké'±±Sk]§ñì\r¸\u0011°41¾Pd\u0004¨N·§\u000fòü\u000e9Ìk¨¨VYRsçå¡2Ï¬¸<Ïù¦v5\u001f7uCàµöUé°®\"¨8þ9ôÚ¿\u0012¢â\u0014<³\fÏ;;\u0018øu¤Bëna~\rÕ\u000b0O*8G}QëÜø\u000edF\u0010¨j¡NBöä7dýZ;õ :\u0017Wxv\u0019\u001aè2Z'${\u000eivH\u0004¹ÄóaN¸·L\u000eiuC(N°v\u0000ó`¾ë\u0007¼NL\u0004X\u001clö \u0003V7À©TÙÇÂí\u0010Q1°³Ç-;®\u0019æÇÈG? Ëêå¾ZÙ\u0017s4ú7\u001aðãbq$©\u001cnÿôF4KìDÕb\u0010þÌA£¾Áòi!y\u0003\u0012ïç`ïr\td7Ñù\u0000÷\u0003°ÉæËpXÁæÞÕÒm÷¹÷\t©ã¹KÉRRãOH\b\u0002ßû¿\u001c¸NâíªwÐ4ò¯bìHkþj¡©¶½n\u0002¦\u0002ÆT\u00179à(0j÷\u001e)v;u\u0001ýLè\u000b\u0005E\u0014óY\u000fÿ1kïfyQÒöØå>Õ\u001a\u0002\u0013bJe\u001fHG±960u°d~­\u001eo|=ÿjá°ÏmY÷\r®ÐíûrÐðîDk4¿¥²Ô5°ë\n\u00052©*Ü'e¿Ýe\u0007ÇY«\b6\tE¿m?\u0012ð\u001fRõ9=;1\nsòyrt9È»a\u0000ÏÅ5\u0015úÇ;03²\u0007AÛ\u000f®u¹\u0002H\u0018L±ÝLÏ\u0007éÕà\u001f-}_PQq®÷Ñ¤´ÙôE·\u0004ìâtÜ\u0016¥Tû\u0002ÕÔ{ýz¥\"-QÅ¶a¯ßäé;6[\u0019¨®öln§Ï¶å\u001e¸Øã\u00175MÐ§ð3aA?\u0001`8u%¦¿mZÚS\u0005\r %Çïýä0\u0001\"W­o:a\u001a:îWÎ\u0011%-\u0006x\u0011K{a\u000b\u001c\u001bsÓTüøeg\u0010\u0003È}Vhê.ö°Nä6«Ãz¤´ïÚ\"ðµ,>HvÚ\u0013ø2-ÌìäMÏfIèí{C÷RÉ\u0005\u000f¼)-B_@Ç\u001cOõ\u0015øªµ£o?\fsùøº\u0018\tväw}ÜP1$\u0006-\t9)1ì4Åµ¦\\Æà\u001e^|\u001ctßî\u0004®S;#MÐÈæ\u001e\u001fÀY\r½õ3f\u001c9\u0005ÒÀ;eß\"Ö8\u001bä\u000eû·À=\u0000¥,¯\"*{[nßDuâÿ\u0015êeë5kéäühQA¯.­ÔÁ\tÀÈ»W·'d´c·¿¹ç¶íC\u001eYxýãPeóÏZI(ÀKQpJÁú-%µÉÜ\u0013C%ßß\u0014Þ1MßUQ³EåtÅ-pjÀ«díÍß\u001e'z|Qmñdð\u0004h`=q/ôFól\u0011q3yï\u001fQÃd\r×ÅeÈv\u0012ýÖ!] \u0003H\u001a&ó\u0018+à7XFéë\u0014­Q±/_#¤=\u0002ÿ»Dåäx%h\u0012sÃén\n\u001eúºôÐñMM²dîðjö.ÈQ\u0019ï¬zÍ3n{«D\u0018Hö×µµ¨Ì»ê|¯\u0003¡\u001e£¾Ù®´3\u0012$¿è`!­9½9Id¥ÚsZ¾}ZY­\u0018ôÜØ\u0016y¬0r)3Z·;¯7éjÊ!¡3iýoSòÁsu×úÏX\t»Û§sl\u001e¹êæYJÃ6Xééã7\u0001§\u0007ù\"ZdAdÕcâJ3[\r\u0002Ø\\8qVµ\n&¸\u001fM¨ÿkõ<vW\u001c÷ÚyEú©R\u001fþîÂµñ\u0000À3\u001e°\u0014n³_7¦hË\u0012åE\u0011\bXãGa-ö~À)Y\n,\füQ\u0010#°{Ð¦ª¬ßÌ\u001c{¶cy%3°°gKãhÀà¥ÁÎÞXh\u000b\u000fÿ_,Ôiæ3Z\u0012k\u0018d*ÿ\u0014¿ªXÉ&à\u0001G\u001b\u0002-^£à\u0000\u000f)ZHÁuÛ¸?Mjd\fÿ1Ð9Çà·xpTC2æçn]aX©_H­ÇkL%üøqÄ¨·ê¢\u001a¸ñÉ\u0015F%²p_ë}e*¤¤Çã­ìÎÙö´\r¦æþ\u0010º\u0003\ri\u001a&wzÃfs,@\u001e¿ÑqÅsI\u0015AÂdiÒ\u0002\u0010^|\f,\bñ \u0019ÊZ¾ÝS\u0012Ñ£\u001e!f@@uÂÝøÕÿ¡ñç\u0015\u00112\u0007S¢\u0000\u0005@ú¿c\u0000\u0015ò%ß¥þáQ\n\u0004Úý±«ë\u000b9Â2=¦\u001dü?\u001c\u0003¬Tå¶ÿ=\u0013[Õ¬ï*Ôl\u0015ºsä\u000e.g¶ÞÄ=Á§»Òúíþb\u0002\u001dG{;MaðÒ\u0014ß\tC\u0003-º ¿×¤ÌÓC{T]\u000f)FNÆH`B^~«ïU\t:URñÍ7²<%(¹\u001eÒ°þ\u0006h®\tEè%A:]øõ7H&öñ\u0003\u0017Ðà\u0005Ú\u001bïmÙîwUåÔÇs*Ï\u0012¾¬½Úlm¥j\u0017Ì!^å\u0019áay&\u0018K+¹H&+ææfÛì\u001f\u0002ÿ;ª·õEq×v5W¸(`m¨y×o£âuºÓ½¾Ëx\u0001\tÑ.Eë\u001dx8vb\u0000sM;|(\u0016Î.\u0017ÂÄÚ©UÆ Rª\u0003¸÷PK¹ü^á\u0002qlgBc°ôd\u0000`GQþzä^Ìããñã\u001c~ÄK\u0002ÁÛý\u000fdmW`hzyUq!\u000b\u0016£V>Ó¾Ögb1¡¶D´¦·¬+ñõæOiå]Õ\u0001f@£\u001f\t\n\u0015tËÿ\u0019]÷44\b\u000f´\u0015¥tå3jCQØ2HÅdA[Ç\\¸\u001d¤\u00057|T\u0003iÏçÒÉ'ÓÕfðB\u001a\u0010Å´B+VËãì×Ä\u0007\u0002\u0001o¿Ai\nëÝÑº^A>ÎÀèµh4Û\f\u0014G\u001dò@Xf1ýLßN<YÀ&\u000ev¿È5fUKÔXòRÉ\u0017ûb\t\u000b<Tu3äLSQäRªÑ;2Ù!{^ó¨H3z\u001dX=êÛz§@\"g­+ùåì_\u001cãæ>Ê²í7ÕÅ\"ªµþN@q@¡0äÙíu=ö\nEÈPÊ\u0005>\r\u0001Ä\u00104\u0006É ÂÝ¯5Á;r>¢}õ¡Òk\u0011 ´ï\u0001Ïýþ°q¶ÌàÏúù¼àg\rÌ¸Í%]Eñ$ç´¥r¦ö.Ö/ñôW7f­«×e÷Ç\u0007ø÷íó¡\u0007·¥N\u0018\r\u0005lÍòe+aå\tØÖÀÔ¬&,è¡_T§a0O0í¼\u0012\u0019!gcçOnS¥&ªÆ]ÁLh\bw{àå4ª0øR¹uKk¯ÅwS?Ë\u0011\u0010\u0019HàÑ9\u0003¥jã=þØù,\u0014\u0007-WðV`\f\u0014rá\u0000«C¸4\u0001L\u0019fxtÌáÓÉ\u0018ä+ÜÚlÑð¡¦¬[ª\u0017Aß\u000fr7Ê?|\u000eÿ¬¨Ø\u0006ßÊ,m»ñÖXäéï\u0011ÛMã/Ç\u0010­5\u001dYXáR^\nåÒ\u000b©Ê\u000eÃÇ\u0016ã¨Tÿt[Ñu[`í¿­\u0001sD]ÃCpxÞE¥ÛÕê6\nc\u0011ÁB|ÂiO;¦¿\u0017'¤ª'ï)ºÔfë\rfx|°7öxy4Ý»{Á\u001aíñ\u001c@ÑÉ¶éî)Æ+ß\u0010yù*ùw'\u0005/óxêÓ¾FÚæ6%Ó|¢È°»\u001b4\fF\"\u0014¥¤¬ãHBþ\u0010=<\u001f5»M·\u001dûMTï÷\u0006èÄçwhÝkÜ`\u001c×l>ázß$lÐ6h\u0002\u001d'[Ö²/zm³jè\u001ds²\u000bôM\u000eùèßúVV<\u0015s-O/-Ýz*ðò\r}D%G/Oú³ÿ#t ßï@PSE~\u0000ásÎtýß·º\u0001Õ|X\u0015SmÊ\u0017ö¦% ê?]\u0015ËQæ(a^Èþåç\u0004LEO\u0014ÓÞÛñÐ-f\u001d\u0010UÑ\"nø=+mçg\u000eß\u0000ôtÒx\t(\u0012µohi\u0006¸°}¸0\u001c^\u0014 M\u001cÄQ:\u0002u\u0014\u0015H$,\u0018]7ö\u001cL^QðµPîÌ³÷û¹\\ýkKäÙã \u0002ª-\rIÏ¿Go'Ï\u001e\u001dpÑ¸$TP\u0012ë1ÑÞ\"³\u001e7«&»ü\u0005êÜ°bC~¬ÛºFÞ\u0001õ«cê(ÁPSºbvã³^toD\u0007Mµ/(w½e\u00019[òn\u001e\r!Û(Õÿ'/»\nNÙ\u000ecâkwøIò¤ÎH7J¬]1¢Â\u001b;Å\u0001Âÿ¯-üË/ã\u0019n¶;ú\u0014Î\u001a!³\u0007UàyÿieÜóo6(|\u0001¬zAøí+)À\r?qQtfE¹ç.ê¦Èkã\u0005í]ÎîÒ°ï³Bý\u0000zËÒ´azÆôZç`P£·9!ÍÀQ­¦¾\u001a\"GP©¿ë>\u0000»óV7ål97!!\u000b[\t\u001e_¦ñZAkÔ¶^yÜÒ%õ\u0017E\u0012±ÍÉ\u001e\u001e Q\u000f+f¨Õ¢õðRlöÑGý»dÃxÏí\r\u001e|U«ï\u0014ýùØÚòiyð9\u0015hF\u0003ü©g\u0002\u0006cIá²\u0011ÖØXûâË&%üºâÕ\u0001\u001cOôÈ1*Û\rºÎlñß»÷6Ý\u0012\u0011{õ\u0005y;Ú_\f+ò¹\u0018úô¥\u0018pkßö\u001cç\u000fñ,±EÌ±ÞÒß1Ë12Ñ.k\u001aÊvñÕ\u001cp¥ÈGdËjv§«¼sPD§yÎ®Kèêî xÀ~Ùc7È¹~Á\u0014êÆÝõ<_Uº­Ë3w ¾Û\u0006?VLZ¥4½\u001fñÈf¬\u001c÷¢\rÌ`%NÛS\u001d\u0006Áí­Êè¹Ë5Ç,©ou û%W ÚF\fÎ~Yèj½¤\u000fY+\u0015zðã4\u001a½G_-ýÜëw£Ö¾÷~ú­æÍõ¥mX-Ã(4Î\tñ×\u0011\b4\u001al>ÔFö\u0011\u0015 \u0015¨:+\u0012¨îcëPü\t¯;\u0011êpï«Gö8#ä-é8<ÉTCCwÝ\u0019\u001elWäÂÆ[P\u0011ÕxÑÆ$c|\u001c-<u·JX¼\u0012>Íñ(y\u0012Í¿ÂED o\u0018µ1\u0004xÔñ0`ÇðàØçþ\u0000¸k\u0006~ÁóçbÎbPÖÚéTÿÏoÒ>3Ú«\t\u0015\\\u0002ýû³\u0010Éò¿i+äÉ?B/\fiÈ|ßàêºh<ß½mÐ§ÙÓ\u001c\fSe½Å_(ÀO\u0001i)çC½û5®©|$Â\u0014F\u001eQb!Ïe\u001fM¥2hFºgFc~s,',0Þ;¢DÞ@|6ÇYT\u001búÄpÝnÖd»×Jxãö×\u000fPP¯_ËÁ]Çð­EqI¤hìU-pZ\u000bÐÖÃïÞ\u000f\r\u0019%IûëoÜ\u0004r%oÿp#1L¼áxtÙ¬Ó\u0006TPëd?ºÓß+ÙpÖöãÐv¤ðp\u000f\u0007gX´&ûÄþ§Q\u001bê\u0014_XW\u001fµÏ[í0\t¨E\u001cË\u0007A_®¸ÔG\u0017r\u0014Ð]/Õì\"ù{W®\u0016]$\u0006\u0012JÇÆÏ¯eFßieù«ú,=u';Õ\u0002a>Q\u0013v\u0010²vÎ\u0016#ÐÏaO\u0019¹\u000fób_á´JGý÷\u0015êê+ÃKWvï<<&z\u0005IÙ\u001d\fðÔü'£\u0012¯À\u0006¦\rÌoJ\u0014Øõ\u000eÎu±\u000e<÷ÌàÎ;nX[­AsÍ%Ioßù¬ß´}¥gJyævßÕÜE9RhIÉõ\\\u0004u&$\u0013z1fÏÔk/sâ¦)\u0018ô?ñ»\b\u001c^½z(£´\u0010b\trWª¾Ú\bNWD?ð2\u0011¡v2´dpg\u0000Zkà9B$Saô¡t2ò\u000e]lÜ7pjV\u0014wkÇ\u0001;BZMª7øY\tÔEã\u000b|½9\u000bXZaJÆ\u001d³0sáÈáSB\u0002YÂ\u0003\u0014¡zÅÂIì.ô® ¬H\u0010¨A¼Þ\u0002>\u0003ÀYÁÛ·Ö\u0006^ÄÇ\u001bl\u0006Ó\u0014\u0017¶Â}\u0016§%!&Ï\nËÇ3¶\u0019\u0006¬ûÒÝYµÑä\n\u0011h(Ôñ\u0004f¥£Z+º=Â¡¢Vdo»æÄ*5´^P/\u0007`z\r:æSCÐ4\u0011'hÐ±0#Hýn\u0013ðè×¸D7\u001a\b*và£ñ<¢¦^(\u001bNùõ<Æ(b§²µZ¾E(æð¢'kô%?\bãsy×Væ¼õNE±¦\u0000KÞKÒ\u0014ï«%U4î\u0013\rÔ8O¤¼w,ÚâP\u001eÙª³á¢êEI\n´9î÷º£Wß>ç°v\u0004\bb\u0019¡³oèóú»<Û°æûHw\u001a²j\u001ejbÍ(È\u0012Læ=§\u001cÃV}\u00141A\u0002o§t\u000f\n¿¬á_[\u000e;U<.qE\n Hò^\u0003\u00179¦ù*^õ&îÁzék\u0014éIQ]ð\bÄíö/Fq,\u00022\u000f²M\u0013´¹ê\u00074Æ\n¸®ò;¢_¼%û$´r¯\tÿJÓ¡M°c~«pGD°÷'ê¤Ïég\u001c»]g½heDÈ,«\t£$,ÁúöàXêm\u0006Êo\u0006ðeµgÇz\"ý\u0015÷,i\u0005|ý©E÷Ý~`P¤÷\u0004¥yvÅBJ¹\u00128ümóø»Æõã?©´5É\nt6\u0017·òcoÄ¼úÚ²9¾c<ê_75oÎL.×¢\u0010_8§\"¥å´\f©ô\u001ce·°®SåMäß¼\u001e¾GÙ®Ûã\u0018ã\u0003ÕÔ¸\u0011cF¶F\u000f¸m:9\u001cÎÎkçmê!ëó1\u0014à¿6ÈRWyê¤G0e;ãýxÝÁDuc\u0001Å\nLÏ­ÃÚ\fÀõò¸øñªAmNå6.£¿g1P!\b\u001a\u0003hcõß6D8}h\u001fKºSG²MRê1w\u001f¢^Rak\u001aÝ\u001dus*e\u0018[XäÒ²<\u000b\ræw÷\u0013dü@:~y©ª\u001c\u001c£QûAb[°\u0015ú CÀ-M#¶ß$A/°¢V}ß\u0019ÓµjN\u0014\b\u001có& ÈBìý®\u001dÀØR¶)#H\u0004\u0011¹n¢\u0017:£%&5gµØÁ£\\ïQ<ñ7ê\"<µLKÈ\u001f\u0005\u0019Á¸QnUD5Ý;¢ËAxK_\u0011\u001aÅÿµÔ\u0019áÿÚ={õ:'JùvÌLöÃ¼ï9'5É\u0005È°öEð èÈ{ <Hç|kaÚæR\n®NApn^ÇÇa+\u001cõÈUOñ\u0016\u0014ív*\u000bß;¸ûÞë¸{/8RâP>mÝÐºµ\u0010\u000e¦ 0Iª-¡øq'ÒÁsÛBÞ\u0010\u0002$¦×38±4|w\u0017BLs=Rêþ|\u0013³-ÇVìnú¡\u0006\tÛ\u0001FÒ\u0004óNa]\u00031\u000f{\\G*K\u0007ÝczTÆ\u0003Ï,×û\"óUµaw\u001b[åc&´ë,h}ü%|â9¤Âª\n\u00127ÖhKù»%4 Ü{Ãã\u001fuÅÇ}Â\u000fbµFq\u0001{Õ\"½\u001dEýv\u0015R\u0014¨{dÃÈ«r\u001b!¤,\u000b¥¯\u0003á¹«¨\u0006ýôm@×ËïþÛCÆ*¯c­'T£\u0010\u0018æÆ2Â$\rkþg\u0013¦Á-Oh\u0019ÁÉ\u0001!\u0005ä¦\"<èÁ-æÊC©¬«È¨7ÇÞ\u0004ºÑü°-ïü£Í WA¾<4£r'±\"ûÊæ\u0015ÿáG!\u0002ÿ\f´Æ>¶_ïAgù&³\b°ývÒÚ_\u0018ÀKH\u0001²QR<(¯_Ì\u0013G\u0011\u001eÎN`´jsâå\u0019ðÅþDC\u0019Ûhü\u0012s\u001bL\u001f\u001avï}\u0003!È9IUü&\u001bþ¥\u0004ÃþW\u0013ÊGùX ]H>æ¢AªfXkÃ¾j:\u001cæa58\u000bfH§»7O¨a \u0015©\u0007p1óÖ\u0000`L\tpHqÂ \u001d¢éw/d{7·qëâ?Y\u0014¥Ù\bçÿñ^<Àùó\u001dÏ\u000f;pqØ>\\Í!ó©¯ÎÛ«^d\u001d\u000f\u000bÖÉ!¯F\u0005¾\u000bô\f\u0018\u0002$}ÉÅÔy­àÏyq$~pf­µ\u001c\u001eoC\u000bø.aµdªw\u0010â³ÛìnOwÄ\\µà\u001bSi\u0000öÃ\u0003\"W~Å¤ü±º\u0007OÃ©g\u0003áW\u000fs?´W@ÁÑ(´ß\u000fP?Q-ÙUÑx.<K²{Ônâ¶\u0003Õ?(Ã³Ztm8&±tå0Òäå.\u0004\u0001¿Õ ÝÚÊÑtÚ\u0004qõæÀ\rðò®\b´\u0016ã\u0000¡üçóÈ\u0002V+vÆ¼ü0.{®(¶eL3-¬´\u0013ÌsìTíñc±^\u0002ì/Ãpÿ@\u000båDRvA\\õT§m\u0013§!\u0003cÞ\"W}\u0010÷ð¦t>?\u00075î\u0014Lßñ#1ÉïS\u0002ZñT\u0004Ê\\Þ\u0003jpÑ9\u0010 ,Â9±ÆØÎ ,ãmº\u0014*×8Åâ°ü¤º¯[îñïD\u000fñô\u001aK¸o\u0016N\t'5Õ®ÕBFÖ0ë@º\u0019ífPÈú´cÑ§A9\u0010ãÓâ¸ôo>öº« ´k\\môS²Ç§C¤è+Åº\u001cýËÞIBÙÍý\u0011û\u001eyWu±Cõßu_ôÑ^¿D[L}ùÍýG+ªøßt\u000fOâCØ_\u001dN«\u001fDû~ÞtFwªuqÝÐ@ÆÏ\u0014QMuàË=ðP/ßøBý^\b!\u0002¢OP¿i¥7c1;ÃÈ \u00110\u001b{¤\u001bz\u0016R\nq¡ÐxçÐ?â\u0001écËFÇX^WÄ\u001ej\u0017QÂ6Q\u001fÔã7J³^\u0007È\u0015(9\u0011Hÿ­§\u0001²KÒß)9\fz?al\u0001µ~&\u0005\n¬×\bt* 6J\r\fêÛO\u0002:À`xK×ñ=\bz\n\u0010n¦]¯\u000f¦2ºø]\fÎ|À_hUÎ\n»å\\\u001bÐ<hQ¸õþÄfbC\u0018\u001dé\\7«ð>]$\u001da7Ö/0f&g®\b§j(§I·#ÍöPã[üsD\u001fîòÏº\u0011?¼:\u0006\u0013Ã,±ÏÄy\u001d!¿õ.hê¦°ée6;\u0015+áúQ\u0013ê>&Àúu\u001dÑÅí\u001eÕ×,k\u0014ä¨\r{¡¿\u0000¤,½LÒÃvaçæ÷!®\u000b£Y§\u0011C\u001f\u0017G\u001c¹ÄãøS«wéÞB*L#ã(\u0017N¨Êy\u0005`Ë`O\u0012H¾Và#ÂæU\u0000À\" ¢\ri#õ\"4/?RM´¢£ªªs[]\"|Cì¬\u0010eq\u0016\u0002º8\u0016ÿ\u0017¢úÄ»}[QjV©õ»:Íwiæ¹©&»$Ó)YÄ§-Já!3­-áOÝyì\"ÎØ¥\u0000ËÊ½3r\u001a¢59îF6\u0017\u001aË1\\>^)*X¢½\u0006M\u0011Ðb6\"\\óÈ\u0005L?®ÔðÝu&Ï\u0000W5?¦\u0000Ø,Ø¯h¹ø{ç6l%Å%³â\u0013U:?=\u0000Öî\u00175ÌbæÚ¥\u0018ücÅÁ±Í\u0012N`çqéo¶üó\u000eåG\u001fºÙ¬\thcuâ°-Ç/å[Ê\nïrzE@@S\u001d:\r¦Ê\u0019çø,ÐbÊ,.\u0016eBur\u001b\u0016yµPÝÏÖå]Ñê\u0018Ë·FYµÚòã9SSò\u0013n»gg<>¯Á²\n`4F¨ôìÄ9Ü!A\u001d4¨([TãWm¦ZÒ±³]VO\u001c\"ôüTo\u0003\u0003\\9\u000fHrC\u001d\u001e\u0018\tÛUî%\u0005\u0007údÙ\u0001¬ë\u000eï\"OP¨Ê\u0016Â:4Ü$ú\t\u0014\r:[ò\u0003©n\u0004\u001cK£Bxc'\u0017Ý=",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:12:51.321835+00:00",
+        "host": "vesta.xiaohongshu.com",
+        "path": "/storage/api/v1/kv/crash_0f576b81-9a80-46fb-9304-cada4675fbc7",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"appId\":\"xhs\",\"platform\":\"Android\",\"value\":\"https://infra-app-log-1251524319.cos.ap-shanghai.myqcloud.com/xhslog/1040g2103219s15l1nk405pq5ndvndktocr8san8\",\"sdkVersion\":\"0.0.35\",\"fileId\":\"crash_0f576b81-9a80-46fb-9304-cada4675fbc7\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:12:55.880581+00:00",
+        "host": "edith.xiaohongshu.com",
+        "path": "/api/sns/v1/system_service/device_params_info",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "device_info_json=%7B%0A%20%20%22VO_0%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918594%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22VO_1%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918594%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22VO_2%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918595%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22ANDROID_ID%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%201781215974497%2C%0A%20%20%20%20%22cur_value%22%3A%20%22665c3029df5b2b57%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918590%2C%0A%20%20%20%20%22last_value%22%3A%20%22665c3029df5b2b57%22%0A%20%20%7D%2C%0A%20%20%22USER_ID%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%201781215962449%2C%0A%20%20%20%20%22cur_value%22%3A%20%226745bb7f000000001d02d3b8%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918590%2C%0A%20%20%20%20%22last_value%22%3A%20%226745bb7f000000001d02d3b8%22%0A%20%20%7D%2C%0A%20%20%22ALPHA%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918591%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22DEVICE_MODEL%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%201781215974499%2C%0A%20%20%20%20%22cur_value%22%3A%20%22ALN-AL00%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918590%2C%0A%20%20%20%20%22last_value%22%3A%20%22ALN-AL00%22%0A%20%20%7D%2C%0A%20%20%22BOOT_ID%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%201781215974502%2C%0A%20%20%20%20%22cur_value%22%3A%20%228ed94079-ae36-4b27-8cf5-3f3323ea42a2%5Cn%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918593%2C%0A%20%20%20%20%22last_value%22%3A%20%228ed94079-ae36-4b27-8cf5-3f3323ea42a2%5Cn%22%0A%20%20%7D%2C%0A%20%20%22GID%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%201781215974498%2C%0A%20%20%20%20%22cur_value%22%3A%20%227c846b2ad43554bac41dd6607066de324a074dc9473591c77715b7d7%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918590%2C%0A%20%20%20%20%22last_value%22%3A%20%227c846b1d66aa54bac41dd61c7066de324a072db9473594e87706dda7%22%0A%20%20%7D%2C%0A%20%20%22DEVICE_TYPE%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%201781215974499%2C%0A%20%20%20%20%22cur_value%22%3A%20%22phone%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918590%2C%0A%20%20%20%20%22last_value%22%3A%20%22phone%22%0A%20%20%7D%2C%0A%20%20%22AAID%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918589%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22VAID%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918589%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22MAC%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918590%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22SD_5_0%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918595%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22SD_5_1%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918595%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22SD_5_2%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918596%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22SD_5_3%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918596%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22WW_0%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918595%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22WW_1%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918595%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22WW_2%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918595%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22WW_3%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918595%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22DEVICE_ID%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%201781215974497%2C%0A%20%20%20%20%22cur_value%22%3A%20%2282d462f7-5dee-3a4d-8958-579d12e84add%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918589%2C%0A%20%20%20%20%22last_value%22%3A%20%2282d462f7-5dee-3a4d-8958-579d12e84add%22%0A%20%20%7D%2C%0A%20%20%22XM_3%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918594%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22XM_2%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918594%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22OAID%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918588%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22LAST_LOGIN_PHONE%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918590%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22XM_1%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918594%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22XM_0%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918594%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22GAID%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918590%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22PO_1%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918595%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22PO_0%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%20-1%2C%0A%20%20%20%20%22cur_value%22%3A%20%22null%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918595%2C%0A%20%20%20%20%22last_value%22%3A%20%22null%22%0A%20%20%7D%2C%0A%20%20%22B_SSID%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%201781215974501%2C%0A%20%20%20%20%22cur_value%22%3A%20%221c%3Aba%3Ab1%3A17%3A97%3A4a%22%2C%0A%20%20%20%20%22last_time%22%3A%201781215918592%2C%0A%20%20%20%20%22last_value%22%3A%20%221c%3Aba%3Ab1%3A17%3A97%3A4a%22%0A%20%20%7D%2C%0A%20%20%22DEVICE_BRAND%22%3A%20%7B%0A%20%20%20%20%22cur_time%22%3A%201781215974499%2C",
+        "response_status": 200
+      }
+    ],
+    "flow_count": 5,
+    "unique_hosts": [
+      "crash.xiaohongshu.com",
+      "edith.xiaohongshu.com",
+      "infra-app-log-1251524319.cos.ap-shanghai.myqcloud.com",
+      "vesta.xiaohongshu.com"
+    ],
+    "mitm_blocked": null,
+    "stderr_tail": "",
+    "dry_run": false
+  },
+  "network_result": {
+    "schema_version": 1,
+    "adapter": "traffic_checker",
+    "flow_count": 5,
+    "unique_hosts": [
+      "crash.xiaohongshu.com",
+      "edith.xiaohongshu.com",
+      "infra-app-log-1251524319.cos.ap-shanghai.myqcloud.com",
+      "vesta.xiaohongshu.com"
+    ],
+    "mitm_blocked": null,
+    "mitm_duration_sec": 134.83,
+    "flows_source": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\output\\stage3_lab42_before\\小红书\\mitm_flows.json",
+    "tracker_hits": [],
+    "pii_key_hits": [
+      {
+        "pii_type": "location",
+        "network_key": "lat",
+        "host": "crash.xiaohongshu.com",
+        "path": "/api/v2/android/crash",
+        "timestamp_utc": "2026-06-11T22:12:50.893004+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "event",
+        "host": "crash.xiaohongshu.com",
+        "path": "/api/v2/android/crash",
+        "timestamp_utc": "2026-06-11T22:12:50.893004+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "trace",
+        "host": "crash.xiaohongshu.com",
+        "path": "/api/v2/android/crash",
+        "timestamp_utc": "2026-06-11T22:12:50.893004+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "location",
+        "network_key": "lat",
+        "host": "vesta.xiaohongshu.com",
+        "path": "/storage/api/v1/kv/crash_0f576b81-9a80-46fb-9304-cada4675fbc7",
+        "timestamp_utc": "2026-06-11T22:12:51.321835+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "log",
+        "host": "vesta.xiaohongshu.com",
+        "path": "/storage/api/v1/kv/crash_0f576b81-9a80-46fb-9304-cada4675fbc7",
+        "timestamp_utc": "2026-06-11T22:12:51.321835+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "imei",
+        "network_key": "device_id",
+        "host": "edith.xiaohongshu.com",
+        "path": "/api/sns/v1/system_service/device_params_info",
+        "timestamp_utc": "2026-06-11T22:12:55.880581+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "android_id",
+        "network_key": "android_id",
+        "host": "edith.xiaohongshu.com",
+        "path": "/api/sns/v1/system_service/device_params_info",
+        "timestamp_utc": "2026-06-11T22:12:55.880581+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "android_id",
+        "network_key": "oaid",
+        "host": "edith.xiaohongshu.com",
+        "path": "/api/sns/v1/system_service/device_params_info",
+        "timestamp_utc": "2026-06-11T22:12:55.880581+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "edith.xiaohongshu.com",
+        "path": "/api/sns/v1/system_service/device_params_info",
+        "timestamp_utc": "2026-06-11T22:12:55.880581+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "phone_number",
+        "network_key": "phone",
+        "host": "edith.xiaohongshu.com",
+        "path": "/api/sns/v1/system_service/device_params_info",
+        "timestamp_utc": "2026-06-11T22:12:55.880581+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "log",
+        "host": "edith.xiaohongshu.com",
+        "path": "/api/sns/v1/system_service/device_params_info",
+        "timestamp_utc": "2026-06-11T22:12:55.880581+00:00",
+        "evidence_level": "S3_network_pii_key"
+      }
+    ],
+    "summary": {
+      "tracker_hit_count": 0,
+      "tracker_company_count": 0,
+      "tracker_companies": [],
+      "tracker_hosts": [],
+      "pii_key_hit_count": 11,
+      "pii_types_observed": [
+        "android_id",
+        "imei",
+        "location",
+        "log_info",
+        "mac_address",
+        "phone_number"
+      ]
+    }
+  },
+  "path_suggestions": [
+    "2.当您使用发布、编辑内容功能时，我们会请求您授权存储（相册、媒体和其他文件）、相机（摄像头）、麦克风（录音）权限。您如果拒绝授权提供，将无法使用相应功能，但不影响您正常使用小红书的其他功能。为了提升视频的上传速度、丰富发布功能和优化体验，在您点击\"发布笔记\"前，我们会将您编辑的视频临时加载至服务器。如果您退出编辑页面、或者因其他原因未发布笔记，我们会立即删除相关视频。您可通过【我-设置-通用设置-不允许发布时提前上传视频】关闭此功能。",
+    "安全运行与风控验证。为了保障软件与服务的安全运行，防止您的个人信息被非法获取，更准确地预防欺诈和保护账号安全，我们会主动收集您的设备信息【包括：设备/硬件型号、设备名称、SIM卡序列号（如ICCID）、硬件/设备序列号（SN）、设备唯一标识符（包括：IMEI、IMSI、AndroidID、IDFA、IDFV、OAID、MEID）】、运行中的进程、存储（相册、媒体和其他文件）、浏览器类型和设置、语言设置、传感器、操作系统、操作系统版本号和应用程序版本、应用列表、网络设备硬件地址（MAC地址）、WLAN-MAC、WLAN接入点（如SSID，BSSID）、IP地址、蓝牙地址、接入网络的方式、网络质量数据、基站、移动网络信息（包括运营商名称）、设备传感器数据（如加速度传感器、线性加速度传感器、重力传感器、陀螺仪传感器）、软件版本号以及软件使用记录信息上传到服务器处理，用于安全风控验证。如您不同意我们收集前述信息，可能无法完成风控验证。请您理解，为动态检测您的账户是否存在异常登录，每次您把小红书切换至后台或重新启动程序时，我们可能会再次读取，我们将把读取频次控制在合理范围内。为了维护网络安全、保障良好生态，您的IP地址所对应的归属地域信息将会展示在您的个人资料页、笔记发布页和评论中。境内展示到省(区、市)，境外展示到国家(地区)，信息以网络运营商数据为准。",
+    "1.当您关注您感兴趣的账号、进行浏览、评论、点赞、收藏、分享内容时，我们会收集您关注的账号和前述信息，并向您展示您关注账号发布的内容；同时，您点赞或收藏的内容会向您的粉丝展示，您可将收藏的内容设置仅自己可见，可以在【我】-【收藏】-【收藏专辑】中开启仅自己可见。",
+    "2.当您使用推荐通讯录好友功能或您主动发现好友时，在获得您明示同意后，我们会收集您的通讯录信息，用于向您展示通讯录中的好友，您的好友也能看到您使用小红书服务。如果您不希望被推荐，可以在【我】-点击左上角-【设置】-【隐私设置】-【不把我推荐给可能认识的人】中选择关闭。通讯录信息属于个人敏感信息，拒绝提供该信息仅会使您无法使用上述功能，但不影响您正常使用小红书及相关服务的其他功能。",
+    "为向您展示个性化的内容，或确保您能获知更为适宜的内容，我们可能会收集在您在小红书平台上搜索/播放/展示推荐内容的记录、音视频播放记录，或使用您填写的个人资料信息（如性别、生日）。如您对推送内容不感兴趣或希望减少某些信息推送时，您可以在长按笔记内容，点击\"不感兴趣\"。您也可选择关闭推送信息，具体可前往【我】-点击左上角-【设置】-【隐私设置】-【个性化选项】关闭个性化推荐机制。",
+    "（2）通过【我-设置-账号与安全】设置、访问、获取、更正账号信息，含手机号（每月仅可换绑一次）、登录密码、绑定的第三方平台账号（含微信、微博和QQ账号）；",
+    "（3）通过【我-设置-隐私】设置、访问、获取、更正隐私信息，含评论设置、@设置、通讯录推荐设置、微博推荐设置、位置信息设置和黑名单设置；",
+    "您可通过【我-设置-通知设置/隐私/通用】变更或撤回授权范围，包括：1）微信账号、微博账号和QQ账号的绑定；2）互动、私信、社区内容、和商城通知；3）评论设置、@设置、通讯录推荐设置、微博推荐设置、位置信息设置和黑名单设置；4）系统默认字体的获取和使用设置；5）图片/视频自带的媒体信息中的位置信息；6）\"限定回忆\"功能。",
+    "UI observed steps: adb_foreground_before=com.xingin.xhs | session_created_attempt1=ok | session_created",
+    "Check path for pii_type=imei"
+  ],
+  "explanation": "Collected dynamic evidence for 小红书: candidate_pii=10, ui_steps=66, screenshots=12, frida_registered_types=9, frida_events=19. This explanation is descriptive only and does not produce verdict.",
+  "evidence_items": [
+    {
+      "app_name": "小红书",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061257_launch.png",
+      "timestamp_utc": "2026-06-11T22:15:04.656094+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061300_path1.png",
+      "timestamp_utc": "2026-06-11T22:15:04.656094+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061303_path1.png",
+      "timestamp_utc": "2026-06-11T22:15:04.656094+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061306_path1.png",
+      "timestamp_utc": "2026-06-11T22:15:04.656094+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061315_path2.png",
+      "timestamp_utc": "2026-06-11T22:15:04.656094+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061318_path2.png",
+      "timestamp_utc": "2026-06-11T22:15:04.656094+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061320_path2.png",
+      "timestamp_utc": "2026-06-11T22:15:04.656094+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061329_path3.png",
+      "timestamp_utc": "2026-06-11T22:15:04.656094+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061332_path3.png",
+      "timestamp_utc": "2026-06-11T22:15:04.656094+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061334_path3.png",
+      "timestamp_utc": "2026-06-11T22:15:04.656094+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061419_path3.png",
+      "timestamp_utc": "2026-06-11T22:15:04.656094+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\小红书\\screenshots\\小红书_20260612_061436_trigger_tabs.png",
+      "timestamp_utc": "2026-06-11T22:15:04.656094+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.frida",
+      "signal": "hook_imei",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:15:04.757652+00:00",
+      "pii_type": "imei",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.frida",
+      "signal": "hook_android_id",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:15:04.757671+00:00",
+      "pii_type": "android_id",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.frida",
+      "signal": "hook_oaid",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:15:04.757675+00:00",
+      "pii_type": "android_id",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.frida",
+      "signal": "hook_location",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:15:04.757677+00:00",
+      "pii_type": "location",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.frida",
+      "signal": "hook_mac_ip",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:15:04.757679+00:00",
+      "pii_type": "ip_address",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.frida",
+      "signal": "hook_mac_ip",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:15:04.757682+00:00",
+      "pii_type": "mac_address",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.frida",
+      "signal": "hook_phone",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:15:04.757683+00:00",
+      "pii_type": "phone_number",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.frida",
+      "signal": "hook_contacts",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:15:04.757685+00:00",
+      "pii_type": "contact_list",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.frida",
+      "signal": "hook_clipboard",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:15:04.757687+00:00",
+      "pii_type": "clipboard",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.frida",
+      "signal": "hook_network_okhttp",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:15:04.757689+00:00",
+      "pii_type": "network_transmission",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.frida",
+      "signal": "OkHttp.execute",
+      "value": "dry_run_network",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:15:04.757692+00:00",
+      "pii_type": "network_transmission",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getImei",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:15:04.757694+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getMeid",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:15:04.757697+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getDeviceId",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:15:04.757699+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getDeviceSoftwareVersion",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:15:04.757701+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getSimSerialNumber",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:15:04.757703+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.frida",
+      "signal": "android.provider.Settings$Secure.getString",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:15:04.757704+00:00",
+      "pii_type": "android_id",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.frida",
+      "signal": "android.provider.Settings$System.getString",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:15:04.757706+00:00",
+      "pii_type": "android_id",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.frida",
+      "signal": "android.location.LocationManager.getLastKnownLocation",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:15:04.757707+00:00",
+      "pii_type": "location",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lat",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:12:50.893004+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "event",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T22:12:50.893004+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "trace",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T22:12:50.893004+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lat",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:12:51.321835+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "log",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T22:12:51.321835+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "device_id",
+      "pii_type": "imei",
+      "timestamp_utc": "2026-06-11T22:12:55.880581+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "android_id",
+      "pii_type": "android_id",
+      "timestamp_utc": "2026-06-11T22:12:55.880581+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "oaid",
+      "pii_type": "android_id",
+      "timestamp_utc": "2026-06-11T22:12:55.880581+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:12:55.880581+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "phone",
+      "pii_type": "phone_number",
+      "timestamp_utc": "2026-06-11T22:12:55.880581+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "小红书",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "log",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T22:12:55.880581+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    }
+  ],
+  "capture_meta": {
+    "sync_mode": true,
+    "frida_grace_sec": 30,
+    "frida_tail_sec": 60,
+    "frida_launch_mode": "attach",
+    "frida_code_prefixes": [
+      "com.xingin.xhs"
+    ],
+    "frida_tier": "tier3",
+    "spawn_fallback_attach": true,
+    "dynamic_track": {
+      "dynamic_track_requested": "lab42",
+      "dynamic_track_resolved": "mitm",
+      "enable_frida": false,
+      "enable_mitm": true,
+      "java_bridge": "",
+      "tier": "tier3",
+      "preferred_dynamic_tracks": [],
+      "mitm_primary": true,
+      "probe_path": "output\\frida_probe\\xiaohongshu.json"
+    },
+    "enable_mitm": true,
+    "frida_enabled": false,
+    "frida_runtime_events": 0,
+    "frida_java_active_count": 0,
+    "mitm_flow_count": 5,
+    "tracker_hit_count": 0,
+    "post_run_app_closed": true
+  },
+  "summary": {
+    "ui_steps": 66,
+    "screenshots": 12,
+    "keyword_checks": 10,
+    "keyword_match_count": 9,
+    "registered_hook_types": 9,
+    "frida_events": 19,
+    "frida_runtime_events": 0,
+    "frida_java_active_count": 0,
+    "candidate_pii_count": 10,
+    "mitm_flow_count": 5,
+    "tracker_hit_count": 0,
+    "pii_key_hit_count": 11
+  }
+}

@@ -1,4 +1,4 @@
-"""Knowledge-base influenced verdict adjustments for Lab4-1."""
+"""Knowledge-base influenced verdict adjustments for disclosure audit."""
 
 from __future__ import annotations
 

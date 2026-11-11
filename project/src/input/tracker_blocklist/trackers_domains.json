@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "source": "curated_bootstrap",
+  "updated_at": "2026-06-11T00:00:00+00:00",
+  "domain_count": 35,
+  "domains": [
+    {
+      "host": "adjust.com",
+      "tracker_id": "adjust",
+      "name": "Adjust",
+      "categories": [
+        "analytics"
+      ]
+    },
+    {
+      "host": "adjust.io",
+      "tracker_id": "adjust",
+      "name": "Adjust",
+      "categories": [
+        "analytics"
+      ]
+    },
+    {
+      "host": "umeng.com",
+      "tracker_id": "umeng",
+      "name": "Umeng",
+      "categories": [
+        "analytics"
+      ]
+    },
+    {
+      "host": "umengcloud.com",
+      "tracker_id": "umeng",
+      "name": "Umeng",
+      "categories": [
+        "analytics"
+      ]
+    },
+    {
+      "host": "bugly.qq.com",
+      "tracker_id": "bugly",
+      "name": "Bugly",
+      "categories": [
+        "crash_reporting"
+      ]
+    },
+    {
+      "host": "facebook.com",
+      "tracker_id": "facebook",
+      "name": "Facebook",
+      "categories": [
+        "analytics",
+        "advertising"
+      ]
+    },
+    {
+      "host": "graph.facebook.com",
+      "tracker_id": "facebook",
+      "name": "Facebook",
+      "categories": [
+        "analytics",
+        "advertising"
+      ]
+    },
+    {
+      "host": "firebaseio.com",
+      "tracker_id": "firebase",
+      "name": "Firebase",
+      "categories": [
+        "analytics"
+      ]
+    },
+    {
+      "host": "google-analytics.com",
+      "tracker_id": "firebase",
+      "name": "Firebase",
+      "categories": [
+        "analytics"
+      ]
+    },
+    {
+      "host": "branch.io",
+      "tracker_id": "branch",
+      "name": "Branch",
+      "categories": [
+        "analytics",
+        "deep_linking"
+      ]
+    },
+    {
+      "host": "app.link",
+      "tracker_id": "branch",
+      "name": "Branch",
+      "categories": [
+        "analytics",
+        "deep_linking"
+      ]
+    },
+    {
+      "host": "sensorsdata.cn",
+      "tracker_id": "sensorsdata",
+      "name": "Sensors Analytics",
+      "categories": [
+        "analytics"
+      ]
+    },
+    {
+      "host": "talkingdata.com",
+      "tracker_id": "talkingdata",
+      "name": "TalkingData",
+      "categories": [
+        "analytics"
+      ]
+    },
+    {
+      "host": "tendcloud.com",
+      "tracker_id": "talkingdata",
+      "name": "TalkingData",
+      "categories": [
+        "analytics"
+      ]
+    },
+    {
+      "host": "appsflyer.com",
+      "tracker_id": "appsflyer",
+      "name": "AppsFlyer",
+      "categories": [
+        "analytics"
+      ]
+    },
+    {
+      "host": "kochava.com",
+      "tracker_id": "kochava",
+      "name": "Kochava",
+      "categories": [
+        "analytics"
+      ]
+    },
+    {
+      "host": "flurry.com",
+      "tracker_id": "flurry",
+      "name": "Flurry",
+      "categories": [
+        "analytics"
+      ]
+    },
+    {
+      "host": "baidu.com",
+      "tracker_id": "baidu_mobads",
+      "name": "Baidu Mobads",
+      "categories": [
+        "advertising"
+      ]
+    },
+    {
+      "host": "mobads.baidu.com",
+      "tracker_id": "baidu_mobads",
+      "name": "Baidu Mobads",
+      "categories": [
+        "advertising"
+      ]
+    },
+    {
+      "host": "gdt.qq.com",
+      "tracker_id": "tencent_ads",
+      "name": "Tencent GDT",
+      "categories": [
+        "advertising"
+      ]
+    },
+    {
+      "host": "pangle.io",
+      "tracker_id": "bytedance_pangle",
+      "name": "Pangle",
+      "categories": [
+        "advertising"
+      ]
+    },
+    {
+      "host": "getui.com",
+      "tracker_id": "getui",
+      "name": "GeTui",
+      "categories": [
+        "push_notifications"
+      ]
+    },
+    {
+      "host": "igexin.com",
+      "tracker_id": "getui",
+      "name": "GeTui",
+      "categories": [
+        "push_notifications"
+      ]
+    },
+    {
+      "host": "jpush.cn",
+      "tracker_id": "jpush",
+      "name": "JPush",
+      "categories": [
+        "push_notifications"
+      ]
+    },
+    {
+      "host": "jiguang.cn",
+      "tracker_id": "jpush",
+      "name": "JPush",
+      "categories": [
+        "push_notifications"
+      ]
+    },
+    {
+      "host": "alipay.com",
+      "tracker_id": "alipay",
+      "name": "Alipay SDK",
+      "categories": [
+        "payments"
+      ]
+    },
+    {
+      "host": "weixin.qq.com",
+      "tracker_id": "wechat",
+      "name": "WeChat SDK",
+      "categories": [
+        "social"
+      ]
+    },
+    {
+      "host": "googleads.g.doubleclick.net",
+      "tracker_id": "google_ads",
+      "name": "Google Ads",
+      "categories": [
+        "advertising"
+      ]
+    },
+    {
+      "host": "googlesyndication.com",
+      "tracker_id": "google_ads",
+      "name": "Google Ads",
+      "categories": [
+        "advertising"
+      ]
+    },
+    {
+      "host": "unityads.unity3d.com",
+      "tracker_id": "unity_ads",
+      "name": "Unity Ads",
+      "categories": [
+        "advertising"
+      ]
+    },
+    {
+      "host": "ironsource.com",
+      "tracker_id": "ironsource",
+      "name": "ironSource",
+      "categories": [
+        "advertising"
+      ]
+    },
+    {
+      "host": "supersonicads.com",
+      "tracker_id": "ironsource",
+      "name": "ironSource",
+      "categories": [
+        "advertising"
+      ]
+    },
+    {
+      "host": "mintegral.com",
+      "tracker_id": "mintegral",
+      "name": "Mintegral",
+      "categories": [
+        "advertising"
+      ]
+    },
+    {
+      "host": "mtgglobals.com",
+      "tracker_id": "mintegral",
+      "name": "Mintegral",
+      "categories": [
+        "advertising"
+      ]
+    },
+    {
+      "host": "sigmob.com",
+      "tracker_id": "sigmob",
+      "name": "Sigmob",
+      "categories": [
+        "advertising"
+      ]
+    }
+  ]
+}

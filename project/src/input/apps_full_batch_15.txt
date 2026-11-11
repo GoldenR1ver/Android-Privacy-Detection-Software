@@ -1,0 +1,17 @@
+# 15 个 App 全量实验（证据 + static/dynamic + disclosure/consent/access）
+# 使用前请确认 input/pii_text/<App>.txt 与（可选）input/apks/<App>.apk 已就绪
+小红书
+Keep
+智联招聘
+小荷健康
+支付宝
+东方财富
+杉果游戏
+小黑盒
+世纪佳缘
+好大夫医生版
+韭研公社
+咪噜游戏
+钓鱼人
+快看漫画
+LOFTER

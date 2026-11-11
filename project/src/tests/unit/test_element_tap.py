@@ -9,6 +9,7 @@ from privacy_audit.analyzers.dynamic.element_tap import (
     bottom_tab_me_present,
     extract_bracket_policy_tokens,
     label_matches_query,
+    label_matches_query_relaxed,
     profile_page_visible,
     score_element_for_query,
     settings_page_visible,
@@ -20,6 +21,10 @@ from privacy_audit.analyzers.dynamic.appium_runner import (
     _resolve_navigation_paths,
 )
 from privacy_audit.utils.ui_hierarchy import UiElement
+
+
+def test_label_matches_query_relaxed_content_desc_substring() -> None:
+    assert label_matches_query_relaxed("用户保护中心", "", "用户保护中心\n隐私保护")
 
 
 def test_label_matches_query_rejects_my_credit_card_for_wo_de() -> None:
@@ -45,6 +50,27 @@ def test_extract_bracket_policy_tokens_dash_and_arrow() -> None:
     assert extract_bracket_policy_tokens(
         "您可通过APP上【我 → 点击头像 → 维护资料】"
     ) == ["我", "点击头像", "维护资料"]
+    assert extract_bracket_policy_tokens(
+        "您可通过【我-设置-通知设置/隐私/通用】变更或撤回授权范围"
+    ) == ["我", "设置", "通知设置/隐私/通用"]
+
+
+def test_parse_policy_slash_aliases() -> None:
+    from privacy_audit.analyzers.dynamic.element_tap import parse_policy_slash_aliases
+
+    assert parse_policy_slash_aliases("通知设置/隐私/通用") == [
+        "通知设置",
+        "隐私",
+        "通用",
+    ]
+    assert parse_policy_slash_aliases("隐私设置") is None
+
+
+def test_polarity_aliases_strip_leading_bu() -> None:
+    from privacy_audit.analyzers.dynamic.element_tap import polarity_aliases
+
+    assert polarity_aliases("不把我推荐给可能认识的人") == ["把我推荐给可能认识的人"]
+    assert polarity_aliases("把我推荐给可能认识的人") == []
 
 
 def test_extract_navigation_tokens_from_bracket_policy() -> None:

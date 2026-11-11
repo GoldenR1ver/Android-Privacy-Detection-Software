@@ -1,0 +1,911 @@
+{
+  "schema_version": 2,
+  "stage": "stage3_dynamic",
+  "app_name": "LOFTER",
+  "app_package": "com.lofter.android",
+  "dry_run": false,
+  "generated_at_utc": "2026-06-11T22:52:49.616970+00:00",
+  "candidate_pii": [
+    "imei",
+    "android_id",
+    "location",
+    "ip_address",
+    "mac_address",
+    "phone_number",
+    "contact_list",
+    "clipboard",
+    "sdk_info",
+    "network_transmission"
+  ],
+  "ui_result": {
+    "runner": "appium",
+    "mode": "real",
+    "timestamp_utc": "2026-06-11T22:52:49.248695+00:00",
+    "steps": [
+      "adb_foreground_before=com.lofter.android",
+      "session_created_attempt1=ok",
+      "session_created",
+      "foreground_ok[com.lofter.android]=attempt1",
+      "foreground_package=com.lofter.android",
+      "navigate_path_1=我 > 设置 > 隐私设置",
+      "me_entry_bottom_tab_detected",
+      "bottom_tab_me[bounds]=ok(972,1871,我的)",
+      "me_entry_bottom_tab_tapped",
+      "tap[我]=me_entry_avatar",
+      "tap[我]=ok",
+      "tap[设置]=miss_try_settings_gear(no_sidebar)",
+      "settings_gear_coord=ok(1020,94)",
+      "tap[设置]=miss_try_me_first",
+      "tap[设置]=miss_try_scroll",
+      "scroll_gesture_down[设置]=ok",
+      "tap[设置]=miss_try_sidebar_fallback",
+      "sidebar_xml_before:xml_drawer_open=False xml_trigger=False menu=-",
+      "sidebar_skip=no_drawer_trigger_in_xml",
+      "tap[设置]=miss_try_llm_bridge",
+      "llm_nav[设置]=request labels=50",
+      "llm_nav[设置]=suggest_bridge[我的]",
+      "llm_nav_reason=目标'设置'在当前屏幕不可见，但根据路径'我的-设置'，'我的'是进入设置前的中间子菜单。",
+      "scroll_gesture_down[设置]=ok",
+      "llm_bridge[我的]->设置=miss",
+      "tap[设置]=miss",
+      "nav_path_1_stopped_at=设置",
+      "path_2_reset_start",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.lofter.android",
+      "foreground_ok[com.lofter.android]=post_activate1",
+      "path_2_reset=terminate_activate",
+      "navigate_path_2=我 > 设置 > 账号与安全",
+      "me_entry_bottom_tab_detected",
+      "bottom_tab_me[bounds]=ok(972,1871,我的)",
+      "me_entry_bottom_tab_tapped",
+      "tap[我]=me_entry_avatar",
+      "tap[我]=ok",
+      "tap[设置]=miss_try_settings_gear(path_account_security)",
+      "settings_gear_coord=ok(1020,94)",
+      "tap[设置]=settings_open_sidebar",
+      "sidebar=skip_desc_low_budget",
+      "sidebar_top_left_clickable=ok(x=52)",
+      "tap[设置]=timeout_40s",
+      "nav_path_2_stopped_at=设置",
+      "screenshot_captured",
+      "function_triggers=start",
+      "grant[ACCESS_FINE_LOCATION]=ok",
+      "grant[ACCESS_COARSE_LOCATION]=ok",
+      "grant[READ_PHONE_STATE]=ok",
+      "grant[READ_CONTACTS]=skip",
+      "trigger_perms_granted=3",
+      "reset_back_presses=3",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.lofter.android",
+      "foreground_ok[com.lofter.android]=post_activate1",
+      "trigger_tab[首页]=ok",
+      "trigger_tab[发现]=ok",
+      "trigger_tab[我的]=ok",
+      "trigger_swipe_up=ok",
+      "trigger_swipe_up=ok",
+      "trigger_swipe_down=ok",
+      "function_triggers=budget_exhausted",
+      "function_triggers=done"
+    ],
+    "policy_path_hints": [
+      "【前言】LOFTER（指LOFTER网站及其客户端程序、移动应用产品、微信公众号、小程序，以下统称\"LOFTER\"或\"我们\"）一向庄严承诺保护使用LOFTER之用户（以下统称\"用户\"或\"您\"）的个人信息和隐私安全。您在使用LOFTER时，我们可能会收集和使用您的相关个人信息。我们希望通过《LOFTER隐私政策》（以下简称\"本政策\"）向您说明我们在收集和使用您相关个人信息时对应的处理规则等相关事宜，以便更好地保障您的权益",
+      "2、通过手机端登陆LOFTER APP 进行账号注销操作，操作路径：我的-设置-账号管理-注销账号"
+    ],
+    "navigation_paths": [
+      [
+        "我",
+        "设置",
+        "隐私设置"
+      ],
+      [
+        "我",
+        "设置",
+        "账号与安全"
+      ]
+    ],
+    "navigation_path_records": [
+      {
+        "source_hint": "2、通过手机端登陆LOFTER APP 进行账号注销操作，操作路径：我的-设置-账号管理-注销账号",
+        "original_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 1,
+        "matched_hint": "2、通过手机端登陆LOFTER APP 进行账号注销操作，操作路径：我的-设置-账号管理-注销账号",
+        "expanded_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ]
+      },
+      {
+        "source_hint": "2、通过手机端登陆LOFTER APP 进行账号注销操作，操作路径：我的-设置-账号管理-注销账号",
+        "original_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 2,
+        "matched_hint": "2、通过手机端登陆LOFTER APP 进行账号注销操作，操作路径：我的-设置-账号管理-注销账号",
+        "expanded_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ]
+      }
+    ],
+    "navigation_bridges": {
+      "不把我推荐给可能认识的人": [
+        "找到我的方式"
+      ],
+      "把我推荐给可能认识的人": [
+        "找到我的方式"
+      ],
+      "用户保护中心": [
+        "设置"
+      ]
+    },
+    "llm_nav_enabled": true,
+    "screenshots": [
+      "output\\stage3_lab42_before\\LOFTER\\screenshots\\LOFTER_20260612_065032_launch.png",
+      "output\\stage3_lab42_before\\LOFTER\\screenshots\\LOFTER_20260612_065036_path1.png",
+      "output\\stage3_lab42_before\\LOFTER\\screenshots\\LOFTER_20260612_065107_path1.png",
+      "output\\stage3_lab42_before\\LOFTER\\screenshots\\LOFTER_20260612_065116_path2.png",
+      "output\\stage3_lab42_before\\LOFTER\\screenshots\\LOFTER_20260612_065203_path2.png",
+      "output\\stage3_lab42_before\\LOFTER\\screenshots\\LOFTER_20260612_065229_trigger_tabs.png"
+    ],
+    "keyword_checks": [
+      {
+        "path_index": 1,
+        "step_token": "我",
+        "matched": false,
+        "checks": {
+          "我": false,
+          "我的": false,
+          "个人": false,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": false,
+          "profile_page": false,
+          "profile_resource_marker": false
+        }
+      },
+      {
+        "path_index": 1,
+        "step_token": "设置",
+        "matched": false,
+        "checks": {
+          "设置": false,
+          "settings_page": false,
+          "帐号与安全": false,
+          "账号与安全": false,
+          "隐私": false,
+          "关于小荷": false,
+          "关于小荷健康": false,
+          "我的": true
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": true,
+          "我的": true,
+          "个人": false,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": false,
+          "profile_page": false,
+          "profile_resource_marker": false
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "设置",
+        "matched": false,
+        "checks": {
+          "设置": false,
+          "settings_page": false,
+          "帐号与安全": false,
+          "账号与安全": false,
+          "隐私": false,
+          "关于小荷": false,
+          "关于小荷健康": false,
+          "我的": true
+        }
+      }
+    ],
+    "error": ""
+  },
+  "frida_result": {
+    "runner": "frida",
+    "mode": "dry_run",
+    "launch_mode": "attach",
+    "package": "com.lofter.android",
+    "registered_hooks": {
+      "imei": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js"
+      ],
+      "android_id": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js"
+      ],
+      "location": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js"
+      ],
+      "ip_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "mac_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "phone_number": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js"
+      ],
+      "contact_list": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js"
+      ],
+      "clipboard": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js"
+      ],
+      "network_transmission": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js"
+      ]
+    },
+    "global_hooks": [
+      "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js"
+    ],
+    "papi_target_count": 28,
+    "events": [
+      {
+        "timestamp_utc": "2026-06-11T22:52:49.456700+00:00",
+        "pii_type": "imei",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js",
+        "api_name": "hook_imei",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:52:49.456725+00:00",
+        "pii_type": "android_id",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "api_name": "hook_android_id",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:52:49.456732+00:00",
+        "pii_type": "android_id",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js",
+        "api_name": "hook_oaid",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:52:49.456737+00:00",
+        "pii_type": "location",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js",
+        "api_name": "hook_location",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:52:49.456742+00:00",
+        "pii_type": "ip_address",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+        "api_name": "hook_mac_ip",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:52:49.456746+00:00",
+        "pii_type": "mac_address",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+        "api_name": "hook_mac_ip",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:52:49.456750+00:00",
+        "pii_type": "phone_number",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js",
+        "api_name": "hook_phone",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:52:49.456755+00:00",
+        "pii_type": "contact_list",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js",
+        "api_name": "hook_contacts",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:52:49.456759+00:00",
+        "pii_type": "clipboard",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js",
+        "api_name": "hook_clipboard",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:52:49.456763+00:00",
+        "pii_type": "network_transmission",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+        "api_name": "hook_network_okhttp",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:52:49.456768+00:00",
+        "pii_type": "network_transmission",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+        "api_name": "OkHttp.execute",
+        "args_summary": "dry_run_network",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:52:49.456772+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getImei",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:52:49.456777+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getMeid",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:52:49.456781+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getDeviceId",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:52:49.456784+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getDeviceSoftwareVersion",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:52:49.456787+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getSimSerialNumber",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:52:49.456791+00:00",
+        "pii_type": "android_id",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.provider.Settings$Secure.getString",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:52:49.456793+00:00",
+        "pii_type": "android_id",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.provider.Settings$System.getString",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:52:49.456797+00:00",
+        "pii_type": "location",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.location.LocationManager.getLastKnownLocation",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      }
+    ],
+    "error": "frida_disabled",
+    "skipped": true
+  },
+  "mitm_result": {
+    "adapter": "mitm_runner",
+    "started_at_utc": "2026-06-11T22:52:49.416190+00:00",
+    "duration_sec": 144.89,
+    "listen_port": 8080,
+    "flows_source": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\output\\stage3_lab42_before\\LOFTER\\mitm_flows.json",
+    "flows": [
+      {
+        "timestamp_utc": "2026-06-11T22:50:25.331069+00:00",
+        "host": "apmplus.volces.com",
+        "path": "/monitor/collect/c/cloudcontrol/get?sdk_version=400&update_version_code=211443&uid=0&os=Android&os_api=32&device_id=1400158824484425&channel=csj_channel&device_platform=android&aid=219989",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:50:25.470821+00:00",
+        "host": "apmplus.volces.com",
+        "path": "/settings/get?sdk_version=1010890&device_id=1400158824484425&app_version=2.1.1.4&package_name=com.lofter.android&channel=csj_channel&device_platform=android&sdkmonitor_version=1.1.8&aid=219989&minor_version=1&encrypt=close",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "[{\"aid\":\"219989\",\"os\":\"Android\",\"app_version\":\"2.1.1.4\",\"update_version_code\":\"21140000\",\"channel\":\"csj_channel\",\"os_version\":\"12\",\"device_model\":\"ALN-AL00\",\"device_id\":\"1400158824484425\"}]",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:50:26.676885+00:00",
+        "host": "api-access.pangolin-sdk-toutiao1.com",
+        "path": "/api/ad/union/sdk/stats/batch/",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u0004çA³D\u001e.*lj\u0014]Ï¶Ô°ÝOìÛ\u001a3a|Dµ×øUòå;?\u0019Ì¿hß\u000bñ[n^3¬úAr:\u0005ðN©¿\u0014zá^ElÆÖN/fv;®¾\u0012Düã6¢Ê¦\u0018*[\u0007Ü|~*PPïmºð½n\u000eË/?;ªçÈ\u001e_¥>ù\u0002æä\b\u0004E®¥ó!^\u0011\nG[ ßl©s6êå]ZÕ#\u0005\u001a °W\u0000sW}­ÌL}\u0018ÕPî\t®\btº\u001b^z±»\u000e,,\"5\fY2N(ß>E~\u001dR\r¡\u0006Ä\u0018ä¢µ\u0000` ÞIøÅ;¨UÃE_ \u0018I°ÙR\u001fÉ!_H\u001eÁW\u0013¹·¯-lÐ¬è.\u0019&b\t­Ä=¾{«µ\u0017Q=(sú8Ï®\u0002\u000bB\u0003Y¡7åW\u0001è7waMP%ÐÓ×[%GôB6ðcNP\u0016\u001fReLòÖÉÏ ì\"[Þ\f\u0007m\u000b¾Dò·NÜÒ/a¦e!\u0011¥2C®p:ÆkõJõY²÷l\u0012\u001f}zåfµÏ0¸2yÃ\u0012ïfª±ÿUêJv8;_mãê{4#Ä\u0006 Ë[bàÊVm[¸²\u0007ñÑVò6n¥½¥\u000eÛBÖ\bÉKÜD$\u001cf¨Çæ\u001fÑ_\u00177 öôû>Wt\u000e\u000b*\u0016v\u000e¡®êÏ]i\b\u0010zý\u0002\u0002'ÀßÓó? iú°+\u000ek§¡\u0003vµ\u0017Æ\fr¥MÁ]¦Æ¿ã\u001d¹%´g2\u001c·À·£\"ÙûN3^]\u000fðõ@¸;*xíW^ÄlR=\u0006\u0004i]ÎT¶o<ºKipéúfÐº¢D<TßøåÙçÞ)\u001cd>}\nê¦øóéì[¶\bäÓ.WÜø¹¤hÙy\u001dµ[ÖÌl\u0013Y¿ì©K1ÀçÜ~¼\u000bÈÃîaÔÀ\u0004á¹ÏÁ }ÇËy$Â¤´`¸ì#%8(h¹;x¤??s\u000fì\u001dæL{Þ-EòºÀÜ\t§/ø°Þ\"6cE½¨\rÒ\u000b\"D ?:\u0016·îv÷»V«¬ÀÑ\u0001\u001as°Êt¯\u0005|Ìó_\u000e\u0017Õ-oS\u001d=èvS'\u001fsøG2i?eW;´Ó\u0018C{*Ug¦¬|ÎzÔ¢{b´ô/\u0017\u0015õVÔÅ§è\u0006 òxÅ¸\u0018ÇZÅas\u0002ðî\u0002&Lìq1­u¤MÔyñ\u0012ö3\u0001\u000e·¹ý,PV¦°þÕ§Í:þbG§½Ê\u0001¢¸·óµO\u0017ýû&m\u001cÅ\u0007uë3¾sçm\u001bÕõ\u001c\u001a;\u0018æL\u000bÌ8u}>úÎß\u0017à÷R-Iº\u0002¥Ðq­¦c/\n\u00042aÊçrµ3\u0002¹-\u000bª>¾|nmÒ%wÖ\u000e\u000eô5UWá¨'B«×8³\n¬\u001eÅ±1|·®SêÓz\u0007¢\u0006BÓ~ëÝR¬',\rÌæÁuh[\u0005Ó;Hÿ/(8ú¿_\u0005°ß\u0007Q®|\u001b=Ç^.k;´S\"5ìtmYRÅ[t[Qø²A=[\u0013,K×¹2}([§hÃl'ø¦©ð©çrÇ\u0005*qq£\u0012õÃ¥`HROý8<%\u000b\b+âkT¶³tf\u0006Út¸û´Sàÿ\btÎ;]Uó¶]Q ãÍÑ\u001bÅ\n9zÕ×äþ¬Í·ùÀ+\u001cm\u0004¾Bsï:Ú¼úÐ²\u000f·Òh\u0014{9ðùÆ°O*øßôÃ`7à\u0017ñ°feð/þ\u0007-ü_hÃ¼Ú:#|\t\u001aC¶¿D¤\u00177£èój6£\u001c/Û5õ\fkÕW¹[d\u001a·!Gì\u000eôÂö`¼\u001cº¡Êû×fáøÆNff^«8\rà97U\u001dKqd¿~n\u001fÿ á%\tÞì¤\ts¢H=R$!£W\u000b´6(\u0004W\u0006ýûLymè*\u0001\nN'#,µ>VÛ$Î0yPt«ßTÄ±<\u00184\u0010\f(8Ê)æú\u001fÜPÚô*V>Zó¦3¼E9å6¯Ì\u0004 ÉXÉï®Z¡w^'TPDìr©¤\u0013\u0017\u0000ó¤\u0001s/s8\t_%¢\u001d9wH\u000eBçËt7g\n.UÁK~ó~Ã!`ùÝßð\u001b°\u0010ù2R@×R\u0004i_JéÍ}#ÅDC÷\\Ð)üßÏ|.çb´4\u0000\u001b]\tv®µ\"ÕÄV{ó\"Ä¨áP¾\u0000\u0016dá\bÄÃ÷©¼ã7ðRÈz»783\u001eTV\u0017QUg2£ëI(Éex¯ÝÔ~ýcÙ\nó¿ï\u000ek\b~\u0015Û\u0014»ñ!êÕ`üÞ\u0003KLn_Fóv66C\f¾E«\u0016æÚp\u0010HÜz\u0019ÄOg½×FÁ¦\u0001ætL®ÐÝÊµ`a\u00194Ú«ÐmDQÍ\u0013¹$ÓL¶H\u0010\u0001îVE¾'pFé@Á¾Þ¨0H)Ð;PøGØN'2Q{ÍHF\u001aøWl¯P~GRåg_È\u0001ùc\nÈ¿¥\u0002®ã\u000eáì¼´ÝÌ\u0014\u0000ÔkºùñT­0s?s^¢¢9ëGôhi0\u001c\u0010<Íø[\r:þ\u0019µßÚ\u0004Ið=`î/ÂJmnKûWÅúÊ:0\u0018GýÞÝz/ÂwcÞH¦óË4étûÀ­\n=&hN\u0002\u00049\nÁ1jðfª;p?-*\u0018\u000ei½^xîåoÔî+¸¬,ôgKT£'~\u0016Bæ\u000e:à´?ÄõúÛ¢þ\f\u0019Æ\u0014Jçíþ}\f`(%Bd\"ÿ(¶}\u0001ÿä\u0016xrkûº\"\r+I-Zx\u0011\t\u000fwXAl7ã«w}øÉÄ!%2« ×u\u000bOgý/ÿ~\u0002líthi, [Z:5\u0002>ÑØuã²\u0004\u0001\t¿AS¯À\u001e;þÕ3\u0004ïÝøóoÈ?Ý¡È>´AÇb:Ãìl¡\u001b®>\u0000#ùê\u001c1\u0001¯S¸áCÛé¼yï\u0005êÔÞ9÷ªèë¤*b÷Dú;å¼\bC·Î¨>îòv\t¹ïSgL\u0015\nLä\f>K\u000fó\u001b\u000eÌ'?\\ëÔ½M\r\fyÎ:¸ÀÏLÏQ¬rÑëú´Ûs¥\u0007ýÖ¿IOýÖ4i2½ÏJJ\u0003¢ø ¯\"\fÖ\b0ÝÍïT\u0007óÜx\u0003\u0012×e\u001f\u0002RÃÚÃ2æ8\u0014ôwc\u000e¡Ù4\u0015\u001fnS0É%+QÉ!¡9ï\u0013y\u000eE¼j¥ú¶Bé®ÅPª\u0002K/ÎÇjÜ{S\u0012pçÓÎ¡,ûÛj´%±3ÁîÝp\u001c6t¢·Ú¤+ÉHb3Ù\u001d\u001b.,LïI\u0003nïô åi÷u\u0015Â[|½Å¯>©.Ú?\u0000 ªë\u00158xûôÒ¶Õv­¬I+\u001b.Q_,¤Z8P\u0014ÍÒ\u0003jO/W\u0001ò©&\u0013Aûõü\f@ïl~z9Â\b/äm\u000b!eE¿ö \u0000èÿË\u0010rèÇ\u00051rqyªÃBÑ.\u001e¥ö\u0000ÐFÒ°\u0003ÛÝW»U¹ü¿Y x×k3ZW%w\u0017orÊÓèî\u0014®\u0007Á#ô±2\u001aæ{\u000f\t\u0004á\tæ+E¡ºüE>\u001a5H÷²N\u0013X\u0017$Q6rã§^ÉüúõÚ(åÛ¤«ÉPa¶`±L°ÕÄ\\2\u0012FÊ{kcÏx¨ù]/\\×Ð\u0017NZõ\u0001ý\u0000~1#º@ÐWÞÆ<\u0010Ý´òVJ\u0005Ïè4`",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:50:26.758987+00:00",
+        "host": "api-access.pangolin-sdk-toutiao1.com",
+        "path": "/api/ad/union/sdk/stats/batch/",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u0004^åëýcà\u0015\t·d\u001dÁD(ÊPéÞ,f\u000e4±\u0000&«ùÙ\u0019Ø\u001d\u0007\u0003s:d\u0017Qñ­ùG!m%%$¯¯Â³2¾`3q¹UèAê2 )kKØéô\u001dÖòs.°rÏ2\u0007x~\bBéiùSµE¢Ë;ë¼AFÒ\u0017Ãa¼­Ä\u0014+gÊÄwöÕ5\"| k\rîé°M®\u001aßtóTXe,ã7p\u000fL\u001e\u000eþ}Ýy*Î\r&§\rP£ìb\r4×ó½¾\u001e¤\\cþ¶\u0005¸Ê\u000e_æSè¨*9Åýäg<×-«ö\"\\p»~Ã³ã)ÃéÁæ»ë\rXÂÙ\u0017\u0013rÂWÚ[ÈÃ\u0011½BêQ\u0002níá\u001e~'w£¸Å²L\u0001©ØïPß2S¹®Ä\u00137%Á\u0000û\u0004§]Í ÛÌ,øÖuËk¬õÆ\u001bk>vº\u000eXÉ­\r\u001aÆ[\t°üéØ\u0016+ÝZ®U8bÜ¥ÀuvÉWYF>ÛøÄoïTa3'öåÉý¶UáÝÖÏdQA1«*\u0001\u0001mzÿå\u001c\fõS&ð@)?:Ð]fÑ\u0001üæÝ¥?¬Ã5\u001fc2\u0014\r¸7\u000b;%5Q÷Ch\u001a\u0015G7_ÁùÄ\u001eë\u0017ñ(+\u001eæ`f­æiù¢ZViÿÄýJ·¶yîê½à$=\b\u0007©}ÃÇËï}ûZD\b(}Ò¯f\u0015}¡y»!ù%¾ù\u0010Uq4¤9âlÂÕ¨ÉÙñ¤ûü\nÒÈ¯×cË\u0011vÄ\u0010Ò\\ÿq\u0013eEº\u000eÃ_û?ð6à6(»ç«o©ig*D¢¸R.Êæ2¿\u000b!¯^çTÁ]=t0ü¯\u0018ù|¢\u001e.81d'Üð¿*¨½ÿùSè\\¨Âú¨íIqL\nwZÔ(Zðùe!M\u001a1rìÙ\u0013/oÇ©ªJ\u0017NZõ\u0001è\u0000~1#º\u0007±\u0014ÞÎóH§[G\u0006Gw,chÍ%OÂ",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:50:27.438428+00:00",
+        "host": "yaolu.mh.163.com",
+        "path": "/getAppUpdate.json?appId=com.netease.android.Lofter&platform=android&version=8.3.48&channelId=huawei&userId=2255356597&osVersion=32&abiType=x86_64%2Carm64-v8a%2Cx86%2Carmeabi-v7a%2Carmeabi",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      }
+    ],
+    "flow_count": 5,
+    "unique_hosts": [
+      "api-access.pangolin-sdk-toutiao1.com",
+      "apmplus.volces.com",
+      "yaolu.mh.163.com"
+    ],
+    "mitm_blocked": null,
+    "stderr_tail": "",
+    "dry_run": false
+  },
+  "network_result": {
+    "schema_version": 1,
+    "adapter": "traffic_checker",
+    "flow_count": 5,
+    "unique_hosts": [
+      "api-access.pangolin-sdk-toutiao1.com",
+      "apmplus.volces.com",
+      "yaolu.mh.163.com"
+    ],
+    "mitm_blocked": null,
+    "mitm_duration_sec": 144.89,
+    "flows_source": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\output\\stage3_lab42_before\\LOFTER\\mitm_flows.json",
+    "tracker_hits": [],
+    "pii_key_hits": [
+      {
+        "pii_type": "imei",
+        "network_key": "device_id",
+        "host": "apmplus.volces.com",
+        "path": "/settings/get?sdk_version=1010890&device_id=1400158824484425&app_version=2.1.1.4&package_name=com.lofter.android&channel=csj_channel&device_platform=android&sdkmonitor_version=1.1.8&aid=219989&minor_version=1&encrypt=close",
+        "timestamp_utc": "2026-06-11T22:50:25.470821+00:00",
+        "evidence_level": "S3_network_pii_key"
+      }
+    ],
+    "summary": {
+      "tracker_hit_count": 0,
+      "tracker_company_count": 0,
+      "tracker_companies": [],
+      "tracker_hosts": [],
+      "pii_key_hit_count": 1,
+      "pii_types_observed": [
+        "imei"
+      ]
+    }
+  },
+  "path_suggestions": [
+    "3、我们仅允许有必要知晓这些信息的网易员工、合作伙伴访问您的个人信息，并为此设置了严格的访问权限控制和监控机制。我们同时要求可能接触到您的个人信息的所有人员履行相应的保密义务。如果未能履行这些义务，可能会被追究法律责任或被中止与LOFTER的合作关系。",
+    "2、通过手机端登陆LOFTER APP 进行账号注销操作，操作路径：我的-设置-账号管理-注销账号；",
+    "UI observed steps: adb_foreground_before=com.lofter.android | session_created_attempt1=ok | session_created",
+    "Check path for pii_type=imei",
+    "Check path for pii_type=android_id",
+    "Check path for pii_type=location"
+  ],
+  "explanation": "Collected dynamic evidence for LOFTER: candidate_pii=10, ui_steps=62, screenshots=6, frida_registered_types=9, frida_events=19. This explanation is descriptive only and does not produce verdict.",
+  "evidence_items": [
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\LOFTER\\screenshots\\LOFTER_20260612_065032_launch.png",
+      "timestamp_utc": "2026-06-11T22:52:49.248695+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\LOFTER\\screenshots\\LOFTER_20260612_065036_path1.png",
+      "timestamp_utc": "2026-06-11T22:52:49.248695+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\LOFTER\\screenshots\\LOFTER_20260612_065107_path1.png",
+      "timestamp_utc": "2026-06-11T22:52:49.248695+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\LOFTER\\screenshots\\LOFTER_20260612_065116_path2.png",
+      "timestamp_utc": "2026-06-11T22:52:49.248695+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\LOFTER\\screenshots\\LOFTER_20260612_065203_path2.png",
+      "timestamp_utc": "2026-06-11T22:52:49.248695+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\LOFTER\\screenshots\\LOFTER_20260612_065229_trigger_tabs.png",
+      "timestamp_utc": "2026-06-11T22:52:49.248695+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.frida",
+      "signal": "hook_imei",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:52:49.456700+00:00",
+      "pii_type": "imei",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.frida",
+      "signal": "hook_android_id",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:52:49.456725+00:00",
+      "pii_type": "android_id",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.frida",
+      "signal": "hook_oaid",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:52:49.456732+00:00",
+      "pii_type": "android_id",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.frida",
+      "signal": "hook_location",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:52:49.456737+00:00",
+      "pii_type": "location",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.frida",
+      "signal": "hook_mac_ip",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:52:49.456742+00:00",
+      "pii_type": "ip_address",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.frida",
+      "signal": "hook_mac_ip",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:52:49.456746+00:00",
+      "pii_type": "mac_address",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.frida",
+      "signal": "hook_phone",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:52:49.456750+00:00",
+      "pii_type": "phone_number",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.frida",
+      "signal": "hook_contacts",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:52:49.456755+00:00",
+      "pii_type": "contact_list",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.frida",
+      "signal": "hook_clipboard",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:52:49.456759+00:00",
+      "pii_type": "clipboard",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.frida",
+      "signal": "hook_network_okhttp",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:52:49.456763+00:00",
+      "pii_type": "network_transmission",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.frida",
+      "signal": "OkHttp.execute",
+      "value": "dry_run_network",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:52:49.456768+00:00",
+      "pii_type": "network_transmission",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getImei",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:52:49.456772+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getMeid",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:52:49.456777+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getDeviceId",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:52:49.456781+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getDeviceSoftwareVersion",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:52:49.456784+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getSimSerialNumber",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:52:49.456787+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.frida",
+      "signal": "android.provider.Settings$Secure.getString",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:52:49.456791+00:00",
+      "pii_type": "android_id",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.frida",
+      "signal": "android.provider.Settings$System.getString",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:52:49.456793+00:00",
+      "pii_type": "android_id",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.frida",
+      "signal": "android.location.LocationManager.getLastKnownLocation",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:52:49.456797+00:00",
+      "pii_type": "location",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "LOFTER",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "device_id",
+      "pii_type": "imei",
+      "timestamp_utc": "2026-06-11T22:50:25.470821+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    }
+  ],
+  "capture_meta": {
+    "sync_mode": true,
+    "frida_grace_sec": 30,
+    "frida_tail_sec": 60,
+    "frida_launch_mode": "attach",
+    "frida_code_prefixes": [
+      "com.lofter.android"
+    ],
+    "frida_tier": "tier3",
+    "spawn_fallback_attach": true,
+    "dynamic_track": {
+      "dynamic_track_requested": "lab42",
+      "dynamic_track_resolved": "mitm",
+      "enable_frida": false,
+      "enable_mitm": true,
+      "java_bridge": "",
+      "tier": "tier3",
+      "preferred_dynamic_tracks": [],
+      "mitm_primary": true,
+      "probe_path": "output\\frida_probe\\lofter.json"
+    },
+    "enable_mitm": true,
+    "frida_enabled": false,
+    "frida_runtime_events": 0,
+    "frida_java_active_count": 0,
+    "mitm_flow_count": 5,
+    "tracker_hit_count": 0,
+    "post_run_app_closed": true
+  },
+  "summary": {
+    "ui_steps": 62,
+    "screenshots": 6,
+    "keyword_checks": 4,
+    "keyword_match_count": 1,
+    "registered_hook_types": 9,
+    "frida_events": 19,
+    "frida_runtime_events": 0,
+    "frida_java_active_count": 0,
+    "candidate_pii_count": 10,
+    "mitm_flow_count": 5,
+    "tracker_hit_count": 0,
+    "pii_key_hit_count": 1
+  }
+}

@@ -1,0 +1,2386 @@
+{
+  "schema_version": 2,
+  "stage": "stage3_dynamic",
+  "app_name": "钓鱼人",
+  "app_package": "com.lchr.diaoyu",
+  "dry_run": false,
+  "generated_at_utc": "2026-06-11T22:47:45.285261+00:00",
+  "candidate_pii": [
+    "imei",
+    "android_id",
+    "location",
+    "ip_address",
+    "mac_address",
+    "phone_number",
+    "contact_list",
+    "clipboard",
+    "sdk_info",
+    "network_transmission"
+  ],
+  "ui_result": {
+    "runner": "appium",
+    "mode": "real",
+    "timestamp_utc": "2026-06-11T22:47:45.029759+00:00",
+    "steps": [
+      "adb_foreground_before=com.lchr.diaoyu",
+      "session_created_attempt1=ok",
+      "session_created",
+      "foreground_ok[com.lchr.diaoyu]=attempt1",
+      "foreground_package=com.lchr.diaoyu",
+      "navigate_path_1=我 > 设置 > 隐私设置",
+      "me_entry_bottom_tab_detected",
+      "bottom_tab_me[bounds]=ok(972,1876,)",
+      "me_entry_bottom_tab_tapped",
+      "tap[我]=me_entry_avatar",
+      "tap[我]=ok",
+      "tap[设置]=settings_open_sidebar",
+      "sidebar=timeout",
+      "tap[设置]=timeout_40s",
+      "nav_path_1_stopped_at=设置",
+      "path_2_reset_start",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.lchr.diaoyu",
+      "foreground_ok[com.lchr.diaoyu]=post_activate1",
+      "path_2_reset=terminate_activate",
+      "navigate_path_2=我 > 设置 > 账号与安全",
+      "me_entry_bottom_tab_detected",
+      "bottom_tab_me[bounds]=ok(972,1876,)",
+      "me_entry_bottom_tab_tapped",
+      "tap[我]=me_entry_avatar",
+      "tap[我]=ok",
+      "tap[设置]=miss_try_settings_gear(path_account_security)",
+      "settings_gear_pick=rightmost_toolbar_icon",
+      "settings_gear[bounds]=ok(1030,82,com.lchr.diaoyu:id/iv_top_navi_setting)",
+      "settings_gear_coord=ok(1020,94)",
+      "tap[设置]=settings_open_sidebar",
+      "tap[设置]=ok",
+      "tap[账号与安全]=miss_try_me_first",
+      "tap[账号与安全]=miss_try_scroll",
+      "scroll_gesture_down[账号与安全]=ok",
+      "tap[账号与安全]=miss_try_sidebar_fallback",
+      "sidebar_xml_before:xml_drawer_open=True xml_trigger=False menu=设置",
+      "scroll_gesture_down[账号与安全]=ok",
+      "sidebar_fallback_after_账号与安全=failed",
+      "tap[账号与安全]=miss",
+      "nav_path_2_stopped_at=账号与安全",
+      "screenshot_captured",
+      "function_triggers=start",
+      "grant[ACCESS_FINE_LOCATION]=ok",
+      "grant[ACCESS_COARSE_LOCATION]=ok",
+      "grant[READ_PHONE_STATE]=ok",
+      "grant[READ_CONTACTS]=skip",
+      "trigger_perms_granted=3",
+      "reset_back_presses=3",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.lchr.diaoyu",
+      "foreground_ok[com.lchr.diaoyu]=post_activate1",
+      "trigger_tab[首页]=ok",
+      "trigger_tab[消息]=ok",
+      "trigger_swipe_up=ok",
+      "trigger_swipe_up=ok",
+      "trigger_swipe_down=ok",
+      "function_triggers=budget_exhausted",
+      "function_triggers=done"
+    ],
+    "policy_path_hints": [
+      "我们收集数据是根据您与我们的互动和您所做出的选择，包括您的隐私设置以及您使用的产品和功能。我们收集的数据可能包括SDK/API/JS代码版本、浏览器、互联网服务提供商、IP地址、平台、时间戳、应用标识符、应用程序版本、应用分发渠道、独立设备标识符、iOS广告标识符（IDFA)、安卓广告主标识符、网卡（MAC）地址、移动应用列表、国际移动设备识别码（IMEI）、SIM卡IMSI、设备型号、终端制造厂商、终端设备操作系统版本、会话启动/停止时间、语言所在地、时区和网络状态（WiFi等）、硬盘、CPU和电池使用情况等",
+      "账户信息——如果您希望访问或编辑您的账户中的个人资料信息、更改您的密码、添加安全信息或关闭您的账户等，您可以进入网站个人中心查看个人信息或客户端应用程序点击“我”—点击头像和设置查看账户信息",
+      "进入客户端应用程序--点击“我-设置-账户安全-注销账户”，进行账号注销"
+    ],
+    "navigation_paths": [
+      [
+        "我",
+        "设置",
+        "隐私设置"
+      ],
+      [
+        "我",
+        "设置",
+        "账号与安全"
+      ]
+    ],
+    "navigation_path_records": [
+      {
+        "source_hint": "我们收集数据是根据您与我们的互动和您所做出的选择，包括您的隐私设置以及您使用的产品和功能。我们收集的数据可能包括SDK/API/JS代码版本、浏览器、互联网服务提供商、IP地址、平台、时间戳、应用标识符、应用程序版本、应用分发渠道、独立设备标识符、iOS广告标识符（IDFA)、安卓广告主标识符、网卡（MAC）地址、移动应用列表、国际移动设备识别码（IMEI）、SIM卡IMSI、设备型号、终端制造厂",
+        "original_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 1,
+        "matched_hint": "我们收集数据是根据您与我们的互动和您所做出的选择，包括您的隐私设置以及您使用的产品和功能。我们收集的数据可能包括SDK/API/JS代码版本、浏览器、互联网服务提供商、IP地址、平台、时间戳、应用标识符、应用程序版本、应用分发渠道、独立设备标识符、iOS广告标识符（IDFA)、安卓广告主标识符、网卡（MAC）地址、移动应用列表、国际移动设备识别码（IMEI）、SIM卡IMSI、设备型号、终端制造厂",
+        "expanded_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ]
+      },
+      {
+        "source_hint": "我们收集数据是根据您与我们的互动和您所做出的选择，包括您的隐私设置以及您使用的产品和功能。我们收集的数据可能包括SDK/API/JS代码版本、浏览器、互联网服务提供商、IP地址、平台、时间戳、应用标识符、应用程序版本、应用分发渠道、独立设备标识符、iOS广告标识符（IDFA)、安卓广告主标识符、网卡（MAC）地址、移动应用列表、国际移动设备识别码（IMEI）、SIM卡IMSI、设备型号、终端制造厂",
+        "original_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 2,
+        "matched_hint": "我们收集数据是根据您与我们的互动和您所做出的选择，包括您的隐私设置以及您使用的产品和功能。我们收集的数据可能包括SDK/API/JS代码版本、浏览器、互联网服务提供商、IP地址、平台、时间戳、应用标识符、应用程序版本、应用分发渠道、独立设备标识符、iOS广告标识符（IDFA)、安卓广告主标识符、网卡（MAC）地址、移动应用列表、国际移动设备识别码（IMEI）、SIM卡IMSI、设备型号、终端制造厂",
+        "expanded_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ]
+      }
+    ],
+    "navigation_bridges": {
+      "不把我推荐给可能认识的人": [
+        "找到我的方式"
+      ],
+      "把我推荐给可能认识的人": [
+        "找到我的方式"
+      ],
+      "用户保护中心": [
+        "设置"
+      ]
+    },
+    "llm_nav_enabled": true,
+    "screenshots": [
+      "output\\stage3_lab42_before\\钓鱼人\\screenshots\\钓鱼人_20260612_064518_launch.png",
+      "output\\stage3_lab42_before\\钓鱼人\\screenshots\\钓鱼人_20260612_064521_path1.png",
+      "output\\stage3_lab42_before\\钓鱼人\\screenshots\\钓鱼人_20260612_064603_path1.png",
+      "output\\stage3_lab42_before\\钓鱼人\\screenshots\\钓鱼人_20260612_064611_path2.png",
+      "output\\stage3_lab42_before\\钓鱼人\\screenshots\\钓鱼人_20260612_064624_path2.png",
+      "output\\stage3_lab42_before\\钓鱼人\\screenshots\\钓鱼人_20260612_064659_path2.png",
+      "output\\stage3_lab42_before\\钓鱼人\\screenshots\\钓鱼人_20260612_064728_trigger_tabs.png"
+    ],
+    "keyword_checks": [
+      {
+        "path_index": 1,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": true,
+          "我的": true,
+          "个人": false,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": false,
+          "profile_page": false,
+          "profile_resource_marker": false
+        }
+      },
+      {
+        "path_index": 1,
+        "step_token": "设置",
+        "matched": false,
+        "checks": {
+          "设置": false,
+          "settings_page": false,
+          "帐号与安全": false,
+          "账号与安全": false,
+          "隐私": false,
+          "关于小荷": false,
+          "关于小荷健康": false,
+          "我的": true
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": true,
+          "我的": true,
+          "个人": false,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": false,
+          "profile_page": false,
+          "profile_resource_marker": false
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "设置",
+        "matched": true,
+        "checks": {
+          "设置": true,
+          "settings_page": false,
+          "帐号与安全": false,
+          "账号与安全": false,
+          "隐私": true,
+          "关于小荷": false,
+          "关于小荷健康": false,
+          "我的": true
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "账号与安全",
+        "matched": true,
+        "checks": {
+          "账号与安全": false,
+          "我的": true,
+          "隐私": true,
+          "设置": true,
+          "我": true
+        }
+      }
+    ],
+    "error": ""
+  },
+  "frida_result": {
+    "runner": "frida",
+    "mode": "dry_run",
+    "launch_mode": "spawn",
+    "package": "com.lchr.diaoyu",
+    "registered_hooks": {
+      "imei": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js"
+      ],
+      "android_id": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js"
+      ],
+      "location": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js"
+      ],
+      "ip_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "mac_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "phone_number": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js"
+      ],
+      "contact_list": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js"
+      ],
+      "clipboard": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js"
+      ],
+      "network_transmission": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js"
+      ]
+    },
+    "global_hooks": [
+      "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js"
+    ],
+    "papi_target_count": 28,
+    "events": [
+      {
+        "timestamp_utc": "2026-06-11T22:47:45.138306+00:00",
+        "pii_type": "imei",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js",
+        "api_name": "hook_imei",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:45.138330+00:00",
+        "pii_type": "android_id",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "api_name": "hook_android_id",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:45.138338+00:00",
+        "pii_type": "android_id",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js",
+        "api_name": "hook_oaid",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:45.138343+00:00",
+        "pii_type": "location",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js",
+        "api_name": "hook_location",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:45.138347+00:00",
+        "pii_type": "ip_address",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+        "api_name": "hook_mac_ip",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:45.138351+00:00",
+        "pii_type": "mac_address",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+        "api_name": "hook_mac_ip",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:45.138355+00:00",
+        "pii_type": "phone_number",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js",
+        "api_name": "hook_phone",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:45.138359+00:00",
+        "pii_type": "contact_list",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js",
+        "api_name": "hook_contacts",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:45.138363+00:00",
+        "pii_type": "clipboard",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js",
+        "api_name": "hook_clipboard",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:45.138366+00:00",
+        "pii_type": "network_transmission",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+        "api_name": "hook_network_okhttp",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:45.138371+00:00",
+        "pii_type": "network_transmission",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+        "api_name": "OkHttp.execute",
+        "args_summary": "dry_run_network",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:45.138375+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getImei",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:45.138379+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getMeid",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:45.138383+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getDeviceId",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:45.138385+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getDeviceSoftwareVersion",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:45.138388+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getSimSerialNumber",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:45.138391+00:00",
+        "pii_type": "android_id",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.provider.Settings$Secure.getString",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:45.138393+00:00",
+        "pii_type": "android_id",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.provider.Settings$System.getString",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:45.138396+00:00",
+        "pii_type": "location",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.location.LocationManager.getLastKnownLocation",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      }
+    ],
+    "error": "frida_disabled",
+    "skipped": true
+  },
+  "mitm_result": {
+    "adapter": "mitm_runner",
+    "started_at_utc": "2026-06-11T22:47:45.114852+00:00",
+    "duration_sec": 154.27,
+    "listen_port": 8080,
+    "flows_source": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\output\\stage3_lab42_before\\钓鱼人\\mitm_flows.json",
+    "flows": [
+      {
+        "timestamp_utc": "2026-06-11T22:45:11.784185+00:00",
+        "host": "api.map.baidu.com",
+        "path": "/sdkcs/verify",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "ver=1&sv=7.6.3&cuid=&os=Android32&screen=%281080%2C1920%29&ak=SPUCZZkDaRPKIrs1622b9FlM7ftgRsjvNuzr3TGY7nbDIqJ9o72YtrFzXpf%2B%2BA9HYoVSiD%2BZW9Hf2pGCEADKpZP9bKrN41HchTJzSRLXkWdfpFnq2%2BywZm9o6%2B1q78t1baCaVjSehRa8NJSc4S171609BPqqcxWKRXBcSzdNVH68wJ0J4ty04FoxadgmV8UQFyD2Yefandy1ooyknAyxT97txohhfiUvsOX3wfY5DQQYrRDJ7M8JXjY44ee1mUDamfoghTSI4de5QgckDp1K2%2BoV6ZjaAQmHKIrTpXKClq1%2BJRz7fBkowNE4F2wh3coiRRmBahw45cJrqwS032MyVQ%3D%3D&language=zh&resid=02&version=1.0.31&url=https%3A%2F%2Fapi.map.baidu.com%2Fsdkcs%2Fverify&macaddr=&from_service=lbs_androidsdk&output=json&imt=1&mcode=C6Fspx2RCwivSwQaOkz0ZCgyzUbHbowPXuPQk9qLFYxqNTI6fKxzqhSm9D91z2Avj41Bw6cVRkfG6V1E5SBQy4gDJVOYJMqaxQnbKqsnrUolcdR1%2B50n%2B8SoqWYqULCkBCFQ65HlYZnvpPBOA0VmrBv162EWKOJl%2BxTZ5P7VMeNwFlbRUG1SFfq3tT%2FvjS%2Bgo1iFcvsqjl%2BR9KANkggnpKBy5qxyjuRrSPB9lYDE9fLGFLJiEdCbv6rZOczOTeBt66gwSrc0f43HhIcgLJ3Enxd2UgHgjZNKD8OuzF2tUc9sRkNhprAC9DzxAu%2BDMrWJmAtoPkowUwHm9SpK5FWyuA%3D%3D&mb=ALN-AL00&appid=-1&name=%E9%92%93%E9%B1%BC%E4%BA%BA&from=lbs_yunsdk&pcn=com.lchr.diaoyu&pk=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqYR6LcvgpIeFgmmujc%2BSemB%2BKMtdf2NkBqQCMpRgXpXMMd0M5rd3NRCFNQ2rYbyBNOnUpgO7fCvzY%2FEn9TS%2F%2BhrseV2lfu9g1EDgN19UvLBULets5TqheVDFMBLKUOg%2BjreB7plu7oEcWfZ6qRP9kudiUOK%2F951GcchGheL0E3%2FpVXBoN7S1Njtk5CZ84VXKNC%2FIcqtasUSvpAiTkR81PG9LxN%2BdiZG6XQ5OJipFkvLBDPwh9bxOE4Wz9x%2Fslaju39guzK8Rz90O0FWmmv6H6PJ%2FGso4m9Hp%2FXzC9FoMIrylorharEVq1pfot%2BbIE%2BV%2FfgiQCyVG3nSdGRXtmV9N5wIDAQAB&dpi=%28280%2C280%29&net=0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:11.799074+00:00",
+        "host": "kefu.easemob.com",
+        "path": "/v1/webimplugin/tenants/0/options/visitorKeepaliveHeartbeatDelay",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:11.803550+00:00",
+        "host": "kefu.easemob.com",
+        "path": "/v1/grayscale/tenants/19602",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:11.809617+00:00",
+        "host": "kefu.easemob.com",
+        "path": "/v1/visitors/tenants/19602?sdkVersion=1.3.3.8&appKey=lchr%23diaoyuren&uniqueId=9be3c43f-6be6-4425-bfc0-eaf6c1e7479b",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:11.812936+00:00",
+        "host": "kefu.easemob.com",
+        "path": "/v1/kefurtc/app/checkBeforLogin",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "sign=GpkjbCYLgX8Hi20xh5ScUYGpDRbJb7BXfYBccwM9VT9Sqt46jjtpSvsASN5u4d6Lg4fHHYi39%2BTYTF%2Bt6PGfAQ%3D%3D",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:11.827852+00:00",
+        "host": "utoken.umeng.com",
+        "path": "/anti/updateZdata",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "(ÏI1tdvT1hÃ½äì;7Ò¤\u0011\u0017WXÁ¨«\u001c\u0004ö\u0010ñÚ\u0000\rºq0Nù\b!¢¾Ý/Ó#¯Ú=\nb±I\u0003¶ç¨vÑ\u001b\u0012OaQþ!÷\u0012ÇWð&´ôròG°n¨S×á#¸OÊ¸ÑÍ\u0016\u0003¤S\u000b®<\u000fI\u0017ßdrè}¸Ð\u0012=Ü\u0003^°\u001fd/ÍGFb¼°QÃâ\u0011\u0000§AÔûU×ØTö\fMßÔUgt\u00169ñoâÇ\u0007hÂ¢ùòÑ¢\u001bÑú^qj\f¯ïäÞ¬ù¶È5^áS+\u001d·¿w\u0002b#ºÕïOD\u0004T\tÈbãQ°0\u001d\u0017OLªQ*ý\u0002­¼nq\u0013÷x\u001f\u001d¯eÐnÍ2o\u0006\u001eLö\u001e\u0014b¶Ó=ÀPÔhØ19§Y \u001c®­6|_öîý\u0007úeVú\"ôD\b=ÇDóÛ.)á$Ãp\u000bO×ºÄ¶\u0002ö;\u0013÷¯jk\u001c£=\t%\u0005Û3·¶ðó×caLN\u0006\u001f\u00029T\u0004³·ö¥yñ¼QÒO©bÒ\u001f\u001ew_bë.¿ÒW\bWAØAUGxõ·Bó«\bgÙZü<°K~ÿâ¸ÊW>\u0010\u0004IÖr¢$Úvt9þÙó·e\u0018w7æL\u0019êOÜèÈ\"%O¯F¿\rÔxoëG­åæÂÃ\u001có\u000f­¨\u0001Bì\\ç\u0017È¨aYõÅÎl\u0001ûY\u0014Ö´.^\fD¨ÍÆ¤=ùÈÜ«\nØ;{¸j¦.$/W\bÝko°ol\u0001Ø¬r<ÓÎø¹l;]\u001d{ºbV6 ,{ù h\u000fd·omFJmÍ³¤óÄq¤9u/aý©?\u0010m´uß</gK)ÚnÊYòîH²2ê\u0016\u0001µW»¶N\u001eõ4Ø$\u0012i°?N¥EÇ\u000bùW±dA¯BÓÈ\rÈr¬s\n§ÊÐ@3_añÎØoì¦ÅÿÓ®¶]¿ÿÓÏL;¶'\u0006L\n¹m¦g\u0007¸é¼rDI\u0010­\\àý£¼ëU¤³.·©ÿ£è¸|\u0019TÍ_\u001d<\u001cÇ% Ks#?Ýe\u0010u\u001cîöpDSå\u0018r6IJ!ë\f\fM9áÍFê¸KÆ¤Mrr°LêÉS«s¥ÌÐ­\t¥úyâ7\bÝ#h¼Úß\u0010·4z)zÙðR\u0017e¼>\u0010<>¯h²g¶°h-îmÔJ+¯.ÃþLÑä\u0010ÇÒ\u0012\u0017etþ3q#s\nþ»ö3\u0017/*4e\u000btÃ-øîcJ{G\n¬Y¡rJèø¢ä¡þ\u0006kÂÜÆèß¸rª:Fj\u001fîÎ\u0018µxå\u0005V×\rfÜ°y\u0013Â\u0017òc!<\u0011F\u000e©5+àAÏÉ¿>Á]?ê¦5k\u0004û§Û3ûmeuñ",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:11.830162+00:00",
+        "host": "android.bugly.qq.com",
+        "path": "/rqd/async?aid=f2ef888b-e483-425c-9ea3-d530b45da41a",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u001f\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000R¿oÓ@\u0014>Ç©iÒHm)\u001c\u0013R\u0007Ô©v|?|>W\fX\r¡Ùª\"Z\u0016Ô^ìs\u001bÕuó\u0003e`eb\u0002Øº²T¨bã@\f,H¨Rg$ÏS\u001f\u0015¨]î{îÞ{ß½÷\u0001 ¿Ñ\u0017oßÑÖ+kÃû2\u001dÊ4*÷FIð\u0014húþ$Ð\f#}Ño*¾U\u0005\u001a¬zsL%uåÂtÐÝ³â`'µÂè\u0006Ì \u0016·\u001c»95ê$Û£n²Ý\u0016Ýõij!Ë³Y ÐWTuíP\u0015;_`a\u001e;NÀÛ\u0002\u0012*lÄ=Ã;¹G¹ðVÕ\u0001ÐÞ~øúèË¶peì&Ý'\t;_ªy !\u0003\u0011E&\b5©±ÙfAhòÀ\u0013!v\u0003¦z=\u0004FuÙ¦þêêf«ñçï\fÝ'\fûé@MdCÍVh\u0002qN\u0014^ªaþÁ3Õ\u0011Ø×¦V@Í(ù\bV\u0019&º\u0010¦8þë>¦pÎOÂ´Û\tç\u0011^åPÆó\u0004«\u001bD\nÿûHÉw`E¤{C.\u0014e\u0010äyï\u0012\u0017Ö\u0010¡ØæØ£\u001eÂ¹N\u000fN8¶m³<æ°Øí³r¤ìðú_Z\u000e@Å(5èx >f®<ð7î¶ê~\u001cËäô\\B¸¾NÛZ«#×æKLë©¥èIsWzõ|Ö\u0018ND\"îç~Å÷Ô\u000e@\u000eÎX1ûýÊgä,.5\b¬¼xyòþã÷££ÃKíäòSònùxëóln¢¾L\u0002ô­ö`;\u001e\u001d_èÈlº¼Ñj¶~Ì\u0014®üÍì*Èæ@v\rd×/Îãüì\u0006zþ¦vPû\t±ä¨Ó\u0003\u0000\u0000",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:11.874646+00:00",
+        "host": "a1-af4c9dec.easemob.com",
+        "path": "/lchr/diaoyuren/users",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"password\":\"6638b884de818929fbc1d6aa2489445c\",\"username\":\"64c401917c42247be2581cb9844c3605\"}",
+        "response_status": 400
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:11.999634+00:00",
+        "host": "mshield.baidu.com",
+        "path": "/s/5/aio/250/985626356/1781217910/6cd4fcac7056b6b6ccd3f0bf54930689?skey=srhEntk1pb2cJF5Z5ZAPdQ%3D%3D%0A",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "(<ãUG\u0018«nZöô¬\u001bg¸¿ù\u0010áÃÇÅn$­\u0000\u000f\u001e(c³\u0001.\u0014_Þàr3åèmá2ì\\l\u001f\u001f<ÙÝË\u0018êãñ6\u001a\u001bÛ\nêdfY¡á\\¹Å5°lX%P©  \u000eY\u000eßn<ô7]L¸\b2C6t\u00056àÊvJ\u0004§¿æÇÓo3%´\u001c°(°\u0019ªþ&´!\u001b\u0002ì¶v)ðlx\u001f=l±ëbg\u001a°\u0000;ù(N»·ZiÕ©®À:G\u0004\u0002@B(ÍOÃ\u001eR\rIö½ÔÖ[üºÚ\f×\u001bõæX»­hfÏ¸\u0012ñLê*\u0001ùáÖ{Ð¸Øk\b\u0011v¢9H(â):¿%§³F¤0AµÌÿÛ·\u001c¿×HÊ»\nJyã\u0010ó2ÿðA@¹G\u0013)²÷;«wbPIð\u001a(½¡ñ\bt\u0012»ÅÿÈyÙÃz +ONS\u0011.{©ê$\u0001Æ3XE\u0012\u001c X%\u0011ú*s{5a`Ñö¶\bÐ¤g\u001fà\u0010½æÔ\u001d\\@Ñw^¡ÎÌ|{\"®u(áÂìÊÌî\bãÚU*¿-´1(\u000fb±f<¯³SÚ60\u0004^\u0013\u0007\"\u0019\u0017Øô\u0012ëMJ,w*SÈ\t,rä¨",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:12.002742+00:00",
+        "host": "cnlogs.umeng.com",
+        "path": "/unify_logs",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u0018\u00031.0\u0018\u0018557ac0e067e58e089e002feb\u0018@1c4cea6f4c6197cb085735810889368ba622b5d4f2b18bb4d47b502f79932a6a\u0015P\u0015ìéÙ¢\r\u0015æ \u0018ñ\nx}UÛ£H\u0012ý{\u001fvWãR^¸¦Ô\u000f\u0001Ç\u0005^»qQ°½*A16\u00187¾ÓªØýy\u001dÍçÌËüÅDRU»Óó°-2\"#Oü6ø¸\u001e°o²\u0018°å2¤2ÃeXc#9*C&³-Æ5¦Pf*\f¹Ì2\u0019¥\u0012¦ãÁ\u000fòà\u0001Ëaé\u0016s\tÃ°6a2a0SeDe3Óf\u00143\u000b3\rÜ\u0000Î0aú\u0002 §õZ7ÖM\\&ãIõ9üº\u000bÆ×ô2¿wå'iÁÞ\u0019w*âY¨\"4)u\u0006bæ+-Y%ÉÀO#4Ë\u0013BMs\n%Ó{gb\u0002C¾ðÎÆ}ÛüphÚ\u000fm~þ?ü5IZ±Ö¿IÄz'\u001d(\u001aÒTö4³#($­ò£\u0014÷[4ÑÔwX·wY4·S\u001fNoÈwYÛYPr\u0003 ¢g+¡\u0012=×³Tô\u001bµ4|ðü\u0001õA¥Mò'Mâ~ÉCgÒ³Jv\u0000uÝ0T5\u001dâïqVßYe¥ôø¨`}²èåD­ª|'¥F&\u0012\u0013X6ï¶Ü1\tú;Ft_Ë\u001cÈc7`\u0006|\fmäKUìd\u0002ºµ\u0014DÒ¾YfåAzûíßÿùí§_~ýùçþê$Ì¥\\½û?{\u0011\rq\u001fÔL¸c£\u0007m`Gªëq\u001f##K\u000e]ÙôÀ@¾¤^Y!MÇ:DT¡CEÕô¡Ó|\u000b#G)Q\rQ8¶;®\u000fò( ú\u0007Çö®-wEÞ>\u0003~>`Ø$eöÜæ_OegÏÇ²Îßâ;´°¢:¬Vr%éµP\u0010LU~\u0018t=\u000b\u001eÞ¦³,ùDÍép}\u0016Åé\u001fî×(ÎZWµ­ñ6ÃðPs×Öbó£½ß·³©2mã­E¸XoÕt»JÏóMwm«nWL·cÃ3}4¹ÝÓnXÑ\u0004\u001fãÕÈðÄv¸ÉNíkt>M=ýôù[Ë¸Ad·fW¤ÉkÊ¶²oT=\u0011(lå*¤Æ0sÈ*O¥Á©î£HJ#ÉÓ,EFfRa&$x¥©æ\tÒq¢RS\u001a_d=ìcyÎ{ñü^/\u000bìª\u00147ÉëµkY}ß\u0006åó9o{¶äNê7ùýî\u000fo²~Gït»ÿÚ¿F÷\u0002ÜÊè\u001co)K^´ïËz\u000f«ñxVè×1·ãQsõlGÛÎÅ·#Å\u000bægo¯Þç\u000bè7ØC³ ºøÉÁÛD7/ðÔ\u0007ÛQg¶ÇGÄ½|Ù\t×$ñÓ]\u0012§1ºMqò\u0003Î­z±]\u0013ká{\u0000dyj{Ùââ]¸x\u001f[E\u0019[%\n\u001fËx<\u0001´Ùx®zÄS£Ð»E[û\u001bà@\u001e×-®Q°ìfs>M©¿ÊêÇ Õ9]\u0017#/pT'A\u0017ët|]EOÖåÆ\u0015pÛùû(µñN³=Îï#²^§µZ¥VñÕ)¦RgÀÃàÎø(ñØEñÓbËÈé$7ÿèÙð\u000f\u0002ò ùv¡IßV½ßg÷\u000bt\u0005\u001e¬l]¸þg\u001f%·¨u{G±\u0003Îl\u0007r:¡\u0016\u0014È\u000fæÜþ#óÿÃÍ\u001aW8\"^to;Ôï&W¿\u0013ÈßX\u001cnãöe÷àpÐ\u0014W/X\u0012å¹Í¹;D\u0013ÛSÁßÍ\u000b'Ôß\bê×\u0013\u0014Û@1ègûU\\\u0003Z núô¥ç·ÙrønäìÛ×\u001eB}U~üË«Ü¯OÍ\u0004\u0011m´a??\u000fÇ÷¹T\u001eÛ¾ê¦PuÕ6\rçx<²¶QýXûµ[G¡[{ðí«,ª(t³ ª£ÚL\u0015ÌÏ¢\rp-\u001eyÁ§Q¨náfkSV¬ ¹¿áÄÛdÛ¸ö0|+,Êèþp*tÈØ^dË\u001e;ÀÛV6;¶ÿ=\\¨ãØ#djm\u001a®\u001cZðØhdp»\u000f)iïó\u000eë\u0006&X71<xðò¯ß\u0001 ÇaR\u0018@6a760f6f7d17b9cbcb2112813bffa48bac546cd46ac7a2b4a70d242f42e50100\u0018 0704b4fb4045fb53a961a3c0d6db5743\u0015\u0000\u0000",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:12.054535+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/home?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=5613d1939c7a7455cef363d39ed73b71&oauth_signature=RIxnI1BzjZmahTm85UfhZQMF2s4%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217910519&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:12.087572+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/user/messagenum?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=8bdfaa0a6918042d639dcc05282ea3b9&oauth_signature=mukBkp39svBhO3GgySGVjaPo1s8%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217910653&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:12.118247+00:00",
+        "host": "cnlogs.umeng.com",
+        "path": "/unify_logs",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u0018\u00031.0\u0018\u0018557ac0e067e58e089e002feb\u0018@1c4cea6f4c6197cb085735810889368ba622b5d4f2b18bb4d47b502f79932a6a\u0015R\u0015ìéÙ¢\r\u0015Ò \u0002\u0018Õ\u001dxÅ[ërâH²~\tÏü8çDËQ÷\u000b\u0011\u00131Â`·×\r\u001e»qÓøÌ£T@\u0006\u0001#À6è8çIÎßó8ûgßb³äËN»)\f3\u001b=\u000e¾¬ÌÊ/3+«æ·½ï\u0007{µßö¾eý½Ú^ý°xM\u001dÖ°¨\u001d4kM^CºÖ¨×BQc´¦Y\r\u001dÖêºFiÄ{ïÜ3ìÞ\fkXÕd½vHj\u0018¾ëÒµ\u0010×ªi^#¼\u00165Ý¨Q\\«ã\u00001%kÔ\u0014D\u0001Å` Õ`r£ãÑÇî¯ãÎÑ]t{ö¾9¹øÑ=enà!º¯ö9r7\u0016.9BH¸«,á2TÔÀÐ81jFÅ²\u0014f§\u000bx0<oÝ¨ï¦ÅÄ&³Ù¤ø®Hn¾Ãßý1\u001d\bö\u000e1\u001f;\u0001L Á9-\u0019ÏáFÇD£dî.§Cg4;É÷GvPìÇ,\u0017¥:åá8.&Y\\¾èÆ\u0006@DÆ©åD&2lùCî\u001eüÐ\u000eÂ\u000f¨T*\u0017wâ\bn¼¿\b»ÍãrTf\fàXJ¥8ÁBþ%NúÕSqæ$~bX\u001e×c:\u001a%cw5qÄ\u0004¾Nf_\u000f´\u0018¹_4Aÿrâsg\u0003÷Ëü~¯¦àÓ:Õ\u000eÚîÖÈ\u0001î\u0007îÂâñÉ89iÿøÿýÇÿýÿßÿö·rê\u001cÌmf¥øRF\u0001.\u0015±nh\u001aæX \u0013øÅÝÎË\u0011úOffvMJ`\u00180%¥\u000b¹û,EBbÆ\u0003D\u0019\r\u0018\u00172P\tMÄª\u0004E+\u0012Sxm<O¯f·ÙÜ÷ïÍE\u0002÷lÜO+ÀOöj81Y|U$¿.²\"¯æY<ê7+à\u001bð-ußÜð\np\u001agïöîËQÝåÉiÜ==\nyBÁí/~>üµw|.\u000ey£~4/»ÝY\u001eZ<¨_ÿ¥1\u0016§'ì¤¸\u001cÖIh\u0007ÃÑÉ05g×÷wÅè~Ü?\u0019\u001e©n£ãåòâä>\u0018QçéjÙap\u001d/\u0007ÜÏJ3õä>)í7p3±\u0004Íq?2\u000f&\u001b:Þpi,JÀZ\t\u0007Ó( DÒ$r\u000f,òR\u000b)DqT¬©ÕÆ\u0012SÁ\tM\fØpªÝÃ·Î\u001fÆfÝ$ååÍ¿¸±P0Ét2ÊìÒëÁsç}¿íeW7IQì»ûæñúiîg×rîK¸¾~þA»/ÀäÂi×l]8·Åä,Â·£[ÒªwÛù%¹\u001c\u001e\u001dLîZ&;k4oÛ\u001ekuÎî[á]ëã-Ü¿XÂoè´Ó»m_\u001fÏZ×½e«Óâ\u001f\u001aM~Úh\u0007äðö±=Ôäòó_îMW/ÂÞýëþ¢Ý\tÃz~>½<ÔÈÞõÛ­\u0005d÷ÖpyÚ°·­Û°\u0019wñô²ÞÏzÝ!ëu?eGÇvztÆ[¤Å{ÝÖ²×9ÌÛ×0\u0006òiÐjØ»^çâþô,<h;óOKKF7Ñ Ðê\u001cM2ZXz>îÒÞçúígz9±ÛÓ°^ýºµ8=`¸\u0015ï{d0r>êý\u000fIw´¸¤Ç0\u000e\u00156þryt.?O£îE¯yïÆ\u0006úÏ[\røë4û`\u0007Ñnô]Ï§Óøý9Dº~\u001d$ÔãAÿ°ý\u0011á\u000f°NëË'F§IO\u001bM°é1\u0005´N\u001fµ;gaã÷#elõ£\u0011îVï}£IÛ÷Çwí{Ú×õ\u0010fcùËøC3;ý»Vç8+5Âððì¸wÜhq·luiûÚÒv~.\u001b1Ü'­F{t\u0003ZÇ.ÃðÇ\u001f)£àÍcl}\u0015r¦Å\u0003Péßÿðp]~_Ä.6\u0013DDDPÆÏï³yQ:Û\t8Ûh\u0018uÏðÑA}ØË?åíü0ïu\u000fó\u0016|NEÎG½Îñýig÷ò\u001b k³\u001b[tpn?ýð¤×åCÐ\\;§rsÖ¾\u000eIë:\u001e^æ-\f£69Ïzwæàwo]\u0015J_\u001c·\u001dµfÒ²É\u0018ì\u0003Ï\u001c\u0015¥²Ñ*9Âê ëD\t\u0005¯+Ò\b\u001dßæ¦?9,\u0015\u0006=%\u00169'ãøë\u0004¦Z\nÇK\b>@þÉØP!GÌ\u000b¦uC'·ãÑÄÀÛO÷(â\f¢Î»½Åôë\u001f`JPbjúÉÃØÝ·«±)å¾H³û\u0007#3\u0003E÷[&\u001b\u0016ÂO6_~5\u001c,(\u00150åô!HÏg.mþN¯/ïü$\\ÌâxN¿¬\u0014\u0007¹TH£DPä+­R\u001fi\u0015>Ú[J|\rÞQ!@\nÄ[@6Nö?&ó9d§ÏÕ\u0016ÓPWÉ\nR\"%¶Ö*W\n \u0018k.¶7\u001aÇBW\b\u00002po\r<}±Õö\u0002iJrµ½\u000fT¸\u0000Å \u0001ó­ñ1bµ\u0017S¬È\u0006ôv2ª±ª¨%b»Ð¬&>%\u0014\u0016 tk\u0001DBÀbU\"´Äx\u0007:(Ra%ðp&ý=Ë^\u0014®ð5\u000eÞF·ç¾ËP\u0015\u0002Àdrûç\b<v¥\u0004&´Ðhû\u000ft«S\u00180/\u001bÄ/ÿi\u0011|u@\u0003æ\n¦v@\u0017X¯\u0016  ªð\u0002¢\u0015\u0007\tZj\t¾F\u0005}J°àDÞô|?ÏG|¿Da?\u0019ÏW[\u000fÂd(A\u0005Þ½nBó*y`N¶SÕH\u0015\u0005ºrçª1*u\u0013 rç\u0002W\"LIÌñZK.²ýÙ£³â`\u0012'\u001f­©È\u0017àuÕBò\u000e\u001a\\V9¥d¯U-ÄQò¬^\u000eËòéÉ<A)d¿õpóÕz\u0012óÕ\u0001\u001f¡6ÉôÞ\u0005l4\r¬íKK*á\tñOù[*£¡ÆXÉv4X©\n¥Ý0Äî=\u0017À+\\F#DïðöÊ\"´¢rc\u001aÂÝ\u0006éÔ;Æ`T)\rýffÒd?´v²\u0018Ï?&vQ´¤®*B©\u0006RÒííÈ]ÕV!\u0012­·_ú`N«òV\u0012üï\u000f¨µdE¡Âs÷\u001d\u0010Z½9b\u0014\u001d\u0014¨HS\u0000«!$_þúnï\u0007!\u001c.u7áMÙàYÛzî`Õ'óù$¿rÛ0_5r\u0014FìâY)|:^±\u001fã,!Òl6¸Êav¾Åp­\u0015/\f÷úÕ\u0002Öè\u0019¬Ñ_àPÂ¥ïX\u001cÄÕ\u0001BðaG\u001d~%ÈFz\u001b37ÕXz\u0013ýfåöÖW\u0010\\x\u0019Þ¾J'ã9:G/\rH\u0004{\"ýðÃÕd|ÑJÆý¦3Ôá¤Hú\u0005Ä¢ø\u0005¦\u00052ø¹yôÐ¶¿3ÿS¦Âµ8§N$²ïÝ^6sÏüü°7XmS\u0015\u0017\u0017Ç\r·Ç(Td\u0003lâ$`©¤9\nP¢IdUêØ5ýgn0É_\u001aÉõÛ'{ýªHà÷<Ya\u0019.|­]\u00029Å\u0018,s5Èú\u0011ü\u0001ÜKLA}1+X+\u0016lKÖ\u0002ôM_Bh-}Í\\9UZk²Ù0è\u000b\bXÊ+_\u0007kÑè[MñrR$×Ê×\u001a\u0015aBÂÊ7¾\u001e&\u0000I¢²ãðÛÂ\u0004µHGÊ<\tJÔº0A@K\u001e(\u001bóI\u0003£\u0014\t$!ÂÐ4\"*ÂÛR!éK£WÂ\u0003ÒÄwÞüÂ\u0004¿òdÂV\n\u0012-¶ñj\u0010±U¨)1¤oÄ«.\u0010Ê\u001e=ÞMðÐïßH¯Ê\u0002áqï`\u001bæSL\tf¾5ÆkÌ/¯/ú2_\u0011ÄÛ\u0012¨-ÒèùJ³5Ì2e\u0011Õ(ÐÆÄ\u0001£8P\tB\u0001ÆI¬\u0012+8Ez[æBÜ\u0018¯2_\u0011&|³¨/ó\u0015áÔ×*X«8t[²\u00160¼QáÕZ\"ä\u001b`_÷j@ò®ç_xuÝØá*¯&TÕê\u0001\bMîæ+\u001c\u001a\u001cô:±óp:\u001d=6a~J66u§\u00123s+¸½Éø$\u001b|ùßãæ<&TCV}\u001b\u0019¢FKú¤ ÃJ®Q0ÁÚ(-¨e S­\u0002¨\u0001Ò ¶P*Å\u00143Ø<.wï6¢_\u0005Ý\u0011G¼Q@XÏc©|3x9Nn_bpÆ½×Ö±­ð%áêpÂRÊ×Ì\u0015áÄah_k¼R\u0004pL·:k\u0000å]\u0000®)\u0002J,ßÂ¯\u001c2¹Voã«Õ\u0018\"\tyæ«\u0012ë*îa\u0006HÆ&`\"¡âF\bó8$[òÕí«]TÜåæ­o½äÉWÀÞ3¸(°Ô\u001b.E¿!J±]ÞåPz¯f_Í»î(\u0001~£WWå](MÊý®?\"ïþÉnîËc\t^¯ßw5K\u0004\u0017Ï\r6,Öå]Êl¢\"\u0003­)\r\u0018s\r6ÃHÀPbÓ45\tÞ\r6?\u0005Ýq\rå\u000e¿EA\b§ü_\u001dD¶¶5hA)A\"±Â\"ÑADã8°\u001a\u0011¢Pl\ræÛ\u0005ªó';è \u0002Ät# µÊaí2:\nºQwá@õ±Q ZÑ!\u0003K¼£^bywÐ^Ïè\u000fX¾ãò$;uä:E;è¡¹\u0013ÄkB\"c\u0012M¢\u0014\u0005,å<ÐTðÀ2N¡\u0011V\"Þ(N!ï6òkDqM\\ï´çI\u0014×Ô\u0015¾^^A\u0014îJ-\u0002\u0018r£\r²\u0019½<;FwÑ\u001f*¼÷\u000eü2:S\bTüVÒ²{òØ\u001dão\\I¿è¹ý°5\n¦ÄØr\u001b$\bcÈè\fuY\u000fÖä6¢2Qñ¶\t\u000f\u0014RÞíæ×x¬0BÌ·õäÉcÀÄx£m¸oVÒL\u0011F¼\u0015\\¹~\u0013Äp¢ ¼ñÞü«\b'%ÆV\u000b\u0004w¬\u0012]ìGHÊwº\u001d\u001d%.Ý\u001a;x$ÞP-kÆî ßÏ£Åì°ÈÀ\u0015_Î9$pä\u001b5}cBÊ\u0006xZíI\u001b·¸&\u0016¼ý×O$b4Öÿ¦Q\u0019\u0012´Í¢\u0014/,¤9&ë÷\t·°GSb\b~¶Gé7ßÚc\u0007Þ\rªx§Ý*ººã¾\u0015Ä«£ÑbïZk5ñ5f\\ï¢#_óæVk\tóf#\u0018I\u0013ô+ÊmwÐø6-<Ó´;ÚÆÞx²%ÆÅèÙÉ$Ñ+ìw¤3\u0011\u0017D\u0011\u0012ð(R\u0001ÓD\u0004!\u0012XÃSk Ú­Ú2MÃ\u001ey\u001béµ4\r@Ä{È3M\u0003&Å¾.±:?jªØnãªÄØÁv3Óî¨ÜÍvsåÝø\\³.-±|Ã/QTü\u001d*\u0018\u0016YöL\u0014X\r¬!\nzÎFL\u0006\b%4`\u0002¨?#HVTE\u0011ÄÅå¶DqGN7ZNV\u0011E¹\u001d\u0013E)¶:Á4Ä_²ÝL±]!Y³ÝIr+¼×\r~µ\u001aG±?j]ú'»¹\u001fÝa!ÞÈcbc©äsÂ¡®kÄb\u0013m1Ô\u0012r\u001d³\"\u000eHU\u0000eM$¬½wÛJÇRcÄÅ\u001b\u001bhÑXãçV:ÑuôÚÄÈÆI\u0010\u001bìö°1Ð8â a\"Yj8Òé:\rÿ\nÿ¾ü\u0013§Ù/ö\u0018@6a76bd6fb51744cb5521a38141ffac8b3e549dd45ac74fb4f10d752f7fe50100\u0018 fd8d4e40d13c42fde8ad2f08922713f6\u0015\u0000\u0000",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:12.123799+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/user/usertools?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=3dfc304b9c0dbbcf282d7a8ac132660a&oauth_signature=7r4hMbtxyzak3gXkt0aakyMAPuQ%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217910688&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:12.142861+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/init/info?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=d9844620a4e021dcb9eec0506331265a&oauth_signature=nok4fo3SH25AWGvm3cJU%2Bige5LY%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217910677&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:12.167410+00:00",
+        "host": "a1-af4c9dec.easemob.com",
+        "path": "/lchr/diaoyuren/token",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"grant_type\":\"password\",\"password\":\"6638b884de818929fbc1d6aa2489445c\",\"username\":\"64c401917c42247be2581cb9844c3605\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:12.178514+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/app/init/ads?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=93a3d15b1401a05b9552411cedd944fb&oauth_signature=kF59gTQRtDRnUORnKi7unN%2FcJUU%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217910868&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:12.185063+00:00",
+        "host": "rs.easemob.com",
+        "path": "/easemob/server.json?sdk_version=4.1.2&app_key=lchr%23diaoyuren&file_version=2930",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:12.198155+00:00",
+        "host": "mshield.baidu.com",
+        "path": "/c/11/z/250/985626356/1781217910/6cd4fcac7056b6b6ccd3f0bf54930689?skey=sbV9oM4Etq2qNxd0gcwTQA%3D%3D%0A",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u0019½ÑÍt\u001c°\u0019ä9È¾\u0002\u0003åÔoj¯ôó\u0019øQ\u0005ßþÊm/É¬Ç¥&v&Ä1kõÅöÔÁ[à¶+*#4¸L~±`j\u001b7Õ¶ÔüÝuunêÓ¶\u0019#±æ\u001f7\u0013IéêÖÂGGsOkHRt¨Wv\u0007;\u000eUÔDLj·çÅJëy<,¾ù\u001e»a\u0016ÔSüPúH0í\u0004\u000b7\u000eØ<=tm_à©ar¥÷ÒÿYÃñ¡i\u000e·G\u0002ù\u0010;LnÚ5ô¶µAEÈî\u0018HÙçÏ'\u0000\u000b÷:ø\u0018¦\b\u0019ñ§¸ðÛ\u00000'Ga`\u0006üÊîÀä\u0019®\u001e'm¸fÆÙ4~\u0012\u0011CÍÏsãÎ¦6?»(\u000b!~ó¢m\u0010\u001eäÄ¬\u0019øòëËo·ÍÅ\u001d\u000b³¹T\u000e'¬LÀ.\u0013CÃ³üð\u001d\u001f\u00179mh=ä¤¬\u0011½»¶?_\u0017xC¯Õ,\u0005¬ã$Þ^\u001eSôþÜo·+\u0015£AÚkê®[öñþÑç\u0004AÅ7\t&&\u001aA¯K\u001f&>HJbÖâYW\u0019¸´\u0016¡Ç\u0011y×\"\u001aÆðë3PÒðy\fÿ\u0003¬­{ØÙQ3\u0019Üíßðbãi¨\\óÃÐî¡Û?QÈ\u0006Ý\u0004\u000f\b\u0003X­×¥=¡W\u0015q\u0018K0OA N3ëð$­³'tÂæø¹mé\u0005°ÂAZ\u0017­ìÊíë9Þ÷´£õí¿\n=opJ\u0019xcPÌQµAÙäfz\n< \u001dÅ1Ü7Hl\u0015É\u0004c\bèSíe m©\u001d-¡ØÓ\u0016x·{Yh½QÍ\t®à­=ò¡MÓ7ù¯\u0002â[+\t-\\P\u0018\u0001«ríg®\u0015+W4s#g#äá\u0002.5-®I_FÛ,#$\u001dOM,ÅÙôøç´Fÿö-}É\u0004Ú+±Éð×¹Ê¢3þâj´\u00021Í¬\bÃ(\u0001(à.6±Ó\u0005µÜW5\u001bBÓàPÏ*¶Ejãy\u001c\u0001\u0001)\"Þ;\u0005Wæ·Ö¯9ßÖ\u0016otÑè|ö#~ãº¨æqVa8\"3ò\\³jºuCt^\u000fûÆÏ(mé¼Ï|±ÒZÝ\u0017ÛÝ®äQO8ÑX¯è\u001dWaàKö\u000byöVÄÃ®½tsù5L\fÏ\u0013=¢ÈE ñ\u0019ý\u0004üxROU\u0004+äó¨:LÚ×²²·@R\u0000G\u0011CzØá5?QÁp\rÜmÅ»Sb\u001d4Àþêý]¼\u001aGìK*\n kéuf·Úà\u0013\u000f·¶L¡IMÂéqCæîD>ø\u0015\u000b`\u0011³I®\u0006\tÒz\b­ó©°I:J½R¸ï£3\u001c*ÀÁ\ná\u0006ô£6^¸úOÃþØozÙÂeÓb»\f&¹65»\u0002\u0005Ý6rË¶O[p0\u001898¢h\u001cyèV§\u001ea¯1Â©#µ+5\u0000xÑ>Ú6ßw_0ã¤ö2YÐ\t0í+T\u0011\u0013\u001a\u0005/ayûo0±¨7<x\nË§09düÅ+ñÞ-Íõ\u0004êÏl®7¤4ò\u0019º8!²×,Óß\u001dâ\n@(\u0011?èfÙfeu\tj³*9\u000böÔ©=þàì10Ô\u0017Kgõ¡ùÀy¡aÛRþ\u0012&w¾ \u001f7¿\u001cí]sõzC\u00061Ê¼ÿ'î!\u001b\u000fº\u0006øV£ÇRÞ¯3p#i\u0005 Ë÷sW\u0005d[\u0001\n=*\f\u0003Ð#¹¶yB'>@r£7¸7'ìZ0Ä/Ó\u0015GÐ\u0007¹,Ò1ó3yö¨<u,D¶{63\u0002Ã\u0019\fJ%¢\u0006Ï:<c¾%ÒÐ¿EºµNV¼ÄÙîË\u0012!}Ö e\né\u0013\u0004×t;ò¸h\u0017£wz[Ã¢DóÊor06ÒtÆÑ´õ\u000fO[;FËÛH[Ks>\u0010@£\u0012\u001cÅÓápaføÚH\\÷³ãÊPYFF2aG\u0018`²«\u0002ÑÑ\u0006|Hû¤0­.P\u001b\u001d\u0014Õ^¶Rñ(\u001c1[¿<\u000b¼§Ú¡Ì?[e\u0018V\t÷DÃG8N\"\"rx¯(\u0007¯3¦0«³\u0015úAÍE$@=\u0005K¦5¯Å³e&«¯­AJ;\u0012ó^î}6Û\"à¶e\u001a\tÒ EÐ.W\u0013Æ`ò7¥po·«úfUVÛë¸4/N\u0016/÷ôó3°ÅC\"íª\u0004ãÛwÝï´ êÜbBë\u0002\u001dfäR®·Ö|Z»0ªJG@ê\u0011bØÛ#6¦J%ëpD\u0014S£¾¼5Gq°ß÷ënï\u000f\u0005\b]õÙwQýì\\û±-3Í§s\r^\fgè\u0006\u0011Í#\u0000HÉÉç\u001cJ+\u0005ë\u0012 Ìå°ÕÛ\u001aÃ¸°Ð+=;>O²\u0011®1ÛéBcS \u000bÿ·¾·?±ÓÎÂý¢Nró*/6\u0018ÃÞq'\u0005.-[¡\u001d¿v<§nöoÚ~ÆVJL ¶²ç\u0017Û«&6\u001bpÄHì9\u001atô\"\u001dÞ¿ÇZ\u0004#s¸7ãÅ8$\u001f^-×Ð¦;åAÒwüæ àÅ\fÔ4\u0004m5ñ¹Ü\u0006+@8Áµ6§NNÆG\u0001efO:\u0007H/Ã\u0000Ü«½Þ¸ÅûÔìÈE´\u0000|ãìñÝí·Ü@QºÈüõ\u0006KUÅ÷en©ÛÖ\u000eóo!s\u0005Â-ÐÃg¨\u00101h6Aí¹¦9ÜWÇ\u0011ÀÞ}0»\u0002Á2iÖB·nLí¨ù\u001då^ú\u0006ç«ÈÍy®pµ\u0010òDA¬ê½Ï9°¶¤a>üÛý²_YQË\u001b\u001b,Få«ÞñhÙÅCØô\u0011\tÉ.$NÂ`\b[#æt`Ä±¥T½êbRç~È,\u001a\u0016P±A`b»is¤)³\u001bó\u0001n\u00057nð¨£ÞÐ[À£-ØHÐï~b",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:12.256128+00:00",
+        "host": "a1-af4c9dec.easemob.com",
+        "path": "/lchr/diaoyuren/security",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:12.259947+00:00",
+        "host": "p8.diaoyu.com",
+        "path": "/UF/78/B5/95df88162f69830891fe19226797281b.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:12.486521+00:00",
+        "host": "kefu.easemob.com",
+        "path": "/v1/appvc/tenants/19602/upload",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"sys_version\":32,\"packageName\":\"com.lchr.diaoyu\",\"platform_id\":10,\"sdk_versions\":\"1.3.3.8\",\"timestamp\":1781217911175,\"platform_uuid\":\"9be3c43f-6be6-4425-bfc0-eaf6c1e7479b\",\"equipment\":\"ALN-AL00\",\"visitorUserName\":\"64c401917c42247be2581cb9844c3605\",\"appKey\":\"lchr#diaoyuren\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:12.568108+00:00",
+        "host": "kefu.easemob.com",
+        "path": "/v1/webimplugin/emoj/tenants/19602/packages",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:12.661692+00:00",
+        "host": "kefu.easemob.com",
+        "path": "/v1/webimplugin/emoj/tenants/19602/files",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:13.911705+00:00",
+        "host": "cnloc.map.baidu.com",
+        "path": "/cfgs/loc/commcfgs",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "qt=conf&req=7bGu7Pf96e_g4Pm68-mj_Lyj4Z24vu2848KT5JDqwOeq1tn83t2qifeA3dzS0IHZnb6JuvvnhO-87d-yv8qT1OjyturIvLnv4eHFzb3E5cv43qSti_yoi6OHoKqjovSmmpfqgu__4NyekJnt5unY6aGPhZmImMjT04zfnd_Zi8BlIyJ_JTQ6PGNgKyh3FFEDO3FleWdtL3k2PmN1ICw-Y1lBGFoBUFYUBQZVShkTRVUcWRYRRUcbE0FMMniv8f..|tp=3",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:13.921892+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/homecards?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=da085ecec62f4f42a98e249b1a63d450&oauth_signature=Rz4DvrLRVX1rlckygtx4b58F4wE%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217912608&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:13.926429+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/homecards?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=576252187d1e15357233ac71ea09eecf&oauth_signature=jGoE2DWFzlG3AcY2MxkZMQcw9pQ%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217912607&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:14.019548+00:00",
+        "host": "api.caiyunapp.com",
+        "path": "/v2.5/Y2FpeXVuIGFuZHJpb2QgYXBp/116.39564503788,39.92998577808/realtime?lang=zh_CN&version=6.0.4&device_id=60627dfc527e7dbc",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:16.524702+00:00",
+        "host": "cnlogs.umeng.com",
+        "path": "/unify_logs",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u0018\u00031.0\u0018\u0018557ac0e067e58e089e002feb\u0018@1c4cea6f4c6197cb085735810889368ba622b5d4f2b18bb4d47b502f79932a6a\u0015T\u0015öéÙ¢\r\u0015À$\u0018ù\u000bx}VÛã¸\u0011ýçe\u0013l;\"©+y,Ûíí\u001c{ävK\u0018À DÝ¬GòUy\u000f\u0016ÈKò%y\u000b\u0016ùÍÃþEêdv±\b`¬bÕá©b±¨Ï£wÙ~\u001e½ëòtDGÖJ\nÕg\u0014©t2¥SJ\u0006µ-jªT&Ô©4£A\t¡\u0004S\r¾\u0017\u001d\u0012&E:Õ,:Ã\u0014ÁÜ ºAMDu\u001a\nÅ\n5MjØ j!ªÂ6¥Q©®¼¡\u0000È)Ë4=kÍ\u0017åí§Ú_ÃËêaÚlÞ\u000b+v\u0006#2ÖÇ$Äs4¢$I*ÌóÃ\u001a\u000fãDe\tc\t\t\u0019&Ìµa«èp\u0002Csíõ»CÛDq×5í]\u001bïÐÝwµQ¦Ê\u0010èU\rð#YTE!\u0003I~\u0004ÇÂ2>\nñPEM5.£¬\u001dó5·Ó\u0010Ì`hÖ¼mr>8\nn\u00005D\nÖbÑ°P\tÃ'÷Þ|ÂýFÃCP<lÌít1°b5#MÓu\u0005#Uð\u0007äWV<\u0017;>ËH[¬\u0007¹\u0016¨e\u0019×BjD\u001a\u0011iÓýh[\u0015\u0003KD.¶¯D\u000eÄÊ±\u001fQ\u001dÆH6qªdµH@\t!bí%Ï;±Û/ûû/ÿø×Ï?ý4\u001c¹äI>lÿÛ]ED÷h\b$\u0012Ô\f8a}\u0000m`E¨«ñ\u0010#\"c]7\u00030\u0010&x( ¡\u0013IÕ¬ÜKD&÷²¢j÷zLâû8Òc)Ä9\u0001·úìºK~ öGÇö\u0014®Íë4nw\u001f( 6,ç»6þtÊÛïy\u0015¿Å×µ0#\u0006Ì\u00121\u0013ôZ(\bªS?°0··Ç%ß.çæBÉ}vÒÓgü ~igmÍ\u000b\u001el·]eF(³Öû\u001fìÃ¡]>ÊmPXØ²bS>\u0016\tk>¬öýµ-û:},æºc¸ÒâvÛ<ö÷%aè\u0018$\u0013Ýû=?µ¯×£ï4Aö´1\u001eò¸Ad·¦NCö²\u0002t¢±H![±\u0002©ÑXp\u0012ÂàT\rQ°\\gqÈCIç\u0006\f\u0016a\u0012UÁ$fB\fa|\u0011õP³c~\u0007ñüµ^\u0004\u0017\"\u000f'v\u0016\u001d&ßãv Ç¢²Øüõ°»7Y\u001b±\u0006rÿ_û×p¾ÀÕmE8Sg#j<j¿nW\u0007Í/Ø±¶n\u0015à O«cOå=½¸¶/;Þªwìâê|¸~s5iéù\u0017w¿è½s<Gy²§ÊÒvÌ\t]>ÖÑÌÀÁË\u000f=Û\u001a§¹é÷Oûôäz¦iUëC03¤èº\u0017\u0001²ð*nK;º8\u0017sÊ·è\u0010Xiîo\u000bÙß>çÁ|\u0001hËùJq°£ø[çæ{³ÊÝ\u0003\u0007ü9vtõ½M¿\\!q\u0013^=ß\"\\Ã,8ÞÂâò\u0014u\u0016Î¯ÿb]^HP\u0002·Ú=Xö­½sZNdäæ³,¬2´Ò§x[\u0002\u0002(\u0015\u0007\u001eº9ÿ\u000f%Ï¤àe}\b·\u001bÚ\u000bn\u0010ÿÑ±áïMSÈêÚ©*ö¶ªÃ?¬¡µ¥\u0016ì`ñ,¹\u001f$ôämLX·¯(¶7%K{\n9\u0014@ó¦hé¥¦ý-óÿÃÍÈÇÿ`OÛ/®n\u001fIîÞ2á4n\u001fë§©\tôêx\u001b,²¼²Ms¶Zø\u000b;JÛJq{\u0005{çæÚâlbéñÒ©\u001cìÚÏ³/n¦ùþýGÑöò]ÇÝù\u0012|\u001fÛ¡r\u001e¡rÊ\"Ü®Ð|b\u0015~õ\\¹Õ¬ò·³Êq¨\u0010¼.}oÑ/½²ò+G\nìHv×luZ\u000fUÑ³þV)àt*CT¨»7±³çEP9\bÆÒÅëÜ¿²É7^\u0001$øAyçu-*þó(zFßÍ0T¯CÄ!)aòd'È×Í\u0001@qÌª]ÿ­wÅN4Ú3q½¢\u0001íºã\u000eºÅ\r¬ÙY\bº,\u0004\u000e\u0003EcM\u0019C\u000e]PV×IóêäÃÛ£#¤È\u0004Ã#-+O¿§>.\u0002]]%Bj\u001bÑËETâ¥Â\u0012V?þ\t~\bßýüÏ\u001fÿý×¿À\u00072t¤\u001bÌº7H,\u0011I'X6;43Æ\r¸*ÉºJT\u0015:ºnÀóÌ\b\u000feÉ\"Òc÷æ4\u0003)HÁ\u0010C\u0015W\"\u0002Ào\u0002]ÖtBà£\u0001ÈºAÄ3ªê¿çøåË\u0000>¢¦Ô\u0018@6776b76fbc1729cb6321f38138ff1a8be154f6d49ac773b45a0d0e2ff5e50100\u0018 64327b6ceb05c1f0c6643e38ba95acb3\u0015\u0000\u0000",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:19.506395+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/app/user/userhome?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=8101618d144d82fc84a40645f4dbf3b0&oauth_signature=ZrNizzzt89iGUUYCLK7gfyMMmA0%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217918225&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:45:26.483962+00:00",
+        "host": "cnlogs.umeng.com",
+        "path": "/ext_event",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "*¿=bg5c7>>2lï\u0006íw9µv¹#\u0010÷ôs=ì\u0012F\u001exT8B¿µyñ¡\u0003\u0014}µ\u0017´¦®SyZ¨\u001bEûÚéÄïïÖï\u001c\u001a\u0000Y97ü\u001b\u001aBG\u000f\"0ÅW¥Hü*®sR²÷¥UµáWï·»vã\u0014/}2` \u0004Ô9³\u0011IÃ\u0016ù\u001e\u0004a\u0002\u001cÞ¥\u0011¢,á8áÙð}é%¡ÈôÃÍ\u000ed©\"2úÈ;C¡Ù\u000bÁq\u0011\u0018LA½ðè¸ªÚgßs\u0002úá\u0013mäfèÜ¬ÞBØC!xu\u001cÑªX\u001a=ÿ)Òì¥äsä\u001eDRC½Á2[.©iÔ7ø\f,\u0015ãK¤(¨.'äõÑ#ËëÇ\u000e5?Á7S¼À yµ×Ç(=pV`z$8D:Ëkæäb'Ó,°\ràf\u0013î\"¡;Ã½Ñó¿\f¤¡¦)\u0017Hî\u0015©\u0016R$ðÉÂà\u0005ýº\tÓïw¸²®bñ®Óäâ&ÐkW«A§\u0001©î\fË2°ä\u0007pOÜ¤Õð\u0006ãu$¼¸ô¡¯3¬Ù\u0011äÖnW{G.×\bÌ×@#\u0011q¦\n\u0016õâèhn§\r\"\u0014UB\f{µ\u0013ç³ô#\u0007\n\u000fM3ü¹D'ë¶\u000b7\npôÆ!ÆJ±ÒÛ\u001e \u0002\"\u00022û±ÌÂ\u001b¢\u0000ãç\u0013h£¶ä\u00135üé!³±ÄEÃ\u0017yEpOby\u0004æ\u000bÝÇä0Í",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:05.128578+00:00",
+        "host": "api.map.baidu.com",
+        "path": "/sdkcs/verify",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "ver=1&sv=7.6.3&cuid=&os=Android32&screen=%281080%2C1920%29&ak=FBFbFOa8h2WZY7D7ubiEB%2B0oNmW7w%2BbUoPf5%2FqlhWv91XqXMPwgfdjrgQ8TaShkT5oGwaT4%2FjEqfJt3h8CdpLIttRWlOzA%2BPkdk4I1el4wPBPgJRMDRLZ8ygGGDybuKVTELMbEA6i2b6%2FVCEuuJPpKyNsrIQ3XA7BBYsAUedJJxSnavaHH6DF5ge4HaQTswa4Xb4gQ%2Fgdpo9ZYZvFhTU%2FDXxn9UpJPqtw873m6jp7HsaNRTT4PhTg3XlaCPuzQoUngsgX2GYHNsxLwR0oZpfrXj61cv0RgtFC1vtEs%2B4FGPUteUMlGQPbbARvsWVVwDBQZqwDhQJrLy7UVNOgbTbkg%3D%3D&language=zh&resid=02&version=1.0.31&url=https%3A%2F%2Fapi.map.baidu.com%2Fsdkcs%2Fverify&macaddr=&from_service=lbs_androidsdk&output=json&imt=1&mcode=WZWhpozDbhykvpF1d2OhcHHFtFlsGFQrteXRsP0%2F5DyOWbQEZ9Z4u0MlFkPbX990oMkaPGMKOZESEkvtdmui%2FQe2pzDWQo%2BtZHK6p6%2BgJ5MHVFuCmEA0jWnf9Jd8ZkeIWHvk56h34C%2FhUIylbv9ymTByIBFlE1%2FHkbh%2FlkQxkVxLMnJJyCQq1Y7s88qo6fj6xccIivdfpWTp1yoAR%2BwxhjB%2Buwx9eKY1duPgQbbpbA7VQutfOLGqYix3orzqYbusQPmlIkTRvsbnoCHDyxDGgFCUmPdCFNfEHdKlhl%2F0OqV5ju5kTqTqMh3a%2BTGtNu5Q6ldh772GZNB24C%2BVkTAx7Q%3D%3D&mb=ALN-AL00&appid=-1&name=%E9%92%93%E9%B1%BC%E4%BA%BA&from=lbs_yunsdk&pcn=com.lchr.diaoyu&pk=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0KlF4uzdUtD8dwT0SgScHrEsMgyve6H5wNMM2v7pEuDi7kZZ8YjkeRLjOjIwe%2BLAsJOPgae6USuZcbgvqanUvLYQ26W%2FfCdLVhbH9GiNLOE6LEDupn6CemUWkp%2B44dKmjZYkPEb5uRwJ%2BiLuo5WdaTc0rFCY%2B4CvXrLP%2FzMMzFhGKzcdAJ2TWj0HqHrQ9BCUix6SwAM4RETv3U1cxYeWqgEFpm3rT%2FEC4RfUBjxWiCvnSGmCYszVQHjoPhbhcjtBVLz8mHbfAr4JX9HPsbfNwehFAnX2G%2BdQOycZ%2BW5IUJNXCyzLbD0HS8s9rkJhTEtOTKKBkcUvikGIUmVS%2BsPuMQIDAQAB&dpi=%28280%2C280%29&net=0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:05.260625+00:00",
+        "host": "utoken.umeng.com",
+        "path": "/anti/updateZdata",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "(ÏI1tdvT1hÃ½äì+3Ò¤\u0011\u0017WPr3\u000eÀe5»q\f\rÅFnölÝ E©òHÜ;=ÇV=È*Z\\µßhü1Ua¨wÚ?ÜlT\u0017ñ§î/´¹RþtV\u001bfKöTµH]À(ÃIkûmZ#Àæä\u0007\u0017oyzq\t\u0006o\\YóuáÑO\u0011gÌÚÎ\u0006ùÙ\u0015¢°m*I$¸Û\u000e£»÷%ù\u001d­p¯,CþÑÌqj#\t¶ \u0006T=¢S\u0016=Þ\nÁ÷éåEKm][ZYJnpêÛYfqÆ_Ó´>yûgÛ\u001e\u000b>_Á<a¹OÂgE.oÌÌË\u001aq\b\u0007J\u001d\u0002]fqGN\tgí\u001aA\u001d£¬cîmü\"ï]$ïñy;£5sB\u001br$ôÔÛµ¨I\u0000<ø\fÛ£Ð\u000fõó%\f\u0013s`*ÈdË3º&²çþW°×Ð/ãh+\u0015î\u0002!\u0003iÛ9\u000bå¶lJ @õèð#íxs\b©JèÍiçqÄ%å³`ú¬·_\u001ar?§rIr¸\u0007ã¦K ³,\u0005Ç®f\u0018Vµu!àxùÌG­¬\u000e¸c8]ÛMÿ\u00071o\r«\rKê½®]5­5þt<¸BH4Ô~Ó?a×ÀÐfý\u0001é\u001dRÏE¹\u001e@ý¤ÂU$âs¥éû%mÂÀàbv b\u001dG\u001b\u001dÒ_úQ\u0002,ó\"þÒékk¿7\u001a\fO»[\u0005GÈÀ¤èEªrØ9æ\u0015G¦|\n­\n<ZÇ{7!\u000fzRv\u0018°h\u0016{·´~]\u0005¬ÙVmé?<{y´/É¢r\u0016NÄ3wû\u0001Á«#ßNÅ÷\u0017½tf\u0013ç(o4Å\u0014øSx*í1\u0005\u000f¡èõÒÑ@\u0004@'\u001aï\u0002r?_HZ7HTÓãÞ\u0005áÜÉ¥íTò4èrør\rÂk\u0006õÌÙ¤tæÊÌ§\nç\u0018~LqÔOÕ¦{\u001aÓ\b×\u001ebôK\u0002pú\u0000Ä\"Å\u0012\u0001a5ÜÛÔîÄ\u0006¡½fö\ráÂg*\u0004,\u0015\u0000!|&Yþö?\u0019µÇËuuÉ\u0010Ìu+\\®+v]npkN9zé.(þÝC/ßs_Gf!µ\u0016þµ ©bÙTÂW\u0014ä*E\u001dK\u0007aÌër¢!Kj¯áì·õ\u0002&sVl â\u0000Á;éÖ'Ñ8õ!ËÛ\f\u0005\b¢\u000b¥îmïC\u000ff\u0004kû\u000eQâ1ûöÀ\u001fÊì×)RG¤E\u0013ÖÉ=t-×.®öÊîÜ¢\u0005Òê\u0004ØÅ\\?\u0006jKhÒÈ~Î\u0000~³^¾\u0004Ê¡\u0013äknû¢èùZò{å\u001aÚyÍr×µ8ËùòÏ\u0015À\u001d®ß\u001e[&%\u001d×®ÙÁ\u000b,ñ´",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:05.467640+00:00",
+        "host": "kefu.easemob.com",
+        "path": "/v1/grayscale/tenants/19602",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:05.484267+00:00",
+        "host": "kefu.easemob.com",
+        "path": "/v1/webimplugin/tenants/0/options/visitorKeepaliveHeartbeatDelay",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:05.496681+00:00",
+        "host": "kefu.easemob.com",
+        "path": "/v1/kefurtc/app/checkBeforLogin",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "sign=GpkjbCYLgX8Hi20xh5ScUYGpDRbJb7BXfYBccwM9VT9Sqt46jjtpSvsASN5u4d6Lg4fHHYi39%2BTYTF%2Bt6PGfAQ%3D%3D",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:05.518848+00:00",
+        "host": "a1-af4c9dec.easemob.com",
+        "path": "/lchr/diaoyuren/users",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"password\":\"6638b884de818929fbc1d6aa2489445c\",\"username\":\"64c401917c42247be2581cb9844c3605\"}",
+        "response_status": 400
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:05.879645+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/user/usertools?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=0c99e39bf10c193c76fc833e40da31d5&oauth_signature=7wA%2B7u5D5%2FcDPQahlVDt%2FoV0hZg%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217964215&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:05.885654+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/user/messagenum?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=ac2b8b4930df82f2c686ae6e9e99d8f8&oauth_signature=ttVrs926hPscIgEAPOzzLBnOFmI%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217964199&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:05.891414+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/init/info?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=60c0653297e8eaf01de0b64bc7af1464&oauth_signature=rIF1wdU7Oo7vrTGFvBtyfg3loK8%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217964212&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:05.896415+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/home?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=35e07048e2704ab61c94e3c4da3168fd&oauth_signature=dV%2BeuKTdCFuN3WUFeVmgoN3OXdc%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217964071&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:05.924549+00:00",
+        "host": "a1-af4c9dec.easemob.com",
+        "path": "/lchr/diaoyuren/token",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"grant_type\":\"password\",\"password\":\"6638b884de818929fbc1d6aa2489445c\",\"username\":\"64c401917c42247be2581cb9844c3605\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:06.080949+00:00",
+        "host": "a1-af4c9dec.easemob.com",
+        "path": "/lchr/diaoyuren/security",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:06.085661+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/app/init/ads?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=e1395da71d66ddc4276796f3416b81fd&oauth_signature=IV%2BqFQ5DEEFV%2BFwcohFwc2TQbFA%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217964705&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:06.090093+00:00",
+        "host": "rs.easemob.com",
+        "path": "/easemob/server.json?sdk_version=4.1.2&app_key=lchr%23diaoyuren&file_version=2930",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:06.147213+00:00",
+        "host": "p8.diaoyu.com",
+        "path": "/UF/7F/AB/7a46b52bf2eff0e24b990b2c886514f4.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:06.508649+00:00",
+        "host": "kefu.easemob.com",
+        "path": "/v1/appvc/tenants/19602/upload",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"sys_version\":32,\"packageName\":\"com.lchr.diaoyu\",\"platform_id\":10,\"sdk_versions\":\"1.3.3.8\",\"timestamp\":1781217965084,\"platform_uuid\":\"9be3c43f-6be6-4425-bfc0-eaf6c1e7479b\",\"equipment\":\"ALN-AL00\",\"visitorUserName\":\"64c401917c42247be2581cb9844c3605\",\"appKey\":\"lchr#diaoyuren\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:06.708104+00:00",
+        "host": "kefu.easemob.com",
+        "path": "/v1/webimplugin/emoj/tenants/19602/packages",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:06.897829+00:00",
+        "host": "kefu.easemob.com",
+        "path": "/v1/webimplugin/emoj/tenants/19602/files",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:07.588157+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/homecards?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=13992fa5b54a3b5a185feaabf7107e40&oauth_signature=WXbC1WvLmbr1ULOQB4tY4AhbFjU%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217966173&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:07.624589+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/homecards?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=85ed664d8b2239102d4d442606a07e25&oauth_signature=6SHCwku6q%2Fuvfh%2Fx9SU6rdoTVF8%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217966174&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:07.723461+00:00",
+        "host": "api.caiyunapp.com",
+        "path": "/v2.5/Y2FpeXVuIGFuZHJpb2QgYXBp/116.39564503788,39.92998577808/realtime?lang=zh_CN&version=6.0.4&device_id=60627dfc527e7dbc",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:09.175161+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/app/user/userhome?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=dcfcfd1d0a0f75e340039bbba5d5a520&oauth_signature=%2FtXRby2P0SB3QbBDR%2FJNfN7C8c8%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217967902&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:46:10.111090+00:00",
+        "host": "cnlogs.umeng.com",
+        "path": "/unify_logs",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u0018\u00031.0\u0018\u0018557ac0e067e58e089e002feb\u0018@1c4cea6f4c6197cb085735810889368ba622b5d4f2b18bb4d47b502f79932a6a\u0015V\u0015àêÙ¢\r\u0015À$\u0018ü\u000bx}VÛã6\u0012ýçe³î¤®\u0004æA²d·§MyìV·[Â\u0000\u0006uµl]\u001cÉ÷Á¼\u0007\u000bìËîìÛ\"ØÏI\u001eò\u0017)rzv'A°\r²U§N\u0015K%}\u001a¼Y\u000fè§Á¾,\u0006tà¨¢QsDN\u001eõ4ªXÔu¨­SPK¥Ê:\u0016%\u0012L\r4x+\u001c{$<mLj8t)½EMÚ&µ45jÛÔr)AÔAT0eP©©½¢\u0000Èa½6Ìu\u001b|<©\u001e?4Áø\u001cæ÷^ûôNXñ#\u0018;óNSxL\u0006TS\u0014E}Y§pÆY®óó\u001cÃOÇ$Í8&Ç\u001a2T²;¡½`Góf×µIÖ÷mwÓeÇ\u001btó\u0017Î»d­«ß\tôº\u0001øª+º¦\u0011I2Ý\"àqí¸Û%m}W%ëî.-y{9Èd¤¡Ý¤][¦ÒQp\u0003 l¤y¢a#3Ò8\u0007µ0ú·öT)Å-ÿ&Aqÿd/½dÅ\u001b\u0000Ga\u001aFº\u0001éKüwVi)\">«È,¤Ü\bÔªÊ\u001a!µ¢\bÃ¶íO´«Ä¿\"Å\u0014ákQ\u0003q²¿\u000e¨\tk\"R\u001búBUñF\u0014àº\u0016BÂ»WË´ìE´_ÿñÏ_ÿõúI^9y)Ãÿ1ªÈè\u0016ÉD\u0012AÍ\u001b6%h\u000b'B]KÆ2ÿVdÆûkÙJ` L°l ¡WsE7ªÝ*D%·ª¦\u001b·fF²Û,13%ÆS\u0002nÍ>_õ§r@ï\u000föÝ!\u0003]W6EÖ­\u0000?\u001bP@ly®ºìCÙeéj_ÖÙk~}\u0007;U°ÊÅNl:h\bª©o\u0007WÉÂò\u000fñíåÃ\u0003êÂÙÑ]ÆÎa÷Ú²p«E$'#D'åô²zLì÷æ\u0011Oã\u0015'îCzX§Ç\u000fA»Q/Çç®ÿÐ\\7\u0011Â¼/ûÍ\\94\u000fÓÀ»\u001d*±¾x¼ôî³I¨ÊÇãÚË2Aõ;,ë·\u00167qÌ.mSÄüKÉ¶ Ó4'J\u0006ÕÊ4(ieó,\u0016\u0006ZfÁKgq\u001a+fjÄâ\tæ(×5L2®\u0018kÄ\u0012Æ'Ñ\u000f\rßÇLÇ¯ý\"¸\u0010UÞØQLruÌ:I\u000fßÎâ¯ò×Ëî_eãÜ\u0019 _ÿkÿ%Ïðèv\"\u001d=\u001eOº¯¡Êz\u0007»ñ\t3gé×\u0011¶ãa{f®§Î]ïä»¡Êù¹Û3{<þé\u0002gÊ,\bOþfÒ³Mxa\u0001Ó¦®§Í\\f\u000fñèô±IF\u0016^Þ_ùÒ:íð:Ý\u0014\u0007?°m§^ì¢¥$çÂgA\u0002ÈÂk{¹Él/]¢]ä\u0014e¸Üªáò¹Æ\u0013@ç\u001aÃL\u000bì\u0012\u0006£Úß\u0000\u0007ü¼fnr\u000e§ëln?ÄÄÏÓúùàê\u0018¯!\u000b&¶«CB\u0016ëx|ÎÃ\u0017çôB¢\n¸5þ.ÆjèlØa6T\u0011³íû\u0010¯×q­U±SL³eu\b Ô)ð0moü?h<R¢Å.^>ÞUpü÷Ìà\u0015P\u0007Ýw\u000b]ÄvêÝ.½_Àh+\u001cà¤ëbä?*h\u001a<Ù\u000eq._QÜÀ#3×\u001a&\u001a \u0005\u001e\u0005í~ËüÿpsÆ\u0015\n1\u000bï]ø×ÉÙ¿&¿ql¸ËÇfêÙ )Î,xÂ¢Ês×¶GóI8q\u000bÕâÞæM×Ñ]|7ÑØ2ÚÎ´b5Ã¾û\\³ÍöbÛïÞ}\u0014c¯\\õévuü¦\u0005ßûNvÎ\u0003tNµs4\u001e:Û°~®ýzTËQÍ`\u001d\u0017U\u0018L®³ ªÃ)¨þÏI\u0017 :y¶\u000bû!\\j[¸Ú\u0012\u001d\"º`îolÌ6é6ª\u0019µòñ¢\fÏ|øW\u0004)\t~ÐÞeÓÿ4( ÑÛÁ¾KýeI¸\\òJ.«\"ÍW|ÓîÀ\t\u0014ûu½º~«HûíJ\fÚ>åâñJ$4_õû\u0015L=\u0015'°áG!ª\u0010Rx9PtghRØ0\u0005M\u0005hõe·_|óR¾{L4`x\t!aË«Ã©\u000fbÀT×ºVÌrxSa\u0005ë\u001f¿\u001fÂ7?ÿûo¿üýGøÀÐå\u0014È{iÖ¿Bb(&Á\u0006Y9ÌxjaêjêD×a¢\u0016¼9IcÕâªÈtß¿z\"ÃÒM\u0003CÕ\"\u0003Ào\u0002S5LBà£\u0001¨\u0006Ñ\u0011±°®þãçÏ¿\u0001ru¤\u0018@ac76aa6f2f1787cbdd21e78179ff468b80544ed45cc7adb4cc0d772f89e50100\u0018 c164c6530c2ddc29983fee27d96fe0b0\u0015\u0000\u0000",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:00.671051+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/user/messagenum?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=44d01169b210d005b5c468dd4cb4cc78&oauth_signature=oFDD3BFWrtfXkGtCiztoDIkU3LY%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218019390&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:04.693167+00:00",
+        "host": "utoken.umeng.com",
+        "path": "/anti/updateZdata",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "(ÏI1tdvT1hÃ½ää%7Ò¤\u0017\u0015gÝa*+^TÜë\u001dthÙ¡ùÖF?£Ð\u0017ác\u0006óH¸]\u001f§~\u0017èïA\u0011\u0011íkð½E3°ÇS7î6XJÅCb[\u0007³GÃ^\r+D~IaYJZÃé ]Uî~ßÕìÿgÕ\fEû4,`Éw¿è\u0016foä\"r±* 0ù»Ø\u0018&¬ÿ¶É.á\u0012[ P\u0015(~\u001cD×\u000eoå:\u0019rqÉ\u0001º\u0014è\"us½Ë¹@\bJì»\u0004]b\u0000\u001f\nöêÇbîc\u001aüMb¥Û*TféÃØã%@\u000f\\f<I-á\u0019\u0000~÷*wl\u001a¼}(E$\u001d¬'·¬1\u001cëÜ\u0014cü\rÁ\u0013¨\u0002ÿ?3ÄìöSuý7\u001e+ãîB\u0017Dg¦Ó\u0003TB-\u000bºcaO\u0003¯Ó´<4£>K¨ÚPµ\u0001ÌJË\u0018îÚl?E\u0018n_ì¶Ò}\u0013L«õª\u001ce\t>ã£!`¾ã½ÂÜbÓçò\u0015ÔÈh¹?RÛ\u0007\u0011ãÇèFÑ¤ºÐxËÆåz~:h}.ÂQN~¨_\u001bYüÒ<F.­½Û\u0005âÀÛwÒ|6±CTÒ@ÿ;»1åñ\n\u0019!ëwR»ì\u0014\u00142«;q<&äx­p=üwï?ìâ[b|e\\ßØ[ÊÖü1\b\"!ÝñoE\u0007$\u0007u \u0011[i\u0018g]ô\u001c\u000f\u0014ý\u0006\u0018\u0000D\nùÉ\n\u0011jß\"M \u000f¶eËob3O¸:â7}?\u0016@ãXÔt\u0016aJÝ®\u0007¸£^E6l^rç6®O=ÎT@Sô¬*=é)°\u0016·ã\u00169Î[ál\\3gþ\t·¯F®ªú\u0014\u0015OÓeF2ÃFÙ°(µnâ¢â2S%%ð¤H)+;£\u0012fm\u0012ÐÎH\u001f¨\u0018-\u0003\u000b¡d\u0015Ì§Éh´ué»ú­Ú¥'V;×\u0019Þ¢7±ÅóMÏSØ>30\u001eU+/è \r\u001c \u0003:ã\\9OËkùtX\u0010îÓiv0êv\u0004?Hèã4\u000fmTT\tÕL÷Y¶s¡ª|7móÞ­\nlW\nç¶Ïkihb\u00183}9×°óxÞ7ó¦½Î+Ë\u0018µ]@\u0016ÞSj_Ë¸\u001c~(9ìÓ&7èÃß\u000b³;\u0013Ëá6B\fvoJf5¦´Ø¢þ×+\u001cãRì­ï@³\u0005¢ù<@È:Ù]æy+\u0018§Ðµæï\u001d-<¨£DHßuw¹\u001a½µy×O{ãWmÄþqº\n\u000føê@@ÄÊ\u0016æãÚÊ<xÐþ ©òz\u000fÀ9º§\u0011+¤=Þ[&Xeî]n \u001e\u0003!Øÿ8àØ¶Õ>xþyØÀ\u000bûcy|Ó§_>'_Û÷",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:04.705409+00:00",
+        "host": "api.map.baidu.com",
+        "path": "/sdkcs/verify",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "ver=1&sv=7.6.3&cuid=&os=Android32&screen=%281080%2C1920%29&ak=YFFbaotCEDSdVQzGGtniHor3U4hSkfvPHlcQiIUQAOQIX7g770ffiYKS6rhZXX3%2BtuqBqgpNGW4uhgmsrEgAEeDTZ6xMWBWQOMaR99vkRdWu0RpsKziwqrk4Y7pbiXqq6Sgni3%2FyaBKq4ZCwN4Urt26Dt98l1xxyhBdxOqF7PQB9mWTLHQ228LP%2FYHd6I0vBZKHiRHAphUP3PFYkK05G68PK1g1iroK2mSBjgCuutJteJnFUJ2lXlEeQk9qQyLVI9QlYN4fC4JSams83d3Rlhdcctao%2FiTdrSzpizkwI6nj2xnngBM8akxPe3a%2F%2Brkr2YFWX8TcYjStL%2Bd6xPCO7Ag%3D%3D&language=zh&resid=02&version=1.0.31&url=https%3A%2F%2Fapi.map.baidu.com%2Fsdkcs%2Fverify&macaddr=&from_service=lbs_androidsdk&output=json&imt=1&mcode=EngFsYAlySz8Q2N%2FxKbvTzDc%2BseSQ%2FLKhmFGDw7RWBn0ZqGTiHcPp%2Ft2k6%2Fdf4DR7eGFqFBsslUs7Rig8w0dTrLnpdZvOCh3WXynUqFujmPiVF%2BXFEVbQZ5Cogm0gj3uffz5nvp5OWbeRxmPdv5amwUH2U4Vf5UPo6t1jWowqY90MZZSeGSG%2B4tdw3lcZZkf0OkBfqoq8tV107oWxJbg%2Bi6klUq8Be2y%2BMJ4GOiyItu43yHufgaIFW8yhuqBl0n%2BDq5LecWoe5rgPDi4xZy1sM0F1T6GtSc583ceejUMSfmJNZM7Sh8tMfbSzQGLJmyraZ%2B7LBQOVtlR8t2RoQ8eBA%3D%3D&mb=ALN-AL00&appid=-1&name=%E9%92%93%E9%B1%BC%E4%BA%BA&from=lbs_yunsdk&pcn=com.lchr.diaoyu&pk=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqwLVxdK%2BWJLEzDgDEqzPxvECxHnsJYmgqIH3G7XNatdQaShkWC0tYD1ijDzZprNDutBy42KcsfIYMc0%2FQVPctfAWyrJxOxlqdYGe1FUBKMIrEjZTZSSq95uyOyxijzJEAap1IdSvQ8AkO7WDAh0Uy4Yn4hB65D3vyXLu0eW3jithi5rcw%2FC4RZAw4VHm1%2BP1d8R1I6zduHbNuElbKfJ1L%2F%2BFy9a6V36j7JxyyPQbv%2FM%2BNI6GyCyZakIrFS1cLixfvu61xs6biJEZ6G0YOm%2F%2FO2svUPNuVaufVt8po0Bg%2FsPTUqUAiHYncBWrghxd5APqMbgPq9TL4kwK0GQFE%2Fm9JwIDAQAB&dpi=%28280%2C280%29&net=0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:04.867485+00:00",
+        "host": "kefu.easemob.com",
+        "path": "/v1/visitors/tenants/19602?sdkVersion=1.3.3.8&appKey=lchr%23diaoyuren&uniqueId=9be3c43f-6be6-4425-bfc0-eaf6c1e7479b",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:04.879614+00:00",
+        "host": "kefu.easemob.com",
+        "path": "/v1/webimplugin/tenants/0/options/visitorKeepaliveHeartbeatDelay",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:04.887241+00:00",
+        "host": "kefu.easemob.com",
+        "path": "/v1/kefurtc/app/checkBeforLogin",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "sign=GpkjbCYLgX8Hi20xh5ScUYGpDRbJb7BXfYBccwM9VT9Sqt46jjtpSvsASN5u4d6Lg4fHHYi39%2BTYTF%2Bt6PGfAQ%3D%3D",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:04.894846+00:00",
+        "host": "kefu.easemob.com",
+        "path": "/v1/grayscale/tenants/19602",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:04.937181+00:00",
+        "host": "a1-af4c9dec.easemob.com",
+        "path": "/lchr/diaoyuren/users",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"password\":\"6638b884de818929fbc1d6aa2489445c\",\"username\":\"64c401917c42247be2581cb9844c3605\"}",
+        "response_status": 400
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:05.170748+00:00",
+        "host": "a1-af4c9dec.easemob.com",
+        "path": "/lchr/diaoyuren/token",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"grant_type\":\"password\",\"password\":\"6638b884de818929fbc1d6aa2489445c\",\"username\":\"64c401917c42247be2581cb9844c3605\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:05.180408+00:00",
+        "host": "rs.easemob.com",
+        "path": "/easemob/server.json?sdk_version=4.1.2&app_key=lchr%23diaoyuren&file_version=2930",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:05.192162+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/user/usertools?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=6eedb4a7f11fc61dcd75c084ed5ca0e0&oauth_signature=boNI5M%2BgZCaCPZNqGcrnWCce0Ss%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218023742&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:05.197102+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/user/messagenum?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=c1946afc619b55e0ec3702e61b666ad5&oauth_signature=bancMNjIkx%2B6Gjw5eDKJWlIgrpQ%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218023725&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:05.204644+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/init/info?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=f38ba31e404f48e91e8872ac3d0947de&oauth_signature=wv3mN%2BtSMdhxhG5aZnFhTcmiypE%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218023737&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:05.209596+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/home?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=8f068a875e6487bc37bf97c11b5d570a&oauth_signature=2fX2h7mm0WioUdrqr%2FHL5OkoQ1Q%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218023642&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:05.237357+00:00",
+        "host": "a1-af4c9dec.easemob.com",
+        "path": "/lchr/diaoyuren/security",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:05.331624+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/app/init/ads?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=ceb3361c3dc3338e465ea9088c9c89a3&oauth_signature=eVR9tgqaAMhVck0rzs54XnPJ4K8%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218024018&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:05.464897+00:00",
+        "host": "kefu.easemob.com",
+        "path": "/v1/appvc/tenants/19602/upload",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"sys_version\":32,\"packageName\":\"com.lchr.diaoyu\",\"platform_id\":10,\"sdk_versions\":\"1.3.3.8\",\"timestamp\":1781218024150,\"platform_uuid\":\"9be3c43f-6be6-4425-bfc0-eaf6c1e7479b\",\"equipment\":\"ALN-AL00\",\"visitorUserName\":\"64c401917c42247be2581cb9844c3605\",\"appKey\":\"lchr#diaoyuren\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:05.549581+00:00",
+        "host": "kefu.easemob.com",
+        "path": "/v1/webimplugin/emoj/tenants/19602/packages",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:05.633885+00:00",
+        "host": "kefu.easemob.com",
+        "path": "/v1/webimplugin/emoj/tenants/19602/files",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:07.001559+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/homecards?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=c1c22387ffa407879313b5b9d4b90766&oauth_signature=iR6P7Uya5qK0AxbO%2FPcrDKGYuoA%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218025706&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:07.014209+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/homecards?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=6f5be9cde41d0ee7de3abe24a812a1e1&oauth_signature=iiL13gJ7nS0kO0stU%2B%2BJ6JoqjI4%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218025705&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:07.033289+00:00",
+        "host": "api.caiyunapp.com",
+        "path": "/v2.5/Y2FpeXVuIGFuZHJpb2QgYXBp/116.39564503788,39.92998577808/realtime?lang=zh_CN&version=6.0.4&device_id=60627dfc527e7dbc",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:09.364892+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/homecards?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=7ab2afb02ccd293972dc4d1156b3daf3&oauth_signature=dg%2B%2Bx6vFoe9wCdmS0yYldKajOO0%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218028056&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:09.503842+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/home?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=dfe934e33ba516dc32f48345fe3e8017&oauth_signature=OO3uonrqcGedeoQ6F3qrPtU6Q2Q%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218028057&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:09.679952+00:00",
+        "host": "cnlogs.umeng.com",
+        "path": "/unify_logs",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u0018\u00031.0\u0018\u0018557ac0e067e58e089e002feb\u0018@1c4cea6f4c6197cb085735810889368ba622b5d4f2b18bb4d47b502f79932a6a\u0015X\u0015ØëÙ¢\r\u0015À$\u0018ö\u000bx}VÍÛÈ\u0011~|É\u0006\u0019ÝÍß\u0006| EJ£õ²dJ2\u0005\u0003BóWØ¤LêïA\\'ÙÛbÇÙ\u001cö-RÝ\u001eo¼E\u0000\rº«ºê«¯ªÕóiðj7 \u0006¯º²\u0018Ð3¦FÍ1E:\u001dyÔÓ¨bQ×¡¶NUB-*cêX\u0010J05Ðà/Â±CÂÓ¦È¤CÇ\"Ø[Ô´¨¨iRK£X£¶M-\u0012D\u001dDu\b\u0003X\u0006EÚ\u000b\nw;ÃÜ5M¦Õ»õÇ:ÜâëüÉk¯\u0015»\u0011\u0019CM\u0011â%\u0019PMQ\u0014\u001dö%Oá,³\\g9c9I1L,+\u001355d¨äx\u0006C{á_ÌcÛ$Y×5íC]\u001eÐÃ\u0018k®~'Ðy\rð\u0003UWtM#dz\u0002EÈâ*;\tñx\u0010%K\u001a>¬];LKÖÜÏ2\u0019ih×iÛ©t\u0014Ü\u0000\b\u001bihØÈ4Nä\u0001\u0017ÏÁ£ý¬ÈâýNÆ xZÚko*Y±\u001aÀa¦n@ú\u0012'ÿUZ+\u0015\u0019ÓkZUY-¤F\u0011aØ6Ýo¶8±°òg¤\"<\u00175\u0010'§~@MX\u0013Ú(\u0010ªÕ¢\u0000ýN\b\tk_,Ó²\u0013Ñ~ùç¿~ùáß?ÿô¼8\u0001s-óRÿ}TÑ#$\u00057lJÐ\u0006NKÆ2ÿFdÆº¾l$0\u0010&X6Ð«¹¢\u001bHÕ\u001e\u0015¢GUÓG3#Ùc\u0012cÍÄ)\u0001·úo»kyJ ÷\u0007§ö®-ë\"k·\r( 6¬L·möñ\\¶Yº=<{É¯ka§\"Øåb'èµÐ\u0010T6ì%\u000b;~Ú\u001eõ¦>\u0014süñmþq¾zsæäz-ø¼²ç³ùú\\ÞNë­É1ª,ìøÊµ6#o\u0012EÉôíâ`-çk»(µwiú>æ®¶i]E][lnæ³mÏ\u0017E3k:z<ãÛS9<ùyô,\u0013TÏ\u0018bY¿¸;dvoê\"f_Jv\u0000¦\u0019,Q2¨V¦AiL+S\u0014g±08s\u0005+MÅi¬©E\u0012%¡\\×0Éb ¦\u0011K\u0018_E?ÔìT^2)^¾öàBTyc\u00171aÊí%k%=<\u0014Å^ä¯Ý½ÈÆ\f\rû_í¿¤ó\u0019>ÝV¤ãùKÑãIû5TÉ°\\±ï¬\u0003¾ÁÃdÔÜ|×Sç®w\rÜHõÃyï»ÿî\núå\u001dÎY\u0018]ý´ó÷ÑÝ\u000f}íÙõ´ëÛ#<¾~¨±7ï¿ïÙÚ:Oì¨Þ\u0017ç ´m/±¥$·\"ðÃ\u0004×á>s«µ½t\u001b§(£õAÖ«r3\u0002Úl2×|ìkÑÚ¿Gá\u0007{àW;ßMnQ¸ìgsûML<å«{«K¼+F~8µ=\\\u0013²ØÅ[\u001e½w®ïÉ¦\u0002nup±\u001a9{ÿ<\u001b©È·í§\bïv1×ªØ)³uuÞ\u0010@á)ð0moò?Íd¬lÞ/ñz\u0019y½à\u0006ù|\u0017þB¯:è[è\"¶ÃÇôi\u0001£­p îqðNAÏáÒvsÿâ\u001e¹\u001eÔ0Ñ\u0000-ôÐ,,l÷[æÿ3©PýèÉõHÐOoA(ÁÞ±á6î\u001fêgÏ\u0006MqóÃ%\u0016U»¶=O£©[¨>\u0017÷6×>Ýmöþ=p\u0013Í_o\u000e³0­|îãÀ]q¸Ûöë×\u001fÄØ+·]zØ^¾iÁWå©ó\u0006:§:Äë9CÄW<àc\u001e­ÇÜUv\b^TQ8ígaÅ#î+\u001b7Q\u0005_6D<YÙý&Zk\u0007¸\u001dn\u000e\u0011]0\u000fö6ö÷éaÃ}\u0004k\u0015àE\u0019ÝØè\u001b¯\r¤$øA{u-:þÓ ~ùrjäÂ¿,\tK^Ée[¤ùV¯#8â´ãÛþ[EÚ\u001d¶bÐv)\u0013W\"¡Ù¶;maê©X|5»\bÁTÂã@ÑÐÐ¤p,a\n\nÐêÊ:o¾øæ¥|{L4`x°eÕùÔg1E`ªëDHm#f¹ÈJ¼TXÁú¿Â\u000fáüûþñ7ø\u0007ÃS ï¤Y÷\u0002\u0015¢\u0004\u001b0få0c©Qª+ª©\u0013]nZð<3ÆªÅTé©{ñD¦M¢\u001cxÆE\u0006bJcbªI\bLk`\u0002[È\u0012æþG?ÿ\u0017z,¦\f\u0018@f076776f411738cb5421988175ffa18bc3548ad4d8c766b49c0d932fd3e50100\u0018 078511ebc4cbbfffd0a35b069977fd5c\u0015\u0000\u0000",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:19.609725+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/user/messagecenter?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=8b29c9b556dd08f403814cf473af5d31&oauth_signature=EI34gTgqDJPpH7q1QB7Zy%2FYNC%2FU%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218038325&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:19.650285+00:00",
+        "host": "cnlogs.umeng.com",
+        "path": "/ext_event",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "*¿=bg5c7>>2l\u0006å\u00079É)²sbhQxe¹ûQù¿¬ö\u0003ÜqÊ?\u0001d\u00176£\u0015YÎ¢rßÀs\u0015úgÓàNvò&\u001d¨ïSÃÀKA»¢ë¡÷·¾¾ê¼.7Æ\u0007\u00019\u001cvé7´¸;\u0012É}\u0006{©ÞÿL²ÖíC\u0004\u0007\\2fk\u0018é¼O²÷Ò/\u0000Äû«\\XÖ»Oä\"ÕáÎö±Ù\u001aÛaæ¯AP±´b@p¶TÚ`ä[òÚÄ=LîþJòàè\u0005ÝÕn\u001e¬¡>2ôÜ\bwàÅOê×¦X<À¼âxÛ \u000b´5H[T|<\u0000zº»7\"2û\u001cK\u00138úÔP\"âVSc£C6áÝ¬KG\u000f5?Í7\u0013|Ã¡g½×Ç8>pV`d$7D:_2\b\u000eªÔ\u001fbÓÓGU/VÞHbdQ'­lHò= £\u000bªút¡\u0001moå ò½¾/j·r9½á@V¼ãDR\nB\u0010\u0016#Ø:\bðèÂèÔúÇõÛ$Tý \u0002´â8¹æµ©\u0015?d\t\u0000\u0006-nÝ.\u001e3gÂÇ]«M8ïn¢ l¤¥·LW\u0015`vSÃEÎÀ'\u000bþÑà!Ç4^r£nï\u0018^~á\n)Ôß©\u0007\u0005\u0001øüõ;d­\u0017ç\u0018Ëà¨wêqîàJàOAi@æ¼\u0017áÿy}Ô¶zxW¯Ï´W \u0012A\u001aoßÒ¬ä`Ä",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:47:32.961341+00:00",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/user/messagecenter?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=996acea32df86b98acbb1940a5ceb8eb&oauth_signature=EKKBJncKICC3bzUWbXqfRLQDlb4%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218051672&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      }
+    ],
+    "flow_count": 82,
+    "unique_hosts": [
+      "a1-af4c9dec.easemob.com",
+      "android.bugly.qq.com",
+      "api.caiyunapp.com",
+      "api.diaoyu.com",
+      "api.map.baidu.com",
+      "cnloc.map.baidu.com",
+      "cnlogs.umeng.com",
+      "kefu.easemob.com",
+      "mshield.baidu.com",
+      "p8.diaoyu.com",
+      "rs.easemob.com",
+      "utoken.umeng.com"
+    ],
+    "mitm_blocked": null,
+    "stderr_tail": "",
+    "dry_run": false
+  },
+  "network_result": {
+    "schema_version": 1,
+    "adapter": "traffic_checker",
+    "flow_count": 82,
+    "unique_hosts": [
+      "a1-af4c9dec.easemob.com",
+      "android.bugly.qq.com",
+      "api.caiyunapp.com",
+      "api.diaoyu.com",
+      "api.map.baidu.com",
+      "cnloc.map.baidu.com",
+      "cnlogs.umeng.com",
+      "kefu.easemob.com",
+      "mshield.baidu.com",
+      "p8.diaoyu.com",
+      "rs.easemob.com",
+      "utoken.umeng.com"
+    ],
+    "mitm_blocked": null,
+    "mitm_duration_sec": 154.27,
+    "flows_source": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\output\\stage3_lab42_before\\钓鱼人\\mitm_flows.json",
+    "tracker_hits": [
+      {
+        "tracker_id": "bugly",
+        "tracker_company": "Bugly",
+        "purpose": "crash_reporting",
+        "host": "android.bugly.qq.com",
+        "path": "/rqd/async?aid=f2ef888b-e483-425c-9ea3-d530b45da41a",
+        "timestamp_utc": "2026-06-11T22:45:11.830162+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      },
+      {
+        "tracker_id": "baidu_mobads",
+        "tracker_company": "Baidu Mobads",
+        "purpose": "advertising",
+        "host": "api.map.baidu.com",
+        "path": "/sdkcs/verify",
+        "timestamp_utc": "2026-06-11T22:45:11.784185+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      },
+      {
+        "tracker_id": "baidu_mobads",
+        "tracker_company": "Baidu Mobads",
+        "purpose": "advertising",
+        "host": "cnloc.map.baidu.com",
+        "path": "/cfgs/loc/commcfgs",
+        "timestamp_utc": "2026-06-11T22:45:13.911705+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      },
+      {
+        "tracker_id": "umeng",
+        "tracker_company": "Umeng",
+        "purpose": "analytics",
+        "host": "cnlogs.umeng.com",
+        "path": "/ext_event",
+        "timestamp_utc": "2026-06-11T22:45:26.483962+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      },
+      {
+        "tracker_id": "umeng",
+        "tracker_company": "Umeng",
+        "purpose": "analytics",
+        "host": "cnlogs.umeng.com",
+        "path": "/unify_logs",
+        "timestamp_utc": "2026-06-11T22:45:12.002742+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      },
+      {
+        "tracker_id": "baidu_mobads",
+        "tracker_company": "Baidu Mobads",
+        "purpose": "advertising",
+        "host": "mshield.baidu.com",
+        "path": "/c/11/z/250/985626356/1781217910/6cd4fcac7056b6b6ccd3f0bf54930689?skey=sbV9oM4Etq2qNxd0gcwTQA%3D%3D%0A",
+        "timestamp_utc": "2026-06-11T22:45:12.198155+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      },
+      {
+        "tracker_id": "baidu_mobads",
+        "tracker_company": "Baidu Mobads",
+        "purpose": "advertising",
+        "host": "mshield.baidu.com",
+        "path": "/s/5/aio/250/985626356/1781217910/6cd4fcac7056b6b6ccd3f0bf54930689?skey=srhEntk1pb2cJF5Z5ZAPdQ%3D%3D%0A",
+        "timestamp_utc": "2026-06-11T22:45:11.999634+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      },
+      {
+        "tracker_id": "umeng",
+        "tracker_company": "Umeng",
+        "purpose": "analytics",
+        "host": "utoken.umeng.com",
+        "path": "/anti/updateZdata",
+        "timestamp_utc": "2026-06-11T22:45:11.827852+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      }
+    ],
+    "pii_key_hits": [
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.map.baidu.com",
+        "path": "/sdkcs/verify",
+        "timestamp_utc": "2026-06-11T22:45:11.784185+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/home?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=5613d1939c7a7455cef363d39ed73b71&oauth_signature=RIxnI1BzjZmahTm85UfhZQMF2s4%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217910519&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:45:12.054535+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/user/messagenum?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=8bdfaa0a6918042d639dcc05282ea3b9&oauth_signature=mukBkp39svBhO3GgySGVjaPo1s8%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217910653&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:45:12.087572+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/user/usertools?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=3dfc304b9c0dbbcf282d7a8ac132660a&oauth_signature=7r4hMbtxyzak3gXkt0aakyMAPuQ%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217910688&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:45:12.123799+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/init/info?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=d9844620a4e021dcb9eec0506331265a&oauth_signature=nok4fo3SH25AWGvm3cJU%2Bige5LY%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217910677&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:45:12.142861+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/app/init/ads?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=93a3d15b1401a05b9552411cedd944fb&oauth_signature=kF59gTQRtDRnUORnKi7unN%2FcJUU%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217910868&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:45:12.178514+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "location",
+        "network_key": "lat",
+        "host": "kefu.easemob.com",
+        "path": "/v1/appvc/tenants/19602/upload",
+        "timestamp_utc": "2026-06-11T22:45:12.486521+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/homecards?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=da085ecec62f4f42a98e249b1a63d450&oauth_signature=Rz4DvrLRVX1rlckygtx4b58F4wE%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217912608&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:45:13.921892+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/homecards?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=576252187d1e15357233ac71ea09eecf&oauth_signature=jGoE2DWFzlG3AcY2MxkZMQcw9pQ%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217912607&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:45:13.926429+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/app/user/userhome?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=8101618d144d82fc84a40645f4dbf3b0&oauth_signature=ZrNizzzt89iGUUYCLK7gfyMMmA0%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217918225&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:45:19.506395+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/user/usertools?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=0c99e39bf10c193c76fc833e40da31d5&oauth_signature=7wA%2B7u5D5%2FcDPQahlVDt%2FoV0hZg%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217964215&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:46:05.879645+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/user/messagenum?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=ac2b8b4930df82f2c686ae6e9e99d8f8&oauth_signature=ttVrs926hPscIgEAPOzzLBnOFmI%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217964199&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:46:05.885654+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/init/info?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=60c0653297e8eaf01de0b64bc7af1464&oauth_signature=rIF1wdU7Oo7vrTGFvBtyfg3loK8%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217964212&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:46:05.891414+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/home?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=35e07048e2704ab61c94e3c4da3168fd&oauth_signature=dV%2BeuKTdCFuN3WUFeVmgoN3OXdc%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217964071&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:46:05.896415+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/app/init/ads?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=e1395da71d66ddc4276796f3416b81fd&oauth_signature=IV%2BqFQ5DEEFV%2BFwcohFwc2TQbFA%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217964705&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:46:06.085661+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/homecards?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=13992fa5b54a3b5a185feaabf7107e40&oauth_signature=WXbC1WvLmbr1ULOQB4tY4AhbFjU%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217966173&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:46:07.588157+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/homecards?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=85ed664d8b2239102d4d442606a07e25&oauth_signature=6SHCwku6q%2Fuvfh%2Fx9SU6rdoTVF8%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217966174&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:46:07.624589+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/app/user/userhome?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=dcfcfd1d0a0f75e340039bbba5d5a520&oauth_signature=%2FtXRby2P0SB3QbBDR%2FJNfN7C8c8%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781217967902&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:46:09.175161+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/user/messagenum?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=44d01169b210d005b5c468dd4cb4cc78&oauth_signature=oFDD3BFWrtfXkGtCiztoDIkU3LY%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218019390&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:47:00.671051+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/user/usertools?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=6eedb4a7f11fc61dcd75c084ed5ca0e0&oauth_signature=boNI5M%2BgZCaCPZNqGcrnWCce0Ss%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218023742&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:47:05.192162+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/user/messagenum?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=c1946afc619b55e0ec3702e61b666ad5&oauth_signature=bancMNjIkx%2B6Gjw5eDKJWlIgrpQ%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218023725&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:47:05.197102+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/init/info?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=f38ba31e404f48e91e8872ac3d0947de&oauth_signature=wv3mN%2BtSMdhxhG5aZnFhTcmiypE%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218023737&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:47:05.204644+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/home?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=8f068a875e6487bc37bf97c11b5d570a&oauth_signature=2fX2h7mm0WioUdrqr%2FHL5OkoQ1Q%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218023642&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:47:05.209596+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/app/init/ads?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=ceb3361c3dc3338e465ea9088c9c89a3&oauth_signature=eVR9tgqaAMhVck0rzs54XnPJ4K8%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218024018&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:47:05.331624+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/homecards?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=c1c22387ffa407879313b5b9d4b90766&oauth_signature=iR6P7Uya5qK0AxbO%2FPcrDKGYuoA%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218025706&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:47:07.001559+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/homecards?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=6f5be9cde41d0ee7de3abe24a812a1e1&oauth_signature=iiL13gJ7nS0kO0stU%2B%2BJ6JoqjI4%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218025705&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:47:07.014209+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/homecards?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=7ab2afb02ccd293972dc4d1156b3daf3&oauth_signature=dg%2B%2Bx6vFoe9wCdmS0yYldKajOO0%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218028056&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:47:09.364892+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/index/home?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=dfe934e33ba516dc32f48345fe3e8017&oauth_signature=OO3uonrqcGedeoQ6F3qrPtU6Q2Q%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218028057&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:47:09.503842+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/user/messagecenter?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=8b29c9b556dd08f403814cf473af5d31&oauth_signature=EI34gTgqDJPpH7q1QB7Zy%2FYNC%2FU%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218038325&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:47:19.609725+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "api.diaoyu.com",
+        "path": "/appv3/user/messagecenter?api_version=3.8.3&app_channel=yingyongbao&build_release=3.8.50_0&bundle_id=com.lchr.diaoyu&city_code=110100&client_version=3.8.50&device_id=60627dfc527e7dbc&location=116.39564503788%2C39.92998577808&oauth_consumer_key=1704425ac7f0e26e5e79c02601e701af&oauth_nonce=996acea32df86b98acbb1940a5ceb8eb&oauth_signature=EKKBJncKICC3bzUWbXqfRLQDlb4%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1781218051672&oauth_token=14316214_99e5076d4f7d1847c44462a92efdcb33&oauth_version=1.0&platform=android&selected_city=110100&x_auth_mode=client_auth",
+        "timestamp_utc": "2026-06-11T22:47:32.961341+00:00",
+        "evidence_level": "S3_network_pii_key"
+      }
+    ],
+    "summary": {
+      "tracker_hit_count": 8,
+      "tracker_company_count": 3,
+      "tracker_companies": [
+        "Baidu Mobads",
+        "Bugly",
+        "Umeng"
+      ],
+      "tracker_hosts": [
+        "android.bugly.qq.com",
+        "api.map.baidu.com",
+        "cnloc.map.baidu.com",
+        "cnlogs.umeng.com",
+        "mshield.baidu.com",
+        "utoken.umeng.com"
+      ],
+      "pii_key_hit_count": 30,
+      "pii_types_observed": [
+        "location",
+        "mac_address"
+      ]
+    }
+  },
+  "path_suggestions": [
+    "我们收集数据是根据您与我们的互动和您所做出的选择，包括您的隐私设置以及您使用的产品和功能。我们收集的数据可能包括SDK/API/JS代码版本、浏览器、互联网服务提供商、IP地址、平台、时间戳、应用标识符、应用程序版本、应用分发渠道、独立设备标识符、iOS广告标识符（IDFA)、安卓广告主标识符、网卡（MAC）地址、移动应用列表、国际移动设备识别码（IMEI）、SIM卡IMSI、设备型号、终端制造厂商、终端设备操作系统版本、会话启动/停止时间、语言所在地、时区和网络状态（WiFi等）、硬盘、CPU和电池使用情况等。",
+    "您可以在设备的设置中选择关闭部分或者全部权限，这可能导致对应的业务功能无法实现或者无法达到预期效果。",
+    "进入客户端应用程序--点击“我-设置-账户安全-注销账户”，进行账号注销。",
+    "UI observed steps: adb_foreground_before=com.lchr.diaoyu | session_created_attempt1=ok | session_created",
+    "Check path for pii_type=imei",
+    "Check path for pii_type=android_id",
+    "Check path for pii_type=location"
+  ],
+  "explanation": "Collected dynamic evidence for 钓鱼人: candidate_pii=10, ui_steps=57, screenshots=7, frida_registered_types=9, frida_events=19. This explanation is descriptive only and does not produce verdict.",
+  "evidence_items": [
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\钓鱼人\\screenshots\\钓鱼人_20260612_064518_launch.png",
+      "timestamp_utc": "2026-06-11T22:47:45.029759+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\钓鱼人\\screenshots\\钓鱼人_20260612_064521_path1.png",
+      "timestamp_utc": "2026-06-11T22:47:45.029759+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\钓鱼人\\screenshots\\钓鱼人_20260612_064603_path1.png",
+      "timestamp_utc": "2026-06-11T22:47:45.029759+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\钓鱼人\\screenshots\\钓鱼人_20260612_064611_path2.png",
+      "timestamp_utc": "2026-06-11T22:47:45.029759+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\钓鱼人\\screenshots\\钓鱼人_20260612_064624_path2.png",
+      "timestamp_utc": "2026-06-11T22:47:45.029759+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\钓鱼人\\screenshots\\钓鱼人_20260612_064659_path2.png",
+      "timestamp_utc": "2026-06-11T22:47:45.029759+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\钓鱼人\\screenshots\\钓鱼人_20260612_064728_trigger_tabs.png",
+      "timestamp_utc": "2026-06-11T22:47:45.029759+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.frida",
+      "signal": "hook_imei",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:47:45.138306+00:00",
+      "pii_type": "imei",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.frida",
+      "signal": "hook_android_id",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:47:45.138330+00:00",
+      "pii_type": "android_id",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.frida",
+      "signal": "hook_oaid",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:47:45.138338+00:00",
+      "pii_type": "android_id",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.frida",
+      "signal": "hook_location",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:47:45.138343+00:00",
+      "pii_type": "location",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.frida",
+      "signal": "hook_mac_ip",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:47:45.138347+00:00",
+      "pii_type": "ip_address",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.frida",
+      "signal": "hook_mac_ip",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:47:45.138351+00:00",
+      "pii_type": "mac_address",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.frida",
+      "signal": "hook_phone",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:47:45.138355+00:00",
+      "pii_type": "phone_number",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.frida",
+      "signal": "hook_contacts",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:47:45.138359+00:00",
+      "pii_type": "contact_list",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.frida",
+      "signal": "hook_clipboard",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:47:45.138363+00:00",
+      "pii_type": "clipboard",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.frida",
+      "signal": "hook_network_okhttp",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:47:45.138366+00:00",
+      "pii_type": "network_transmission",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.frida",
+      "signal": "OkHttp.execute",
+      "value": "dry_run_network",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:47:45.138371+00:00",
+      "pii_type": "network_transmission",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getImei",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:47:45.138375+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getMeid",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:47:45.138379+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getDeviceId",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:47:45.138383+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getDeviceSoftwareVersion",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:47:45.138385+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getSimSerialNumber",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:47:45.138388+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.frida",
+      "signal": "android.provider.Settings$Secure.getString",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:47:45.138391+00:00",
+      "pii_type": "android_id",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.frida",
+      "signal": "android.provider.Settings$System.getString",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:47:45.138393+00:00",
+      "pii_type": "android_id",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.frida",
+      "signal": "android.location.LocationManager.getLastKnownLocation",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:47:45.138396+00:00",
+      "pii_type": "location",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "android.bugly.qq.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T22:45:11.830162+00:00",
+      "context": "Bugly",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "api.map.baidu.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T22:45:11.784185+00:00",
+      "context": "Baidu Mobads",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "cnloc.map.baidu.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T22:45:13.911705+00:00",
+      "context": "Baidu Mobads",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "cnlogs.umeng.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T22:45:26.483962+00:00",
+      "context": "Umeng",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "cnlogs.umeng.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T22:45:12.002742+00:00",
+      "context": "Umeng",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "mshield.baidu.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T22:45:12.198155+00:00",
+      "context": "Baidu Mobads",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "mshield.baidu.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T22:45:11.999634+00:00",
+      "context": "Baidu Mobads",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "utoken.umeng.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T22:45:11.827852+00:00",
+      "context": "Umeng",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:45:11.784185+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:45:12.054535+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:45:12.087572+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:45:12.123799+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:45:12.142861+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:45:12.178514+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lat",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:45:12.486521+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:45:13.921892+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:45:13.926429+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:45:19.506395+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:46:05.879645+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:46:05.885654+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:46:05.891414+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:46:05.896415+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:46:06.085661+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:46:07.588157+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:46:07.624589+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:46:09.175161+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:47:00.671051+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:47:05.192162+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:47:05.197102+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:47:05.204644+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:47:05.209596+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:47:05.331624+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:47:07.001559+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:47:07.014209+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:47:09.364892+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:47:09.503842+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:47:19.609725+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "钓鱼人",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:47:32.961341+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    }
+  ],
+  "capture_meta": {
+    "sync_mode": true,
+    "frida_grace_sec": 30,
+    "frida_tail_sec": 60,
+    "frida_launch_mode": "spawn",
+    "frida_code_prefixes": [
+      "com.lchr.diaoyu"
+    ],
+    "frida_tier": "network_static_only",
+    "spawn_fallback_attach": true,
+    "dynamic_track": {
+      "dynamic_track_requested": "lab42",
+      "dynamic_track_resolved": "mitm",
+      "enable_frida": false,
+      "enable_mitm": true,
+      "java_bridge": "never_ready",
+      "tier": "network_static_only",
+      "preferred_dynamic_tracks": [
+        "static_tracker",
+        "mitm",
+        "ui"
+      ],
+      "mitm_primary": true,
+      "probe_path": "output\\frida_probe\\diaoyuren.json"
+    },
+    "enable_mitm": true,
+    "frida_enabled": false,
+    "frida_runtime_events": 0,
+    "frida_java_active_count": 0,
+    "mitm_flow_count": 82,
+    "tracker_hit_count": 8,
+    "post_run_app_closed": true
+  },
+  "summary": {
+    "ui_steps": 57,
+    "screenshots": 7,
+    "keyword_checks": 5,
+    "keyword_match_count": 4,
+    "registered_hook_types": 9,
+    "frida_events": 19,
+    "frida_runtime_events": 0,
+    "frida_java_active_count": 0,
+    "candidate_pii_count": 10,
+    "mitm_flow_count": 82,
+    "tracker_hit_count": 8,
+    "pii_key_hit_count": 30
+  }
+}

@@ -1,4 +1,4 @@
-"""Unified domain models for Lab4 pipelines."""
+"""Unified domain models for privacy audit pipelines."""
 
 from __future__ import annotations
 

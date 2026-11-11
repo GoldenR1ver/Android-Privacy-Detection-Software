@@ -9,7 +9,7 @@
 #   .\scripts\run_full_experiment_batch.ps1 -OnlyStep stage3 -Stage3App Keep -RealRunStage3 -Verbose
 
 param(
-    [string]$AppsFile = "input/apps_full_batch_10.txt",
+    [string]$AppsFile = "input/apps_full_batch_15.txt",
     [string]$JobId = "",
     [switch]$Verbose,
     [switch]$RealRunStage3,

@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "description": "Per-app Frida injectability and preferred launch mode. Update after probe_hook.py or capture-dynamic --enable-frida runs.",
+  "tier_definitions": {
+    "tier1": "Inject OK with runtime events — use spawn + Frida consent A/B",
+    "tier2": "Inject OK but events sparse — spawn + long grace/tail",
+    "tier3": "Anti-Frida / agent refused — consent UI + static only",
+    "network_static_only": "Java bridge never_ready — UI + mitm + static tracker (no Frida consent A/B)",
+    "unknown": "Not probed yet — run scripts/probe_hook.py or capture-dynamic with --enable-frida"
+  },
+  "defaults": {
+    "tier": "unknown",
+    "preferred_launch_mode": "spawn",
+    "enable_frida_consent": false,
+    "spawn_fallback_attach": true,
+    "frida_grace_sec": 30,
+    "frida_tail_sec": 60
+  },
+  "apps": {
+    "小荷健康": {
+      "tier": "tier1",
+      "preferred_launch_mode": "spawn",
+      "enable_frida_consent": true,
+      "spawn_fallback_attach": true,
+      "frida_grace_sec": 30,
+      "frida_tail_sec": 60,
+      "notes": "通讯录可观测; spawn 抓冷启动 Android ID/OAID"
+    },
+    "世纪佳缘": {
+      "tier": "tier1",
+      "preferred_launch_mode": "spawn",
+      "enable_frida_consent": true,
+      "spawn_fallback_attach": true,
+      "notes": "attach 成功但需延长观测窗口"
+    },
+    "Keep": {
+      "tier": "tier3",
+      "preferred_launch_mode": "attach",
+      "enable_frida_consent": false,
+      "notes": "refused to load frida-agent"
+    },
+    "支付宝": {
+      "tier": "tier3",
+      "preferred_launch_mode": "attach",
+      "enable_frida_consent": false,
+      "notes": "强防护; java_not_ready"
+    },
+    "小红书": {
+      "tier": "tier3",
+      "preferred_launch_mode": "attach",
+      "enable_frida_consent": false,
+      "notes": "Appium 结束后进程退出; attach 难"
+    },
+    "58同城": {
+      "tier": "tier3",
+      "preferred_launch_mode": "attach",
+      "enable_frida_consent": false,
+      "notes": "no process found"
+    },
+    "LOFTER": {
+      "tier": "tier3",
+      "preferred_launch_mode": "attach",
+      "enable_frida_consent": false,
+      "notes": "connection closed"
+    },
+    "智联招聘": {
+      "tier": "tier3",
+      "preferred_launch_mode": "attach",
+      "enable_frida_consent": false,
+      "notes": "进程定位困难"
+    },
+    "好大夫医生版": {
+      "tier": "tier2",
+      "preferred_launch_mode": "spawn",
+      "enable_frida_consent": false,
+      "spawn_fallback_attach": true,
+      "notes": "待 probe 后升级 tier"
+    },
+    "东方财富": {
+      "tier": "tier3",
+      "preferred_launch_mode": "attach",
+      "enable_frida_consent": false,
+      "notes": "进程瞬杀"
+    },
+    "韭研公社": {
+      "tier": "unknown",
+      "preferred_launch_mode": "spawn",
+      "enable_frida_consent": true,
+      "spawn_fallback_attach": true,
+      "notes": "新样本; 优先 spawn 探针"
+    },
+    "韭菜公社": {
+      "tier": "unknown",
+      "preferred_launch_mode": "spawn",
+      "enable_frida_consent": true,
+      "spawn_fallback_attach": true,
+      "notes": "韭研公社别名"
+    },
+    "咪噜游戏": {
+      "tier": "unknown",
+      "preferred_launch_mode": "spawn",
+      "enable_frida_consent": true,
+      "spawn_fallback_attach": true,
+      "notes": "新样本; 游戏类通常防护较弱"
+    },
+    "钓鱼人": {
+      "tier": "network_static_only",
+      "java_bridge": "never_ready",
+      "preferred_launch_mode": "spawn",
+      "enable_frida_consent": false,
+      "spawn_fallback_attach": true,
+      "preferred_dynamic_tracks": [
+        "static_tracker",
+        "mitm",
+        "ui"
+      ],
+      "notes": "probe java_never_ready; dynamic mitm+UI; Frida off — use static_tracker + mitm network track",
+      "probe_updated_at": "2026-06-11T17:00:00+00:00",
+      "probe_success": false,
+      "probe_mode": "both"
+    },
+    "快看漫画": {
+      "tier": "unknown",
+      "preferred_launch_mode": "spawn",
+      "enable_frida_consent": true,
+      "spawn_fallback_attach": true,
+      "notes": "新样本"
+    },
+    "杉果游戏": {
+      "tier": "unknown",
+      "preferred_launch_mode": "spawn",
+      "enable_frida_consent": true,
+      "spawn_fallback_attach": true,
+      "notes": "新样本"
+    },
+    "小黑盒": {
+      "tier": "unknown",
+      "preferred_launch_mode": "spawn",
+      "enable_frida_consent": true,
+      "spawn_fallback_attach": true,
+      "notes": "新样本"
+    }
+  },
+  "probe_sync_at_utc": "2026-06-11T17:57:28.124135+00:00"
+}

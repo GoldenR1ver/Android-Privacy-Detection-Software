@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "source": "curated_bootstrap",
+  "updated_at": "2026-06-11T00:00:00+00:00",
+  "note": "Bundled subset for offline use. Run: python scripts/sync_tracker_blocklist.py",
+  "tracker_count": 24,
+  "trackers": [
+    {
+      "id": "adjust",
+      "name": "Adjust",
+      "categories": ["analytics"],
+      "code_signatures": ["com.adjust.sdk", "com.adjust"],
+      "network_hosts": ["adjust.com", "adjust.io"],
+      "website": "https://www.adjust.com"
+    },
+    {
+      "id": "umeng",
+      "name": "Umeng",
+      "categories": ["analytics"],
+      "code_signatures": ["com.umeng", "com.efs.sdk"],
+      "network_hosts": ["umeng.com", "umengcloud.com"],
+      "website": "https://www.umeng.com"
+    },
+    {
+      "id": "bugly",
+      "name": "Bugly",
+      "categories": ["crash_reporting"],
+      "code_signatures": ["com.tencent.bugly", "com.tencent.feedback"],
+      "network_hosts": ["bugly.qq.com"],
+      "website": "https://bugly.qq.com"
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "categories": ["analytics", "advertising"],
+      "code_signatures": ["com.facebook", "com.facebook.ads"],
+      "network_hosts": ["facebook.com", "graph.facebook.com"],
+      "website": "https://www.facebook.com"
+    },
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "categories": ["analytics"],
+      "code_signatures": ["com.google.firebase", "com.google.android.gms.measurement"],
+      "network_hosts": ["firebaseio.com", "google-analytics.com"],
+      "website": "https://firebase.google.com"
+    },
+    {
+      "id": "branch",
+      "name": "Branch",
+      "categories": ["analytics", "deep_linking"],
+      "code_signatures": ["io.branch", "io.branch.referral"],
+      "network_hosts": ["branch.io", "app.link"],
+      "website": "https://branch.io"
+    },
+    {
+      "id": "sensorsdata",
+      "name": "Sensors Analytics",
+      "categories": ["analytics"],
+      "code_signatures": ["com.sensorsdata", "com.sensorsdata.analytics"],
+      "network_hosts": ["sensorsdata.cn"],
+      "website": "https://www.sensorsdata.cn"
+    },
+    {
+      "id": "talkingdata",
+      "name": "TalkingData",
+      "categories": ["analytics"],
+      "code_signatures": ["com.tendcloud", "com.talkingdata"],
+      "network_hosts": ["talkingdata.com", "tendcloud.com"],
+      "website": "https://www.talkingdata.com"
+    },
+    {
+      "id": "appsflyer",
+      "name": "AppsFlyer",
+      "categories": ["analytics"],
+      "code_signatures": ["com.appsflyer"],
+      "network_hosts": ["appsflyer.com"],
+      "website": "https://www.appsflyer.com"
+    },
+    {
+      "id": "kochava",
+      "name": "Kochava",
+      "categories": ["analytics"],
+      "code_signatures": ["com.kochava"],
+      "network_hosts": ["kochava.com"],
+      "website": "https://www.kochava.com"
+    },
+    {
+      "id": "flurry",
+      "name": "Flurry",
+      "categories": ["analytics"],
+      "code_signatures": ["com.flurry"],
+      "network_hosts": ["flurry.com"],
+      "website": "https://www.flurry.com"
+    },
+    {
+      "id": "baidu_mobads",
+      "name": "Baidu Mobads",
+      "categories": ["advertising"],
+      "code_signatures": ["com.baidu.mobads", "com.baidu.mobstat"],
+      "network_hosts": ["baidu.com", "mobads.baidu.com"],
+      "website": "https://mobads.baidu.com"
+    },
+    {
+      "id": "tencent_ads",
+      "name": "Tencent GDT",
+      "categories": ["advertising"],
+      "code_signatures": ["com.qq.e", "com.tencent.ad"],
+      "network_hosts": ["gdt.qq.com"],
+      "website": "https://e.qq.com"
+    },
+    {
+      "id": "bytedance_pangle",
+      "name": "Pangle",
+      "categories": ["advertising"],
+      "code_signatures": ["com.bytedance.sdk.openadsdk", "com.pangle"],
+      "network_hosts": ["pangle.io"],
+      "website": "https://www.pangle.io"
+    },
+    {
+      "id": "getui",
+      "name": "GeTui",
+      "categories": ["push_notifications"],
+      "code_signatures": ["com.igexin", "com.getui"],
+      "network_hosts": ["getui.com", "igexin.com"],
+      "website": "https://www.getui.com"
+    },
+    {
+      "id": "jpush",
+      "name": "JPush",
+      "categories": ["push_notifications"],
+      "code_signatures": ["cn.jpush", "cn.jiguang"],
+      "network_hosts": ["jpush.cn", "jiguang.cn"],
+      "website": "https://www.jiguang.cn"
+    },
+    {
+      "id": "alipay",
+      "name": "Alipay SDK",
+      "categories": ["payments"],
+      "code_signatures": ["com.alipay"],
+      "network_hosts": ["alipay.com"],
+      "website": "https://open.alipay.com"
+    },
+    {
+      "id": "wechat",
+      "name": "WeChat SDK",
+      "categories": ["social"],
+      "code_signatures": ["com.tencent.mm", "com.tencent.wxop"],
+      "network_hosts": ["weixin.qq.com"],
+      "website": "https://open.weixin.qq.com"
+    },
+    {
+      "id": "miit_oaid",
+      "name": "MSA OAID",
+      "categories": ["identifier"],
+      "code_signatures": ["com.bun.miitmdid", "com.github.gzuliyujiang.oaid"],
+      "network_hosts": [],
+      "website": "http://www.msa-alliance.cn"
+    },
+    {
+      "id": "google_ads",
+      "name": "Google Ads",
+      "categories": ["advertising"],
+      "code_signatures": ["com.google.android.gms.ads"],
+      "network_hosts": ["googleads.g.doubleclick.net", "googlesyndication.com"],
+      "website": "https://ads.google.com"
+    },
+    {
+      "id": "unity_ads",
+      "name": "Unity Ads",
+      "categories": ["advertising"],
+      "code_signatures": ["com.unity3d.ads", "com.unity3d.services"],
+      "network_hosts": ["unityads.unity3d.com"],
+      "website": "https://unity.com/products/unity-ads"
+    },
+    {
+      "id": "ironsource",
+      "name": "ironSource",
+      "categories": ["advertising"],
+      "code_signatures": ["com.ironsource", "com.supersonic"],
+      "network_hosts": ["ironsource.com", "supersonicads.com"],
+      "website": "https://www.is.com"
+    },
+    {
+      "id": "mintegral",
+      "name": "Mintegral",
+      "categories": ["advertising"],
+      "code_signatures": ["com.mbridge", "com.mintegral"],
+      "network_hosts": ["mintegral.com", "mtgglobals.com"],
+      "website": "https://www.mintegral.com"
+    },
+    {
+      "id": "sigmob",
+      "name": "Sigmob",
+      "categories": ["advertising"],
+      "code_signatures": ["com.sigmob"],
+      "network_hosts": ["sigmob.com"],
+      "website": "https://www.sigmob.com"
+    }
+  ]
+}

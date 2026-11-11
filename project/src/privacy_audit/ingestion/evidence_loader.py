@@ -1,4 +1,4 @@
-"""Resolve and merge static/dynamic/legacy evidence into Lab4-1 observed_pii."""
+"""Resolve and merge static/dynamic/legacy evidence into disclosure observed_pii."""
 
 from __future__ import annotations
 
@@ -17,14 +17,14 @@ def _read_json(path: Path | None) -> dict[str, Any]:
 
 
 def _read_json_from_output_path(rel_path: str) -> dict[str, Any]:
-    """Load JSON under src/ from provenance path like output/stage2_.../file.json."""
+    """Load JSON under src/ from a provenance path such as output/static/.../file.json."""
     if not rel_path or not rel_path.startswith("output/"):
         return {}
     return _read_json(provenance_base() / Path(rel_path.replace("\\", "/")))
 
 
 def is_prepared_evidence_bundle(data: dict[str, Any]) -> bool:
-    """Flat lab4_1_evidence bundle with pre-merged observed_pii and KB metadata."""
+    """Flat evidence bundle with pre-merged observed_pii and KB metadata."""
     return bool(data.get("observed_pii")) and isinstance(data.get("knowledge_base"), dict)
 
 
@@ -167,13 +167,23 @@ def extract_observed_from_legacy_md(
     return sorted(_match_taxonomy_in_text("\n".join(chunks), taxonomy))
 
 
+STATIC_SUBDIRS = ("", "apk", "samples", "legacy", "oldsrc_derived")
+LEGACY_STATIC_DIRS = ("stage2_static_samples", "stage2_static_apk", "stage2_oldsrc_derived")
+
+
 def _static_roots(static_dir: Path | None) -> list[Path]:
+    """Return the new static roots plus legacy stage2 directories."""
     roots: list[Path] = []
-    if static_dir is not None and static_dir.exists():
-        roots.append(static_dir)
-        oldsrc_derived = static_dir.parent / "stage2_oldsrc_derived"
-        if oldsrc_derived.exists():
-            roots.append(oldsrc_derived)
+    if static_dir is not None:
+        if static_dir.exists():
+            for sub in STATIC_SUBDIRS:
+                candidate = static_dir / sub if sub else static_dir
+                if candidate.is_dir() and candidate not in roots:
+                    roots.append(candidate)
+        for sub in LEGACY_STATIC_DIRS:
+            legacy = static_dir.parent / sub
+            if legacy.is_dir() and legacy not in roots:
+                roots.append(legacy)
     return roots
 
 
@@ -189,6 +199,13 @@ def _slug_for_app(app_name: str) -> str:
         "东方财富": "dongfangcaifu",
         "小荷健康": "xiaohejiankang",
         "58同城": "58tongcheng",
+        "钓鱼人": "diaoyuren",
+        "韭研公社": "jiuyangongshe",
+        "韭菜公社": "jiuyangongshe",
+        "咪噜游戏": "miluyouxi",
+        "快看漫画": "kuaikanmanhua",
+        "杉果游戏": "shanguoyouxi",
+        "小黑盒": "xiaoheihe",
     }
     return mapping.get(app_name, app_name.lower().replace(" ", "_"))
 
@@ -207,23 +224,34 @@ def resolve_static_path(app_name: str, static_dir: Path | None) -> Path | None:
     return None
 
 
+DYNAMIC_SUBDIRS = (
+    "",
+    "dynamic",
+    "dynamic_capture",
+    "device",
+    "samples",
+    "legacy",
+    "stage3_dynamic",
+    "stage3_dynamic_real",
+    "stage3_dynamic_samples",
+    "stage3_oldsrc_derived",
+)
+
+
 def _dynamic_roots(evidence_dir: Path | None) -> list[Path]:
-    if evidence_dir is None or not evidence_dir.exists():
-        return []
+    """Return new dynamic roots plus legacy stage3 directories."""
     roots: list[Path] = []
-    if evidence_dir.name.startswith("stage3_"):
-        roots.append(evidence_dir)
-        parent = evidence_dir.parent
-        for sub in ("stage3_dynamic_real", "stage3_dynamic_samples", "stage3_oldsrc_derived"):
-            nested = parent / sub
-            if nested.is_dir() and nested not in roots:
-                roots.append(nested)
-    else:
-        roots.append(evidence_dir)
-        for sub in ("stage3_dynamic_real", "stage3_dynamic_samples", "stage3_oldsrc_derived"):
-            nested = evidence_dir / sub
-            if nested.is_dir() and nested not in roots:
-                roots.append(nested)
+    if evidence_dir is None or not evidence_dir.exists():
+        return roots
+    for sub in DYNAMIC_SUBDIRS:
+        candidate = evidence_dir / sub if sub else evidence_dir
+        if candidate.is_dir() and candidate not in roots:
+            roots.append(candidate)
+    if evidence_dir.name.startswith("stage3_") or evidence_dir.name in {"dynamic", "dynamic_capture"}:
+        for sub in DYNAMIC_SUBDIRS[1:]:
+            sibling = evidence_dir.parent / sub
+            if sibling.is_dir() and sibling not in roots:
+                roots.append(sibling)
     return roots
 
 
@@ -232,26 +260,10 @@ def _dynamic_path_candidates(app_name: str, root: Path) -> list[Path]:
         root / app_name / "dynamic_evidence.json",
         root / f"{app_name.lower()}" / "dynamic_evidence.json",
     ]
-    if root.name not in {
-        "stage3_dynamic_real",
-        "stage3_dynamic_samples",
-        "stage3_oldsrc_derived",
-        "output",
-    }:
-        candidates.extend(
-            [
-                root / "stage3_dynamic_real" / app_name / "dynamic_evidence.json",
-                root / "stage3_dynamic_samples" / app_name / "dynamic_evidence.json",
-                root / "stage3_oldsrc_derived" / app_name / "dynamic_evidence.json",
-            ]
-        )
     for variant in _app_name_variants(app_name):
-        candidates.append(root / variant / "dynamic_evidence.json")
-        if root.name in {"output", "stage3_dynamic_real", "stage3_dynamic_samples", "stage3_oldsrc_derived"}:
-            continue
-        candidates.append(root / "stage3_dynamic_real" / variant / "dynamic_evidence.json")
-        candidates.append(root / "stage3_dynamic_samples" / variant / "dynamic_evidence.json")
-        candidates.append(root / "stage3_oldsrc_derived" / variant / "dynamic_evidence.json")
+        candidate = root / variant / "dynamic_evidence.json"
+        if candidate not in candidates:
+            candidates.append(candidate)
     return candidates
 
 
@@ -266,13 +278,20 @@ def resolve_dynamic_path(app_name: str, evidence_dir: Path | None) -> Path | Non
 def resolve_evidence_bundle_path(app_name: str, evidence_dir: Path | None) -> Path | None:
     if evidence_dir is None or not evidence_dir.exists():
         return None
-    candidates = [
-        evidence_dir / f"{app_name}.json",
-        evidence_dir / app_name / "lab4_1_evidence.json",
-    ]
-    for path in candidates:
-        if path.exists():
-            return path
+    roots = [evidence_dir]
+    for sub in ("evidence", "lab4_1_evidence"):
+        candidate_root = evidence_dir / sub
+        if candidate_root.is_dir() and candidate_root not in roots:
+            roots.append(candidate_root)
+    for root in roots:
+        candidates = [
+            root / f"{app_name}.json",
+            root / app_name / "evidence.json",
+            root / app_name / "lab4_1_evidence.json",
+        ]
+        for path in candidates:
+            if path.exists():
+                return path
     return None
 
 
@@ -321,7 +340,7 @@ def build_merged_evidence(
         elif bundle.get("observed_pii"):
             sources["bundle"] = [str(x) for x in bundle["observed_pii"]]
         provenance["bundle"] = as_output_path(bundle_path) or output_provenance(
-            "lab4_1_evidence", f"{app_name}.json"
+            "evidence", f"{app_name}.json"
         )
         for key, value in (bundle.get("provenance") or {}).items():
             if value and key not in provenance:
@@ -336,13 +355,17 @@ def build_merged_evidence(
         if prov_dynamic and not dynamic_data:
             dynamic_data = prov_dynamic
 
+    result_embedded: list[dict[str, Any]] = []
     static_path = resolve_static_path(app_name, static_dir)
     if static_path is not None:
         static_data = _read_json(static_path)
         sources["static"] = extract_observed_from_static(static_data)
         provenance["static"] = as_output_path(static_path) or output_provenance(
-            "stage2_static_samples", _slug_for_app(app_name), "static_evidence.json"
+            "static", _slug_for_app(app_name), "static_evidence.json"
         )
+        embedded = static_data.get("embedded_trackers") or []
+        if isinstance(embedded, list) and embedded:
+            result_embedded = [row for row in embedded if isinstance(row, dict)]
 
     dynamic_path = resolve_dynamic_path(app_name, evidence_dir)
     if dynamic_path is not None:
@@ -352,7 +375,7 @@ def build_merged_evidence(
             include_candidates=include_dynamic_candidates,
         )
         provenance["dynamic"] = as_output_path(dynamic_path) or output_provenance(
-            "stage3_dynamic_real", app_name, "dynamic_evidence.json"
+            "dynamic", app_name, "dynamic_evidence.json"
         )
 
     legacy_observed, legacy_meta = extract_observed_from_legacy(app_name, legacy_run_dir, taxonomy)
@@ -364,23 +387,21 @@ def build_merged_evidence(
         provenance["legacy_md"] = output_provenance("stage2_legacy_md", app_name)
 
     if legacy_run_dir is not None:
-        from privacy_audit.ingestion.oldsrc_evidence_importer import (
-            extract_observed_from_oldsrc_audit,
-            extract_observed_from_oldsrc_test_cases,
+        from privacy_audit.ingestion.legacy_importer import (
+            extract_observed_from_legacy_audit,
+            extract_observed_from_legacy_cases,
         )
 
-        lab3_observed, lab3_meta = extract_observed_from_oldsrc_test_cases(
+        lab3_observed, lab3_meta = extract_observed_from_legacy_cases(
             app_name, legacy_run_dir, taxonomy
         )
-        audit_observed, audit_meta = extract_observed_from_oldsrc_audit(
+        audit_observed, audit_meta = extract_observed_from_legacy_audit(
             app_name, legacy_run_dir, taxonomy
         )
         sources["oldsrc_lab3"] = lab3_observed
         sources["oldsrc_audit"] = audit_observed
         if lab3_observed:
-            provenance["oldsrc_lab3"] = output_provenance(
-                "stage3_oldsrc_derived", app_name, "dynamic_evidence.json"
-            )
+            provenance["oldsrc_lab3"] = output_provenance("dynamic", "legacy", app_name, "dynamic_evidence.json")
         if audit_observed:
             provenance["oldsrc_audit"] = output_provenance(
                 "stage2_oldsrc_audit", app_name, "audit_processed.csv"
@@ -403,6 +424,7 @@ def build_merged_evidence(
         "source": "merged:pending",
         "sources": sources,
         "provenance": provenance,
+        "embedded_trackers": result_embedded,
     }
 
     if use_knowledge_base:
@@ -452,14 +474,14 @@ def build_and_export_evidence_bundles(
     """Generate per-app evidence bundle JSON files for batch consumption."""
     from privacy_audit.ingestion.output_mirror import (
         mirror_knowledge_base,
-        mirror_oldsrc_test_cases,
+        mirror_legacy_test_cases,
         mirror_provenance_artifacts,
     )
 
     taxonomy = load_personal_info_taxonomy(taxonomy_file)
     output_dir.mkdir(parents=True, exist_ok=True)
     mirror_knowledge_base()
-    mirror_oldsrc_test_cases(legacy_run_dir)
+    mirror_legacy_test_cases(legacy_run_dir)
     written: list[dict[str, Any]] = []
     for app_name in app_names:
         mirror_provenance_artifacts(
@@ -494,3 +516,4 @@ def build_and_export_evidence_bundles(
         "written": written,
         "total_apps": len(app_names),
     }
+

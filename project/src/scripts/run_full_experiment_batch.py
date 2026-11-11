@@ -1,31 +1,32 @@
 #!/usr/bin/env python3
 """
-全量实验批处理：证据路径建立 + Stage2/3 + Lab4-1/2/3。
+全量实验批处理：证据路径建立 + Static scan/3 + Disclosure audit/2/3。
 
 在 project/src 目录下执行：
 
   python scripts/run_full_experiment_batch.py --help
   python scripts/run_full_experiment_batch.py
-  python scripts/run_full_experiment_batch.py --real-run-stage3 -v
+  python scripts/run_full_experiment_batch.py --real-run-dynamic -v
   python scripts/run_full_experiment_batch.py --from-step build-evidence
 
 前置条件（见 README）：
   - Python 3.10+，依赖已安装
   - 政策文本：input/pii_text/<App>.txt
   - 静态扫描（可选）：input/apks/<App>.apk 或 input/apk/<App>.apk
-  - Stage3 真机：MuMu/adb、Appium(4723)、frida-server；各 App 已登录并保持前台
+  - Dynamic capture 真机：MuMu/adb、Appium(4723)、frida-server；各 App 已登录并保持前台
   - oldsrc 数据：../oldsrc/analyzer/output/run_20260427_001723（用于 legacy 证据导入）
 
-Lab4-2 说明：理想情况需「开关关闭前/后」各一份 dynamic_evidence。
-  本脚本会将 stage3_dynamic_real 同步到 lab4_2_before，将 stage3_oldsrc_derived
-  同步到 lab4_2_after（若存在）；若仅有单份真机结果，Lab4-2 结论仅供参考。
-Lab4-3 说明：dynamic 来自 stage3 真机/样本/derived；copy 来自 oldsrc access_result.json。
+Consent audit 说明：理想情况需「开关关闭前/后」各一份 dynamic_evidence。
+  本脚本会将 stage3_dynamic_real 同步到 consent_before，将 stage3_oldsrc_derived
+  同步到 consent_after（若存在）；若仅有单份真机结果，consent audit 结论仅供参考。
+Access audit 说明：dynamic 来自 stage3 真机/样本/derived；copy 来自 oldsrc access_result.json。
 """
 
 from __future__ import annotations
 
 import argparse
 import json
+import os
 import shutil
 import subprocess
 import sys
@@ -34,13 +35,15 @@ from pathlib import Path
 from typing import Any
 
 SRC_ROOT = Path(__file__).resolve().parents[1]
+if str(SRC_ROOT) not in sys.path:
+    sys.path.insert(0, str(SRC_ROOT))
 PROJECT_ROOT = SRC_ROOT.parent
-DEFAULT_APPS_FILE = SRC_ROOT / "input" / "apps_full_batch_10.txt"
+DEFAULT_APPS_FILE = SRC_ROOT / "input" / "apps_full_batch_15.txt"
 DEFAULT_PACKAGES_FILE = SRC_ROOT / "input" / "app_packages.json"
 LEGACY_RUN = PROJECT_ROOT / "oldsrc" / "analyzer" / "output" / "run_20260427_001723"
 LEGACY_MD = PROJECT_ROOT / "oldsrc" / "analyzer" / "output" / "run_20260427_001723z"
 
-JOB_ID_PREFIX = "full_batch_10"
+JOB_ID_PREFIX = "full_batch_15"
 
 # 与 evidence_loader._slug_for_app 一致
 APP_SLUGS: dict[str, str] = {
@@ -58,14 +61,14 @@ APP_SLUGS: dict[str, str] = {
 
 STEPS_ORDER = [
     "kb-build",
-    "stage2",
-    "stage3",
-    "import-oldsrc",
+    "static",
+    "dynamic",
+    "import-legacy",
     "build-evidence",
-    "lab4-1",
-    "prepare-lab4-inputs",
-    "lab4-2",
-    "lab4-3",
+    "audit-disclosure",
+    "prepare-audit-inputs",
+    "audit-consent",
+    "audit-access",
     "status",
 ]
 
@@ -87,8 +90,14 @@ def _load_apps(path: Path) -> list[str]:
 def _load_packages(path: Path) -> dict[str, str]:
     if not path.exists():
         return {}
+    from privacy_audit.analyzers.dynamic.frida_runner import parse_app_package_entry
+
     data = json.loads(path.read_text(encoding="utf-8"))
-    return {str(k): str(v) for k, v in data.items()}
+    out: dict[str, str] = {}
+    for name, entry in data.items():
+        package, _prefixes, _opts = parse_app_package_entry(entry)
+        out[str(name)] = package
+    return out
 
 
 def _run(cmd: list[str], *, verbose: bool = False, check: bool = True) -> subprocess.CompletedProcess[str]:
@@ -108,7 +117,7 @@ def _resolve_apk_dir() -> Path | None:
     return None
 
 
-def _resolve_stage2_file(app_name: str, static_root: Path) -> Path | None:
+def _resolve_static_file(app_name: str, static_root: Path) -> Path | None:
     slug = APP_SLUGS.get(app_name, app_name.lower().replace(" ", "_"))
     candidates = [
         static_root / app_name / "static_evidence.json",
@@ -122,7 +131,9 @@ def _resolve_stage2_file(app_name: str, static_root: Path) -> Path | None:
 
 
 def _resolve_dynamic_source(app_name: str, prefer_real: bool = True) -> Path | None:
-    roots: list[Path] = []
+    roots: list[Path] = [
+        SRC_ROOT / "output" / "consent_before" / app_name / "dynamic_evidence.json",
+    ]
     if prefer_real:
         roots.append(SRC_ROOT / "output" / "stage3_dynamic_real" / app_name / "dynamic_evidence.json")
     roots.extend(
@@ -146,11 +157,11 @@ def _copy_json(src: Path, dst: Path) -> bool:
 
 
 def prepare_lab4_inputs(apps: list[str], *, verbose: bool = False) -> dict[str, Any]:
-    """将 stage3 / oldsrc 产物同步到 Lab4-2/3 批处理输入目录。"""
-    lab42_before = SRC_ROOT / "input" / "lab4_2_before"
-    lab42_after = SRC_ROOT / "input" / "lab4_2_after"
-    lab43_dynamic = SRC_ROOT / "input" / "lab4_3_dynamic"
-    lab43_copy = SRC_ROOT / "input" / "lab4_3_copy"
+    """将 stage3 / oldsrc 产物同步到 Consent/access 批处理输入目录。"""
+    lab42_before = SRC_ROOT / "input" / "consent_before"
+    lab42_after = SRC_ROOT / "input" / "consent_after"
+    lab43_dynamic = SRC_ROOT / "input" / "access_runtime"
+    lab43_copy = SRC_ROOT / "input" / "access_copy"
     for d in (lab42_before, lab42_after, lab43_dynamic, lab43_copy):
         d.mkdir(parents=True, exist_ok=True)
 
@@ -163,22 +174,22 @@ def prepare_lab4_inputs(apps: list[str], *, verbose: bool = False) -> dict[str, 
 
         dyn_for_3 = _resolve_dynamic_source(app)
         if dyn_for_3 and _copy_json(dyn_for_3, lab43_dynamic / f"{app}.json"):
-            app_report["lab4_3_dynamic"] = str(dyn_for_3)
+            app_report["access_runtime"] = str(dyn_for_3)
 
         access = LEGACY_RUN / "dynamic_testing" / "per_app" / app / "access_result.json"
         if _copy_json(access, lab43_copy / f"{app}.json"):
-            app_report["lab4_3_copy"] = str(access)
+            app_report["access_copy"] = str(access)
 
         if _copy_json(real_dyn, lab42_before / f"{app}.json"):
-            app_report["lab4_2_before"] = str(real_dyn)
+            app_report["consent_before"] = str(real_dyn)
         elif _copy_json(sample_dyn, lab42_before / f"{app}.json"):
-            app_report["lab4_2_before"] = str(sample_dyn)
+            app_report["consent_before"] = str(sample_dyn)
 
         if _copy_json(oldsrc_dyn, lab42_after / f"{app}.json"):
-            app_report["lab4_2_after"] = str(oldsrc_dyn)
+            app_report["consent_after"] = str(oldsrc_dyn)
         elif lab42_before.joinpath(f"{app}.json").exists() and not lab42_after.joinpath(f"{app}.json").exists():
             shutil.copy2(lab42_before / f"{app}.json", lab42_after / f"{app}.json")
-            app_report["lab4_2_after"] = "(same as before; replace after manual switch-off run)"
+            app_report["consent_after"] = "(same as before; replace after manual switch-off run)"
 
         report["apps"][app] = app_report
         if verbose:
@@ -209,11 +220,11 @@ def main() -> int:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-    parser = argparse.ArgumentParser(description="全量实验批处理（证据 + Stage2/3 + Lab4-1/2/3）")
+    parser = argparse.ArgumentParser(description="全量实验批处理（证据 + Static scan/3 + Disclosure audit/2/3）")
     parser.add_argument(
         "--apps-file",
         default=str(DEFAULT_APPS_FILE.relative_to(SRC_ROOT)).replace("\\", "/"),
-        help="App 列表文件（默认 input/apps_full_batch_10.txt）",
+        help="App 列表文件（默认 input/apps_full_batch_15.txt）",
     )
     parser.add_argument(
         "--packages-file",
@@ -223,34 +234,34 @@ def main() -> int:
     parser.add_argument(
         "--job-id",
         default="",
-        help="Batch job id 前缀；默认 full_batch_10_<UTC时间>",
+        help="Batch job id 前缀；默认 full_batch_15_<UTC时间>",
     )
     parser.add_argument("-v", "--verbose", action="store_true", help="CLI DEBUG 日志")
     parser.add_argument(
-        "--real-run-stage3",
+        "--real-run-dynamic",
         action="store_true",
-        help="Stage3 使用 --real-run（需 Appium + Frida + 各 App 前台登录）",
+        help="Dynamic capture 使用 --real-run（需 Appium + Frida + 各 App 前台登录）",
     )
     parser.add_argument(
-        "--skip-stage3",
+        "--skip-dynamic",
         action="store_true",
-        help="跳过 Stage3（仅用 oldsrc/样本动态证据）",
+        help="跳过 Dynamic capture（仅用 oldsrc/样本动态证据）",
     )
     parser.add_argument(
-        "--skip-stage2",
+        "--skip-static",
         action="store_true",
-        help="跳过 Stage2 APK 扫描",
+        help="跳过 Static scan APK 扫描",
     )
     parser.add_argument(
-        "--fast-stage2",
+        "--fast-static",
         action="store_true",
         default=True,
-        help="Stage2 使用 --fast（默认开启）",
+        help="Static scan 使用 --fast（默认开启）",
     )
     parser.add_argument(
-        "--no-fast-stage2",
+        "--no-fast-static",
         action="store_true",
-        help="Stage2 完整 Androguard 分析（较慢）",
+        help="Static scan 完整 Androguard 分析（较慢）",
     )
     parser.add_argument(
         "--from-step",
@@ -268,14 +279,14 @@ def main() -> int:
         help="覆盖列表：逗号分隔 App 名",
     )
     parser.add_argument(
-        "--stage3-app",
+        "--dynamic-app",
         default="",
-        help="仅对单个 App 跑 Stage3（用于逐 App 真机轮换）",
+        help="仅对单个 App 跑 Dynamic capture（用于逐 App 真机轮换）",
     )
     parser.add_argument(
         "--no-knowledge-base",
         action="store_true",
-        help="证据包与 Lab4-1 batch 关闭法律知识库增强",
+        help="证据包与 Disclosure audit batch 关闭法律知识库增强",
     )
     parser.add_argument(
         "--retry-count",
@@ -302,21 +313,21 @@ def main() -> int:
 
     job_suffix = _utc_job_suffix()
     job_id = args.job_id or f"{JOB_ID_PREFIX}_{job_suffix}"
-    job_lab41 = f"{job_id}_lab4_1"
-    job_lab42 = f"{job_id}_lab4_2"
-    job_lab43 = f"{job_id}_lab4_3"
+    job_disclosure = f"{job_id}_lab4_1"
+    job_consent = f"{job_id}_lab4_2"
+    job_access = f"{job_id}_lab4_3"
 
     static_out = SRC_ROOT / "output" / "stage2_static_apk"
     stage3_out = SRC_ROOT / "output" / "stage3_dynamic_real"
     evidence_out = SRC_ROOT / "output" / "lab4_1_evidence"
-    lab41_out = SRC_ROOT / "output" / "lab4_1"
-    lab42_out = SRC_ROOT / "output" / "lab4_2"
-    lab43_out = SRC_ROOT / "output" / "lab4_3"
+    disclosure_out = SRC_ROOT / "output" / "lab4_1"
+    consent_out = SRC_ROOT / "output" / "lab4_2"
+    access_out = SRC_ROOT / "output" / "lab4_3"
 
     if (SRC_ROOT / "output" / "stage2_static_apk").is_dir():
-        static_evidence_dir = "output/stage2_static_apk"
+        static_evidence_dir = "output/static"
     else:
-        static_evidence_dir = "output/stage2_static_samples"
+        static_evidence_dir = "output/static"
 
     apps_file_resolved = _resolve_under_src(args.apps_file)
     try:
@@ -339,109 +350,118 @@ def main() -> int:
         if step == "kb-build":
             _run(["kb-build"], verbose=args.verbose)
 
-        elif step == "stage2":
-            if args.skip_stage2:
+        elif step == "static":
+            if args.skip_static:
                 print("[skip] stage2", flush=True)
                 return
             apk_dir = _resolve_apk_dir()
             if apk_dir is None:
                 print(
-                    "[warn] 未找到 input/apks 或 input/apk 下的 *.apk，跳过 stage2-static；"
-                    "将依赖 import-oldsrc 与 stage2_static_samples。",
+                    "[warn] 未找到 input/apks 或 input/apk 下的 *.apk，跳过 scan-static；"
+                    "将依赖 import-legacy 与 stage2_static_samples。",
                     flush=True,
                 )
                 return
             cmd = [
-                "stage2-static",
+                "scan-static",
                 "--apk-dir",
                 str(apk_dir.relative_to(SRC_ROOT)).replace("\\", "/"),
                 "--output-dir",
-                "output/stage2_static_apk",
+                "output/static",
             ]
-            if args.fast_stage2 and not args.no_fast_stage2:
+            if args.fast_static and not args.no_fast_static:
                 cmd.append("--fast")
             _run(cmd, verbose=args.verbose)
 
-        elif step == "stage3":
-            if args.skip_stage3:
+        elif step == "dynamic":
+            if args.skip_dynamic:
                 print("[skip] stage3", flush=True)
                 return
-            stage3_apps = [args.stage3_app] if args.stage3_app else apps
+            dynamic_apps = [args.dynamic_app] if args.dynamic_app else apps
             missing_pkg: list[str] = []
-            for app in stage3_apps:
+            for app in dynamic_apps:
                 pkg = packages.get(app, "")
                 if not pkg:
                     missing_pkg.append(app)
                     continue
-                stage2_file = _resolve_stage2_file(app, static_out)
-                if stage2_file is None:
-                    stage2_file = _resolve_stage2_file(
+                static_file = _resolve_static_file(app, static_out)
+                if static_file is None:
+                    static_file = _resolve_static_file(
                         app, SRC_ROOT / "output" / "stage2_static_samples"
                     )
                 cmd = [
-                    "stage3-dynamic",
+                    "capture-dynamic",
                     "--app-name",
                     app,
                     "--app-package",
                     pkg,
-                    "--pii-text-dir",
+                    "--policy-text-dir",
                     "input/pii_text",
                     "--output-dir",
-                    "output/stage3_dynamic_real",
+                    "output/dynamic",
                     "--frida-mode",
-                    "attach",
+                    "auto",
+                    "--dynamic-track",
+                    "auto",
+                    "--skip-preflight",
+                    "--mitm-adb-proxy-host",
+                    os.environ.get("MITM_ADB_PROXY_HOST", "172.27.154.110"),
                 ]
-                if stage2_file:
+                adb_serial = os.environ.get("ANDROID_SERIAL", "127.0.0.1:16384").strip()
+                if adb_serial:
+                    cmd.extend(["--adb-serial", adb_serial])
+                if static_file:
                     cmd.extend(
                         [
-                            "--stage2-evidence-file",
-                            str(stage2_file.relative_to(SRC_ROOT)).replace("\\", "/"),
+                            "--static-evidence-file",
+                            str(static_file.relative_to(SRC_ROOT)).replace("\\", "/"),
                         ]
                     )
-                if args.real_run_stage3:
+                if args.real_run_dynamic:
                     cmd.append("--real-run")
+                # Tier-1 apps still get Frida via --dynamic-track auto + frida_tier.json
                 else:
                     print(
-                        f"[dry-run] stage3-dynamic {app}（无 --real-run-stage3）；"
+                        f"[dry-run] capture-dynamic {app}（无 --real-run-dynamic）；"
                         "仅模拟，不产生真机 Frida 事件。",
                         flush=True,
                     )
                 _run(cmd, verbose=args.verbose)
                 print(
-                    f"\n>>> Stage3 完成: {app}。"
+                    f"\n>>> Dynamic capture 完成: {app}。"
                     " 若需下一 App，请在模拟器中切换登录后重新运行 "
-                    f'--only-step stage3 --stage3-app "<下一App>"\n',
+                    f'--only-step stage3 --dynamic-app "<下一App>"\n',
                     flush=True,
                 )
             if missing_pkg:
                 print(
-                    "[warn] 以下 App 未在 app_packages.json 中配置包名，已跳过 Stage3: "
+                    "[warn] 以下 App 未在 app_packages.json 中配置包名，已跳过 Dynamic capture: "
                     + ", ".join(missing_pkg),
                     flush=True,
                 )
 
-        elif step == "import-oldsrc":
+        elif step == "import-legacy":
             if not LEGACY_RUN.is_dir():
-                print(f"[warn] oldsrc 不存在，跳过 import-oldsrc: {LEGACY_RUN}", flush=True)
+                print(f"[warn] oldsrc 不存在，跳过 import-legacy: {LEGACY_RUN}", flush=True)
                 return
             cmd = [
-                "import-oldsrc-evidence",
+                "import-legacy",
                 "--apps-file",
                 apps_rel,
                 "--static-out-dir",
-                "output/stage2_oldsrc_derived",
+                "output/static/legacy",
                 "--dynamic-out-dir",
-                "output/stage3_oldsrc_derived",
+                "output/dynamic/legacy",
             ]
             _run(cmd, verbose=args.verbose)
 
         elif step == "build-evidence":
             cmd = [
-                "build-evidence-bundles",
+                "build-evidence",
                 "--apps-file",
                 apps_rel,
                 "--output-dir",
-                "output/lab4_1_evidence",
+                "output/evidence",
                 "--dynamic-evidence-dir",
                 "output",
                 "--static-evidence-dir",
@@ -454,23 +474,23 @@ def main() -> int:
                 cmd.extend(["--legacy-md-run-dir", str(LEGACY_MD)])
             _run(cmd, verbose=args.verbose)
 
-        elif step == "lab4-1":
+        elif step == "audit-disclosure":
             cmd = [
                 "batch",
                 "--apps-file",
                 apps_rel,
                 "--mode",
-                "lab4-1",
+                "disclosure",
                 "--policy-dir",
                 "input/pii_text",
                 "--evidence-dir",
-                "output/lab4_1_evidence",
+                "output/evidence",
                 "--static-evidence-dir",
                 static_evidence_dir,
                 "--output-dir",
-                "output/lab4_1",
+                "output/disclosure",
                 "--job-id",
-                job_lab41,
+                job_disclosure,
                 "--retry-count",
                 str(args.retry_count),
                 "--force-rerun",
@@ -482,50 +502,50 @@ def main() -> int:
                 cmd.extend(["--legacy-md-run-dir", str(LEGACY_MD)])
             _run(cmd, verbose=args.verbose)
 
-        elif step == "prepare-lab4-inputs":
+        elif step == "prepare-audit-inputs":
             summary = prepare_lab4_inputs(apps, verbose=args.verbose)
-            print(f"Lab4-2/3 输入已同步: {summary.get('summary_path')}", flush=True)
+            print(f"Consent/access 输入已同步: {summary.get('summary_path')}", flush=True)
 
-        elif step == "lab4-2":
+        elif step == "audit-consent":
             prepare_lab4_inputs(apps, verbose=False)
             cmd = [
                 "batch",
                 "--apps-file",
                 apps_rel,
                 "--mode",
-                "lab4-2",
+                "consent",
                 "--before-dir",
-                "input/lab4_2_before",
+                "input/consent_before",
                 "--after-dir",
-                "input/lab4_2_after",
+                "input/consent_after",
                 "--output-dir",
-                "output/lab4_2",
+                "output/consent",
                 "--job-id",
-                job_lab42,
+                job_consent,
                 "--retry-count",
                 str(args.retry_count),
                 "--force-rerun",
             ]
             _run(cmd, verbose=args.verbose)
 
-        elif step == "lab4-3":
+        elif step == "audit-access":
             prepare_lab4_inputs(apps, verbose=False)
             cmd = [
                 "batch",
                 "--apps-file",
                 apps_rel,
                 "--mode",
-                "lab4-3",
+                "access",
                 "--policy-dir",
                 "input/pii_text",
                 "--dynamic-dir",
-                "input/lab4_3_dynamic",
+                "input/access_runtime",
                 "--copy-dir",
-                "input/lab4_3_copy",
+                "input/access_copy",
                 "--output-dir",
-                "output/lab4_3",
+                "output/access",
                 "--job-id",
-                job_lab43,
+                job_access,
                 "--retry-count",
                 str(args.retry_count),
                 "--force-rerun",
@@ -534,9 +554,9 @@ def main() -> int:
 
         elif step == "status":
             for mode, out_dir, jid in (
-                ("lab4-1", lab41_out, job_lab41),
-                ("lab4-2", lab42_out, job_lab42),
-                ("lab4-3", lab43_out, job_lab43),
+                ("disclosure", disclosure_out, job_disclosure),
+                ("consent", consent_out, job_consent),
+                ("access", access_out, job_access),
             ):
                 result = _run(
                     ["batch-status", "--output-dir", str(out_dir.relative_to(SRC_ROOT)).replace("\\", "/"), "--job-id", jid, "--mode", mode],
@@ -551,10 +571,10 @@ def main() -> int:
 
     print("\n=== 完成 ===", flush=True)
     print(f"证据包: {evidence_out}", flush=True)
-    print(f"Lab4-1: {lab41_out} (job {job_lab41})", flush=True)
-    print(f"Lab4-2: {lab42_out} (job {job_lab42})", flush=True)
-    print(f"Lab4-3: {lab43_out} (job {job_lab43})", flush=True)
-    print(f"Stage3 真机: {stage3_out}", flush=True)
+    print(f"Disclosure audit: {disclosure_out} (job {job_disclosure})", flush=True)
+    print(f"Consent audit: {consent_out} (job {job_consent})", flush=True)
+    print(f"Access audit: {access_out} (job {job_access})", flush=True)
+    print(f"Dynamic capture 真机: {stage3_out}", flush=True)
     return 0
 
 

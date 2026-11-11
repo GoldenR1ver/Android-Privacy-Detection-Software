@@ -13,11 +13,11 @@ New-Item -ItemType Directory -Force -Path $logDir | Out-Null
 $logFile = Join-Path $logDir ("batch_stage3_{0}.log" -f (Get-Date -Format "yyyyMMdd_HHmmss"))
 
 Write-Host "Log: $logFile" -ForegroundColor Cyan
-Write-Host "Apps: input/apps_full_batch_10.txt (10 apps)" -ForegroundColor Cyan
+Write-Host "Apps: input/apps_full_batch_15.txt (15 apps)" -ForegroundColor Cyan
 
 python scripts/run_full_experiment_batch.py `
   --only-step stage3 `
-  --apps-file input/apps_full_batch_10.txt `
+  --apps-file input/apps_full_batch_15.txt `
   --real-run-stage3 `
   -v 2>&1 | Tee-Object -FilePath $logFile
 

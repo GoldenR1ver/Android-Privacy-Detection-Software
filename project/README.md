@@ -1,424 +1,434 @@
-# Android 隐私检测系统（Lab4）
+# Android 隐私检测系统（Privacy Audit Toolkit）
 
-在 Android 应用上自动比对**隐私政策声明**与**多源技术证据**（静态 APK 扫描、动态运行时、历史 Lab3 数据、法律知识库推断），输出 Lab4 三项权利（知情权 / 同意权 / 访问权）的结构化审计报告，并为 AI 审计提供**可引用的可行证据（feasible evidence）**。
+在 Android 应用上自动比对**隐私政策声明**与**多源技术证据**（APK 静态扫描、设备动态取证、历史实验数据、法律知识库推断），输出三项权利的审计报告：
 
-- **主代码目录**：`project/src/`（包名 `privacy_audit`、`privacy_knowledgebase`）
-- **历史实验数据**：`project/oldsrc/analyzer/output/`（通过导入命令复用，不跑 oldsrc 主流程）
-- **设计文档**：`project/reference/`
+- **知情权**：政策声明了什么，代码和运行时实际做了什么？
+- **同意权**：用户关闭开关/撤回同意后，采集和传输是否真的停止？
+- **访问权**：用户导出的数据副本，是否覆盖了应用实际采集的字段？
 
----
-
-## 功能概览
-
-| 模块 | 说明 |
-|------|------|
-| **Lab4-1** | 知情权：声明 PII vs 观测证据 → `consistent` / `inconsistent_high_risk` / `declared_not_observed` |
-| **Lab4-2** | 同意权：开关关闭前后 Frida 事件对比 |
-| **Lab4-3** | 访问权：声明 / 运行时 / 副本字段覆盖比对 |
-| **Stage2** | Exodus + Androguard 静态分析 → `static_evidence.json` |
-| **Stage3** | Appium + Frida 动态取证 → `dynamic_evidence.json` |
-| **Knowledge Base** | 法律个人信息矩阵 + Android 信号映射 → `feasible_evidence[]` |
-| **Batch** | 多 App 批处理、重试、断点续跑、manifest 与日志归档 |
+> 课堂实验里曾用 `Lab4-1`、`Stage2`、`Stage3` 这类按实验顺序命名的编号。现在代码、CLI 和文档统一改为**按职责命名**；旧实验产物目录仍可被自动识别，见[命名对照](#2-命名对照旧--新)。
 
 ---
 
-## 项目结构
+## 1. 设计目标
+
+1. **证据优先**：每条结论都能追溯到政策原文、静态 API、运行时事件、网络字段或副本文件。
+2. **规则可复现**：最终 verdict 由规则引擎产生，LLM 只做路径建议与解释，不参与裁决。
+3. **多轨取证**：静态、UI、Frida、mitm 四条轨道按 App 能力自动选择，单轨失败不阻断整个实验。
+4. **批量可交付**：支持多 App 调度、失败重试、断点续跑、日志归档和结构化报告。
+
+---
+
+## 2. 命名对照（旧 → 新）
+
+| 直观名称 | CLI 命令 | 代码模块 | 旧实验名 |
+| --- | --- | --- | --- |
+| 知情权审计 | `audit-disclosure` | `workflows/disclosure_audit.py` | Lab4-1 |
+| 同意权审计 | `audit-consent` | `workflows/consent_audit.py` | Lab4-2 |
+| 访问权审计 | `audit-access` | `workflows/access_audit.py` | Lab4-3 |
+| 静态取证 | `scan-static` | `workflows/static_scan.py` | Stage2 |
+| 动态取证 | `capture-dynamic` | `workflows/dynamic_capture.py` | Stage3 |
+| 证据包构建 | `build-evidence` | `ingestion/evidence_loader.py` | build-evidence-bundles |
+| 历史数据导入 | `import-legacy` | `ingestion/legacy_importer.py` | import-oldsrc-evidence |
+| 批量编排 | `batch` / `batch-status` | `workflows/batch_runner.py` | Stage7 batch |
+| 法律知识库 | `kb-build` | `privacy_knowledgebase/` | Knowledge Base |
+| 声明-证据比对 | —（引擎内部） | `engine/compare_engine.py` | compare_engine |
+
+**报告文件也从实验编号改为职责名：**
+
+| 旧文件 | 新文件 |
+| --- | --- |
+| `<App>_lab4_1_report.json` | `<App>_disclosure_report.json` |
+| `<App>_lab4_2_result.json` | `<App>_consent_result.json` |
+| `<App>_lab4_3_result.json` | `<App>_access_result.json` |
+| `batch_lab4-1_<job>_summary.json` | `batch_disclosure_<job>_summary.json` |
+
+历史目录（`output/lab4_1*`、`output/stage2_*`、`output/stage3_*`）不会被删除；证据加载器会按新目录优先、旧目录兜底的顺序查找。
+
+---
+
+## 3. 系统架构
+
+```text
+┌────────────────────────── input/ ──────────────────────────┐
+│ 隐私政策文本  App/包名映射  APK  用户副本  历史实验数据  追踪器库 │
+└──────────────────────────────┬─────────────────────────────┘
+                               ▼
+┌────────────────────── 取证层 analyzers/ ───────────────────┐
+│ 政策解析   静态扫描   动态取证（Appium/Frida）   网络取证（mitm）│
+│ policy     static     dynamic                   network    │
+└──────────────────────────────┬─────────────────────────────┘
+                               ▼
+┌────────────────────── 汇聚层 ingestion/ ───────────────────┐
+│ 多源证据合并 · provenance · 历史数据导入 · 法律知识库增强       │
+└──────────────────────────────┬─────────────────────────────┘
+                               ▼
+┌────────────────────── 判定层 engine/ ──────────────────────┐
+│ 声明 vs 观测 · 判定规则 · SDK 披露 · 知识库可行证据            │
+└──────────────────────────────┬─────────────────────────────┘
+                               ▼
+┌──────────── 工作流层 workflows/ + 报告层 reporting/ ────────┐
+│ 知情权审计  同意权审计  访问权审计  批量编排   JSON / Excel     │
+└────────────────────────────────────────────────────────────┘
+```
+
+| 层 | 职责 | 入口 |
+| --- | --- | --- |
+| 取证层 | 从政策、APK、设备、网络中产生原始证据 | `scan-static`、`capture-dynamic` |
+| 汇聚层 | 把多源证据合并成统一的 `observed_pii` 与 `provenance` | `build-evidence`、`import-legacy` |
+| 判定层 | 按规则比较声明与观测，输出 `consistent` 等 verdict | 各审计工作流内部调用 |
+| 工作流/报告层 | 单 App 审计、批量调度、JSON/Excel 报告 | `audit-*`、`batch`、`export-excel` |
+
+---
+
+## 4. 目录结构
 
 ```text
 project/
-├── README.md                          # 本文件
-├── reference/
-│   ├── 开发计划.md
-│   ├── plan.md
-│   └── 法律参考文件/                  # PIPL/CCPA/GDPR 参考材料说明（矩阵源见 input.md）
-├── oldsrc/
-│   └── analyzer/output/
-│       ├── run_20260427_001723/       # Lab3 JSON、audit_processed.csv、test_cases.json
-│       └── run_20260427_001723z/      # 各 App 动态测试 Markdown 摘要
-├── utils/                             # Frida、Androguard、Exodus 等
-├── tools/frida/                       # frida-server（与 PC 端 Frida 版本一致）
-└── src/                               # ★ 所有 CLI 命令在此目录执行
-    ├── privacy_audit/                 # 主审计包
-    │   ├── cli.py
-    │   ├── config/                    # personal_info.yaml、legacy 映射
-    │   ├── ingestion/
-    │   │   ├── evidence_loader.py     # 多源证据合并 + KB 增强
-    │   │   └── oldsrc_evidence_importer.py
-    │   ├── analyzers/                 # 政策 / 静态 / 动态
-    │   ├── engine/compare_engine.py
-    │   ├── workflows/                   # lab4_*、stage2/3、batch
-    │   └── rules/decision_rules.yaml
-    ├── privacy_knowledgebase/           # 法律知识库 + 可行证据
-    │   ├── input.md                   # 法律个人信息矩阵（PIPL/CCPA/GDPR 对照）
-    │   ├── process_input.py           # 生成 knowledge_base/*.json
-    │   ├── kb_store.py / enricher.py / signal_inferencer.py
-    │   └── knowledge_base/            # categories、android_mapping、audit_taxonomy_bridge
-    ├── input/
-    │   ├── pii_text/                  # <App名>.txt 隐私政策
-    │   ├── apps_lab4_batch.txt        # 当前批量 9 个 App（已排除 Soul）
-    │   └── apk/                      # stage2 用 APK（需自行准备）
-    └── output/
-        ├── stage2_static_samples/     # 真 APK 扫描（Keep / 支付宝 / 小红书）
-        ├── stage2_oldsrc_derived/     # 自 oldsrc 衍生的静态证据
-        ├── stage3_dynamic_real/       # 真机动态（Keep）
-        ├── stage3_dynamic_samples/
-        ├── stage3_oldsrc_derived/
-        ├── lab4_1_evidence/           # 扁平合并证据包 <App>.json
-        └── lab4_1/                    # 报告 + batch_jobs/
-```
-
-### 数据流（Lab4-1）
-
-```text
-input/pii_text/<App>.txt
-        ↓ policy_parser
-    declared_pii
-        ↓
-┌───────────────────────────────────────────────────────────┐
-│ evidence_loader.build_merged_evidence                     │
-│   static │ dynamic │ legacy │ oldsrc_lab3 │ oldsrc_audit │
-│   + privacy_knowledgebase.enricher (默认开启)              │
-└───────────────────────────────────────────────────────────┘
-        ↓
-    observed_pii + feasible_evidence + provenance
-        ↓ compare_engine
-    verdicts → output/lab4_1/<App>_lab4_1_report.json
+├── README.md                       # 本文件：总览与命令速查
+├── src/
+│   ├── README.md                   # src 包索引
+│   ├── privacy_audit/              # 主审计包
+│   │   ├── cli.py                  # 统一命令入口
+│   │   ├── analyzers/              # 政策/静态/动态/网络取证
+│   │   ├── ingestion/              # 多源证据合并、历史导入
+│   │   ├── engine/                 # 声明-证据比对、判定规则
+│   │   ├── workflows/              # 三项审计、取证、批量编排
+│   │   ├── reporting/              # JSON / Excel 报告
+│   │   ├── config/                 # PII 分类、判定规则、标签映射
+│   │   └── utils/                  # adb、日志、重试、UI 层级等
+│   ├── privacy_knowledgebase/      # 法律矩阵 + Android 信号映射
+│   ├── scripts/                     # 批量/探针/同步等辅助脚本
+│   ├── input/                       # 政策、APK、App 列表、用户副本
+│   ├── output/                      # 取证与审计产物（可重建）
+│   └── tests/                       # 单元/集成/E2E 测试
+├── oldsrc/                          # 历史 Lab3 实验产物（只读）
+├── reference/                       # 设计文档、法律参考、汇报材料
+├── tools/frida/                     # 与 PC 端版本一致的 frida-server
+└── utils/                           # 开源参考仓库（androguard/exodus/frida 等）
 ```
 
 ---
 
-## 环境要求
+## 5. 环境准备
 
-- **Python** 3.10+（建议虚拟环境）
-- 依赖：androguard、PyYAML 等（按项目 `requirements.txt` 或本地环境安装）
-- **Stage3 真机/模拟器（可选）**
-  - Android 模拟器（如 MuMu）+ `adb connect`
-  - Appium Server（默认 `http://127.0.0.1:4723`）
-  - 设备内 `frida-server`（架构与版本需匹配，见 `tools/frida/`）
+- **Python 3.10+**，建议使用虚拟环境。
+- 依赖：`androguard`、`PyYAML`、`mitmproxy`、`Appium-Python-Client`、`frida` 等，按实际 `pip` 环境安装。
+- **静态取证**：准备 APK，放在 `src/input/apk/`。
+- **动态取证（可选）**：
+  - Android 模拟器/真机，`adb connect` 可用；
+  - Appium Server，默认 `http://127.0.0.1:4723`；
+  - 设备内 `frida-server`，架构与版本需匹配 PC 端，见 `tools/frida/`；
+  - 需要 HTTPS 抓包时，配置 mitmproxy 证书与 `adb` 代理。
 
----
-
-## 快速开始
+所有命令都在 `project/src` 下执行：
 
 ```powershell
-cd D:\LEARNING_RESOURCE\AndroidPDS\gitRepository\Android-Privacy-Detection-Software\project\src
-
+cd project/src
 python -m privacy_audit.cli --help
 ```
 
-### 运行日志（排查 stage3 卡住）
-
-CLI 默认**实时输出**进度到终端；`stage3-dynamic` 另写入 `output/.../<App>/stage3_run.log`。
-
-```powershell
-# 推荐：加 -v，并确认带 --real-run
-python -m privacy_audit.cli -v stage3-dynamic `
-  --app-name Keep `
-  --app-package com.gotokeep.keep `
-  --real-run `
-  ...
-```
-
-启动前请单独开终端运行 **Appium Server**（`appium` 或 Appium Desktop）。若未启动，旧版会在 `webdriver.Remote()` 处阻塞约 1–2 分钟且无输出；现已增加 **Appium /status 预检**，数秒内会打印 `appium: FAIL` 并跳过会话创建。
-
-真机 `attach` 前请在 MuMu **打开并登录 Keep**，保持前台。
-
-**Frida 与 Appium 同步（`--real-run`）**：先 attach 并加载 hook → **默认 5s 手动窗口**（`--frida-grace-sec`）→ Appium 自动导航（此期间 Frida 持续采集）→ 结束后 **3s 尾采**（`--frida-tail-sec`）。报告里看 `summary.frida_runtime_events`（非 `hook_loaded` 计数）。
-
 ---
 
-## 推荐完整流程（Lab4-1 批量）
+## 6. 五分钟快速开始
 
-当前批量列表：`input/apps_lab4_batch.txt`（9 个 App：Keep、小红书、支付宝、LOFTER、智联招聘、世纪佳缘、好大夫医生版、东方财富、小荷健康）。
-
-### 步骤 0：重建法律知识库（修改 `input.md` 后执行）
-
-法律矩阵源文件：`privacy_knowledgebase/input.md`（须遵守 `reference/法律参考文件/` 中的分类原则，勿擅自添加 PIPL 未列敏感项）。
+### 6.1 重建法律知识库（修改 `privacy_knowledgebase/input.md` 后执行）
 
 ```powershell
 python -m privacy_audit.cli kb-build
 ```
 
-### 步骤 1：从 oldsrc 导入并重建证据包
-
-写入 `stage2_oldsrc_derived`、`stage3_oldsrc_derived`，并生成 `output/lab4_1_evidence/<App>.json`（**默认含 KB 可行证据**）。
+### 6.2 静态取证
 
 ```powershell
-python -m privacy_audit.cli import-oldsrc-evidence `
-  --apps-file input/apps_lab4_batch.txt `
-  --rebuild-bundles
+# 扫描 input/apk/ 下全部 APK
+python -m privacy_audit.cli scan-static --apk-dir input/apk --output-dir output/static
+
+# 单个 APK（--fast 跳过完整 Androguard 分析，适合批量初筛）
+python -m privacy_audit.cli scan-static --apk-file input/apk/keep.apk --output-dir output/static --fast
 ```
 
-可选参数：
+输出：`output/static/<apk名>/static_evidence.json`
 
-- `--no-knowledge-base`：关闭法律知识库增强
-- `--kb-min-confidence 0.72`：仅将置信度 ≥ 阈值的 KB 信号并入 `observed_pii`
-
-### 步骤 2：批量 Lab4-1
+### 6.3 动态取证（可选，需设备 + Appium）
 
 ```powershell
-python -m privacy_audit.cli batch `
-  --apps-file input/apps_lab4_batch.txt `
-  --mode lab4-1 `
-  --policy-dir input/pii_text `
-  --evidence-dir output/lab4_1_evidence `
-  --legacy-run-dir ..\oldsrc\analyzer\output\run_20260427_001723 `
-  --legacy-md-run-dir ..\oldsrc\analyzer\output\run_20260427_001723z `
-  --output-dir output/lab4_1 `
-  --job-id keep_batch_004 `
-  --retry-count 2
+# 默认 mitm 优先；需要 Frida 时加 --enable-frida 或 --dynamic-track frida
+python -m privacy_audit.cli capture-dynamic --app-name Keep --app-package com.gotokeep.keep --policy-text-dir input/pii_text --static-evidence-file output/static/keep/static_evidence.json --output-dir output/dynamic --real-run --enable-frida
 ```
 
-### 步骤 3：查看 batch 状态
+输出：`output/dynamic/<App>/dynamic_evidence.json`、截图、`capture_run.log`
+
+### 6.4 构建证据包
 
 ```powershell
-python -m privacy_audit.cli batch-status `
-  --output-dir output/lab4_1 `
-  --job-id keep_batch_004
+# 从静态/动态/历史数据合并出每个 App 的扁平证据包
+python -m privacy_audit.cli build-evidence --apps-file input/apps_audit_batch.txt --output-dir output/evidence
 ```
 
-### 一键命令（步骤 0 → 1 → 2）
+输出：`output/evidence/<App>.json`（含 `observed_pii`、`sources`、`provenance`、`knowledge_base.feasible_evidence`）
+
+### 6.5 单 App 知情权审计
 
 ```powershell
-python -m privacy_audit.cli kb-build; python -m privacy_audit.cli import-oldsrc-evidence --apps-file input/apps_lab4_batch.txt --rebuild-bundles; python -m privacy_audit.cli batch --apps-file input/apps_lab4_batch.txt --mode lab4-1 --policy-dir input/pii_text --evidence-dir output/lab4_1_evidence --legacy-run-dir ..\oldsrc\analyzer\output\run_20260427_001723 --legacy-md-run-dir ..\oldsrc\analyzer\output\run_20260427_001723z --output-dir output/lab4_1 --job-id keep_batch_004 --retry-count 2
+python -m privacy_audit.cli audit-disclosure --app-name Keep --policy-file input/pii_text/Keep.txt --evidence-file output/evidence/Keep.json --output-dir output/disclosure
+```
+
+输出：`output/disclosure/Keep_disclosure_report.json`
+
+### 6.6 批量知情权审计
+
+```powershell
+python -m privacy_audit.cli batch --apps-file input/apps_audit_batch.txt --mode disclosure --policy-dir input/pii_text --evidence-dir output/evidence --output-dir output/disclosure --job-id keep_batch_005 --retry-count 2
+```
+
+查看进度与结果：
+
+```powershell
+python -m privacy_audit.cli batch-status --output-dir output/disclosure --job-id keep_batch_005
+```
+
+### 6.7 同意权审计
+
+```powershell
+python -m privacy_audit.cli audit-consent --app-name Keep --before-off-file input/consent_before/Keep.json --after-off-file input/consent_after/Keep.json --output-dir output/consent
+```
+
+批量：
+
+```powershell
+python -m privacy_audit.cli batch --apps-file input/apps_consent_four.txt --mode consent --before-dir input/consent_before --after-dir input/consent_after --output-dir output/consent --job-id consent_001
+```
+
+### 6.8 访问权审计
+
+先把用户导出的副本整理成 JSON 对象（字段名 → 值），放在 `input/access_copy/<App>.json`；运行时证据放在 `input/access_runtime/<App>.json`。
+
+```powershell
+python -m privacy_audit.cli audit-access --app-name 小荷健康 --policy-file input/pii_text/小荷健康.txt --dynamic-evidence-file input/access_runtime/小荷健康.json --copy-file input/access_copy/小荷健康.json --output-dir output/access
+```
+
+批量：
+
+```powershell
+python -m privacy_audit.cli batch --apps 小荷健康,世纪佳缘 --mode access --policy-dir input/pii_text --dynamic-dir input/access_runtime --copy-dir input/access_copy --output-dir output/access --job-id access_001
 ```
 
 ---
 
-## CLI 命令参考
+## 7. 三项权利审计说明
+
+### 知情权 `audit-disclosure`
+
+**问题**：政策声明的个人信息类型，与静态/动态证据观测到的类型是否一致？
+
+- 输入：政策文本 + 证据包（或现场合并静态/动态/历史证据）。
+- 判定：
+  - `consistent`：声明且观测到；
+  - `inconsistent_high_risk`：证据观测到但政策未声明；
+  - `declared_not_observed`：政策声明但当前证据未观测到（**不等于未采集**）。
+- 额外输出：`sdk_disclosure`（政策声明的第三方 SDK vs APK 内嵌 SDK）、`feasible_evidence`（知识库给出的可引用法律证据）。
+
+### 同意权 `audit-consent`
+
+**问题**：关闭开关/撤回同意前后，同一 App 的采集行为是否变化？
+
+- 输入：`before_off` 与 `after_off` 两份动态证据。
+- 对比轨道：
+  - Frida 运行时 API 事件：`effective_off` / `still_collecting_after_off`；
+  - mitm 网络轨：tracker 域名与 `network_keys` 字段是否仍在传输。
+- 注意：`before=0, after=0` 属于**观测不足**，不能据此判定开关有效。
+
+### 访问权 `audit-access`
+
+**问题**：用户导出的数据副本，是否覆盖运行时观测到的字段？
+
+- 输入：政策文本 + 运行时证据 + 用户副本 JSON。
+- 输出：
+  - `declared_pii`：政策声明字段；
+  - `runtime_observed_pii`：Frida + mitm 合并的运行时字段；
+  - `copy_covered_pii` / `missing_from_copy`：副本覆盖与缺失；
+  - `manual_copy_audit`：字段级人工复核建议（自动匹配只作提示，不作最终结论）。
+
+---
+
+## 8. 命令速查
 
 | 命令 | 用途 |
-|------|------|
-| `kb-build` | 由 `input.md` 生成 `knowledge_base/*.json` |
-| `import-oldsrc-evidence` | oldsrc → derived 目录；`--rebuild-bundles` 生成 `lab4_1_evidence` |
-| `build-evidence-bundles` | 仅合并证据（不跑 oldsrc 导入） |
-| `lab4-1` | 单 App 知情权审计 |
-| `lab4-2` / `lab4-3` | 同意权 / 访问权 |
-| `batch` | 批量 lab4-1 / lab4-2 / lab4-3 |
-| `batch-status` | 查看 manifest、任务成功/失败 |
-| `stage2-static` | APK 静态扫描 |
-| `stage3-dynamic` | Appium + Frida（`--real-run`） |
-| `bridge-stage1` | legacy `review_bundle` 桥接 |
-| `refine-stage1-mapping` | 未知标签聚类与映射建议 |
+| --- | --- |
+| `kb-build` | 由 `privacy_knowledgebase/input.md` 生成知识库 JSON |
+| `scan-static` | APK 静态扫描（Exodus + Androguard + SDK 签名） |
+| `capture-dynamic` | Appium + Frida + mitm 动态取证 |
+| `build-evidence` | 合并静态/动态/历史证据为扁平证据包 |
+| `import-legacy` | 导入 oldsrc Lab3 数据，生成静态/动态派生证据 |
+| `audit-disclosure` | 单 App 知情权审计 |
+| `audit-consent` | 单 App 同意权审计 |
+| `audit-access` | 单 App 访问权审计 |
+| `batch` | 批量运行三项审计之一，支持重试/续跑/日志 |
+| `batch-status` | 查看 batch manifest 与任务状态 |
+| `compare-verdicts` | 比较两次知情权审计的 verdict 差异 |
+| `export-excel` | 导出 PMA 风格 Excel（API / 堆栈 / 政策声明） |
+| `import-legacy-claims` | 把旧人工标注导入为统一 claim |
+| `refine-label-mapping` | 聚类未知标签并给出映射建议 |
 
-### 单 App 示例（Keep）
-
-```powershell
-python -m privacy_audit.cli lab4-1 `
-  --app-name Keep `
-  --policy-file input/pii_text/Keep.txt `
-  --evidence-file output/lab4_1_evidence/Keep.json `
-  --output-dir output/lab4_1
-```
-
-### Stage2 / Stage3
+每个命令的完整参数：
 
 ```powershell
-# 静态（APK 放入 input/apk/）
-python -m privacy_audit.cli stage2-static --apk-dir input/apk --output-dir output/stage2_static_samples
-
-# 动态真机（先 adb、frida-server、Appium）
-python -m privacy_audit.cli stage3-dynamic `
-  --app-name Keep `
-  --app-package com.gotokeep.keep `
-  --pii-text-dir input/pii_text `
-  --stage2-evidence-file output/stage2_static_samples/keep/static_evidence.json `
-  --output-dir output/stage3_dynamic_real `
-  --real-run `
-  --frida-mode attach
+python -m privacy_audit.cli <command> --help
 ```
 
-Stage3 常用参数：`--frida-mode attach`（默认，保留登录态）、`--frida-mode spawn`（冷启动）、不加 `--appium-reset` 即 **noReset**。
+---
 
-支付宝示例（在 `project/src` 下）：
+## 9. 输入与输出
+
+### 输入
+
+| 路径 | 用途 |
+| --- | --- |
+| `input/pii_text/<App>.txt` | 隐私政策纯文本 |
+| `input/app_packages.json` | App 名 → Android 包名（及代码前缀） |
+| `input/apps_audit_batch.txt` | 当前批量 App 列表 |
+| `input/apk/` | 待扫描 APK |
+| `input/consent_before/`、`input/consent_after/` | 同意权前后动态证据 |
+| `input/access_copy/<App>.json` | 用户导出的数据副本（规范化 JSON） |
+| `input/access_runtime/<App>.json` | 访问权审计用的运行时证据 |
+| `input/user_copy/` | 原始副本（格式可不统一） |
+| `input/user_copy_normalized/` | `scripts/normalize_user_copy.py` 生成的扁平 JSON |
+| `input/frida_tier.json` | 每 App 的 Frida 可注入等级与偏好轨道 |
+| `input/navigation_bridges.json` | 学习到的 UI 导航中间桥 |
+| `input/tracker_blocklist/` | tracker 域名与 SDK 签名库 |
+
+### 输出
+
+| 路径 | 内容 |
+| --- | --- |
+| `output/static/<slug>/static_evidence.json` | 单 App 静态证据 |
+| `output/dynamic/<App>/dynamic_evidence.json` | 单 App 动态证据 |
+| `output/evidence/<App>.json` | 合并证据包 |
+| `output/disclosure/<App>_disclosure_report.json` | 知情权报告 |
+| `output/consent/<App>_consent_result.json` | 同意权报告 |
+| `output/access/<App>_access_result.json` | 访问权报告 |
+| `output/<audit>/batch_jobs/<job_id>/` | batch manifest、summary、日志、归档报告 |
+| `output/<audit>/batch_<mode>_<job_id>_summary.json` | 批量汇总（快速查看） |
+| `output/knowledge_base/` | 知识库 JSON 镜像 |
+| `output/frida_probe/` | Frida 注入探针结果 |
+
+**旧目录兼容**：`output/lab4_1*`、`output/stage2_*`、`output/stage3_*` 仍会被扫描；新运行默认写入新目录。
+
+---
+
+## 10. 组件文档
+
+| 组件 | 文档 |
+| --- | --- |
+| 主审计包与分层 | [`src/privacy_audit/README.md`](src/privacy_audit/README.md) |
+| 取证分析器（政策/静态/动态/网络） | [`src/privacy_audit/analyzers/README.md`](src/privacy_audit/analyzers/README.md) |
+| 证据汇聚与历史导入 | [`src/privacy_audit/ingestion/README.md`](src/privacy_audit/ingestion/README.md) |
+| 判定引擎与规则 | [`src/privacy_audit/engine/README.md`](src/privacy_audit/engine/README.md) |
+| 工作流与批量编排 | [`src/privacy_audit/workflows/README.md`](src/privacy_audit/workflows/README.md) |
+| 报告导出 | [`src/privacy_audit/reporting/README.md`](src/privacy_audit/reporting/README.md) |
+| 配置与 PII 分类 | [`src/privacy_audit/config/README.md`](src/privacy_audit/config/README.md) |
+| 工具函数 | [`src/privacy_audit/utils/README.md`](src/privacy_audit/utils/README.md) |
+| 法律知识库 | [`src/privacy_knowledgebase/README.md`](src/privacy_knowledgebase/README.md) |
+| 辅助脚本 | [`src/scripts/README.md`](src/scripts/README.md) |
+| 输入目录 | [`src/input/README.md`](src/input/README.md) |
+| 输出目录 | [`src/output/README.md`](src/output/README.md) |
+| 历史实验数据 | [`oldsrc/README.md`](oldsrc/README.md) |
+| frida-server | [`tools/README.md`](tools/README.md) |
+| 开源参考仓库 | [`utils/README.md`](utils/README.md) |
+| 设计文档与法律参考 | [`reference/`](reference/) |
+
+---
+
+## 11. 推荐工作流
+
+### 单 App 深度验证
 
 ```powershell
-python -m privacy_audit.cli -v stage3-dynamic `
-  --app-name 支付宝 `
-  --app-package com.eg.android.AlipayGphone `
-  --pii-text-dir input/pii_text `
-  --output-dir output/stage3_dynamic_real `
-  --real-run
+python -m privacy_audit.cli kb-build
+python -m privacy_audit.cli scan-static --apk-file input/apk/keep.apk --output-dir output/static
+python -m privacy_audit.cli capture-dynamic --app-name Keep --app-package com.gotokeep.keep --real-run --enable-frida --output-dir output/dynamic --static-evidence-file output/static/keep/static_evidence.json
+python -m privacy_audit.cli build-evidence --apps Keep --output-dir output/evidence
+python -m privacy_audit.cli audit-disclosure --app-name Keep --policy-file input/pii_text/Keep.txt --evidence-file output/evidence/Keep.json --output-dir output/disclosure
 ```
 
-或便捷模块入口（自动读 `input/app_packages.json`）：
+### 批量知情权（课堂交付主线）
 
 ```powershell
-python -m privacy_audit.workflows.stage3_dynamic_pipeline --app 支付宝 --real-run -v
+python -m privacy_audit.cli import-legacy --apps-file input/apps_audit_batch.txt --rebuild-bundles
+python -m privacy_audit.cli batch --apps-file input/apps_audit_batch.txt --mode disclosure --policy-dir input/pii_text --evidence-dir output/evidence --output-dir output/disclosure --job-id keep_batch_005 --retry-count 2
+python -m privacy_audit.cli batch-status --output-dir output/disclosure --job-id keep_batch_005
 ```
 
----
+### 同意权 A/B
 
-## Privacy Knowledge Base
-
-法律知识库将 Android 技术信号映射到 **法律个人信息矩阵**（A–H 类，见 `categories.json`），再通过 `audit_taxonomy_bridge.json` 桥接到审计用 `personal_info.yaml` 类型。
-
-重建证据或跑 batch 时**默认启用** KB，在证据包中写入：
-
-| 字段 | 说明 |
-|------|------|
-| `sources.knowledge_base` | 高置信 KB 推断的 audit PII 类型 |
-| `knowledge_base.feasible_evidence[]` | 每条可行证据：信号类型、法律条目 ID、置信度、法理标签、`source` |
-| `knowledge_base.legal_matrix` | 涉及条目的中文 label、敏感级别、风险桶 |
-
-详细说明：[src/privacy_knowledgebase/README.md](src/privacy_knowledgebase/README.md)
+1. 开启状态运行一次 `capture-dynamic`，产物复制到 `input/consent_before/<App>.json`；
+2. 在设备上手动关闭开关/撤回同意；
+3. 同样参数再运行一次，产物复制到 `input/consent_after/<App>.json`；
+4. 运行 `audit-consent` 或 `batch --mode consent`。
 
 ---
 
-## 证据来源说明
+## 12. 证据强度与判定
 
-实现：`privacy_audit/ingestion/evidence_loader.py`
+报告和汇报中建议区分证据强度（S0–S5）：
 
-| 来源键 | 含义 | 典型路径 |
-|--------|------|----------|
-| `static` | APK 静态（Exodus + Androguard） | `stage2_static_samples/`、`stage2_oldsrc_derived/` |
-| `dynamic` | Frida / Appium 动态 | `stage3_dynamic_real/`、`stage3_dynamic_samples/`、`stage3_oldsrc_derived/` |
-| `legacy` | Lab3 动态测试 PASS 步骤关键词 | `oldsrc/.../per_app/<App>/*.json` |
-| `oldsrc_lab3` | `test_cases.json` + 用例结果 | `dynamic_testing/test_cases.json` |
-| `oldsrc_audit` | 政策审计可测项 | `<App>/audit_processed.csv` |
-| `knowledge_base` | 法律矩阵 + Android 映射规则 | `privacy_knowledgebase/knowledge_base/` |
-| `bundle` | 已生成的扁平包（避免重复解析时用） | `lab4_1_evidence/<App>.json` |
+| 级别 | 含义 | 典型来源 |
+| --- | --- | --- |
+| S0 | 仅政策文本 | `policy_parser` |
+| S1 | 具备采集能力 | Exodus 权限、Androguard API、内嵌 SDK |
+| S2 | 用户可触达相关界面/开关 | Appium 步骤、截图、keyword checks |
+| S3 | 观测到运行时 API 调用 | Frida `frida_runtime_events > 0` |
+| S4 | 观测到网络外传 | mitm tracker 域名、`network_keys` 命中 |
+| S5 | 用户访问权产物 | 用户导出副本 |
 
-**证据强度（汇报时务必区分）：**
+**判定建议**：
 
-| 强度 | 来源示例 |
-|------|----------|
-| 强 | Keep 的 stage2 APK + stage3 真机 Frida |
-| 中 | 小红书 / 支付宝 的 static + dynamic 样本 |
-| 弱（审计/用例推断） | `oldsrc_audit`、`oldsrc_lab3`；不宜单独作为「已采集」结论 |
+- 「未声明但采集」：至少 S1 + S3 或 S1 + S4，才标高风险；仅 S1 标「待验证」。
+- 「关闭无效」：需要 S2 确认已关闭，且 before > 0、after > 0（S3/S4）。
+- 「副本不完整」：需要 S5 与 S3/S1 的字段差集非空。
 
 ---
 
-## 实验结果文件与阅读顺序
+## 13. 已知限制
 
-**正式汇报建议以最新 batch job 为准**（如 `keep_batch_004`），勿混用旧 job 覆盖后的根目录报告。
-
-### 优先阅读
-
-| 文件 | 用途 |
-|------|------|
-| `output/lab4_1/batch_lab4-1_<job_id>_summary.json` | 全批汇总：每 App 的 `summary.status_counts` |
-| `output/lab4_1/<App>_lab4_1_report.json` | 单 App：`claims`、`evidence`、`verdicts` |
-| `output/lab4_1_evidence/<App>.json` | 合并证据 + `provenance` + `feasible_evidence` |
-
-### 工程归档
-
-```text
-output/lab4_1/batch_jobs/<job_id>/
-├── manifest.json
-├── summary.json
-├── logs/{App}.log
-└── reports/{App}/{App}_lab4_1_report.json
-```
-
-### 阅读顺序
-
-1. **总览**：`batch_*_summary.json` → `summary.success_count`、`reports[].summary`（`declared_count` / `observed_count` / `consistent` 等）
-2. **单 App 结论**：`<App>_lab4_1_report.json` → `verdicts[]`
-3. **证据溯源**：`lab4_1_evidence/<App>.json` → `provenance`、`sources`、`knowledge_base.feasible_evidence`
-4. **底层细节**：`stage3_dynamic_real/`、`oldsrc/.../access_result.json` 等
-
-### Verdict 含义
-
-| status | 含义 |
-|--------|------|
-| `consistent` | 政策声明且证据观测到 |
-| `inconsistent_high_risk` | 证据有、政策未声明 |
-| `declared_not_observed` | 政策声明但当前证据未观测到（≠ 未采集） |
-
-### 迭代参考（Lab4-1 batch）
-
-| Job | 说明 |
-|-----|------|
-| `keep_batch_001` | 3 App，证据路径未对齐，`observed` 多为 0 |
-| `keep_batch_002` | 10 App，合并证据后结论有意义 |
-| `keep_batch_003` | 9 App + oldsrc 审计导入，当前推荐基线 |
-| `keep_batch_004` | 启用 privacy_knowledgebase 后的版本 |
+- **Frida 不是万能的**：商业 App 常见反注入、进程瞬杀、壳与多进程；`capture-dynamic` 默认 mitm 优先，Frida 为可选项。
+- **attach 晚于冷启动**：IMEI/Android ID 可能在 `Application.onCreate` 阶段读取；需要时使用 `--frida-mode spawn` 或延长 `--frida-grace-sec`。
+- **UI 自动化路径脆弱**：页面改版会导致导航失败；`input/navigation_bridges.json` 与 LLM 路径建议只用于辅助，最终以截图和日志为准。
+- **副本收集是访问权瓶颈**：邮箱/异步导出无法被 Frida 直接观测，`audit-access` 的自动覆盖率需配合 `manual_copy_audit` 人工复核。
+- **dry-run 数据不能作为结论**：`--real-run` 缺失时产生的是模拟事件，不应进入同意权对比。
 
 ---
 
-## 配置与规则
+## 14. 与 oldsrc 的关系
 
-| 文件 | 作用 |
-|------|------|
-| `privacy_audit/config/personal_info.yaml` | 审计用 PII 类型、别名、API、权限 |
-| `privacy_audit/rules/decision_rules.yaml` | Lab4-1 判定规则 |
-| `privacy_knowledgebase/input.md` | 法律个人信息矩阵（源） |
-| `privacy_knowledgebase/knowledge_base/*.json` | 机器可读矩阵与 Android 映射 |
-| `privacy_audit/config/legacy_label_mapping.yaml` | 旧版标签映射 |
+| | `oldsrc/` | `src/`（主路径） |
+| --- | --- | --- |
+| 角色 | 历史 Lab3 实验产出与 LLM 审计 | 证据驱动 + 规则引擎 + 法律知识库 |
+| 使用方式 | 只读 `analyzer/output/`，经 `import-legacy` 导入 | `python -m privacy_audit.cli ...` |
+| 不宜 | 作为主执行入口 | 用 oldsrc 代码跑主流程 |
 
 ---
 
-## 添加新 App
-
-1. 在 `input/pii_text/` 添加 `<App名>.txt`
-2. （可选）`input/apk/` + `stage2-static`
-3. （可选）`stage3-dynamic --real-run`
-4. 若 oldsrc 有数据，加入 `apps_lab4_batch.txt`
-5. `kb-build`（若改过矩阵）→ `import-oldsrc-evidence --rebuild-bundles` → `batch`
-
----
-
-## 与 oldsrc 的关系
-
-| | oldsrc | src（本仓库主路径） |
-|---|--------|---------------------|
-| 角色 | 历史实验产出与 LLM 审计 | 证据驱动 + 规则引擎 + 法律知识库 |
-| 使用方式 | 只读 `analyzer/output/`，经 `import-oldsrc-evidence` 导入 | `python -m privacy_audit.cli ...` |
-| 不宜 | 再作为主执行入口 | 用 oldsrc 代码跑主流程 |
-
----
-
-## 测试
-
-```powershell
-cd src
-python -m pytest tests/ -q
-```
-
----
-
-## 进一步阅读
-
-- [reference/开发计划.md](reference/开发计划.md) — 阶段验收标准
-- [reference/plan.md](reference/plan.md) — 补充设计
-- [reference/法律参考文件/README.md](reference/法律参考文件/README.md) — 法律参考与矩阵维护
-- [src/privacy_knowledgebase/README.md](src/privacy_knowledgebase/README.md) — 知识库与 feasible evidence
-- [oldsrc/analyzer/dynamic_testing/README.md](../oldsrc/analyzer/dynamic_testing/README.md) — 历史动态测试
-
----
-
-## 常见问题
+## 15. 常见问题
 
 **Q: `ModuleNotFoundError: No module named 'privacy_audit'`**  
 A: 必须在 `project/src` 下执行命令。
 
 **Q: batch 全是 `declared_not_observed`**  
-A: 先执行 `import-oldsrc-evidence --rebuild-bundles`，batch 使用 `--evidence-dir output/lab4_1_evidence`。
+A: 先运行 `build-evidence`（或 `import-legacy --rebuild-bundles`），并让 batch 使用 `--evidence-dir output/evidence`。
 
 **Q: 报告里看不到 `feasible_evidence`**  
-A: 查看 `output/lab4_1_evidence/<App>.json` 的 `knowledge_base` 字段；确保证据包重建时未加 `--no-knowledge-base`。
+A: 查看 `output/evidence/<App>.json` 的 `knowledge_base` 字段；确保证据包重建时未加 `--no-knowledge-base`。
 
-**Q: Stage3 无论指定哪个 App 都打开 Keep**  
-A: 旧版在 Appium 带 `appPackage` 建会话失败时会**回退到无包名会话**，自动化会绑定当前前台应用（若刚测过 Keep 就会一直操作 Keep）。日志里若有 `session_created_fallback_no_package` 即属此情况。现已改为：先用 adb 启动目标包、重试带包名会话、校验 `foreground_package`，不再无包名回退。跑前可先手动关掉 Keep，或看日志 `adb_foreground_before=` / `foreground_package=`。
+**Q: 动态取证终端长时间无输出**  
+A: 确认 ① 在 `project/src` 下执行；② Appium `/status` 可访问；③ 加 `--real-run`；④ 加 `-v` 查看实时日志；⑤ 日志在 `output/dynamic/<App>/capture_run.log`。
 
-**Q: `python -m privacy_audit.workflows.stage3_dynamic_pipeline` 秒退、模拟器无操作**  
-A: 旧版该模块**没有** `main` 入口，带参数也会立即退出。请改用 `python -m privacy_audit.cli -v stage3-dynamic --app-name 支付宝 --app-package com.eg.android.AlipayGphone --real-run ...`；或已支持便捷入口：`python -m privacy_audit.workflows.stage3_dynamic_pipeline --app 支付宝 --real-run`（勿只写 `--dry-run false` 却不加 `--real-run` 时确认日志里 `dry_run=False`）。
-
-**Q: `stage3-dynamic` 跑很久终端无输出、模拟器无反应**  
-A: ① 必须在 `project\src` 下执行；② 加 `-v` 看实时日志；③ 先启动 Appium（`http://127.0.0.1:4723/status` 可访问）；④ `--real-run` 才会驱动 UI；⑤ attach 前 Keep 需在前台。日志见 `output/stage3_dynamic_real/Keep/stage3_run.log`。Frida 与 Appium 已同步：前 5s 可手动操作，随后 Appium 导航时 Frida 同时记录。
-
-**Q: Frida 只有 `hook_loaded`、无运行时事件**  
-A: 确认使用 `--real-run`；在 grace 窗口或 Appium 进权限/定位相关页时触发 API；查看 `registered_hooks` 是否含 `hook_phone.js` 等新脚本；`summary.frida_runtime_events` 应 > 0 才有 Lab4-2 对比价值。
-
-**Q: `probe_hook.py` / attach 报 `refused to load frida-agent`（pid 为 `com.gotokeep.keep`）**  
-A: MuMu 上常见：应 attach 进程名 **`Keep`**（`adb shell pidof com.gotokeep.keep` 的**第一个** PID），不要只 attach 子进程 `com.gotokeep.keep`。先启动 Keep，再运行 `python scripts/probe_hook.py`（无参数时会按推荐顺序逐个尝试）。PC 与模拟器 `frida-server` 版本需一致（如 17.9.10）。
-
-**Q: PowerShell 多行命令报错**  
-A: 行末用反引号 `` ` `` 续行，或合并为单行并用 `;` 分隔。
-
-**Q: 课程要求 ≥10 个 App**  
-A: 当前列表 9 个（Soul 已排除）；可在 `apps_lab4_batch.txt` 增加 oldsrc 中已有数据的 App 后重跑。
+**Q: Frida 只有 `hook_loaded`，没有运行时事件**  
+A: 确认使用 `--real-run --enable-frida`；在 grace 窗口或 Appium 进入权限/定位页面时触发 API；查看 `summary.frida_runtime_events` 是否大于 0。
 
 **Q: 如何关闭法律知识库**  
-A: `import-oldsrc-evidence`、`build-evidence-bundles`、`batch` 均可加 `--no-knowledge-base`。
+A: `build-evidence`、`import-legacy`、`batch` 均可加 `--no-knowledge-base`。
+
+**Q: 旧实验数据还能用吗？**  
+A: 可以。证据加载器会扫描旧目录；也可以在命令中显式指定旧路径。新报告文件名与旧报告不同，旧报告不会被覆盖。

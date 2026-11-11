@@ -1,0 +1,128 @@
+# =============================================================================
+# Android Privacy Detection Software — .gitignore
+# Git root: Android-Privacy-Detection-Software/
+# Main code: project/
+# =============================================================================
+
+# ---- OS / IDE ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# Local virtual / conda env (project/.conda is a local env prefix)
+project/.conda/
+.venv/
+venv/
+env/
+ENV/
+
+# ---- LaTeX / PPT build artifacts ----
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+texput.log
+
+# ---- Large binaries & local toolchains ----
+*.apk
+*.aab
+*.dex
+*.so
+*.jar
+*.keystore
+*.jks
+*.xz
+*.zip
+*.7z
+*.tar.gz
+
+# frida-server binaries (download locally; version must match PC frida)
+project/tools/frida/frida-server*
+project/tools/frida/*.xz
+
+# =============================================================================
+# project/utils — only referenced trees belong in git
+#
+# Kept (submodules / hook templates referenced by docs or pipeline):
+#   androguard, exodus, frida, awesome-frida, frida-android-hooks
+#
+# Below: local reference clones — install via pip or clone locally, do not commit.
+# =============================================================================
+project/utils/Android-Security-Frida-Magisk/
+project/utils/frida-tools/
+project/utils/frida-trace/
+project/utils/frida_dump/
+project/utils/objection/
+project/utils/PAPIMonitor/
+project/utils/PrivacyMonitorAndroid/
+project/utils/rekit/
+project/utils/tracker-control-android/
+
+# Nested git repos & build cache inside utils/
+project/utils/**/.git/
+project/utils/**/.git
+project/utils/**/.gradle/
+project/utils/**/build/
+project/utils/**/local.properties
+project/utils/**/node_modules/
+project/utils/**/.cxx/
+
+# =============================================================================
+# Sensitive / local-only inputs
+# =============================================================================
+project/src/input/apk/
+project/src/input/user_copy/
+project/src/input/user_copy_normalized/
+
+# =============================================================================
+# Pipeline outputs (regenerate via privacy_audit CLI / scripts)
+# =============================================================================
+project/src/output/
+
+# ScreenGrab tool — new captures are local; unit-test fixtures may stay tracked
+project/src/privacy_audit/utils/screenGrab/output/**/screenshot.png
+project/src/privacy_audit/utils/screenGrab/output/**/summary.json
+
+# =============================================================================
+# Misc temp / logs
+# =============================================================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+.cache/

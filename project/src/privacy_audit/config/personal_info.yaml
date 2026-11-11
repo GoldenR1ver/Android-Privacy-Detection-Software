@@ -4,10 +4,16 @@
 #   policy_keywords: [keywords for policy parser]
 #   permissions: [Android permissions]
 #   apis: [static API signatures or method names]
-#   hooks: [frida hook script names]
+#   hooks: [frida hook script names — loaded as plain Java.perform scripts]
+#   api_targets: [data-driven targets for hook_papi.js]
+#       - {clazz: "fully.qualified.Class", method: "methodName"}  # explicit
+#       - {enumerate: "pkg.Class!method*"}                         # Java.enumerateMethods pattern
 #   network_keys: [possible upload keys]
 #   related_rights: [informed, consent, access, correction, deletion]
 #   sensitivity: [normal | sensitive]
+#
+# api_targets feed the data-driven monitor (hook_papi.js) via Java.enumerateMethods
+# + overload-aware hooking; the explicit hooks: scripts remain for hand-tuned cases.
 
 imei:
   aliases: ["IMEI", "device_id", "设备号", "设备识别码"]
@@ -15,6 +21,12 @@ imei:
   permissions: ["READ_PHONE_STATE"]
   apis: ["getImei", "getDeviceId", "TelephonyManager.getImei"]
   hooks: ["hook_imei.js"]
+  api_targets:
+    - {clazz: "android.telephony.TelephonyManager", method: "getImei"}
+    - {clazz: "android.telephony.TelephonyManager", method: "getMeid"}
+    - {clazz: "android.telephony.TelephonyManager", method: "getDeviceId"}
+    - {clazz: "android.telephony.TelephonyManager", method: "getDeviceSoftwareVersion"}
+    - {clazz: "android.telephony.TelephonyManager", method: "getSimSerialNumber"}
   network_keys: ["imei", "device_id"]
   related_rights: ["informed", "consent", "access", "deletion"]
   sensitivity: ["sensitive"]
@@ -25,6 +37,9 @@ android_id:
   permissions: []
   apis: ["Settings.Secure.ANDROID_ID", "getString"]
   hooks: ["hook_android_id.js", "hook_oaid.js"]
+  api_targets:
+    - {clazz: "android.provider.Settings$Secure", method: "getString"}
+    - {clazz: "android.provider.Settings$System", method: "getString"}
   network_keys: ["android_id", "oaid"]
   related_rights: ["informed", "consent", "access", "deletion"]
   sensitivity: ["sensitive"]
@@ -35,6 +50,12 @@ location:
   permissions: ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
   apis: ["getLastKnownLocation", "requestLocationUpdates", "getCurrentLocation"]
   hooks: ["hook_location.js"]
+  api_targets:
+    - {clazz: "android.location.LocationManager", method: "getLastKnownLocation"}
+    - {clazz: "android.location.LocationManager", method: "requestLocationUpdates"}
+    - {clazz: "android.location.LocationManager", method: "requestSingleUpdate"}
+    - {clazz: "android.location.Location", method: "getLatitude"}
+    - {clazz: "android.location.Location", method: "getLongitude"}
   network_keys: ["lat", "lng", "latitude", "longitude", "location"]
   related_rights: ["informed", "consent", "access", "deletion"]
   sensitivity: ["sensitive"]
@@ -45,6 +66,9 @@ ip_address:
   permissions: []
   apis: ["WifiInfo.getIpAddress", "InetAddress"]
   hooks: ["hook_mac_ip.js"]
+  api_targets:
+    - {clazz: "android.net.wifi.WifiInfo", method: "getIpAddress"}
+    - {clazz: "java.net.InetAddress", method: "getHostAddress"}
   network_keys: ["ip", "ip_address"]
   related_rights: ["informed", "access", "deletion"]
   sensitivity: ["normal"]
@@ -55,6 +79,10 @@ mac_address:
   permissions: ["BLUETOOTH_CONNECT"]
   apis: ["WifiInfo.getMacAddress", "BluetoothAdapter.getAddress"]
   hooks: ["hook_mac_ip.js"]
+  api_targets:
+    - {clazz: "android.net.wifi.WifiInfo", method: "getMacAddress"}
+    - {clazz: "android.net.wifi.WifiInfo", method: "getBSSID"}
+    - {clazz: "android.bluetooth.BluetoothAdapter", method: "getAddress"}
   network_keys: ["mac", "mac_address", "bt_mac"]
   related_rights: ["informed", "consent", "access", "deletion"]
   sensitivity: ["sensitive"]
@@ -65,6 +93,9 @@ phone_number:
   permissions: ["READ_PHONE_NUMBERS"]
   apis: ["getLine1Number", "PhoneNumberUtils"]
   hooks: ["hook_phone.js"]
+  api_targets:
+    - {clazz: "android.telephony.TelephonyManager", method: "getLine1Number"}
+    - {clazz: "android.telephony.TelephonyManager", method: "getSubscriberId"}
   network_keys: ["phone", "mobile", "phone_number"]
   related_rights: ["informed", "access", "correction", "deletion"]
   sensitivity: ["sensitive"]
@@ -75,6 +106,10 @@ contact_list:
   permissions: ["READ_CONTACTS"]
   apis: ["ContactsContract", "ContentResolver.query"]
   hooks: ["hook_contacts.js"]
+  api_targets:
+    - {clazz: "android.content.ContentResolver", method: "query"}
+    - {clazz: "android.accounts.AccountManager", method: "getAccounts"}
+    - {clazz: "android.accounts.AccountManager", method: "getAccountsByType"}
   network_keys: ["contacts", "contact_name", "contact_phone"]
   related_rights: ["informed", "consent", "access", "deletion"]
   sensitivity: ["sensitive"]
@@ -85,6 +120,10 @@ clipboard:
   permissions: []
   apis: ["ClipboardManager.getPrimaryClip"]
   hooks: ["hook_clipboard.js"]
+  api_targets:
+    - {clazz: "android.content.ClipboardManager", method: "getPrimaryClip"}
+    - {clazz: "android.content.ClipboardManager", method: "getText"}
+    - {clazz: "android.content.ClipboardManager", method: "hasPrimaryClip"}
   network_keys: ["clipboard", "paste_text"]
   related_rights: ["informed", "consent", "access", "deletion"]
   sensitivity: ["sensitive"]
@@ -145,7 +184,11 @@ sdk_info:
   permissions: []
   apis: []
   hooks: []
-  network_keys: []
+  api_targets:
+    - {clazz: "android.content.pm.PackageManager", method: "getInstalledPackages"}
+    - {clazz: "android.content.pm.PackageManager", method: "getInstalledApplications"}
+    - {clazz: "android.app.ApplicationPackageManager", method: "getInstalledPackages"}
+  network_keys: ["installed_apps", "package_list"]
   related_rights: ["informed", "consent", "access"]
   sensitivity: ["normal"]
 
@@ -188,3 +231,18 @@ biometric_info:
   network_keys: ["face", "fingerprint", "biometric"]
   related_rights: ["informed", "consent", "access", "deletion"]
   sensitivity: ["sensitive"]
+
+# Runtime network transmission (outbound HTTP). Not a "PII type" per se, but a
+# first-class signal for Lab4-2 (consent: still uploading after switch-off?) and
+# Lab4-3 (access / taint: did collected PII leave the device?). Captured by the
+# OkHttp hook; URL + body let the analyzer match PII values against uploads.
+network_transmission:
+  aliases: ["网络传输", "数据上传", "上行请求"]
+  policy_keywords: ["上传", "传输", "发送至服务器", "共享"]
+  permissions: ["INTERNET"]
+  apis: ["okhttp3.RealCall.execute", "okhttp3.RealCall.enqueue"]
+  hooks: ["hook_network_okhttp.js"]
+  api_targets: []
+  network_keys: []
+  related_rights: ["informed", "consent", "access"]
+  sensitivity: ["normal"]

@@ -4,9 +4,10 @@ from __future__ import annotations
 
 import logging
 import re
-import subprocess
 import time
 from typing import Any
+
+from privacy_audit.utils.adb_device import adb_run
 
 logger = logging.getLogger("privacy_audit.appium")
 
@@ -20,16 +21,24 @@ PACKAGES_SKIP_APPIUM_AUTO_LAUNCH: frozenset[str] = frozenset(
 _FOCUS_PKG_RE = re.compile(r"mCurrentFocus=Window\{[^}]+\s+u\d+\s+([^\s/]+)/")
 _RESUMED_PKG_RE = re.compile(r"mResumedActivity:.*?([a-zA-Z0-9_.]+)/")
 
+# Runtime permissions to pre-grant so feature use actually reads the PII (and
+# Frida hooks fire). Granting avoids the app short-circuiting on a denied check.
+FUNCTION_TRIGGER_PERMISSIONS: tuple[str, ...] = (
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.READ_CONTACTS",
+)
 
-def _adb_shell(args: list[str], *, timeout: float = 12.0) -> str:
+
+def _adb_shell(
+    args: list[str],
+    *,
+    timeout: float = 12.0,
+    adb_serial: str | None = None,
+) -> str:
     try:
-        proc = subprocess.run(
-            ["adb", "shell", *args],
-            capture_output=True,
-            text=True,
-            timeout=timeout,
-            check=False,
-        )
+        proc = adb_run(["shell", *args], timeout=timeout, serial=adb_serial)
     except Exception as exc:
         logger.debug("adb shell %s failed: %s", args[:3], exc)
         return ""
@@ -57,6 +66,39 @@ def adb_foreground_package() -> str:
                 if match:
                     return match.group(1).strip()
     return ""
+
+
+def adb_force_stop_package(
+    app_package: str,
+    *,
+    adb_serial: str | None = None,
+) -> bool:
+    """Force-stop app so spawn mode gets a clean cold start."""
+    if not app_package:
+        return False
+    out = _adb_shell(["am", "force-stop", app_package], adb_serial=adb_serial)
+    ok = "Error" not in out and "Exception" not in out
+    if ok:
+        logger.info("adb force-stop ok package=%s", app_package)
+    else:
+        logger.debug("adb force-stop package=%s out=%s", app_package, out[:120])
+    return ok
+
+
+def adb_close_after_dynamic_verification(
+    app_package: str,
+    *,
+    adb_serial: str | None = None,
+) -> bool:
+    """Force-stop the target app after Stage3 so batch runs do not leak foreground state."""
+    if not app_package:
+        return False
+    ok = adb_force_stop_package(app_package, adb_serial=adb_serial)
+    if ok:
+        logger.info("post_capture close ok package=%s", app_package)
+    else:
+        logger.warning("post_capture close failed package=%s", app_package)
+    return ok
 
 
 def adb_launch_package(app_package: str, *, wait_sec: float = 1.8) -> bool:
@@ -107,6 +149,36 @@ def adb_launch_package(app_package: str, *, wait_sec: float = 1.8) -> bool:
         fg or "(unknown)",
     )
     return False
+
+
+def adb_grant_common_permissions(
+    app_package: str,
+    *,
+    permissions: tuple[str, ...] = FUNCTION_TRIGGER_PERMISSIONS,
+    steps: list[str] | None = None,
+) -> dict[str, bool]:
+    """Best-effort ``pm grant`` of runtime permissions before function triggers.
+
+    Many apps gate a real PII read behind a granted permission; without the
+    grant the feature path returns early and the Frida hook never fires. Grant
+    failures are non-fatal (permission may not be declared / already fixed).
+    """
+    results: dict[str, bool] = {}
+    if not app_package:
+        return results
+    for perm in permissions:
+        out = _adb_shell(["pm", "grant", app_package, perm])
+        ok = "Error" not in out and "Exception" not in out and "not a changeable" not in out
+        results[perm] = ok
+        if steps is not None:
+            steps.append(f"grant[{perm.split('.')[-1]}]={'ok' if ok else 'skip'}")
+    logger.info(
+        "adb grant permissions package=%s granted=%d/%d",
+        app_package,
+        sum(1 for v in results.values() if v),
+        len(results),
+    )
+    return results
 
 
 def ensure_target_app_foreground(

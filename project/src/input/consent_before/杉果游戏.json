@@ -1,0 +1,1157 @@
+{
+  "schema_version": 2,
+  "stage": "stage3_dynamic",
+  "app_name": "杉果游戏",
+  "app_package": "com.sonkwoapp",
+  "dry_run": false,
+  "generated_at_utc": "2026-06-11T22:30:10.051912+00:00",
+  "candidate_pii": [
+    "imei",
+    "android_id",
+    "location",
+    "ip_address",
+    "mac_address",
+    "phone_number",
+    "contact_list",
+    "clipboard",
+    "sdk_info",
+    "network_transmission"
+  ],
+  "ui_result": {
+    "runner": "appium",
+    "mode": "real",
+    "timestamp_utc": "2026-06-11T22:30:09.867583+00:00",
+    "steps": [
+      "adb_foreground_before=com.sonkwoapp",
+      "session_created_attempt1=ok",
+      "session_created",
+      "foreground_ok[com.sonkwoapp]=attempt1",
+      "foreground_package=com.sonkwoapp",
+      "navigate_path_1=我的 > 账号安全",
+      "avatar_coord=ok(54,96)",
+      "tap[我的]=ok",
+      "tap[账号安全]=ok",
+      "path_2_reset_start",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.sonkwoapp",
+      "foreground_ok[com.sonkwoapp]=post_activate1",
+      "path_2_reset=terminate_activate",
+      "navigate_path_2=我的 > 设置 > 基本信息",
+      "avatar_coord=ok(54,96)",
+      "tap[我的]=ok",
+      "tap[设置]=miss_try_settings_gear(no_sidebar)",
+      "settings_gear_coord=ok(1020,94)",
+      "tap[设置]=miss_try_me_first",
+      "tap[设置]=miss_try_scroll",
+      "scroll_gesture_down[设置]=ok",
+      "tap[设置]=miss_try_sidebar_fallback",
+      "sidebar_xml_before:xml_drawer_open=False xml_trigger=False menu=-",
+      "sidebar_skip=no_drawer_trigger_in_xml",
+      "tap[设置]=miss_try_llm_bridge",
+      "llm_nav[设置]=request labels=3",
+      "llm_nav[设置]=no_bridge",
+      "llm_nav_reason=The target '设置' is not visible on the current screen, and none of the visible labels ('消息中心', '再试一次', '页面原地起飞了') appear ",
+      "tap[设置]=miss",
+      "nav_path_2_stopped_at=设置",
+      "screenshot_captured",
+      "function_triggers=start",
+      "grant[ACCESS_FINE_LOCATION]=skip",
+      "grant[ACCESS_COARSE_LOCATION]=skip",
+      "grant[READ_PHONE_STATE]=ok",
+      "grant[READ_CONTACTS]=skip",
+      "trigger_perms_granted=1",
+      "reset_back_presses=3",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.sonkwoapp",
+      "foreground_ok[com.sonkwoapp]=post_activate1",
+      "trigger_tab[首页]=ok",
+      "trigger_tab[我的]=ok",
+      "trigger_swipe_up=ok",
+      "trigger_swipe_up=ok",
+      "trigger_swipe_down=ok",
+      "function_triggers=budget_exhausted",
+      "function_triggers=done"
+    ],
+    "policy_path_hints": [
+      "郑重提醒您：在使用我们的各项服务前，请您务必仔细阅读并透彻理解本《隐私协议》，在确认充分理解并同意后方使用本平台的服务。一旦您开始使用本平台的服务，将被视为您对本协议内容的接受和认可。因此在接受本协议之前，请您仔细阅读本协议的全部内容。如果您对本协议的条款有疑问的，请通过文末【客服中心联系方式】与我们联系。如果您不同意本协议的任意内容，或者无法准确理解我们对条款的解释，请不要进行后续操作",
+      "您可以通过杉果APP「我的」-「设置」-「基本信息」或用浏览器访问https://www.sonkwo.cn/setting/info进行查看、更正自己的个人资料，含头像、昵称、性别、生日、简介",
+      "您可以通过杉果APP「我的」-「账号安全」或用浏览器访问https://www.sonkwo.cn/setting/security设置、访问、更正账号信息，含手机号、绑定的第三方平台账号（含微信、微博、QQ、steam）",
+      "您可以通过不向任何人（除非此人经您正式授权）披露您的登录密码或账号信息，您可以为杉果帐号设置唯一的密码，以防止其他网站密码泄露危害您在杉果的账号安全。无论何时，请不要向任何人（包括自称是杉果客服的人士）透露您收到的验证码。无论您何时作为杉果账号用户登录杉果各个网站和APP，尤其是在他人的计算机、手机或公共互联网终端上登录时，在使用结束时您总应注销登出"
+    ],
+    "navigation_paths": [
+      [
+        "我的",
+        "账号安全"
+      ],
+      [
+        "我的",
+        "设置",
+        "基本信息"
+      ]
+    ],
+    "navigation_path_records": [
+      {
+        "source_hint": "您可以通过杉果APP「我的」-「账号安全」或用浏览器访问https://www.sonkwo.cn/setting/security设置、访问、更正账号信息，含手机号、绑定的第三方平台账号（含微信、微博、QQ、steam）",
+        "original_path": [
+          "我的",
+          "账号安全"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我的",
+          "账号安全"
+        ],
+        "would_have_inserted_at": null,
+        "path_index": 1,
+        "matched_hint": "您可以通过杉果APP「我的」-「账号安全」或用浏览器访问https://www.sonkwo.cn/setting/security设置、访问、更正账号信息，含手机号、绑定的第三方平台账号（含微信、微博、QQ、steam）",
+        "expanded_path": [
+          "我的",
+          "账号安全"
+        ]
+      },
+      {
+        "source_hint": "您可以通过杉果APP「我的」-「设置」-「基本信息」或用浏览器访问https://www.sonkwo.cn/setting/info进行查看、更正自己的个人资料，含头像、昵称、性别、生日、简介",
+        "original_path": [
+          "我的",
+          "设置",
+          "基本信息"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我的",
+          "设置",
+          "基本信息"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 2,
+        "matched_hint": "您可以通过杉果APP「我的」-「设置」-「基本信息」或用浏览器访问https://www.sonkwo.cn/setting/info进行查看、更正自己的个人资料，含头像、昵称、性别、生日、简介",
+        "expanded_path": [
+          "我的",
+          "设置",
+          "基本信息"
+        ]
+      }
+    ],
+    "navigation_bridges": {
+      "不把我推荐给可能认识的人": [
+        "找到我的方式"
+      ],
+      "把我推荐给可能认识的人": [
+        "找到我的方式"
+      ],
+      "用户保护中心": [
+        "设置"
+      ]
+    },
+    "llm_nav_enabled": true,
+    "screenshots": [
+      "output\\stage3_lab42_before\\杉果游戏\\screenshots\\杉果游戏_20260612_062825_launch.png",
+      "output\\stage3_lab42_before\\杉果游戏\\screenshots\\杉果游戏_20260612_062833_path1.png",
+      "output\\stage3_lab42_before\\杉果游戏\\screenshots\\杉果游戏_20260612_062835_path1.png",
+      "output\\stage3_lab42_before\\杉果游戏\\screenshots\\杉果游戏_20260612_062849_path2.png",
+      "output\\stage3_lab42_before\\杉果游戏\\screenshots\\杉果游戏_20260612_062924_path2.png",
+      "output\\stage3_lab42_before\\杉果游戏\\screenshots\\杉果游戏_20260612_062956_trigger_tabs.png"
+    ],
+    "keyword_checks": [
+      {
+        "path_index": 1,
+        "step_token": "我的",
+        "matched": true,
+        "checks": {
+          "我的": true,
+          "我": true,
+          "个人": true,
+          "主页": true,
+          "用户": false,
+          "个人主页": true,
+          "用户主页": false,
+          "隐私": false,
+          "设置": false,
+          "profile_page": true,
+          "profile_resource_marker": false
+        }
+      },
+      {
+        "path_index": 1,
+        "step_token": "账号安全",
+        "matched": true,
+        "checks": {
+          "账号安全": true,
+          "我的": false,
+          "隐私": false,
+          "设置": false,
+          "我": false
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "我的",
+        "matched": true,
+        "checks": {
+          "我的": true,
+          "我": true,
+          "个人": true,
+          "主页": true,
+          "用户": false,
+          "个人主页": true,
+          "用户主页": false,
+          "隐私": false,
+          "设置": false,
+          "profile_page": true,
+          "profile_resource_marker": false
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "设置",
+        "matched": false,
+        "checks": {
+          "设置": false,
+          "settings_page": false,
+          "帐号与安全": false,
+          "账号与安全": false,
+          "隐私": false,
+          "关于小荷": false,
+          "关于小荷健康": false,
+          "我的": false
+        }
+      }
+    ],
+    "error": ""
+  },
+  "frida_result": {
+    "runner": "frida",
+    "mode": "dry_run",
+    "launch_mode": "spawn",
+    "package": "com.sonkwoapp",
+    "registered_hooks": {
+      "imei": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js"
+      ],
+      "android_id": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js"
+      ],
+      "location": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js"
+      ],
+      "ip_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "mac_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "phone_number": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js"
+      ],
+      "contact_list": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js"
+      ],
+      "clipboard": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js"
+      ],
+      "network_transmission": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js"
+      ]
+    },
+    "global_hooks": [
+      "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js"
+    ],
+    "papi_target_count": 28,
+    "events": [
+      {
+        "timestamp_utc": "2026-06-11T22:30:09.959835+00:00",
+        "pii_type": "imei",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js",
+        "api_name": "hook_imei",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:30:09.959852+00:00",
+        "pii_type": "android_id",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "api_name": "hook_android_id",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:30:09.959857+00:00",
+        "pii_type": "android_id",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js",
+        "api_name": "hook_oaid",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:30:09.959860+00:00",
+        "pii_type": "location",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js",
+        "api_name": "hook_location",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:30:09.959862+00:00",
+        "pii_type": "ip_address",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+        "api_name": "hook_mac_ip",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:30:09.959865+00:00",
+        "pii_type": "mac_address",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+        "api_name": "hook_mac_ip",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:30:09.959866+00:00",
+        "pii_type": "phone_number",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js",
+        "api_name": "hook_phone",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:30:09.959868+00:00",
+        "pii_type": "contact_list",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js",
+        "api_name": "hook_contacts",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:30:09.959870+00:00",
+        "pii_type": "clipboard",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js",
+        "api_name": "hook_clipboard",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:30:09.959872+00:00",
+        "pii_type": "network_transmission",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+        "api_name": "hook_network_okhttp",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:30:09.959874+00:00",
+        "pii_type": "network_transmission",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+        "api_name": "OkHttp.execute",
+        "args_summary": "dry_run_network",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:30:09.959877+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getImei",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:30:09.959879+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getMeid",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:30:09.959882+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getDeviceId",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:30:09.959883+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getDeviceSoftwareVersion",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:30:09.959885+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getSimSerialNumber",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:30:09.959887+00:00",
+        "pii_type": "android_id",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.provider.Settings$Secure.getString",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:30:09.959889+00:00",
+        "pii_type": "android_id",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.provider.Settings$System.getString",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:30:09.959890+00:00",
+        "pii_type": "location",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.location.LocationManager.getLastKnownLocation",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      }
+    ],
+    "error": "frida_disabled",
+    "skipped": true
+  },
+  "mitm_result": {
+    "adapter": "mitm_runner",
+    "started_at_utc": "2026-06-11T22:30:09.938893+00:00",
+    "duration_sec": 111.7,
+    "listen_port": 8080,
+    "flows_source": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\output\\stage3_lab42_before\\杉果游戏\\mitm_flows.json",
+    "flows": [
+      {
+        "timestamp_utc": "2026-06-11T22:28:19.232971+00:00",
+        "host": "h.trace.qq.com",
+        "path": "/kv",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "qq_install=0&os_ver=12&os=AND&interface_data=appid%3A1105341151&attaid=09400051119&interface_result=&openid=&time_appid_openid=1781216897606_1105341151_&interface_name=createInstance&token=9389887874&app_name=%E6%9D%89%E6%9E%9C&pkg_name=com.sonkwoapp&model_name=ALN-AL00&appid=1105341151&app_ver=5.22&time=1781216897606&sdk_ver=3.5.4.lite&qq_ver=5.22.0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:19.318550+00:00",
+        "host": "cgi.connect.qq.com",
+        "path": "/qqconnectopen/openapi/policy_conf?sdkp=a&appid=1105341151&sdkv=3.5.4.lite&status_os=12&status_machine=ALN-AL00&status_version=32",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:19.430477+00:00",
+        "host": "h.trace.qq.com",
+        "path": "/kv",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "qq_install=0&os_ver=12&os=AND&interface_data=appid%3A1105341151%7Cauthorities%3Acom.sonkwoapp.fileprovider&attaid=09400051119&interface_result=&openid=&time_appid_openid=1781216897612_1105341151_&interface_name=createInstance_authority&token=9389887874&app_name=%E6%9D%89%E6%9E%9C&pkg_name=com.sonkwoapp&model_name=ALN-AL00&appid=1105341151&app_ver=5.22&time=1781216897612&sdk_ver=3.5.4.lite&qq_ver=5.22.0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:22.958754+00:00",
+        "host": "lc.sonkwo.cn",
+        "path": "/api/4/envelope/",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"sdk\":{\"name\":\"sentry.java.android\",\"version\":\"5.5.2\",\"packages\":[{\"name\":\"maven:io.sentry:sentry\",\"version\":\"5.5.2\"},{\"name\":\"maven:io.sentry:sentry-android-core\",\"version\":\"5.5.2\"},{\"name\":\"maven:io.sentry:sentry-android-ndk\",\"version\":\"5.5.2\"}]}}\n{\"content_type\":\"application/json\",\"type\":\"session\",\"length\":272}\n{\"sid\":\"cfe60624-6dd1-4bcc-9242-7400dd2a5d52\",\"did\":\"84292c40-e620-445b-b0f8-aba7bf5d2729\",\"init\":true,\"started\":\"2026-06-11T22:28:21.432Z\",\"status\":\"ok\",\"timestamp\":\"2026-06-11T22:28:21.432Z\",\"attrs\":{\"release\":\"sonkwoapp@5.22.0+codepush:481\",\"environment\":\"production\"}}\n",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:22.997713+00:00",
+        "host": "www.sonkwo.cn",
+        "path": "/api/cubes.json?locale=js&sonkwo_client=android&sonkwo_version=5.22.0&q%5B%5D=Home_Activity&q%5B%5D=Tab_Activity",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:23.046010+00:00",
+        "host": "auth.sonkwo.cn",
+        "path": "/api/me.json?locale=js&sonkwo_client=android&sonkwo_version=5.22.0&q%5Bgender%5D=true&q%5Bemail_asterisks%5D=true&q%5Bphone_number_asterisks%5D=true&q%5Bshow_steam_review%5D=true&q%5Bcredential_num_asterisks%5D=true&q%5Breal_name_asterisks%5D=true&q%5Bset_password%5D=true&q%5Bplatforms%5D%5Bshow_id%5D=true&q%5Bplatforms%5D%5Bkind%5D=true&q%5Bsafrv%5D=true&q%5Bpoint%5D%5Bscore%5D=true&q%5Bpoint%5D%5Bxp%5D=true&q%5Bpoint%5D%5Btasks%5D=true&q%5Bpoint%5D%5Bhistory_score%5D=true&q%5Bwallet%5D%5Bbalance%5D=true&q%5Bwallet%5D%5Bstatus%5D=true&q%5Bconfigs%5D%5Bid%5D=true&q%5Bconfigs%5D%5Bkind%5D=true&q%5Bconfigs%5D%5Bkey%5D=true&q%5Bconfigs%5D%5Bvalue%5D=true",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:23.109671+00:00",
+        "host": "www.sonkwo.cn",
+        "path": "/api/cubes.json?locale=js&sonkwo_client=android&sonkwo_version=5.22.0.481&q%5B%5D=AppLaunchAd_Text",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:23.158119+00:00",
+        "host": "data.sonkwo.com",
+        "path": "/analysis/event/collect?locale=js&sonkwo_client=android&sonkwo_version=5.22.0",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"eventType\":\"visitPage\",\"eventTime\":1781216901502,\"client\":\"index_native_android\",\"version\":\"5.22.0\",\"detailParameter\":{\"uuid\":\"undefined\"},\"pageName\":\"index\",\"pageParameter\":{}}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:23.168017+00:00",
+        "host": "static.sonkwo.com",
+        "path": "/production/server_status.json?locale=js&sonkwo_client=android&sonkwo_version=5.22.0&_=1781216901508",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:23.206538+00:00",
+        "host": "s2.sonkwo.com",
+        "path": "/version_release.json?locale=js&timestamp=1781216901760",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:23.281055+00:00",
+        "host": "www.sonkwo.cn",
+        "path": "/api/springboard.json?locale=js&sonkwo_client=android&sonkwo_version=5.22.0.481&q%5B%5D=mobile_client",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:23.471461+00:00",
+        "host": "data.sonkwo.com",
+        "path": "/analysis/event/collect?locale=js&sonkwo_client=android&sonkwo_version=5.22.0.481",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"eventType\":\"visitPage\",\"eventTime\":1781216901789,\"client\":\"index_native_android\",\"version\":\"5.22.0\",\"detailParameter\":{\"uuid\":\"0510a993-bf71-4722-8a9d-6c74aa5a7fb7\",\"userid\":2614880},\"pageName\":\"index\",\"pageParameter\":{},\"sourceParameter\":{\"sourcePageName\":\"index\"}}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:23.511442+00:00",
+        "host": "message.sonkwo.cn",
+        "path": "/api/messages/service.json?locale=js&sonkwo_client=android&sonkwo_version=5.22.0.481&q%5B%5D=counters",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:23.631153+00:00",
+        "host": "www.sonkwo.cn",
+        "path": "/api/cubes.json?locale=js&sonkwo_client=android&sonkwo_version=5.22.0.481&q%5B%5D=Home_icon",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:23.666035+00:00",
+        "host": "www.sonkwo.com",
+        "path": "/codepush/v0.1/public/codepush/report_status/deploy",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"app_version\":\"5.22.0\",\"deployment_key\":\"99hgXJdrjF9XWOmAC2jOUxiyaLG24ksvOXqog\",\"client_unique_id\":\"abcc7772eaf3cd32\",\"label\":\"v481\",\"status\":\"DeploymentSucceeded\",\"previous_deployment_key\":\"99hgXJdrjF9XWOmAC2jOUxiyaLG24ksvOXqog\"}",
+        "response_status": 301
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:23.716071+00:00",
+        "host": "www.sonkwo.cn",
+        "path": "/codepush/v0.1/public/codepush/report_status/deploy",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 404
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:23.742666+00:00",
+        "host": "www.sonkwo.cn",
+        "path": "/api/v7/bundle_promo_activities.json?locale=js&sonkwo_client=android&sonkwo_version=5.22.0.481",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:23.747231+00:00",
+        "host": "www.sonkwo.cn",
+        "path": "/api/cubes.json?locale=js&sonkwo_client=android&sonkwo_version=5.22.0.481&q%5B%5D=Home_Activity&q%5B%5D=Tab_Activity",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:23.750563+00:00",
+        "host": "www.sonkwo.cn",
+        "path": "/api/custom/layouts.json?locale=js&sonkwo_client=android&sonkwo_version=5.22.0.481&q%5B%5D=MallLayout",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:23.862286+00:00",
+        "host": "s2.sonkwo.com",
+        "path": "/community/fd89784e59c72499525556f80289b2c7/config/home.json?locale=js&sonkwo_client=android&sonkwo_version=5.22.0.481&_=1781216899090",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:23.891413+00:00",
+        "host": "www.sonkwo.cn",
+        "path": "/api/peri_home.json?locale=js&sonkwo_client=android&sonkwo_version=5.22.0.481&q%5B%5D=banners&q%5B%5D=nav_items&q%5B%5D=categories&q%5B%5D=game_tags&q%5B%5D=company_tags",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:23.915332+00:00",
+        "host": "s2.sonkwo.com",
+        "path": "/config/910135728720663/cn/wallet_discounts.json?locale=js&sonkwo_client=android&sonkwo_version=5.22.0.481&_=1781216899090",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 404
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:23.928439+00:00",
+        "host": "sy.cl2009.com",
+        "path": "/flash/accountInit/v3",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "appId=enmyxXDl&bundleId=&sign=xi58BSSsSt8nBj7Ke353PBZkhQg%3D&client=2&randoms=c1e4ad0a0bfb44918b773a3e934c3210&packageName=com.sonkwoapp&version=2.3.4.3&device=HUAWEI%7C12%7CALN-AL00&packageSign=10427A22924052664DA4EC02902BDAB1",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:23.981454+00:00",
+        "host": "s2.sonkwo.com",
+        "path": "/production/config/all_tags.json?locale=js&sonkwo_client=android&sonkwo_version=5.22.0.481&_=1781216899090",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      }
+    ],
+    "flow_count": 24,
+    "unique_hosts": [
+      "auth.sonkwo.cn",
+      "cgi.connect.qq.com",
+      "data.sonkwo.com",
+      "h.trace.qq.com",
+      "lc.sonkwo.cn",
+      "message.sonkwo.cn",
+      "s2.sonkwo.com",
+      "static.sonkwo.com",
+      "sy.cl2009.com",
+      "www.sonkwo.cn",
+      "www.sonkwo.com"
+    ],
+    "mitm_blocked": null,
+    "stderr_tail": "",
+    "dry_run": false
+  },
+  "network_result": {
+    "schema_version": 1,
+    "adapter": "traffic_checker",
+    "flow_count": 24,
+    "unique_hosts": [
+      "auth.sonkwo.cn",
+      "cgi.connect.qq.com",
+      "data.sonkwo.com",
+      "h.trace.qq.com",
+      "lc.sonkwo.cn",
+      "message.sonkwo.cn",
+      "s2.sonkwo.com",
+      "static.sonkwo.com",
+      "sy.cl2009.com",
+      "www.sonkwo.cn",
+      "www.sonkwo.com"
+    ],
+    "mitm_blocked": null,
+    "mitm_duration_sec": 111.7,
+    "flows_source": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\output\\stage3_lab42_before\\杉果游戏\\mitm_flows.json",
+    "tracker_hits": [],
+    "pii_key_hits": [
+      {
+        "pii_type": "biometric_info",
+        "network_key": "face",
+        "host": "h.trace.qq.com",
+        "path": "/kv",
+        "timestamp_utc": "2026-06-11T22:28:19.232971+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "event",
+        "host": "data.sonkwo.com",
+        "path": "/analysis/event/collect?locale=js&sonkwo_client=android&sonkwo_version=5.22.0",
+        "timestamp_utc": "2026-06-11T22:28:23.158119+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "phone_number",
+        "network_key": "mobile",
+        "host": "www.sonkwo.cn",
+        "path": "/api/springboard.json?locale=js&sonkwo_client=android&sonkwo_version=5.22.0.481&q%5B%5D=mobile_client",
+        "timestamp_utc": "2026-06-11T22:28:23.281055+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "event",
+        "host": "data.sonkwo.com",
+        "path": "/analysis/event/collect?locale=js&sonkwo_client=android&sonkwo_version=5.22.0.481",
+        "timestamp_utc": "2026-06-11T22:28:23.471461+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "www.sonkwo.com",
+        "path": "/codepush/v0.1/public/codepush/report_status/deploy",
+        "timestamp_utc": "2026-06-11T22:28:23.666035+00:00",
+        "evidence_level": "S3_network_pii_key"
+      }
+    ],
+    "summary": {
+      "tracker_hit_count": 0,
+      "tracker_company_count": 0,
+      "tracker_companies": [],
+      "tracker_hosts": [],
+      "pii_key_hit_count": 5,
+      "pii_types_observed": [
+        "biometric_info",
+        "log_info",
+        "mac_address",
+        "phone_number"
+      ]
+    }
+  },
+  "path_suggestions": [
+    "您可以通过杉果APP「我的」-「账号安全」或用浏览器访问https://www.sonkwo.cn/setting/security设置、访问、更正账号信息，含手机号、绑定的第三方平台账号（含微信、微博、QQ、steam）；",
+    "您可以通过不向任何人（除非此人经您正式授权）披露您的登录密码或账号信息，您可以为杉果帐号设置唯一的密码，以防止其他网站密码泄露危害您在杉果的账号安全。无论何时，请不要向任何人（包括自称是杉果客服的人士）透露您收到的验证码。无论您何时作为杉果账号用户登录杉果各个网站和APP，尤其是在他人的计算机、手机或公共互联网终端上登录时，在使用结束时您总应注销登出。",
+    "UI observed steps: adb_foreground_before=com.sonkwoapp | session_created_attempt1=ok | session_created",
+    "Check path for pii_type=imei",
+    "Check path for pii_type=android_id",
+    "Check path for pii_type=location"
+  ],
+  "explanation": "Collected dynamic evidence for 杉果游戏: candidate_pii=10, ui_steps=47, screenshots=6, frida_registered_types=9, frida_events=19. This explanation is descriptive only and does not produce verdict.",
+  "evidence_items": [
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\杉果游戏\\screenshots\\杉果游戏_20260612_062825_launch.png",
+      "timestamp_utc": "2026-06-11T22:30:09.867583+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\杉果游戏\\screenshots\\杉果游戏_20260612_062833_path1.png",
+      "timestamp_utc": "2026-06-11T22:30:09.867583+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\杉果游戏\\screenshots\\杉果游戏_20260612_062835_path1.png",
+      "timestamp_utc": "2026-06-11T22:30:09.867583+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\杉果游戏\\screenshots\\杉果游戏_20260612_062849_path2.png",
+      "timestamp_utc": "2026-06-11T22:30:09.867583+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\杉果游戏\\screenshots\\杉果游戏_20260612_062924_path2.png",
+      "timestamp_utc": "2026-06-11T22:30:09.867583+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\杉果游戏\\screenshots\\杉果游戏_20260612_062956_trigger_tabs.png",
+      "timestamp_utc": "2026-06-11T22:30:09.867583+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.frida",
+      "signal": "hook_imei",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:30:09.959835+00:00",
+      "pii_type": "imei",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.frida",
+      "signal": "hook_android_id",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:30:09.959852+00:00",
+      "pii_type": "android_id",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.frida",
+      "signal": "hook_oaid",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:30:09.959857+00:00",
+      "pii_type": "android_id",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.frida",
+      "signal": "hook_location",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:30:09.959860+00:00",
+      "pii_type": "location",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.frida",
+      "signal": "hook_mac_ip",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:30:09.959862+00:00",
+      "pii_type": "ip_address",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.frida",
+      "signal": "hook_mac_ip",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:30:09.959865+00:00",
+      "pii_type": "mac_address",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.frida",
+      "signal": "hook_phone",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:30:09.959866+00:00",
+      "pii_type": "phone_number",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.frida",
+      "signal": "hook_contacts",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:30:09.959868+00:00",
+      "pii_type": "contact_list",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.frida",
+      "signal": "hook_clipboard",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:30:09.959870+00:00",
+      "pii_type": "clipboard",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.frida",
+      "signal": "hook_network_okhttp",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:30:09.959872+00:00",
+      "pii_type": "network_transmission",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.frida",
+      "signal": "OkHttp.execute",
+      "value": "dry_run_network",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:30:09.959874+00:00",
+      "pii_type": "network_transmission",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getImei",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:30:09.959877+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getMeid",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:30:09.959879+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getDeviceId",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:30:09.959882+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getDeviceSoftwareVersion",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:30:09.959883+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getSimSerialNumber",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:30:09.959885+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.frida",
+      "signal": "android.provider.Settings$Secure.getString",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:30:09.959887+00:00",
+      "pii_type": "android_id",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.frida",
+      "signal": "android.provider.Settings$System.getString",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:30:09.959889+00:00",
+      "pii_type": "android_id",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.frida",
+      "signal": "android.location.LocationManager.getLastKnownLocation",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:30:09.959890+00:00",
+      "pii_type": "location",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "face",
+      "pii_type": "biometric_info",
+      "timestamp_utc": "2026-06-11T22:28:19.232971+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "event",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T22:28:23.158119+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mobile",
+      "pii_type": "phone_number",
+      "timestamp_utc": "2026-06-11T22:28:23.281055+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "event",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T22:28:23.471461+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "杉果游戏",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:28:23.666035+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    }
+  ],
+  "capture_meta": {
+    "sync_mode": true,
+    "frida_grace_sec": 30,
+    "frida_tail_sec": 60,
+    "frida_launch_mode": "spawn",
+    "frida_code_prefixes": [
+      "com.sonkwoapp"
+    ],
+    "frida_tier": "unknown",
+    "spawn_fallback_attach": true,
+    "dynamic_track": {
+      "dynamic_track_requested": "lab42",
+      "dynamic_track_resolved": "mitm",
+      "enable_frida": false,
+      "enable_mitm": true,
+      "java_bridge": "",
+      "tier": "unknown",
+      "preferred_dynamic_tracks": [],
+      "mitm_primary": true,
+      "probe_path": "output\\frida_probe\\shanguoyouxi.json"
+    },
+    "enable_mitm": true,
+    "frida_enabled": false,
+    "frida_runtime_events": 0,
+    "frida_java_active_count": 0,
+    "mitm_flow_count": 24,
+    "tracker_hit_count": 0,
+    "post_run_app_closed": true
+  },
+  "summary": {
+    "ui_steps": 47,
+    "screenshots": 6,
+    "keyword_checks": 4,
+    "keyword_match_count": 3,
+    "registered_hook_types": 9,
+    "frida_events": 19,
+    "frida_runtime_events": 0,
+    "frida_java_active_count": 0,
+    "candidate_pii_count": 10,
+    "mitm_flow_count": 24,
+    "tracker_hit_count": 0,
+    "pii_key_hit_count": 5
+  }
+}

@@ -1,4 +1,4 @@
-"""Rule-based compare engine for Lab4-1 minimal loop."""
+"""Rule-based claim/evidence compare engine for disclosure audit."""
 
 from __future__ import annotations
 

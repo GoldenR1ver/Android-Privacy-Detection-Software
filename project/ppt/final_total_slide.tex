@@ -1,0 +1,1027 @@
+\documentclass[AutoFakeBold,AutoFakeSlant]{beamer}
+\usepackage{ctex}
+\usepackage{hyperref}
+\usepackage[defaultsans]{droidsans}
+\usepackage{fontspec}
+\usepackage{newtxmath}
+\usepackage{latexsym,amsmath,xcolor,multicol,booktabs,calligra}
+\usepackage{graphicx,tabularx,multirow,makecell}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,fit,shapes.geometric}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+% Safe text helpers
+\newcommand{\sepbar}{\quad\textbar\quad}
+\newcommand{\arrown}{\ensuremath{\rightarrow}}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\riskhigh}{\textcolor{red!70!black}{高风险}}
+\newcommand{\riskmid}{\textcolor{orange!80!black}{中风险}}
+\newcommand{\risklow}{\textcolor{green!50!black}{低风险}}
+
+\author{李禹江，张博涵，蒋兴宇}
+\title{Android 隐私检测系统\\全阶段实验总汇报}
+\subtitle{从隐私政策文本分析到知情权、同意权、访问权动态验证}
+\institute{我的刀盾队}
+\date{2026-06-28}
+
+\begin{document}
+\kaishu
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\begin{frame}
+    \frametitle{目录}
+    \tableofcontents
+\end{frame}
+
+\section{总览：实验目标与演进路线}
+
+\begin{frame}
+    \frametitle{总目标：把隐私政策承诺变成可验证证据}
+    \small
+    \begin{itemize}
+        \item \textbf{起点}：对 Android App 隐私政策做句级分析，识别用户权利、执行路径、数据对象与风险。
+        \item \textbf{中期}：从 LLM 判断升级为证据驱动的规则引擎，构建政策声明、静态分析、动态取证、知识库的统一证据包。
+        \item \textbf{后期}：围绕 Lab4 三项权利开展实验：知情权、同意权、访问权。
+        \item \textbf{最终形态}：形成一套可复现的 Android 隐私检测系统，输出可追溯报告，而不是只给出黑盒结论。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{全阶段路线图}
+    \centering
+    \begin{tikzpicture}[
+        node distance=5mm and 6mm,
+        box/.style={draw, rounded corners, align=center, minimum width=2.15cm, minimum height=8mm, font=\scriptsize},
+        arr/.style={-{Latex[length=1.8mm]}, thick}
+    ]
+        \node[box, fill=blue!10] (p1) {Part1\\政策文本分析};
+        \node[box, fill=green!12, right=of p1] (s2) {Stage2\\静态证据};
+        \node[box, fill=orange!14, right=of s2] (s3) {Stage3\\动态取证};
+        \node[box, fill=violet!12, right=of s3] (lab41) {Lab4-1\\知情权};
+        \node[box, fill=red!10, below=of lab41] (lab42) {Lab4-2\\同意权};
+        \node[box, fill=cyan!12, left=of lab42] (lab43) {Lab4-3\\访问权};
+        \node[box, fill=yellow!18, left=of lab43] (final) {总报告\\可解释审计};
+        \draw[arr] (p1) -- (s2);
+        \draw[arr] (s2) -- (s3);
+        \draw[arr] (s3) -- (lab41);
+        \draw[arr] (lab41) -- (lab42);
+        \draw[arr] (lab42) -- (lab43);
+        \draw[arr] (lab43) -- (final);
+        \draw[arr] (final) -- (p1);
+    \end{tikzpicture}
+    \vspace{0.8em}
+
+    \scriptsize
+    研究路径从「文本中是否声明」逐步推进到「系统是否真实采集」「开关是否生效」「用户是否能拿到副本」。
+\end{frame}
+
+\begin{frame}
+    \frametitle{本次总汇报覆盖范围}
+    \small
+    \begin{tabularx}{\textwidth}{|l|X|l|}
+        \hline
+        \textbf{阶段} & \textbf{核心内容} & \textbf{关键结果} \\
+        \hline
+        Part1 & 隐私政策句级 Prompt、权利识别、路径抽取 & 23 App，9639 句 \\
+        \hline
+        系统设计 & 证据包、规则引擎、知识库、统一 CLI & Lab4 流水线成型 \\
+        \hline
+        Lab4-1 & 政策声明 vs 多源观测，验证知情权 & 9/9 成功；90 一致，41 高风险 \\
+        \hline
+        Lab4-2 & 关闭隐私开关前后网络/Tracker 对比 & 15/15 有结果；3 pass；7 款关后仍传 \\
+        \hline
+        Lab4-3 & 运行时采集 vs 用户副本字段 & 5 款人工副本审核；剩余待补全 \\
+        \hline
+    \end{tabularx}
+\end{frame}
+
+\begin{frame}
+    \frametitle{实验对象从 23 App 收敛到重点样本}
+    \small
+    \begin{itemize}
+        \item \textbf{文本分析阶段}：23 款 App，覆盖招聘、金融、社交、健康、本地生活等场景。
+        \item \textbf{Lab4-1 主样本}：Keep、小红书、支付宝、LOFTER、智联招聘、世纪佳缘、好大夫医生版、东方财富、小荷健康。
+        \item \textbf{Lab4-2/3 扩展样本}：增加钓鱼人、快看漫画、韭研公社等，形成 15 App 动态验证批次。
+        \item \textbf{选择依据}：政策文本中存在可执行路径、具备隐私开关或副本入口、能在模拟器/真机中完成基本导航。
+    \end{itemize}
+\end{frame}
+
+\section{Part1：隐私政策文本分析}
+
+\begin{frame}
+    \frametitle{Part1 实验问题}
+    \small
+    \begin{itemize}
+        \item 隐私政策是否明确说明用户享有哪些权利？
+        \item 是否给出 App 内路径、网页、邮箱、客服、处理时限等可执行方式？
+        \item 权利文本是否能被结构化为后续自动化验证任务？
+        \item 重点识别四类权利：知情权、同意/撤回同意权、访问/查询/复制权、删除权。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Part1 处理流水线}
+    \centering
+    \begin{tikzpicture}[
+        node distance=5mm and 7mm,
+        box/.style={draw, rounded corners, align=center, minimum width=2.2cm, minimum height=8mm, font=\scriptsize},
+        arr/.style={-{Latex[length=1.6mm]}, thick}
+    ]
+        \node[box, fill=blue!8] (raw) {原始政策};
+        \node[box, fill=blue!12, right=of raw] (split) {句子切分};
+        \node[box, fill=green!14, right=of split] (prompt) {权利识别\\Prompt};
+        \node[box, fill=orange!16, below=of prompt] (extract) {路径/渠道\\抽取};
+        \node[box, fill=violet!12, left=of extract] (json) {JSON 解析\\CSV 落盘};
+        \node[box, fill=yellow!18, left=of json] (review) {人工复核\\Few-shot 迭代};
+        \draw[arr] (raw) -- (split);
+        \draw[arr] (split) -- (prompt);
+        \draw[arr] (prompt) -- (extract);
+        \draw[arr] (extract) -- (json);
+        \draw[arr] (json) -- (review);
+        \draw[arr] (review) -- (prompt);
+    \end{tikzpicture}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Prompt 输出结构}
+    \small
+    \begin{columns}[T]
+        \begin{column}{0.49\textwidth}
+            \begin{itemize}
+                \item \code{right\_claim}：是否出现权利或知情声明。
+                \item \code{right\_types}：同意、访问复制、删除、注销等枚举标签。
+                \item \code{method\_claim}：是否给出路径、渠道或处理时限。
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.49\textwidth}
+            \begin{itemize}
+                \item \code{path\_text}：最具体的执行路径或联系方式。
+                \item \code{target\_data}：权利指向的数据对象。
+                \item \code{app\_test\_candidate}：是否适合后续 Appium/网页/人工验证。
+            \end{itemize}
+        \end{column}
+    \end{columns}
+    \vspace{0.6em}
+    \scriptsize
+    设计重点：区分「有权利声明」与「能否实际操作」，为动态验证阶段提供入口候选。
+\end{frame}
+
+\begin{frame}
+    \frametitle{Part1 数据规模}
+    \small
+    \begin{tabularx}{\textwidth}{|l|r|X|}
+        \hline
+        \textbf{指标} & \textbf{数量} & \textbf{含义} \\
+        \hline
+        App 数 & 23 & 覆盖招聘、金融、健康、社交等多类应用 \\
+        \hline
+        政策句子 & 9639 & 对隐私政策逐句切分后得到的分析单元 \\
+        \hline
+        送标候选 & 4371 & 需要模型或人工进一步判断的重点句子 \\
+        \hline
+        权利声明正例 & 5180 & 命中 \code{right\_claim} 的句子级标签 \\
+        \hline
+        执行方式正例 & 1053 & 命中 \code{method\_claim}，约 10.9\% \\
+        \hline
+    \end{tabularx}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Top 应用句级统计}
+    \tiny
+    \begin{tabularx}{\textwidth}{|l|r|r|r|r|r|}
+        \toprule
+        \textbf{应用} & \textbf{句数} & \textbf{right} & \textbf{method} & \textbf{candidate} & \textbf{method 率} \\
+        \midrule
+        51Job & 2674 & 826 & 213 & 207 & 8.0\% \\
+        360借条 & 697 & 326 & 47 & 47 & 6.7\% \\
+        平安证券 & 608 & 318 & 75 & 75 & 12.3\% \\
+        中国工商银行 & 387 & 249 & 35 & 35 & 9.0\% \\
+        好大夫医生版 & 386 & 167 & 26 & 26 & 6.7\% \\
+        智联招聘 & 372 & 263 & 74 & 74 & 19.9\% \\
+        Soul & 347 & 234 & 42 & 42 & 12.1\% \\
+        58同城 & 346 & 215 & 46 & 46 & 13.3\% \\
+        \midrule
+        \textbf{合计} & \textbf{9639} & \textbf{5180} & \textbf{1053} & \textbf{1046} & \textbf{10.9\%} \\
+        \bottomrule
+    \end{tabularx}
+    \vspace{0.35em}
+    \scriptsize
+    观察：权利声明文本很多，但真正给出可执行路径的句子占比明显更低。
+\end{frame}
+
+\begin{frame}
+    \frametitle{访问复制权的细分价值}
+    \small
+    \begin{tabularx}{\textwidth}{|l|X|X|}
+        \hline
+        \textbf{类型} & \textbf{含义} & \textbf{后续验证方式} \\
+        \hline
+        \code{copy} & 能下载、导出、保存为个人信息副本 & 可检查副本字段是否覆盖运行时采集数据 \\
+        \hline
+        \code{non\_copy} & 只能在界面内查看个人信息 & 适合用 Appium 截图或人工复核 \\
+        \hline
+        \code{unknown} & 只声明查询/复制权，但未说明形态 & 需要人工寻找入口或联系渠道 \\
+        \hline
+    \end{tabularx}
+    \vspace{0.6em}
+    \scriptsize
+    这一细分直接支撑 Lab4-3：判断 App 是否真正提供可核验的个人信息副本。
+\end{frame}
+
+\begin{frame}
+    \frametitle{Part1 阶段结论}
+    \small
+    \begin{itemize}
+        \item LLM 适合作为句级结构化抽取器，尤其适合从自然语言政策中抽取路径、渠道和目标数据。
+        \item 直接让 LLM 输出合规 verdict 风险较高，因此后续改为「LLM 抽取 + 规则引擎判定 + 证据溯源」。
+        \item 句级结果成为动态验证的任务来源：哪些 App 有路径、哪些权利适合测试、哪些条目需要人工复核。
+    \end{itemize}
+\end{frame}
+
+\section{系统设计：证据驱动的隐私审计}
+
+\begin{frame}
+    \frametitle{为什么从 LLM 判定转向证据包}
+    \small
+    \begin{tabularx}{\textwidth}{|l|X|X|}
+        \hline
+        \textbf{方面} & \textbf{早期思路} & \textbf{最终实现} \\
+        \hline
+        判定主体 & LLM 直接输出合规结论 & 规则引擎 + 可追溯证据 \\
+        \hline
+        证据来源 & 主要依赖文本 & 政策、静态、动态、历史结果、知识库合并 \\
+        \hline
+        动态验证 & 泛化 UI 探索 & 政策路径驱动 + 分 App 适配 \\
+        \hline
+        工程形态 & 脚本分散 & 统一 CLI、batch、job id、manifest \\
+        \hline
+    \end{tabularx}
+\end{frame}
+
+\begin{frame}
+    \frametitle{系统总体架构}
+    \centering
+    \begin{tikzpicture}[
+        node distance=6mm and 7mm,
+        box/.style={draw, rounded corners, align=center, minimum width=2.15cm, minimum height=8mm, font=\scriptsize},
+        arr/.style={-{Latex[length=1.6mm]}, thick}
+    ]
+        \node[box, fill=blue!10] (policy) {政策文本\\\code{pii\_text}};
+        \node[box, fill=green!12, right=of policy] (parser) {policy\\parser};
+        \node[box, fill=orange!14, right=of parser] (decl) {declared\\PII};
+
+        \node[box, fill=cyan!12, below=of policy] (apk) {APK/包名};
+        \node[box, fill=yellow!18, right=of apk] (static) {Stage2\\静态分析};
+        \node[box, fill=red!10, right=of static] (dynamic) {Stage3\\动态取证};
+
+        \node[box, fill=violet!12, below=of static] (bundle) {evidence\\bundle};
+        \node[box, fill=gray!12, right=of bundle] (kb) {法律/PII\\知识库};
+        \node[box, fill=green!16, below=of bundle] (audit) {Lab4\\审计器};
+        \node[box, fill=blue!8, right=of audit] (report) {报告\\JSON/汇报};
+
+        \draw[arr] (policy) -- (parser);
+        \draw[arr] (parser) -- (decl);
+        \draw[arr] (apk) -- (static);
+        \draw[arr] (static) -- (dynamic);
+        \draw[arr] (decl) |- (bundle);
+        \draw[arr] (dynamic) |- (bundle);
+        \draw[arr] (kb) -- (bundle);
+        \draw[arr] (bundle) -- (audit);
+        \draw[arr] (audit) -- (report);
+    \end{tikzpicture}
+\end{frame}
+
+\begin{frame}
+    \frametitle{端到端 Pipeline}
+    \small
+    \begin{enumerate}
+        \item \textbf{政策解析}：\code{policy\_parser} 将政策文本转为 \code{declared\_pii[]}。
+        \item \textbf{静态分析}：Exodus + Androguard 抽取 SDK、权限、敏感 API 等技术信号。
+        \item \textbf{动态取证}：Appium 导航隐私路径，Frida/mitm 采集运行时证据。
+        \item \textbf{证据合并}：\code{evidence\_loader} 与知识库统一类型、别名和来源。
+        \item \textbf{权利审计}：\code{lab4-1-audit}、\code{lab4-2-audit}、\code{lab4-3-audit} 生成报告。
+        \item \textbf{批量复现}：按 App 列表与 job id 产出 batch summary 和 manifest。
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}
+    \frametitle{核心模块划分}
+    \small
+    \begin{columns}[T]
+        \begin{column}{0.48\textwidth}
+            \textbf{ingestion}
+            \begin{itemize}
+                \item \code{policy\_parser}
+                \item \code{evidence\_loader}
+                \item \code{privacy\_knowledgebase}
+            \end{itemize}
+            \textbf{analyzers}
+            \begin{itemize}
+                \item \code{compare\_engine}
+                \item \code{consent\_compare}
+                \item \code{access\_compare}
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.48\textwidth}
+            \textbf{dynamic}
+            \begin{itemize}
+                \item \code{appium\_runner}
+                \item \code{element\_tap}
+                \item \code{frida\_collector}
+                \item mitm flow analyzer
+            \end{itemize}
+            \textbf{reporting}
+            \begin{itemize}
+                \item Lab4 报告生成
+                \item batch summary
+                \item 可视化与 PPT
+            \end{itemize}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+    \frametitle{三项权利的系统化定义}
+    \small
+    \begin{tabularx}{\textwidth}{|l|X|X|}
+        \hline
+        \textbf{实验} & \textbf{核心问题} & \textbf{证据组合} \\
+        \hline
+        Lab4-1 知情权 & 政策声明的 PII 类型是否覆盖实际观测？ & 政策声明 + 静态 + 动态 + oldsrc + KB \\
+        \hline
+        Lab4-2 同意权 & 用户关闭开关后，相关采集/传输是否停止？ & before/after 动态证据 + mitm Tracker/PII 流量 \\
+        \hline
+        Lab4-3 访问权 & 用户副本是否覆盖运行时采集和政策声明字段？ & 政策声明 + 运行时观测 + 个人信息副本 \\
+        \hline
+    \end{tabularx}
+\end{frame}
+
+\section{Stage3：动态取证与工程实现}
+
+\begin{frame}
+    \frametitle{Stage3 单次动态验证流程}
+    \small
+    \begin{enumerate}
+        \item \textbf{解析路径}：隐私政策 \arrown{} \code{navigation\_paths[]}，得到可点击 token 序列。
+        \item \textbf{并行取证}：mitm 抓包、Frida Hook、Appium 真机导航同时运行。
+        \item \textbf{UI 点击}：按路径逐 token 点击；失败时滚动、侧栏、头像、齿轮、LLM 兜底。
+        \item \textbf{证据落盘}：输出 \code{dynamic\_evidence.json}、\code{mitm\_flows.json}、\code{network\_evidence.json}。
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Stage3 数据流}
+    \centering
+    \begin{tikzpicture}[
+        node distance=5mm and 7mm,
+        box/.style={draw, rounded corners, align=center, minimum width=2.25cm, minimum height=8mm, font=\scriptsize},
+        arr/.style={-{Latex[length=1.6mm]}, thick}
+    ]
+        \node[box, fill=blue!10] (paths) {政策路径\\tokens};
+        \node[box, fill=green!12, right=of paths] (appium) {Appium\\点击/截图};
+        \node[box, fill=orange!14, below=of appium] (frida) {Frida\\API Hook};
+        \node[box, fill=cyan!12, right=of appium] (mitm) {mitm\\网络流};
+        \node[box, fill=violet!12, right=of frida] (evi) {动态证据\\JSON};
+        \node[box, fill=yellow!18, below=of evi] (audit) {Lab4-2/3\\判定};
+        \draw[arr] (paths) -- (appium);
+        \draw[arr] (appium) -- (mitm);
+        \draw[arr] (appium) -- (frida);
+        \draw[arr] (frida) -- (evi);
+        \draw[arr] (mitm) -- (evi);
+        \draw[arr] (evi) -- (audit);
+    \end{tikzpicture}
+\end{frame}
+
+\begin{frame}
+    \frametitle{实验环境}
+    \small
+    \begin{itemize}
+        \item \textbf{系统环境}：Windows + MuMu/ADB + Appium 4723。
+        \item \textbf{动态 Hook}：Frida client 与 frida-server 版本匹配，覆盖 IMEI、OkHttp、PAPI 等层次。
+        \item \textbf{网络观测}：mitmproxy 作为 Lab4-2/3 主轨，识别 Tracker、PII 字段和 before/after 差异。
+        \item \textbf{批次管理}：通过 job id 区分 Lab4-1、Lab4-2、Lab4-3 与 before/after 采集结果。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{分 App UI 自动化适配经验}
+    \scriptsize
+    \begin{tabularx}{\textwidth}{|l|X|}
+        \hline
+        \textbf{App} & \textbf{适配要点} \\
+        \hline
+        世纪佳缘 & 底部 Tab 文案为 \code{" 我 "}，需按 bounds 点最右 Tab，避免误点「推荐」。 \\
+        \hline
+        小荷健康 & 设置无文字，UserPage 右上角最右侧齿轮为设置，左侧为扫一扫。 \\
+        \hline
+        支付宝 & 需精确匹配「我的」，避免宽泛「我」；部分设置入口在 H5/WebView 容器中。 \\
+        \hline
+        其他 App & 政策路径 token + 关键词/头像/齿轮兜底，必要时加入滚动与候选排序。 \\
+        \hline
+    \end{tabularx}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Frida 三层 Hook 设计}
+    \small
+    \begin{tabularx}{\textwidth}{|l|X|X|}
+        \hline
+        \textbf{层次} & \textbf{目标} & \textbf{作用} \\
+        \hline
+        IMEI/设备标识层 & \code{TelephonyManager} 等敏感 API & 捕获设备标识读取行为 \\
+        \hline
+        OkHttp 网络层 & 请求 URL、header、body & 观察 PII 是否进入网络请求 \\
+        \hline
+        PAPI 目标层 & 剪贴板、联系人、位置等 API & 补充隐私类型的 API 级证据 \\
+        \hline
+    \end{tabularx}
+    \vspace{0.5em}
+    \scriptsize
+    Reactor 串行化 Frida 回调，避免异步消息并发导致证据乱序。
+\end{frame}
+
+\begin{frame}
+    \frametitle{Frida 工程卡点}
+    \small
+    \begin{itemize}
+        \item \textbf{Spawn vs Attach}：部分 App 对 spawn 注入敏感，attach 又可能错过早期 API 调用。
+        \item \textbf{防注入/反调试}：部分应用存在检测、加固或动态类加载，导致 Hook 脚本加载成功但无有效事件。
+        \item \textbf{进程匹配}：App 多进程、短生命周期服务和 WebView 容器会造成找不到进程或挂错进程。
+        \item \textbf{连接稳定性}：长时间 Appium 操作中 Frida 连接可能断开，需要重连和事件健康检查。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{为何引入 mitm 作为网络主轨}
+    \small
+    \begin{itemize}
+        \item OkHttp Hook 覆盖不到所有网络栈，且容易受混淆、加固、动态加载影响。
+        \item mitm 从设备出口观察 HTTP(S) 流量，更适合做 before/after 对比。
+        \item 对 Lab4-2 来说，关开关后 Tracker 或 PII 仍传输是更直接的同意权风险信号。
+        \item 对 Lab4-3 来说，mitm 可补充「运行时确实上传了哪些 PII」的传输级证据。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{动态验证手段分工}
+    \small
+    \begin{tabularx}{\textwidth}{|l|X|X|}
+        \hline
+        \textbf{手段} & \textbf{强项} & \textbf{本批角色} \\
+        \hline
+        Appium UI & 政策路径导航、截图、关键词探测 & 主轨：驱动隐私设置页到达 \\
+        \hline
+        mitm 网络 & 全进程 HTTP 污点、Tracker 识别、开关前后对比 & 主轨：Lab4-2/3 核心证据 \\
+        \hline
+        Frida Hook & API 级采集、调用栈、IMEI 精准 Hook & 辅助：补 API 证据，受 Spawn/Attach 限制 \\
+        \hline
+        静态 + KB & APK 信号、法律知识库推断 & Lab4-1 多源合并 \\
+        \hline
+    \end{tabularx}
+\end{frame}
+
+\section{Lab4-1：知情权审计}
+
+\begin{frame}
+    \frametitle{Lab4-1 核心问题}
+    \small
+    \begin{block}{问题定义}
+        应用隐私政策中声明收集/使用的个人信息类型，是否覆盖静态分析、动态取证、历史审计与知识库中观测到的个人信息类型？
+    \end{block}
+    \begin{itemize}
+        \item 声明且观测到：\code{consistent}
+        \item 未声明但观测到：\code{inconsistent\_high\_risk}
+        \item 声明但未观测到：\code{declared\_not\_observed}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Lab4-1 判定逻辑}
+    \centering
+    \begin{tikzpicture}[
+        node distance=6mm and 8mm,
+        box/.style={draw, rounded corners, align=center, minimum width=2.45cm, minimum height=8mm, font=\scriptsize},
+        arr/.style={-{Latex[length=1.6mm]}, thick}
+    ]
+        \node[box, fill=blue!10] (d) {政策声明\\declared};
+        \node[box, fill=green!12, right=of d] (o) {多源观测\\observed};
+        \node[box, fill=orange!14, right=of o] (cmp) {compare\\engine};
+        \node[box, fill=violet!12, below=of cmp] (kb) {KB\\调整};
+        \node[box, fill=yellow!18, left=of kb] (report) {verdict\\报告};
+        \draw[arr] (d) -- (cmp);
+        \draw[arr] (o) -- (cmp);
+        \draw[arr] (cmp) -- (kb);
+        \draw[arr] (kb) -- (report);
+    \end{tikzpicture}
+    \vspace{0.6em}
+
+    \scriptsize
+    每条 verdict 记录 \code{sources[]} / \code{provenance}，答辩时可以说明证据来自 static、dynamic、oldsrc 还是 KB。
+\end{frame}
+
+\begin{frame}
+    \frametitle{Lab4-1 样本与批次}
+    \small
+    \begin{itemize}
+        \item \textbf{样本数}：9 款 App。
+        \item \textbf{样本}：Keep、小红书、支付宝、LOFTER、智联招聘、世纪佳缘、好大夫医生版、东方财富、小荷健康。
+        \item \textbf{证据来源}：政策声明、Stage2 静态、Stage3 动态、oldsrc 历史结果、PII 知识库。
+        \item \textbf{批量结果}：9/9 成功生成知情权审计报告。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Lab4-1 全样本 Verdict 合计}
+    \small
+    \begin{columns}[T]
+        \begin{column}{0.42\textwidth}
+            \begin{tabular}{|l|r|}
+                \hline
+                \textbf{Verdict} & \textbf{条数} \\
+                \hline
+                consistent & 90 \\
+                \hline
+                \code{inconsistent\_high\_risk} & 41 \\
+                \hline
+                \code{declared\_not\_observed} & 6 \\
+                \hline
+            \end{tabular}
+        \end{column}
+        \begin{column}{0.55\textwidth}
+            \begin{itemize}
+                \item 一致：政策声明有，合并证据也有。
+                \item 高风险：证据有，但政策声明不足。
+                \item 未观测：政策声明有，但当前证据链未捕获。
+            \end{itemize}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Lab4-1 分 App 数据表}
+    \tiny
+    \begin{tabularx}{\textwidth}{|l|r|r|r|r|r|}
+        \hline
+        \textbf{App} & \textbf{声明} & \textbf{观测} & \textbf{一致} & \textbf{高风险} & \textbf{未观测} \\
+        \hline
+        Keep & 11 & 18 & 11 & 5 & 0 \\
+        \hline
+        小红书 & 12 & 15 & 10 & 4 & 1 \\
+        \hline
+        支付宝 & 11 & 16 & 10 & 5 & 1 \\
+        \hline
+        LOFTER & 10 & 16 & 10 & 4 & 2 \\
+        \hline
+        智联招聘 & 13 & 17 & 12 & 5 & 0 \\
+        \hline
+        世纪佳缘 & 12 & 14 & 10 & 4 & 2 \\
+        \hline
+        好大夫医生版 & 11 & 13 & 8 & 4 & 1 \\
+        \hline
+        东方财富 & 10 & 16 & 9 & 5 & 2 \\
+        \hline
+        小荷健康 & 11 & 17 & 10 & 5 & 0 \\
+        \hline
+    \end{tabularx}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Lab4-1 典型发现：观测类型多于声明类型}
+    \small
+    \begin{itemize}
+        \item 多数 App 的 \code{observed\_count} 大于 \code{declared\_count}。
+        \item 原因包括：静态 SDK/权限信号、历史审计结果、知识库推断、动态路径可行性证据并入观测集。
+        \item 这类差异会转化为 \code{inconsistent\_high\_risk}，代表「技术侧或知识库侧有信号，但政策未充分声明」。
+        \item 汇报时需要明确区分证据来源，避免笼统表述为「Frida 抓到了」。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{declared\_not\_observed 明细}
+    \scriptsize
+    \begin{enumerate}
+        \item \textbf{好大夫医生版}：\code{account\_info}，受限于应用需要资格认证，无法动态验证。
+        \item \textbf{世纪佳缘}：\code{biometric\_info}，静/动/oldsrc/KB 均未并入。
+        \item \textbf{东方财富}：\code{log\_info}，声明有，观测列表无此项。
+        \item \textbf{世纪佳缘}：\code{log\_info}，声明有，观测列表无此项。
+        \item \textbf{支付宝}：\code{clipboard}，政策已写，合并证据未列出。
+        \item \textbf{智联招聘}：\code{clipboard}，政策已写，合并证据未列出。
+    \end{enumerate}
+    \vspace{0.3em}
+    \footnotesize
+    这类结果不直接说明违规，而说明当前证据链对该声明类型尚未覆盖。
+\end{frame}
+
+\begin{frame}
+    \frametitle{Lab4-1 类型并集与交集}
+    \tiny
+    \begin{tabularx}{\textwidth}{|l|X|X|}
+        \hline
+        & \textbf{并集（至少 1 款 App 出现）} & \textbf{交集（9 款 App 均有）} \\
+        \hline
+        声明 & 账号、AndroidID、生物识别、剪贴板、通讯录、身份、IMEI、IP、位置、日志、MAC、未成年人、权限、手机号、画像（15 类） & 账号、AndroidID、身份、IMEI、IP、位置、手机号（7 类） \\
+        \hline
+        观测 & 上列 + 权利、SDK、安全（18 类） & AndroidID、通讯录、IMEI、IP、位置、MAC、权限、手机号、画像、权利、安全（11 类） \\
+        \hline
+        高风险 & 剪贴板、通讯录、未成年人、权限、画像、权利、SDK、安全（8 类） & 权利、安全（2 类） \\
+        \hline
+        未观测 & 账号、生物识别、剪贴板、日志（4 类） & 无 \\
+        \hline
+    \end{tabularx}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Lab4-1 阶段结论}
+    \small
+    \begin{itemize}
+        \item 知情权审计已形成稳定批量流程，9 款 App 均能输出可解释报告。
+        \item 最有价值的结果是 41 条 \riskhigh{} 不一致：可以指向政策未充分声明的具体个人信息类型。
+        \item 6 条 \riskmid{} 未观测反映证据覆盖不足，也提示需要继续强化动态路径和副本采集。
+        \item 系统已具备「结论 + 证据来源 + 风险解释」的答辩能力。
+    \end{itemize}
+\end{frame}
+
+\section{Lab4-2：同意权与开关有效性}
+
+\begin{frame}
+    \frametitle{Lab4-2 核心问题}
+    \small
+    \begin{block}{问题定义}
+        当用户关闭个性化推荐、广告、第三方共享或相关隐私开关后，App 是否仍继续向服务端或第三方 Tracker 传输相关个人信息？
+    \end{block}
+    \begin{itemize}
+        \item \textbf{before}：默认或开启状态下进行路径导航与抓包。
+        \item \textbf{after}：关闭隐私开关后重复同样流程。
+        \item \textbf{主判定}：对比 mitm 流量中的 Tracker 命中、PII 字段和仍传输数量。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Lab4-2 实验管线}
+    \centering
+    \begin{tikzpicture}[
+        node distance=5mm and 6mm,
+        box/.style={draw, rounded corners, align=center, minimum width=2.15cm, minimum height=8mm, font=\scriptsize},
+        arr/.style={-{Latex[length=1.6mm]}, thick}
+    ]
+        \node[box, fill=blue!10] (before) {Before\\抓包};
+        \node[box, fill=green!12, right=of before] (toggle) {关闭\\隐私开关};
+        \node[box, fill=orange!14, right=of toggle] (after) {After\\抓包};
+        \node[box, fill=violet!12, below=of after] (cmp) {流量\\对比};
+        \node[box, fill=red!10, left=of cmp] (risk) {仍传输\\风险};
+        \draw[arr] (before) -- (toggle);
+        \draw[arr] (toggle) -- (after);
+        \draw[arr] (after) -- (cmp);
+        \draw[arr] (before) |- (cmp);
+        \draw[arr] (cmp) -- (risk);
+    \end{tikzpicture}
+    \vspace{0.6em}
+
+    \scriptsize
+    Lab4-2 从早期 Frida 主轨调整为 mitm 主轨，因为网络层 before/after 对比更稳定、更直接。
+\end{frame}
+
+\begin{frame}
+    \frametitle{Lab4-2 判定口径}
+    \small
+    \begin{tabularx}{\textwidth}{|l|X|}
+        \hline
+        \textbf{状态} & \textbf{含义} \\
+        \hline
+        pass & 关闭开关后未观察到相关 Tracker/PII 继续传输，或流量明显下降到可接受范围。 \\
+        \hline
+        review\_needed & 关闭后仍存在 PII 字段或 Tracker 命中，需要人工确认是否与开关语义相关。 \\
+        \hline
+        strong case & 关闭后仍有明确第三方 SDK Tracker 或敏感字段传输，是答辩展示重点。 \\
+        \hline
+    \end{tabularx}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Lab4-2 本批总体结果}
+    \small
+    \begin{itemize}
+        \item \textbf{样本}：15 款 App。
+        \item \textbf{批量状态}：15/15 进入 pass 3 / review\_needed 等结果分类。
+        \item \textbf{pass}：Keep、支付宝、韭研公社。
+        \item \textbf{关后仍传问题}：7 款 App 存在关闭后仍传输 PII 或 Tracker 的现象。
+        \item \textbf{强案例}：钓鱼人、好大夫、快看漫画、世纪佳缘。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Lab4-2 典型网络对比}
+    \scriptsize
+    \begin{tabularx}{\textwidth}{|l|r|r|l|X|}
+        \toprule
+        \textbf{App} & \textbf{before 流} & \textbf{after 流} & \textbf{PII 命中} & \textbf{关后仍泄漏} \\
+        \midrule
+        小荷健康 & 272 & 312 & 58$\rightarrow$58 & 无 SDK Tracker；仍有 PII 传输 \\
+        \hline
+        快看漫画 & 162 & 206 & 21$\rightarrow$17 & SDK Tracker（Umeng/百度/个推） \\
+        \hline
+        世纪佳缘 & 234 & 276 & 38$\rightarrow$38 & SDK Tracker（百度/Bugly） \\
+        \hline
+        钓鱼人 & 82 & 83 & 30$\rightarrow$33 & SDK Tracker（Umeng/Bugly/百度） \\
+        \hline
+        Keep & 67 & 1 & 4$\rightarrow$0 & 否（pass） \\
+        \bottomrule
+    \end{tabularx}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Lab4-2 强案例解读}
+    \small
+    \begin{itemize}
+        \item \textbf{钓鱼人}：关闭后 PII 命中从 30 增至 33，同时仍有 Umeng/Bugly/百度 Tracker。
+        \item \textbf{快看漫画}：关闭后流量增加，PII 命中仍为 17，且保留多类第三方 Tracker。
+        \item \textbf{世纪佳缘}：关闭前后 PII 命中均为 38，百度/Bugly 仍存在。
+        \item \textbf{Keep}：关闭后流量从 67 降至 1，PII 命中降为 0，是同意权开关较有效的对照样本。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Lab4-2 的证据强度与局限}
+    \small
+    \begin{columns}[T]
+        \begin{column}{0.48\textwidth}
+            \textbf{证据强度}
+            \begin{itemize}
+                \item before/after 同流程对比。
+                \item 网络出口层直接观测。
+                \item 可定位 Tracker 公司和字段。
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.48\textwidth}
+            \textbf{局限}
+            \begin{itemize}
+                \item 开关语义与具体传输字段需要人工确认。
+                \item 证书钉扎或私有协议会降低 mitm 覆盖。
+                \item 低流量 App 需加长抓包窗口。
+            \end{itemize}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\section{Lab4-3：访问权与个人信息副本}
+
+\begin{frame}
+    \frametitle{Lab4-3 核心问题}
+    \small
+    \begin{block}{问题定义}
+        用户能否访问、查询、复制或导出 App 收集的个人信息？导出的副本字段是否覆盖政策声明和运行时实际采集/传输的数据？
+    \end{block}
+    \begin{itemize}
+        \item \textbf{政策侧}：声明用户可查询/复制哪些数据。
+        \item \textbf{运行时侧}：Frida + mitm 观测实际采集/传输字段。
+        \item \textbf{副本侧}：人工导出或页面查看的个人信息副本字段。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Lab4-3 实验管线}
+    \centering
+    \begin{tikzpicture}[
+        node distance=5mm and 7mm,
+        box/.style={draw, rounded corners, align=center, minimum width=2.35cm, minimum height=8mm, font=\scriptsize},
+        arr/.style={-{Latex[length=1.6mm]}, thick}
+    ]
+        \node[box, fill=blue!10] (decl) {政策声明\\declared};
+        \node[box, fill=green!12, right=of decl] (runtime) {运行时观测\\Frida+mitm};
+        \node[box, fill=orange!14, right=of runtime] (copy) {用户副本\\copy fields};
+        \node[box, fill=violet!12, below=of runtime] (match) {taxonomy\\别名匹配};
+        \node[box, fill=yellow!18, below=of match] (verdict) {覆盖率\\人工审核};
+        \draw[arr] (decl) -- (match);
+        \draw[arr] (runtime) -- (match);
+        \draw[arr] (copy) -- (match);
+        \draw[arr] (match) -- (verdict);
+    \end{tikzpicture}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Lab4-3 人工审核结果}
+    \small
+    \begin{tabularx}{\textwidth}{|l|X|}
+        \hline
+        \textbf{App} & \textbf{副本所含个人信息类型} \\
+        \hline
+        世纪佳缘 & 生物识别信息、手机号、账号/账户信息、身份信息 \\
+        \hline
+        小荷健康 & 手机号、账号/账户信息、身份信息 \\
+        \hline
+        智联招聘 & 手机号、身份信息、账号/账户信息、位置信息 \\
+        \hline
+        支付宝 & 手机号、身份信息 \\
+        \hline
+        东方财富 & 手机号、账号/账户信息、身份信息 \\
+        \hline
+    \end{tabularx}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Lab4-3 结果解读}
+    \small
+    \begin{itemize}
+        \item 已完成 5 款 App 的人工副本字段审核，能展示副本中包含哪些个人信息类型。
+        \item 副本字段多集中于手机号、账号/账户信息、身份信息，部分 App 覆盖位置或生物识别信息。
+        \item 与运行时 mitm/Frida 观测结合后，可进一步判断「实际传输的数据」是否也能在副本中被用户访问。
+        \item 当前仍需补全剩余 App 副本导出，并扩充 taxonomy 别名，提高自动匹配覆盖率。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Lab4-3 与 Lab4-1/2 的关系}
+    \small
+    \begin{itemize}
+        \item Lab4-1 回答「政策有没有说清楚」。
+        \item Lab4-2 回答「用户关闭后是否还继续传」。
+        \item Lab4-3 回答「用户能否查到/拿到已经被收集的数据」。
+        \item 三者共同构成从告知、控制到访问的完整隐私权利验证链。
+    \end{itemize}
+\end{frame}
+
+\section{综合结果与案例串联}
+
+\begin{frame}
+    \frametitle{全阶段关键数字}
+    \small
+    \begin{tabularx}{\textwidth}{|l|l|X|}
+        \hline
+        \textbf{阶段} & \textbf{数字} & \textbf{说明} \\
+        \hline
+        Part1 & 23 App / 9639 句 & 完成隐私政策句级权利识别与路径抽取 \\
+        \hline
+        Part1 & 1053 条 method 正例 & 仅约 10.9\% 句子给出执行方式 \\
+        \hline
+        Lab4-1 & 9/9 成功 & 知情权批量审计稳定输出 \\
+        \hline
+        Lab4-1 & 90 / 41 / 6 & 一致 / 高风险不一致 / 声明但未观测 \\
+        \hline
+        Lab4-2 & 15 App & 3 个 pass，7 款存在关后仍传问题 \\
+        \hline
+        Lab4-3 & 5 款副本审核 & 已形成人工字段覆盖结果，待扩展自动匹配 \\
+        \hline
+    \end{tabularx}
+\end{frame}
+
+\begin{frame}
+    \frametitle{一条完整审计链如何形成}
+    \small
+    \begin{enumerate}
+        \item \textbf{文本侧}：Prompt 从政策中抽取权利、路径、目标数据。
+        \item \textbf{技术侧}：Stage2/Stage3/mitm 生成静态与动态证据。
+        \item \textbf{知识侧}：PII taxonomy 和法律知识库统一别名、补充可行证据。
+        \item \textbf{判定侧}：Lab4-1/2/3 分别输出知情、同意、访问三个角度的 verdict。
+        \item \textbf{解释侧}：每个结论保留来源和证据字段，支持人工复核与答辩追问。
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}
+    \frametitle{案例串联：Keep}
+    \small
+    \begin{itemize}
+        \item \textbf{Lab4-1}：声明 11 类、观测 18 类，一致 11、高风险 5、未观测 0。
+        \item \textbf{高风险类型}：剪贴板、通讯录、权利、SDK、安全。
+        \item \textbf{Lab4-2}：关闭后流量 67$\rightarrow$1，PII 命中 4$\rightarrow$0，判为 pass。
+        \item \textbf{意义}：Keep 是同意权开关有效的正向对照，但知情权侧仍存在政策覆盖不足风险。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{案例串联：世纪佳缘}
+    \small
+    \begin{itemize}
+        \item \textbf{Lab4-1}：声明 12 类、观测 14 类，一致 10、高风险 4、未观测 2。
+        \item \textbf{未观测类型}：生物识别、日志；其中生物识别受真实认证流程限制。
+        \item \textbf{Lab4-2}：关闭前后 PII 命中 38$\rightarrow$38，仍有百度/Bugly Tracker。
+        \item \textbf{Lab4-3}：副本含生物识别信息、手机号、账号/账户信息、身份信息。
+        \item \textbf{意义}：适合展示三项权利如何在同一 App 上互相印证。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{案例串联：智联招聘}
+    \small
+    \begin{itemize}
+        \item \textbf{Part1}：method 率 19.9\%，说明政策中有较多可执行路径，适合动态验证。
+        \item \textbf{Lab4-1}：声明 13 类、观测 17 类，一致 12、高风险 5、未观测 0。
+        \item \textbf{Lab4-3}：副本含手机号、身份信息、账号/账户信息、位置信息。
+        \item \textbf{意义}：招聘类 App 的个人信息类型较多，访问权副本和政策声明的匹配尤其重要。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{案例串联：支付宝}
+    \small
+    \begin{itemize}
+        \item \textbf{UI 特例}：部分隐私入口在 H5/WebView 容器中，路径定位比原生页面复杂。
+        \item \textbf{Lab4-1}：声明 11 类、观测 16 类，一致 10、高风险 5、未观测 1。
+        \item \textbf{未观测类型}：剪贴板。
+        \item \textbf{Lab4-2}：本批结果中为 pass 样本。
+        \item \textbf{Lab4-3}：副本含手机号、身份信息。
+    \end{itemize}
+\end{frame}
+
+\section{方法反思与系统局限}
+
+\begin{frame}
+    \frametitle{当前系统的优势}
+    \small
+    \begin{itemize}
+        \item 从文本、静态、动态、网络、副本多个角度构造证据链。
+        \item 规则引擎结论可追溯，比纯 LLM verdict 更适合审计场景。
+        \item Appium + mitm 的组合让同意权实验具备可复现的 before/after 对比。
+        \item 批量报告、job id 与 manifest 让实验过程可以复查、增量补跑。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{当前系统的局限}
+    \small
+    \begin{itemize}
+        \item Frida 运行时 Hook 仍受 spawn/attach、加固、多进程、连接稳定性影响。
+        \item mitm 无法覆盖所有证书钉扎、私有协议或加密载荷。
+        \item Appium UI 路径依赖具体版本页面，H5/WebView 和无障碍文本缺失会增加失败率。
+        \item Lab4-3 的副本采集成本较高，仍需要人工导出和 taxonomy 别名维护。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{判定伦理：高风险不一致为何更重要}
+    \small
+    \begin{itemize}
+        \item 「政策声明了但未观测到」可能只是本次证据未覆盖，不能直接说明应用没有采集。
+        \item 「观测到了但政策未声明」意味着用户难以从政策中获知相关处理行为，知情权风险更强。
+        \item 因此系统将 \code{inconsistent\_high\_risk} 作为重点输出，并保留具体证据来源。
+        \item 这与监管关注的「未明示收集目的、方式、范围」「未公开第三方 SDK」等主题一致。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{从课程实验到可用审计工具的差距}
+    \small
+    \begin{tabularx}{\textwidth}{|l|X|X|}
+        \hline
+        \textbf{方面} & \textbf{已完成} & \textbf{仍需提升} \\
+        \hline
+        文本抽取 & 句级结构化、路径候选、few-shot 迭代 & 构建人工金标集和模型一致性评估 \\
+        \hline
+        知情权 & 批量稳定，证据可追溯 & 更精细地区分技术证据与 KB 推断 \\
+        \hline
+        同意权 & mitm before/after 可用 & 开关语义绑定、低流量窗口、证书钉扎处理 \\
+        \hline
+        访问权 & 5 款副本人工审核 & 扩展副本导出、自动字段匹配、覆盖率计算 \\
+        \hline
+    \end{tabularx}
+\end{frame}
+
+\section{结论与后续工作}
+
+\begin{frame}
+    \frametitle{总阶段性结论}
+    \small
+    \begin{itemize}
+        \item 本实验已经从最初的隐私政策文本分析，发展为覆盖知情权、同意权、访问权的综合检测系统。
+        \item Lab4-1 是当前最稳定的主实验：9 款 App 批量成功，输出 90 条一致、41 条高风险不一致、6 条声明未观测。
+        \item Lab4-2 通过 mitm 主轨完成 15 App 开关前后对比，发现 7 款存在关后仍传问题，并保留多个强案例。
+        \item Lab4-3 已完成 5 款副本人工审核，证明访问权验证路径可行，但仍需要补全样本和自动匹配。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{后续工作}
+    \small
+    \begin{enumerate}
+        \item \textbf{Frida 加固}：借鉴 spawn gating，扩展 tier 探针，稳定 API 级证据采集。
+        \item \textbf{mitm 增强}：处理证书钉扎、延长低流量窗口、补充 Tracker 规则库。
+        \item \textbf{Lab4-2 精化}：将隐私开关语义与字段/Tracker 分类绑定，减少人工解释成本。
+        \item \textbf{Lab4-3 补全}：导出剩余 App 副本，扩充字段别名，提升自动覆盖率。
+        \item \textbf{评测体系}：建立人工金标集，对 Prompt、规则引擎和动态路径分别评估准确性。
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}
+    \frametitle{答辩展示建议}
+    \small
+    \begin{itemize}
+        \item 主线按「文本承诺 \arrown{} 技术证据 \arrown{} 三项权利」展开。
+        \item 重点展示 Lab4-1 的可追溯判定和 Lab4-2 的 before/after 强案例。
+        \item 对局限保持诚实：Frida 不是当前主证据，mitm 和人工副本审核才是后期实验主轨。
+        \item 选 1--2 个 App 做全链路案例，例如世纪佳缘或 Keep。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \centering
+    \Huge 感谢聆听
+\end{frame}
+
+\end{document}

@@ -1,0 +1,52 @@
+# PrivacyMonitorAndroid-style API trace list (R1)
+# Format: -tracemethod <package/Class.method>  # pii_type=<taxonomy_key>
+# Sync: python scripts/sync_trace_config.py --check
+#       python scripts/sync_trace_config.py --write-txt
+
+-keeppackage privacy_audit/hooks
+
+# --- android_id ---
+-tracemethod android/provider/Settings$Secure.getString  # pii_type=android_id
+-tracemethod android/provider/Settings$System.getString  # pii_type=android_id
+
+# --- clipboard ---
+-tracemethod android/content/ClipboardManager.getPrimaryClip  # pii_type=clipboard
+-tracemethod android/content/ClipboardManager.getText  # pii_type=clipboard
+-tracemethod android/content/ClipboardManager.hasPrimaryClip  # pii_type=clipboard
+
+# --- contact_list ---
+-tracemethod android/content/ContentResolver.query  # pii_type=contact_list
+-tracemethod android/accounts/AccountManager.getAccounts  # pii_type=contact_list
+-tracemethod android/accounts/AccountManager.getAccountsByType  # pii_type=contact_list
+
+# --- imei ---
+-tracemethod android/telephony/TelephonyManager.getImei  # pii_type=imei
+-tracemethod android/telephony/TelephonyManager.getMeid  # pii_type=imei
+-tracemethod android/telephony/TelephonyManager.getDeviceId  # pii_type=imei
+-tracemethod android/telephony/TelephonyManager.getDeviceSoftwareVersion  # pii_type=imei
+-tracemethod android/telephony/TelephonyManager.getSimSerialNumber  # pii_type=imei
+
+# --- ip_address ---
+-tracemethod android/net/wifi/WifiInfo.getIpAddress  # pii_type=ip_address
+-tracemethod java/net/InetAddress.getHostAddress  # pii_type=ip_address
+
+# --- location ---
+-tracemethod android/location/LocationManager.getLastKnownLocation  # pii_type=location
+-tracemethod android/location/LocationManager.requestLocationUpdates  # pii_type=location
+-tracemethod android/location/LocationManager.requestSingleUpdate  # pii_type=location
+-tracemethod android/location/Location.getLatitude  # pii_type=location
+-tracemethod android/location/Location.getLongitude  # pii_type=location
+
+# --- mac_address ---
+-tracemethod android/net/wifi/WifiInfo.getMacAddress  # pii_type=mac_address
+-tracemethod android/net/wifi/WifiInfo.getBSSID  # pii_type=mac_address
+-tracemethod android/bluetooth/BluetoothAdapter.getAddress  # pii_type=mac_address
+
+# --- phone_number ---
+-tracemethod android/telephony/TelephonyManager.getLine1Number  # pii_type=phone_number
+-tracemethod android/telephony/TelephonyManager.getSubscriberId  # pii_type=phone_number
+
+# --- sdk_info ---
+-tracemethod android/content/pm/PackageManager.getInstalledPackages  # pii_type=sdk_info
+-tracemethod android/content/pm/PackageManager.getInstalledApplications  # pii_type=sdk_info
+-tracemethod android/app/ApplicationPackageManager.getInstalledPackages  # pii_type=sdk_info

@@ -47,7 +47,7 @@
         \item 课程/课题 \textbf{Lab4} 要求从「文本承诺」延伸到「技术可验证」：政策声明是否与真实采集、开关控制、副本导出一致。
         \item 早期方案以 \textbf{LLM 主导} 判断为主；现实现以 \textbf{证据包 + 规则引擎 + 法律知识库} 为主，因此本次实验中 LLM 仅保留在政策句级审计历史链路。
         \item 使用\textbf{多源观测证据链}：规则引擎判定 + 每条 verdict 可溯源（\texttt{sources} / \texttt{provenance}），非 LLM 黑盒结论。
-        \item \textbf{数据批次}9 App: 小红书、Keep、支付宝、LOFTER、智联招聘、世纪佳缘、好大夫医生版、东方财富、小荷健康。
+        \item \textbf{数据批次}10 App: 小红书、Keep、支付宝、LOFTER、智联招聘、世纪佳缘、好大夫医生版、东方财富、小荷健康、微信。
     \end{itemize}
 \end{frame}
 
@@ -69,16 +69,54 @@
     \end{tabularx}
 \end{frame}
 
-\begin{frame}
-    \frametitle{处理过程}
-    \begin{block}{规则引擎判定}
-    \scriptsize\ttfamily
-    - when: "declared and observed"\\
-    \quad verdict: "consistent", risk\_level: "low"\\
-    - when: "not\_declared and observed"\\
-    \quad verdict: "inconsistent\_high\_risk", risk\_level: "high"\\
-    - when: "declared and not\_observed"\\
-    \quad verdict: "declared\_not\_observed", risk\_level: "medium"
+\begin{frame}[fragile]
+    \frametitle{compare\_engine 处理过程}
+    \begin{block}{compare\_engine 规则（\texttt{compare\_engine.py}）}
+    \scriptsize
+    \begin{verbatim}
+for pii_type in all_types:
+    if pii_type in declared and pii_type in observed:
+        rule = rule_map.get(
+            "declared and observed",
+            defaults["declared and observed"],
+        )
+    elif pii_type not in declared and pii_type in observed:
+        rule = rule_map.get(
+            "not_declared and observed",
+            defaults["not_declared and observed"],
+        )
+    else:
+        rule = rule_map.get(
+            "declared and not_observed",
+            defaults["declared and not_observed"],
+        )
+    verdicts.append(
+        {
+            "pii_type": pii_type,
+            "status": rule["verdict"],
+            "risk_level": rule["risk_level"],
+            "message": rule["message"],
+            "evidence_fields": rule["evidence_fields"],
+            "verdict_basis": "rule_engine",
+        }
+    )
+    \end{verbatim}
+    \end{block}
+\end{frame}
+
+
+\begin{frame}[fragile]
+    \frametitle{compare\_engine 处理过程}
+    \begin{block}{规则引擎判定伪代码（\texttt{decision\_rules.yaml}）}
+    \scriptsize
+    \begin{verbatim}
+- when: "declared and observed"
+  verdict: "consistent", risk_level: "low"
+- when: "not_declared and observed"
+  verdict: "inconsistent_high_risk", risk_level: "high"
+- when: "declared and not_observed"
+  verdict: "declared_not_observed", risk_level: "medium"
+    \end{verbatim}
     \end{block}
     高风险不一致：有观测证据，但政策未充分声明。\\
     \begin{itemize}
@@ -92,6 +130,66 @@
     \end{itemize}
 \end{frame}
 
+\begin{frame}[fragile]
+    \frametitle{kb\_verdict\_adjustments 处理过程}
+    \begin{block}{apply\_kb\_verdict\_adjustments（\texttt{kb\_verdict.py}）}
+    \tiny
+    \begin{verbatim}
+for row in verdicts:
+    pii_type = row.get("pii_type", "")
+    in_declared = pii_type in declared
+    in_technical = pii_type in technical
+    in_kb = pii_type in kb_types or pii_type in kb_supported
+    kb_only = in_kb and not in_technical
+    new_row = dict(row)
+    if (
+        in_declared and not in_technical
+        and (in_kb or pii_type in kb_supported
+             or pii_type in declared_support)
+        and row.get("status") == "declared_not_observed"
+    ):
+        new_row.update({
+            "status": kb_confirm["verdict"],
+            "risk_level": kb_confirm["risk_level"],
+            "verdict_basis": "knowledge_base",
+            "kb_influenced": True,
+        })
+    elif not in_declared and kb_only:
+        new_row.update({
+            "status": kb_inferred["verdict"],
+            "risk_level": kb_inferred["risk_level"],
+            "verdict_basis": "knowledge_base_only",
+            "kb_influenced": True,
+        })
+    elif not in_declared and in_technical:
+        new_row["verdict_basis"] = "technical"
+    adjusted.append(new_row)
+    \end{verbatim}
+    \end{block}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{kb\_verdict\_adjustments 处理过程}
+    \begin{block}{KB 判定伪代码（\texttt{decision\_rules.yaml}）}
+    \scriptsize
+    \begin{verbatim}
+- when: "declared and kb_supported"
+  verdict: "kb_supported_consistent", risk_level: "low"
+- when: "not_declared and kb_only"
+  verdict: "kb_inferred_undeclared", risk_level: "high"
+    \end{verbatim}
+    \end{block}
+    KB 支撑一致（由 \texttt{declared\_not\_observed} 升级，低风险）：政策已声明，技术 trace 弱或无，KB或动态验证过程认为可行证据支持。\\
+    \begin{itemize}
+        \item 静态/动态/Frida 未覆盖，但权限、API 或 \texttt{android\_mapping} 命中知识库。
+        \item 避免将「证据链不完整」单独判为中风险；\texttt{verdict\_basis} 记为 \texttt{knowledge\_base}。
+    \end{itemize}
+    KB 推断未声明（高风险，仅 KB 观测）：政策未声明，且无技术 trace，仅有 KB 高置信推断。\\
+    \begin{itemize}
+        \item 法律条目/别名推断会收集，但政策文本未写全。
+        \item 与 \texttt{inconsistent\_high\_risk} 区分：后者通常有 static/dynamic 等技术证据；本类 \texttt{verdict\_basis} 为 \texttt{knowledge\_base\_only}。
+    \end{itemize}
+\end{frame}
 
 \section{系统与流水线}
 
@@ -183,7 +281,7 @@ project/src/
     \small
     \begin{itemize}
         \item \textbf{环境}：Windows + MuMu + Appium \texttt{4723} + Frida（Stage3 辅助，非 Lab4-1 唯一证据源）。
-        \item \textbf{9 款 App}：Keep、小红书、支付宝、LOFTER、智联招聘、世纪佳缘、好大夫医生版、东方财富、小荷健康。
+        \item \textbf{10 款 App}：Keep、小红书、支付宝、LOFTER、智联招聘、世纪佳缘、好大夫医生版、东方财富、小荷健康、微信。
         \item \textbf{政策文本}：\texttt{input/pii\_text/\{App\}.txt}
         \item \textbf{证据包}：\texttt{output/lab4\_1\_evidence/\{App\}.json}
         \item \textbf{报告}：\texttt{output/lab4\_1/\{App\}\_lab4\_1\_report.json}
@@ -430,7 +528,7 @@ project/src/
     并集观测 18 类中，仅 Keep/小荷等在\textbf{声明}侧含剪贴板；9 款交集声明仅 7 类，反映政策表述差异。
 \end{frame}
 
-\section{总结}
+\section{总结与展望}
 
 \begin{frame}
     \frametitle{阶段性结论}
@@ -440,6 +538,79 @@ project/src/
         \item 规则引擎产出结构化判定（一致 90 + 高风险 41 + 未观测 6），可溯源、可复核。
         \item 主要发现：\textbf{41 条高风险不一致}，反映「观测类型多于政策声明」的普遍模式。
         \item 汇报边界：已说明证据多源性与 Frida 运行时局限；Lab4-2/3 留作后续工作。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{判定伦理与监管话语：「隐瞒采集」为何更重？}
+    \small
+    \begin{block}{核心判断}
+        「未声明但观测到」优先于「声明但未观测到」——在\textbf{监管执法叙事}中较普遍，但\textbf{不是}法条中的固定数学公式。
+    \end{block}
+    \vspace{0.2em}
+    本系统 \texttt{inconsistent\_high\_risk} / \texttt{declared\_not\_observed} 的权重设计，对齐的是\textbf{执法与测评实践中的侧重点}，而非声称「法律只惩罚前者」。
+\end{frame}
+
+\begin{frame}
+    \frametitle{中国近年 App 个人信息治理：高频执法主题}
+    \small
+    通报、专项整治与典型违法案例中，常见表述包括：
+    \begin{itemize}
+        \item \textbf{未告知、未明示}处理目的、方式、范围；
+        \item \textbf{实际收集与告知不一致}、默认收集、强制索权；
+        \item \textbf{SDK 违规}、后台自启动、\textbf{超范围收集}。
+    \end{itemize}
+    \vspace{0.3em}
+    监管与公众直觉里，「\textbf{没告诉用户就采了}」往往比「\textbf{政策写了很多但本次测评没抓到}」更容易被定性为明确违法或高风险，也更容易进入通报名单。
+\end{frame}
+
+\begin{frame}
+    \frametitle{告知通胀：另一类问题，但落地路径不同}
+    \small
+    「政策过宽、笼统、堆砌」（\textbf{告知通胀}）同样会被批评，涉嫌违反\textbf{明确、合理、必要}及误导用户。
+    \begin{itemize}
+        \item 处罚落地往往需结合：\textbf{是否真采集}、\textbf{最小必要}、\textbf{同意是否有效}；
+        \item 自动化测评中 \texttt{declared\_not\_observed} $\neq$ 监管已认定「恶意夸大」，更多表示\textbf{待核查}或\textbf{测试局限}；
+        \item 本系统 KB 对「声明但未观测」的放宽，体现的是\textbf{证据不足时克制判高风险}，而非认可笼统告知。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{国际对照（GDPR）与本系统定位}
+    \small
+    \begin{itemize}
+        \item GDPR：\textbf{缺乏透明度}与\textbf{缺乏合法依据}均可严重违规；对外执法叙事中，\emph{secret processing}（用户不知情的处理）冲击力通常大于冗长、模糊的隐私政策。
+        \item 后者多走 \textbf{transparency + fairness} 路径，需结合实务评估，通常不会仅凭「本次未观测到」即定论。
+        \item \textbf{本 Lab4-1}：规则 + 证据驱动的声明—观测对齐；更敏感于 \texttt{not\_declared \& observed}，对 \texttt{declared \& not\_observed} 在 KB 下保留复核空间——与当前主流\textbf{测评/执法权重}同向，但局限于声明膨胀、观测假阳性等。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{市场阶段：规则已有，标准仍在细化}
+    \scriptsize
+    \begin{tabularx}{\textwidth}{|l|X|c|}
+        \hline
+        \textbf{阶段特征} & \textbf{说明} & \textbf{是否符合} \\
+        \hline
+        开放、监管缺位 & PIPL、国标、App 备案、SDK 规定、专项整治、应用商店规则等已建立 & 基本\textbf{已过} \\
+        \hline
+        规范建立、健康发展（过渡） & 类型划分与「告知—行为」对齐标准、自动化口径仍在演进；执法\textbf{有节奏、有重点}（先打未告知、超范围、SDK 等硬伤） & \textbf{最符合} \\
+        \hline
+        完全成熟、可机械打分 & 场景差异大；政策—代码无全国统一自动判据；「测不全」与「真未采」难区分 & \textbf{尚不符合} \\
+        \hline
+    \end{tabularx}
+    \vspace{0.4em}
+    \small
+    「更重隐瞒采集」是\textbf{过渡型市场}中常见的监管伦理：方向已明，执行上先抓危害感知强、证据较易认定的问题；对「写得太多/测不到」侧重\textbf{改进告知 + 抽查核实}，而非一律按「窃取」论处。
+\end{frame}
+
+\begin{frame}
+    \frametitle{展望与后续工作}
+    \small
+    \begin{itemize}
+        \item \textbf{局限补强}：关注告知通胀（宽泛声明降低 \texttt{not\_declared} 命中率）；区分 \texttt{inconsistent\_high\_risk}（技术）与 \texttt{kb\_inferred\_undeclared}（仅 KB）。
+        \item \textbf{工程延伸}：Lab4-2 同意、Lab4-3 访问/更正/删除；可选增加「过度声明/模糊用语」指标，与知情权审计互补。
+        \item \textbf{研究定位}：本系统宜定位为\textbf{过渡市场中的告知—行为对齐审计工具}，而非全面法律合规的终局评分器。
     \end{itemize}
 \end{frame}
 

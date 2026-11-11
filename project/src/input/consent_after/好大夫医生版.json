@@ -1,0 +1,1991 @@
+{
+  "schema_version": 2,
+  "stage": "stage3_dynamic",
+  "app_name": "好大夫医生版",
+  "app_package": "com.haodf.android.doctor",
+  "dry_run": false,
+  "generated_at_utc": "2026-06-11T23:30:28.677268+00:00",
+  "candidate_pii": [
+    "imei",
+    "android_id",
+    "location",
+    "ip_address",
+    "mac_address",
+    "phone_number",
+    "contact_list",
+    "clipboard",
+    "sdk_info",
+    "network_transmission"
+  ],
+  "ui_result": {
+    "runner": "appium",
+    "mode": "real",
+    "timestamp_utc": "2026-06-11T23:30:28.451990+00:00",
+    "steps": [
+      "adb_foreground_before=com.haodf.android.doctor",
+      "session_created_attempt1=ok",
+      "session_created",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.haodf.android.doctor",
+      "foreground_ok[com.haodf.android.doctor]=post_activate1",
+      "foreground_package=com.haodf.android.doctor",
+      "navigate_path_1=我 > 设置 > 隐私管理 > 个人信息浏览与导出",
+      "avatar_coord=ok(54,96)",
+      "tap[我]=miss_try_me_tab_fallback",
+      "tap[我]=miss_try_sidebar_fallback",
+      "sidebar_xml_before:xml_drawer_open=False xml_trigger=False menu=-",
+      "sidebar_skip=no_drawer_trigger_in_xml",
+      "tap[我]=miss_try_llm_bridge",
+      "llm_nav[我]=request labels=17",
+      "llm_nav[我]=no_bridge",
+      "llm_nav_reason=The target token '我' (meaning 'me' or 'my') is not directly visible in the list, and no label appears to be an intermedi",
+      "tap[我]=miss",
+      "nav_path_1_stopped_at=我",
+      "path_2_reset_start",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.haodf.android.doctor",
+      "foreground_ok[com.haodf.android.doctor]=post_activate1",
+      "path_2_reset=terminate_activate",
+      "navigate_path_2=我们 > 关于我们",
+      "tap[我们]=miss_try_me_first",
+      "tap[我们]=miss_try_sidebar_fallback",
+      "sidebar_xml_before:xml_drawer_open=False xml_trigger=False menu=-",
+      "sidebar_skip=no_drawer_trigger_in_xml",
+      "tap[我们]=miss_try_llm_bridge",
+      "llm_nav[我们]=request labels=17",
+      "llm_nav[我们]=no_bridge",
+      "llm_nav_reason=The target token '我们' refers to the developer '北京新医强国科技有限公司（好大夫在线）', which is typically found in the privacy policy text",
+      "tap[我们]=miss",
+      "nav_path_2_stopped_at=我们",
+      "path_3_reset_start",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.haodf.android.doctor",
+      "foreground_ok[com.haodf.android.doctor]=post_activate1",
+      "path_3_reset=terminate_activate",
+      "navigate_path_3=我 > 推广与活动",
+      "avatar_coord=ok(54,96)",
+      "tap[我]=miss_try_me_tab_fallback",
+      "tap[我]=miss_try_sidebar_fallback",
+      "sidebar_xml_before:xml_drawer_open=False xml_trigger=False menu=-",
+      "sidebar_skip=no_drawer_trigger_in_xml",
+      "tap[我]=miss_try_llm_bridge",
+      "llm_nav[我]=request labels=17",
+      "llm_nav[我]=no_bridge",
+      "llm_nav_reason=The target token '我' (meaning 'Me' or 'My') is not directly visible in the list, and no label appears to be an intermedi",
+      "tap[我]=miss",
+      "nav_path_3_stopped_at=我",
+      "screenshot_captured",
+      "function_triggers=start",
+      "grant[ACCESS_FINE_LOCATION]=skip",
+      "grant[ACCESS_COARSE_LOCATION]=ok",
+      "grant[READ_PHONE_STATE]=skip",
+      "grant[READ_CONTACTS]=skip",
+      "trigger_perms_granted=1",
+      "reset_back_presses=3",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.haodf.android.doctor",
+      "foreground_ok[com.haodf.android.doctor]=post_activate1",
+      "trigger_swipe_up=ok",
+      "trigger_swipe_up=ok",
+      "trigger_swipe_down=ok",
+      "function_triggers=budget_exhausted",
+      "function_triggers=done"
+    ],
+    "policy_path_hints": [
+      "本隐私政策适用于好大夫医生版 App 软件，开发者为北京新医强国科技有限公司（好大夫在线），以下简称为「我们」，联系地址：北京市朝阳区三间房南里4号院DREAM2049国际文创产业园B05栋。有关好大夫在线的更多信息，请访问我们官网中「关于我们」的部分，网址为website_url_lnk",
+      "您可通过电脑访问website_url_lnk 登录【我的中心】，访问或者修改您用户名绑定的手机号码和邮箱信息",
+      "您可通过APP上【我 → 点击头像 → 维护资料】，更新头像、出生日期、职称、教学职称、更新职业证件信息",
+      "您可通过【我 → 推广与活动】，点击右上角的删除按钮，删除医院活动",
+      "您可通过【我 → 设置 → 清空缓存】，删除您在好大夫在线的浏览记录",
+      "您有权获取您的个人信息副本，您可通过【我 → 设置 → 隐私管理 →个人信息浏览与导出 】导出您的个人信息副本，我们将在 15 日内对您的请求进行处理"
+    ],
+    "navigation_paths": [
+      [
+        "我",
+        "设置",
+        "隐私管理",
+        "个人信息浏览与导出"
+      ],
+      [
+        "我们",
+        "关于我们"
+      ],
+      [
+        "我",
+        "推广与活动"
+      ]
+    ],
+    "navigation_path_records": [
+      {
+        "source_hint": "您有权获取您的个人信息副本，您可通过【我 → 设置 → 隐私管理 →个人信息浏览与导出 】导出您的个人信息副本，我们将在 15 日内对您的请求进行处理",
+        "original_path": [
+          "我",
+          "设置",
+          "隐私管理",
+          "个人信息浏览与导出"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我",
+          "设置",
+          "隐私管理",
+          "个人信息浏览与导出"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 1,
+        "matched_hint": "您有权获取您的个人信息副本，您可通过【我 → 设置 → 隐私管理 →个人信息浏览与导出 】导出您的个人信息副本，我们将在 15 日内对您的请求进行处理",
+        "expanded_path": [
+          "我",
+          "设置",
+          "隐私管理",
+          "个人信息浏览与导出"
+        ]
+      },
+      {
+        "source_hint": "本隐私政策适用于好大夫医生版 App 软件，开发者为北京新医强国科技有限公司（好大夫在线），以下简称为「我们」，联系地址：北京市朝阳区三间房南里4号院DREAM2049国际文创产业园B05栋。有关好大夫在线的更多信息，请访问我们官网中「关于我们」的部分，网址为website_url_lnk",
+        "original_path": [
+          "我们",
+          "关于我们"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "更多",
+        "canonical_path": [
+          "我们",
+          "关于我们"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 2,
+        "matched_hint": "本隐私政策适用于好大夫医生版 App 软件，开发者为北京新医强国科技有限公司（好大夫在线），以下简称为「我们」，联系地址：北京市朝阳区三间房南里4号院DREAM2049国际文创产业园B05栋。有关好大夫在线的更多信息，请访问我们官网中「关于我们」的部分，网址为website_url_lnk",
+        "expanded_path": [
+          "我们",
+          "关于我们"
+        ]
+      },
+      {
+        "source_hint": "您可通过【我 → 推广与活动】，点击右上角的删除按钮，删除医院活动",
+        "original_path": [
+          "我",
+          "推广与活动"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "右上角",
+        "canonical_path": [
+          "我",
+          "推广与活动"
+        ],
+        "would_have_inserted_at": null,
+        "path_index": 3,
+        "matched_hint": "您可通过【我 → 推广与活动】，点击右上角的删除按钮，删除医院活动",
+        "expanded_path": [
+          "我",
+          "推广与活动"
+        ]
+      }
+    ],
+    "navigation_bridges": {
+      "不把我推荐给可能认识的人": [
+        "找到我的方式"
+      ],
+      "把我推荐给可能认识的人": [
+        "找到我的方式"
+      ],
+      "用户保护中心": [
+        "设置"
+      ]
+    },
+    "llm_nav_enabled": true,
+    "screenshots": [
+      "output\\stage3_lab42_after\\好大夫医生版\\screenshots\\好大夫医生版_20260612_072833_launch.png",
+      "output\\stage3_lab42_after\\好大夫医生版\\screenshots\\好大夫医生版_20260612_072858_path1.png",
+      "output\\stage3_lab42_after\\好大夫医生版\\screenshots\\好大夫医生版_20260612_072913_path2.png",
+      "output\\stage3_lab42_after\\好大夫医生版\\screenshots\\好大夫医生版_20260612_072942_path3.png",
+      "output\\stage3_lab42_after\\好大夫医生版\\screenshots\\好大夫医生版_20260612_073022_trigger_tabs.png"
+    ],
+    "keyword_checks": [
+      {
+        "path_index": 1,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": false,
+          "我的": false,
+          "个人": true,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": false,
+          "profile_page": false,
+          "profile_resource_marker": false
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "我们",
+        "matched": false,
+        "checks": {
+          "我们": false,
+          "我的": false,
+          "隐私": false,
+          "设置": false,
+          "我": false
+        }
+      },
+      {
+        "path_index": 3,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": false,
+          "我的": false,
+          "个人": true,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": false,
+          "profile_page": false,
+          "profile_resource_marker": false
+        }
+      }
+    ],
+    "error": ""
+  },
+  "frida_result": {
+    "runner": "frida",
+    "mode": "dry_run",
+    "launch_mode": "spawn",
+    "package": "com.haodf.android.doctor",
+    "registered_hooks": {
+      "imei": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js"
+      ],
+      "android_id": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js"
+      ],
+      "location": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js"
+      ],
+      "ip_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "mac_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "phone_number": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js"
+      ],
+      "contact_list": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js"
+      ],
+      "clipboard": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js"
+      ],
+      "network_transmission": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js"
+      ]
+    },
+    "global_hooks": [
+      "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js"
+    ],
+    "papi_target_count": 28,
+    "events": [
+      {
+        "timestamp_utc": "2026-06-11T23:30:28.578232+00:00",
+        "pii_type": "imei",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js",
+        "api_name": "hook_imei",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:28.578249+00:00",
+        "pii_type": "android_id",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "api_name": "hook_android_id",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:28.578254+00:00",
+        "pii_type": "android_id",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js",
+        "api_name": "hook_oaid",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:28.578256+00:00",
+        "pii_type": "location",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js",
+        "api_name": "hook_location",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:28.578258+00:00",
+        "pii_type": "ip_address",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+        "api_name": "hook_mac_ip",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:28.578260+00:00",
+        "pii_type": "mac_address",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+        "api_name": "hook_mac_ip",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:28.578262+00:00",
+        "pii_type": "phone_number",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js",
+        "api_name": "hook_phone",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:28.578263+00:00",
+        "pii_type": "contact_list",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js",
+        "api_name": "hook_contacts",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:28.578265+00:00",
+        "pii_type": "clipboard",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js",
+        "api_name": "hook_clipboard",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:28.578267+00:00",
+        "pii_type": "network_transmission",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+        "api_name": "hook_network_okhttp",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:28.578268+00:00",
+        "pii_type": "network_transmission",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+        "api_name": "OkHttp.execute",
+        "args_summary": "dry_run_network",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:28.578271+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getImei",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:28.578273+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getMeid",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:28.578275+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getDeviceId",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:28.578277+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getDeviceSoftwareVersion",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:28.578279+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getSimSerialNumber",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:28.578280+00:00",
+        "pii_type": "android_id",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.provider.Settings$Secure.getString",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:28.578282+00:00",
+        "pii_type": "android_id",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.provider.Settings$System.getString",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:28.578284+00:00",
+        "pii_type": "location",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.location.LocationManager.getLastKnownLocation",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      }
+    ],
+    "error": "frida_disabled",
+    "skipped": true
+  },
+  "mitm_result": {
+    "adapter": "mitm_runner",
+    "started_at_utc": "2026-06-11T23:30:28.552824+00:00",
+    "duration_sec": 127.59,
+    "listen_port": 8080,
+    "flows_source": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\output\\stage3_lab42_after\\好大夫医生版\\mitm_flows.json",
+    "flows": [
+      {
+        "timestamp_utc": "2026-06-11T23:28:22.480176+00:00",
+        "host": "mobilegw.alipay.com",
+        "path": "/mgw.htm",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "operationType=com.alipay.tscentercore.deviceFingerPrint.config.report&id=1&requestData=%5B%7B%22apdid%22%3A%22gHlvGHn639ZWjeannYo0x8u8B9iez7jDorgLZEKHiIMIN3u4ngEAAA%3D%3D%22%2C%22deviceDataMap%22%3A%7B%22AA1%22%3A%22com.haodf.android.doctor%22%2C%22AA2%22%3A%229.4.4%22%2C%22AA3%22%3A%22APPSecuritySDK-mraas%22%2C%22AA4%22%3A%22P8.0.0.20250228%22%2C%22AE1%22%3A%22android%22%2C%22AE10%22%3A%22ALN-AL00%22%2C%22AE12%22%3A%2212%22%2C%22AE13%22%3A%2232%22%2C%22AE5%22%3A%22HUAWEI%22%2C%22CRASH%22%3A%22%22%2C%22TOKEN%22%3A%22gHlvGHn639ZWjeannYo0x8u8B9iez7jDorgLZEKHiIMIN3u4ngEAAA%3D%3D%22%2C%22edgeResourceData%22%3A%22%7B%7D%22%7D%2C%22os%22%3A%22android%22%7D%5D",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:28:22.499129+00:00",
+        "host": "119.29.29.98",
+        "path": "/d?id=39662&dn=3973a3b8ce9ff2186d38afa974d668508494589a94c4b7b6",
+        "method": "GET",
+        "scheme": "http",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:28:22.505294+00:00",
+        "host": "utoken.umeng.com",
+        "path": "/anti/updateZdata",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "(ÏI1tdvT1h¤\u0003½ää;3©Fÿu´¬rÍU|TKUÉ5HP÷\u0015Ý\u000bË\u0002>+96X Gä\u0018Oñ&B\u000fê\bÓ¨#Yú\u000fã¯_®fûÁew[9bs\u001e%#Ñä}°Ð¾íoìÔãC¯,`Æ%¿éióSM@©^g\u000ezZ2MºS8Ò\"èvü¹\n\u001d\u0017\u0015\"N6ýñK¿¶ÇPàÚ¬\u0019tåþI{£kÜÞª\u001at\u0014\t)4¬ó>v$í\u001e|üòÑÄRª\u0002Öå/<Ô£\r\u0013²¦äxs/?DOoA\u0003\u0000²Ç©ÜÊÐ£í¸\u0000|ã!² ¶$åÈ«ôY¾èZ\u0007\f³ò¬P;èjkéIÝò]\u000fÐ©^Ù\u0019ûçÐ;ð*dõ2ëÅçë{\u001bßûeoHöH-nÓtºý¾z¸äbLp±i÷N\u0018.ó\n\u0019Â.LdÅ¦\u0013\u0002jGØq\n¿¡g\"\b¾*z.K\u0005]H&ÖÓ×\"]UÜãÚÝ=\"D5/º\u0005ËE[\u0013M|³»¨ø¬Um\u0005z\u0011Ì§c¥õØ|ä\u0004ªÓQ:\f}Á\u001aQB/5\u0007×ÞôîºáEò²Õ+9ä¸Re\"ÍjiunCjÈ¥v\r;A)2 ðÊ<ÜÝ_ºòv,÷%¢Ð±¯\"¤·uYþc×èÍ2ñ\u000eFþÞÞ)\u001f*\u0000\u001e\u0018¯HsI/\u0013S\\³+c÷Ã\u0019mÝ:( «.ÙÁ\u00025\u0019¸ÔíÓÒí:@\u000b\u0015«·Ã§^P\u0014c¬\">P\u0010h\u0000ß!W\u001f\u000fp:0\u001eKUk8Y¬cîª¤jÑfË)çzAõ\u0014ziE\tëGoú\u000fD¾\u0010$MA?öÒ^|M@´\u0013WûYÃ\fî;ÕIXg\\l\u001eÀ\u0014e1ÝôÝ!\u001d@ÿEÔÿÿ\u0013\u0013W\u0010ÌÇ²z2\u0005êm\u001f¡:~\u0005§÷LqVøhg\u0013^4~bA¨Ó¢ým\u0005\u001aá|³aGq\u0010õÒ|\u0007¶«È.ËVHP\u001aÑ½,\u001a¥ôo¹ó4ûemí£ñ¾ñ°\u000e¶M»4Ó6yýû{÷÷¤¯&Ü\u0014\u0013\u00112æ«5·bÒ;\u0016\u0006Ùs\u0000ewì)z¼hî¼&±Ô&~ÁJ´°Ä4\u0002\u001b\u001d× Gz«f³Î1\u0006#\u0004\u000e.å{¯¡Ú®cNc^ßGMÕo¹A]ËîÆ$¬Æy½yªX?Eæqi¶\u00062¶Ò0q\rjNÐïx/\u0012Ú_Õo±)êå­hâË?;j/3)\u000bÏ\u0012\n\n;U»\u0016VS\bÔ\u001b×°}f\u001cÊ\u0003h'µ#°´T2¹°÷oë1t=ú>úÐ¶ä1\u0001\u0002µþn@yÅEr5nà\fF;ÆF>jSZüÑ öÄÝ³pÛæïjm;íõî\u0016ZÛ;\u0018\u0014gÚX\n`\u0002¸s¤©Ø´ó_¢xS#\u000bÃVM¿\u000b\u0007¥ú\u001d´ð°\\ªìÂ³£á+Û8«úvÊS\u0005£ß\u000eÍÕD^&=uJ?#ó,Æ\u0007vï\u0003òÀÄ\"Ø1[à\u0018\u0019O`ÂDï·\u0019òp´ßqÒåÊÜ.½>ïà\"!Q",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:28:22.557275+00:00",
+        "host": "onepass.geetest.com",
+        "path": "/get_config",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"opsalt\":\"oKxvTU9e99nq9COzFZeg4TsKfkjK1ApkOYP85WrYxWIZGf7i7mmh3iuCyjUbybKdFtBXexp1HQgb5iglmRlnVDS\\/9tTXRB3PIol7No0BTVWCw5CwS6kPiE6PVxA2GhuNVsRONci0sJ8F1UHToFnZIrQmt2ZpQ3n25imcCHlXg3f1LMUIzAfFaOsNwYXTOfYa54kYc9CiQXMx5M1q3bVl7wE90a3iJbKb9gmqh5DXa5bJRYUP07kF7WqkNE448cX4\",\"clienttype\":\"1\",\"sdk\":\"2.9.7\",\"timestamp\":\"1781220501\",\"process_id\":\"fd29be775e4559b7f72711c7d4900c08\",\"sign\":\"39732f8bf71c8e7447d29b24e20726ba743803c31120c674d9229659f8198817\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:28:22.667881+00:00",
+        "host": "license.vod2.myqcloud.com",
+        "path": "/license/v2/1253881601_1/v_cube.license",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 304
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:28:22.728591+00:00",
+        "host": "license.vod2.myqcloud.com",
+        "path": "/license/v2/1253881601_1/v_cube.license",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 304
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:28:22.828126+00:00",
+        "host": "mlvbdc.live.tlivesource.com",
+        "path": "/liteav",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "¥¿NÃ0\u0010ÆßÅs\u0013\u001d;u²uG¼\u0000BÑÅ¾\b\u0012W[© î 1²³\u00141ð\bÇ©x\r´Mù3É÷»|ßÝù|Çp±(*Ër0ãê\u001apYø&Ì¢G_Ü\rÿ4X\u0013ËÙîåc·}ÝmßvïOÏ\u000f÷yÅWèì<\u000eâÖU6¶Îx×²É \\QÛU®\tÚ,±\f´\\{ê²ºíë2\u0005\u0000#ì|KX\u000f\r±\u0011zwM½^¡¶\\ë2B\u0014ÉT«H\u001bÒÔ\u0018%qn²Qt*ËyÅ\u0010s)¥\niK«½?ð@k\"\u0017¡ÒèLaÊ)QB%YJ¥´ A§ÈSm°4\t\u001cô~½è/cvv\u001eÍÎàHËÿøRÛ\u0016ÆÙÞ÷\u0018VÍÜí/VÔø}Û\u001c²~Êü±\r\u001eÂÎ^\u001fÒ}°þ>\"\u0002ZVODñ{Å\u0007ÜoúàÆGX;»¼¡Á\u0003È/nÐÏ][³\\¬£vU<EØý \rCkÍS8eöÕªþ=ñ©æB\u0002¾¹°?\u0015<Í\u0017",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:28:22.958229+00:00",
+        "host": "onepass.geetest.com",
+        "path": "/get_config",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"opsalt\":\"X1pJ6UoTdGf9Wd2gcO6Z5p3KTJozl+jpwPjAPamFjF39BWSfWJA3Zybbm20NHIJrfkUZ\\/pNOqO6\\/X9wjGCidxBGcx73dt2OrjkUYj9DHkj0Tg0hN48kow+eleU2dIiCNXAmtIGr\\/YFmwdhe9WJMwpsMqeV6W4cur7dVkENCzeAK58oGmOXWrSxb9sj6u6FRGfrfvMS3YlpbbTS3nrtJ0MOtoIDbWo6asaOhqbtRiMRPJKEBHsdU5qzt\\/3f5pToM4\",\"clienttype\":\"1\",\"sdk\":\"2.9.7\",\"timestamp\":\"1781220501\",\"process_id\":\"f4bac302b99680b7a47aebb3c6f2122b\",\"sign\":\"87f033ae5052dd9da480e41ddffa50e5e5331a0b2d3b2cb1ca4c0fec87500f15\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:28:22.964159+00:00",
+        "host": "cnlogs.umeng.com",
+        "path": "/common_inout_logs",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "*º=5e202=;`iö¶ë\u00067Ô5HrM-¬Úé_ÀK8\rÙ%±ÚÁ8l÷¥Øi ñ ëD7ËÏ-\u001dq\tï{¢ÿ~×)rvÚéÔ\u0000æ\u0006\u0005óáòòËØ$Ï\"\r~\u0003Ã9íC®õ`ìKa¹9ÜÓîn-ì\u0014ÃLiNÝu&ì^¼$Y,Õ\u000bï\u0014ò#v\u001dXÇ·£Üu¸Ï¶LèÕ}Íe6§o¡LãZs\u000fá\u0005d®8ðÌ=\u0016LÝzô¹RÛÍe\u001d\u0010d¢^æ9ê>áC\u001at÷gß\u001bH\u0010ø*-»§cêú\u0005ªÝ\b÷B  ¡%§\u0004öØçx\u0018¨ü/ñ\u001dL³æbIyAj<¸²xdKèP¼QkVÄ\u0002_\u0002ï\u0007*¦ûýáû¹ÙmÈ5¢ø?ZÍu!½\r\u0016Ê3\u0018'{6\u0003ÃDY\u000bÃ?Ýæ/nGÞÁáH\nM¿a\u0015\u0003*Êby³éÁ\u0012\u0003æÇG©Y\u00034Hjb\u001bS\u0003'§öÑæÎ6ï\u000f\u0019\u0019\u000fn\bÒ\u0006\"CäEÅû\\z¾=¾¼«²¢MvEJÔ~þ´^'¿\u0012Y4Ã I\u0005î`\"÷y F¬3ÐwµrwcÀû¹F.a¤ü[ýK;Wk ø\u0010Ô\u0001fÎÊ3NyeÑ2¨PWÐôDvÁ÷ÜE/z\u000eê²\r%äÆþ³¢~3¤\u0001\u0004\u0015ì°©\u000e\u0007üzq\u001f\u0015Àªjú÷ø\u00015=AHvQ¨Ço\u0001Ü#öó\u0013\u0016fõ\u0003í%5=+|Yá'u\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:28:23.080245+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/multipoint_getMultipointOfDaoRu?ck=ad944f-j0-1-0-a1e821ef-2979-4155-826f-2b7338d14448",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "hdfts=1781220501&di=8a4d4e29-177a-490a-bf59-1f505314d70a&_hdfBSMiniwua=AQAA_q5ddQss1tOH4rETlYsqylEQ80bDAZy%2FJNjuAvT99tE0%3D&_hdfBSSign=RDEA_JAEAAAAA9K1XSbSiBgAeZhHHnVeKfjdbPwZNFNXGModshDi7i6MNOIeZOE8w2%2BaZEU8%3D&spaceId=0&deviceOpenUDID=8a4d4e29-177a-490a-bf59-1f505314d70a&api=1.2&hdfhs=76bb91ff3931b1e7ca920a4f0acf4d93&_hdfSignature=43561cf09034efbb2e47cb4256357f39&app=d&deviceType=ALN-AL00&certificateToken=&sv=12&os=a&userId=0&m=ALN-AL00&n=2&deviceToken=8a4d4e29-177a-490a-bf59-1f505314d70a&p=0&ct=&s=tc&v=9.4.4&hdfti=1781220501491&_hdfBSSignApi=multipoint_getMultipointOfDaoRu&cid=0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:28:23.083287+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/doctoruser_getBaseInfo?ck=ad944f-j0-0-0-d8733180-6f93-4eda-ade1-4790289dd480",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "hdfts=1781220501&di=8a4d4e29-177a-490a-bf59-1f505314d70a&_hdfBSMiniwua=AQAA_7Sa32mLUjtC2Xel79uTPI3JCC4mL5MKSYMdUtU0BLp0%3D&_hdfBSSign=RDEA_JAEAAAAAnGFXSbSiBgDu0eEnEOnREwEfwo0iIO1cjDJU8IWRIHAnrrdZhI%2FCdOMEHME%3D&spaceId=0&deviceOpenUDID=8a4d4e29-177a-490a-bf59-1f505314d70a&api=1.2&hdfhs=59c5b6c41623e48772ee15775aad3576&_hdfSignature=19681b404f414a1268776c6d66742e73&app=d&deviceType=ALN-AL00&certificateToken=&sv=12&os=a&userId=0&m=ALN-AL00&n=2&deviceToken=8a4d4e29-177a-490a-bf59-1f505314d70a&p=0&ct=&s=tc&v=9.4.4&hdfti=1781220501471&_hdfBSSignApi=doctoruser_getBaseInfo&cid=0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:28:23.299931+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/doctoruser_getOneLoginWay?ck=ad944f-j0-2-0-e79f652d-a146-4f56-9e60-0995fa407919",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "hdfts=1781220501&di=8a4d4e29-177a-490a-bf59-1f505314d70a&_hdfBSMiniwua=AQAA_gRaeypYRU%2FEKMDtoWjFaLmkXDQUMlPFD827Fh9O8GSPC0SnOlfNMu7V1Er1FxQsJ&_hdfBSSign=RDEA_JAEAAAAAKWpcSbSiBgDOhtOCtDpGdZqJ%2BCthhdsmZ%2F5ffO8FyJVTcHHYqa9QlPMs0og%3D&spaceId=0&deviceOpenUDID=8a4d4e29-177a-490a-bf59-1f505314d70a&api=1.2&hdfhs=c1e6993718f9d8d3b262cffdbd1091f5&_hdfSignature=89c1ef98b7409244a8a7defbc588a389&app=d&deviceType=ALN-AL00&certificateToken=&sv=12&os=a&userId=0&m=ALN-AL00&n=2&deviceToken=8a4d4e29-177a-490a-bf59-1f505314d70a&p=0&ct=&s=tc&v=9.4.4&hdfti=1781220501808&_hdfBSSignApi=doctoruser_getOneLoginWay&cid=0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:28:23.485787+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/authcenter_getHomePageInfo?ck=ad944f-j0-3-0-ea3f24e2-60f7-4f4d-a39a-9eaf62155032",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "hdfts=1781220501&di=8a4d4e29-177a-490a-bf59-1f505314d70a&_hdfBSMiniwua=AQAA_gRaeypYRU%2FEKMDtoWjFaLmkXDQUMlPFD827Fh9O8GSPC0SnOlfNMu7V1Er1FxQsJ&_hdfBSSign=RDEA_JAEAAAAAtLlcSbSiBgBteYxFPVcTGCHyIP0E5KYMAMf0KFYpt7guoQTq8zQNV6LEMVI%3D&spaceId=0&deviceOpenUDID=8a4d4e29-177a-490a-bf59-1f505314d70a&api=1.2&hdfhs=54c3c1de640f334b633eee691d600d38&_hdfSignature=920092106c2ac598f186cf739d5b52eb&app=d&deviceType=ALN-AL00&certificateToken=&sv=12&os=a&userId=0&m=ALN-AL00&n=2&deviceToken=8a4d4e29-177a-490a-bf59-1f505314d70a&p=0&ct=&s=tc&v=9.4.4&hdfti=1781220501828&_hdfBSSignApi=authcenter_getHomePageInfo&cid=0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:28:25.428927+00:00",
+        "host": "audid.umeng.com",
+        "path": "/v3/a/audid/req",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "WmZmxT7O9w3nXKag5J0HA7rE9Z52ceGeOfZI0STh4eDdYh+LSM0bnWFIzvZDzK/x5d3JjyK4pGzCVlc/SffGj10RSIT137kySr6iDWMtHwWe86wxFRZa78lVmW0fzOnY3v9ITXpdiyC/ZIsljxYoaJQILTOKeOsFmndsRc/z7Q8FV+IASviXPvAWtw8YssPOWItI/g/iJ5H7wd33Q6SSmCHp3nxZsUZSynD0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:28:27.308255+00:00",
+        "host": "cnlogs.umeng.com",
+        "path": "/unify_logs",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u0018\u00031.0\u0018\u00185076a76552701569380000ab\u0018@2b17976caa3a8ec8790c50822ed28788357933d7b8ea09b7dd20fe2c8fc8fe69\u0015f\u0015´Ú¢\r\u0015Ê*\u0018È\rxm\u0016ÉÛÈõW\f9$p+Åbq\u0005|(Zèi²-µ$6\u0005\u0001B¤$«Ij£áû$Hn¹ç2A\u000eù\u0000Aþ&ÆüF^U«3mcVóí{Õ«Ï·ûù¹ó¶w\u001d³£È¦L2515-ÙìõMLË2¥¾©ëæ°g\u000e±ÙG\u001c\u001ehw\\±@ôL=Õ$}SSL$Cb\u000e-S3L\u0002Ò=\u0013\u000f8\u0011þkI5S\u0019rI\u0005¸ý\u00150ò\u001fñl<·2±ë#½*r)\u00197?¿çRì\u0004BFt\tÇNAÇ4\b\u0001(ÎB`0YF[]&LW#C'²ª,Ø\u0006\u0001\u000e¶L5\fP\tÊ#ÈÑ©sÒßU\u0011Du]ToªèôFzó[Æª`¯ßqÓY\u001eðT¤*¬pJØ\u0000aÆ6iÔp´Lx¹\"ëîY\u0011n»,\u000f«\"\u000e»a\u00114E%2\u0012\u001aô.,ð\u0018\tV\t\u000b´ ¼!X\u0016\u000bÞ»wô\u001e!NØ\u0014ì;J¸\u0001ÂxN½-Âc9\u00184M×\u0015,©\u001aBHØÙ~#\u0015ÆÜãH=\u0015xÎ­¦is¬àµ0Eým UÊ9HG¿\fÌÝg¼\u0018Ó´\u001dSoÀSë»²W¢Ýs$`ÕM2kîíëßÿóõ§|ýé_ÿüïÿú·ÿø£h#·w·±ã{÷<µ;Id\u0014<÷[ï\u0016\u0004\u0005p89\u0013¡B\u0014¢ñeÝÆE LCì2\u0016\u0003Å9\u0011à(;u#kw$RÐ\u001d3¤à.Ül$cK\bQEy³]×ç¸\tà,tê\u0018\u0001­ó]T­ÁCÔ1ÁbÁâp]Eq\u0015ë&Î¢[ªu\u0005\u0010\u0000Úr\u0007XÁú®Ó(èS\u0019«)^×~V\u001eíå\tý°¸$Aº\u001b\r?\u001déxo}bÊüº\u001eZ8q]o\u0012\u0003\r\u001eÔ\f¯ÂÏ¸ÿd»Ûù8\u001dJú -Y¸,q\"míýeã½}\\î7­;JÊdEÚÇû\u000b¡â¸´µ(\u0014ÔOÔ`Ï[Ò<×)á§\u001di*Ó`Ä±$E5d\u001d\u0006\t±huÁ%h¼¸ØÞ\u0005ãàÎO]^\u0015ò¹×ðâ÷\t\u001b©c5\u001f6(úÈµHÅ\n!0!VTBÐPUF \u0017:$e+\u0011ÝÛ3¢5ñ)\u0012èéeÊxØ2?×YÃï¦òXï×üàâ.ê¢Î\u0017Ñ÷\u0013çÄëST\u0014\u0005ªì¿LyÃÕ®&®úk]Y$¸áÜ0ç·ÿ·ÇK\u0006Ö¿ae¶M\u0019\u001fñÏ«\u000epë¸ÈW¼Ë«NP±z\u000f°ô\u0002`'ö\u001awEn7\nË«\u001bT¾\b¥ìf)²\u001bGÍ\rÚ+¯ÝÌëè\u0017õ]tcÅY\u0018\fjZì~±F,áØ\u0017hÅ[?pæ¶@^*\u001dg%@£3vz-ñ2\u0019õc\rÈÄ\u001a]Ë'ÎlÒ:Vrq\u001eÏ@_\u001efþÙ=Øµsð¯ÎÌQî­ò`9´çU\u001e\f\r¼|úÐ2Ï8è\\¹?L.¥£å(Mäi;¢èâ¶»s\u0018ÈÎÁAÜ\"¥Siã¥àýÃÍæÈå¼Éu»3\u001f¹#7\u0001ØM\u0007Ï! qq=ÿâZÉÒò\u0014H¯=Ú\u0017gGgÌSÚp4¬7Cc\u001f{Û0[µ\u0000§§Í~7|x$\bâ¢=ì\u0016¾§\u001cÞÙ§ùô@{½r»È÷.õ\u0013îÃÑ\u00021OJG=\u00072·ñýJðSl^VùÃ^\u001f\u000e\u000e¡tù=MÑòÉöéRúäû½Ù¼q\u001fDix\u000e²×Ï\u0012ü`ù\u0017J\ráq?ûü.\u001e:-CÏ=úq\u001b@µ\u0003\u0019ºrXÉÑíC\u000eÖàz? GÃ\\qÛ9tÒU>Ø¾=\\Á\u0017Y\u001cÉþº3»]Îlâ´»3H#\u001fÛ¥fËÙ4£ôýû\u0015ß\u000bñº\u000eõéÕ¡z\u001b7\u00074Ùx\u0013iÔ3öNë\u001dÜ;\u0003âfsIë\u001e\t÷äcçêãåÞ=$Ê°ú4ìCoy÷)]HáhZ®òeoçû¼A­Ü·Áe1L\u0007ù\"~Ì\u0016ÃÅÂýaîMýo5Ëý&^7\u0018¦\b~£\u001eE0Ð)GÚáiêZnìZvûV/qnÁaóîÏ]ÉOR§)Ä'{þ\u0004L|¶©ø¬wávÍÓÎ2âû|Ýì³uû\u0010ÖÉ¯®:düj\ti¶®5l\u0011ùm³\u0013GtÂ\u0010ö®)u5E e\f[EG\u0010V\u001dçÛâYw\u001bßÖ:V\fYB\n\u0012VXzü5rp{¼<=J\u0016$p5ÄyÝ0Xò¸\u000fü>eªH\u001c«\n¾Byêü¥\u0011VW?\t¿ùï¿þôõ/?j\u0010¸&·µ\u0010«_]ÂHFº\f[â]Gì\u0010\u0016\u001ap¹«è*¼²°¢ë\u0006¼\u001cnÁ\b/GSß41«ÂvDáNâiM\u0015Ë:ÑtY\u0015\t\u0010]Òà½a\u0018ø×\u0014¿|ù\u001f\u000fV\u001a°\u0018@b153086fed697fcbc35f5781f581b08b082a4fd478b9a0b4fc73252f5a9bd503\u0018 645c279db638e95b242d904ac5929f5a\u0015\u0000\u0000",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:28:27.363700+00:00",
+        "host": "errnewlog.umeng.com",
+        "path": "/apm_cc",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:28:30.453643+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/authcenter_getHomePageInfo?ck=ad944f-j0-0-0-1de331b2-fff6-4653-ae71-928487b32e6a",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "hdfts=1781220509&di=8a4d4e29-177a-490a-bf59-1f505314d70a&_hdfBSMiniwua=AQAA_gRaeypYRU%2FEKMDtoWjFaLmkXDQUMlPFD827Fh9O8GSPC0SnOlfNMu7V1Er1FxQsJ&_hdfBSSign=RDEA_JAIAAAAAwUDPSbSiBgCNnSaOwJLt%2B5awOkdWjkjD3QUJb6ghURB2X8IirZ%2BAbZglpuY%3D&spaceId=0&deviceOpenUDID=8a4d4e29-177a-490a-bf59-1f505314d70a&api=1.2&hdfhs=a7607c3f61e43315ba427e5662b5c80b&_hdfSignature=4330818a240482c0053bb6c4719f77c0&app=d&deviceType=ALN-AL00&certificateToken=&sv=12&os=a&userId=0&m=ALN-AL00&n=2&deviceToken=8a4d4e29-177a-490a-bf59-1f505314d70a&p=0&ct=&s=tc&v=9.4.4&hdfti=1781220508993&_hdfBSSignApi=authcenter_getHomePageInfo&cid=0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:28:31.891064+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/nlog/info/android?ck=ad944f-j0-0-0-15fd31b7-4975-4491-ba2f-2aae2653e0ad",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"hdfts\"\r\nContent-Length: 10\r\n\r\n1781220510\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"di\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"_hdfBSMiniwua\"\r\nContent-Length: 69\r\n\r\nAQAA_gRaeypYRU/EKMDtoWjFaLmkXDQUMlPFD827Fh9O8GSPC0SnOlfNMu7V1Er1FxQsJ\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"_hdfBSSign\"\r\nContent-Length: 73\r\n\r\nRDEA_JAEAAAAA8pjmSbSiBgAXbPNm0CeveN8nmgkPmiWfBVNHDBF8us74VXmdU5c8nPOAg/o=\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"spaceId\"\r\nContent-Length: 1\r\n\r\n0\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"deviceOpenUDID\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"api\"\r\nContent-Length: 3\r\n\r\n1.2\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"hdfhs\"\r\nContent-Length: 32\r\n\r\nd7a1ef204f38c6b29a679db08c65d7f4\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"_hdfSignature\"\r\nContent-Length: 32\r\n\r\n1fc2280d2ef8d4065dc5edfdbd0b31f6\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"app\"\r\nContent-Length: 1\r\n\r\nd\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"deviceType\"\r\nContent-Length: 8\r\n\r\nALN-AL00\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"certificateToken\"\r\nContent-Length: 0\r\n\r\n\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"sv\"\r\nContent-Length: 2\r\n\r\n12\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"os\"\r\nContent-Length: 1\r\n\r\na\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"userId\"\r\nContent-Length: 1\r\n\r\n0\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"m\"\r\nContent-Length: 8\r\n\r\nALN-AL00\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"n\"\r\nContent-Length: 1\r\n\r\n2\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"deviceToken\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"p\"\r\nContent-Length: 1\r\n\r\n0\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"ct\"\r\nContent-Length: 0\r\n\r\n\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"s\"\r\nContent-Length: 2\r\n\r\ntc\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"v\"\r\nContent-Length: 5\r\n\r\n9.4.4\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"hdfti\"\r\nContent-Length: 13\r\n\r\n1781220510429\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"_hdfBSSignApi\"\r\nContent-Length: 7\r\n\r\nandroid\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"cid\"\r\nContent-Length: 1\r\n\r\n0\r\n--7c56e672-9484-4451-9e2b-8ddcc5c240d3\r\nContent-Disposition: form-data; name=\"content\"; filename=\"1781220510428.xlog\"\r\nContent-Type: text/plain\r\nContent-Length: 8455\r\n\r\n\u0006\u0000\u0000\u0007\u0007\u001a\u0000\u0000\u0000\u0000ÂµhfÈÉ8\u001a\u000eäbã^\u000bð~â\u001f:W·î\u0017\u001f\u000eÑ8C£$='{\u0019ÂpLúõ\u000f\u0006S[6XwêØsáÞÉÀÕû~~~~~ begin of mmap ~~~~~\n\u0000\u0007\u0004\u0000\u0006\u0007z\u0005\u0000\u0000¾é´9aÅTÛ5\"\u001eÖ2\u0006\u0007zð»\b\u001d¨ÌåÛgE\u0000\u001cgßGô\u000fê\u0015Ý ÿ©\u001fXÝ\u000b9&õ|},Êß\u001c!HMlw\u001búgõT;I?lBz¬Lä\b®ò\u0004Èõæ1«dV¦\u0016Ã!iÔA²ã¯Â{t0×Bä¢W¿àªü}§Å|6öÀ~Î\u0006áñã«\u0002\r#{È¤÷¸\u001eËû\u0003ú3hû\u0013ãfeb\u001f^\"OÃ­Às\u0006üd\u000eá.µ\u0000\f÷Rm,G!\u001fÓXé}\u000fº¾w¿¯XÐè\u0003q>\u0012ºWIíÒ49Ú\b*S¬@\u000eÞ´Ho}²àþÉp\u0000zÉ\u0011\u001d\"õw\u0017_ó3r\u00028¢YÙ\u0003Ï\tXsøóèúÿT\u0015\u0004R¦Í_VÓïcB\u0017­\u0002,ßÇóÂ¼\u00159\u0001\u001cgþTI\tRWV¬Â:¥\u0013 ßX\u0015tr¶äÀß\u0004¿»qÎ1v\u001cÖí¡óxp­ºs;³ ¹Å'KÏÉ\b.Ú¹[éóLV\r\r*Ò¾¤OüRÆ¿ç\u0010(ÌÀNN¯\\îüäÓÜÒ'F\u0007©\u0016M?Kº¥j)ñ£0½t\u0018\u0010¾bP¨ÄHá¾½#ûÔ\u001a_G~y¾'IwåLå\u0017éÃÙ§®)>ØÛ¼íãêcNªÂÉü\u0000$Î.KYã1îeZo`&*\u0000Ñ1{'Ê££cëEÉ¼|©¶?gå\u001a\u0017\u001d°ì/Di§ÏPêè[v(Qe\u001b«¨\u001b\u0003>\u0006Í*-o¥\u0011ky\f\u000b\u000f\\ÊµjpN\u0004N\u0005UváÒ\u0012Ðø*yê×*½c\u0012å.\u001cÇ«z{ÈWËo¡\u0005`¾(gg¡jGU\u001cÚTòÇu\u0018§§´ \t.qÖJwÛW@æØ2qc¡¿y\t\u000fE(\u0006\t6àuxß¶(\u001eoGgÉüölzÀHÑx|öâ\r\u0002É\u0005É¥ÕÙNöÉÊÝyQX^ÝdW¯\u0000îJbh\u0018¢ïá#\r,\u001fû§á\u0014Ä.U\u0005­P¾ëá\u001akcßÔ\u0019H(\b\u0000\u001d7Ê°²Ë\u0014°nf\u0016@>hSÂ?ÆA\u0011%ûc\u001fé÷\u0007\u0018\b¥ÍæÀÐt/i2´¬iK\u000bÈ.º\u0014Ds\"\u000båØ\u001d¸ûÂ\u0002MÒ\u001f«M¡<îÿÛ :¼{n&{­XÿîÂÈ#íF¾Q$SúÎL}Ë6ÀÅ\u0013[dñÃÊ±tBçæ&Ñ3þs¾Ú3ð¿c¥\njDÅ2ú~47ú«ÄI\u0004âè®û~i\u0019\tÖ0\u00010\bT\u0016{å¹|.s\u001c\u000eV?Ãð7gC\u000fÜN\n_í£\u0016L6èÒ6\u0016ì4³¨Fø¼\u0013\bJkM\u000bdäögðcZþWöq\nÑ\u0000Ü¡ëð#áÂ\u001bÂ`\u0017áw3¥Ýg\u001cÝ(q=%û¶¯|\b]½Qcw17ô¸Jä\u000b\u000e±hÌYYøý\u0014¨\u0017×î\u001bÅAwõ·¨ê\u0011ÏÛ_íôZÕþÅ\u0014þãì Äé\t¢\u001djlRâ~ez\t`2&h\u0003|bn\u0002\u0010q$·§ÏÉje\u0004Q¡<ô\nh$¬\u0013îíþüQÛû\u0015É<N\u001fæÂ­]FH\u001d³n\tQ\u001duú\u001cök¾sÔê\u0005Ù$d_roÙc®Å\u001f\u000fm/H\u001e#øú\u0011\bØüªÝJ¦\u001cl<\u0001*êê¢÷¹\u0019°Uì?\u000b]iø^Ë!\u0015Y¨Z¹°ÌZqÍ\u001fiäµI\u001c³\u0001\u001aÑ>¦\u0016S\u0006í<û\u001aNÂ6\u0018%§-ðæ\bâ\"3¤Gº¡\u001a\u000b½²\u000f\u001d1\u0013!,¸]\u0000Å~\f\u0011aÞ}Tú¦@ÇVKiþvN/BPüÁ*\u0006Û\f\u001bE\u000f]\u0015(lDÕ\u001e¿ëv\u0000Ô\u001d)ùA\":Ëã\u001eüBm\t&ºcØY\"®ç\u0013T¿x\u001d¶hUFË½=QI\"¯0:àm©­\tßKã\r¥Äó¹óíÜ·É;\n¤\u001f®¾»iCºttk\u0018OÖ1\u0005h\u0001ÕèNþ\u0011C\u0014å\u0010#Ð¼8S$¨á\u0000lø\u0006X¹Óft´\u0006ù¯Ìe¼¿rh2i\u001cUÐ²d Æ¯0Êçh~QtN\r¬Di_ÿÿ\u0000\u0006\u0000\u0000\u0007\u0007@\u0000\u0000\u0000\u0000ÂµhfÈÉ8\u001a\u000eäbã^\u000bð~â\u001f:W·î\u0017\u001f\u000eÑ8C£$='{\u0019ÂpLúõ\u000f\u0006S[6XwêØsáÞÉÀÕû~~~~~ end of mmap ~~~~~[29569,29569][2026-06-12 +0800 07:28:20]\n\u0000\u0007\u0002\u0000\u0007\u0007\u000b\u001a\u0000\u0000\u0000ÂµhfÈÉ8\u001a\u000eäbã^\u000bð~â\u001f:W·î\u0017\u001f\u000eÑ8C£$='{\u0019ÂpLúõ\u000f\u0006S[6XwêØsáÞÉÀÕûE\u0018±\u0011,ZË\fÈ\u001dÅ3Íá·\u0007NÈ\u001a.~SÉ^4ýÐ\u0007/µæý5ä]P¢±C\u0013Í/¥Ñ\u00016û|u$G60`0`\u001fâ!r÷NeÃlàÁ¦\u0010\u0012\u0001\u000bY\u0019VÌ;:é³\u000f¼æÃW\u001d&õiÑÁiòÕTï\u000bY\fÒã\u0013\u0014ô¥b_ÅÏ¾N\u0013ãÖQå$\b:Ìß²GÃb\n\u0003º¤\u0006~R&)\rè?Ð\u001cïÝmÚIÌ\f­f]-\u0012A@ñOÎÆÏ»l-{_Ú\u001b¢~\u000exmrEÖ1DRü¹wxm\"P~E¹Ìz¨¢e5ë#\u0017\n\u0019v@\rJWÈ5`I$-\n)ÃµÂ.ñ*Ù\u0004)}\u000fª\fõÕF6¥eVrM\u000e\u0013ÌÅMb\"A<ßþÖ· CíÍÆ´}/\fP¶\u0016\"ìmbÝü\u0014¢fÂÒøk\u001aõë¡'Ôh\u0005\u0010ºNPnJieR\u0007qQöe~1¯M\"ÙÎ}<¿ñQp\u0014EeY!Sc¶ÏËÑcQç¨C£á\u0004ÚaEZáÖ7h<>£°\u000bÏ\rÕàÆ\r>²ÁI¬OÍZï\u001bYÿ§\u0002ê9JÅ§óD&à¼\u001e(­ìÁ^Éöa\"?Òwh×\u0014Å3Àç\u000eÿÑ-]â´½c\b³î3:jhIfºÊõnÓB\"×ôD17yÇ\u0000»\b ÄÌ\u0018Ï\\!\u000eóÉ{¦h/eÄEÚVíu\fÐ\u0004×\u0007±Ñ F¿F\u0014£\u0005È§þ=¯yÛõ÷Éo\u0000}9éËÂ\u0006x*\b±1\"¯ò\u0014ë3Ã¶î~áÅ}ÑV>Ý\u0005°y\u00053G×-ó\u000bÎ*Z$¶£4ÅáËéá +©g¿þ\nY®é\"\u0014Ï\u0014C8AJ\u0001'\u001f¬7¿'\u0013HTÎñ\u0000\u001e1ËIÝ\u001fsûu2\u00029Û'èK?¯þ2RÆè¥Â¸zNð\u0012\u0011Öù\u0002\u0011³!âgoæTë#î$Gók5l2\u0011#XoÃ1vï~\u0004c\u001dp¼ô1\nÃô\u001b\u0014\u001d¾¿Û\u0013 \fñØ&Ô·³`öðzª\u000enGiñ\u00066s£=#ã\u0007ã\u0012¦'ÓßmÒÒ7B\u0014\t[\u001bIGq\u001ca]\u0002g\rQÝTxÈ\u000f2uÏ_ILÙÅ;æ/k¡\u0003üp÷h¢bÑ\b\"d\u0017ôÞ\n`éçÜ±ÖXëû¸ \u000eþg\u0014¨>[¤ÁEú°3\u0007ÀUbt4ÁÓQÚéÊ&A¡úsnô·BþµdSAp×³àETÚ8gä\u0004\u0014Ò$Å\u0011$¡Ñ¡Y&¬#\u0015«¸(ý@:\t÷Ýa¶ëk\u0010èM«ªÀÅj^\u001bVô|Ëf½Æäþoîí\u0010mÿÂm~ÍY<Ó«Êïó¥«\u001c¨\u0017\r@hP¿¾\fÍ¬(1<\u0000{pIz}.\u0006Yþ*_\u0010\u0010\\Dc¦\u00112å`gË$\u0003øÎ7øñÉ\u0012?¯)1i°¥\u00184&ÃÎ\u0018Z \\5&\u001b°x\u0010B¯QÂ\u000eE\u0017½\u001bÐÐ3W´Þ>Ê\u0015Ê\u0017ffk\u00051\u00185v¦Ö»\u001f\u001b-P\u000e\u0014e(ä!xÓÔÎ\u0018\u0014áYB´J©[rG\u0007\u0016\u000b®&Ð³8\tF*ûß¬þ\u001b6\u001dÿ\u0018\u0004ç¿iü(¯\u0007Å¦É¶ù\u001bh:Ác\u0006\u001fg½àX×^\t¿ã³®\u0012¸\u0017>A;Ç¿\u0007BYÁWÑµ3>CÝ:ÛMÑ\u000fTW¢3#ô5Á5Ô\u001f´<ÑÂ©á²\nÄ~¶ånyýsk«7[en9\u0004êÖ42LÞ\u001b\u0012¯ò~ácº>WÇ¢<ù~\u0000*ÿZÄ{ù¥\u0010»ýÂ0\u001bOdjöoÏw\u001e¾µ[çÈwsIÊ©L\u0018\u0003\u0005w,pmðì!Ï\"K\b¼3Ð\f\u000by}ÊgðH\n/C( .½DrBwÁöÞk<íIf»Ç©Ù\\Ê\u00161¯7¦»»\u0000,\u0004ãÂcú¾Ã¤ó\r-Ý\rÇ^\u0007\u0010*Öô+Õ\f\u001bÌÛ\f\u000e:\u0004;)²!Åá,%Í»ì<Zþ¬»y·ÝÍ'4ñ«\fXK\u0005^#xÉ\u0000ør½n\r¶Au¬+]Ãmñhvq\u0013ü¤îk\u001båãmÔÊÁ\u000eX'åt3)îºBu\u0017ÈÂ\"nÓlãØt\r\u0011¾ùWaõï~AÍC\t])\u0016\u0019U¨\r²fUÌká8¬1/m7¹sY[]ðÐp}eeaMEÎ|?f\r\u0007B\u000bm\"\bæÕ®É9¬³6¯£u\nö\u0007Â\b4ç·\u001b(ì)>\u001aã\u000f\u0019Üoþ|·³.{èmé\u0015Ñoën^ð;ß°g¼ÕdÞ¨\u0001ö<Ì\u0003ÕÃôÑEöß\u0005¸!óÞpÆ×é2n-¡C4Â\u0018ºÞ &Ok¯ãã& ðSÑ¹Øî\u0014á?ó&ûq\u0002÷\u0003êô\u0014S\u001a\u0013ïfN³æ\u0005åÃPOõÒÆÔnûùò¥NU\u001c\tæ¶û0yãzwcFqM\b¡ý-\u0016*G.ÎW\tRwö©XÁr\u001b­³B7]vâ\u0012³qã\\ \u0011©j°\u001dc¦|\u001a?\rÂf÷cäîÇ¿)\u001c±\u0015:\u0017!êYþh\u0002<_çN¾b!:dQóÞ\u0005nÓ\u000e9?2ý\u001fP¥ÒIq>\r²Ò±÷´\u000fh\u001bÊ,\u0005®M\u0002®¬Åu\ryì,\u0001ÜÞ¤KÉ\u0000¨aæFv6ê\fÉ:«#ýL) |¿GÆ\r\u001açûM¾óV#´öjuq\týF\u0019~Á×%½ÃL:ÜTÉUÑ\u0013pe¬\r\nÔààº°Z\u000e$R+Tnr\n¦\u0014ÏõÓÜuë'ý)´Z#/÷Í:V\r°\u001a0fºqÏ,ù$1ZÛt!ÉÇè³Ð\u0013Ýâ)ì?÷ÈXkmOHö¾meYwÿ¾Tj\u0010±\u001d \n!%<â.Ó?¤çò»Ô­\\\u0001Ðm\u001d7£OÕSKõÆE$©\u0011\u0014Å=Ã+0$\u0011æíúV('\u0016JÒì+!$S\u000fAÙp±°QÝÊ&»åîï}\u0016ÌB»áé\u0017+`ÿ·SJE±6èÖ#\"~\u001aå¬Mjv!;Ñê\u001dÇïëNM\r@Ó6þÂyÍðJ\nQûþ¹ñt%\u0010\u0001Clë6Zn)Ák¢ys!<¡¿1º,K¬Üÿ×\u0019qM%P,%±\n§ä\u0012³\u0003E®\u0004þ`øôþ\r\u0005¢\u0018J¹¢H&A\u001f'þÄM££Qp\u0016¼D±Úø÷a%%\u0005\u0007P£\fã1ÞúÎ&%×õ:Û1\u0013J)ÖN¾ÍÍ5ÍÎ9\u0004Í\u000ecíF\u0010-OD8´¸tÇB?yâ?Qý×\u0017«\u0002VU¾òr¤\u0004MB\bÒs\f\t4\u001e\u000eQ\nÇYëé¼\u001a0\u0017M\u000eácoè6$gü\u001aâ5x@\f\bVP9bòR5fâÒµµÆýÊ½Vß\tsë¢/¬¼=bV\u0013¾<!#§ï\u0006ÝhOÀ,ÚÛä·Å\u001a\u0006ác\u0014êö\u000ftlA&©©Ð×¬ñ^\u0019ùì\u000fÝ&¯_[£\tE×õô±¼\nYÌ««B¿\bz\u0000¸\u0018\u0002È\u000b~T¨ÒeÌ·x[Ëü\f\u0002:ùnßo[ü²#_üÉU&Bb[`{é³|\u0000(\u001aªlÙö±áîu«\u0006P\u001cÔµ7\b8ÇimêÕUì¼)â Bëo²¶4A\u000b\u000bÌ»^ò§^D×1Z¼î\u0017vù¢»x·-hdÙ$Ø³Ø±ÿ77Àe¾¬¶\u0011³$B/:¢\u0005\u0017\u00011¸í\"Ù/þ*mh?î5±»Rrq½\tèºñ×Ö'C\u00064ô\u000fMD¾ÓJÈSÜ(\u001eò/º{°©&\u0006(#'\u0019JDH\u0001ð?¬Yzvª\u001cÞ8V$3ÞuT\bÕAÙê¾P¶¿µÚoYÇTSÉ\\w>\rà+azÏ½ 5­\u0016\u0007x\u0002jQ\u001eè÷©=\u001c·XÕ2\u001cVó5ùkËn%´ÕÜxÚÏD\u0013v½\rG\nò\u000bËK-±\u000bôiÓY°¤V)îñ(Têù*xÆëuW]µ¾a\u0002L\u001a]Ñ|X¯\rÎÖ~\u001a\u0005nøÒÊïÉD Ûvæo<p »¾g¬ÅðëB¹\u0002æÕÈñðÄèÜ5jñMXÏs%}ªû¤²àRÊO¹\u0012Îª=",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:28:32.538613+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/nmonitor/imlogfile/android?ck=ad944f-j0-0-0-e605aa3b-c64c-4131-b80d-cd7c8d8e21eb",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"hdfts\"\r\nContent-Length: 10\r\n\r\n1781220511\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"di\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"_hdfBSMiniwua\"\r\nContent-Length: 69\r\n\r\nAQAA_gRaeypYRU/EKMDtoWjFaLmkXDQUMlPFD827Fh9O8GSPC0SnOlfNMu7V1Er1FxQsJ\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"_hdfBSSign\"\r\nContent-Length: 73\r\n\r\nRDEA_JAIAAAAAIjPzSbSiBgBSqHFDAxLbxJC6tS3BbG9Ync9elVOgvpaDqFcBY4BsxtWw5+E=\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"spaceId\"\r\nContent-Length: 1\r\n\r\n0\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"deviceOpenUDID\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"api\"\r\nContent-Length: 3\r\n\r\n1.2\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"hdfhs\"\r\nContent-Length: 32\r\n\r\n4539c52f59bb7cbe803a065991701040\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"_hdfSignature\"\r\nContent-Length: 32\r\n\r\nd282a679cf76019878eb895c4fc42fa3\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"app\"\r\nContent-Length: 1\r\n\r\nd\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"deviceType\"\r\nContent-Length: 8\r\n\r\nALN-AL00\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"certificateToken\"\r\nContent-Length: 0\r\n\r\n\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"sv\"\r\nContent-Length: 2\r\n\r\n12\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"os\"\r\nContent-Length: 1\r\n\r\na\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"userId\"\r\nContent-Length: 1\r\n\r\n0\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"m\"\r\nContent-Length: 8\r\n\r\nALN-AL00\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"n\"\r\nContent-Length: 1\r\n\r\n2\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"deviceToken\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"p\"\r\nContent-Length: 1\r\n\r\n0\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"ct\"\r\nContent-Length: 0\r\n\r\n\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"s\"\r\nContent-Length: 2\r\n\r\ntc\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"v\"\r\nContent-Length: 5\r\n\r\n9.4.4\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"hdfti\"\r\nContent-Length: 13\r\n\r\n1781220511207\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"_hdfBSSignApi\"\r\nContent-Length: 7\r\n\r\nandroid\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"cid\"\r\nContent-Length: 1\r\n\r\n0\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4\r\nContent-Disposition: form-data; name=\"content\"; filename=\"1781220501200.log\"\r\nContent-Type: text/plain\r\nContent-Length: 373\r\n\r\n{\"action\":\"android_log_doctor_PageDraw\",\"int1\":127,\"int2\":126,\"int3\":0,\"level\":\"\",\"mark\":\"R_d8a4d4e29-177a-490a-bf59-1f505314d70a_u0@_v944_HUAWEI_ALN-AL00_12  \",\"string1\":\"0\",\"string2\":\".authenticate.authv2.activity.RegisterGuideActivity\",\"string3\":\".doctor.start.SplashActivity\",\"string4\":\"doctoruser_getOneLoginWay\",\"string5\":\"\",\"time1\":\"2026-06-12 07:28:22\",\"time2\":\"\"}\n\r\n--312e94cd-3dc6-4ad3-83a3-f262a0c424c4--\r\n",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:28:37.331094+00:00",
+        "host": "cnlogs.umeng.com",
+        "path": "/ext_event",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "*º=5e202=;`iôVã\u00063Ô5\u0001\u0007f=·ó!Ù]\u0012Y#fÇ³Ûò0\u000e3C\u001fV¿-\u0004\u0016ýÛW?öÜF\u0013ñ\u0004M7Á»\u0016\u0006\u001bcp}»£UáäÚ\u001c®R.Ú)\u0004Íß&Ô*\u001c~?\u001eËL´[ÀyØ|djXk[À®{%xrùV7íª.{8ØDÖñO=v)_µ´¢ØôµNÆ\tÏR4½Ñ\u0010ªÂ«\u0003ÝR+3ä¤#ð\u001a\u000e ãæxÊ:â½»õÄ\u0018±ùú6\u0007\u000bJ()Á|W\u00039K®J\u001cÉ,Omkì@2ù¡ö\u000ftùØ*y²o_v¿$\u0019îPkMp('R÷°º\fÖîµÆ\u0000PðÝ\u0007t>\u00167µ¹hàÞ³Tn*~áÉA;¥â0c\"ß[=v´hMÊWóªÄ\f0\n\u0007¼2ö>î8k÷­g!ª\r*§æt}ëH<ct/\u001d@ò\u000eºÚ}»×±ûpÄß\u0012í_\u0007\\ ú=«Þñ2\u0014Ù]\u00128¾Ì#2ÕÛbåîô|óß?ð7¸°¹¥î~?C!úr\u0016C¬@ßwýlÉ<8,åÛB}\u0003\u0014¥8{]\u000f)*ï;ójícÏ\u001f\féí¦¯ñ\u0002òB8\u0019%ÛëÝ\u0015UqLÛ*À`ñ þ¼ÿ\u0015Ï3a;\u0003ÎG\u001b\feR\\cðH\u001c\u0002×È\u0002Tøþ©\tæ;=Þv`u^mÅÄµ\u001d­PÚîþ^;Âë\u0013=>ä\u0004ë\u000e\u0017\u0011:6y)ø$&rz)$ALDû=`çÔïuç\u000e©?\u0001Ã\u001fM\u001a",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:00.457217+00:00",
+        "host": "mobilegw.alipay.com",
+        "path": "/mgw.htm",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "operationType=com.alipay.tscentercore.deviceFingerPrint.config.report&id=1&requestData=%5B%7B%22apdid%22%3A%22gHlvGHn639ZWjeannYo0x8u8B9iez7jDorgLZEKHiIMIN3u4ngEAAA%3D%3D%22%2C%22deviceDataMap%22%3A%7B%22AA1%22%3A%22com.haodf.android.doctor%22%2C%22AA2%22%3A%229.4.4%22%2C%22AA3%22%3A%22APPSecuritySDK-mraas%22%2C%22AA4%22%3A%22P8.0.0.20250228%22%2C%22AE1%22%3A%22android%22%2C%22AE10%22%3A%22ALN-AL00%22%2C%22AE12%22%3A%2212%22%2C%22AE13%22%3A%2232%22%2C%22AE5%22%3A%22HUAWEI%22%2C%22CRASH%22%3A%22%22%2C%22TOKEN%22%3A%22gHlvGHn639ZWjeannYo0x8u8B9iez7jDorgLZEKHiIMIN3u4ngEAAA%3D%3D%22%2C%22edgeResourceData%22%3A%22%7B%7D%22%7D%2C%22os%22%3A%22android%22%7D%5D",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:00.771621+00:00",
+        "host": "119.29.29.98",
+        "path": "/d?id=39662&dn=3973a3b8ce9ff2186d38afa974d668508494589a94c4b7b6",
+        "method": "GET",
+        "scheme": "http",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:00.802157+00:00",
+        "host": "utoken.umeng.com",
+        "path": "/anti/updateZdata",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "(ÏI1tdvT1h¤\u0003½ää;3©Fÿu´¬rKW¢7\u0011eâ[\u00166\u0012!(\u001a)h\u0002ÔzBldÕ\u001bÎ8ý§ì$\r\u0002\u000bæ¶å]ÑÈ\n÷4Ï\tD qx*ØûÝ\u001fQ4ù<M£LrnÚ®ùØZ\u001acÑ¶W*<þ­ËB\u001a\u001dµ</U¬aôsôØf(u¢´ÐÉNdÂ­qÏB¹\u0013«\u0000.P\f©x£JÁß8b0¡ËþßéÅ\u0013\u0011._ý´Ã(t\u00160gÑ\u0017LÜ\u0007x(\u0002jYj¯ÁÙah52s{ìQStüõrQÐ¶üIÐ`>ôî9+â\u0017¦\u0000.¬,\u001dlÿEïÔÕbqI'/XÊ\niZâÃO;³'0·(Äí-ý¨©z]Ë@º³_~pH\u0014b¤ÑKóÿ7t´ù\bWÿê:\n?ü| ]\fÅ×A0¥0\u0001öº)\\:p9é0ßÞéÇ\u0017PäíF»(j\r0ßÕu°ÆñBzöÔeáÞøYâî°\u001c«×\t\u0013©ÁóÒ\f\r\\_s¥\u000e}çÇäròôåèà.Y¸\u0018\u0011µxªÃÇåÈ÷ÌþÉåAl\u0014§ã=\u0004<[#\u0005\r°Q¬Zæ\u0019mJuíSaHa\u00130&`Ä\u0017Çö«~üåe kbc+Ø\u0011Å#l£SÐË\tj\u000f¦N+/þO\"¿\u0002å\u001aAE8õQ\u0016\u0018¹ÛäÃõJ%>øóúÊôÏÉ\\²ÉW{\u001a9¸ÐØðn\u001cBµäL±B;cÌ©\u0015ÿA_áxþOLd\u0006$.®õ#åLþ?8¸\u0016î½<0%w}É[\u0013\u0019A\u0005·~¬D~\\.Éÿ7èÓ<r\\æk\fð\u0003\u0010ef\u0017¼¡äÞ¸³\u0017as©bOm/3N·¼D\u001cÀX´(ÝÈ\\Oå·#3föÐ°1!!¡\u0012\u001e?)²ÁÛ¢}ÏaÎ\\jÓüæÆG\u0018àf8\u0000n¹>-\u0007zåÍNà­\u000f\u0015ò¼\u0014!:WÂñ\u001b¤óô\b»\u001bÓ\u001e¿zq\u001cH©nÿ*²hºÎ\u0006Ý\u0007\u000f¶E'þnË¯½È\u0014i<Ác,\u000f`«\u0014\u0000$@Blj!W§8|ãÝ=S\u0003g÷\u0019a¤ôDt£8\bËÆ\u000bK\u000e¦¤b¥_o2Û+ÆyÌþ\u0012\u000fThGñn£ý\u0002g)Ïq×ö.$Ï,Èº²vê\u0015\u001d.ç£\f´ä$#\u0019) \fÞ½Ó\u00145_=\u001b\u001fUnú\u0016¾\u000bÛZ\u001cÑÅR}|-~§\u0016øìÜØ¾Ê\u000f\u001e\r\u000fþ*\r}¨ÒYäjO0Ì39¿ù¨èù´wÜ«SÜ\u0006ì\u0007\u000e\u0004²µûqH\u001aK\u000e\u0018oª\bÄ¬Ûor\fhÊD\u0013yX\t\u000eÎUÐ?\u0015çiô>Õ3\\æÿBx4¿¼¨WzP×`\u0000ªÔ}í\u000eE\u001d¹]û§¢þæOú·\fS\r*$+\u0013µØªv\u0015DD*#¾Ù\u00117\u0010`àÆmú$©#Ç¯Â&ì\u0000¢YhXP\u000fwÑ{ä!?-\u0016\u0017öêåtê§\r_=4Zú³gK3´Û¬Lö¨(¹\u001b\u000b;\u0019Ø>Å\u0004àc2ºà\"!Q",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:00.814876+00:00",
+        "host": "onepass.geetest.com",
+        "path": "/get_config",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"opsalt\":\"t5gNjKpXfsOInIm3UeetGUIP\\/TCPhYs0N6PzhX41zw3m6qJUhYcxjppEFQkGo5O15FZXoOmcb9x7BVOwJFWU2CpuL6RKYijEnR6vB9LS32mgllhVLArV0IREq4UPrqR4n+BFMTh87zxom9tNYXxtEXHpmbviiPTFBfFkFt3NfJe8gsGZfUUbg4XS5uzuwdGmEgOfA3mWI2oNlTph0sc5WHVDDReqJElWgntTW3LP7EaM+tsMlfleG8Xwpvbz0wFC\",\"clienttype\":\"1\",\"sdk\":\"2.9.7\",\"timestamp\":\"1781220539\",\"process_id\":\"fb8facaf54a9fe914d1cb6b4869c5d6d\",\"sign\":\"366820fc88886341c6ea7428da4275132c765015e92eff89a410f1e7bfc4e671\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:00.894648+00:00",
+        "host": "license.vod2.myqcloud.com",
+        "path": "/license/v2/1253881601_1/v_cube.license",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 304
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:00.960252+00:00",
+        "host": "license.vod2.myqcloud.com",
+        "path": "/license/v2/1253881601_1/v_cube.license",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 304
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:01.030515+00:00",
+        "host": "mlvbdc.live.tlivesource.com",
+        "path": "/liteav",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "¥¿n0\u0010ÆßÅ3 ³1\u0004³eú\u0002U}¨(\u0005G`Ò({+uìÞ%U>BÕÇò\u001a5$!ý3É÷;¾ïÎwÞ\u0010¹Ze¥&)xDªµ;sá>hi%I¯7ã?µ¬¤dÿú¹ß½íwïû§ÃóËáñ!u²àV\u001a]\u0004NÜR\u0007Ú(k\u001aâÂ\u001e¶4µÓ\u0007ÜÑ|m±Íòò~¨K\"\u0000`k\u001bÕØ\u0010 5K\u001cô¤\n£|æ³¢P>\u0007¡ü\\ÂÃq,( ÈIt)Ki \u0002\b(ç<riýÑ\u001f¨@H\u00129¹\u001erHÆ\u0014ÃE¡1ç\u001a8$±¤q¢$Ê\\pÒÛõj\u0018Æ|qåÏ\u0017p¦]÷\u001f_lL\u0019=øÃ².Ìq\u0010ØcmmS\u0010Â\u001aí¹\rêÂV/Oé!X¿È\u001cêÊÚ,û½â\u0013\u001e6}r£\u0013¬îîpt¥\u0000|â«;i\u000bÓT$e\u0013k±éKuÇ<s»\u001f¥îÒIBc¸dÕÊá=ÑYB\u0019\u00037íGþTüñ\u001c¶_",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:01.162675+00:00",
+        "host": "cnlogs.umeng.com",
+        "path": "/common_inout_logs",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "*º=5e202=;`iöVâv7Ôµrrp7Üåõkè\nÅ\u0003WS)Â8¬\bF#\u001bCä ó¨g÷ß©á¯]ý{V\rÚ\u00053\u0019 éÏáÀ\u000eÂt=Û5\u0002äy^Ä+º+\u001fÄaqFK³\u00017=âR¡ëJ^Lv»\u0003ÅÓN?^\rÓ\u001f\u000fa\b\u0005í\u001c`:Àôú\nh\fcm\u0018¥½âï\"Á1ö\u000eb@s4Ã«Þ5:YëÛ½\u0013@Ô\u0004*ãªÇ%ÞeRÐ«:soá±b&T%\u0017¾Êã\u001cªíká¤ÔÉ\u0011Þ%wüè\u000fj<[ÏÄ!vS³5'hÆpËëö±m£éÚ úgh©p\f¦ãU¹#\nÿ¬2RìÔ¥±(:fáA±Äª¼òD&ÖØã¾v]¬x6]¼F×ìF<®zÅxò¦fÌ.å\u0011ÎxLyäH@erË#Æw*zº ´òã\u001aëó¼ñXÆ,/À\u00145ô°\u0002\u000e\b\u0005îeÚÁø­­ø½¹£¢¼¸¤ÏÙ\u001e\u0014u2}U\u0005pFý\u0002î\u000e÷®\u0013Ú¡à ï\u0003»* hdée\u001bQç®À¯Íq\u0016+Í®û&\u001cÀD©4§zxj\u000eo8\u0007ÿÅØ)íúI)ß\u0015hbPuüäû\u0011Ñ¥49\u0001ÙA\u001d\ncGXê¤~}6d\f\u0013Þ²7÷\bÑcü\u001f\u0010^Ôw?¦_XQW_Æ\u0016lÊÜ·BÛ«RÐ y\u0016^!²§Ö>Ô#Ë2\u0016<º±  \"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:01.212791+00:00",
+        "host": "onepass.geetest.com",
+        "path": "/get_config",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"opsalt\":\"FLxIXIc9UaD5wynBnJPF24fd7Aps5U5ugamUZ00QfihnjPNUKwrmPLSTsLsAmDcKSkYZ\\/fJPxnVeB8jRxhmxQkxJiaPYNo9nHqvg1n1W463X0yjSY5E1NaiLsD+80oXJ07Mva+K433mwgbElwroZciZ154Ttkjq8Ej5xpcqdme4PkfHW\\/E+RR2XdAGRNeq3NH2hN0JApsaFuuGfHPQTyox1NZUoG8s+8QRV++CpbJd2nljDPdyoOy7qGa4oEH0Un\",\"clienttype\":\"1\",\"sdk\":\"2.9.7\",\"timestamp\":\"1781220539\",\"process_id\":\"a7c46ee077f97f0d6c79af6d19af1dd8\",\"sign\":\"c1c276c8381c3cea0aca28acfb347c19b76d5bd70ff5e9cabee483e107c5e09b\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:01.250990+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/multipoint_getMultipointOfDaoRu?ck=ad944f-j0-1-0-7b752d66-eeb0-44a4-aeb1-ef586e1e2bb0",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "hdfts=1781220539&di=8a4d4e29-177a-490a-bf59-1f505314d70a&_hdfBSMiniwua=AQAA_h7hjS3GjJMNO0T8Uu025auS9CH1Weegjp8P%2F7ROVQ%2BQ%3D&_hdfBSSign=RDEA_JAEAAAAAZB27S7SiBgDEyZuLdTPvgLPOqMId2PtHfXhzeGoJsZNYMOEKAzGMCdFAReE%3D&spaceId=0&deviceOpenUDID=8a4d4e29-177a-490a-bf59-1f505314d70a&api=1.2&hdfhs=50c68e3e26b155dcbcc039367208e760&_hdfSignature=e6bb5c9b69478084e00a83d836c39801&app=d&deviceType=ALN-AL00&certificateToken=&sv=12&os=a&userId=0&m=ALN-AL00&n=2&deviceToken=8a4d4e29-177a-490a-bf59-1f505314d70a&p=0&ct=&s=tc&v=9.4.4&hdfti=1781220539721&_hdfBSSignApi=multipoint_getMultipointOfDaoRu&cid=0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:01.274004+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/doctoruser_getBaseInfo?ck=ad944f-j0-0-0-6f603a5c-975a-468c-8943-714533083c78",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "hdfts=1781220539&di=8a4d4e29-177a-490a-bf59-1f505314d70a&_hdfBSMiniwua=AQAA_A%2FR4GIbZaMRtUmaJ0wsW1kXnt6wkAvi3GXTfXsf3v%2BE%3D&_hdfBSSign=RDEA_JAEAAAAAqeu6S7SiBgA12S4DAusNRBgK8yesAlSfqPDmuZid13VmTAdpOOps%2FEvwZ9c%3D&spaceId=0&deviceOpenUDID=8a4d4e29-177a-490a-bf59-1f505314d70a&api=1.2&hdfhs=59b8f89a32cfe1541980070dac30283a&_hdfSignature=86ab30ae8c4dd280a04643605a086f60&app=d&deviceType=ALN-AL00&certificateToken=&sv=12&os=a&userId=0&m=ALN-AL00&n=2&deviceToken=8a4d4e29-177a-490a-bf59-1f505314d70a&p=0&ct=&s=tc&v=9.4.4&hdfti=1781220539707&_hdfBSSignApi=doctoruser_getBaseInfo&cid=0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:01.419396+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/authcenter_getHomePageInfo?ck=ad944f-j0-3-0-3716d464-12f5-45b8-843d-314ac156b7cd",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "hdfts=1781220540&di=8a4d4e29-177a-490a-bf59-1f505314d70a&_hdfBSMiniwua=AQAA_zYOMxmVAAcUs%2FHCOBcKeJ%2BuT1atrh6Qh4lCRlKpcs3bm81sd%2F8nhGJ3XSSveJc6Z&_hdfBSSign=RDEA_JAEAAAAAFWzAS7SiBgBBDqlGqJE6o40jcgjKEwVNGPfcNKNx5fM1yNLlGveekTfXdUQ%3D&spaceId=0&deviceOpenUDID=8a4d4e29-177a-490a-bf59-1f505314d70a&api=1.2&hdfhs=aff496263d0852d10d6524eaf397413a&_hdfSignature=3b6d1dad5c200f12df8d7a1b79331444&app=d&deviceType=ALN-AL00&certificateToken=&sv=12&os=a&userId=0&m=ALN-AL00&n=2&deviceToken=8a4d4e29-177a-490a-bf59-1f505314d70a&p=0&ct=&s=tc&v=9.4.4&hdfti=1781220540021&_hdfBSSignApi=authcenter_getHomePageInfo&cid=0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:01.464537+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/doctoruser_getOneLoginWay?ck=ad944f-j0-2-0-51302728-ba6d-4c79-a1da-0513740e81c6",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "hdfts=1781220540&di=8a4d4e29-177a-490a-bf59-1f505314d70a&_hdfBSMiniwua=AQAA_zYOMxmVAAcUs%2FHCOBcKeJ%2BuT1atrh6Qh4lCRlKpcs3bm81sd%2F8nhGJ3XSSveJc6Z&_hdfBSSign=RDEA_JAEAAAAAZR3AS7SiBgBqlkv35Xy29AACHbOjSkHGImYzNuxuAKAKwevZ5MONZSzV51I%3D&spaceId=0&deviceOpenUDID=8a4d4e29-177a-490a-bf59-1f505314d70a&api=1.2&hdfhs=f5996aeb1d63251b53970c8d3cc82b34&_hdfSignature=b59c8356264261adf093067283a26341&app=d&deviceType=ALN-AL00&certificateToken=&sv=12&os=a&userId=0&m=ALN-AL00&n=2&deviceToken=8a4d4e29-177a-490a-bf59-1f505314d70a&p=0&ct=&s=tc&v=9.4.4&hdfti=1781220540000&_hdfBSSignApi=doctoruser_getOneLoginWay&cid=0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:05.617874+00:00",
+        "host": "errnewlog.umeng.com",
+        "path": "/apm_cc",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:05.626539+00:00",
+        "host": "cnlogs.umeng.com",
+        "path": "/unify_logs",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u0018\u00031.0\u0018\u00185076a76552701569380000ab\u0018@2b17976caa3a8ec8790c50822ed28788357933d7b8ea09b7dd20fe2c8fc8fe69\u0015h\u0015Ú¢\r\u0015Ê*\u0018É\rxm\u0016ÉnãÈõW\fu\u000eIÐVÅâ\nô¡$J²ºEÚ%Ñ\u0014\u0004\u0010%(qkÚØèûd0¹åË\u00049ä\u0007\u0002\u0004ù\u0018ó\u001byU3îÆ\u0000ëí{ÕãÖ»mËüÒzWÅÙRdÓ@¦FLlvº&F¦eR×Ôu³ß1ûØì\"\u000e÷´Ö{®XI I:¦JÌj®©)&Í>1û©\u0019&\u0001é{\bÿ5Í¤©ô¹¤\u0002ÜîÕ\n\u0018yÄxz7³\u0007I\u0019\u000f«\u0003½(r!\u0019¶;;}àRì\bBF´\tÇAË4\b\u0001(NC`0YFk]&LW#C'²ª,X\u0007\u0001\u000eÖL5\fP\t\u0003ÈÑ}Ôo2\u000f¢ªÊË2:ÞH7¿g¬\f¶*ù\u00037f\u0001ÏIEª¢È\n§5\u0010¦lD5G=/W§í-ËÃueaÇa;Ì:/EFB¾Ð\u0005\u001e#Á*a\u0016\u0011W\u0004ËrÁsKG\bqÂ*gßQÂ\u0015\u0010îfÔí\rEx,\u0003ã¦éº%UC\b\t;ëo¤Â{\u0013I\u001bN\u0004q«I\u0012e\u001cËy-%\f`^}\u001bhpÑ\u001f%¤s÷)/\u0006çÔMËÔá\fxj]\u0012ñJ4[\u0004¬¼JqÅ½=ÿý?Ï?ÿãùç>ÿôï_þú·_þüh#·w×±ã{÷<µ[Id\u0014¼ô[o\u0016\u00049p89\u0015¡Bä¢ñEÕÄy LCì2\u0016\u0003Å9\u0011à([u%k·$RÐ-3¤à6\\­$cM\bQ1O0«×~uë\u0000îB«.\u000f\u0011ÐÊ8ÛD¥\u000f\u001e¢\t\u0016s\u0016~\u0019}>Äe\u0014úuF×T«\u0012 Â}®9Ä\u0003,aHLEzßjD\u0014ô©ñû¤õâ&r\u001dÉ»¯²¾Ôó¢Èì'ÖÇÉÄ9NÒó'#\u0019JøáñÐUçñ§\u0010?ö£\tõ/%ÒçÊÊ.\u0018\u001e<äÑn­úõÖ9\u0012rý\nûr_í³nxû0'}7m¡¸.M%\n\u0005õ\u001375ØòÔ/uÚóÛ4i0âXC¢\u001a²\u000eØJ´:ç\u00124î\u0005wÁ­;\tæ¬ÌÇÅ)u.áÙë\u0012vwGm«þ¸BÑ\u0003×:¤\"a\u0016+ÀdXQ\t\tBCU\u0019^èHµD\f>vïN|2VÇÇH Ç×)ãaËü^§5CµõùÅÅmÔF­¯¢ïGÎýcT\u0014\u0005ªì¿LqÅÕ¶&êkmY$¸âÜ0ç7ÿ·ÇK\u0006üß±\"]'øe\u000b¸UgKÞåe+(Yµ\u0005Xz?²#{;\"·+eå\u0015*^\u0012vµFé\u0015Ê¢ú\nm·nfUô«ú&º²ü$ÈB\f\u00065É7¿ZL\"¶çØWhÉ[ß³gC¼V:N\u000b\u0006'lw\\']àÅ~ÐÍÏ¶Õ#c«wr,ØÓqc[û³ýx\u0002úì\u0002<t?õNÎnXÙ;ïbOmedõ{Ë¦]Ü?-³ oàÅÓÇ¹Æa@gÊh7>8\u000e\u0016dÿ$O\u0001Eg§Ùí]O¶w6â\u0016)H+7\u0001ï\u001f·l:C\u000e÷ä/ËÌzÈ\u00198{ð½éX¹wm\u0002\u001agÇõÎµ¿PZ\u001c\u0003é­ÇáÙÞÐ)s&\u001cô«UßØ\u0006wuÎÁZãj»éß?\u0012\u0004qÑ\u000evrÏU\u000e\u000b÷äÑl²£N±Ê\u001cä¹çê\tO¶á`+%\r\u000fñhJ%ø)CÙý^îw6¡tñ=MÐâièÑ)¥ôÉó:ÓYí<\"Òð\u0014¤W+o3îñ½å)5Çeöâó»xè¤\b]g7èBÆM\u0000Õ\u000edèÊilí\u000fN\u0017r°zQr\u001e±w3ÅifÐ9JY<ôñ\u0005|ÅÀ<è¯3\u001d6éØÍæ\u0004ÒÈÃÃóÂJÒÅtRúáÃïØ¯Â½|s©ÞÅu)¦ä\u001e¦$Ù¯Ü±4è\u0018[»±OÝ¦q\u0006=â¤3qãì\u0016{îÉÃöÅÃ­³Û+ýòóX\u001aî:ó¬Ké\\\n\u0007b-:\u001bÏs=äö*eÔ\u0004çy?égóø1÷çsçÓÌxßj\u0016ÛU:¹¬0L\u0011ü\u0006\u001d`þ S¶\fµÃÄ±Ø±Í7Z½}Í\f.seüvim\n~Zu.ôå\b8Ö8üM¸öyÚY^D|Ã{úÍ[BXí}¾ºªñ§%\u0010¦_Õþöe\u001f0?cGè#!ì]Sjk@\u0018¶ ¬*ÎÖùî:¾®u¬\u0018²\u0014$¬°äð[äàú\u0001òúéQ°`\u000fOCU5%_÷ðÀßcX¦|\u00191¿Ìù\nå©ó/\u0005°ºü\u0013üIøæ¿ÿúñù/?h&6Ä3¹®X%üê\u0012F2ÒeØ\u0012ï[b°ÐÇ]EDWá+\u000b+ºnÀw\u0012Ã\u00151\u0018áå¨««&F°\n@\u0002\u00127§\t6U,ëDÓeYC±4IAªþ[_¿þ\u000föD\u0018\u0018@eb535f6fe46938cb1a5fac8174813e8bd62abcd418b960b4e973712f419bd503\u0018 afb9d7a388b4262f0a42fe19ef303391\u0015\u0000\u0000",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:10.175402+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/nlog/info/android?ck=ad944f-j0-0-0-2e29f15e-d157-4f71-9c4f-1d83b8dba324",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"hdfts\"\r\nContent-Length: 10\r\n\r\n1781220548\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"di\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"_hdfBSMiniwua\"\r\nContent-Length: 69\r\n\r\nAQAA_zYOMxmVAAcUs/HCOBcKeJ+uT1atrh6Qh4lCRlKpcs3bm81sd/8nhGJ3XSSveJc6Z\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"_hdfBSSign\"\r\nContent-Length: 73\r\n\r\nRDEA_JAEAAAAA2ZBKTLSiBgBYA7nd3hFHtuWmntCrL/9JS892zI5hnpjFjudsREqso9gYffU=\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"spaceId\"\r\nContent-Length: 1\r\n\r\n0\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"deviceOpenUDID\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"api\"\r\nContent-Length: 3\r\n\r\n1.2\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"hdfhs\"\r\nContent-Length: 32\r\n\r\n5ecdd41e094c9e4f425de90f1e387185\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"_hdfSignature\"\r\nContent-Length: 32\r\n\r\n56e0bf9d70820114ad63810d5124aa19\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"app\"\r\nContent-Length: 1\r\n\r\nd\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"deviceType\"\r\nContent-Length: 8\r\n\r\nALN-AL00\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"certificateToken\"\r\nContent-Length: 0\r\n\r\n\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"sv\"\r\nContent-Length: 2\r\n\r\n12\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"os\"\r\nContent-Length: 1\r\n\r\na\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"userId\"\r\nContent-Length: 1\r\n\r\n0\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"m\"\r\nContent-Length: 8\r\n\r\nALN-AL00\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"n\"\r\nContent-Length: 1\r\n\r\n2\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"deviceToken\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"p\"\r\nContent-Length: 1\r\n\r\n0\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"ct\"\r\nContent-Length: 0\r\n\r\n\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"s\"\r\nContent-Length: 2\r\n\r\ntc\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"v\"\r\nContent-Length: 5\r\n\r\n9.4.4\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"hdfti\"\r\nContent-Length: 13\r\n\r\n1781220548689\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"_hdfBSSignApi\"\r\nContent-Length: 7\r\n\r\nandroid\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"cid\"\r\nContent-Length: 1\r\n\r\n0\r\n--469b9c9c-d425-47ae-8cfe-48ec247e55e0\r\nContent-Disposition: form-data; name=\"content\"; filename=\"1781220548688.xlog\"\r\nContent-Type: text/plain\r\nContent-Length: 7240\r\n\r\n\u0006\u0000\u0000\u0007\u0007\u001a\u0000\u0000\u0000Q ­îëN>|àñ¶\u001fË\t\u001a,ç\u0011ëV¿-Úür9+eòØnÓ5UV*ÑÒ\u00145o\u0014Väk¥ÙaÐf6kL\u0018qâ~~~~~ begin of mmap ~~~~~\n\u0000\u0007\u0003\u0000\u0007\u0007\u0004\u0000\u0000\u0000ÂµhfÈÉ8\u001a\u000eäbã^\u000bð~â\u001f:W·î\u0017\u001f\u000eÑ8C£$='{\u0019ÂpLúõ\u000f\u0006S[6XwêØsáÞÉÀÕûGõºl==Ä|FSKªÒj+è5{uñ£úÜ\u00168\u0011C(î$»\u000eV O\u0016>ðêIqùö$ÅÁÙÉ\u0013zá¤Øìåy(Za4\u0013L\u0005Ê)Ø]Ôá5hÅ©ÞEìÄp· Ë1\u0005\u001e\u000fNïè«PÏÊ=8%Z\u000eôWôáEû\u0017¿<[ìãÜ²\b?9p¶5-p]7ãµ!³O%º)\u000bå\u0019îÇöâA\u0015ÁAqÅ0\u001d³B\u000fÓwJª;\u001fï\"^ç¤\u0019ËW\u0013º°Ý\u001bÝÁzy,!·\u0002û\u0012ÏÖw\u001fÒ 93qø)J½§4c¥J[\u001bú4Jß¬*äpiÎÌR®_\u0016?\u0011óc\u001a'ØdË<úÔ\u001fGø<Ç,M\u0002¹×Ã\u001f\u0004âQ¤ÈU\u001bº¨f=Nsô\u0017ùè{\u0010LgÜ0®\u0017dË£ÉxA\u000bKp\u0015k\u0017åêø`*Uî£è³\u0007©ëÌó0á\u0007_wûÃNF¥¶\u0011VºåÙþÑÐ\u0005ÊfGh`¥¤ûPå¤\u0007kÙ\u0003ÄÚ\u0015\u000e9ZíG*FÅB=ÉS_±$\u000bTdb¹\u00174\u001bápÌ\u0011ÝIö'Ú¿ÉrOß`¿eúð^î\u0013­\";G+)ÏNN¡ý3éç2$q­Ê·\u001dûÇ\rh\u001e|]#zg\u0000Îo¥#Ø\u001ceù\u001bï\u001býzg<8\u000fÌ÷Ô^+O71Y\u0000\u0006\b\u0000-·ìÞWÜÜ·J\u0015f_î\u0011*Eì\u0012ì¢Sô¨.Ò¯«ÇNpàµUÂï\u0010H£à1aÈ°Þ hkXG¼Õ§£ã¤OÝÙ#{¶$öYéºbÇÈ{6ä,6ëtoÚÇÉSlrÀÒÿÔ\u0004J³5\u001a¤sû\u0011_dmÈ½eÁ`á\u0000(ÆX¼å^#9êü\u001fyZ¢qDBC.¿Äw\u0010X­ðÛdêJ\u000b3«è%¿Ã[½=DøÓ(ëdþ!øj¬åá98XðCF)S}\u0012®Ê\u001aöIñ\u001d§\u0016ù 7RxÓÛ°`(WO§ë_\u000ek4ÜQÃJ\u001fÞÆñ\u0000ý\rÑN]r[­\u0003bÄ]òøÿwSçæ |Aì*#ã$fÀÎi\u001e\u001dáAÆ|\u0012vî¯fÕ(ð\u0013¯t5`¹ê>od\f\u0014\u0005\u0004\u0015ZXt{\u0019/ÔÄná#\u0003øêQiam~lp\u0001ÎÉv\røâ¥eMÚä'V§\u001açÃ9nô±,\rçÝ\"úúØ3#dçº¸b¥£E\u0010\u0014í×É\u0001\u000f\u001d¶É¤ç@Q§§3Ö\nË\u0012çMBpQT¯é7{Ê·ÛÉªïíñ\u0015\u0013ÎÃ\u0000Ë!\u00167çµµ£z?¯(ÙeS§ùá!@¨ø\rØÝ\\#ì²\u000e\u0003Ü¢Ù@½JU>%\t«¾9xð«<V¿1òïña\u0016«åN4T}°^;9Bsø;Þ\u001f0»<·\u0003 Ì»\u001bôÁ\u0004\u0019IWJ \u0005e`»Ç;¸\u0006\u0005Å¯þ­°ð­m®\n37\u0001-Z\u001a¤X9\u000e%»®wìêþBA¦\u0018ìmå\u0014à´E5°¿\t|2h¸XÉ\u001f´Ð0 ´}Ò\u0018ï¥Ð3AÊå\u0018q4§3B×IðoC\u00169óÈ\u0005\u0007\u000f}Äò¹£Õâ±1û]}î\u0000\u0000\u0000ÿÿ\u0000\u0006\u0000\u0000\u0007\u0007@\u0000\u0000\u0000Q ­îëN>|àñ¶\u001fË\t\u001a,ç\u0011ëV¿-Úür9+eòØnÓ5UV*ÑÒ\u00145o\u0014Väk¥ÙaÐf6kL\u0018qâ~~~~~ end of mmap ~~~~~[30991,30991][2026-06-12 +0800 07:28:58]\n\u0000\u0007\u0002\u0000\u0007\u0007@\u0016\u0000\u0000Q ­îëN>|àñ¶\u001fË\t\u001a,ç\u0011ëV¿-Úür9+eòØnÓ5UV*ÑÒ\u00145o\u0014Väk¥ÙaÐf6kL\u0018qâAîÖÂrÿ¸\u000e&\\à´Ê\u0018ë\u001e+\bHH@e;Ìì\fFM\u0004t\u0018±YÕ]a¸5`¨hÀ¦\u0000=!\u0010÷Æ\u001dâàØ\u001d©û£ç\u001f\u0017ú#¿PëJ{«L©A×O]ÎQÚ)kAõí-Q/òùÉiáØ\u0014µÊ+¯iØ×ÓÔIwÅ\u0001¿\u0007Î_ÝÊÌH\\\u0012·Þ\u0014b¤©ùP¸}kN\u0001}EÌ`<ÇE\rÇÁ\u0013æaÜIÛÀÃè\u001c«y7È¦Ñ¥Ü\u001a\u0017r\u0006{\u000bæÂ|³dDá\u001aníkÂ¯Ñ,Ê\u0005)ãõÑÇá\u0000Ã-Z\u0015ø7¿«\u0018dw\t0÷\u0015È\u0014Ö¶ºç79\u001cwh¥ ×\u0003¾Y\u0019\u00069\b4ÜznÇÔõ\u001aÌð£í¦\u001eK\u001eYJªz¢üÞÜÄ\u0000Í^7pNNqæ\u0013«÷MqýÀë,fÂ±KkQ¹<¼0§0ZãÝç¦½g©×6&\u0011o\u0011wýïØ.a\u000fÜZ.²^XÝ«(wA´\føÏv5®9±èÊ|}®{~7\u0012\rµ3¿r©²¥`>\u001c\u000e\u0018æ±©ÎÅ-±·Vg%Èªi®¶_L·\u0019þu¡i²·\u0019\u001c¥\u0010È}\u0004µÿ\u00122wlK1ïJBÞÀ?¤\u0003\u001c>\u0001=_\u0016+^\b\u0006£\u0019è[Gùüc~uÄÅÑN¹\u000b×f=Ôó@'(L\u001cT:$x+L%J·weds5§«Uàè~ãm+edëiÚÀ8&},·Ø·F25(æÏÏÁ·zÅIY¸iø<Þi\"C\u000b¹\u001bJ¼Å®\"ã\nIL\n3í×w\u000f:¢g6bV\u0012û\u001e{_ùÔ\u0010þr>\\É1\u0003a\u000e'\u0000)<°Ç5o\u0018 '6°ò?óPóÊ¿Z¶\u0013Ö\t®¾'LÕÈk[$GØâÝuÍ\u001bÀ=ùÈ¦ëc¼µßM;tïÔ\u001eYÕ1\u0013á??HÉòiÀ-e8dN\u0004õº¡g¡9\u0000°HÚáÄø·V\u0018Æp§éû¦°4ï`\u0011\u000e«£\u0012%:°BÚV\u000e¼ô°lòÓÌ\nNFÞ!è²=CdíÄ([¿º\u0006«\u0005Ù¬oÃÉNµÊ\u0006¢ù¬wBýMJ\u001fF\u0011àN¡£p«îr\bBtQª\\f^N!×ínJ\u0018á°¤9\u001eÊ&{Ö`lÃÌPHÔô-¤WpT\u001eÔ\")­N0,#ç~\n\nÃ\u0002À*ªÐÐ\u0000\u0011?,B@\u0006©[G\u000bTÏuUD2]·\\V{~àó3¢ÔrîGÒ'DX\u001eovìÝé-O\n­îMÇÍC>wÈj¥Ð\"ÍtË¼*7¾\u0019\u0004ÆVgÄ¡\u0016Ð]-º¥n9§¯²`\räG0#³Vi\u0000'1Hðú­9kf\u0013^\u0004k\rlò3vë£ð%¢.ûóÊì©¢ZµF\u0002ðyûZ¬LG_\u0016\u000eÛ»ô]ê¤\u001cÑXÔ{jÃ\u000e³ã$ºL*øÙ$\bYá3d·\u000fFï\u0017«#JãÝÞ¸sBhøMà=÷xL@÷ÿ/P_·s­dv\u0011%n~%æ³<Á\u001aEÐ¬ì+ç6§4êR¼ø¡óaJx²Çeg¿#3KÏ\nB\u0001D.WõiÅF\u001eÔÎeÏz ,@Áí<Ý½árÆÁé·áÂB9Ê©Þ!³]LW£³\u001a¦,*\u0014Ô´ñJ4\u0014Q£K9 Üà\f 9Â:jÜ\u0007n\u0004\u0011»\u001fûC´r_xÃÀ´\u0014K]·i\r¹ò;H&­Ã\bÕ)(E®àL9E{(ýQ\u0012\u001e¯óÎ)Xxõ,1oã_ý¸Ö\rqç\u0007M\\\u0016Yç \u0000\u001e9B:\u0002êinê\u0004\nËk&àsòOÒ¥.IÎéC¶\u0004b\u0010åÊ¿y:(2¹@-T´À(«\u0015t·a0À\"l\u0017yü\u0004Vè|.njâ\u000b¬}ä\u0012á§CôÂ#X½]ccPDøNdö$\u000f\u0005º%re\u001c\u0002F UM' ÞM~\\ä\r×ðIÝEj\u0019OíR\rLf\u001d¶X\u001a\u0000 ÔKgÄ\tôpóOMÚ\u0014¨ØÂÛÚÕ£ i(£u;\u0017úãªÏæÄ*3¸#wMJæs*k¶à \u0003BÓ)|ùK]\u001d+'vù\u0012l\b\u0017Íl£W;Uá¤¡üjD8ÛHæ! \u0019ÌäQ#]l³\u0015!«Ñ&æ\u0006ÁW\u000b\u0003v³@w££?¨çGâ\u000e²Ãha\\HU.@\bkxm>ó¸^4}\u001a­z5\u0016j2î#ËpîÃ\u0011jD÷\u0010¾ù¼»-v\u0003ø«¾\u001eM¼\"ËF³;eÛ\\\u0007\f¦hþ\u0011e\u001feaÒuÒuD\u0006wßÁÕÜ2þ7Ì\u0012\u0018ÛwÉ¯¹s9/qä\u0003O?Cï:é½´ü¡|\f¬Þ\u0019¤Î¯@nk§^©ÑG¶õQ\u0010ðôïì ¼\u0005\\3\u0011=à\u0015¥òÚOjjt\u0015õØÃs\u0016Y/q\"ðweém\u0012â\u0017 \u000b«\u0014th4\u001fÜHºýEJwUÜ×rærÔÓR9¯N\u001bH0.>2Àd\u000bÔ\u0000\\ôJ\b\t«\u0007ÜfJø°±%\u0012\u0015ðlÇÕXø¿óènZVÿ¶öQé[\\F§jfD©Ð V§z4z\u0011¼\u0014ù^\u0016¥~<òÒÙoÉ¹a¾R[LÙÃUÂ¨\u001cV]b\u001f»\u0018ZoV\u0015HfS\u0011de½8ÀVì\"H¨B~\u0004Z%U!\u0015°*âÈK\u0017K½w\u000e½\få%÷Ý_ß4\u0013©Â2^ ºÆÐk °\u0012D¥g\b~(\"o\u0004ä\u0019xQÔ\u0017óÂÒû·3)\"é\u001aHs\n\u000e\fPzó$\u000féP¸hAÍ[¦\"\u00141?bqø¿\u000b%4ÌÈÁ?.¥s^èo\u0011ÔYÂbOgßÊ×¼M×¸#u¯ÝõLÚyàª\u0004äÐ\u000eÂÂt\bv,\"(\u00133ßj\\v&\u0012DY`}\u001c@Jç¦\rü5sÐþÅp*Q\u0000{óòè\u001f\u0017!s·\u0003\u00105N¹æj|obrxóøò9,ª\u0014ÛL#xO¬\\y\u001a¥®\u00125o\u001d°9g%O¦r·-²\u0005÷{\u0015ÙÿO\u0016c÷\föV>g+cA\u0012v° ¶)í\u0014@ÞHW¤¨]¶\u0002\u0012_ß©,æÀ]W¨Y£K×ËR÷>ÃÔår-yø´}´\u0001\u0005ë·ÓÙ²\f<ú\u0006éÂ·+´¶]ÉüWPe\u0004'¿$^EÖ>ðÛÎ·Ã2µÔñÃ¦e_ÕzY\baX\u00071?\u0012Y¾V­°\u0007#pòà*õåKÔíj\fR-h8ÌrÙü Õ_ÔÃ¼FÕ\u0012\u0012|I¼%Ý'~a­;*ü)ðlY§\u0013_Ç\u0011Clg'ÓÍxÌi1«ÆÊÚg1aøê¬þÑuMæ Á¬ÌFõ.\"¼òê\u000e\\èÑ$\u000b6j.\n`H$;Â\u001b\u001d]½Ýû!«\u0000\u001aXÜ\u0012Ëÿ4\u0012\nÍÒ\u001a\u001f`ÄÖòÐ§ÒÎ\u0005ÙÝ\u00015Ca]vÕ\u001c¹~³LÇ¥]x7\u0014]\u0014(JBa\tá\u0011)#ÇÊ}Ah4\u001fÜHºÎñ«5Viî§V£~+ÓâáyÊ¶\u0011Þï\u0005Hÿ`·éõ|#\u0010\u001d°Ãk*1\u000e×eÝ·a\u0010\u0003ÇeXÖ¾'\u0005RÉ\u0019½\u0012BÚ,\u00014\u001bß[T\u000bëÃ®ì½\u000eì/\u0016§ç53\u001c*ÓsÍ\u001a(¾\u000eÐÎ\u0012\\\u00046;¿Æx6Ï\u000fÆu~ÙI\"I!ÓÕ>]c\u001bÉN='L©Ò\u0002@£¡÷i%ñ-Qö\"Ë¶\u0003¾·w`Ì±­Ø>3ä¹Iå\u0001O\u0002_\"M£ §ò[Èt\u0011æ¬Ü¾ö$eHO\u001eQB&èæý{øÁ´\u001dÔÿ`{\bãbSFÞý\nã-Þ\u0005³¯'ìÁÔ]W\u000b\fKü!þ=9däL2¸uQGå\u0013\u001c1¦_Ú¥E\u0002qÍ\u000f6uøÿ\fþ¢Y\u0007ì\u0007æ*Ï\u0015?wÁèTg<{gP\u0011W3\r\u000e\u0014ª9]ËäÙP\u0014\u001d\u0004\u0004¨/@í]Ò\n\u0007ù\bn§²úDøvºpÜ$t$û_ÐÔ`ô§{²;Ô[À  Ø}d\tÅ|>t×£Kº\bª\u001b¢ù}`M©·kÁ7\u001cà*4\r;!R¹O\u0000hh¢3VÝ]ÆîwÀxç·\u0017^\u00038iÓ÷:\u001a|/CÎzfî«}­#\u0011MÕx¾G\u0017?&Û\u001fÝìÇ¢YºÊ!n@\u0013\u0000LÁL\u000e81\f`]ùÑ1mRÚô_h4\u001fÜHº©Ëúa!; ×ûmÛ¶<Üïü\f,Öjõ<Ð\u0006Ì'Ãh4\u001fÜHº\u0019[ëªþ\u0017µvîS\u0011í Bó/Wg¢a¼GÎ.\u0004øÂ(ìÞe÷¦ TÈý÷J©rµ¿(Øev\u0018JCQ¶$å½@\u0010´L·p\u0016\nç\u0013øúa\u0017Ý3o¿q±¬¿¶µ¹þ2\bj9\n\u0012Ì0npf*©ê\u0016ûã·¸vû¨\u0006Q+]²\u000e×+o[\\\t\u001aý¶ÉìÆ6éà©³AK\u0005\u0004W",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:10.865202+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/nmonitor/imlogfile/android?ck=ad944f-j0-0-0-e81acb9e-5964-4c3c-95e9-8a5b0e010900",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"hdfts\"\r\nContent-Length: 10\r\n\r\n1781220549\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"di\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"_hdfBSMiniwua\"\r\nContent-Length: 69\r\n\r\nAQAA_zYOMxmVAAcUs/HCOBcKeJ+uT1atrh6Qh4lCRlKpcs3bm81sd/8nhGJ3XSSveJc6Z\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"_hdfBSSign\"\r\nContent-Length: 73\r\n\r\nRDEA_JAIAAAAATzhXTLSiBgAPFPURZGbkgo9wyk1Z3vmq6us2B6kuusvSzcxCQuW5as7x+0o=\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"spaceId\"\r\nContent-Length: 1\r\n\r\n0\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"deviceOpenUDID\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"api\"\r\nContent-Length: 3\r\n\r\n1.2\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"hdfhs\"\r\nContent-Length: 32\r\n\r\nb4c46350ada95a4ee84ecef75b4df437\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"_hdfSignature\"\r\nContent-Length: 32\r\n\r\nb7cf6db0dfcb657830c0335bd0c89cc8\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"app\"\r\nContent-Length: 1\r\n\r\nd\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"deviceType\"\r\nContent-Length: 8\r\n\r\nALN-AL00\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"certificateToken\"\r\nContent-Length: 0\r\n\r\n\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"sv\"\r\nContent-Length: 2\r\n\r\n12\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"os\"\r\nContent-Length: 1\r\n\r\na\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"userId\"\r\nContent-Length: 1\r\n\r\n0\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"m\"\r\nContent-Length: 8\r\n\r\nALN-AL00\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"n\"\r\nContent-Length: 1\r\n\r\n2\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"deviceToken\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"p\"\r\nContent-Length: 1\r\n\r\n0\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"ct\"\r\nContent-Length: 0\r\n\r\n\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"s\"\r\nContent-Length: 2\r\n\r\ntc\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"v\"\r\nContent-Length: 5\r\n\r\n9.4.4\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"hdfti\"\r\nContent-Length: 13\r\n\r\n1781220549470\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"_hdfBSSignApi\"\r\nContent-Length: 7\r\n\r\nandroid\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"cid\"\r\nContent-Length: 1\r\n\r\n0\r\n--af3291c5-2291-421d-9f0a-039703fce1c8\r\nContent-Disposition: form-data; name=\"content\"; filename=\"1781220539461.log\"\r\nContent-Type: text/plain\r\nContent-Length: 373\r\n\r\n{\"action\":\"android_log_doctor_PageDraw\",\"int1\":103,\"int2\":102,\"int3\":0,\"level\":\"\",\"mark\":\"R_d8a4d4e29-177a-490a-bf59-1f505314d70a_u0@_v944_HUAWEI_ALN-AL00_12  \",\"string1\":\"0\",\"string2\":\".authenticate.authv2.activity.RegisterGuideActivity\",\"string3\":\".doctor.start.SplashActivity\",\"string4\":\"doctoruser_getOneLoginWay\",\"string5\":\"\",\"time1\":\"2026-06-12 07:29:00\",\"time2\":\"\"}\n\r\n--af3291c5-2291-421d-9f0a-039703fce1c8--\r\n",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:16.083379+00:00",
+        "host": "mobilegw.alipay.com",
+        "path": "/mgw.htm",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "operationType=com.alipay.tscentercore.deviceFingerPrint.config.report&id=1&requestData=%5B%7B%22apdid%22%3A%22gHlvGHn639ZWjeannYo0x8u8B9iez7jDorgLZEKHiIMIN3u4ngEAAA%3D%3D%22%2C%22deviceDataMap%22%3A%7B%22AA1%22%3A%22com.haodf.android.doctor%22%2C%22AA2%22%3A%229.4.4%22%2C%22AA3%22%3A%22APPSecuritySDK-mraas%22%2C%22AA4%22%3A%22P8.0.0.20250228%22%2C%22AE1%22%3A%22android%22%2C%22AE10%22%3A%22ALN-AL00%22%2C%22AE12%22%3A%2212%22%2C%22AE13%22%3A%2232%22%2C%22AE5%22%3A%22HUAWEI%22%2C%22CRASH%22%3A%22%22%2C%22TOKEN%22%3A%22gHlvGHn639ZWjeannYo0x8u8B9iez7jDorgLZEKHiIMIN3u4ngEAAA%3D%3D%22%2C%22edgeResourceData%22%3A%22%7B%7D%22%7D%2C%22os%22%3A%22android%22%7D%5D",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:16.372372+00:00",
+        "host": "119.29.29.98",
+        "path": "/d?id=39662&dn=3973a3b8ce9ff2186d38afa974d668508494589a94c4b7b6",
+        "method": "GET",
+        "scheme": "http",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:16.413254+00:00",
+        "host": "utoken.umeng.com",
+        "path": "/anti/updateZdata",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "(ÏI1tdvT1h¤\u0003Mä¤+3éÚÃÅ´Ãü\u0014Hxd\nØ\u001f\u0017¶ÜÃ\u0010öüÜY`\u0017mÀeójus\u0015\rCjÄâl¿{â\u0000Ô{<3~Î«Þ+/MH\u001e\t?\u0005\u0004°Æ©\u0014Ä\u001cø\u001b|üÁ\u0001é|ãª\u0004õD¾\nÕ\u0003Å[ .]ÖßWI7\u0002£r9aq¹\u001eÚ+}¸ÔÂ=.ú9¥z*ïº^Ç_\bæ\u0001ú­Öez\\sÐ©aü¦\u0014ÇÆ\u0013\u0010MP%FUeÿûÈY>-ôï F´ëª\u000bbIgÜ1À*ap7mDóÈ¾Ä}hùVyîUê'±tÂõ\u0005Qtð1ZÑ½¿;÷¡\u0007S¹9EÀ\u001d­haèá\t]9ô%-En\u0005Ö\u001cê4åPØ±Ñ>|×f\u000eÜÞÛEU»\u00037ì«u%Vñ´(êÊoã³?Übùå­#Éî\u000bäÜ\\zJ\u0004íÁ gÿª§K\u0003o\u0005µ¦\rký×ÝÉ\u0002V5CBÞ\u0018ØO\\­T\u000bul$a_'ì¹äW\u0017\u0003ê$rÅÖÝïûû\u001býxq{rû\frtT\u0017ÔÆÙPtû\u0007µÉ\u001fZ,¸²xq\u001b<\fó¡Z?×=º\u001b\u001dkG£\u001aÈ5É¸\u0012OÊ[©CaK| ¬ËóÃ¬-q\b°åã7róUn,ºÙ7ýiÞÐ0><N\u0013dýÐË\nüA\"/D\u0014dªù:¼\u0002\f_;\u00132g\u0019R.\rAk#ãæ×\u001f\u001f1®oÊ]%yÃtÿ\u0004ÏÆââ6.\u001b!ø%d%Ueç°\u0002S¸Øó;]*tÊ\u000e\u0001Y\u0018ÖºhãÙ¥L#²Z[QÚ%ª\u0015\u001dfñl3ë~ü\u00004á³äðyÃ{tM:ÃÊ8.\u0011XM\u0011Ö@t/^²\b\u0012[oÍb«G2}±¡}©LÏ >²ÚüÏHêk¯ðO´=¶1&ô%i!\u0000±nñ;E0ñæZµ¦õ`Û»2éÍþÎ\u00068ÏKí\u0005U7ZÓ\u0016\u0011ðÇîÕV·Ë¸\u001b[l\u0004^RîNK+Â ¹·c\\÷ß\u0007k\u0003X\u0018uK¡·Ð×oYeÃuñ7Ã\u00010yÙ\u001d\u001d\u0013GnË¢H\t\u0000\r~º\\W|O-Q]d4`(v-3ëE@ØWÍ\u0007¤Hý÷ÊíÂ[â?½¥k\u0010\u0018a'\u001e LÁ\u001cìVÌï\u000e\u000bîÙ:ÐÇª£\u0000ç\u0001\\u5`õÄ<nt}1QA\u0007>û\u001b¬ä9ùý¾Ùt/\u0003ãÜ°âÝ]xøz;¹õÎ\u001eÛ¤ÉëA16\u0006k\u001a\u000e\"BÇ6¯\bµ0x¼x~ºõæðb{õ¡hïpõÀ$ØþËìÝ6ý8Ä\u0006¶¤:èü¶§¨¨ Ãºº\u0003\u0006º¸Ë¬\t\u000efû\u0002  X]}\u001d(;ú\u0017\u0018vV)0ªÿý/\u001cIp6K\u0002\u0005\u0019È\"ºçluâ\u0015M/,xÉ'\\ÜÆ>ó%»Ôì40_E\u0007C\u001d¼jl°äxË6X}±£ø«¶k\u0000É\u0000múìLo]gîÐ8ER½£\u0012é'f\\r/<ù\f\r¸6töã7\u0000R]\u0018]\\\u000bÛ¯ÁägíÚÆÃ+zù³<\u0017=",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:16.452075+00:00",
+        "host": "onepass.geetest.com",
+        "path": "/get_config",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"opsalt\":\"LeQsdidI2L4Wunn0H+JaAqRd08RuBmJi7+zsRGzTep4WK2aZ\\/a93d4aNXBaAm5SJayHbUbrsHEuAIkC2zBdorTPnsuVblm5\\/mJSQxZUAtqY2IbDhTUAW1\\/zp\\/6CWBG6TtxbavNn\\/6xglzNvsO9i7SEXBzaHLbW3FqhwbHdGbBYnL9fUdcpVlKiKGRngTaAgG8loKY6QO7tW1hHQ2L5FhCOzcPL0COZKl+OCwgCAVjljojGkXvFCNRFQChGGruhac\",\"clienttype\":\"1\",\"sdk\":\"2.9.7\",\"timestamp\":\"1781220554\",\"process_id\":\"092c694d5b2a46f1b616b36af51fc0af\",\"sign\":\"73ebdc6d8902190aa242f8b7c5fd996187f080f53ab63afe26ee0c30d55c7163\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:16.491955+00:00",
+        "host": "license.vod2.myqcloud.com",
+        "path": "/license/v2/1253881601_1/v_cube.license",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 304
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:16.564420+00:00",
+        "host": "license.vod2.myqcloud.com",
+        "path": "/license/v2/1253881601_1/v_cube.license",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 304
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:16.612680+00:00",
+        "host": "mlvbdc.live.tlivesource.com",
+        "path": "/liteav",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "¥=nã0\u0010ïÂÚ\u0012fÄ\u001fêÜ\u0007¹@\u0010\b8FD¢!Ñ\u0006À}\u0016Ørûm\u001c¤È\u0011\u0016{\u001c#×\b%Ûr²[\u0015ç\u001b¾7C\u000e]­Ú±\u001cf¬òMcÛ¸\u0017&®\u0019s6Xß<gZÛ\u0010ËÙáåïaÿzØ¿\u001d~þyÿõûýÇs\u001eeéõnFqçk:_\u0005ß±Ù(ÜP××¾ZTDZn\u0003õEY?\u000eu\u0004\tö¡#Û\r±\t\u0006OÞq#HÍeÂEi\u0013¡\u0015&%\u0007L2¬æ¨Ô\u00128/'Ñ¥,bjRHQ\b!cÚÑæè\u000fh\b´¶sYì¡¬´V!qIn\u0014Â\u0000­,*]Y²eÅá¤\u000fÛÕð\u0018«ëdq\u0005gº^Çº®¨¼\u001b|ÏaÝ.ýñ!hCm8¶`L$-s\u001b\u0018ÃÞÝÒC°ý|E´®ÛÀ³âß\u0011ð0é\u001bN°ñný@£+\u0002¯\u001elXú®ay6±ºM]]äJ\u0014qö£4^ZkTpÉ\u001c«ÕÃÂ¹Æ,\u0003)åîvÆþ«øå;ì>\u0000",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:16.726758+00:00",
+        "host": "cnlogs.umeng.com",
+        "path": "/common_inout_logs",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "*º=5e202=;`iöVâv7Ôµrrp\u001b\fáQA\u000e\bËø\u001e\u0011;1GUY\u0004¿ê\u0006#^%!ó¨g÷ß©á¯]ý{V\rÚ\u00053\u0019 éÏáÀ\u000eÂl]kv2àù>D\u000bº/ CAõgK·\u0011ð<újVm_Ë ËÀR\nC}\tE]kbi\u0016M'QNl\u0003ÍÓöÇ§ÁJãa»T\u0001ñ\nb`³Ûci.'iË=R_*voôÞ'`\u0002{\u0011?ð4;ñò¡½hPÃ\u0001¦\\û°#lªè\u001a(Ê'C\\\u0004Z¨\nÖ\u000b\u0016Yî@ Íu\u001dÛ:­ï¤¢(\u000br)õ=Xñ*1'õ:7óG¯ò¼5ºP¡Þ±LUêÿcÏ#¤ ¬ y¢0ÌÃz\u0011\u0013(Íd.¥[y\u000f\ng«S>?k\u001bt·göHU´Wös{TÂ\u000eÌ¢\u0003#4w1ØNè\r-¿{\u0014nàX®ÿ¿L?Qç©¯'õÜ¡æcÜ¶\u0019\u0002ï±C³âóg'|8:º±²²¹C7\r\u0013#ä¯\u0012eÇÑ±VÁá\u001bê(ÝÂ3*r`fJÀÃ±,JwíÍÃaï!ºd\u0014ó§öK¡Êêß,Ë½Ç×\u0012+AxeñSò\u0007Þ¶}7í)­w½ïNXfÇ¸/\u001cëË¬5Lø20\u0017ë\u0002Ém°\u0018'\u0010 \rO\u001cñ³o0ö*\u0000\u000b¯e¾h¾\u000f&<&¹\u0000»ggÐÇ]k°Ø!vLK²Bl\u0014±  \"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:16.849069+00:00",
+        "host": "onepass.geetest.com",
+        "path": "/get_config",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"opsalt\":\"ylfbzL3yP+8NWfACfFBAVHgy1+241zSbcGNm7LOgHNojfpVgQdNkz0RQdOIsicUi8sMyVNR5E967BEziQ1EZYoL7MqsYirkL7F1JoXiB\\/3K+V1HJIdktfdlECcVvdORWOMKM47U3WHBNnsnpNqROg1uutEB8197Eg89mugbomRIxq1XfMlZQJDbuT4illCoD31HAvgyrJ8jGHMsKjJmOZC7SLA6X2j9zKO9B1fomc25lA6\\/J3Wh55d1NLrKtB\\/MP\",\"clienttype\":\"1\",\"sdk\":\"2.9.7\",\"timestamp\":\"1781220555\",\"process_id\":\"8b87873c90773b891bb1a8cb1e902432\",\"sign\":\"d6bb78800857b11ae6af82484b8024dc6eb7d2d77e409ae51350ce9879630006\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:16.864402+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/multipoint_getMultipointOfDaoRu?ck=ad944f-j0-1-0-e8fb1be6-a06f-4739-bdc9-a29fb459e76e",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "hdfts=1781220555&di=8a4d4e29-177a-490a-bf59-1f505314d70a&_hdfBSMiniwua=AQAA_%2FvS0z6E%2BUGs11%2FC6%2Bjq9OU%2BNzJbArgXrAPOMuZCT5Tc%3D&_hdfBSSign=RDEA_JAEAAAAAC720TLSiBgB0CBCRcIGbAtkMV7llyaKapruUamt%2BHV3%2BJy7CeN0nyAPCOPk%3D&spaceId=0&deviceOpenUDID=8a4d4e29-177a-490a-bf59-1f505314d70a&api=1.2&hdfhs=6f5506d0d734b8472de5beaad49c7b92&_hdfSignature=02030a360c9eb8fe94303ffea8fdf870&app=d&deviceType=ALN-AL00&certificateToken=&sv=12&os=a&userId=0&m=ALN-AL00&n=2&deviceToken=8a4d4e29-177a-490a-bf59-1f505314d70a&p=0&ct=&s=tc&v=9.4.4&hdfti=1781220555304&_hdfBSSignApi=multipoint_getMultipointOfDaoRu&cid=0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:16.875093+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/doctoruser_getBaseInfo?ck=ad944f-j0-0-0-2e3766ff-ae9a-4efd-a55b-48fe1b94f30f",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "hdfts=1781220555&di=8a4d4e29-177a-490a-bf59-1f505314d70a&_hdfBSMiniwua=AQAA_O12Q5SBRlaAORbELpYyt9aJNaC5q%2B5Z1LI%2BR8rp1H74%3D&_hdfBSSign=RDEA_JAEAAAAAApG0TLSiBgDWqRzX%2BeGBLqjsq101gCfrwcb3%2F9QOPFOPh%2FKDfZoc7cEooZM%3D&spaceId=0&deviceOpenUDID=8a4d4e29-177a-490a-bf59-1f505314d70a&api=1.2&hdfhs=ec67c438c26ab9f64d68427510d44fc8&_hdfSignature=b8111cd14df456e5d5b1caf3c4c57313&app=d&deviceType=ALN-AL00&certificateToken=&sv=12&os=a&userId=0&m=ALN-AL00&n=2&deviceToken=8a4d4e29-177a-490a-bf59-1f505314d70a&p=0&ct=&s=tc&v=9.4.4&hdfti=1781220555290&_hdfBSSignApi=doctoruser_getBaseInfo&cid=0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:17.027937+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/doctoruser_getOneLoginWay?ck=ad944f-j0-2-0-134dc5fe-c307-44ca-877d-6b649f4e0b37",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "hdfts=1781220555&di=8a4d4e29-177a-490a-bf59-1f505314d70a&_hdfBSMiniwua=AQAA_%2B847MaiE4Xclmdt1DpsqJ6l%2B%2FzkUksxCv%2FUKC48nGWP3mkmTKHSqUhkPzEV6Ir4F&_hdfBSSign=RDEA_JAEAAAAAKPC4TLSiBgAaooFXKTvNfOvXbfrTa1mpmFaeW7GyzVwXsVMMPi8F%2FP1ELvU%3D&spaceId=0&deviceOpenUDID=8a4d4e29-177a-490a-bf59-1f505314d70a&api=1.2&hdfhs=e741517a7aa15bd22b92c5c7e534a3af&_hdfSignature=b737c4c62f5ebcdb1544d2b6f0565dcd&app=d&deviceType=ALN-AL00&certificateToken=&sv=12&os=a&userId=0&m=ALN-AL00&n=2&deviceToken=8a4d4e29-177a-490a-bf59-1f505314d70a&p=0&ct=&s=tc&v=9.4.4&hdfti=1781220555580&_hdfBSSignApi=doctoruser_getOneLoginWay&cid=0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:17.108179+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/authcenter_getHomePageInfo?ck=ad944f-j0-3-0-e0563762-a1d4-428c-a84a-a986fab89f75",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "hdfts=1781220555&di=8a4d4e29-177a-490a-bf59-1f505314d70a&_hdfBSMiniwua=AQAA_%2B847MaiE4Xclmdt1DpsqJ6l%2B%2FzkUksxCv%2FUKC48nGWP3mkmTKHSqUhkPzEV6Ir4F&_hdfBSSign=RDEA_JAEAAAAAeT65TLSiBgBQk7hGatp3dB2EiliIbrNP%2Fxz%2B4TjpuCYAm5AcvolTrS1z1ys%3D&spaceId=0&deviceOpenUDID=8a4d4e29-177a-490a-bf59-1f505314d70a&api=1.2&hdfhs=f3edfe899e3dd27f3bfa4ad2d615d968&_hdfSignature=7e1482badbc9cc0a60a706c4a78bc0c1&app=d&deviceType=ALN-AL00&certificateToken=&sv=12&os=a&userId=0&m=ALN-AL00&n=2&deviceToken=8a4d4e29-177a-490a-bf59-1f505314d70a&p=0&ct=&s=tc&v=9.4.4&hdfti=1781220555600&_hdfBSSignApi=authcenter_getHomePageInfo&cid=0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:21.259735+00:00",
+        "host": "errnewlog.umeng.com",
+        "path": "/apm_cc",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:21.264013+00:00",
+        "host": "cnlogs.umeng.com",
+        "path": "/unify_logs",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u0018\u00031.0\u0018\u00185076a76552701569380000ab\u0018@2b17976caa3a8ec8790c50822ed28788357933d7b8ea09b7dd20fe2c8fc8fe69\u0015j\u0015Ú¢\r\u0015Ê*\u0018É\rxm\u0016Éã¸õW\u001aî\u001c`ìP\u0014µ\u0002} ×rUIn»l«d\u00180hJ²e[KKò¦Fß'ArË=\trÈ\u000f\u0004\bò7iÌoäåÊT7\u0006(\u0017ß¾O\u001bï·\rûsã}\u0019o\u001avCSm\u000bÙ\u0006±UjcjwU»Ý±1²»][éØ¦i÷Ûv\u001fÛ\u001d$àÑøA(\nh¶­\u0013»­Û¤c\u001bT»Oì~×6,tÛÆ=AÿaSÃÖúBR\u0003nçf\u0005<á'<½u­6\u001eGzÕÔ\\±\u001covþ ¤Ø\t¬\u0016i\u0011xÃ¶\b\u0001(N\u0002`0UE©\u0012fê¡e\u0012U×\u0003Æ#Î1nY Âó#ÈÑs2ßåEÆÃ²ÌwExz§¼û-c\u0005ßêäwÂtrtMS5A\t* LÙú\u0010V\u0002Í÷¢\\<KZ[\u0005Q¥AÅA+Èx\u00152#©A_èÒ`0nð $ê`U2\u0012!øè6é#B°ÎØw`\r»\u0019õzC\u0019\u001eKÁ¸b\u0018¦©aE7\u0010BÒNôT\u0010\u000bs¢\u0018ÃÄSaõp\bSe¢\n\u00060+¿\r´8\bÑï\u0015d\n÷(àTuÃ6áä\"µ+H\u0007JÔ[pVÜ$¸\u0014Þ¾þý?_úÇ×þùõÏÿþù¯ûù?Ê6\n{ç8e\u001cß»\u0017©5\u0015\u0011é·Ù-à\u0019p\u00049¡ËBd²ñyYÇ\u0019¦!v\u0015Ë\u0012\u001cËâ8\fT«©¯U£IB\r5¥ðf°^+VD\bÑ±H0­¢Uy+\u000ew¡Q\u0015Ç\u0010hEnÂb\u0005\u001eÂ\r\u00163\u0016\u0007«\"üt0XUq\u0012ÞR-\u000b\nP$ \u0011`\u0001Cbk\u0000Õ2\n:yHG3ÒQÚj^\u0019.KÔÌèD\\\u0019÷|\u0011DÛ]PÇfÜüØÔ·ÉÃê~3R«±Õ4ü´wÒyûAæÅÆå\u000f³µ1êÔûÌ»ÿ\u0005¹ó'F\u0010-úÖ¹ºÌB\\ùûûÇN\u0012_^ºúÉÊ·¢%ÕKöâ¶#Cg\u000686¢éjÂ !¶­Î\u0004ç¡7aü7½Ið<ß¤E6ÎÏ{\r.~°»;êt«û5\n?\n­c\"\u0013f±F\bLf5\u0010\u001eXºÎ\bôÂD¢E\n±ÄØ½?)JY\u0015B^§L­{TâmÊåv%..n¡\u0016j|}?\tN¼:L\u0011X ÊnøëÈä7\\o\u0019òÉ(o¸ÑReIø\r\u0017\u0005¿þ¿=Q2p´ú\rËèÀÄ^6[ÆYº\u0014]^6xÁÊ-ÀÊ+|ÏNì-îÊÜn\u0014\u00167(\u0015:°¥$LnP\u001aV7h«½u3+Ã_Ô7ággIb0¨lóÅCÈö\u0002û\"\u0012-Dë{Îl(×JÇI\u000eÐà¶ç&\u000b¼Ø\u000f:ÙÅéöÈ¸Û;»]8Óqít÷\u0017çé\fôÙ\u0015xh4õÏînX:;ÿêL\u001dí±ÛÓF]vpÿ¼LyßÂçûyÖq@gÚãn|t)\u001d,\u0006ý³:©\u0007\u0014]Üzsqv=ÕÙ9HX¤t¢¬½\u0003x¿ß²é\f¹Â7¾.Swê#wàîÁ'ö§cmä9\u00044.®ç_ÜîþJi~âÊ[Ã³¡Sæiu0èë¾µåwí(Hæ`ãÃi½ÝôGO\u0004A\\´ÝÌ÷´ãÂ;û4ìh»¯S\u0017ùÞ¥|Æm0#æ)AÛÌøqJ\u0015øiÃ.½,ÓÑ^G;PºøÄ'hñ<ôéRúìûíé¬rBipæÉÍÊÛÌ§{<êú\u0017J-éq¾øü.\u001e:É\u0003ÏÝ\r:qÍ¡Ú\\®ÇÝýÑí@\u000eÝÞõ±G\u00058»æÖ3è\u001c¥Ë´?\u001eúÃÁø\n¾Èbà(>ô×\u000eëÅtHzs\u0006iäãáeÑ=$é$¡ôÃ¥Ø\u000bñª\fö«ÓKõ>®\n9%#Ã~íAÛÚ:µs^ì6µ;è\u00117Á\u0004kw·Ø\u000bO>v®>^lÝÝ^ë\u0017ÆÊp×^\\f\u001dJçJ0äËtÑÞø¾ç#¯Wj5¿ÌûÞx6y>w\u001ffÞÄÿV3ß®Éuaà7hS\u0004ó\u0007rT¨\u001d\u001cÜ®\u001b»ÝaýV{ïÜ2Ë\u001c§©¸Ý\u001b\\Ü¤FÉ#y98GtÇj\u0013D+vå¡Øç«j¬ê· Ü¯Äê*\u0003&\u0016.M³UY­`\u0010,^£\u0004b\u0012\u0004°wm¥eh\u0012ÉcØ*&°Ê8²\u0017Ý(¾­u¬Yª4$­°Ãñ×Èüö\u0001òúé3¾§!NËÁ/ä{x\u0014ï1,SM\u0011X\u0015*R\u0017_\n\u0018a}ù\u0007øSð»ÿþëO_ÿò£acK>Q)ÅJé×T0R©Âø¡!w\b\u000b,xÜuDL\u001d¾²°f\u0016|'15X\u0013\u0011Qª¼ib¤ii\u0012H\u0014Þ$&ØÔ±j\u0012ÃTU\u001d\n\u000eÅÒ-\u0005©&Fæ¯)~ùò?2ã\u0019\u0018@e4535e6f7f69cdcb685fb381e381c38be62a73d4d4b933b47a738a2fa39bd503\u0018 7f0fcd23cfc6f0a9f1645fd04a7a6f65\u0015\u0000\u0000",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:25.885301+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/nlog/info/android?ck=ad944f-j0-0-0-c7440616-a0b0-4e36-8c67-5c2848394d6c",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"hdfts\"\r\nContent-Length: 10\r\n\r\n1781220564\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"di\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"_hdfBSMiniwua\"\r\nContent-Length: 69\r\n\r\nAQAA_+847MaiE4Xclmdt1DpsqJ6l+/zkUksxCv/UKC48nGWP3mkmTKHSqUhkPzEV6Ir4F\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"_hdfBSSign\"\r\nContent-Length: 73\r\n\r\nRDEA_JAEAAAAA7BZFTbSiBgCn0OHbodr/lPcvcuF53VpVfM0tcZBq4G/hIhK4mFFcdyvoPMI=\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"spaceId\"\r\nContent-Length: 1\r\n\r\n0\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"deviceOpenUDID\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"api\"\r\nContent-Length: 3\r\n\r\n1.2\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"hdfhs\"\r\nContent-Length: 32\r\n\r\na0299ab6c7e5694baa6b54ec381b2333\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"_hdfSignature\"\r\nContent-Length: 32\r\n\r\n1ce691af0a069990d3f7877ee57cb127\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"app\"\r\nContent-Length: 1\r\n\r\nd\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"deviceType\"\r\nContent-Length: 8\r\n\r\nALN-AL00\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"certificateToken\"\r\nContent-Length: 0\r\n\r\n\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"sv\"\r\nContent-Length: 2\r\n\r\n12\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"os\"\r\nContent-Length: 1\r\n\r\na\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"userId\"\r\nContent-Length: 1\r\n\r\n0\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"m\"\r\nContent-Length: 8\r\n\r\nALN-AL00\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"n\"\r\nContent-Length: 1\r\n\r\n2\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"deviceToken\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"p\"\r\nContent-Length: 1\r\n\r\n0\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"ct\"\r\nContent-Length: 0\r\n\r\n\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"s\"\r\nContent-Length: 2\r\n\r\ntc\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"v\"\r\nContent-Length: 5\r\n\r\n9.4.4\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"hdfti\"\r\nContent-Length: 13\r\n\r\n1781220564330\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"_hdfBSSignApi\"\r\nContent-Length: 7\r\n\r\nandroid\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"cid\"\r\nContent-Length: 1\r\n\r\n0\r\n--6be1247b-30e9-43c6-b7d8-e6390fac3ac2\r\nContent-Disposition: form-data; name=\"content\"; filename=\"1781220564329.xlog\"\r\nContent-Type: text/plain\r\nContent-Length: 7204\r\n\r\n\u0006\u0000\u0000\u0007\u0007\u001a\u0000\u0000\u0000}Ç}iÐYáA\r÷xÄ\u0001Õ\u0005«ÿ\u0012kØüP$ºXÁ^&\u0013¬ª\u0011\u0010\u0003\u0018U«9û 3hûRâ\u001aäz\t©¼.jnb2ê\"~~~~~ begin of mmap ~~~~~\n\u0000\u0007\u0003\u0000\u0007\u0007\u0004\u0000\u0000Q ­îëN>|àñ¶\u001fË\t\u001a,ç\u0011ëV¿-Úür9+eòØnÓ5UV*ÑÒ\u00145o\u0014Väk¥ÙaÐf6kL\u0018qâ¹d\u0003+#ãoÔ(nÇS¿ÿg¦ÝÛ+S8ÌP sæ\u001düä ¯µ²\u0006à.R=eÝ\\cõQ­¶óT¾Æ1ÆûÃv¬\u0015\u000f$uT\u0006r`\u0013UxF½\u0004+÷Fbµ« »\u0016Î6ª1óè7ø20»^q\u0015]¸Ø2ÃK?\"ÓlT\u0011E,¢¹Ù®»§â$§ïù\u0006Ùô\u0006C¹FeéDíÞøHKÌô\t§\u00031(Ügç·a´\u0003N*³\u001d¹ÕÈáGÕ\u0010¿å_¦¹Vdºü{ò»ÔÑî7Äpw^¶ª\u0014v×\u0000\u000fxxj(_@\n[yv·3=ØSXº\u0018©Ðå\u0002\u0015ejD\tÓÝ«\u0014\u0016ç¨ kÏ\u0005\u000fQ>X»k`QÔAðÄ\u0015,Z¨X9\u0017©ÓÆðî\u0014%[\u0001#ÝG:ee®`\u0012µ\u001e\b¶ðZ@X>l£¿Åòf\fùN\tXbÿ±áé×´é½2'X\u001dnµdheQv©¥|a\u0002\u0018ÔU\u0006ÀX\u0016éBvÀ\r\u0003q9G}\u001dâ[åâ\u000eµ°£ÿñ­\\\u00113ô*qBÍ~ÅÓ0\u0019æd@\"RDa®°J\"\t(\u001f\u00179\u0002u\u00147ÀÅ»y£(Q[\u001dg°?G,¯cDên¹Ú¿\u001dwUÇR­°\u001e\u001cé/\u001fOì\u001eÊ#ãªê\u0016í\tnô[}H.\u000eóM/ÖtF®ò\u001b¿ÒàGåÂ9¢Â)\u001eÏ5NqpÇ7\u000e%øÜ\u001aø)oh¡\u00121Â;C¬\u0016º8iì\u0018®\u0016züC´l\u0018,NÙyÚv¢Úßö\u0014f\u001bon7 _+\t\u0004\u001dÙ¶CÙ{ú0mÄ½ýÉ>:o\u001bY<Ú<\u001d¯¨f+¹ûr8ú*\u0019(\u0016Ü19ònSödóê®\u0001¥K4A§Kñ\u0015Ç\u000b²UþI;:Ám²ºãåb.ï\u0011ïÑ\u0014YB¯ÂôÏË­é­µ\fÅz/6ì^\u0017 v4UBé6¢i«Ó\r\\fi*ÂLEëe\tÅD¿\u0006®ê\bÐ\u0007Ã¢Y\røHÀ¶ïWKFôâkÇGâ½×\u0011ïÎ«ÎÝ\u001eáK\u001a\u0001âÜ56;@µa6ñ]R\u001a\u0001Ïw­èÜå}ÀÍô\u0014¾Ã\u0001È¿2\u001au~?Ç4\u0015¯ø¤í¼nâÃä#,äð9µ¿3<o\u0004Æ9[ âi/\u00125\u0010}qE£lU¤åD¿ý°}¾ÂnÈ­Øþ¹\u00176×3õï«3|\u0004,¿#SïL§\u0005¯ª\u0017RGxá»$*ÇÌÖEm\u001ew\t|½LW3+LÎ>%å #%Z8\f¬\u0007\rd\\µ\u001aâwÓõÔ\u000b\u0007m¨WlsD¶*\tñ®ÊbåO/Ý3øóù1õïõÕà&æ/@z\u0001Q7´\u0001úû?¡.ÓäË\u0010úk\tª£åZÇm®Jú¨ðªÓw§óáàJÑæ÷Ölk\\z\n\rÝ)ªðXØ¹qÉ2\\ÝÄÃ·6ßðï2\u0002\u0005 QbÅ$\u0007|ñÐ5#Àì[PüÆññ6ìùhØ{\u0006ñqoé´è¸°ê'Ó\u0000ä\u0006²\u0005¬þQ$sÓ|J¥(\u0015;\u0010 Ïò\u0018«\u0003·h-ÀØðÑøy§Ø\t1n\u001aé½¬Tñ´_ Rï·EÆm\u0016ì\u0000ÿÿ\u0000\u0006\u0000\u0000\u0007\u0007@\u0000\u0000\u0000}Ç}iÐYáA\r÷xÄ\u0001Õ\u0005«ÿ\u0012kØüP$ºXÁ^&\u0013¬ª\u0011\u0010\u0003\u0018U«9û 3hûRâ\u001aäz\t©¼.jnb2ê\"~~~~~ end of mmap ~~~~~[31913,31913][2026-06-12 +0800 07:29:14]\n\u0000\u0007\u0002\u0000\u0007\u0007\u000f\u0016\u0000\u0000}Ç}iÐYáA\r÷xÄ\u0001Õ\u0005«ÿ\u0012kØüP$ºXÁ^&\u0013¬ª\u0011\u0010\u0003\u0018U«9û 3hûRâ\u001aäz\t©¼.jnb2ê\"Û\u0004\u0018îýî¤¢X\\È9ò\u000exDRS¹1ÙÉpªmÔ¼À>[IÂmlvä>é³g'\"\u0019Úq*9¯f°vTg±±ì\u001e¡c\u0002)¼\u0002QÜøfC\u000eA.~\u000eÿ½ì«»\u0006Ôó^Sª7È\u000e*\u0007\f*\u0018¤(ýîs@µVLä®5Ãýb!k\u0015\u001a±Ù\nÛ-ZF/{>ã\u0018µ4yârGkýÌlZ¹tÏå\nFqVSè+¬¢ßH}&û/>#÷âdæ¹ÆaK¨ ,\rp¡ßøÃ\"\u001c±w\u001d,8®HãÛ\b\\À¸[\u0015u®\u001eÄÇªO­®äK/EÜvó\u0000Kê\u0006^ÂÌæ·È\u0014V30Ê5]2ú\f²\u0016®ïiål«TÖP8K\u0003èÛ\u0012~má[äØ¶&ÑH<ñéB²Á+´É:1\u0013uäÌ&­Û·ªm\u001eê\u000e/óÚãÙ-\u0003-\u001fwÀ\nXO-ðùU%I`N¿÷ZøR®¤`¼óèN;¯´ÐVhÌ\u0017}j\u0017}`Â\u0014¸Ñ8t\u0003Ú\u0003oÿÎ%ËA\u000b9Ó¦þO\u0001oL´1\u0014\u001fY\"\u000bbÚIVA8Ë»ë\u0006ÂÄâ\u0007Ã~\u0018W¬EHûë¶Ã4N\u001f7ò 3\u0013u¼%â0ÖBQ¿ûÒááÓú\u0018\u0006\u0013³¦Iþeä\u0019µýeÏ@ÒÔbëäcE\u000e«N;ëp¦dò´n]JC.x[×E{ÉÑºµ¤ù7\u00046[\u0003ßíë²!Ï\u001cvx)&äM`ß­±ïuór¦¤#Xt%ûB8\ndG¼\u001c\u001e§®8§Vx6´}(ßD+{\u001baí=½røÝñ\u0007DÅÿ¶^ðïq«iï\u001eú<|»¡<9Ë\u0019ñ±à\u0014tlÊ°wX&\f;ÄQ¶dlQ`jC,UðáqT,uÓ>îsâæí·?=&j[yÒ¾<;ÏÎjÞÙé\u001f åM¢Ù({Ñóx©äÕ\u0015â&´àÌGJ÷³(\u0002ÈOÒ\füÿ\u0007FA\u0015\u0015F:¬º»ÀCÕéÖS\tqYþÎ[%Ö3×P´ØÃïc|Àî\u001eo÷-\u0000G\u001fJCØß3½¾\u0017Ö\u0019¾QC)\u001fhº\u001aF\u0013Öç¤¥ \u0011Ø\bÚSQv¯çáÆùãêÚX)APÖÐ®_ddô[Ï½\u0005_²$Ô\u0000.ßIî\u0011)Ò\\T¹×e\u0019\u0011¨Õ7\n!E|\u0003°ï¥]?\u001dÓ\fL/ìåù\u0018ÜÓ\u001e´ÚLíÛR¨¸¯ÍYa\u0001w31Üø1orAÂ£ò¶a\u0016\u000fÕÎj§^ReZ\u0000Ì$À'>±¹\u0003ÁJî&ÛÞå[\u001dÑ|3$\u0013¥l@>`·\u0003IÃÉÇNLÓùM=Äop5yBÙ]9x7¾6\u0013gx½tÅ©÷9\bÂé!éòÉòGC[uí\\±oR1\"¶ZëwcZíòvÞxä\u0012qW%9¿Ë5Õ\"ÍwRþa\u000eSË\u0010#Ø\u0017¢rYm ¯Î\u001bÅé2Ñª\u000fö×så¸Ö¨ÿ2Á\u0014ñ\u0014OòkZ¥AÓ%ù#ÌñW.Q³c\nÜo¬mÆDw4<rPÈÆb<\u0004?úÄcÏþ\rùÞ\u0013]ÞÏa8'óµ\u0004pUóÕcÂF\u0007I#n\u001b×»^\\$¸îäP\tø,}½Ùº\fþ\u0002ÍÕ´Æ\u0019¦8\u001cÌ\f)%\u0000qÎî5\u000byÛåü-\u0016ñ¾E'ç}n}ÆnK|íà`.NÞÊ\u0001{ÈÌNðR\u001e¤-àø¦×$Hw\u0010ÐI\u001dÄö¢jz=ø\b\u000eJÓGÜ\u0010­AX·µq÷\u0002*TaEAZ%]\u0004]ë²Ió3\u0006%[tl¨î;+£·iK­ùþÅ¿GXSö\u0015ÊOîo>äq¶¸1ÈhA@òZ·æ\bÀ·¼Ò\u00136cBµj¬\u0011\u001a£è\b®ÚßíÑï\u001c\u0015ácý²¥aO§ùªaFv²\u0019\u0018\u001e\u001eKP&.å£·r)i\u0005¥'þ¤¤4Á¬OweÙt\u001fääÞèD¨0k1°0%\u0000Æ{ßE\u000fëÔ°qµA\u0000û&©ñgÒ¸íceXm¶Þ¤\u000e1Óï6ù%t·àÀþì9ÿm!ýû\u0016\fù\u000e±6·!VgäC³üðNµ/pm_É9ô0«N)\u0003vw(#ëØ´\u0011¢ËÙ\u0013tD<!/¹÷ý`\u0003÷Ðä°PÕñòjCá\u0010\to^Ç(_Øk^XË½³\u0014üj50ÐÙ«åTg^\rMº9q\u0003\r¤ÈF¹Û\u000e\u001d¿èò\u001f>.ªÉKÛ\\eõ\u0002uå7\tlD\ttíÙ­ö\u0006ý/WÐÍHêÙï\u0000fÁ?ON²p»ÎWõÕºò¿v\u001ep¥u£#+éS:Ä\u001b÷U,\u0005nÝÁdYHÙi\u001fkvÑ|ÄÃ®²Ïô5\u001f°A \u0007ªvÉàlÈJN8}J>N µ,ö\u0016DM³EÃ1\r\u0007\u001fE¶¸\u0014ä¯ô [w\u0010¸lj}óP0Ñ\u0001]\u000bñDp&\u0011)Bì\u0011¡\u0004&!íL­.}Aý0à\f\u0010 ¦Ê\u0004\u0012üKç¥À¿\u0003\u001fi¨\u000f(\\N¿mÆ¥kay\nÍ\u001e\r©Ö.³ÄãÏ1K¦|K¦¬4\u0010O\u0019ä³õÙº^©Öy\u0004\u0019F\u0001\u000bb2'wQÆ&âÃ!P¼·DD¿\u0012E?d<¨Çà¸'{Ó¨©³èZ\u001aÀãH\u0019=MÎn¾æ§ß³WhËò`\rÐÀäcq68æÐ\u001eï{´=r)mW\f[þHß«FðEb<áðQ)üo\u0016\u0011Vuñ%#\\¶üùk\u0011nY\u0012\nêâB¢o}1^w|c{»Øú'\u0018Å<3ª±);C\u000e:~ÞÉÌ%ÆÌ\u001biÓ6=å§ 6ê\f<j$²E\tHðM\u0003}KïÅv/\n\u0002Q°ºozi\u001d4Õº\u001aCÉ\u0016×Bè(F\u0005M¼É53ÿ\u0017iû¼è-È{)ò'.\u0004_GÍ0\u000eÂE\u0010Ár_9ß\u0000ooñ\u0000a\u0011;ÆÂxóþòÕùÀ'gâRp]{ü,Åàõe6LÖ\u000fó1ù\b¡yôYÎ\u001eµáØ%\u0002£Q7°5ñ*{B¶=¢L4\u001eqy6w3ÿâ÷T%\u0017&·\rî°NÝ$ê¥ÈÛ\u0016ý²ÙÖÿuãÝóE¬Jêö{\f\b á¤_\u001bCE$Wôs¡NFö¾íæ|Ü\u0015kÍ\u0013v\u0016Y¸\u0007$CrpöAN pþ©ß{£Ý\u0006\u001f×Ô)\u0012aÎ4¤Ñy¸ó­,\u0006E?¶Ñ½ø\u001e5÷¸7vØPr+&Å8µDm#9@Ñùâïh$-þÐ1'\f}¬¬&Ñ%å7{ú\u0012¹ÛôòÝ­~!\u0006\u001f}ð;ÔN+#\u0017«¯«[¯;É_o\u0003£\u001b,5ß×â¿B\u001bu\u0000äóF)Þ8|4\u0010£WAÕ<ð$s\u001a\u0011´©ùÕÈ9°¦yF\f®;öµó\u0004|V?å 4RÅªyºTäÎÖK\u001f\nµJ!\u001b\u001dTþ\u0017Â\u0016«É\u0014/^(Õ\u001b¨Â?T+`ÏÁ]³uöVÈ\u00130\u0016Üþ±\u001b\u000f{ay@VÓ[¬÷¢Ê#Ä\u00177À¹\u0010 ñ;7ä«*CSïí\u0007\t>é\"\u00031î(·\u0018\u0018.¨\u001eHXþYfU®|3º¥«¡-Ìï-qÂLo ¥¸ê¢þÏ^\"ßÄÃUìì\\)åÑ×\\ÜhC«¿{6ínõ\u00112«}\u0002õ²ìóó)9Ä\bôAÄZ\u000e,µæý¨úâ\u0018¿\u000bøÙé\u0017ÎXx\f»\u0013p&°=_e½Ã,\u001a×fE¤¦kÊ{Y>ÛÔÝù°)$¿d&¯|ÁÙÁ(\u0004®ä¿¢vçKH\"W\u0017äx«\"ôHu\u0019\u001e\u0001K¨?zXtú ÅqïwªÂ°òj¡Æ&fÚfZ=\u001fç\u0012÷é÷CNtðvÉ}û÷O÷\u0000\u0007W&ûHô\u0011Î3¶\u001cKKaI1¬Wìì£¥é¤m~\u0001¸2&1¶Ä&Ëd\u001aIÇ#ý¼/\u0017ôá\u0013Ã³\u0000'_jNÊfäEQ\"sèÓÊÛP\u0003Ìu³óWS$Èk_²uµÐ=\u00003XCÑ@Ó³²Êð\fHÒ\u0003èvE}þ¯Óª5ìÐ²\\¡¸\u001c\u0007ÐÃ6Y\u00140\u0002þ2öì|¾ë½Bs<e\u0004õ¬½8fåsrEß¼\bý\fD\tà°::P©!\u0006Ç­n_w.å£·r)8ËZS]] pfþñÂWì¬\u0001[\u000fÊ\u0002·ÉÄTë\u0001ûx)3\u001bÁ '«Sô^À\u0012a ¤¿\u0003v½ÔL³35W¾û\u0018ÚW´mk4ö1Ïs3\u001aY\u001aÉõi À£^\u0017Íf\u001a-60¶\u0007~w?ÐÁôÀ& vj\u001e¬Jv¿\u001d5\u001a°«ë\u0004SÁ\u001eoH*Ó§¢ÝÜÚtéO#V°¤â¾ãl(",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:26.499836+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/nmonitor/imlogfile/android?ck=ad944f-j0-0-0-98914a9f-3342-4966-a261-09ebd32ddb0b",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"hdfts\"\r\nContent-Length: 10\r\n\r\n1781220565\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"di\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"_hdfBSMiniwua\"\r\nContent-Length: 69\r\n\r\nAQAA_+847MaiE4Xclmdt1DpsqJ6l+/zkUksxCv/UKC48nGWP3mkmTKHSqUhkPzEV6Ir4F\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"_hdfBSSign\"\r\nContent-Length: 73\r\n\r\nRDEA_JAIAAAAAnj9RTbSiBgDm1yf7GlOCi8XVo62QhcWVjbIHu5Sr8+uQWc42bkJf5idcbyU=\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"spaceId\"\r\nContent-Length: 1\r\n\r\n0\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"deviceOpenUDID\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"api\"\r\nContent-Length: 3\r\n\r\n1.2\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"hdfhs\"\r\nContent-Length: 32\r\n\r\n8a980af7d3fec84f4500bcc158cf3a97\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"_hdfSignature\"\r\nContent-Length: 32\r\n\r\n797be54c1fbf5ea0b6562bd6d9b1339c\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"app\"\r\nContent-Length: 1\r\n\r\nd\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"deviceType\"\r\nContent-Length: 8\r\n\r\nALN-AL00\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"certificateToken\"\r\nContent-Length: 0\r\n\r\n\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"sv\"\r\nContent-Length: 2\r\n\r\n12\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"os\"\r\nContent-Length: 1\r\n\r\na\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"userId\"\r\nContent-Length: 1\r\n\r\n0\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"m\"\r\nContent-Length: 8\r\n\r\nALN-AL00\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"n\"\r\nContent-Length: 1\r\n\r\n2\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"deviceToken\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"p\"\r\nContent-Length: 1\r\n\r\n0\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"ct\"\r\nContent-Length: 0\r\n\r\n\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"s\"\r\nContent-Length: 2\r\n\r\ntc\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"v\"\r\nContent-Length: 5\r\n\r\n9.4.4\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"hdfti\"\r\nContent-Length: 13\r\n\r\n1781220565079\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"_hdfBSSignApi\"\r\nContent-Length: 7\r\n\r\nandroid\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"cid\"\r\nContent-Length: 1\r\n\r\n0\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab\r\nContent-Disposition: form-data; name=\"content\"; filename=\"1781220555072.log\"\r\nContent-Type: text/plain\r\nContent-Length: 373\r\n\r\n{\"action\":\"android_log_doctor_PageDraw\",\"int1\":111,\"int2\":110,\"int3\":0,\"level\":\"\",\"mark\":\"R_d8a4d4e29-177a-490a-bf59-1f505314d70a_u0@_v944_HUAWEI_ALN-AL00_12  \",\"string1\":\"0\",\"string2\":\".authenticate.authv2.activity.RegisterGuideActivity\",\"string3\":\".doctor.start.SplashActivity\",\"string4\":\"doctoruser_getOneLoginWay\",\"string5\":\"\",\"time1\":\"2026-06-12 07:29:15\",\"time2\":\"\"}\n\r\n--a42a471f-a71d-4942-9b42-0c4e9a76bfab--\r\n",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:46.864904+00:00",
+        "host": "mobilegw.alipay.com",
+        "path": "/mgw.htm",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "operationType=com.alipay.tscentercore.deviceFingerPrint.config.report&id=1&requestData=%5B%7B%22apdid%22%3A%22gHlvGHn639ZWjeannYo0x8u8B9iez7jDorgLZEKHiIMIN3u4ngEAAA%3D%3D%22%2C%22deviceDataMap%22%3A%7B%22AA1%22%3A%22com.haodf.android.doctor%22%2C%22AA2%22%3A%229.4.4%22%2C%22AA3%22%3A%22APPSecuritySDK-mraas%22%2C%22AA4%22%3A%22P8.0.0.20250228%22%2C%22AE1%22%3A%22android%22%2C%22AE10%22%3A%22ALN-AL00%22%2C%22AE12%22%3A%2212%22%2C%22AE13%22%3A%2232%22%2C%22AE5%22%3A%22HUAWEI%22%2C%22CRASH%22%3A%22%22%2C%22TOKEN%22%3A%22gHlvGHn639ZWjeannYo0x8u8B9iez7jDorgLZEKHiIMIN3u4ngEAAA%3D%3D%22%2C%22edgeResourceData%22%3A%22%7B%7D%22%7D%2C%22os%22%3A%22android%22%7D%5D",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:47.234003+00:00",
+        "host": "119.29.29.98",
+        "path": "/d?id=39662&dn=3973a3b8ce9ff2186d38afa974d668508494589a94c4b7b6",
+        "method": "GET",
+        "scheme": "http",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:47.319714+00:00",
+        "host": "utoken.umeng.com",
+        "path": "/anti/updateZdata",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "(ÏI1tdvT1h¤Å¿ää+3Òäµ\u0016ý\"ãD¢bL\u001e§éP\u0006áÀÖ^?É¼\u0007\f»à\u0014÷\u0018Ò!\u001fyð¼Bßª9X4þ\u000ed~\"Ï\u0016dÞv¯bÛZ¨÷pþNäîp*u /ìÝ\u001aýû2ÁQAüB¯>ÃYô.ø7yùe#B|ÏHj \u001cêºÍ¾t»XÄîÌþ£\bí8ñIvªr(á k7/\u0001²Ó\u001e9¹'ÀóÏ+\u0007(wÊjÒ$Tøúüïµ#^a;uG\u0017þ\u0002\u0002SÅ43¸F·s/IH\nr^ï°æ#zü\u000b\u0004%¶B\u0011@\u0018\füËÖ×ÏmÎÖqýV1\b8é)\u000eL]ìBâ5Ôò¬áÊ¬\u001em;a\u001cÑ\u0014ê9~Ê\u0003\\Ô&¶QÁ¶R&\u000bòÿÎ#P#Eèò¢1%\u001eïnÑL¢ð©=\fégOJ¤¼/CzbN´#w!A[©B\u0003qkºé:ÓtI\u00181\u001d|<wLjè\u0018§¯Æÿ8Ô\u001d\b¾ø%Só÷\u0013ÇÞÐ\bØuYBécêÚ0ªÉ$ÐªÞã¦\b\u0012\u001fm\u0002Ù  ©â0£iÓ\u0007Âd<i»×\u000föhb\u0017J\u0005Pâö(ôly~ì\b½{å\u0015Ù<µ\u0015\u0018A\rèë\b0½<àG8\u0003P ÂWÌûÞ¹ÝÁÃ\u0005oV%ê´veþG0¸ób²k\u0011Ïÿ?e0\u001e'\u001cV>£\u00058À+ñÕ±\u0013.Ve\u00035¤ë¢=×..¯Z5]P#nÙT¤\u0003zKLôFVM«a@Î|è\fÖYòîy(yp ­Q\u001bm/\u0013±YJ#Fh9?IwÔ2\u0018í¾}N¼\u0019æ(D¾q¢äMJå\u001dÏ;§EYxº\b9N³1ÖÁ(ýrÃ-ïKÉDßÅÓê¦ÃªOÅÊ\u0005N!Ã#>\u001c/SzV¹\b>òj\u000bÚÑÌ\tp\u0017\u0001®ÍOáÖÂíÓ\b\u0012#iÂ,y\u0019ùZ#ÙÌÝ\u0014§Æ!6<U\u001f¦MÄêlØVG¨Ù|_r`\u001fÚØfÆZVE\u0011zÍüMmuwP\u001a~&Ú±ûÔ¸g\u001e¤\u0014\"Jörnáö.,\fw*\rG4£dp­ï¨t´6\\¬çb QHT^\f+)2/QGÑWO¦\u0007Þd<Þ:\u0017Ë~jhºÎQÞ rñ½\u0010O\u0010-\u0012SáyGÇôê÷¤CxãMï3\u000eyº(¥²3×!\r\u0017<ôvSéh%*$\u0018¯($°gÞ}M?\u0012'Gº-Ëë\\[®î\r.J3¦®\u0011>zÈë/ú)YU\t%s5X¦kf½g7Òñ\u0017oñ´×S@\u0004÷\u001b«ÒöGçPÆKo@lç²é¼â]{ùáY\u0001Øñÿ±¶Ù\u0000AW *eÏõ\u001eÈ}}PÉÄsU;¼¢!ÿ\u0010Òq+f\u0004\u00132³µ¸EÊT)\u0018¦ÿ¡Ê\u0002Tæ@Z,Üð\u0017©±xï¤¢\u001f³É²Äý©F.\u0007éàsÛÈSR\u001bÆ?Ö¯oß'\u001c\u0007] Ã=³DË\u0017ÿ\u001a}ªø*¶æýwÒ\u001aÜ@Ã{ýÃ\u000f¾gµX¥7\u0000ÇóÁ\u0015ºMW\u0014\u0004",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:47.345097+00:00",
+        "host": "license.vod2.myqcloud.com",
+        "path": "/license/v2/1253881601_1/v_cube.license",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 304
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:47.351579+00:00",
+        "host": "onepass.geetest.com",
+        "path": "/get_config",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"opsalt\":\"TMh6sQ\\/Wa4ZIA\\/XO3DSxu2OuGBbakInYnUr5s1g21J+3yHyKMIxNpyihFBHfsRg8+4mUO7M9nxQft4rU2cb4KdMqJQA7Qx9VD4ucM1AWS5ZoMEyOmiVGnVCAJFhbTTxjkNauEU\\/mORp3X8fcj3roNekFCjp9Ou4oNdXo1Iz2ced\\/Qj4SiXKerl0O3dfea7Mw1CSdDIqiP9ZdQzslEGDPT44xfTySXi1bNQYM0dZjl4v58Q\\/b6q3QvI\\/dIhRAX\\/qh\",\"clienttype\":\"1\",\"sdk\":\"2.9.7\",\"timestamp\":\"1781220585\",\"process_id\":\"a885db20e09f87f6937ea352aa99de9e\",\"sign\":\"865e116de850c6f07af8ebe3a81092a70e35393b6669accdbbb15bbf39ee0995\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:47.417798+00:00",
+        "host": "license.vod2.myqcloud.com",
+        "path": "/license/v2/1253881601_1/v_cube.license",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 304
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:47.463369+00:00",
+        "host": "mlvbdc.live.tlivesource.com",
+        "path": "/liteav",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "¥¿NÃ0\u0010ÆßÅs\u0013cÇµ³uG¼\u0000BÑ%¾\b\u0012W[© î 1²³\u00141ð\bÇ©x\r´Mù3É÷»|ßÝù|Çp±È+Ë2°ÒÕ56á,Mø&Ì¢G]Ü\rÿ4X\u0013ËØîåc·}ÝmßvïOÏ\u000f÷YÅWèì<\u000eâÖU6¶®ô®eA¸¢¶«\\\u0013´&±\f´X{êò¢ºíë²\u0014\u0000FØù°\u001e\u001ab#ôîz½2$(U\u0014)°6(¦\u0011ZYF\u0005jQ\b-¬f\u0014Êr\u001e\u0018b.¥LCÚÒjï\u000fÜ\u0010hSäIè¡(µIQq\u0012i\n£¨\u0016$h\\é\u0012\tRÀAï×þ2fgçÑì\ft¹ü/µm^:Ûû\u001eÃª»ýEÐ\u001a¿oé§lÈ\u001fÛà!ììõ!Ý\u0007ëïó$ eÕxä¿W|Àý¦\u000fn|µ³Ë\u001b\u001a\\9\u001cùâ\u0006ýÜµ5ËuÔ®ªò$W2\u000f»\u001f¤ah­¹Sf_­êß\u0013j$jµ¹°?\u0015<Í\u0017",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:47.554726+00:00",
+        "host": "cnlogs.umeng.com",
+        "path": "/common_inout_logs",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "*º=5e202=;`iöVâv7ÔµrrpÇ³KÕoÇ¿:\"\u000eôçY\u0001Ió\u0007\u0000\nªÄ\u0013/]þWï·®lRwÜD¥ñ4 ·×HÙÄ\u0019\u0013\u0000éùÀ\nòoå\nE öXq|Ê@IÈâSÖ)\u0003«¡ç\u0006'kcV\u001c0Þu\\%OwW\u0007gØ\u0007H\u001eðëVz&Q³\u0003~\u001c\u001aÄ\u001b£á¸ãì¸,ù=¥9»`u´v`¯\u001bð(h|=E`:ôQáfSÛÆ2ô\u001e¢ÙÅ»\u0013SÃÒÀ<øäÉ¸3\u0018\t£\u0016ò£¬u\u001f#\u0014YÖ\u0017²\n|;üJèNS? t¾i¨?ö\u0016µw¬\bD\b\u001dË°¹êéC7¸C\u0012<'ñBm.A7#)®aP0dêqÁÐ¾g\u0013\u0019Él=\u001c\u001c¦äò/éRIk-\u0014±ÞyÇ:~p}¦zü(]IÄIX]Þ¹q\u001aÁ:TVýs*Ø¦ã\\H¼ÆË¸Àï\u0010¼4k®/Áï9(Ç´,z\u000fä\t£·ÆqÎG\u0013å¦fû?~ý9>´º»³§\u0010o§·#øñö0×\\)PÌÇ¥¾©ü¢&v³¢\u0018zÒU´6Ê\u0007\u001anôæ%\u0001KÇ ³\u001csÐ«oá=â_.Q\u0015%gÄÓD\u0017¼ye\bÝð¹\u0011\u0003\u001f\u0019\u0006ô±\u0019¥tUò¾v6£\r^LÕó¡Ü6Á\u00199\u0016$Ð\u001d\u001bÈ^í{´%brë1Ó¢Á5/g¡z\f\u001deí_#!í2àêæ\u000e=±\rä -+",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:47.693035+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/doctoruser_getBaseInfo?ck=ad944f-j0-0-0-b7530c79-2b93-4e8f-b897-bee27961a1d4",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "hdfts=1781220586&di=8a4d4e29-177a-490a-bf59-1f505314d70a&_hdfBSMiniwua=AQAA_SveZH3L1drwPEgryY1abltcLJYo2kFZpjkei4X9epHA%3D&_hdfBSSign=RDEA_JAEAAAAARBOiTrSiBgDzf820b2fZ5c9c8IBIHtr7Ddsi0RO%2FcuwXMZf2gFJWV09kPQg%3D&spaceId=0&deviceOpenUDID=8a4d4e29-177a-490a-bf59-1f505314d70a&api=1.2&hdfhs=f5265a103f1588ab6adb22cdb1269a54&_hdfSignature=82c60a94d06e6371ab2cedf65412e032&app=d&deviceType=ALN-AL00&certificateToken=&sv=12&os=a&userId=0&m=ALN-AL00&n=2&deviceToken=8a4d4e29-177a-490a-bf59-1f505314d70a&p=0&ct=&s=tc&v=9.4.4&hdfti=1781220586127&_hdfBSSignApi=doctoruser_getBaseInfo&cid=0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:47.762440+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/multipoint_getMultipointOfDaoRu?ck=ad944f-j0-1-0-9ff7217e-a784-4038-96b1-8d6b8d1b1353",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "hdfts=1781220586&di=8a4d4e29-177a-490a-bf59-1f505314d70a&_hdfBSMiniwua=AQAA_gvRuHmtV8FjOjnSHufBcOwb2ZSRJyk1VtoDZ03Znh9o%3D&_hdfBSSign=RDEA_JAEAAAAAakmiTrSiBgDOfVtSxaGwRsfztAc2T%2FzhmdOa0irl04wOi%2FSmoqpjW8Le%2BTk%3D&spaceId=0&deviceOpenUDID=8a4d4e29-177a-490a-bf59-1f505314d70a&api=1.2&hdfhs=a601052f4cf0e2c349574e8d48f667aa&_hdfSignature=62b6bafff0acc77e3f59f013df3a2e78&app=d&deviceType=ALN-AL00&certificateToken=&sv=12&os=a&userId=0&m=ALN-AL00&n=2&deviceToken=8a4d4e29-177a-490a-bf59-1f505314d70a&p=0&ct=&s=tc&v=9.4.4&hdfti=1781220586141&_hdfBSSignApi=multipoint_getMultipointOfDaoRu&cid=0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:47.917772+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/doctoruser_getOneLoginWay?ck=ad944f-j0-2-0-cbc8cf7d-2dfb-4a42-b4e7-24b0002640d8",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "hdfts=1781220586&di=8a4d4e29-177a-490a-bf59-1f505314d70a&_hdfBSMiniwua=AQAA_2QtRfpasQ2eJPpC9iJHEQLl8dSoXcEEWR%2FsyXO%2FzVWP1qGaUupftUroW9GIl7f4l&_hdfBSSign=RDEA_JAEAAAAA%2Fz%2BmTrSiBgDdKV6BOgG2uZnowLijqMLxpqpvOVdFgO55exN6ZZMOXIyaUoQ%3D&spaceId=0&deviceOpenUDID=8a4d4e29-177a-490a-bf59-1f505314d70a&api=1.2&hdfhs=13dbbc4eafd8bdcb4c3246965b1fa5a9&_hdfSignature=72a4de90e3ddf219fb7c8786d89826e0&app=d&deviceType=ALN-AL00&certificateToken=&sv=12&os=a&userId=0&m=ALN-AL00&n=2&deviceToken=8a4d4e29-177a-490a-bf59-1f505314d70a&p=0&ct=&s=tc&v=9.4.4&hdfti=1781220586402&_hdfBSSignApi=doctoruser_getOneLoginWay&cid=0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:47.924043+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/authcenter_getHomePageInfo?ck=ad944f-j0-3-0-0a0ddf1a-a665-48f5-86c4-2ed2dc5eaa72",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "hdfts=1781220586&di=8a4d4e29-177a-490a-bf59-1f505314d70a&_hdfBSMiniwua=AQAA_2QtRfpasQ2eJPpC9iJHEQLl8dSoXcEEWR%2FsyXO%2FzVWP1qGaUupftUroW9GIl7f4l&_hdfBSSign=RDEA_JAEAAAAAlZKmTrSiBgAkVooV3wW7VMrPnVfd3DkxQ2HkL%2BP23j7QGo6X5A5ywF0HxZM%3D&spaceId=0&deviceOpenUDID=8a4d4e29-177a-490a-bf59-1f505314d70a&api=1.2&hdfhs=96f77d82205e4e35abff3fff2c1b18ae&_hdfSignature=a04a0f69f796100f47b1e1b6fde67fa0&app=d&deviceType=ALN-AL00&certificateToken=&sv=12&os=a&userId=0&m=ALN-AL00&n=2&deviceToken=8a4d4e29-177a-490a-bf59-1f505314d70a&p=0&ct=&s=tc&v=9.4.4&hdfti=1781220586425&_hdfBSSignApi=authcenter_getHomePageInfo&cid=0",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:52.150651+00:00",
+        "host": "cnlogs.umeng.com",
+        "path": "/unify_logs",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u0018\u00031.0\u0018\u00185076a76552701569380000ab\u0018@2b17976caa3a8ec8790c50822ed28788357933d7b8ea09b7dd20fe2c8fc8fe69\u0015l\u0015ÜÚ¢\r\u0015Ê*\u0018È\rxm\u0016ËÛºõW\u0002§¶¸ãR\u0014õ\u0004² ,[£d$Ç\u001eÛ\u001a\u0019\u0006\flÙÖ#üRýmÑîºïæ\u0016]ô\u0007\n\u0014ý\u0006÷7Jr<½à\u0002ãáy¿É£Ï½·Ûù¹÷¶É6=³§È¦\u0001L\r26!6mÙ´\u0006&\u0004¦mÒÀÔusd#h\u000e\u0000Zï\u0007®ØHL\u0013Y¦LK5ÑÀÔ\u0014\u0013Èæ\b#ÛÔ\f\u00131iËCNdÿ5ÍÄ©¸¤Â¸\u0015fä\u0011>ÂÙýÜ6>JÊÄmøªÈdxÁüüK\u0013\u00132ú¨8v¢=Ó@AY\u001e3\u0006eê2\"º\u0018:U5&4¥\u0014Ò¨ÁThudrxêô7U]Ò¤iÊúMÞHo~KHM·*ú\u001d7\u0017ç¤\u0002UQdSâ\u0011f$:$-G«=/\u0017-óþqÚ'E\\YÜKÚµÈHhàgº°ÀcDPEj4N\u001c!(\u000bFÎ\u0005\u001fü;ü\u0000\u0000'D%ù\u0012Gp?ÇÁÐ\u0015á\u00194M×\u0015(©\u001a\u0000@ØI¿3îq$Í\n¼àV\u000f¤àXÉk)A\u0006Í·Ö\u0007Î1 ø½\u0004tî>çÅà¶ë:;)OmàsÒ\u0014¼\u0012Ý#Ô7É8k¸·¯ÿÏ×þñõ§~ýó¿þëß~þã¢ÜÞ9K3\u0011Ç÷îyjwÈ>÷[ï\u0016Ðq89\u0017¡B¢ñUÓe%\u0015¦Yì2\u0014\u0003Å9Aa\u0012ËÆ\u001aÉÚ\u001dJ\u0014pG\fÞÅQ$\u0019)BH<Á¢M×Í9k)»\u000b½¶>&VgÅ&©×ÌCÒ3ÅdñºN>\u001d³:×m'·TAb\fS\u000eñ\u0000k6$¦ÂH\u0002/\u001ewÓë9£Gg\u001c1\u001bs\u0018KªÎÁÐèÎs°Ð¯V\u001a§tkù\u0001 .üigM¦ôjå;k&yî&©>>]Öå\u0010»×º«Þûcm=>¤ÍÐ¸W7Â±æËR§ã(¾\u0002q]ºF\u0014ÕOÜTºå-ië´ç·\u001dh*ÑØC\rHjÈ:\u001b$@\"ÑêKàlqq)¡÷ô.ÆOMQêû×ø\u0012\u000e\u0010¹¿ÇÝ¾@òk\u001ds0É\u0014ØdÆPQ\u0011¢±¡ª\u0004±^è@TB\u0006\u001f»·g>E\u0005i³S\"ÐÓËñ°e^Ð¼åoSul¶k~qa\u001fôAïèûs²õ)©EÅTÉ\r\u0019ê«}M<\u0019Í\r×ú²(\t½áÜ0çwÿ·ÇKÆ\u001c­Cª<=\u0010>âW=Æm²²Xñ.¯z´&ÍÁÒ\u000büÈkÜ\u0017¹Ý(¤¨oPõ\"t 7Kyß \"ioÐVyífÞ$¿¨o\u001b«*Ï,ÄØ \u001eÊÍ/\u0016\u000f\tÙsì\u000bO´æ­\u001fzsW /ÎòAÎ\u0019zVàçK¸Ü;òâÙC4±gß\u000e7t½¿xgF_\u0019\u000fgáÙß¹·\u000b¯ÞÌS\u001eì¡2¶=<£óª #\u0003.Þw$0\u000e+\u000f»ÉÑÇØY:ý<í\u001c\f.~·¹x»¡ìí<À-b<¢àÀ¼¿ßÙ\u001cøÜS0¹®\n\u0016\u0002ßñ÷Ì'\fg\u0013e\u001cxi\\ü ¼øöþqu¢ÒkîÅÛà\u0019\t.vFM42¶ôÞJã|Á¬Qx8EÛÍhü\u0000\u000b[Ð/Ã@9.sé\u000e[V\u0015\u0015>\bKó\u0004§ÛØY\u0000\u0012H\u0007ÇòXæ.|aý\u0014×ÆU1Þáëxç!ÈÓ\u0014,Ü\u0010Ï0ÆOahÍæ­ÿ\b$ã3ÍoV^g>ÛÃ±\u001d^06ÇUñìó»xð´\u0003ç\fXÆ\u001deÕ¦2ëÊybïþå`\u000f¯\u000fCÌyÈÛÍ\u0015¿³Îa¼*F\u00137tÉùBKÇBÖ_ævË¼nsfÒ îei\u001fòålcüîÝïlÝÄûõéÕ¥zµµ1Ã>\n&c\u0019[¯óÎËÝ¦ó!òó9Içï{î)Þ5Ë­¿Û+£úÓDrwÖò2\u001f`¼bgZ­¥µ\tÃ \u0004Á°Q\u001e:zY\u000eÃÉ|=æÑbá\u0007Óð[Íj\u001båÓk\u0004Ù\u0014±caÀæuÊYíàôàÛ~æÛn÷µ÷n±Ë\u0015\u0005¿Ý{ß¤^[#>(\u0011Gz\u0010Çz\u0013§kvQV\tßçëv¯»×¸Ù¯ùêjbÂ\u0016*LuÓ®Ù\u0016A¿F\u00059qDG\u001cÙÞ5¥¾¦\b¤ÊØVÑ\u0001\u000b«É´|ÖM³ÛZ!K@\u0001Â\n9\u001cLo\u001f /\u001e\u0015¡{ö4dEÓ\u0012¶äkñ\u001e\u001eù{Ì©\"q¬.ù\nå©ó/\u0005\b ºú\u0003ûàÿþëO_ÿò£fBC<i#Ä\u001aáW .³-ñCOì\u0010\u0012\u001bìqW\u0001ÒUö\u0005\u0015]7Øw\u0012ã\b\u0019\u0004ñr´ÍM\u0013\u0002Å\u0000¦²DÙÄÓd6U(ëHÓeYe\u0005gÅÒ$Åtðk_¾ü\u000f=\u000e\u0019Ë\u0018@c553d86f4e69a5cb335ff8815081248b7c2afed40bb92db477734f2f149bd503\u0018 7a500a0b8af721d54bbb40cfc6bd40d8\u0015\u0000\u0000",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:56.744331+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/nlog/info/android?ck=ad944f-j0-0-0-4ac92b8e-2d0f-4534-96f7-b9d149de86f9",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"hdfts\"\r\nContent-Length: 10\r\n\r\n1781220595\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"di\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"_hdfBSMiniwua\"\r\nContent-Length: 69\r\n\r\nAQAA_2QtRfpasQ2eJPpC9iJHEQLl8dSoXcEEWR/syXO/zVWP1qGaUupftUroW9GIl7f4l\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"_hdfBSSign\"\r\nContent-Length: 73\r\n\r\nRDEA_JAEAAAAAGmMzT7SiBgDocC7EOkCsM85AegWDOChm8uaWlSUBvOUlT/vaTIIRD6mzXTk=\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"spaceId\"\r\nContent-Length: 1\r\n\r\n0\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"deviceOpenUDID\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"api\"\r\nContent-Length: 3\r\n\r\n1.2\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"hdfhs\"\r\nContent-Length: 32\r\n\r\nd90d4a2d28658136198ebbcf88eaad0b\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"_hdfSignature\"\r\nContent-Length: 32\r\n\r\n67bbd3ae524c16f0155e7d025242638d\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"app\"\r\nContent-Length: 1\r\n\r\nd\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"deviceType\"\r\nContent-Length: 8\r\n\r\nALN-AL00\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"certificateToken\"\r\nContent-Length: 0\r\n\r\n\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"sv\"\r\nContent-Length: 2\r\n\r\n12\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"os\"\r\nContent-Length: 1\r\n\r\na\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"userId\"\r\nContent-Length: 1\r\n\r\n0\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"m\"\r\nContent-Length: 8\r\n\r\nALN-AL00\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"n\"\r\nContent-Length: 1\r\n\r\n2\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"deviceToken\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"p\"\r\nContent-Length: 1\r\n\r\n0\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"ct\"\r\nContent-Length: 0\r\n\r\n\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"s\"\r\nContent-Length: 2\r\n\r\ntc\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"v\"\r\nContent-Length: 5\r\n\r\n9.4.4\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"hdfti\"\r\nContent-Length: 13\r\n\r\n1781220595218\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"_hdfBSSignApi\"\r\nContent-Length: 7\r\n\r\nandroid\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"cid\"\r\nContent-Length: 1\r\n\r\n0\r\n--21f7babd-531c-46b1-b124-b2e9b2f470b6\r\nContent-Disposition: form-data; name=\"content\"; filename=\"1781220595217.xlog\"\r\nContent-Type: text/plain\r\nContent-Length: 7422\r\n\r\n\u0006\u0000\u0000\u0007\u0007\u001a\u0000\u0000\u0000þZ¡óÚ.Ûz¨N-Ó³j õðª|Þ?ô\u0018sÿÂLsHa\u0015¹|@Ø²\u0015þ\u000bWôPÞrWRä,ig~~~~~ begin of mmap ~~~~~\n\u0000\u0007\u0003\u0000\u0007\u0007\u0005\u0000\u0000}Ç}iÐYáA\r÷xÄ\u0001Õ\u0005«ÿ\u0012kØüP$ºXÁ^&\u0013¬ª\u0011\u0010\u0003\u0018U«9û 3hûRâ\u001aäz\t©¼.jnb2ê\"¿YB\u0012þFáõnïÕy 0U4l¤Ð­Ð}ºCÏdÐÆÉ3!=I¡ÈRéç9ÿäÙ\u0003öæt\u0012ïëE0,³Âo,PË\u0011_BA¿\b\u0000^!q\u0005GWÜ\u0012Â\u0006®\u00022\u000fËïD½7\u000bÔÖk¯\u001b\u000e¾ðø\u0014Ô,\u0005Mû5Áâ«\u0016£?I\u0016ÍÐ\u0017y&¥¦*\bªdæ)\u0005~\u0019x¹'t`\u0018@2¬R46·\u0018>DítJ\u000f&ú\tOò<·òo\nÔÂx¢\u001e$Ç\f÷\u000f½¢k3U·¡Úò*ý?\u000b\u0011-i¾\u0003vl\u0019=\u001b¶\u001bâÁ;5\u00022VGWqC¤Uwè)ÇibÝèB%\tòù\u0002]´zúH{\u0010ãç·Ë/ÒùÕ6qh^,ÏÕàè6HÎF«Ñ¥&CQõ¸´§rÚ/¥Î¯±8t\u0019HÔ\u001dµ]êe'AØÁÁ\u0010sB§;@åÄìÑ\u0010ô~ê\u001d¨¨á\u0001ò\u0007Q\fÚ;+×Ö#\u0011g¢ÓÊ3ZZiá2Ë\u000eû¼3\u001bµÍ\u0000GáLÀ·§M(ýT ­zÒõô{¿XT<©\u0002È@¸ÿ_\n\u0003\"!IH\u00049t\u001dq=AÐÐþG1d£îp\t9#dû2_î²¯¸Z\u001a)8ÇYá^AÕkÎ&¦:Ôß#¹\u0010Î¹Ü\u0006êÿ\u0011ÆC(w¦x\"¶Ñ\u001cëÿ$¾¦ó®Ê3Ýy9\u0002<ÁÔ;¼ä\u00146\u0012©·ñÙÊ¥b\u001cçm/²Î\u0016J«H|\u0010çÙ»Fù/\u0015+\t#*¦W#ð~×!/²4ÈU¿ß¡nìCbd¨\u0003Iª1åöÃxWÏº¡?H</Õ\u000eÁaW'ð:3ty??}_$ÞËpNu1Å/~^P]¾@½1\u001d-h\t\u0014à\u0013\u001fÕõåµq¬§[¡\u0017\nÛÁ`°{jÏÂl\u001e­\u0010àÑÿ½Ø}¸\u001aE¶\tJMò\u0000¾cLí\u0019aø÷í³ÁXÕ¾Ò_â\u001a\u001b0JË¯\u001a[+Úr¢àQì´@·¾ÎP/W\u001eö<_\"¶t·Ä\rÚ»SÎ5d\u001cËw\u0015¬/Î¹H*Ø{(\t¨~È¿·p\f} JÅFõàßú\u00011 \b?ÏÔ\n^÷\u001f±«L \u001d¥±\u0004OÓ\u0019[Ú\u000e¯®53UL\u0011îÝÀ±áÁ`GwÃ=o·®Åz\u0010\u0014[X²Ü&\u0005IªR}áÆì#¯¸ûz\u0002« bÉþÄ;A½<TS¨Ï\u000e-¼¥\u001dhýëy&:Q\tÅ\u0007\fmxðÇ@¿Q¶Í9Z¦¡6ÞÝ0±î\u000fKy²a~ùv±äßBaÀ¥TQª\u000f\"\u001fÄ{d\u0001åò:\u0014½<7Ê\u00157ûyÂ¼H(v8¦Ng¸ÿhÌcç:XÏÌ)]B³¬_÷\u00045ôí}ýu=\u000etÁ£\u000eE\u0018ÖÜ>÷Ùç\u000bàZ~¼'-9-M ¥nyÅ§Z¢çó+\u001d+M«|ÂÏÛñ;&æûµ3ê\u001cÖÃêÀy-ÿHP±¾Óy!xr8õ½ßoûq[,\u001bã¢Rmh¨@/h\r\u0013Qs&ØS,·k=Cõ©'ü4Ì\u000fßÚ$ÆCEÇyÏÑ4\u0002Ä¨Ç'ÿÀ¼³0\bå%\u001a÷Y\u000boÏ\r' \u0012 \u0016Ñ/6\u0011¡#²z)uA6¿\u0011| 'È¶M2Ç·\u0016ÒÙ¶P1¥ûk\u0003SÉåZíæ\u0015@Tû\u000f\u000fé¾>7û2Î\u001dÜe+\u001eçá tçâÁ­\u001f&«ªúg*i4³~ÁÁÍf²8rYÏùz¼5D¨?\tSÐ Ó\u001bòÆ\f6»\u0012¬©ÙÍ#xít8ky²Î\u001a¡\bMMæàvÆ\u0010Î¼;`]\u0014&K\u0005í\u0016?¤j±\u0007\u001böø3J\u0002õR\u0017úËëî\u0019x÷Z¼D\tPÆP\u0006X×IÆFúÃËc±G¾^Èj_.\u001e@}\u0006+mÚ\u0005º­<BÌ½ñì_Õ6\\@<ËÂ?³\u001fm:Óàh¾éuYµ³1ÑÏRÏÇ\u0012Â\u0007\u0000\u0000\u0000ÿÿ\u0000\u0006\u0000\u0000\u0007\u0007<\u0000\u0000\u0000þZ¡óÚ.Ûz¨N-Ó³j õðª|Þ?ô\u0018sÿÂLsHa\u0015¹|@Ø²\u0015þ\u000bWôPÞrWRä,ig~~~~~ end of mmap ~~~~~[411,411][2026-06-12 +0800 07:29:45]\n\u0000\u0007\u0002\u0000\u0007\u0007ñ\u0015\u0000\u0000þZ¡óÚ.Ûz¨N-Ó³j õðª|Þ?ô\u0018sÿÂLsHa\u0015¹|@Ø²\u0015þ\u000bWôPÞrWRä,ign§b\u0006Ë\u0013C=ÉÅ\rÞ;8yãþ[*0{\u001c\u0012\"AìMø|uØtGß\u001e\u0013ª¦#'RóY½3åB[7Ö\u0013\u0003¡ý+JáÃ³Û\u0014Í­Ç*ÛU\\§¬åü0eÞ\u00144ç]ûCQ%,\u000b?ÜWomÍ\u00072º\u000b\u000b.©ÉÕIÏ þÿXÃ\u0003 OúÊå×_=MÇ\\ÿ\f\u001e­ð\u001b§å\u0011ZßÎÌ2Ë÷Zc´ù]èk|/¥\"Ëháû¿ç¸3¹up\n\u0007s*Vù\u0004Áºã^S´]úvØûHâR×Þ1ÐzX¾^Î\"Ë\u0011(\u001c«\u0016\u0015É \u001b¬ð¶­8¾É\u001e:cüh]2M\u0003MV{\u00191æmÍo¨ï²ï.=<&&ö=ô\u0007¡ñ¨­a@ÙP\u0012\u0007Óm\u0016\u0016úÆ\u0013¨×øyÍ²\\Ä\u0012¨§²=h\u001cÃ´\u001eaJ×es&²1\u0000ü\u0004LìKQ6 àiæ\u00192ük»ùÅâá\u0012õ\u0007<¶FRtíÙ¼«ð!.9AWªÚ¥±µ\u0005\u0014öåªÓh|tÌç\u0003X\u0018èlég·ô,\u0004\nãázÀN©ÚH\u0000¯.)\u0000\u0005?^C,8ã}\th*¢TOw\u0016\\\u001c6jÜózÝ³\rÄ!·z0_ÝTvz\u000bÄ©,\u000b òìV¥°ïn\u0015ÜÒü\u001f*è\u0011§\u000f¸m~ÞO\u000eßòWÇFEÈ¨µãìÕ\f\u000e\u0014kÎ:è¶þt\u0006?µ \u0016\u0013&¯i_pþ#\u0006³GRü ¡\u0007§eü@7Õ\u0006BÙv\u001dåìt¤|7Ó³Áúw§\u0017´·\u0004D\f\u000egâÌÐqóª\u0018ÝÐ\u0004;\u0005ç~t\u001c.F¸\u001eðý4O÷~:´ß^W'¶bÝkÛ\u0016Û^LÃih\b§Vò±;Ú\f3ÂA©P\u0002PJ'llà`·xwÒ{ÛË\u0010êk%_?Cå·ýëÄòoa*¹ÓÑãÝ=B¾u\u000e¥ëWªl@3fê\u0010ö_Â\b+GKçÞ#k\u0019\ts¼l\\ùs\u001a\u001e}«<úO\u0014\u0013µ\u000em\u000f¯ª¦Q¥ÿìÆý.ÐJT¯½ò\u0003»DªPUÈöóq\u0017\u0010÷ÖÜÃ\u0004Yúc©\u001eBµõÇÀ¥=/N\"\"+cyFüÂbâw½§¸áÈØ\u0014\u001bª?:qTX\u001ef\u0006îÁ½U\r\u000bÕÑ;¥ÂW§[o¡4²jx$\u0014ýû¬}½û¸ÐàÅ¯1÷5§¦[ú#ü\u001fa^o`ðôæÕèZ8iöð\u00195EH\u0007tÐ1y\u0007¢ÿVç\\÷ÉíÓ0v¼n\"9±ßÎIºÈf^z\u0011L¯9Sõ\u000e7uøúqFU\u001dD\u001f×¤¦JX\tKPmÅµ\u000eÑ¼>#¹h\u0016\u0014p÷äIá\r L»P\u0019(cÈhc©Ä¬ø(3qC,@G\u0019~\u0017d3îB¦ÆÎºô0§(©òÀe\u0013k\u001e1ëç¤5\u0018ö@u'Ge¡¸0{HCßêÞ\u0019¤Yh\u0016Ûrð.Ù»\ný+h\u000bbtO\u000eü¯âüéç»oô\nNÊ.}µ\t~ÝÊÔ;·\u001aÖ\u0006V3T\fqáÔsk³g VôÑðN\u0015Z7\u0017éIL©×a\u0007\u0007¬ã=\u000b\u0018¢Á·\u0018Wè÷qK(\tÉV@º4BÇA¨»Ï÷&\u0005Iº\u0011.\u0012ûÑ\u0004tï\u0005øà¾ÖÏvÎ$×ÓªÍiN?LXEÝ'¸L\u001eð¼@XÜúT\u001b¡ðÃ¯×zê\u0015»Pù^\u001e{ª\u001ff·FfhÓ¨]¬þùi2IÉîêÌTbäß£â\u0013:BvHÁ%l+TÍ³ÿ2ýÜ,\u001f\u001cìÓò:3B?úoa²Ü\nv ù©}:$d#j\\(fdª=]\n³­\u0016\u0000p\u001fú\u0016PdV\u0001·VÓ\u001d\u0016:ÂmÐÇüjjO\f,«è!eîáÌ _·&³Õ©£¼(tÞÆÈ§o|\u0019El}\u0014^ÎæXóNI)ÙÒÍÊ'RÙhöHÎß|\u0019ÙWsÅøâTQ\u0014ÓÒà3\u0016è\u0007\u0015yd@÷õ\u0006të¹DÆC½\u0018ó0h¦G\u000f×-åNéî\b-ÆR°Û0ÂèÑF4ªý¦ÝÉù9%´\\mdG\u0001Îº\u000b\u001b U\u001c\u0004\u000b\r\u0003-_4Ãý\u000e\u0018-+¤i-ð°UTÀ\tÙZ'þ7ì-}v\u001ezè{¹?}sµÂP6`\u001aæØÖsæ.7éÛ­d,W\u0012g}\u0006®Ý\u0001±j\u000få\u0014$\u0016ò>ø« \u001fQH@ÊÆaìRBçèÝ$ù¾/\u000fcY+n4ò}o¾Iz9\u001b\u0015jÑ@¥\\\u0004Ùwí\u001e?O¾ÿïÕ°ö\u001e\u0000ý%q~Æ\"¶m»\búwcq\ro:\\Õñ[ðZ,ùÐ°ó¢©,n÷q!~ |w`_?{\u0016n#¡ËPüTÑ¯9ô'ßwÀ\n#½r¾\u0019~\u0011\u0003pcl \u001b}!´ ¡*aÚ<×\u0014^fÔ)éµc×Kºm-ËåMC\u0001ñ\nd%Îm@\u001dE(Õ\f¬ê #Hú\u001a¡/ç8<JASà%¸-Í´î\u001bxä\u0006\u0013È\u0015ÛÙÞ¼ÕK¦×õ\u0012>\u0016«\u000b\u001f5£aKÞQÕÉB/µÙRõ\u000fkK|c\u0019<áZmbä¯X\u0010ìpÓHV/øÉº\u00123YÑ½t|Ô{àî¦Å°c@Y¿\u0006\u0016ôiÇ?ë\u00197iÈz#µ\u001f\u0004C*c§QñéàÒg{\u0002TïH\\\b@H{¿º\\\u0002uâçº¶ïÁ~É\u0010&®ö\fózjbù\u000fz;8mW\u001e¶bêÇ¬J\tÒ28¦0\u0011\u0002æYWïþÿwP¯0®¢ÚWéüEËÖP¤ÉQþâßëòR\u001dñaZdßì\u0011h9Ã\u00104FIÙí8Zè-Á®Ö²nè³×ûµ\\ÒBc>tâÿÌîqÇ,wæ1N(\u0006U\bÄ9÷ì¬â=\u000bfdDôÇ- TSPY\rCz\u0002Ûo\t¿Iêã$\r`d\u001b(¼ñyÅ-\fO!0Þ-ýÁr\u000b \b¬´\u0013¬4ÑÞ«m@õ¯¨È\feDD+rp}Ü?\r¹¾´õí\u001c9\u0006èñd\u000el38Ì¬,\u001c¥#§«;GrctTJ9\"Ðy=~¾ <ò{÷¬\u0010ù\u0016} -\u0016ÒiÊÅc\u001bå+\u0001Á¹hÍ;÷=?ÖÏ4¥0Ï\u001dñ`Æ:½NdúVÎèÏ<êÁQ$\u001b©\u0004Aq\u001c`«KÈ\u0017ò~kF\u0002Ðe³J(µê\u0015¯û9Ãg\\V\b8,{±¹¸6ücÖtj\u0004ÊöjîÜÿîC\u0017ÐÔp*¼¶Gá[\u001c×N'ÖpÅæu°0uÒvÌ1Æ!¢q\u001a\u0016:¦\u001788ß±Ô\"\téPãAiÜ\u001eÇN\u001fbET\tå£Å¹\u000føKOäf\u0011¨HelE\u0018ùO\u001cëÅÀ\u0017\u0000µ:Ä¨l,\u001305\u001bk²¦-ðWÒ:é\u0013åDÇV»×m\u0019Mâ\u0003·³»;/\u001d\n 0û(ÏrÞjäÊ©|£n¹çû\nlà&\u0013øÛ&Ïv\u00006\u001dê9írzEj`\tN°¢³:5K8ù\u001c»¤7\u000f¢¢ê2$®\u001a!Ö\u0017.Î2_jO®qå\"¨ù²\u0006<ïªIô@ìÃG0»FA\\ô¶s×ÛÍr¶\u0011|ÚèîI\f\u0010ËË´?Gì{ûp¦\t\no.\u0015¨¡Ì\u000fãnù=Û6ä2¦V\u0005_\u001a8häl4µüÉç±®µ\f¹¿D\u0017{ü\u0011\u0007\nËPù6ß\rË|>Ðîù<aäjä*'\u001f\u0005P\u000e=b}\rîQtOª÷/Q«/Voc\u0018\u0006\td\u0006è\u001d4Â_¯!llå-[ØS\u001b£ÐÂ\u000by¢\u0013Nä\\ìN\"\u0005ò¡xc´9\u000fzr]èÇ¢$0\u000bDÀ\u0010ÂOKÃ¿\u0016(5æ+\u0019ècði!\u000bä\u0018\u000fÿK\u001fVÌ¸âæ¨ØëÕ\u001b]|Añ¹QÎa\tº£\n\u0006¡*v`é]ëgR\u0004AÐü-HæOí´ÎGË¾ËÒÌ¤ÕïØ¾t÷å3¿Ö»Öìg©¯Ú\u0000û\u001aÑ:Ö8=j_W\bLõ\u0007móOª\u0017",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:29:57.400481+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/nmonitor/imlogfile/android?ck=ad944f-j0-0-0-28e77386-25d3-4545-bbb8-c2b75d04096a",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"hdfts\"\r\nContent-Length: 10\r\n\r\n1781220595\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"di\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"_hdfBSMiniwua\"\r\nContent-Length: 69\r\n\r\nAQAA_2QtRfpasQ2eJPpC9iJHEQLl8dSoXcEEWR/syXO/zVWP1qGaUupftUroW9GIl7f4l\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"_hdfBSSign\"\r\nContent-Length: 73\r\n\r\nRDEA_JAIAAAAAUoI+T7SiBgAOyrydqxJFBCW/WW62plAhYq3majv+nRmW6FzpvKMg9GWCBnY=\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"spaceId\"\r\nContent-Length: 1\r\n\r\n0\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"deviceOpenUDID\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"api\"\r\nContent-Length: 3\r\n\r\n1.2\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"hdfhs\"\r\nContent-Length: 32\r\n\r\n197559c31eb15ce4362b51480175d845\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"_hdfSignature\"\r\nContent-Length: 32\r\n\r\nbb79bcbc87f0f8d42fed8b9a14554208\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"app\"\r\nContent-Length: 1\r\n\r\nd\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"deviceType\"\r\nContent-Length: 8\r\n\r\nALN-AL00\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"certificateToken\"\r\nContent-Length: 0\r\n\r\n\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"sv\"\r\nContent-Length: 2\r\n\r\n12\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"os\"\r\nContent-Length: 1\r\n\r\na\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"userId\"\r\nContent-Length: 1\r\n\r\n0\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"m\"\r\nContent-Length: 8\r\n\r\nALN-AL00\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"n\"\r\nContent-Length: 1\r\n\r\n2\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"deviceToken\"\r\nContent-Length: 36\r\n\r\n8a4d4e29-177a-490a-bf59-1f505314d70a\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"p\"\r\nContent-Length: 1\r\n\r\n0\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"ct\"\r\nContent-Length: 0\r\n\r\n\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"s\"\r\nContent-Length: 2\r\n\r\ntc\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"v\"\r\nContent-Length: 5\r\n\r\n9.4.4\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"hdfti\"\r\nContent-Length: 13\r\n\r\n1781220595948\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"_hdfBSSignApi\"\r\nContent-Length: 7\r\n\r\nandroid\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"cid\"\r\nContent-Length: 1\r\n\r\n0\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63\r\nContent-Disposition: form-data; name=\"content\"; filename=\"1781220585941.log\"\r\nContent-Type: text/plain\r\nContent-Length: 373\r\n\r\n{\"action\":\"android_log_doctor_PageDraw\",\"int1\":115,\"int2\":114,\"int3\":0,\"level\":\"\",\"mark\":\"R_d8a4d4e29-177a-490a-bf59-1f505314d70a_u0@_v944_HUAWEI_ALN-AL00_12  \",\"string1\":\"0\",\"string2\":\".authenticate.authv2.activity.RegisterGuideActivity\",\"string3\":\".doctor.start.SplashActivity\",\"string4\":\"doctoruser_getOneLoginWay\",\"string5\":\"\",\"time1\":\"2026-06-12 07:29:46\",\"time2\":\"\"}\n\r\n--bc89af25-dc24-4f4e-af23-49bd37d93d63--\r\n",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:02.340917+00:00",
+        "host": "cnlogs.umeng.com",
+        "path": "/ext_event",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "*º=5e202=;`iôVã\u00063Ô5\u0001\u0007a]´ó!É]\u0011Ç1MF|\u001c\u0012<2J«>&óò\u0017í´¢\\RöÝD%ñ4Nv¥0ÂZ£ùé\rïJÎj)9Ã-2\fì\u0001æ*¦ \u0019@HâC.²@ì>@¹iÜÓN-\f~BYäÏhäÇ,!\u0005wWsz\u0001Z\u0017~\u0011qÆ,3Åc·ÄX¡¬:ªøèõD¬BC_r°q_\u001eÿné8Úa<R\u00196Z4¤+9>ö\u001cã²YÚ´0Á\u001aÓo©É=\u00106D #\n¿\u0017BÔÿö\u0006]aßSAÇgP\u000fa\tc\u000fÝ°\u0018=¬7\npÆ¨lT>ÊG£-B¢:Øß\u0002\u0006kþ©Ô©5\u0004Ö\blâ\u000fp®üSf\"à¡ò\u000f+^Ä!r\u001dìÝ²²q\u0003×wÛ\u001e4\u001eÜ>&÷[Ì5Ïé¡©ÖëéBã~\\2q@Ñ4p­\tá0}ÀOkð©)ÔúD`þÚ[ÍúáIdý\u0010·Çâ7\b\u0019Äßª ·²°¸´µ¿¸ýd\u0013!`á\"EI\u0011°\u0011±ªÏè73ãgíÄæØ\u0003Wl\u000fA¬üÏ/ô\u001c\u001a\u0006´\u0005C^«ôöeûì1ßr\u001f\u0002{Í\u0002È_/þ=³Q3\u0016\u001f\\d¿ ¦¸÷5u¥Q9\u001cÈA\u001f\n`F¿\u0005âÒ>zrÒ¡LU+æ]}³\u0011¸ÍY¸½P7&\u0007ÈS\u0001ÞæXá/)î\u0005°Ý[ûÅS¯nv=dY\u000b·\nsÐè¹lUµ\u001e=ÿa·V,(\bIú\u001c^\u0006wÄ\u001a\u001a\u0005",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:26.276499+00:00",
+        "host": "www.baidu.com",
+        "path": "/favicon.ico?c=udp&t=7",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:30:26.457952+00:00",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/authcenter_getHomePageInfo?ck=ad944f-j0-0-0-0de42ff7-df59-4d97-8967-ab591e3bb137",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "hdfts=1781220624&di=8a4d4e29-177a-490a-bf59-1f505314d70a&_hdfBSMiniwua=AQAA_2QtRfpasQ2eJPpC9iJHEQLl8dSoXcEEWR%2FsyXO%2FzVWP1qGaUupftUroW9GIl7f4l&_hdfBSSign=RDEA_JAIAAAAAIo0NUbSiBgAovGfDtgZYHi%2BFC6M4m3Xj1z3rl30Q%2BQGCu5smXb3Ik8iXJZc%3D&spaceId=0&deviceOpenUDID=8a4d4e29-177a-490a-bf59-1f505314d70a&api=1.2&hdfhs=77555c4fd3f30a69dd7bad25df634804&_hdfSignature=20f104282ff6769608397dda01a5adab&app=d&deviceType=ALN-AL00&certificateToken=&sv=12&os=a&userId=0&m=ALN-AL00&n=2&deviceToken=8a4d4e29-177a-490a-bf59-1f505314d70a&p=0&ct=&s=tc&v=9.4.4&hdfti=1781220624882&_hdfBSSignApi=authcenter_getHomePageInfo&cid=0",
+        "response_status": 200
+      }
+    ],
+    "flow_count": 72,
+    "unique_hosts": [
+      "119.29.29.98",
+      "audid.umeng.com",
+      "cnlogs.umeng.com",
+      "errnewlog.umeng.com",
+      "license.vod2.myqcloud.com",
+      "mlvbdc.live.tlivesource.com",
+      "mobilegw.alipay.com",
+      "onepass.geetest.com",
+      "utoken.umeng.com",
+      "wifi-api.haodf.com",
+      "www.baidu.com"
+    ],
+    "mitm_blocked": null,
+    "stderr_tail": "",
+    "dry_run": false
+  },
+  "network_result": {
+    "schema_version": 1,
+    "adapter": "traffic_checker",
+    "flow_count": 72,
+    "unique_hosts": [
+      "119.29.29.98",
+      "audid.umeng.com",
+      "cnlogs.umeng.com",
+      "errnewlog.umeng.com",
+      "license.vod2.myqcloud.com",
+      "mlvbdc.live.tlivesource.com",
+      "mobilegw.alipay.com",
+      "onepass.geetest.com",
+      "utoken.umeng.com",
+      "wifi-api.haodf.com",
+      "www.baidu.com"
+    ],
+    "mitm_blocked": null,
+    "mitm_duration_sec": 127.59,
+    "flows_source": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\output\\stage3_lab42_after\\好大夫医生版\\mitm_flows.json",
+    "tracker_hits": [
+      {
+        "tracker_id": "umeng",
+        "tracker_company": "Umeng",
+        "purpose": "analytics",
+        "host": "audid.umeng.com",
+        "path": "/v3/a/audid/req",
+        "timestamp_utc": "2026-06-11T23:28:25.428927+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      },
+      {
+        "tracker_id": "umeng",
+        "tracker_company": "Umeng",
+        "purpose": "analytics",
+        "host": "cnlogs.umeng.com",
+        "path": "/common_inout_logs",
+        "timestamp_utc": "2026-06-11T23:28:22.964159+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      },
+      {
+        "tracker_id": "umeng",
+        "tracker_company": "Umeng",
+        "purpose": "analytics",
+        "host": "cnlogs.umeng.com",
+        "path": "/ext_event",
+        "timestamp_utc": "2026-06-11T23:28:37.331094+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      },
+      {
+        "tracker_id": "umeng",
+        "tracker_company": "Umeng",
+        "purpose": "analytics",
+        "host": "cnlogs.umeng.com",
+        "path": "/unify_logs",
+        "timestamp_utc": "2026-06-11T23:28:27.308255+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      },
+      {
+        "tracker_id": "umeng",
+        "tracker_company": "Umeng",
+        "purpose": "analytics",
+        "host": "errnewlog.umeng.com",
+        "path": "/apm_cc",
+        "timestamp_utc": "2026-06-11T23:28:27.363700+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      },
+      {
+        "tracker_id": "alipay",
+        "tracker_company": "Alipay SDK",
+        "purpose": "payments",
+        "host": "mobilegw.alipay.com",
+        "path": "/mgw.htm",
+        "timestamp_utc": "2026-06-11T23:28:22.480176+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      },
+      {
+        "tracker_id": "umeng",
+        "tracker_company": "Umeng",
+        "purpose": "analytics",
+        "host": "utoken.umeng.com",
+        "path": "/anti/updateZdata",
+        "timestamp_utc": "2026-06-11T23:28:22.505294+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      },
+      {
+        "tracker_id": "baidu_mobads",
+        "tracker_company": "Baidu Mobads",
+        "purpose": "advertising",
+        "host": "www.baidu.com",
+        "path": "/favicon.ico?c=udp&t=7",
+        "timestamp_utc": "2026-06-11T23:30:26.276499+00:00",
+        "method": "GET",
+        "evidence_level": "S3_network_mitm"
+      }
+    ],
+    "pii_key_hits": [
+      {
+        "pii_type": "security_info",
+        "network_key": "security",
+        "host": "mobilegw.alipay.com",
+        "path": "/mgw.htm",
+        "timestamp_utc": "2026-06-11T23:28:22.480176+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "biometric_info",
+        "network_key": "fingerprint",
+        "host": "mobilegw.alipay.com",
+        "path": "/mgw.htm",
+        "timestamp_utc": "2026-06-11T23:28:22.480176+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "log",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/doctoruser_getOneLoginWay?ck=ad944f-j0-2-0-e79f652d-a146-4f56-9e60-0995fa407919",
+        "timestamp_utc": "2026-06-11T23:28:23.299931+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "log",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/nlog/info/android?ck=ad944f-j0-0-0-15fd31b7-4975-4491-ba2f-2aae2653e0ad",
+        "timestamp_utc": "2026-06-11T23:28:31.891064+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "log",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/nmonitor/imlogfile/android?ck=ad944f-j0-0-0-e605aa3b-c64c-4131-b80d-cd7c8d8e21eb",
+        "timestamp_utc": "2026-06-11T23:28:32.538613+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "log",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/doctoruser_getOneLoginWay?ck=ad944f-j0-2-0-51302728-ba6d-4c79-a1da-0513740e81c6",
+        "timestamp_utc": "2026-06-11T23:29:01.464537+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "log",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/nlog/info/android?ck=ad944f-j0-0-0-2e29f15e-d157-4f71-9c4f-1d83b8dba324",
+        "timestamp_utc": "2026-06-11T23:29:10.175402+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "log",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/nmonitor/imlogfile/android?ck=ad944f-j0-0-0-e81acb9e-5964-4c3c-95e9-8a5b0e010900",
+        "timestamp_utc": "2026-06-11T23:29:10.865202+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "log",
+        "host": "onepass.geetest.com",
+        "path": "/get_config",
+        "timestamp_utc": "2026-06-11T23:29:16.849069+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "log",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/doctoruser_getOneLoginWay?ck=ad944f-j0-2-0-134dc5fe-c307-44ca-877d-6b649f4e0b37",
+        "timestamp_utc": "2026-06-11T23:29:17.027937+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "log",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/nlog/info/android?ck=ad944f-j0-0-0-c7440616-a0b0-4e36-8c67-5c2848394d6c",
+        "timestamp_utc": "2026-06-11T23:29:25.885301+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "log",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/nmonitor/imlogfile/android?ck=ad944f-j0-0-0-98914a9f-3342-4966-a261-09ebd32ddb0b",
+        "timestamp_utc": "2026-06-11T23:29:26.499836+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "log",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/doctoruser_getOneLoginWay?ck=ad944f-j0-2-0-cbc8cf7d-2dfb-4a42-b4e7-24b0002640d8",
+        "timestamp_utc": "2026-06-11T23:29:47.917772+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "log",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/nlog/info/android?ck=ad944f-j0-0-0-4ac92b8e-2d0f-4534-96f7-b9d149de86f9",
+        "timestamp_utc": "2026-06-11T23:29:56.744331+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "log",
+        "host": "wifi-api.haodf.com",
+        "path": "/doctorapi/nmonitor/imlogfile/android?ck=ad944f-j0-0-0-28e77386-25d3-4545-bbb8-c2b75d04096a",
+        "timestamp_utc": "2026-06-11T23:29:57.400481+00:00",
+        "evidence_level": "S3_network_pii_key"
+      }
+    ],
+    "summary": {
+      "tracker_hit_count": 8,
+      "tracker_company_count": 3,
+      "tracker_companies": [
+        "Alipay SDK",
+        "Baidu Mobads",
+        "Umeng"
+      ],
+      "tracker_hosts": [
+        "audid.umeng.com",
+        "cnlogs.umeng.com",
+        "errnewlog.umeng.com",
+        "mobilegw.alipay.com",
+        "utoken.umeng.com",
+        "www.baidu.com"
+      ],
+      "pii_key_hit_count": 15,
+      "pii_types_observed": [
+        "biometric_info",
+        "log_info",
+        "security_info"
+      ]
+    }
+  },
+  "path_suggestions": [
+    "您可通过APP上【我 → 点击头像 → 维护资料】，更新头像、出生日期、职称、教学职称、更新职业证件信息；",
+    "您可通过【我 → 推广与活动】，点击右上角的删除按钮，删除医院活动；",
+    "您可通过【我 → 设置 → 清空缓存】，删除您在好大夫在线的浏览记录；",
+    "您有权获取您的个人信息副本，您可通过【我 → 设置 → 隐私管理 →个人信息浏览与导出 】导出您的个人信息副本，我们将在 15 日内对您的请求进行处理。",
+    "UI observed steps: adb_foreground_before=com.haodf.android.doctor | session_created_attempt1=ok | session_created",
+    "Check path for pii_type=imei",
+    "Check path for pii_type=android_id",
+    "Check path for pii_type=location"
+  ],
+  "explanation": "Collected dynamic evidence for 好大夫医生版: candidate_pii=10, ui_steps=64, screenshots=5, frida_registered_types=9, frida_events=19. This explanation is descriptive only and does not produce verdict.",
+  "evidence_items": [
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_after\\好大夫医生版\\screenshots\\好大夫医生版_20260612_072833_launch.png",
+      "timestamp_utc": "2026-06-11T23:30:28.451990+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_after\\好大夫医生版\\screenshots\\好大夫医生版_20260612_072858_path1.png",
+      "timestamp_utc": "2026-06-11T23:30:28.451990+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_after\\好大夫医生版\\screenshots\\好大夫医生版_20260612_072913_path2.png",
+      "timestamp_utc": "2026-06-11T23:30:28.451990+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_after\\好大夫医生版\\screenshots\\好大夫医生版_20260612_072942_path3.png",
+      "timestamp_utc": "2026-06-11T23:30:28.451990+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_after\\好大夫医生版\\screenshots\\好大夫医生版_20260612_073022_trigger_tabs.png",
+      "timestamp_utc": "2026-06-11T23:30:28.451990+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.frida",
+      "signal": "hook_imei",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:30:28.578232+00:00",
+      "pii_type": "imei",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.frida",
+      "signal": "hook_android_id",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:30:28.578249+00:00",
+      "pii_type": "android_id",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.frida",
+      "signal": "hook_oaid",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:30:28.578254+00:00",
+      "pii_type": "android_id",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.frida",
+      "signal": "hook_location",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:30:28.578256+00:00",
+      "pii_type": "location",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.frida",
+      "signal": "hook_mac_ip",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:30:28.578258+00:00",
+      "pii_type": "ip_address",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.frida",
+      "signal": "hook_mac_ip",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:30:28.578260+00:00",
+      "pii_type": "mac_address",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.frida",
+      "signal": "hook_phone",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:30:28.578262+00:00",
+      "pii_type": "phone_number",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.frida",
+      "signal": "hook_contacts",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:30:28.578263+00:00",
+      "pii_type": "contact_list",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.frida",
+      "signal": "hook_clipboard",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:30:28.578265+00:00",
+      "pii_type": "clipboard",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.frida",
+      "signal": "hook_network_okhttp",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:30:28.578267+00:00",
+      "pii_type": "network_transmission",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.frida",
+      "signal": "OkHttp.execute",
+      "value": "dry_run_network",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:30:28.578268+00:00",
+      "pii_type": "network_transmission",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getImei",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:30:28.578271+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getMeid",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:30:28.578273+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getDeviceId",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:30:28.578275+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getDeviceSoftwareVersion",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:30:28.578277+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getSimSerialNumber",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:30:28.578279+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.frida",
+      "signal": "android.provider.Settings$Secure.getString",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:30:28.578280+00:00",
+      "pii_type": "android_id",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.frida",
+      "signal": "android.provider.Settings$System.getString",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:30:28.578282+00:00",
+      "pii_type": "android_id",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.frida",
+      "signal": "android.location.LocationManager.getLastKnownLocation",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:30:28.578284+00:00",
+      "pii_type": "location",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "audid.umeng.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T23:28:25.428927+00:00",
+      "context": "Umeng",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "cnlogs.umeng.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T23:28:22.964159+00:00",
+      "context": "Umeng",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "cnlogs.umeng.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T23:28:37.331094+00:00",
+      "context": "Umeng",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "cnlogs.umeng.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T23:28:27.308255+00:00",
+      "context": "Umeng",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "errnewlog.umeng.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T23:28:27.363700+00:00",
+      "context": "Umeng",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "mobilegw.alipay.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T23:28:22.480176+00:00",
+      "context": "Alipay SDK",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "utoken.umeng.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T23:28:22.505294+00:00",
+      "context": "Umeng",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "www.baidu.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T23:30:26.276499+00:00",
+      "context": "Baidu Mobads",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "security",
+      "pii_type": "security_info",
+      "timestamp_utc": "2026-06-11T23:28:22.480176+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "fingerprint",
+      "pii_type": "biometric_info",
+      "timestamp_utc": "2026-06-11T23:28:22.480176+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "log",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T23:28:23.299931+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "log",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T23:28:31.891064+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "log",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T23:28:32.538613+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "log",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T23:29:01.464537+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "log",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T23:29:10.175402+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "log",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T23:29:10.865202+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "log",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T23:29:16.849069+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "log",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T23:29:17.027937+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "log",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T23:29:25.885301+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "log",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T23:29:26.499836+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "log",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T23:29:47.917772+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "log",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T23:29:56.744331+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "好大夫医生版",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "log",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T23:29:57.400481+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    }
+  ],
+  "capture_meta": {
+    "sync_mode": true,
+    "frida_grace_sec": 30,
+    "frida_tail_sec": 60,
+    "frida_launch_mode": "spawn",
+    "frida_code_prefixes": [
+      "com.haodf.android.doctor"
+    ],
+    "frida_tier": "tier2",
+    "spawn_fallback_attach": true,
+    "dynamic_track": {
+      "dynamic_track_requested": "lab42",
+      "dynamic_track_resolved": "mitm",
+      "enable_frida": false,
+      "enable_mitm": true,
+      "java_bridge": "",
+      "tier": "tier2",
+      "preferred_dynamic_tracks": [],
+      "mitm_primary": true,
+      "probe_path": "output\\frida_probe\\haodaifuyishengban.json"
+    },
+    "enable_mitm": true,
+    "frida_enabled": false,
+    "frida_runtime_events": 0,
+    "frida_java_active_count": 0,
+    "mitm_flow_count": 72,
+    "tracker_hit_count": 8,
+    "post_run_app_closed": true
+  },
+  "summary": {
+    "ui_steps": 64,
+    "screenshots": 5,
+    "keyword_checks": 3,
+    "keyword_match_count": 2,
+    "registered_hook_types": 9,
+    "frida_events": 19,
+    "frida_runtime_events": 0,
+    "frida_java_active_count": 0,
+    "candidate_pii_count": 10,
+    "mitm_flow_count": 72,
+    "tracker_hit_count": 8,
+    "pii_key_hit_count": 15
+  }
+}

@@ -1,0 +1,1754 @@
+{
+  "schema_version": 2,
+  "stage": "stage3_dynamic",
+  "app_name": "Keep",
+  "app_package": "com.gotokeep.keep",
+  "dry_run": false,
+  "generated_at_utc": "2026-06-11T22:17:15.997107+00:00",
+  "candidate_pii": [
+    "imei",
+    "android_id",
+    "location",
+    "ip_address",
+    "mac_address",
+    "phone_number",
+    "contact_list",
+    "clipboard",
+    "sdk_info",
+    "network_transmission"
+  ],
+  "ui_result": {
+    "runner": "appium",
+    "mode": "real",
+    "timestamp_utc": "2026-06-11T22:17:15.804737+00:00",
+    "steps": [
+      "adb_foreground_before=com.gotokeep.keep",
+      "session_created_attempt1=ok",
+      "session_created",
+      "foreground_ok[com.gotokeep.keep]=attempt1",
+      "foreground_package=com.gotokeep.keep",
+      "navigate_path_1=我 > 设置 > 隐私设置",
+      "me_entry_bottom_tab_detected",
+      "bottom_tab_me[bounds]=ok(972,1871,)",
+      "me_entry_bottom_tab_tapped",
+      "tap[我]=me_entry_avatar",
+      "tap[我]=ok",
+      "tap[设置]=settings_open_sidebar",
+      "sidebar_resource_id[com.gotokeep.keep:id/viewToolbarSidebar]=ok",
+      "tap[设置]=ok",
+      "tap[隐私设置]=ok",
+      "path_2_reset_start",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.gotokeep.keep",
+      "foreground_ok[com.gotokeep.keep]=post_activate1",
+      "path_2_reset=terminate_activate",
+      "navigate_path_2=我 > 设置 > 隐私设置 > 管理设备隐私授权",
+      "me_entry_bottom_tab_detected",
+      "bottom_tab_me[bounds]=ok(972,1871,)",
+      "me_entry_bottom_tab_tapped",
+      "tap[我]=me_entry_avatar",
+      "tap[我]=ok",
+      "tap[设置]=settings_open_sidebar",
+      "sidebar_resource_id[com.gotokeep.keep:id/viewToolbarSidebar]=ok",
+      "tap[设置]=ok",
+      "tap[隐私设置]=ok",
+      "tap[管理设备隐私授权]=ok",
+      "path_3_reset_start",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.gotokeep.keep",
+      "foreground_ok[com.gotokeep.keep]=post_activate1",
+      "path_3_reset=terminate_activate",
+      "navigate_path_3=我 > 设置 > 隐私设置 > 第三方数据合作",
+      "me_entry_bottom_tab_detected",
+      "bottom_tab_me[bounds]=ok(972,1871,)",
+      "me_entry_bottom_tab_tapped",
+      "tap[我]=me_entry_avatar",
+      "tap[我]=ok",
+      "tap[设置]=settings_open_sidebar",
+      "sidebar_resource_id[com.gotokeep.keep:id/viewToolbarSidebar]=ok",
+      "tap[设置]=ok",
+      "tap[隐私设置]=ok",
+      "tap[第三方数据合作]=ok",
+      "screenshot_captured",
+      "function_triggers=start",
+      "grant[ACCESS_FINE_LOCATION]=ok",
+      "grant[ACCESS_COARSE_LOCATION]=ok",
+      "grant[READ_PHONE_STATE]=ok",
+      "grant[READ_CONTACTS]=ok",
+      "trigger_perms_granted=4",
+      "reset_back_presses=3",
+      "foreground_ok[com.gotokeep.keep]=attempt1",
+      "trigger_tab[发现]=ok",
+      "trigger_tab[我的]=ok",
+      "trigger_swipe_up=ok",
+      "trigger_swipe_up=ok",
+      "trigger_swipe_down=ok",
+      "function_triggers=budget_exhausted",
+      "function_triggers=done"
+    ],
+    "policy_path_hints": [
+      "iv.您可以通过本指引所列途径访问、更正、删除您的个人信息，也可以撤回同意、注销账号、投诉举报以及设置隐私功能",
+      "提示您注意：您可以随时在Keep App 中的「我」的页面左上角-「设置」-「隐私设置」-「管理设备隐私授权」页面中，撤回/拒绝授予Keep访问的设备权限。若您拒绝提供该权限仅会使您无法使用上述功能，但不影响 Keep 其他功能与服务的正常使用；但当您取消该授权后，我们将不再访问该权限，也无法再为您提供上述与之对应的服务；且除非您依照法律的规定删除了您的信息，否则您的取消行为不会影响我们基于您之前的授权进行的信息的存储或处理",
+      "若您在使用过程中，想要撤回您共享信息的同意授权，您可通过Keep App 中的「我」的页面左上角-「设置」-「隐私设置」-「第三方数据合作」自行决定是否变更您的授权行为。若您拒绝仅会使您无法使用已撤回授权的功能，但不影响 Keep 其他功能与服务的正常使用；但当您取消该授权后，我们将不再收集该信息，也无法再为您提供上述与之对应的服务；且除非您依照法律的规定删除了您的信息，否则您的取消行为不会影响我们基于您之前的授权进行的信息的存储或处理",
+      "您可以通过不向任何人（除非此人经您正式授权）披露您的登录密码或账号信息，您可以为Keep App设置唯一的密码，以防止其他网站密码泄露危害您在Keep App的账号安全。无论何时，请不要向任何人（包括自称是Keep App客服的人士）透露您收到的验证码。无论您何时作为Keep App账号用户登录Keep App，尤其是在他人的计算机、手机或公共互联网终端上登录时，在使用结束时您总应注销登出",
+      "您可以通过左上角「我」-左上角-「设置」-「个人资料」进行访问、更正自己的个人资料，含头像、昵称、性别（半年仅可修改一次）、生日、所在城市、简介",
+      "您可以通过左上角「我」-左上角-「设置」-「账号与安全」设置、访问、更正账号信息，含手机号、绑定的第三方平台账号（含微信、微博、QQ、Apple ID、华为账号）",
+      "您可以通过左上角「我」-左上角-「设置」-「隐私」设置、访问、更正隐私信息，含微博推荐设置、位置信息设置、消息接受设置、展示内容设置",
+      "您可以通过左上角「我」-左上角-「设置」-「消息与提醒」设置、访问、更正相关信息，含@设置、点赞通知、粉丝通知、系统通知、消息通知、运动提醒、课程展示"
+    ],
+    "navigation_paths": [
+      [
+        "我",
+        "设置",
+        "隐私设置"
+      ],
+      [
+        "我",
+        "设置",
+        "隐私设置",
+        "管理设备隐私授权"
+      ],
+      [
+        "我",
+        "设置",
+        "隐私设置",
+        "第三方数据合作"
+      ]
+    ],
+    "navigation_path_records": [
+      {
+        "source_hint": "提示您注意：您可以随时在Keep App 中的「我」的页面左上角-「设置」-「隐私设置」-「管理设备隐私授权」页面中，撤回/拒绝授予Keep访问的设备权限。若您拒绝提供该权限仅会使您无法使用上述功能，但不影响 Keep 其他功能与服务的正常使用；但当您取消该授权后，我们将不再访问该权限，也无法再为您提供上述与之对应的服务；且除非您依照法律的规定删除了您的信息，否则您的取消行为不会影响我们基于您之前",
+        "original_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "左上角",
+        "canonical_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 1,
+        "matched_hint": "提示您注意：您可以随时在Keep App 中的「我」的页面左上角-「设置」-「隐私设置」-「管理设备隐私授权」页面中，撤回/拒绝授予Keep访问的设备权限。若您拒绝提供该权限仅会使您无法使用上述功能，但不影响 Keep 其他功能与服务的正常使用；但当您取消该授权后，我们将不再访问该权限，也无法再为您提供上述与之对应的服务；且除非您依照法律的规定删除了您的信息，否则您的取消行为不会影响我们基于您之前",
+        "expanded_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ]
+      },
+      {
+        "source_hint": "提示您注意：您可以随时在Keep App 中的「我」的页面左上角-「设置」-「隐私设置」-「管理设备隐私授权」页面中，撤回/拒绝授予Keep访问的设备权限。若您拒绝提供该权限仅会使您无法使用上述功能，但不影响 Keep 其他功能与服务的正常使用；但当您取消该授权后，我们将不再访问该权限，也无法再为您提供上述与之对应的服务；且除非您依照法律的规定删除了您的信息，否则您的取消行为不会影响我们基于您之前",
+        "original_path": [
+          "我",
+          "设置",
+          "隐私设置",
+          "管理设备隐私授权"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "左上角",
+        "canonical_path": [
+          "我",
+          "设置",
+          "隐私设置",
+          "管理设备隐私授权"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 2,
+        "matched_hint": "提示您注意：您可以随时在Keep App 中的「我」的页面左上角-「设置」-「隐私设置」-「管理设备隐私授权」页面中，撤回/拒绝授予Keep访问的设备权限。若您拒绝提供该权限仅会使您无法使用上述功能，但不影响 Keep 其他功能与服务的正常使用；但当您取消该授权后，我们将不再访问该权限，也无法再为您提供上述与之对应的服务；且除非您依照法律的规定删除了您的信息，否则您的取消行为不会影响我们基于您之前",
+        "expanded_path": [
+          "我",
+          "设置",
+          "隐私设置",
+          "管理设备隐私授权"
+        ]
+      },
+      {
+        "source_hint": "若您在使用过程中，想要撤回您共享信息的同意授权，您可通过Keep App 中的「我」的页面左上角-「设置」-「隐私设置」-「第三方数据合作」自行决定是否变更您的授权行为。若您拒绝仅会使您无法使用已撤回授权的功能，但不影响 Keep 其他功能与服务的正常使用；但当您取消该授权后，我们将不再收集该信息，也无法再为您提供上述与之对应的服务；且除非您依照法律的规定删除了您的信息，否则您的取消行为不会影响我",
+        "original_path": [
+          "我",
+          "设置",
+          "隐私设置",
+          "第三方数据合作"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "左上角",
+        "canonical_path": [
+          "我",
+          "设置",
+          "隐私设置",
+          "第三方数据合作"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 3,
+        "matched_hint": "若您在使用过程中，想要撤回您共享信息的同意授权，您可通过Keep App 中的「我」的页面左上角-「设置」-「隐私设置」-「第三方数据合作」自行决定是否变更您的授权行为。若您拒绝仅会使您无法使用已撤回授权的功能，但不影响 Keep 其他功能与服务的正常使用；但当您取消该授权后，我们将不再收集该信息，也无法再为您提供上述与之对应的服务；且除非您依照法律的规定删除了您的信息，否则您的取消行为不会影响我",
+        "expanded_path": [
+          "我",
+          "设置",
+          "隐私设置",
+          "第三方数据合作"
+        ]
+      }
+    ],
+    "navigation_bridges": {
+      "不把我推荐给可能认识的人": [
+        "找到我的方式"
+      ],
+      "把我推荐给可能认识的人": [
+        "找到我的方式"
+      ],
+      "用户保护中心": [
+        "设置"
+      ]
+    },
+    "llm_nav_enabled": true,
+    "screenshots": [
+      "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061520_launch.png",
+      "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061525_path1.png",
+      "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061537_path1.png",
+      "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061539_path1.png",
+      "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061548_path2.png",
+      "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061600_path2.png",
+      "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061602_path2.png",
+      "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061604_path2.png",
+      "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061614_path3.png",
+      "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061626_path3.png",
+      "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061628_path3.png",
+      "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061630_path3.png",
+      "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061657_trigger_tabs.png"
+    ],
+    "keyword_checks": [
+      {
+        "path_index": 1,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": true,
+          "我的": true,
+          "个人": false,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": false,
+          "profile_page": false,
+          "profile_resource_marker": false
+        }
+      },
+      {
+        "path_index": 1,
+        "step_token": "设置",
+        "matched": true,
+        "checks": {
+          "设置": true,
+          "settings_page": true,
+          "帐号与安全": false,
+          "账号与安全": true,
+          "隐私": true,
+          "关于小荷": false,
+          "关于小荷健康": false,
+          "我的": false
+        }
+      },
+      {
+        "path_index": 1,
+        "step_token": "隐私设置",
+        "matched": false,
+        "checks": {
+          "隐私设置": false,
+          "我的": false,
+          "隐私": true,
+          "设置": false,
+          "我": true
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": true,
+          "我的": true,
+          "个人": false,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": false,
+          "profile_page": false,
+          "profile_resource_marker": false
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "设置",
+        "matched": true,
+        "checks": {
+          "设置": true,
+          "settings_page": true,
+          "帐号与安全": false,
+          "账号与安全": true,
+          "隐私": true,
+          "关于小荷": false,
+          "关于小荷健康": false,
+          "我的": false
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "隐私设置",
+        "matched": false,
+        "checks": {
+          "隐私设置": false,
+          "我的": false,
+          "隐私": true,
+          "设置": false,
+          "我": true
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "管理设备隐私授权",
+        "matched": false,
+        "checks": {
+          "管理设备隐私授权": false,
+          "我的": false,
+          "隐私": true,
+          "设置": true,
+          "我": true
+        }
+      },
+      {
+        "path_index": 3,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": true,
+          "我的": true,
+          "个人": false,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": false,
+          "profile_page": false,
+          "profile_resource_marker": false
+        }
+      },
+      {
+        "path_index": 3,
+        "step_token": "设置",
+        "matched": true,
+        "checks": {
+          "设置": true,
+          "settings_page": true,
+          "帐号与安全": false,
+          "账号与安全": true,
+          "隐私": true,
+          "关于小荷": false,
+          "关于小荷健康": false,
+          "我的": false
+        }
+      },
+      {
+        "path_index": 3,
+        "step_token": "隐私设置",
+        "matched": false,
+        "checks": {
+          "隐私设置": false,
+          "我的": false,
+          "隐私": true,
+          "设置": false,
+          "我": true
+        }
+      },
+      {
+        "path_index": 3,
+        "step_token": "第三方数据合作",
+        "matched": true,
+        "checks": {
+          "第三方数据合作": true,
+          "我的": false,
+          "隐私": false,
+          "设置": false,
+          "我": false
+        }
+      }
+    ],
+    "error": ""
+  },
+  "frida_result": {
+    "runner": "frida",
+    "mode": "dry_run",
+    "launch_mode": "attach",
+    "package": "com.gotokeep.keep",
+    "registered_hooks": {
+      "imei": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js"
+      ],
+      "android_id": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js"
+      ],
+      "location": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js"
+      ],
+      "ip_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "mac_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "phone_number": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js"
+      ],
+      "contact_list": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js"
+      ],
+      "clipboard": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js"
+      ],
+      "network_transmission": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js"
+      ]
+    },
+    "global_hooks": [
+      "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js"
+    ],
+    "papi_target_count": 28,
+    "events": [
+      {
+        "timestamp_utc": "2026-06-11T22:17:15.903352+00:00",
+        "pii_type": "imei",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js",
+        "api_name": "hook_imei",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:15.903368+00:00",
+        "pii_type": "android_id",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "api_name": "hook_android_id",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:15.903372+00:00",
+        "pii_type": "android_id",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js",
+        "api_name": "hook_oaid",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:15.903375+00:00",
+        "pii_type": "location",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js",
+        "api_name": "hook_location",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:15.903377+00:00",
+        "pii_type": "ip_address",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+        "api_name": "hook_mac_ip",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:15.903379+00:00",
+        "pii_type": "mac_address",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+        "api_name": "hook_mac_ip",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:15.903381+00:00",
+        "pii_type": "phone_number",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js",
+        "api_name": "hook_phone",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:15.903383+00:00",
+        "pii_type": "contact_list",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js",
+        "api_name": "hook_contacts",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:15.903385+00:00",
+        "pii_type": "clipboard",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js",
+        "api_name": "hook_clipboard",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:15.903386+00:00",
+        "pii_type": "network_transmission",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+        "api_name": "hook_network_okhttp",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:15.903388+00:00",
+        "pii_type": "network_transmission",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+        "api_name": "OkHttp.execute",
+        "args_summary": "dry_run_network",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:15.903391+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getImei",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:15.903393+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getMeid",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:15.903396+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getDeviceId",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:15.903398+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getDeviceSoftwareVersion",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:15.903399+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getSimSerialNumber",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:15.903401+00:00",
+        "pii_type": "android_id",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.provider.Settings$Secure.getString",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:15.903402+00:00",
+        "pii_type": "android_id",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.provider.Settings$System.getString",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:17:15.903404+00:00",
+        "pii_type": "location",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.location.LocationManager.getLastKnownLocation",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      }
+    ],
+    "error": "frida_disabled",
+    "skipped": true
+  },
+  "mitm_result": {
+    "adapter": "mitm_runner",
+    "started_at_utc": "2026-06-11T22:17:15.881412+00:00",
+    "duration_sec": 122.93,
+    "listen_port": 8080,
+    "flows_source": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\output\\stage3_lab42_before\\Keep\\mitm_flows.json",
+    "flows": [
+      {
+        "timestamp_utc": "2026-06-11T22:15:14.683669+00:00",
+        "host": "static1.keepcdn.com",
+        "path": "/cms_static/picture/2021/5/26/1622019449619_JUU3JTk5JUJEJUU1.jpg?imageView2/0/q/75/format/jpg/w/396/h/396/ignore-error/1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:14.689261+00:00",
+        "host": "static1.keepcdn.com",
+        "path": "/2022/08/04/11/f6715275ac56db08509bd53d4491a84b97174d82_564x317.jpg?imageView2/0/q/75/format/jpg/w/396/h/396/ignore-error/1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:14.693493+00:00",
+        "host": "static1.keepcdn.com",
+        "path": "/cms_static/picture/2022/7/13/1657699060217_aW1hZ2UlMjAoMzMp.jpg?imageView2/0/q/75/format/jpg/w/396/h/396/ignore-error/1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:14.701721+00:00",
+        "host": "static1.keepcdn.com",
+        "path": "/cms_static/picture/2022/7/13/1657680957244_aW1hZ2UlMjAoMikl.jpg?imageView2/0/q/75/format/jpg/w/396/h/396/ignore-error/1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:14.704608+00:00",
+        "host": "static1.keepcdn.com",
+        "path": "/cp/picture/2026/05/12/00/42/54/10D5B55241594391A687EFB0E09A8121_4704x3520.jpg?imageView2/0/q/75/format/jpg/w/396/h/396/ignore-error/1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:14.758037+00:00",
+        "host": "store.gotokeep.com",
+        "path": "/api/user/address/getVersionInfo",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:14.780374+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/feed/v1/feedback/list",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:14.782939+00:00",
+        "host": "apmplus.volces.com",
+        "path": "/monitor/collect/c/session?version_code=49503&device_platform=android&aid=240734&iid=iid",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:14.794732+00:00",
+        "host": "apmplus.volces.com",
+        "path": "/monitor/collect/batch/?sdk_version=1&os=Android&device_model=ALN-AL00&device_id=kpckctccznfyaiwftnrxrjswqxinurdvf0a0505c&tt_data=a&version_code=49503&channel=yingyongbao_store___&update_version_code=49503&uid=5b541432e666866a5393ca07&os_api=32&device_brand=HUAWEI&user_id=5b541432e666866a5393ca07&device_platform=android&aid=1001170",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:14.806458+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/snail/token/auth_token_create/5b541432e666866a5393ca07",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:14.816388+00:00",
+        "host": "apmplus.volces.com",
+        "path": "/monitor/collect/c/cloudcontrol/get?sdk_version=400&update_version_code=49503&uid=5b541432e666866a5393ca07&device_id=kpckctccznfyaiwftnrxrjswqxinurdvf0a0505c&os=Android&os_api=32&version_code=49503&channel=yingyongbao_store___&device_platform=android&aid=1001170",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:14.825271+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/account/v2/dashboard/encode?hasTriggerBindWhenRegister=false",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:14.839876+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/feed/v3/feed/getRedBubble",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:14.896685+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/social-user/v1/userlevel",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:14.913306+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/account/v2/usersetting",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:14.933154+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/training/v2/settings/summary",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:14.954735+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"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\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:14.963971+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"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\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:14.991331+00:00",
+        "host": "static1.keepcdn.com",
+        "path": "/my/2022/12/14/17/fe7376eeadf4b377e160b68a08c37620ad037cc5_501x376.jpg?imageView2/0/q/75/format/jpg/w/396/h/396/ignore-error/1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:14.994708+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/guide-webapp/v3/motivate/page",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.031841+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"eyy77qt4iv6R8tL20D1YKFad3ACyF4Mpp3laoyRkErOtPV2NOC3DSlBJ9JrZDYZlYaaP5sJFwN1nyxLR88MB91rm00PcOCeXksDRqy57PqJeJR8/yAufYAGKzKcDEAN1P2w5sGjByn9X+Y4OiXw+ABHaJi/5Jy3MbqDY3OKg7OIN+//Pp+biNnykpa5P0SGS5n/3V7Iqm1EF6vVsligYXufvJPEQIRjlstzeoWW+e7xsKFxJhejB8+6cZM7s1iLCwZ4wFhmKY7/u7eJ5i3sw0ATAHcMJ6fubNhWrfWvCa/JmNlTPZsJyvoORH6DzVlwdWFY7WjIDC328+jPKGeuxNqo75dCuNYvIe7j7U1154ZQOh3BmI2gxUqbUEGE8hgkKyIAUDYWHtwG012cLFlvNS/QcoVLdxkEFpureBaX/kCggBNtxxYQ/efvrDbcVrnQP3yYUMcBtaRPEWr3uRot0HKt009qJf1/lUSyTo7rAbsLw9aMspUeFKs4rbPshR/yPI+diNDkAHdaL6fsqsD3q+DSHveNTQmv2Hcpq4FpNHBntA1KYvTidhuxeqP4SsF32PayelKLo3VLb57C0mcMSk6Iu21qo4RUKYJbe/A9wp1YXEw2gTYOj1frcvk2JUl3lwvJrxSXdATtWm9Wh7qmYBRwdrDmyCzzZ+RNh+aSu6p4PZxCJySwAzmht0Jvwi3f2bSIj5bEcPtvMvUkJPQmestcM+TIBXWY9Ux2ryxqQJf+qqyFscGvf63rZ56Jiw4aqxL6Ji2pwYJJeagiMltBC2aMF7offY/FrtakvRRQX66TqmmEqZ1qEMkUr9TtlNt/GBoVsP04m/ZrVjHAi3n8Pnduylnznb8VPbCg3xhraSoSnLGpqVjQI3j3G2VdsNou7AdAxDS6J/dntN+iu9jyYoHMtcKfS2GXkNOFn/+fUXMtq7HED9/E8/foW80kj+Hc9679bombaWI0ABiryxYWTFIys/Jw/66ARLFtZDeyiwYIXaof7E4DtE0QJ72cVkR/szvhHbuZvFI3rdJBe9cDiYb1xlwb3PtUhieWwhhjBAM2+6zJ/oN2ojxZzaNUPvL4TutYIxhVkdsFezkEcC4kVhrocD5gukjA44YErONv+mzQi1Yh8Ao/drnO4HRoqT5cPZxSZJUCyQN60rwjCPq2068sGvKvZ8zdl7aWz/5GF9eF6Rpm6w88ehxHPy+VK6l6rYx/+CLCq/3KkDfnWzUnHWIZS/ZbfOygegtLqEn5lrs4NYDCozJjFWoNowT53Tz2GjW2U1ur2hiO8h/2+xPYJNphgIShPwDDYUZn2m2iNPO+VKkCN2qLDjW0Xe5KdngrwrDQmuP0kKAxhP4/az7v/rylNNOqurMfrwvrOzEP8egcXffBkRyVRCSFYq4nda2uvo4XEZ7wgbUJWPZrRyCIPuYR+gQgOqAwWqus8w/erLrCSzd/o5SAG1KQ4M6LYPVdVp/kq61xMPTnzO0igdzSuAm+F68pW2e7A8sCDBSsAStni/mh6n0keCYCSau3aQn4z\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.038406+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"eyy77qt4iv6R8tL20D1YKFad3ACyF4Mpp3laoyRkErOtPV2NOC3DSlBJ9JrZDYZlYaaP5sJFwN1nyxLR88MB91rm00PcOCeXksDRqy57PqJeJR8/yAufYAGKzKcDEAN1P2w5sGjByn9X+Y4OiXw+AAS93qtWcGJBRX9QhT3pSQQYhr9577joEd+JzJZIVNBmwGDSACWUIUOnLmGQ0K2JAle24O0yvl8goXb412ls6h77gA41b2Ix20J1MGltGbLfi1W5irqbHO54DPPRK2wRN6dfoeLq4+1vryXASzbGfZ8Ze/tD5/ZVPTLXvXO9Y2ee/DY3aycS8Cx8WI5F7/lPF2LqM6oM1TkS15I0SNfNu0WdFicoYCzgPWoII9/e25X8ZGgP9X0dFFTUHuXud81Qzo1nTb9bjkEFRMelpGKKDoOFoukYYfKbdwmlCssjW4JUtVaDVpdKdFD1SpohZgZ8EDNvlN1Ab6FCee+jyJkC7Wgl/8I2aFUl8Nkkbg66J1qGE40wxl3jp2b6lFSU5gmTxTh4v6iD+0FE8CZpuVEO1+Vcq9j7ns/0rnk4Ffr4DyvlBLW/G6lkco1GPCROJx2BUqs8cx1m2eAqlxUUNsSjnp/aj6Txfe0m30T8j3vR6Joosb88Hj1ZNDjz2X30jX4QXBFAK5K8CKHrTgIcOwhZAFcuMF06tQxox/OWqcvAsUQuGCqICRRZThXn1YEx2WHt3Jvx9fcQX/gX3+6cEf+3kiPqRRUN2HJjNYK4StaOW64wuyg5lJvxGgnLYU56aTollHKsrCH/wDC/yD8hmmB80royrYuIaBc/uqAsM4DV6Hpv8hbSsrbSGr/MhvokD2339WxfcOsihVeteD7vkQgaAM4UUDhZBJ79uuDz+BC4+fNVT/XXWgRIEfTRF0ZCx1TQfzNyBOlHllqKXJ1EJFOmao2QSXbUphNjpCGXinpIfLe4QTSjk2uPX7n30LxSK5N76A3/Hq5kHr1EoWpWT7W2Tu9Jz/bOvYVV/yxXmVh3mPd9sqb86gVEuRX0nGC/bzLp1O18+xRpkdNK3ZNVJrsyGxAM8fGccQQdZUc5d3ed/NxhnhlicJELRYgUbDPYvq5qROOnUYX1hLbxGkq872NKjq4jcuNaB6JgWoW3Cq0MqQUhTpV/H/orxiZVej1AHS03t2/6694HquNqRTR+voBCX+WwMPvSlhAcKKJeTLc4v36Z73fhHtXkUXkscu0I/dI6ZwMeKHIoRmALb4Hr+r9U3AlFjXjeH7T91u6GYjiHIpEPtGGrV8hvwcRKOmEVyF+3Y99CW9EhSYrsSGekXa1amXxNKH71KM7sudrcdddDI3159ekYEea7dn9lm2eRL7Jobb7srGUqazya38Rt4zurv6MF7n5wGAWqNATC6yyk6QBkCAR36cxD7QJJA8F0O9vGyRrWHecTDoeSdjfkGpw6Bl7aMXGUrlE2oBsJwfp+u1VspKm7FxZ02aAdQn2MYsLLhNmYv6FB3uDBtxsfkaw6QgNqY+KvB14pVliGzWZXPOKy\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.055009+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"m8MBcNic5yvIZ/M+jI22OWLCk1pUoh6a0fuqS7g+BRdiKdqAMIxlh3G98ygDlupN3yE5RlX/uUirzQitnDbj/IjLihIrtz1KsmuJ8XVSjEeaz+Xh2u+IxbaHmlOuQJ3TaI0cYb6YiHH5wris8mkO3ojptFnESqEpDR5ifIiEPmr8tX0IDJ2wlEiL958THrVGsgKSX7PYH4RxwGBazw8qdaPTXxZK1EKm6f8WFk/+yctNmZ8XC1NeTRqpoIxzaCT+Uj7rhzwU1LpphPisD3I7e4r4NJmLJjT0skuE/JV9o0imw7wP6Z4GGkysQHGW7sP9/skFTjlFwKHkJYR0DAd360RvQuGniz0NkMygYXfOxi+3g2nUm+KQbGXa67Wn21JlhTqopwFVH8wMLTqt5c1y7XwVet2JDqhlMFv/lg1AG4ZHvTpAIH/1N7SZKBx2M/V7rdYTg0/e7Dr7j6+fjgYNVJmGLGuatBBmYW93Jo3XIl6UmC96ChFA52dC5CY6MAvrOBUnrKrNrArQ3g5k1mrILrC/iJ0WjrDpGmkHcS+4UUSABQTcroTOjyvMoT9tqBfWWBm9HHeqjDUGnCvJkSE1A7yXm9yLcTVGav3i+8dJ61aNhVbVCG9qZmvNn50oJecS3fY6+LbVPft6NWWBcl1eoGpd/EX6b+R8kBvulssHH1kXiVaO1nhQqXQ159Fbjx/I59GWhLHXhSYMMjuybzjndaVQlgK/RqBHSj6j53SyJVdVn0/3xjAmDW768RnGShZ79+TWbXR6hWLbhUKBGC6m+xf5fv3l6kAfLOU/Vo3Jj5A/h63uZOIodT2Gu0hHrViYwsjBl1peGWDBmzhtqWJfqt9rHPakyLbZMvoZjxSn3YNwqxFkN1opETU4Jrl+x2iJ7i460TtXhlmg/oYgidffZKu0xLX7R2eBT8vkZKQEA3T+3OioK2qhkMVZ8Vje0MLjnWxJnek4D6rT9QMD7fdXs6hUdjRKdrVSSVLiiycW2MSzu+VRRX6dyAnJ0xYDE+9hiIWwwbxgbSeSCBqvLvrJSlx+aQ/8rj3WslEOnm7NLXXf+t8+DjNl70doAhC4bgR5iFICQUXRfvDNCqNcSi6kZoh0rgJqZgJQ0z4wuHhbpK4UzsudSXAdYSbEqbDKMlW8gCzq76hEyBcGrIlCirIxChxG54hdmb9opVAPrvU5WlY7QpRSKSWBMUJz8fxThfsIl5sfka1KVTQpOPO+UE90L/e2i7AgFbNPB/p+BtVsn2LC9MqgisQYvbx9Zl2aAuiQaqiWJz8uD4Sokf7d5HYCYW0Zo4ualR+MzhXz/wZA33xKcVfI17hAIcR9vhqEvK36p5wioPoibFbsytl7afFo27LwUzOY+pTMWMB5GBWha9wufz+C9xhfkSQj0VzNhj7KORC5SqY1l+iGv/kMvdbzVIjphJU3TEh6tMK3Bk1z/gR1US9Q4SvZB8xei3FMgniSST66JlvNzE1L1q/2/YzADlYRJqO6ZPzXQcAUl6ojqJjWOSXEwbgExG8uLwx4ELrRIW3KSkt94yuImux7pTT5KnV+jrqT1YXo+sdQ/zu3FHpXp/TXVz1JVAnnHtEMbR0Fth8kJAOymhHv5Ilk8kHKMFUjzfStjo4YjiArDnmKUUhSiqxeWZJyWQmuNj9V+Tx1dVZpgO2IjoGHD1MhwrcC5aaNOTKXSj224wizug0kEug=\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.074131+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/config/share/v1/guide",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.087659+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/pencil-webapp/play/v1/games/tip?games=schedule",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.100512+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/kprime/v1/auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.105415+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/kprime/v1/auth",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.110131+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/anno/v1/upgrade/check?isFromSettings=false",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.128926+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/feynman/v3/data-center/sub/sleep/files",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.184375+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"eyy77qt4iv6R8tL20D1YKFad3ACyF4Mpp3laoyRkErOtPV2NOC3DSlBJ9JrZDYZlYaaP5sJFwN1nyxLR88MB91rm00PcOCeXksDRqy57PqJeJR8/yAufYAGKzKcDEAN1P2w5sGjByn9X+Y4OiXw+AHkia4Vgi31x4NDcfDSSHiltcITOr2N51EgxVHUDx+FTBMaIxExhVZQBrQ1XWwxC2z/IRYQ7Sytr9suzzGWuIrJic+zZSzT9vZBW10cYRutfTK7k8dvApAHYk+xt+uu8yobvO7jGz7mTbVDQeH272N40cFSxP7wtMt6HjnpUFPlUpTgNPMe7NEBY9Vl7teilNG6x2l0gvfW4FS6+hQVFqLYuomaESW5INNCZgepzQDewZJVxXrmJPqyNjwPc7VQM0eS6pkXKbd3tGsIKsJ8LyJ1N2Ha4uHDpxa4CbPQbxrxO8p4q2rb7abpzpXiIzqYu02Rz5g3Y/OS+uJnkle8qMLvyKGQXWlR5uzpmcVR00rt0fcJIFn9bxSwuTS4A6x+nbuEG7GjZnRZYiXAAaDrEcrKxoX1o5J3g9u38BIUKBrWYLtq5yvexV+jT5a4fuT8o2ctbH6syHex88TQqpXWCkPIlbgVonia3zjX+Io4Vbza+uLpSpgwM2zTxUa4M6sfhbMO1tXtl8dwjSmpDAdNq0UX/ylgQme3N+4WV1IBi2hUMXcgsKg6lt7OuC4RY6IvNLlZRn6CsSJuTBCQkwry+KQ2PTyC+ypSbBrJCAk6yHyZfcA2RnnLY2g3GLFBg1AWs3jK1l71RX8+JJyTuzRpAslAxmyOC1jtMikSeC+zO5Ri4qQcF93xainyRL9BbOHEwaQzN2lEWDv8kkLephk0hch1Uqm56ZdWBFLh8XLxephGX6Qdbg5sSMsueTRex5VMNSNGim0ZUjC3mb2wquoAFGFmYW24UETK3KqKyMHDQXfhNsnij/Osdu9mHPEdKw/Naim6erZ7a6pg+DKz5RN0VPht4G1pmE05KRUDtRlEG9MhhXuV34L+jFAKAQBZDN58z8sBdZeRxe7gHP2w8OmR1DwtL5ytcpD4x3soQ4K41/8tlvf1Iy5Y2FqrSoaE5tyMbgChJ+PaMDGHs+iQThm6KnRIdWY12wfaP0JW8gx7Y3ILH+kadk+imaYXQ5wtEFbop6HHvnqzn8hQmFvzTnzwmtBx4+wGfMvUKIN9QXVuPKIaYeYJMxgeq6NVcSVFY82x0KLUr4FVkVOZa/IqL2hYsMU6MvjkqjPNwyTZr9s1xOQdrQIPQcktNZxLCBSHKeM1rWR/D7qJO2jSdxFZ6fmASxtPCDfSIai5YJHQfTN1QVdPlhRAwHnZC90NQYGOJ9bxjDKY8mK6ZqVis+SAsqBRkF8GLb4IYdqIE/DmP1NwItWSm1dxXVlJ5SbWrjZYzn/gyMUdKboNPzuYAQJADFMZGLpXnOrPjLI+m+bPpdi1bPcvhE5v9C/2uM17C4WMnLMUmPZTOtoi3m6DGavcppBezk10A+rNJTjmhhuW4BMy4K0f3\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.196193+00:00",
+        "host": "static1.keepcdn.com",
+        "path": "/infra-cms/2026/1/5/16/26/553246736447566b58312b2f35382b5141777a3950796130516b6449497168464e6b672f7637374b386d4d3d/0x0_d0455f36424cb91be4330fcd8a9a85d5d58cd10b.mnn",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 206
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.212737+00:00",
+        "host": "kad.gotokeep.com",
+        "path": "/op-engine-webapp/v1/ad?spotId=240002&feedAdNum=0&targetId=&targetType=&warmBoot=false&secondRequest=false&appStyleVersion=8.2&firstAppLogin=false",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.234934+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/kprime/v2/infoForClient",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.293151+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/athena/drawer/v4/getgrouptags",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.336674+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/anno/static/package/getList",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.352735+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"9b9cvXKn+OQdkO7pRyWVjkTW5TMxrW+vXFmwCHPWojjodMj17wciZ3vLRdXoQa84hfQOUEVmM0SHFSkiHoEuBWG5PHsWI9aMNHqoH2q1b9rloWe6TYlUWYYDxOosbCWNSCwY4vx8lewyQmxhoGIiGWEMDgGd/l5b4UPscFaAmQ/V5osiVIkrjAWlLM7+vc9K5yuxhmxicov7hh+GHPnRb/c4QdSLrLOU8XrcyS3e2ya9CYP5uX3ZTVaWDd/dySzPE/gShUV/M7xP3YP+6EZzCBwjOv/AIgSDLigEth0SM1W/3k9cE7Yl8YvbK802yMEm/SFk2fpwQa2TsxfvgQgiKuDjhvFDRi1IIsS7jF/xmmO2pNlvpCyHMD6txlnhtuvX4v4f5zcxBDMZWp4pTW9M4RUcwiNh+drtaTA3Ta6m87sfDF2BS4aTb1YWsv9RnkmLRMgcTNQ30orrKcldXNC3Eb1dh8wOqF1i1qh3U/gWI0VJ+mwnGNm2uLxrikppkJODZzg/aEy9nu/eDe40YxDLw7n2D5XdIZc8TRQaEwyUXf2ZZJ+4mIitW2JlvVhdAst0S/pAklukmJClVwxKnUo58i3yNQs3n6gweoPXMyeC9VId7WOjpsXsfN0mn9BMg517cx87L9CvvNpiFv/3FApPgiJSxgRb9dII/zJiOCXWWFYcJsFq9FQLdhh7jCCxC8tIpQnd8i/zicaQx3zx4I5yYn/cYLwXibsHzLay1o0UKFb4hsOo6akSQ/Oa+9bCQI6TU+gQ+pIQvXIKrM1iYo6O+6lsZC3fYHv88k+0xLdJ9kIolyQ2OerwhaLL6x2+WdTHXCddgjc47v48Ces+vInqc3LvbWoerD0zjhmuM96CKl0qYr+UDcPGao3Q8TbgWlGL733Ht0rWZtWdSLbnqN0dX/fY6rr/pFBgJGTW2nhFXg8BApETWVVHRE0E/cnDp5GjKvTA2xupT4nHjZwCk4Ui7wIMrE+spmMiUxztwOk3vVzcJeih3JTg9znsKrZUH3qMN58aXBphKnAcBhNP+QjsJWDZuSxT+nWBpJ76Aak8mmAbO3SQRQEOxWg9Ir5aV85V6pD93l0uYxKqr+W/Gu5APsENdgaNfATIl6umDEIHc7+Yn634LTpPD3y/rg61dqryQMBm3FVA2APYxfnnT5DyOBUOWH7XdHsKXr0FQFrU7G3aVOco8H6xna6U+QXFIZkKu/B+Bd6SdgBUp5OGPwPV8306hQdhw4ngoHMV+YMF0wk88DP21oLZNuNQRWRBqOBiTd0ElOXqSY8y307GQ2jJrN89RmyBikkemMkRHs/AR/K9uR0C1i91hR6H8Q83JdM6auDd2hAv8am3omD32fyuXUE4pzz4ZGuZuSJfPMlOZKBRr1PVgZk80pxca01gdBQA8pgqrwpDPh20RZOy0thgDL2TKMzXMi79vYLgnpbELh911tXDNKsZ+AI8qb/EGrBHsXJjBMGvs3WiImcoXC4vS+NXqjn/DojGxBcehJ3FdUqACPupQFPMIxcL8VN9s7WLdR7pgN4XC6zLeUre1LQk9N4As+bMLXwbMxDEcrSBM9t4E2B7zPYop5LzfU/htp6GrBk/eSk02SW/fdCGA9iI+rRz3hAgzlR09umLD0jk8m6um4C1U/NJ/p+BVqcYU5QqsJzkYX5N9PW4fra1vkyNaSa2UFPpbVk1IhCYO6grh9BT5tE4+T1rfPFTNbRqtcEy446xv4XtC+kKDB3WP/yaZrFIbvqK5o5Y9eqKAKRlVzaHayr9q52kzmtlovyZkUPu\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.377849+00:00",
+        "host": "store.gotokeep.com",
+        "path": "/api/base/v1/itemDetail/abTest",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.385528+00:00",
+        "host": "kit.gotokeep.com",
+        "path": "/hyrule/v1/smart/guide/run/audio",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.393999+00:00",
+        "host": "static1.keepcdn.com",
+        "path": "/infra-cms/2026/1/5/16/26/553246736447566b58312b2f35382b5141777a3950796130516b6449497168464e6b672f7637374b386d4d3d/0x0_d0455f36424cb91be4330fcd8a9a85d5d58cd10b.mnn",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 206
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.415567+00:00",
+        "host": "kit.gotokeep.com",
+        "path": "/hyrule/v1/hardware/device/all",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.431991+00:00",
+        "host": "kit.gotokeep.com",
+        "path": "/hyrule/logCollect/config",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.437699+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/community/v1/comments/emojis",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.444799+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/community/v1/liketypes/all",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.452829+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"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\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.478387+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/guide-webapp/v1/popup/getPopUp?pageCode=course_homeRecommend&triggerTag=1781216113985_286&fromLogin=false&fromRegister=false&userActiveDays=5&hasTriggerBindWhenRegister=false&scorePopped=false&allowPush=false&allowHealth=false&userInfoSupply=false",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.534877+00:00",
+        "host": "static1.keepcdn.com",
+        "path": "/infra-cms/2026/1/5/16/26/553246736447566b58312b2f35382b5141777a3950796130516b6449497168464e6b672f7637374b386d4d3d/0x0_d0455f36424cb91be4330fcd8a9a85d5d58cd10b.mnn",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 206
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.556100+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"peYCGq0yc0HGP/YSEJdZw2HtB1ec5M5HOMv87pFndOLsefwtt03Ly2v6lyvaSTSyvpXau+T3Iu4vy8T9XX0ElLEbF7ozEf5s5636URrR9iEGicN0zzEOlAT9RCpfwQEk4eStT18yquQXnp2VbM9Y/q6LeOeNiy5jkAREXA82azijBwKxj2M90g05XUWb9seeRU25H+fjbVb13CfsviP208IpSjm3DJHT1Qpk0SXpQFY/y9HtK+FpmlQ1hsud9/5wirJ1tyY7LaRwTE4l8pDboYYkh+Eu7bvlDd5DkjYqy0bTm4u2ZT094P1CNN4sHn8kZoF5DU7vFy3wxu6mY3XOHvc5cdcgOwJ70Hrkf2lwI+alY57ku7ukv09u2tQQN6DTgI7oPxEaj/tJZkcc8DRK13aAjhkMpAqH1RUWa5v8EczXFK7KrFEmm3jGSI0P0ZsgrJGjYu6LCyM0+ssYjc/Kqzx4i7iejUe+4Eqjf2PYsmXBr/iiiDRVqkw8OoerOFsKDgsus/wPwC6tuJTSXoNExmMqO84IiVUKmuAZ9jPcOoTil3icYe/z+/870s6fxBOIm+j0gABqcHc3Ulyob011Hv7yueovUdQYD/sOH3mC+nZ6/MuygHPHTuCbPDTR4E4NyadddA/IHTduS0T8rpbXo2dfz9TalEqgSlqqlif8CdsIZK0ZvMk0hafdwRnMObJqOrG2u9VDQ4xY2tGoMSKIUNfEVaq8mXbxUeCDOVDBwj/w3NWr++52dRrTCK2PbQkBGo5M8qcETHjZEkZ3ujiMLxnVabClt/vJGdKNb6aPGk+3bXxN3Rrnx3zEMEUrKs7GXaB8Ar2lq1TqTsBXUnchwMaU8iLKn8yKzgj2QqPFtUxqTepkZCKT4/wm5I/HBNE3YeEnrr2SaC2955dFpdCOYBUIzbqaYLVDqUSrJo1hl6D9RK3bp1PIePjDaYB/x3PAH/+qzGceX0/AmhJYRaro5rNnNCy2rtnhfjt14n0e/GYDtZQRKaogzTldD1lJBaeszKHyWqqSNC/Y1htiz5lwaNlG3UFyTzPzqtR9vbixb1nsW3NOJqJN6rQmpgotTPnHR2izsjgEB5B6Sf1Pt51t+/mG6agjk+lVYF488sIvaZtZh1VjCiUHAiXClota1r0KK+rt79jTbu4ImspguCDXx5ArGTTq6fo5HlIQ8pCKkorEpGT5vwrUsXTzToDzsn6vP1lDnme3zPc+a7Am8RMZaw4BBsdPOdmXNKmoXmU600xVn1HLird1k/6oFtyUvnVN5kaWZ7wqCC87d20NZXWRDhbHZXMVj/JzQlWYJt7L9Pt+itwi67m9ZbA3D6xl2iqLAQg0Mn6R3ZtECt1In7Se9JG+FPI+tz/yR+yg5zaSCngzpn+sS9WsurMKPMlokrRhchItMr0WttGLK/0x+iN6Rdiqj83+fh4FRCyjoqOMUI6+sB4wlJXVpW3qmm+rEJA+thcuNuQH0KFIfkOra0n0rf+Q1gZqbzLa7Y24sOK1hUdhCAjpT8b1uTJWjZFWfeajtVLUKMs0dv3JoxL4uD8zAvA6lEaMyFLFKdJGFhiRvp333uyMc8j8SELGyGRZOT4VTwXqFWaXbgVQB8yRHXCC4AE+7i6Kw9CwgHhpJSOXAzZ9sslF7JTgpCH8wtL5BDVi21tC0S/SeqNRF1mOC7HHba2AMQdINhINxWFy+uVeH4bp1wNPv2pf4KUn1CrZ9CzlGbHYY7zYv524kslRXycxD5VqSREgH0Q1YHBbXmGXGV5q5f2Cg/8wpnKzHDs+I62Zty83yww2mdbGKQzyR+vh0DiWZaggwcpIVtxAN4w/LqY=\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.560979+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"peYCGq0yc0HGP/YSEJdZw2HtB1ec5M5HOMv87pFndOLsefwtt03Ly2v6lyvaSTSyvpXau+T3Iu4vy8T9XX0ElLEbF7ozEf5s5636URrR9iEGicN0zzEOlAT9RCpfwQEklZbhiaifW9l/eLIqdTUnOUQjb9qtinUVxi3e+6b5eTjykL4bwU8Nr8Kj/Aci1NkrYqYSRN62Vjd4Ab5ht5MiGkKUMJ8nfEJ/0QLASktoi3RdHEb9eszwGt6mGqlrI64kTu7CqzIke0B5Ebe4BFB252r0fIZT+keOyLVWaVFo2L5/8XbIet/m1+XbfRDRaQz6JXB4h/9AhBoeBleUOcXpQs6s+88qTfTTFgxRXaXfSZ8iwcdU6EzEu7Rv/lqMOqKoZ4trj7zBUU7sMRL1xcpWr1WBg4zoRY9+fZrDF/yigLPpMODfyKG7/xT8lo/1vitUYtV0Ek55merJPHaCJ6Mu3711bI23zV4okug/bvMtY7VJAdWVe0pcqgWnbrboPIxtm6EBLVQugkeKgIsLGVUbvONKNoGKK/NiWxtVCleVnZ3JVnxnpPJUqN8iFOy2m23J7bvWT71ulCMdj5fRQwonVnHixdrz9xWYjtqYbfnAVG7KQUS+7gt3trdKSfmW0HR7plGbvp4JVLsQb5cAD8fNGJ2MBzU4Z/mChJJtQsggV/6iOhdvqfK01izVNuVwwDrzEiVxelzhFwEAdztODGh71ZCQo1A99aTB6DVSA94nbuHm8eimWVWnXAygB1GdafagDW6arm0K/XRwibjg4IWlTYtYxpc1Cg2tk8IJSsqJwo6YHW+I+PPev4zGe5mkg0JYZuvQ8V+udsbxx0avfbVJg5A9E9gDH97M4jfZE4g684qY+pgTiB0xo1Zo5ef2yKsk06OkTYZxPu9qolg1HRqvKn9W00OppTQ5Ty3vWn2g43BxteWp+BDTLsYK6+PaWcXklgp/KmxoRvsAZV37Qy+ePUA0vf9atIACjBksOPZeGgvKDL+7qb2vQlxiIaKLrjBsESjTXLLqjouvHDTYYvLFzRZAjxmBjaV299vyo0PTyqOl6oGU1QHEcFybWgEjAcecaj+v27JoWM5+rt/k08V2GiPieSWeHrSEFEYEguU9VDP0Ch89sqUXlORKyytmQBMyOzXWZ2LM6zQ0y0GNWwEoZpsshdZNY4XXgblI1HEqzMULRTswlNQQnOJ7y2ytTG367hDDS5yPl35fBLoDoqdnzm2aMQiEnX0pLssI2R+Mdmejw3FGAd1K7grQWqVUZz25YzDPeLNP3EJ0aI/Q5fhP09MLzynX37q5SxfQP2vfuUtpN8dp8hldc0xTPFEOGjZn6gAPlc3n+WkO8lkJf1BjVbsswRF4DUmFkaMirMphx+mG17fGYbH7K4Gzyc9K8GSP2S6W+UePwHtCC2Hrxmr4Ni5Ibvg9mkTJTSkAxMv+RX2siLWs/ZPzFx6udPu1OlF7cWClFRm9Z0B3zE7Xh6bd9ztbS3wZFOnpcqt9Bl8xRfIszegPnS1BtIOqqbi516ZeqQQaytvyhfFscJ03nApqESRk+pkGd2O513uHAP4s3Bt7bIGjdSF7t4mlXwFdsDBNtaLjF/PcJ0DNYdgn6p1a1ripK/PihF1kRIPJeAgR0bgXYZtZV3cFbE9zwtCj5WEZ1Z135zvxc/8wW634zROC45qoMMeoPCABc/5NuMjuSxqjzhEXmWwAewe3EHSWoLRolF9Ybk/CQh33xtJpWv1JPfCiWrU0Xu5XFimmTpnEwG5IvjTAsZbrzz1nJQgQcA3JdA8GYseHj3WtXAIYSbIHAA==\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.566024+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"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\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.573169+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"3JXbvpY+9sWbtTnb3Mj7XUvEApJUlnsMvHcttlE9RWMotmYMkVTJEEtkgQcgVc2b1KxG1Xd0fpU4qPBfFORph6lLhuyc/ZSVtRavIK0baiBNr3OsxVHl+kTBjZpgAsteMg4Vj/hbl0Yibq3OEBokpkZjAM7bKmLAsc+ecQKoz7WCGc7qipJaqW7wIIWxBxC6pzYhhV83hY2oQYXzdoBexMc1Wf0BUais8WaA4gyLPS/2dGjhxwYsDXVQPmLhFiC6+VXmZfyfeiwzCtHCqG+00GCQof8wkUyaH+S6DwoqSFfxh+80GaySkm2j47z9qfNXSrLIWgfOg1XG7BJHuKrSD+E5iKLU4ZOYVBLap1TSoWAWs7C+vNa26PEQpOPaVhQUX5D/Bp6fEIVuC/uaHLWqZVyIATHsDEvvCdSyJkXfCeG6N6Stwc6ziBgp2kxrJcQ+3c8an6KaUpNxl6HOhKuZFsFyNJAjiaypiXqpl9gBmRmD6ROc7crC5hdmts6vKCzzIDVzSuparUqqCq5YQXwnzOuLUe5yMMJvNqiazO8f2C6Fi2S2rY5Aj7dmghCbqDDRx1YFGc6MevmWsEVqDdKKYPDUjCSm4h29KlgPY+GqgGg7f3sbmSE5X3PPml0ve9rJHzHPLxYWOY1bguoFc6AvcgLwizXzTbwm7WbYvzcUzRCc9Wc8KRGOS/46Nq5VU4KJD/4Wg315KaRHRPGz3HPqlQLOmdrSHXZBnZpFSBzOXIGzazLfRuEIaiqsvMsMQ781qDRSMoBAP4rRHh1zycstISdtZ/2ISUqsPGdtdNY1IRC/y9vbtcjd1xaTJbiieHJPshV+N45qyUKQayBbDDDR2QU2DnwWxtGP8+RjlsIi2NuXSb1CwGRtBzlkD3d063lM5cWMLbNsyrv0bgg5x940eaSs0G6fQAaC+y12oJb7wkfmJAl/drNGq5+uWH7k7nBjeHOUlQkeUTA2E43Lq4c9vAhR4CK30R19/DS9UP55t1LK3gzSfniGYZsF/u17HHRYLuJX5dGlxtrGtH3neqrnmfIODGTiec6YnItmDSpmfIjv/VbUnrZyW6kDRiGaWrgI3sVyHbxU2+Lh2PDPIQdiP4daMNRNHfIM/qom8jtsgoLWGbltcXhMXpNaMZOuJzi+KkqIvBfUiV2xYUty0T0fjxU1HqQcgetUiLxma79LxyZVWlthwXu76CneZvvM259hXQT+VX84vLhj+DOASR7oSOeIv8GUNQdbGTzt74tA/hFDDuPV+ubX7tYQulW3WQ/S4k/eFtH4LKLN4p62S4YK4GJkJxifN+KCv9eXrYZ47+QnyWQsFS9IGD41U7qzSCQK7TlRCQh6vidKJcCSQm7IxKec0pXuvpHYiomSDOkEvEbgoXW5tm2YPmRUdPHOuqcN2EPxs0HxS5M9VfTUeL2O8l0zItQK7JzhF/BxCneBy09KT5rLUZay+aT3Uxae3FhcBYlAujyQBAW0gLyWfXhuBve2qTxdb13GVtAj51oUn24088jnioc9O0JHg94eftD9HNIBjpdDdRFEBmlteur9LokxIIvixXCAyvVgCVVK0MUHz2HcFnCu33Mmbn+YOrrsOxSLu821e5cp0anSpjhaXPTlqUvUbrKa5aEyhWRnc74kvaLpwHkC7M0C9rav/ZVkWFfmE1yWsaKm242RVsKRFK35MBawtHI9PHrPI5N5BaDkfySfwqGvbmeWHqswr7Dy81feKYDAq5v5E5RZlA7xJT6jc9HMrYEFdfnHuzjNtxQO5CeOWT5DPaCyTaIICCV5jbpUfUWuGxKpuY0KGLbyLFNetHKnW/0k2cEM67mDUjQLOm1fouDT8uA8v6bPtAG+\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.618579+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"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\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.630208+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"IXK6c3yMrccEDAJf9ofkaiY8xbKVY28JaeEYKFTG/Go396XalmdGbTDBHNwV8w2A4ORzwGMnCK5o/KqGB/1dsKa+Nr5359n/N+zz44fblb68J7tXP8IrXZdy1wWO6NQ2pOiohrAcsiN/XFMOoZbRjP6638nIvVXZkmWYdUV90ZedF7bDxw6WXhoAZK56G5XpxcsJsHgqDvSDgrsay5FLhp8F5vf37J+s1EPiuY2Xxo3xpaA+JZcFcnQOFC5esNl65bfCDUCQb0a10jB7/pYf2OaBcUnfqqiFtacVs9AO9Mk6NYo4f7Wzzo4A7fQjLaZpROn83HxG7xs15zTFy76rj6JFJBzUbEZqrNDZB5EbLsbRSOslzHdvMWkmhgLAjs0CE5EFuocRsAJrxCPhNtjMGFaaY/sg92eQZfrCcccM3Ox2z8eSFvo/hjMs42mYK8q5u9zTaBzGdKKAl/WqpdpojCHtKVNp+Wfzm/JB2b9h5HxYGg0arWRjc5ET3cRxDYYghyPukXMYyn9IiSvGrCq28Zmb0dWYfzUEtxJqr/i7NnnZCtPjEUz0sqNH4LB6e2B4PcyJ+U4QK58i0UUzmbMM/nTwuTGhF/FnOrXkw37hW/KT97SP8X30HFOp0352kM5v3cQQmK08UL+a0rOf8CCwnJ5pRhpW5ATeUlI4+GR5mMQOsksRKuKwOxHiPowOnus/q3xR6/+Jo9mrU6dgSTTJ0LFsEICbEg4QtiQEE5Wyoy0+LTlZjuhLWlU+YkyMRbxxAXI8E3/BsiEgUQrJa1j8C9+G0fSaQKOZAXHJOHiiWqTbd3py2Y7elRVKJznwLUiDqEmcdNbYejR+iL3mn9dGUJcDtGDYHogiqUqa1BE6elrkd1OkBX8jm+T2oJYOeC/J3xk8/zrkSkC/GUs+kp7S8qatJ+fmAM80HB8NLskoVtSrfLFziF/Z4JpsPKX+go7fH4vHKeMF8mHBDwXuN0p2wnLJiA0hwYJ+UX9GvZpS8dPgX4qomfCcbnts5MBkF9QPBTjIbFzDJJUnEZ+IOqbi0VJH4II+qNZQIS9pUgjtjr71wq42d6wxByV341R+N76Gqd7v6kqzxsBHc/A6lDP9DAhshonzvSjUAvZN3GLXu0/8SxJE5FiKyvzpThzLGO6Qj/4OFCJbs8u6LxsZbnvaka5ZQNQdKG2eganBaO63j64ZDmab3vASVGhPqQVa7e0YEg0Tb5ZAFdDxAN9+MgSTU4R37Is4+1L/p9pvmjn0+fEl81bYcsX3KN7xHYg1YLzwPqSiS4DCTGdqf8882oFgVBUf8ikhItx5/gYA2to5Q6hCG72zA8rrzFfQgtRG5ibX5101o6zKomCNLV0rqaHmqyPQIA6hN3hnPDV7wyCySOSS7LP/KoLLaNtGX9L8r+ZbkBcTBxTW+I4gjcHsZ6CE8zrXtTo2pVlGxqoyW9YtbyKiqejgbVMJeGdXoK1gVIcJnxuENZkL2ctGAMgkA5nPyg7/eSetfby/M5R5tWRLzSUxFw8Pv/dEo6wXujad/zqGUHbsc3iJcyhmp+0JS5lRMebk8DIVNQaWMST9vv7Be7tg/LnxStqUkDtZpBz/0n38KCc+icGbHnPN+se+p78XHYJsD+1qW1pN+GsWiswBkbQQw1XzONMK3P6Wn7KIHXAtKqlXKuXcWjN9+muMIndOogbORGEx7/O3K/YzwEUG1YeeQskYkIUHzM0OR4rdkCOtuaDKsgXINiiqGiFG39C0xaMTkf6MhMgZsCxR1I+hLZWG7H65N9rCUV1diEP5nHeRAmm0afVt6BeAOU5OQCTuVweZAdCtc6JStvf4b7TGdsQXAQSdCJqDLe8vZ5mvHjTQlJEs1xI8nMPV34+MZJQ0+hlgtmUJok1ByUREP26+uNGr473IbGole0G5HBuPdljBxk0uPBn+bEd81q5/EefDlhTsIp+kb/Z05foHgfEa4DHhe66OS8f78OZ7eZiga8UPDAj56rnSAzD5s84+hAILu+XxsaUF2QklJsGQ5xcgycIZ3wY0zLSiLXagLQKLrsNd0wl+RruPDR5JlUeRnX1fai4TDKS7HX93FlvkIDbQA0ul7mCbzt4pgV2x9jbvrqCGnvL2i6A8S2U/6txGzU5n+GSvTwchwut+WnUS93I0Mj7g3NiWEw8qhoriOxnK+d6t5VZTJ1khGogNm4s+OsGUBtJ57pLKRmrVjO78tBpUa3v1VLPXs+a1iF68NmNgR0ODoa6r2KR2KCwMdwkBptzyUQ8rY1cE5hgQo823TOvH7eyAWocfIvKnrpYIZqVfEa4zxKI7xCPHk+Y8yCJcImftUH1uPFd3QkfXg4v7XLSKYM8ulfnLTDQAzhU8oN1OWcwKhLyWj1tHNKp7gJNrMTumMtmPvo9h5ajWT1xP7+tn8e2K7pd2x+T4zA5wyHFe1RqDau+krfchriOqoLYZubJAXHbpgkHWhsWx68b213ob6kRc2EZOsqsWSdd0MdQDMKAo\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.656118+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"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\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.660635+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"m8MBcNic5yvIZ/M+jI22OTgithCQcLY0F0rRcl33lA3dZILwNIi3UZw5boydJONoEeTQe2YAIY/lXxJ9dlh4tOQwgE0P30x4PTw/Z9DSi/F1KfT2lm/936r05uQoAITyZuUrUiIcph8TjjxTnqJwEhybYk++V0tJkqq8IUxRfZj8KUV6M9tPxy6Vqa+nK4W1DnwPojnksDmEN+EZqW0MhF8Ws2XbliYVaqLqqrH/MEsxn7AAscmY2fEhyuGZmghMwL/rp3tV23e18GluiIMZ5sGtWe5k13pPlXMGTwCmH9vYO+ViERTTbfC4n6p7rMU2r5Gu4rKOLgUVfyHrgOUzfguOX1O/abnWxKi4zHu+gJsoHNfZC2AP1V33VkUjysKUwv67lbmDHksqOedyOFcgBiz+qDMN3CrzAytivGEzLiRtmKl1k03cPHm6ImJ5d8za44DJBeWd5cAArZgPqh+HXmBHM16EVduxYE6FXpCU1Sh7Srco18WmrAUcbtTV3A4f/ewzBj0MI0tSoWoiIe3S7d8p7HAScNzLYV6ZP9ei9I7t+afUqkps68XmnPybcueBFs9nQbiPpi3UO2MHIQWzsU1rkbKSwDsRyklOBIXUlmeUgRM6MSoBpJuA30hRjBAAxmYkrb2dKy6/zFO1IfgOn1rAtHDdYHVTtkJFS3lJbR+IkLAMenDw43VHJNhtu3nMCQfcr4fmSYv3nF0PlYfTxhRUsDEGUtV8zfna5aI7IZD40TUAaE3W6qrqZkebSQ5g+63SNyQGN1esh4Ax58aYrjDVvDPeLP9YEMi3hEdASiRg6fo8f1qpMPQqRxy/rOypMlnvCvu/EwkyW0RUBZrIitrr8f30rKgzYVhiskaXFGhpzlZiqfnx1nUoqxTDCMVF3PrmgGWmqBjl671uz87ztmun2RwNbPvM7CZCYRvFqMa9gKL+EgGVi9mIe+DrLHp1ljS1lTMRwKu8CeWzsiQftVKxSrI1qCd9cIDtq2OGYdbKkDIOlXc8Y563veahde4lJLFGeYI7EDGxjJL85PgpCqDlZYsHCDMt2jNDRxAYnP3/d4RET522a8idFQtjZxuoZhR2B+AAhXAn+bIPdrqh5os6LNq8Y64Wt7JV5XpzUi9FYhgxdeT1WOQtKgFXyl6UYYRQeH8XFxM6sVqxlIkXpyUfcIvhPZ0vw3HfloCeZqfAqehk8tp54Y/jA6VIr58A6jsPjq1gi4CiKbZIK7vn3t4Lws+D6NN4WWVqpOIq1j5QcYe0VpE9eZ7jTZRXx6NgphZbau+Ob5lm6ans2hap456c+fmixGwUL93xDkIP8HUvnSKzGJdQEr/4Mxc1bXshxl0PzGKSa9zvGXE5KBZFD2xMKw2qZ6UyRcyezlsEz/t0cNemFZ13QiUH8vqahrCBIH0/zrDPhLPPE6nyguFJaU7oHrHzfeT/MIaR6XGYmb3H8F7D4M/rGQCviQMX9ppvVLFHO1ZRemsuOOyhtALZsQ+ej9xZwor+TBR/S9dWMX0ZUy0QsmjtZK+VR2GZniweOXm4ytGCAS6qXqI8BH3CRpFIhm11X84/SRHJplCanLAfG+ov08tla6LOMhinL4qDKRgpfqcGzVhnVUlXlEm/wALWIIXVGsd86oAn7TXYE03tpbqeGbHssA+uhtvu9uG5djRSmgL8BGFAlGQIcwvL4Xqmd9BNo8CyNr7uCHIKlEGaBitX/AC+YdfEJTclPEa0qCW3fNwpfHEKKrc5sOzMmM2ebDS7yFTDi1iyiPgEvuwtsFFNuAh3ZMD1+BdvgjvwGv81gA1nqF5nsNgUrablOkJ5/Yo5TZcMZTlzXghNAg1yCk9s0XONanh0NxGWuCiCT3JjDn081R2boKC1x6hxIR1vENWa/pyfMst7O08A0W8H/7yfWhJYjGGywX33Hat91YAT1Z0NZjlh4KPUPJ7mkylPBzudVu/Kv0tKo1W4Cwaypo1NC5DJUoqU6zjWPQAb78YO0L1iL5gHIMZdP+yAYeQ8ncibET0Yxhde0MSATKRbRLN+D9byVPhKXP5sCY2Uv9tBnkP0XdxBfGlPoe3l6vXBlvoJOs31OjgoO2zD6Zr1iq2mWG7uv88Xhoc9frVgVYdJRmYs6hHnlUjOKjDlOG7VF4aH94dl1ugpFPMsVcPcm4kF6oVWJK8rbztpdS6Xcc2IsTtOLThcmZjD37j2FmKfa/QEOzsFUU85AsD9Eq1RizAUSUfdKxtxAMaXOOO/u+pckMF2RyGxv263cKUXZ3t1LmQyZ9XjRuAn3e8FhtcxvlZ74dlkUSAQBP2iBswNJicMv46fmDw3KktNmKDiUeXWkQY759IgHn1yGxq4U+JkFUBR8Uzb+CYAzQ4wJKxHoaf+bydy0YrBtIHdFQLTN3rtODYIYoDsREu+dsBcsEOOpHq3EH5RmY3u50Xe3f6vVzKhkX78/kMbG0DBsYkGpcqzQEVwS7ge/NiAzlEJbwxFgw/2P4g41mr1Rzb45yzFNYnCc3EaZKobClvBVZp5v47VYJZ83bljUk67Hd8gvulmuNysOYtqYMrwKj+iB3a6+bS9iuoYHv5C9nz5Fw8LQmiumWPF2N3e0IQc6wDzt+010IiAbhe38bXsWkb4F8tXnH1nfEwM6LPnISYi4EBmOwtnfHzcc3IYH2QvwpkSiVdEdNVipoPEm9Y+PDbX2B+bwXnAQWdWVrqYyTo6VVQ6ye4Jsrx52wSrFBwXUjTAmXC1ceWSAz3OFscDaBFM1YjijG+o9IFeZaX+udjyb7Ipgkg4CVxu3njVYpqr+dOXhu7pSuDEqv0FAFRceAx7MMjb\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.666125+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"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\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.673131+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"m8MBcNic5yvIZ/M+jI22OTgithCQcLY0F0rRcl33lA3dZILwNIi3UZw5boydJONoEeTQe2YAIY/lXxJ9dlh4tOQwgE0P30x4PTw/Z9DSi/F1KfT2lm/936r05uQoAITyZuUrUiIcph8TjjxTnqJwEhybYk++V0tJkqq8IUxRfZjM+Q7TWV63iWBvo/cVagLgkQU4f4MK1oNOwiXpwpRHgRMrH9H3q3aM4i5QzVz+VtzF9lvfChZcuZdsI6ENPrULEKIfLBEZDaBb3IfQlpcwvIh7AoRWACWiFpN3IkuAI9KTDhxyjMuFzC9ySQPzSq6ut4VnILAGZVvpFmzM00rWjjtyDUzkxVhIuo3/oXqoT84xxnWVqeOZNVvEWPkMefucUF0cmUPiv1hv6piwrI9OJTpROUHaWVTZ657weQanWLUU1HSfNbot6CmEzB5HZgM57TRDuoIVcprxbDl9xaIGwEsqKpruRdq13KUx5CoqP8oveH+AerWj/Up7D66QQYRlxe0eF2H3t/VGRwydb8vOjQG9+yhNntfgEUe49Z6MCk9dbolH1S/nCRpeys0jK+n4c7oqfQ0UbKvUM4/OBxtf4klUIPCFoluoSemzq6qIvOgZzfIV/L2Z7Fwqn98jhDPS45oktQfik767V/rtK/W/TxC33vfbKjPr1QMXQORwvk6BGTWh5z/2yhEl5c9N1QlaEZuiRF4zekfyclB8ltDFUPs4qD+o9dZyerOkKncsMp7Wpyz/vFsw4MT9EFHUSGrRbidQiT0++sjpKZrn7gPA06CgpWufsqJ9LhBKPWdeQ2FFiYxPd8B4D6PzPqRTK4IpvqmK+8WrcU/82U3qEHPqCsckY+d5O7wgopEo8uB15qDkzv3f4ENgulMu9Wwjor2/tsD6WdueKFNi3Hhmi3Ay2TKgzmkzA2TqD4iSCoZiO9Kqg0U3XuAA0B8aJjHbvzERJdmgqdZZa9KM3SjTvfBFPRICDnczG1vmEAkmdltUKjNtJemBZnwyDDe4h01J3CaTYUCTH6xxj8pPwDJ45VSC+0o7YHQQPX3polWeq3DAa8a4esTQT+Z9UIOQm+ZzBFXqaaTCb8v5MpSkfq7xvxxSHb6qibwJgJ11Aow8oUij0IWTSilarMeDqh/xxD9toE2sCSQPZG7OCh7rfXkdd8qdzbHP0CspznSD8NvkCfUBbWybeBtd2cW+SxV5heST527JjCdieYqKo1oH0G4gckAwMlo+AVD5Dfti6jjnFjSeu5As+67f9DcAfRo0GqjQUx4qYv3vCB6bsHOZjOFkaxkmtTLZGPj9LIxcyxYK2dCgvqQcv7LqpLE+BjQUWql360J5Xl/k5XRx/rtHyxQ7IK7mnqrikPIwFapbct1myn89c6mjIUtUgU2lQ/rWdR9zkorvOsQwe5OYC3K78Zgw81HPKJNMT0E0w0/bYd2l2to37D+mmn/MgsAchjYRQCpk2yi0E4gGBj7E814NCNmDiJcOoK9JymVcu8JXP76iPlhYgFAGxGq1f6rwhKcA3u+RpQWbbdN7LfaubTkD+rF7ie01j7uaTxwksKaOKsHRFra3OBkC+PLVFXZyMEYfIBI+tiua4mp6bOhIQUlSZbLVmDzp/3nMtIUhTjEzDO89HskeQW5vO4S60oIFb4Qv1ZDB619zcUTDuCGHyTyNGKJYK99K9l6TU82KtV80p8yg3/CefBg+xQUx0Sp55EFpsU46cnvUWqispNA0TZhoOl7UdOqfl/5TiIC4DSIH7kGUmeOAz5QvhJ/EXh6Z0+TTjAqNOJ1qLlbskLwBF6FyHYTNMLfSGJIJ118sZOhAcPGtxoIdtvgOrpeg6iHBbKSNEtpUjSuIXFP+MNuauZAY6iBh7ENGJU3K2P67Y/hgslc5qvPqcPEydspLHUHk+eAab2ezvuIfvU3R+0IKGwJ58zCnMcjofeEje5j4qKAa/tzGvfs1z2SQq5ssy16eXcFfvSnwtHZHjJ1fRdut95BKg7ogjy/cKqBV89Ic5Bn0cEVzuxcskLrw7IeDEy8a6IPGgEJwHzuCm4EQg7/y5TcN7xzGX98IBoBQJpJiX6+2v/5y7wI5OgeCu6FujqLgajAkTHpz+Offjmbwva9vrob9sTghGJyIAabFOqaSMGc6QkQauevAVzxNKZYgfYVWNdIfC4478iim6f/kpE+JQ3jTKCrd1x2rJGq+0JbJjcZxkmKJI4eRQk2q9FNBiv64YKFeTPmflPHCbKX3Wi/4Dt1wcD8VPDArgb3e6L7FkiA8ixUC1O/RTZQxqOcTjyT81OohvAi2wnS+JL9zjb6tr9TNnJ3beAVUwo/C490ppMebwLavZj74AVPO4VfarRfAp+u1j/S5cgrKgEK7wKy1aFdXet/0inVWNSxvv74KD3urp19FIi6Wg2K+yr1E43dpeSSl673CUc2C+dvYrB7dUmbfb1ZY8DGX7mO46cQwDc+U3J1TAjuR9Z+reR8lymXuITmRWavr+oJoAmve7Z7Nb1ns3tNlA34+4e2Lum4FiX0kMRGs2+C7CY11JArYGmqCaA+i/N6teXoKLK2t56U703iTh2haNoibALwyLrv/myk+ajwquu65RIzraq1UL8q0OZef2btlatvnJp/g70oPNlf4uVjQI4iexwhBIFhLE7KVtvdOLeYL5b++tfoMVbv1R9aK301tx4GrBSdG2kzRDphk5p/CxybR2Bfhpm3abu45KRoEkQlZFBScBQIC3PZLap6GqKfdiVt6V6Nv34SgMv8lqazYgJIX9J1H31jHTkf+ypuxm9PjXPb8S/WaD4rq/HETsBA4+0Z1S0q4P+D7vXxYEYJFSe4d9w==\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.679570+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"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\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.689410+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"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\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.734955+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"eyy77qt4iv6R8tL20D1YKFad3ACyF4Mpp3laoyRkErOtPV2NOC3DSlBJ9JrZDYZlYaaP5sJFwN1nyxLR88MB91rm00PcOCeXksDRqy57PqJeJR8/yAufYAGKzKcDEAN1P2w5sGjByn9X+Y4OiXw+AD2k0KkOB82DbQW+bkzRO2iSWDnkV9INAIhO73pW2QFAfSbtyzD9hr/E0wvR48xbyT91tN8h/YdzyH7PDkOozJjpxh2G3piOoCfdctW3FGFXPAdngv2q/YIe06tblQql7CeRd3irt7g7ZmnM3RfDrYY9iAva8qaKhZF8Kq5JUXkXVYsqyF439pweqI086S/ekV+oOw9SB0FN/RjMeCLPqGA1u1gtCM1cI47w9gN57jiSKp5uyqi26wXQIWpAGkvyZ/ktUvtY4TTE3tlg9XHgGuXQLNVwuElNbiPsMoMrJCjEb17wKkgoatJbeMSV2zRlNa5zYcwJuUuR55ekdFDLJCbimnZDjMhqGVFXFgNZ+jQiT+3x+wyQ4jxuCXIDdSatEgxlAaca7WJ2HeLjy57JZI4zh3bEtfM8FN5hbLzNw2v1t2ulE9xrhjHXA6D0xfWhk7O+GoFo2eL0myscCQoH85VkDG3xtTG3zqfTX7Sr52VI6yXlKANr7kbain6g1HOuVjd/+Kjh3W2Z8Xm1QdC+kqfxE1Dlx1mP0cJ0uHh9dE65bkoPRbfkrNZR1dLQS9SMd5UPT8DHFJejjgoHr10v5G7taAIJaoJEtNs4XHxltmEvcB72ZTs/hXTZaMd/TFY3bb7TwYXrmko94ZhRu03QoCrMwF3Lv+HWSppczH1cQAUyiXk6MWlQAiq55zpspvb9BBlXQcCJmrxRJNYFhJ2cPB5dSxX5k3G2f+HGuqtKEzMXLSY1RZSZL4DXGXLUo94RcQXp+XCiembgTjhjxxejYp6NVUFU4E7AE4Tgu+0bACQVOCpugcTGK5TkItZG/ce6zBZyKKYweRdKdqWJcFvoa3FN1tP8idOb/pfGY1JJF/zReaaj/z757xT86+ifoOnzgw4mIupyc4H8JNK486p4JoshhffMzu1eiZgzSgR7g2lBASItRjv1AB0qJsUBsJ6AwFGIakGjqn8KpRL+JyPfK+rgazKe6LXe4aVJXBXI6nQdqX96QanbWBamDiTna8n5jmggfgHj+oSwX23D4Am4Aumdoi3CN8EPV0jvOtiI4BYlcPQeBSXSO5p94w/zDrmgARC5SzsN96cSlc+cVKy7WuAAb52ZN23PgbCuTRxckJvObcLldTrLwtb1CFT6w1NRlEF2gKUJJIJMItURscLGSUO89/GYCQ7vpepLegEubqmNCg+8P0ZNKWZV52yqXMbwfJvET2D/OCUqyNCUo1gbA7C/Ge7JhbB0g+rSc6wScFd0Rbh4JsJt0o4F8o1xGDyx3MaKL0iZM7nX2dnGXR1Wn9riL3aBNjuCs3q9j2suzZGAoP2TPK7bCBLQWX+GaPP8M5HvEqhQ4d+5R1xSF8Rl2oQddgGTPBWr3ns8UBK6nZGA\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:15.742098+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"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\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:17.033250+00:00",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\"1AXPxUlZa8BAFJJEj9zqD/w8nosET6haL7ysGIYJzdou6xGn4/b7Rj3RGOgNkwqVO1L2JH5yXoTCrJA83QWplopKXtQ5kSboxybV47xh4bTk87zv7SYDVCTQ5t8BFPntnVWpTwKD/jcQ4MG1JFZk+igEprwS6tXbnnxT+7DVkKjOiUlioetj4DiKz6LMIFxRD3S0CQUsNTDbWus7DbNWKNLH76/rwiD6GQ+JUDBFI0i0WJRxZaBmMRhad+5qgGOGRgKCj67osJs4OMkysu8v7fug8JbNf+7H0aifmWNDhlOiUWAX8SNRXuh12aw3ap5ozrm5SHT1VW0tFx6khRzoaeqgYxjZLagHlazFun694qmD9r4kXtmc6AV5FOjbSnfXfAGpPPgHOh568svVewDAnG2YGlgkp+2z7ylHtlf7/oFNCtyOABTNFHdEyDXP2oHH4LZmiiGQ+efmbnBox0DOUlzCnsyluCBmeiaWeBJTMXAI0J5otpaGmqkdIHz2bO32nIerKBvWbSvZKB6omiYa+YPkRhxSypNjwDrf1Ye2yv/LMYtHoGNFY5isyylYapQiPJVoc+d8JHhlFWm00u3h2569FTVtY1DV+jhrVAWJp9TpRkP3pMhWSXpg4q+Wh+4J1o3YFGKUXxWhAkvfz2OXzq4OONEYI+tfQ7CjHLV+8atZ18JOHfWGmeYRexdw43RXPWiogU1q61mfjDH+Zav+WBGcQUt0uU2R3AhIDt/NEsTAmrgiVUIAzelM+xEnPXDRdPadhsXhiQt7YqJ6lqToBPj1Klum8SNztRavZwygDtKPo/uiA+3sAGBrfrNygblQ4zxlj4bwgGGLjNhh3uilwnwczxnOXu1YYZ4BEJyUd0tfvf5JeolpH41U8WFJPanHXi/i42/N/1PHPoztafTyUMS0iDVKG1SpVXRQWOHR6gwTdraqox+XrLrf7IjcZakoeas9K17Q1P2ObjFXKK/cbok1yWFVMdQJbGP5nqqxdCQp06HN1lPHpZEE1NltOebjdMpUXWXo0J9cM6lxr2sFB7ztZj8q2u7lX+RiB8q8wjQva1sU+N5rsUl87Wht1IXoke5y4kE0sRTJASZWMOwKyoI/Px/NgnZvSrC4GXNPihuMHSJb/zXZ+6lShFRENHY6roDlLMWflDIHHL4soOcRy9hZvXAwcRXhkjJVP2n0aFfi1slbPvFVvTKgozwVdpe1LUrowvV+N9lO/sJbw0450wFcRV9ayT4uosYIrdNNAejgTDe89QWV2Invfk8KijgJXX98idzct3YE3bUsvy4nxEHyUKCpcHWugrXitnmac5SQqYjaa7MwKrv7GyRHEIo+J1ZtOqOggtDYRRdZapgIsLxgzlfg+ZmpdOB+zxFYbvcJwbzkQ+N/VRFU9a8dk6TrQlp5eezJTHQqHQDPnsM/y1w+w8YhaseoTRRTlvWzYwds8rm5RnPKEG6MGUi6ZmGX/TjK0cuA+Bt0vurYUMyNsxT6B7JSwHayDodSkpbjO78=\"",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:17.173790+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/athena/setting/encrypt/userInfo",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:17.193683+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/messenger/v2/conversations/unread",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:17.349764+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/config/v2/push",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:17.459590+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/running/v5/resources/config?type=2x",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:17.514827+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/feynman/v3/thirdparty/log",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:15:17.596599+00:00",
+        "host": "api.gotokeep.com",
+        "path": "/pencil-webapp/play/v2/dashboard/config",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      }
+    ],
+    "flow_count": 67,
+    "unique_hosts": [
+      "api.gotokeep.com",
+      "apm.gotokeep.com",
+      "apmplus.volces.com",
+      "kad.gotokeep.com",
+      "kit.gotokeep.com",
+      "static1.keepcdn.com",
+      "store.gotokeep.com"
+    ],
+    "mitm_blocked": null,
+    "stderr_tail": "",
+    "dry_run": false
+  },
+  "network_result": {
+    "schema_version": 1,
+    "adapter": "traffic_checker",
+    "flow_count": 67,
+    "unique_hosts": [
+      "api.gotokeep.com",
+      "apm.gotokeep.com",
+      "apmplus.volces.com",
+      "kad.gotokeep.com",
+      "kit.gotokeep.com",
+      "static1.keepcdn.com",
+      "store.gotokeep.com"
+    ],
+    "mitm_blocked": null,
+    "mitm_duration_sec": 122.93,
+    "flows_source": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\output\\stage3_lab42_before\\Keep\\mitm_flows.json",
+    "tracker_hits": [],
+    "pii_key_hits": [
+      {
+        "pii_type": "location",
+        "network_key": "lng",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "timestamp_utc": "2026-06-11T22:15:15.184375+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "location",
+        "network_key": "lat",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "timestamp_utc": "2026-06-11T22:15:15.556100+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "timestamp_utc": "2026-06-11T22:15:15.566024+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "log",
+        "host": "apm.gotokeep.com",
+        "path": "/v1.1/log/client?format=json&priority=high",
+        "timestamp_utc": "2026-06-11T22:15:15.656118+00:00",
+        "evidence_level": "S3_network_pii_key"
+      }
+    ],
+    "summary": {
+      "tracker_hit_count": 0,
+      "tracker_company_count": 0,
+      "tracker_companies": [],
+      "tracker_hosts": [],
+      "pii_key_hit_count": 4,
+      "pii_types_observed": [
+        "location",
+        "log_info",
+        "mac_address"
+      ]
+    }
+  },
+  "path_suggestions": [
+    "iv.您可以通过本指引所列途径访问、更正、删除您的个人信息，也可以撤回同意、注销账号、投诉举报以及设置隐私功能。",
+    "我们会根据您在软件安装及/或使用授权的具体权限，接收并记录您所使用的设备相关信息，包括您的设备型号、操作系统版本信息、设备设置、移动设备版本、设备序列号、设备识别码（包括IDFA、IDFV、IMEI、AndroidID、OAID、IMSI、ICCID、GAID、MEID、AAID、VAID）、屏幕分辨率、设备环境等软硬件特征信息、设备所在位置相关信息（包括IP地址、GPS位置以及能够提供相关信息的WLAN接入点、蓝牙和基站传感器信息）。如果您在安装及/或使用过程中拒绝授予我们相应权限的，我们并不会收集您上述对应的信息。",
+    "若您已有相关硬件设备（不管是否为 Keep 品牌），希望将硬件产品记录的信息（包括心率、睡眠信息、步数、运动数据、体重、BMI、已同意上传的个人信息及个人身体数据）同步至 Keep App, 则可以通过开启蓝牙功能实现。如您拒绝开启的，仅会使您无法使用该功能，但并不影响您正常使用 Keep 的其他功能。同时，您也可以随时通过相关功能设置取消该权限。但当您取消该授权后，我们将不再收集该信息，也无法再为您提供上述与之对应的服务；但除非您依照法律的规定删除了您的信息，否则您的取消行为不会影响我们基于您之前的授权进行的信息的处理、存储。",
+    "您也可以随时通过相关功能设置拒绝/取消该权限。拒绝提供该权限仅会使您无法使用上述功能，但不影响 Keep 其他功能与服务的正常使用；但当您取消该授权后，我们将不再收集该信息，也无法再为您提供上述与之对应的服务；但除非您依照法律的规定删除了您的信息，否则您的取消行为不会影响我们基于您之前的授权进行的信息的存储或处理。",
+    "为了给您提供全方位的运动体验，经过您的授权，我们的客户端会将您主动上传的视频、图片加密上传到服务器进行存储；同时，您也可以随时通过相关功能设置拒绝/取消该权限。拒绝提供该权限仅会使您无法使用上述功能，但不影响 Keep 其他功能与服务的正常使用；但当您取消该授权后，我们将不再收集该信息，也无法再为您提供上述与之对应的服务；但除非您依照法律的规定删除了您的信息，否则您的取消行为不会影响我们基于您之前的授权进行的信息的存储或处理。",
+    "当您使用扫描二维码、拍摄照片、拍摄视频功能时，我们将访问您的设备的相机权限，并获取您基于扫描二维码、拍摄照片、保存动态、头像、录像影片后向我们上传的图片、视频信息。如您拒绝提供权限和内容的，仅会使您无法使用该功能，但并不影响您正常使用 Keep 的其他功能。同时，您也可以随时通过相关功能设置取消该权限。当您取消该授权后，我们将不再收集该信息，也无法再为您提供上述与之对应的服务；但除非您依照法律的规定删除了您的信息，否则您的取消行为不会影响我们基于您之前的授权进行的信息的处理、存储。",
+    "当您使用录制视频功能时我们将访问您的设备麦克风和录音相关权限，我们需要收集您的语音信息、语音交互信息。如您拒绝提供的，仅会使您无法使用该功能，但并不影响您正常使用 Keep 的其他功能。同时，您也可以随时通过相关功能设置取消该权限。但当您取消该授权后，我们将不再收集该信息，也无法再为您提供上述与之对应的服务；但除非您依照法律的规定删除了您的信息，否则您的取消行为不会影响我们基于您之前的授权进行的信息的处理、存储。",
+    "当您预约直播课程或直播视频、设置日历提醒等活动或功能时，我们将访问您的日历权限，并需要收集您的系统日历信息。如您拒绝授权的，仅会使您无法使用该对应功能，但并不影响您正常使用 Keep 的其他功能。同时,您也可以随时通过相关功能设置取消该权限授权。当您取消该授权后，我们将不再收集该信息，也无法再为您提供上述与之对应的服务；但除非您依照法律的规定删除了您的信息，否则您的取消行为不会影响我们基于您之前的授权进行的信息处理、存储。",
+    "UI observed steps: adb_foreground_before=com.gotokeep.keep | session_created_attempt1=ok | session_created",
+    "Check path for pii_type=imei"
+  ],
+  "explanation": "Collected dynamic evidence for Keep: candidate_pii=10, ui_steps=61, screenshots=13, frida_registered_types=9, frida_events=19. This explanation is descriptive only and does not produce verdict.",
+  "evidence_items": [
+    {
+      "app_name": "Keep",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061520_launch.png",
+      "timestamp_utc": "2026-06-11T22:17:15.804737+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061525_path1.png",
+      "timestamp_utc": "2026-06-11T22:17:15.804737+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061537_path1.png",
+      "timestamp_utc": "2026-06-11T22:17:15.804737+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061539_path1.png",
+      "timestamp_utc": "2026-06-11T22:17:15.804737+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061548_path2.png",
+      "timestamp_utc": "2026-06-11T22:17:15.804737+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061600_path2.png",
+      "timestamp_utc": "2026-06-11T22:17:15.804737+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061602_path2.png",
+      "timestamp_utc": "2026-06-11T22:17:15.804737+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061604_path2.png",
+      "timestamp_utc": "2026-06-11T22:17:15.804737+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061614_path3.png",
+      "timestamp_utc": "2026-06-11T22:17:15.804737+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061626_path3.png",
+      "timestamp_utc": "2026-06-11T22:17:15.804737+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061628_path3.png",
+      "timestamp_utc": "2026-06-11T22:17:15.804737+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061630_path3.png",
+      "timestamp_utc": "2026-06-11T22:17:15.804737+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\Keep\\screenshots\\Keep_20260612_061657_trigger_tabs.png",
+      "timestamp_utc": "2026-06-11T22:17:15.804737+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.frida",
+      "signal": "hook_imei",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:17:15.903352+00:00",
+      "pii_type": "imei",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.frida",
+      "signal": "hook_android_id",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:17:15.903368+00:00",
+      "pii_type": "android_id",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.frida",
+      "signal": "hook_oaid",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:17:15.903372+00:00",
+      "pii_type": "android_id",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.frida",
+      "signal": "hook_location",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:17:15.903375+00:00",
+      "pii_type": "location",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.frida",
+      "signal": "hook_mac_ip",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:17:15.903377+00:00",
+      "pii_type": "ip_address",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.frida",
+      "signal": "hook_mac_ip",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:17:15.903379+00:00",
+      "pii_type": "mac_address",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.frida",
+      "signal": "hook_phone",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:17:15.903381+00:00",
+      "pii_type": "phone_number",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.frida",
+      "signal": "hook_contacts",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:17:15.903383+00:00",
+      "pii_type": "contact_list",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.frida",
+      "signal": "hook_clipboard",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:17:15.903385+00:00",
+      "pii_type": "clipboard",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.frida",
+      "signal": "hook_network_okhttp",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:17:15.903386+00:00",
+      "pii_type": "network_transmission",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.frida",
+      "signal": "OkHttp.execute",
+      "value": "dry_run_network",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:17:15.903388+00:00",
+      "pii_type": "network_transmission",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getImei",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:17:15.903391+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getMeid",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:17:15.903393+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getDeviceId",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:17:15.903396+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getDeviceSoftwareVersion",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:17:15.903398+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getSimSerialNumber",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:17:15.903399+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.frida",
+      "signal": "android.provider.Settings$Secure.getString",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:17:15.903401+00:00",
+      "pii_type": "android_id",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.frida",
+      "signal": "android.provider.Settings$System.getString",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:17:15.903402+00:00",
+      "pii_type": "android_id",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.frida",
+      "signal": "android.location.LocationManager.getLastKnownLocation",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:17:15.903404+00:00",
+      "pii_type": "location",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lng",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:15:15.184375+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lat",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:15:15.556100+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T22:15:15.566024+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "Keep",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "log",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T22:15:15.656118+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    }
+  ],
+  "capture_meta": {
+    "sync_mode": true,
+    "frida_grace_sec": 30,
+    "frida_tail_sec": 60,
+    "frida_launch_mode": "attach",
+    "frida_code_prefixes": [
+      "com.gotokeep.keep",
+      "com.gotokeep"
+    ],
+    "frida_tier": "tier3",
+    "spawn_fallback_attach": true,
+    "dynamic_track": {
+      "dynamic_track_requested": "lab42",
+      "dynamic_track_resolved": "mitm",
+      "enable_frida": false,
+      "enable_mitm": true,
+      "java_bridge": "",
+      "tier": "tier3",
+      "preferred_dynamic_tracks": [],
+      "mitm_primary": true,
+      "probe_path": "output\\frida_probe\\keep.json"
+    },
+    "enable_mitm": true,
+    "frida_enabled": false,
+    "frida_runtime_events": 0,
+    "frida_java_active_count": 0,
+    "mitm_flow_count": 67,
+    "tracker_hit_count": 0,
+    "post_run_app_closed": true
+  },
+  "summary": {
+    "ui_steps": 61,
+    "screenshots": 13,
+    "keyword_checks": 11,
+    "keyword_match_count": 7,
+    "registered_hook_types": 9,
+    "frida_events": 19,
+    "frida_runtime_events": 0,
+    "frida_java_active_count": 0,
+    "candidate_pii_count": 10,
+    "mitm_flow_count": 67,
+    "tracker_hit_count": 0,
+    "pii_key_hit_count": 4
+  }
+}

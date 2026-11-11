@@ -1,0 +1,2580 @@
+{
+  "schema_version": 2,
+  "stage": "stage3_dynamic",
+  "app_name": "东方财富",
+  "app_package": "com.eastmoney.android.berlin",
+  "dry_run": false,
+  "generated_at_utc": "2026-06-11T22:28:14.593768+00:00",
+  "candidate_pii": [
+    "imei",
+    "android_id",
+    "location",
+    "ip_address",
+    "mac_address",
+    "phone_number",
+    "contact_list",
+    "clipboard",
+    "sdk_info",
+    "network_transmission"
+  ],
+  "ui_result": {
+    "runner": "appium",
+    "mode": "real",
+    "timestamp_utc": "2026-06-11T22:28:14.402718+00:00",
+    "steps": [
+      "adb_foreground_before=com.eastmoney.android.berlin",
+      "session_created_attempt1=ok",
+      "session_created",
+      "foreground_ok[com.eastmoney.android.berlin]=attempt1",
+      "foreground_package=com.eastmoney.android.berlin",
+      "navigate_path_1=我 > 设置 > 隐私设置",
+      "avatar_coord=ok(54,96)",
+      "tap[我]=miss_try_me_tab_fallback",
+      "tap[我]=miss_try_sidebar_fallback",
+      "sidebar_xml_before:xml_drawer_open=False xml_trigger=True menu=-",
+      "sidebar_text[更多]=ok",
+      "sidebar_xml_after:xml_drawer_open=False xml_trigger=False menu=-",
+      "sidebar_fallback_after_我=failed",
+      "tap[我]=miss",
+      "nav_path_1_stopped_at=我",
+      "path_2_reset_start",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.eastmoney.android.berlin",
+      "foreground_ok[com.eastmoney.android.berlin]=post_activate1",
+      "path_2_reset=terminate_activate",
+      "navigate_path_2=我 > 设置 > 账号与安全",
+      "avatar_resource_id[riv_avatar]=ok",
+      "tap[我]=me_entry_avatar",
+      "tap[我]=ok",
+      "tap[设置]=miss_try_settings_gear(path_account_security)",
+      "settings_gear_pick=rightmost_toolbar_icon",
+      "settings_gear[bounds]=ok(895,81,)",
+      "settings_gear_coord=ok(1020,94)",
+      "tap[设置]=settings_open_sidebar",
+      "tap[设置]=miss_try_scroll",
+      "scroll_into_view[设置]=ok",
+      "tap[设置]=miss",
+      "nav_path_2_stopped_at=设置",
+      "screenshot_captured",
+      "function_triggers=start",
+      "grant[ACCESS_FINE_LOCATION]=ok",
+      "grant[ACCESS_COARSE_LOCATION]=ok",
+      "grant[READ_PHONE_STATE]=ok",
+      "grant[READ_CONTACTS]=skip",
+      "trigger_perms_granted=3",
+      "reset_back_presses=3",
+      "foreground_ok[com.eastmoney.android.berlin]=attempt1",
+      "trigger_tab[首页]=ok",
+      "trigger_tab[发现]=ok",
+      "trigger_swipe_up=ok",
+      "trigger_swipe_up=ok",
+      "trigger_swipe_down=ok",
+      "function_triggers=budget_exhausted",
+      "function_triggers=done"
+    ],
+    "policy_path_hints": [
+      "当您同意本指引后，仍可以通过东方财富APP中\"我的-设置-隐私管理\"的路径或访问东方财富网在最底部隐私保护页面中再次浏览",
+      "经您同意后，为了方便您下载使用，我们会备份您关于我们产品的部分业务功能设置信息：软件功能设置（K线、自选、推送、行情、资讯、显示、股票、股吧）、浏览记录，方便您下载使用；为了满足首页信息流推送功能，我们会收集您的浏览记录软件优化及数据采集、关注记录 ；当您确认同意隐私协议，我们会默认开启个性化推送开关，如您想控制推送接收机制，您可以在通过\"我的-设置-个性化推送\" 来管理您是否接收个性化广告、及内容推送",
+      "若您拒绝提供或希望关闭无线数据，您也可以通过您终端设备上的设置菜单，找到更多应用中的东方财富，在权限管理中，关闭\"WLAN与蜂窝移动网\"或仅关闭\"WLAN\"，若您选择同时关闭\"WLAN与蜂窝移动网\"将会影响您使用我们的服务",
+      "在使用我们的产品或服务时所提供的所有个人信息，除非您删除或通过系统设置拒绝我们收集，否则将在您使用我们的产品或服务期间持续授权我们使用。在您注销账号时，我们将停止使用并删除您的个人信息或对您的个人信息进行匿名化处理",
+      "登录通行证账户，在\"设置-账号设置\"中",
+      "通行证账户注销：通过\"我-设置-其他-更多用户设置-账户注销\"这样的流程完成账户注销，具体可根据操作界面上提示操作",
+      "如您想通过硬件设备进行修改、或在APP相关功能设置界面进行操作处理，更改相关权限的授权（例如：通知、存储、相机、麦克风、日历、位置），可以参照\"一.3实现业务功能可选择授权的场景\"描述的方式操作，也可以通过\"我的-设置-隐私管理-隐私权限管理\"进行设置"
+    ],
+    "navigation_paths": [
+      [
+        "我",
+        "设置",
+        "隐私设置"
+      ],
+      [
+        "我",
+        "设置",
+        "账号与安全"
+      ]
+    ],
+    "navigation_path_records": [
+      {
+        "source_hint": "当您同意本指引后，仍可以通过东方财富APP中\"我的-设置-隐私管理\"的路径或访问东方财富网在最底部隐私保护页面中再次浏览",
+        "original_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 1,
+        "matched_hint": "当您同意本指引后，仍可以通过东方财富APP中\"我的-设置-隐私管理\"的路径或访问东方财富网在最底部隐私保护页面中再次浏览",
+        "expanded_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ]
+      },
+      {
+        "source_hint": "当您同意本指引后，仍可以通过东方财富APP中\"我的-设置-隐私管理\"的路径或访问东方财富网在最底部隐私保护页面中再次浏览",
+        "original_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 2,
+        "matched_hint": "当您同意本指引后，仍可以通过东方财富APP中\"我的-设置-隐私管理\"的路径或访问东方财富网在最底部隐私保护页面中再次浏览",
+        "expanded_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ]
+      }
+    ],
+    "navigation_bridges": {
+      "不把我推荐给可能认识的人": [
+        "找到我的方式"
+      ],
+      "把我推荐给可能认识的人": [
+        "找到我的方式"
+      ],
+      "用户保护中心": [
+        "设置"
+      ]
+    },
+    "llm_nav_enabled": true,
+    "screenshots": [
+      "output\\stage3_lab42_before\\东方财富\\screenshots\\东方财富_20260612_062610_launch.png",
+      "output\\stage3_lab42_before\\东方财富\\screenshots\\东方财富_20260612_062652_path1.png",
+      "output\\stage3_lab42_before\\东方财富\\screenshots\\东方财富_20260612_062704_path2.png",
+      "output\\stage3_lab42_before\\东方财富\\screenshots\\东方财富_20260612_062728_path2.png",
+      "output\\stage3_lab42_before\\东方财富\\screenshots\\东方财富_20260612_062757_trigger_tabs.png"
+    ],
+    "keyword_checks": [
+      {
+        "path_index": 1,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": true,
+          "我的": true,
+          "个人": false,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": false,
+          "profile_page": false,
+          "profile_resource_marker": false,
+          "xml_drawer_open": false,
+          "xml_trigger_present": false
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": true,
+          "我的": true,
+          "个人": true,
+          "主页": true,
+          "用户": false,
+          "个人主页": true,
+          "用户主页": false,
+          "隐私": false,
+          "设置": false,
+          "profile_page": true,
+          "profile_resource_marker": true
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "设置",
+        "matched": true,
+        "checks": {
+          "设置": true,
+          "settings_page": false,
+          "帐号与安全": false,
+          "账号与安全": false,
+          "隐私": false,
+          "关于小荷": false,
+          "关于小荷健康": false,
+          "我的": false
+        }
+      }
+    ],
+    "error": ""
+  },
+  "frida_result": {
+    "runner": "frida",
+    "mode": "dry_run",
+    "launch_mode": "attach",
+    "package": "com.eastmoney.android.berlin",
+    "registered_hooks": {
+      "imei": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js"
+      ],
+      "android_id": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js"
+      ],
+      "location": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js"
+      ],
+      "ip_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "mac_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "phone_number": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js"
+      ],
+      "contact_list": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js"
+      ],
+      "clipboard": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js"
+      ],
+      "network_transmission": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js"
+      ]
+    },
+    "global_hooks": [
+      "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js"
+    ],
+    "papi_target_count": 28,
+    "events": [
+      {
+        "timestamp_utc": "2026-06-11T22:28:14.501238+00:00",
+        "pii_type": "imei",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js",
+        "api_name": "hook_imei",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:14.501253+00:00",
+        "pii_type": "android_id",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "api_name": "hook_android_id",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:14.501258+00:00",
+        "pii_type": "android_id",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js",
+        "api_name": "hook_oaid",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:14.501260+00:00",
+        "pii_type": "location",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js",
+        "api_name": "hook_location",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:14.501262+00:00",
+        "pii_type": "ip_address",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+        "api_name": "hook_mac_ip",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:14.501264+00:00",
+        "pii_type": "mac_address",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+        "api_name": "hook_mac_ip",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:14.501266+00:00",
+        "pii_type": "phone_number",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js",
+        "api_name": "hook_phone",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:14.501268+00:00",
+        "pii_type": "contact_list",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js",
+        "api_name": "hook_contacts",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:14.501270+00:00",
+        "pii_type": "clipboard",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js",
+        "api_name": "hook_clipboard",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:14.501272+00:00",
+        "pii_type": "network_transmission",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+        "api_name": "hook_network_okhttp",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:14.501274+00:00",
+        "pii_type": "network_transmission",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+        "api_name": "OkHttp.execute",
+        "args_summary": "dry_run_network",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:14.501276+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getImei",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:14.501278+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getMeid",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:14.501280+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getDeviceId",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:14.501283+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getDeviceSoftwareVersion",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:14.501284+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getSimSerialNumber",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:14.501285+00:00",
+        "pii_type": "android_id",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.provider.Settings$Secure.getString",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:14.501287+00:00",
+        "pii_type": "android_id",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.provider.Settings$System.getString",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:14.501288+00:00",
+        "pii_type": "location",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.location.LocationManager.getLastKnownLocation",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      }
+    ],
+    "error": "frida_disabled",
+    "skipped": true
+  },
+  "mitm_result": {
+    "adapter": "mitm_runner",
+    "started_at_utc": "2026-06-11T22:28:14.478769+00:00",
+    "duration_sec": 130.78,
+    "listen_port": 8080,
+    "flows_source": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\output\\stage3_lab42_before\\东方财富\\mitm_flows.json",
+    "flows": [
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.195839+00:00",
+        "host": "gbres.dfcfw.com",
+        "path": "/Files/iimage/20260611/C6F175D001B0BEB35F8F711839B6D835_w1256h2274.jpg",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.203485+00:00",
+        "host": "gbres.dfcfw.com",
+        "path": "/Files/iimage/20260611/597098BFA41269E9ACAB658979B3AD0C_w1256h2561.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.220694+00:00",
+        "host": "gbres.dfcfw.com",
+        "path": "/Files/iimage/20260611/54FEA959ED649EB83374C5612647787B_w1256h2567.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.252531+00:00",
+        "host": "emav-cos.lvb.eastmoney.com",
+        "path": "/roadshow_cover/channel/5317347/2801929C/v_w1080h1440.jpg",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.256730+00:00",
+        "host": "awebapi2-account.eastmoney.com",
+        "path": "/core/api/MPassport/AutoLoginMobileByCTokenV3",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"AppId\":\"202107280688\",\"UniqueId\":\"Ycc7fmJhNmE0YTYyY2E0ZTdlYTE2YmQxM2NjOWRjZmQ2NTh8fGllbWlfdGx1YWZlZF9tZQ=dea5=\",\"ProductType\":\"DFCFT\",\"Version\":\"11.1\",\"DeviceType\":\"Android12\",\"DomainName\":\"EastMoneyApp\",\"DeviceModel\":\"ALN-AL00\",\"DeviceAlias\":\"\",\"CToken\":\"UfEaY_5e1Yg_XEiQx8-6gRSArN7TrrS5ZYU1f8VX9wZnRLKgKMc6cqAq-qzOzTx-GjQcrT5wYxnPXRKoQXPQa1OPluOe2JB_59IwwaBvbasp7dnjfeaFQEilzVj0YrI0tYSunG9If38UX9ffeocLyjXIdoZDyUVsnAYH-5V0bhU\",\"UToken\":\"FobyicMgeV6YaFbEE_7w_y_gKWwJPW3pEWsBwEv3KUKCGSz1ngF-fSAoQ06FtdAng-GhCE4gmWQgPUTFvkJ8kc7vsU73-66nimKij0twIcgAcsZOTxeFwsRNd8d5scD-0MmIO0ifyIN3GWvYSeW3kqJ3N4nTBQsawLnxTCqCkM0biLmLCRNdhaDYpzRzdgZCyiBXYiMgqwLUPr5d2dCmKH5UEGjaULsOEt4ALovVmsQ0p1Qxt_l4tCDFaesPQlUTfBnIj_KLYo4c0o7rMJD8Y2-Ej4tMKHa4_CbShQRsTZEhpu3as_7GgIMKt53s2GINPTINfIF_h5SbwSuHvWceL5MzCXHoFfYm\",\"UID\":\"4913117782603738\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.413551+00:00",
+        "host": "myfavor-collect.eastmoney.com",
+        "path": "/my-favorite/groupcolor/ver",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.418619+00:00",
+        "host": "myfavor-cm.eastmoney.com",
+        "path": "/customize-common/univer/get?bids=kline",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.421646+00:00",
+        "host": "myfavor-cm.eastmoney.com",
+        "path": "/customize-common/api/ver",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.426301+00:00",
+        "host": "myfavor-collect.eastmoney.com",
+        "path": "/my-favorite/l2/getL2",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.434362+00:00",
+        "host": "empointcpf.eastmoney.com",
+        "path": "/TaskServiceForApp/GetGuideList",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.440451+00:00",
+        "host": "myfavor-header.eastmoney.com",
+        "path": "/customize-header/api/header/ver",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.445670+00:00",
+        "host": "gbapi.emhudong.cn",
+        "path": "/follow/api/Follow/GetFollowsBriefInfo?from=",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "ctoken=EmpjHDGXSVsg3svd-0EkcYqhbmlMP40mo2DJwiFkN0pfnh9AUweEywL_So_YcuLW-rx-swjDl4AgZSyS_vKf5Vc_ifrGb6dqTHUDpKunRwKVI-tlAZWyfUUCEI0gJziWw5JNvTPi4vH7uz8eVXzEN_RjljQ0JkCebYytJE-6858&product=StockWay&randomtext=wyJnDdSekvMBB7zM1QmC5Rhxk1H97OByp4urMHTf5HyRvhwcR2XorzpBAHYwQIpvQ5nd2-0yiWZTI6q6cuJnZDK-DY1AYWIQdqku3RrLO7x7AWNJo6cNkdEsz4NV3BNA32GhxVs28tuh02YRV7nlGVg8eGhRBm2UXMN70uAiO_cwrkTkSGU8dPDN2drlXEh_srud_C7HxNhnEZm6I0yqrhBxsOWM2f4Fg-Gezbqwyfi2Ah2Pd3kvS4QBvhhwblPMYhuarcfOU1XFAiiRgvmQYydYDh6iM-yL2CjbKseFpwQxoWIGMVcTn2SZtb1w5O2he_KFxVBIawuBl8krYXtZt-PJgklu0TgPbw38jeAYAGOr9X-YhXUAFLHiek0degJMEUT7ZfYyC5aFAXa9xTdAWD8aeBgdrfwX2pwU7RLTG3Bfy8dy7Vp8N24-B2Xb0IxjneR8UBNjsYN6Dtnu0rOx-6oKvWyRFVxGUBx8z6PU4z2AvwrP29z6q70kyGj-8QojXgukNtccAne6fPOOCZwnp0vfGFOIueXrJ0Xs8MqkxhHDNDTExrlc4q3wP2W0ZHOVdz65Af1gOn7CM2XBt5EUjjrxoxVzvT_LUYqvLngJdfT6dDVCRC5su1YPNydgs5MIpI2UZWKF-QVCPCkWeB3qmcupRZmmDYFWdsqtcxsASFhl9KN61smpYXr-HDDS3aJ9F6VqJsAPI606hNo61ils0xaJ2Pnd0R62yxQa6BEOCXN1by2snhAAunCZkUJDzxx5__IvjwErcDw&pi=4913117782603738002386759645936796448303977696436496d4b6b7a4e656479587833324954666a5554436d3053424d415076393063514334512b5a744a307876356173704a376b4861675a564351784278476a744248726c74456172747547787a39486a3376415130576364675a6e3469553d&utoken=FobyicMgeV6YaFbEE_7w_y_gKWwJPW3pEWsBwEv3KUKCGSz1ngF-fSAoQ06FtdAng-GhCE4gmWQgPUTFvkJ8kc7vsU73-66nimKij0twIcgAcsZOTxeFwsRNd8d5scD-0MmIO0ifyIN3GWvYSeW3kqJ3N4nTBQsawLnxTCqCkM0biLmLCRNdhaDYpzRzdgZCyiBXYiMgqwLUPr5d2dCmKH5UEGjaULsOEt4ALovVmsQ0p1Qxt_l4tCDFaesPQlUTfBnIj_KLYo46U8AEAxlg0sC9hOMFWN1pDc3StO9OUnvzW-c-g6LOmvLEdDgUfwl79WNSUIvoLl2DHSUV1LUn7R_rBDWhIWI9&bizflag=0&plat=Android&sort=1&deviceid=e477f60b43de4b23abcb4b46b555454e&version=11001000",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.447863+00:00",
+        "host": "gbapi.emhudong.cn",
+        "path": "/like/api/Like/UserLikeAction",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "ctoken=EmpjHDGXSVsg3svd-0EkcYqhbmlMP40mo2DJwiFkN0pfnh9AUweEywL_So_YcuLW-rx-swjDl4AgZSyS_vKf5Vc_ifrGb6dqTHUDpKunRwKVI-tlAZWyfUUCEI0gJziWw5JNvTPi4vH7uz8eVXzEN_RjljQ0JkCebYytJE-6858&uid=4913117782603738&product=StockWay&randomtext=wyJnDdSekvMBB7zM1QmC5Rhxk1H97OByp4urMHTf5HyRvhwcR2XorzpBAHYwQIpvQ5nd2-0yiWZTI6q6cuJnZDK-DY1AYWIQdqku3RrLO7x7AWNJo6cNkdEsz4NV3BNA32GhxVs28tuh02YRV7nlGVg8eGhRBm2UXMN70uAiO_cwrkTkSGU8dPDN2drlXEh_srud_C7HxNhnEZm6I0yqrhBxsOWM2f4Fg-Gezbqwyfi2Ah2Pd3kvS4QBvhhwblPMYhuarcfOU1XFAiiRgvmQYydYDh6iM-yL2CjbKseFpwQxoWIGMVcTn2SZtb1w5O2he_KFxVBIawuBl8krYXtZt-PJgklu0TgPbw38jeAYAGOr9X-YhXUAFLHiek0degJMEUT7ZfYyC5aFAXa9xTdAWD8aeBgdrfwX2pwU7RLTG3Bfy8dy7Vp8N24-B2Xb0IxjneR8UBNjsYN6Dtnu0rOx-6oKvWyRFVxGUBx8z6PU4z2AvwrP29z6q70kyGj-8QojXgukNtccAne6fPOOCZwnp0vfGFOIueXrJ0Xs8MqkxhHDNDTExrlc4q3wP2W0ZHOVdz65Af1gOn7CM2XBt5EUjjrxoxVzvT_LUYqvLngJdfT6dDVCRC5su1YPNydgs5MIpI2UZWKF-QVCPCkWeB3qmcupRZmmDYFWdsqtcxsASFhl9KN61smpYXr-HDDS3aJ9F6VqJsAPI606hNo61ils0xaJ2Pnd0R62yxQa6BEOCXN1by2snhAAunCZkUJDzxx5__IvjwErcDw&pi=4913117782603738002386759645936796448303977696436496d4b6b7a4e656479587833324954666a5554436d3053424d415076393063514334512b5a744a307876356173704a376b4861675a564351784278476a744248726c74456172747547787a39486a3376415130576364675a6e3469553d&utoken=FobyicMgeV6YaFbEE_7w_y_gKWwJPW3pEWsBwEv3KUKCGSz1ngF-fSAoQ06FtdAng-GhCE4gmWQgPUTFvkJ8kc7vsU73-66nimKij0twIcgAcsZOTxeFwsRNd8d5scD-0MmIO0ifyIN3GWvYSeW3kqJ3N4nTBQsawLnxTCqCkM0biLmLCRNdhaDYpzRzdgZCyiBXYiMgqwLUPr5d2dCmKH5UEGjaULsOEt4ALovVmsQ0p1Qxt_l4tCDFaesPQlUTfBnIj_KLYo46U8AEAxlg0sC9hOMFWN1pDc3StO9OUnvzW-c-g6LOmvLEdDgUfwl79WNSUIvoLl2DHSUV1LUn7R_rBDWhIWI9&plat=Android&deviceid=e477f60b43de4b23abcb4b46b555454e&version=11001000",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.455806+00:00",
+        "host": "gbapi.emhudong.cn",
+        "path": "/userinfo/api/UserBlackList/BlackUserAllUids",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "ctoken=EmpjHDGXSVsg3svd-0EkcYqhbmlMP40mo2DJwiFkN0pfnh9AUweEywL_So_YcuLW-rx-swjDl4AgZSyS_vKf5Vc_ifrGb6dqTHUDpKunRwKVI-tlAZWyfUUCEI0gJziWw5JNvTPi4vH7uz8eVXzEN_RjljQ0JkCebYytJE-6858&product=StockWay&rev=1&randomtext=wyJnDdSekvMBB7zM1QmC5Rhxk1H97OByp4urMHTf5HyRvhwcR2XorzpBAHYwQIpvQ5nd2-0yiWZTI6q6cuJnZDK-DY1AYWIQdqku3RrLO7x7AWNJo6cNkdEsz4NV3BNA32GhxVs28tuh02YRV7nlGVg8eGhRBm2UXMN70uAiO_cwrkTkSGU8dPDN2drlXEh_srud_C7HxNhnEZm6I0yqrhBxsOWM2f4Fg-Gezbqwyfi2Ah2Pd3kvS4QBvhhwblPMYhuarcfOU1XFAiiRgvmQYydYDh6iM-yL2CjbKseFpwQxoWIGMVcTn2SZtb1w5O2he_KFxVBIawuBl8krYXtZt-PJgklu0TgPbw38jeAYAGOr9X-YhXUAFLHiek0degJMEUT7ZfYyC5aFAXa9xTdAWD8aeBgdrfwX2pwU7RLTG3Bfy8dy7Vp8N24-B2Xb0IxjneR8UBNjsYN6Dtnu0rOx-6oKvWyRFVxGUBx8z6PU4z2AvwrP29z6q70kyGj-8QojXgukNtccAne6fPOOCZwnp0vfGFOIueXrJ0Xs8MqkxhHDNDTExrlc4q3wP2W0ZHOVdz65Af1gOn7CM2XBt5EUjjrxoxVzvT_LUYqvLngJdfT6dDVCRC5su1YPNydgs5MIpI2UZWKF-QVCPCkWeB3qmcupRZmmDYFWdsqtcxsASFhl9KN61smpYXr-HDDS3aJ9F6VqJsAPI606hNo61ils0xaJ2Pnd0R62yxQa6BEOCXN1by2snhAAunCZkUJDzxx5__IvjwErcDw&pi=4913117782603738002386759645936796448303977696436496d4b6b7a4e656479587833324954666a5554436d3053424d415076393063514334512b5a744a307876356173704a376b4861675a564351784278476a744248726c74456172747547787a39486a3376415130576364675a6e3469553d&utoken=FobyicMgeV6YaFbEE_7w_y_gKWwJPW3pEWsBwEv3KUKCGSz1ngF-fSAoQ06FtdAng-GhCE4gmWQgPUTFvkJ8kc7vsU73-66nimKij0twIcgAcsZOTxeFwsRNd8d5scD-0MmIO0ifyIN3GWvYSeW3kqJ3N4nTBQsawLnxTCqCkM0biLmLCRNdhaDYpzRzdgZCyiBXYiMgqwLUPr5d2dCmKH5UEGjaULsOEt4ALovVmsQ0p1Qxt_l4tCDFaesPQlUTfBnIj_KLYo46U8AEAxlg0sC9hOMFWN1pDc3StO9OUnvzW-c-g6LOmvLEdDgUfwl79WNSUIvoLl2DHSUV1LUn7R_rBDWhIWI9&plat=Android&deviceid=e477f60b43de4b23abcb4b46b555454e&version=11001000",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.460008+00:00",
+        "host": "gboperation.eastmoney.com",
+        "path": "/api/User/UserInfo/4913117782603738",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.464999+00:00",
+        "host": "roadshow.lvb.eastmoney.com",
+        "path": "/LVB//api/Permission/AV",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "ctoken=&product=EastMoney&emutoken=FobyicMgeV6YaFbEE_7w_y_gKWwJPW3pEWsBwEv3KUKCGSz1ngF-fSAoQ06FtdAng-GhCE4gmWQgPUTFvkJ8kc7vsU73-66nimKij0twIcgAcsZOTxeFwsRNd8d5scD-0MmIO0ifyIN3GWvYSeW3kqJ3N4nTBQsawLnxTCqCkM0biLmLCRNdhaDYpzRzdgZCyiBXYiMgqwLUPr5d2dCmKH5UEGjaULsOEt4ALovVmsQ0p1Qxt_l4tCDFaesPQlUTfBnIj_KLYo46U8AEAxlg0sC9hOMFWN1pDc3StO9OUnvzW-c-g6LOmvLEdDgUfwl79WNSUIvoLl2DHSUV1LUn7R_rBDWhIWI9&utoken=&dn=Ycc7fmJhNmE0YTYyY2E0ZTdlYTE2YmQxM2NjOWRjZmQ2NTh8fGllbWlfdGx1YWZlZF9tZQ%3Ddea5%3D&model=ALN-AL00&emctoken=EmpjHDGXSVsg3svd-0EkcYqhbmlMP40mo2DJwiFkN0pfnh9AUweEywL_So_YcuLW-rx-swjDl4AgZSyS_vKf5Vc_ifrGb6dqTHUDpKunRwKVI-tlAZWyfUUCEI0gJziWw5JNvTPi4vH7uz8eVXzEN_RjljQ0JkCebYytJE-6858&plat=Android&version=11.1&network=Wifi",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.488740+00:00",
+        "host": "myfavor.eastmoney.com",
+        "path": "/v4/mobile_fund/gs",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.500687+00:00",
+        "host": "myfavor.eastmoney.com",
+        "path": "/v4/mobile/gstate",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"login\":\"auto\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.541259+00:00",
+        "host": "myfavor.eastmoney.com",
+        "path": "/v4/mobile/gslot",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"gis\":\"1,11,16\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.634361+00:00",
+        "host": "l2qx2.eastmoney.com",
+        "path": "/mobileonline/login/MDhlNWZjZDE0MDk1YmIxZGFlMzgwZWQwYjIxMzk1NjdjZjVmYmEzZDA0MWQwOTQ4OTQwOGZjN2EzMGQ3NDgzOA==",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:04.772231+00:00",
+        "host": "premiumauthzp.eastmoney.com",
+        "path": "/businessAuthority/auth/checkModuleAuthByToken",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"moduleCodes\":\"StockOperationLifeline,MainMonitor,RNGDD,ZNCS,STZF,ZSYJX,SQJZ\",\"cToken\":\"EmpjHDGXSVsg3svd-0EkcYqhbmlMP40mo2DJwiFkN0pfnh9AUweEywL_So_YcuLW-rx-swjDl4AgZSyS_vKf5Vc_ifrGb6dqTHUDpKunRwKVI-tlAZWyfUUCEI0gJziWw5JNvTPi4vH7uz8eVXzEN_RjljQ0JkCebYytJE-6858\",\"uToken\":\"FobyicMgeV6YaFbEE_7w_y_gKWwJPW3pEWsBwEv3KUKCGSz1ngF-fSAoQ06FtdAng-GhCE4gmWQgPUTFvkJ8kc7vsU73-66nimKij0twIcgAcsZOTxeFwsRNd8d5scD-0MmIO0ifyIN3GWvYSeW3kqJ3N4nTBQsawLnxTCqCkM0biLmLCRNdhaDYpzRzdgZCyiBXYiMgqwLUPr5d2dCmKH5UEGjaULsOEt4ALovVmsQ0p1Qxt_l4tCDFaesPQlUTfBnIj_KLYo46U8AEAxlg0sC9hOMFWN1pDc3StO9OUnvzW-c-g6LOmvLEdDgUfwl79WNSUIvoLl2DHSUV1LUn7R_rBDWhIWI9\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:05.946836+00:00",
+        "host": "emdcadvertise.eastmoney.com",
+        "path": "/infoService/v2",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"appKey\":\"cfw\",\"args\":{\"customerId\":\"\",\"fundLogin\":false,\"hkFundLogin\":false,\"line\":5,\"pageId\":\"app_lanuchpop\",\"positions\":\"app_lanuchpop_ad\",\"switchMap\":{\"shilaohua\":\"0\"},\"uid\":\"4913117782603738\"},\"client\":\"android\",\"clientType\":\"cfw\",\"clientVersion\":\"11.1\",\"deviceId\":\"bba6a4a62ca4e7ea16bd13cc9dcfd658||iemi_tluafed_me\",\"method\":\"marketad\",\"randomCode\":\"bbf2a3bd-301e-4e81-a996-d0bb908d7aa2\",\"reserve\":\"\",\"timestamp\":1781216764645}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:06.857156+00:00",
+        "host": "bdrt.eastmoney.com",
+        "path": "/bd-blink-server/asyncbapi/rt_common",
+        "method": "POST",
+        "scheme": "http",
+        "request_body": "á^TN¹õÄ þ!0)cñ\u0001´cøóî.5¸Ô­j¾â\u000b©|på\u0017zõVFÕçc$'èE3\u001bâ\rÕ@öS@Ä)oüÐ¾¦« ,×q\u0005{v=ãÑ¯ºFaÓ'Øèè¹\u0017Uöºr\u0012ÙQX\u0016æöS.Àæ\u0015Ì>ë$±V\u0007G2xqz,Ð¥1rËL+#s;Ú\u0001a!Ýd×\u001a(\u0010ôÂ::iïÅÕðGh\u000f½R9¥`RlÙ4­\u0006&iÏ\u0001'@txmNÛ!ÇGÏÿS^vä8í5ÆÈ3§[{OÈoÌ\u0002ï§Å\u0002OÑ\u0013LwïG*BìÞAl\u0000F¾Õ\\æ\u000f¢ÜWò\u001bìû÷Io÷àvS\u0001\u0012\u0016CßÊÿ\u0003Ë:C¡ïíX©Ø\u001e¾;\u0013ó3\u0011¢{´JòÀê\\4äC\u0007âÄ¡ó1¨ÈUCÑ,áJOÌl¬Ç9\u000fé\\¦V1\"ñÊU¾Tàgð95@_tï c[6eÆÕE\u0004'\u0015¯+\u0012íQ}ñá½ÊÎ\u001aØ\u0003ûòÙ&ü]×Rûúë¸«Ê.P\u00168y 5Ìÿ{§\u001fá©ðUxÌúg2K\u001f¯ëËÆW¹µ ÓÈ^urìüÓp@.2ûÎ®4\fûuÎ9%Ö\tL\u000b@:j\\\u0019s%ÅÆ@cÅ\u0012ÿõæ\u001a6×\u0004Ï­¹È~çÖ)\u001eÏ#á±\u0010ÂK\n¿x0y¼\u0014!ZF|)Cï¬\u000eËK¦\r7ôb\u001e¤I\u0001Ë¶VÉØ\u001d\u0017ö\u0011ñ U^ ¢&d¢¸²|M\u0006QÞyÈàË&p¾kä\u0017ÎÎª\fk²c\f@\f¦´Úzá¢ÞßÀQIÔIã\u0001¢\u0018,hGûA¸å\rÔºÁa#m\u0003Á\u0014\u0012\u000f9Í\u0019+ØcÐÍä>O ;@£Jaç4Ko»Üüº\u0011_\u0018°ÊíhC°{¤t$¿\u000eéZ\u0016­I·JL÷Z\u0007p\tfàBÜú¨58©\u0014\u0011R§^W2lãyÞø·9ÆºÍì¨Kâú\u001eA«RÇ\u0015b!\rqU²u¹e\\nÊ¨=ÊÓ\u0017\tûxò±Ôâ\u0012UF}Jùy5Ò¦û\u0015ÅØ\u001býíbÔõ\u0007\u001däùt\u0000\u0019Î=4@6\u0002í¼ðCGû\bFÁNú¡¤s\u0001vDé«BX-ßHÚ1I\u0018Þ¢9F6{,:zÝ{3 hõòAgGÓ5uNÒXbMÙS*u§a@GçBo¤\u001f\u0011Æ;ÔEÝã\u0013Ðæöd?ö¹îê\u0015ØIªèÂ¥F£¢jiä¹â»ÞL´\\÷«\u000fÅ¢~Þ¤@ýG¦b¬ýé,YBÞª\u0011\u00051æ;\u0006¹ÈI°¿!¤Z=\u0015g\\g\u0018ìv6Zò5Z3ô¦ï3Kø§Ô²\tú¹®ô¥Bt[²W\nÉ7¸>\"yêU\u001anEæPû=C\u0018\u0005I¹²Q'öcWý,\t\rMZ0èbæê\f§ã&gÁý¹û6\ræ0Hëc Z¨'>Ä\fE·\u001fcMÊ~Ó÷ÑtV¸ÉkÞÑ\u0002×R#\u000e\u0012\u000f<æ0\u0018\u000fUZ;§£¨\fkJf\u001a\u0013$<±ûÊZ}Î£ÒÈ8\u0004R£\u001b.xYáð,\u0006¼¬h´\u001biµ®lëëeÌËA\u001b\u001cpe\u0004|Ð9\u0018K\u001a>/Tà\u00122\b7\u001e&\u001d-6\u0019O6Á\u001aÅ\u0000Í¤-©R½®½P\u0015e4ûR\u0000£ÑvÊ!w| ÖÊ\u0005`0Ë;éö\t9;\rI6ÿ±ûP`ø\u0015¶ùêC)ÉzÀ´B]iF\u001fl\u0007\f9µm\u0004Ö\u0017'>&ê/]þÊ6á@;\u000bT\u0010xÍú*©\u0007h×®\t°g\t°éÊ :OÐ7\"\u0014Õüsë×²\t¸2ú~\u0019ÏÖ´#·ÍTñPU6ô(è²÷ÄEà4²JædgñìÊ7D\r=\u0004D§\u0004²óùo·½\u001dºÙÖ0»Ë(Xv\u0005ê»\u0011Çº¯]Û=Óa\u000fújr.+o¿4-v¦¢ÑSqÁ\r\u0006Ùp*Ï«Åþ`ø\u0019Ïß¬Ñ\u0006wéÉ/æ^\u001a¯ÛTv¡\u0002ÞF%Ãâ <W\u0016Û\u0002UÒ|89\u001ak²²ª30\u001e7¹p\u000bÒÝÕc±/­×\u000b\u0019i\u0016Ç4\u0003×)-Ö÷²ä´*S\u001fGÉc\u0018v\u001fÅ»'üún%wT\u0002·Ì\u001da*ý_U79Ü¨åùF\u0006\u0003n«\u000e¦R5¦Áô¶#àþ$ý{b:Kª¥o\u0002JÖYï;Ð\b5\u000fM",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.655971+00:00",
+        "host": "emdcadvertise.eastmoney.com",
+        "path": "/infoService/v2",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"appKey\":\"cfw\",\"args\":{\"customerId\":\"\",\"fundLogin\":false,\"hkFundLogin\":false,\"line\":5,\"pageId\":\"jggqp_index\",\"positions\":\"jggqp_index_A00000123,jggqp_index_A000026,jggqp_index_ZTTZ,jggqp_index_A000017,jggqp_index_qqqz,jggqp_index_SJZX,jggqp_index_yqt,jggqp_index_ZLJC,jggqp_index_HSGT\",\"switchMap\":{\"shilaohua\":\"0\"},\"uid\":\"4913117782603738\"},\"client\":\"android\",\"clientType\":\"cfw\",\"clientVersion\":\"11.1\",\"deviceId\":\"bba6a4a62ca4e7ea16bd13cc9dcfd658||iemi_tluafed_me\",\"method\":\"bubblead\",\"randomCode\":\"93b8bdba-5f3b-487e-8b55-660523ab37a9\",\"reserve\":\"\",\"timestamp\":1781216798365}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.670156+00:00",
+        "host": "emdcadvertise.eastmoney.com",
+        "path": "/infoService/v2",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"appKey\":\"cfw\",\"args\":{\"customerId\":\"\",\"fundLogin\":false,\"hkFundLogin\":false,\"line\":5,\"pageId\":\"jggqp_index\",\"positions\":\"jggqp_index_A00000123,jggqp_index_A000026,jggqp_index_ZTTZ,jggqp_index_A000017,jggqp_index_qqqz,jggqp_index_SJZX,jggqp_index_yqt,jggqp_index_ZLJC,jggqp_index_HSGT\",\"switchMap\":{\"shilaohua\":\"0\"},\"uid\":\"4913117782603738\"},\"client\":\"android\",\"clientType\":\"cfw\",\"clientVersion\":\"11.1\",\"deviceId\":\"bba6a4a62ca4e7ea16bd13cc9dcfd658||iemi_tluafed_me\",\"method\":\"bubblead\",\"randomCode\":\"84ddecd4-2732-4f96-b47c-689077571ccd\",\"reserve\":\"\",\"timestamp\":1781216798367}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.676438+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/6435e13d-2d95-4b11-91e9-f1acde38483a.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.683647+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/8d5861b3-8300-404d-84f0-45477b390f2d.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.689397+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/3ed6d031-0747-4ed4-b801-4d99da423319.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.695003+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/a072c6b3-11a2-4f64-a44f-d5fb1036c472.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.699763+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/6609e4ba-2bdd-470f-816c-2597231224a9.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.704144+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/2d0f366d-5cf0-4442-8341-2943e11f610b.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.712947+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/8d450d74-db00-49fb-ab59-aefc8c474c3f.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.716147+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/b520416d-a0b2-406b-8e0d-3efa2db71612.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.727779+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/a80abab7-d21d-48f1-8e1f-fd94a486e1a7.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.731529+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/c3c4036d-8a35-4fcc-a27d-c70519a5781c.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.734675+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/86e3d80f-a69c-440c-8b82-390453d0d51e.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.753317+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/f072ce83-e8d0-4dbc-8cc8-77eaf4add62e.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.755634+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/bbeb104d-60bf-4258-acb7-3f80c0aa2c1b.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.767035+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/fe6f66cb-688e-4669-ac4b-05aef5d6643e.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.776016+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/dd7bc81d-7499-4329-aee0-b3f353e10cd1.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.783638+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/9ab6ebb2-939c-4b08-b59b-dd697f22c502.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.786547+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/0d4d8639-42b0-4547-9ab7-30269ca5db0d.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.790508+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/3a43d705-6dfa-42af-adcd-ad79cd1f11f1.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.797663+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/ae5c481c-d4c3-4e08-970a-bcaf336d436f.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.807848+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/f18b3581-9107-409c-8f39-18407c042e98.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.824538+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/7814a94e-37fe-4276-902e-3ade3624abfb.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.827339+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/c3aac417-c36f-4bfb-a421-4cbad7576da1.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.832792+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/da1a4c76-fab2-4b85-8583-69056d0de23d.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.850954+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/8c5d6b78-04d2-4359-bc3e-a6784170f54b.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.857591+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/eb7fe3b4-b66f-425d-8d3f-e3f9e0302d81.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.861833+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/11b517f1-65be-401a-b53e-e745393fb90e.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.866049+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/4e406fe0-c772-479f-a0fe-581109d5d21a.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.870877+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/a028cc95-7498-4e43-9003-dcdfceab2f4f.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.913915+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/20d63011-e697-4206-81d9-f371d53952c0.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.917440+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/144e9bc1-57e4-41ca-994c-692ece38081c.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.923373+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/0ed63b4f-9dd8-4bf5-a63d-772c3d998479.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:39.967911+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/32b3d005-d638-43c2-8fdd-b5155faaee94.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.033313+00:00",
+        "host": "myfavor-collect.eastmoney.com",
+        "path": "/my-favorite/l2/getL2",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.144771+00:00",
+        "host": "bdstatics.eastmoney.com",
+        "path": "/bd-vbps/official/bp_cfw_11.1_android.txt",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 404
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.245739+00:00",
+        "host": "httpdns5.eastmoney.com",
+        "path": "/conf/app/prod/cfw/11.1/android?sign=075c2a196824ce93dda20e9ab09f23d3&v=1778838449&d=Ycc7fmJhNmE0YTYyY2E0ZTdlYTE2YmQxM2NjOWRjZmQ2NTh8fGllbWlfdGx1YWZlZF9tZQ%3Ddea5%3D",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 304
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.293036+00:00",
+        "host": "bd-fireworks.eastmoney.com",
+        "path": "/bd-fireworks-server/passportuser/buriedpoint",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"deviceType\":\"android\",\"uid\":\"4913117782603738\",\"productAppKey\":\"cfw\",\"euid\":\"bba6a4a62ca4e7ea16bd13cc9dcfd658||iemi_tluafed_me\",\"version\":\"11.1\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.404651+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/emcfg/main.view.txt",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.438413+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/phone_android_cfw_11.1_main.txt",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.449462+00:00",
+        "host": "datacenter.eastmoney.com",
+        "path": "/securities/api/data/v1/get?filter=%28TYPE_CODE%20in%20%28%221%22%2C%222%22%29%29&reportName=RPT_IPO_UNLISTING&quoteColumns=&sortColumns=APPLY_DATE&columns=SECUCODE%2CSECURITY_INNER_CODE%2CSECURITY_CODE%2CSECURITY_NAME_ABBR%2CAPPLY_CODE%2CAPPLY_NAME_ABBR%2CAPPLY_DATE%2CISSUE_PRICE%2CLISTING_DATE%2CTRADE_MARKET_CODE&client=APP&sortTypes=-1&source=securities",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.453552+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/lowCode/group/android_cfw_11.1_mxpz.json",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.458130+00:00",
+        "host": "emisdatacentercdn.eastmoney.com",
+        "path": "/ipo/api/ipoCenter/getUnlistedInfo",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.501227+00:00",
+        "host": "swdlcdn.eastmoney.com",
+        "path": "/sj/android/V3/FileSum7.dat",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.506548+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/lowCode/group/android_cfw_11.1_gghqpz.json",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.510381+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/lowCode/gghq/superETF.json",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.523018+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/push/subCfg.txt",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.557154+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/app_waiPanRelated.view.md5.txt",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.570508+00:00",
+        "host": "appserverlistal.eastmoney.com",
+        "path": "/domain/zs/info",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"appType\":\"cfw\",\"appVersion\":\"11.1\",\"data\":{\"flag\":false,\"md5\":\"332f3d12f08d9235272bb392922593b9\"},\"deviceId\":\"YmJhNmE0YTYyY2E0ZTdlYTE2YmQxM2NjOWRjZmQ2NTh8fGllbWlfdGx1YWZlZF9tZQ\\u003d\\u003d\",\"deviceModel\":\"HUAWEI ALN-AL00\",\"osName\":\"android\",\"osVersion\":\"32\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.579220+00:00",
+        "host": "swdlcdn.eastmoney.com",
+        "path": "/sj/android/autofiles/FileSumAuto.dat",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.600774+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/lowCode/gghq/ggjjyy.json",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.616553+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/lowCode/gghq/mzsmbkyh.json",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.685976+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appfstdm.md5.txt",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.754732+00:00",
+        "host": "datacenter.eastmoney.com",
+        "path": "/securities/api/data/v1/get?reportName=RPT_FUND_YRELATED_A&columns=SECURITY_CODE,SECURITY_NAME_ABBR,RELATED_NAME,SECUCODE,RELATED_CODE&quoteColumns=&filter=&sortTypes=&sortColumns=",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.764572+00:00",
+        "host": "datacenter.eastmoney.com",
+        "path": "/securities/api/data/get?type=RPT_PUBLIC_TYPERELATED_SIX&sty=ALL&source=SECURITIES&client=Android&st=SECUCODE,TYPE,LISTING_DATE&sr=1,1,-1&tag=v2",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.773012+00:00",
+        "host": "gbfek.dfcfw.com",
+        "path": "/face_bundle/appmd5_android_8.3.txt",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.793707+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/lowCode/fjypz/newFund.json",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.811432+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/phone_fallground_7z.md5.txt",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.817126+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/face_bundle/faceconfig.md5.txt",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.847581+00:00",
+        "host": "gbfek.dfcfw.com",
+        "path": "/face_bundle/appjson_android_8.3.json",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.881527+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/hybrid_fallground_android_cfw_11.1.md5.txt",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:54.992639+00:00",
+        "host": "eminterservice.securities.eastmoney.com",
+        "path": "/api/User/Config?methods=RNUpgrade,SilentUpgrade,AdBlackList,ABTest,ConfigOperation&activeTime=1778260341800&channel=TencentApps18_64&operateTypes=index_icon_link&appVersionName=11.1&appVersionCode=11001000&deviceId=bba6a4a62ca4e7ea16bd13cc9dcfd658||iemi_tluafed_me&userId=4913117782603738&osVersion=12&appId=com.eastmoney.android.berlin&osType=android&appKey=cfw&deviceModel=ALN-AL00&deviceBrand=HUAWEI&deviceCpuAbi=x86_64",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:55.048315+00:00",
+        "host": "emcfgdata.securities.eastmoney.com",
+        "path": "/api/generalCfg/business/ywggdctt/all/icon,iconBlack,iconWhite,startTime,endTime?data=%7B%22args%22%3A%7B%22isValid%22%3Atrue%7D%2C%22clientType%22%3A%22cfw%22%2C%22reserve%22%3A%22%22%2C%22client%22%3A%22android%22%2C%22appKey%22%3A%22%22%2C%22clientVersion%22%3A%2211.1%22%2C%22randomCode%22%3A%22be0dca00-5260-4dad-baf0-2028dbfa42cb%22%2C%22timestamp%22%3A1781216813734%7D",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:55.055780+00:00",
+        "host": "codedictdata.eastmoney.com",
+        "path": "/api/maxallseq/get?Fl=-1&Sv=20211009&Ld=Mid:4438568|88404,Oid:4438594|90738,Bid:29826|14384,Uid:362754|7937",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:55.141089+00:00",
+        "host": "gbapi.emhudong.cn",
+        "path": "/userpostlist/api/Follow/UserPostIncCount",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "ctoken=EmpjHDGXSVsg3svd-0EkcYqhbmlMP40mo2DJwiFkN0pfnh9AUweEywL_So_YcuLW-rx-swjDl4AgZSyS_vKf5Vc_ifrGb6dqTHUDpKunRwKVI-tlAZWyfUUCEI0gJziWw5JNvTPi4vH7uz8eVXzEN_RjljQ0JkCebYytJE-6858&uid=4913117782603738&product=StockWay&randomtext=wyJnDdSekvMBB7zM1QmC5Rhxk1H97OByp4urMHTf5HyRvhwcR2XorzpBAHYwQIpvQ5nd2-0yiWZTI6q6cuJnZDK-DY1AYWIQdqku3RrLO7x7AWNJo6cNkdEsz4NV3BNA32GhxVs28tuh02YRV7nlGVg8eGhRBm2UXMN70uAiO_cwrkTkSGU8dPDN2drlXEh_srud_C7HxNhnEZm6I0yqrhBxsOWM2f4Fg-Gezbqwyfi2Ah2Pd3kvS4QBvhhwblPMYhuarcfOU1XFAiiRgvmQYydYDh6iM-yL2CjbKseFpwQxoWIGMVcTn2SZtb1w5O2he_KFxVBIawuBl8krYXtZt-PJgklu0TgPbw38jeAYAGOr9X-YhXUAFLHiek0degJMEUT7ZfYyC5aFAXa9xTdAWD8aeBgdrfwX2pwU7RLTG3Bfy8dy7Vp8N24-B2Xb0IxjneR8UBNjsYN6Dtnu0rOx-6oKvWyRFVxGUBx8z6PU4z2AvwrP29z6q70kyGj-8QojXgukNtccAne6fPOOCZwnp0vfGFOIueXrJ0Xs8MqkxhHDNDTExrlc4q3wP2W0ZHOVdz65Af1gOn7CM2XBt5EUjjrxoxVzvT_LUYqvLngJdfT6dDVCRC5su1YPNydgs5MIpI2UZWKF-QVCPCkWeB3qmcupRZmmDYFWdsqtcxsASFhl9KN61smpYXr-HDDS3aJ9prd1YL0rOLc6hNo61ils0xaJ2Pnd0R62yxQa6BEOCXN1by2snhAAunCZkUJDzxx5__IvjwErcDw&pi=4913117782603738002386759645936796448303977696436496d4b6b7a4e656479587833324954666a5554436d3053424d415076393063514334512b5a744a307876356173704a376b4861675a564351784278476a744248726c74456172747547787a39486a3376415130576364675a6e3469553d&utoken=FobyicMgeV6YaFbEE_7w_y_gKWwJPW3pEWsBwEv3KUKCGSz1ngF-fSAoQ06FtdAng-GhCE4gmWQgPUTFvkJ8kc7vsU73-66nimKij0twIcgAcsZOTxeFwsRNd8d5scD-0MmIO0ifyIN3GWvYSeW3kqJ3N4nTBQsawLnxTCqCkM0biLmLCRNdhaDYpzRzdgZCyiBXYiMgqwLUPr5d2dCmKH5UEGjaULsOEt4ALovVmsQ0p1Qxt_l4tCDFaesPQlUTfBnIj_KLYo46U8AEAxlg0sC9hOMFWN1pDc3StO9OUnvzW-c-g6LOmvLEdDgUfwl79WNSUIvoLl2DHSUV1LUn7R_rBDWhIWI9&plat=Android&deviceid=e477f60b43de4b23abcb4b46b555454e&version=11001000&lastUpdateTime=",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:55.164519+00:00",
+        "host": "gboperation.eastmoney.com",
+        "path": "/api/operation/HotTopicV2.json",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:55.170762+00:00",
+        "host": "avator.eastmoney.com",
+        "path": "//qface/4913117782603738/180?1781216763078",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:55.185488+00:00",
+        "host": "msgcnt.eastmoney.com",
+        "path": "/msgcenter/my/getallbadges?uid=4913117782603738&ver=11.1&ext=734a8a1651a8868092da0f5e884998c8",
+        "method": "GET",
+        "scheme": "http",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:55.260868+00:00",
+        "host": "imapi-pj.emhudong.cn",
+        "path": "/groupchannel/groupChatApi/MsgCenter/GetMsgCenterUnReadCount",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:55.397134+00:00",
+        "host": "emcfgdata.securities.eastmoney.com",
+        "path": "/exterApi/indexTab/getThemeNewsData",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:55.758053+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/lowCode/fjypz/feedback.json",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:55.763688+00:00",
+        "host": "eminterservice.securities.eastmoney.com",
+        "path": "/api/recommend/mxEntrance?uid=4913117782603738&clientType=cfw&euid=bba6a4a62ca4e7ea16bd13cc9dcfd658||iemi_tluafed_me&client=android&clientVersion=11.1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:55.784159+00:00",
+        "host": "appadvise.eastmoney.com",
+        "path": "/app/recommend",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"args\":{\"uid\":\"4913117782603738\",\"condition\":\"{\\\"tempEuid\\\":null,\\\"fixedInfoHash\\\":\\\"94028337\\\",\\\"preFixedTimestamp\\\":1781216763068,\\\"dynamicScore\\\":0}\",\"isReload\":true,\"euid\":\"bba6a4a62ca4e7ea16bd13cc9dcfd658||iemi_tluafed_me\",\"pageSize\":0,\"pageNum\":1},\"clientType\":\"cfw\",\"reserve\":\"\",\"client\":\"android\",\"appKey\":\"\",\"clientVersion\":\"11.1\",\"randomCode\":\"245c85e7-14c9-461e-b310-22ac530d5eb7\",\"timestamp\":1781216814448}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:55.791791+00:00",
+        "host": "avsvc.lvb.eastmoney.com",
+        "path": "/lvbcooperation/api/AV/BatchInfo?ctoken=&product=EastMoney&emutoken=FobyicMgeV6YaFbEE_7w_y_gKWwJPW3pEWsBwEv3KUKCGSz1ngF-fSAoQ06FtdAng-GhCE4gmWQgPUTFvkJ8kc7vsU73-66nimKij0twIcgAcsZOTxeFwsRNd8d5scD-0MmIO0ifyIN3GWvYSeW3kqJ3N4nTBQsawLnxTCqCkM0biLmLCRNdhaDYpzRzdgZCyiBXYiMgqwLUPr5d2dCmKH5UEGjaULsOEt4ALovVmsQ0p1Qxt_l4tCDFaesPQlUTfBnIj_KLYo46U8AEAxlg0sC9hOMFWN1pDc3StO9OUnvzW-c-g6LOmvLEdDgUfwl79WNSUIvoLl2DHSUV1LUn7R_rBDWhIWI9&utoken=&ids=5317347&dn=Ycc7fmJhNmE0YTYyY2E0ZTdlYTE2YmQxM2NjOWRjZmQ2NTh8fGllbWlfdGx1YWZlZF9tZQ%3Ddea5%3D&model=ALN-AL00&emctoken=EmpjHDGXSVsg3svd-0EkcYqhbmlMP40mo2DJwiFkN0pfnh9AUweEywL_So_YcuLW-rx-swjDl4AgZSyS_vKf5Vc_ifrGb6dqTHUDpKunRwKVI-tlAZWyfUUCEI0gJziWw5JNvTPi4vH7uz8eVXzEN_RjljQ0JkCebYytJE-6858&plat=Android&version=11.1&network=Wifi",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:56.130306+00:00",
+        "host": "awebapi2-account.eastmoney.com",
+        "path": "/core/api/MPassport/AutoLoginMobileByCTokenV3",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"AppId\":\"202107280688\",\"UniqueId\":\"Ycc7fmJhNmE0YTYyY2E0ZTdlYTE2YmQxM2NjOWRjZmQ2NTh8fGllbWlfdGx1YWZlZF9tZQ=dea5=\",\"ProductType\":\"DFCFT\",\"Version\":\"11.1\",\"DeviceType\":\"Android12\",\"DomainName\":\"EastMoneyApp\",\"DeviceModel\":\"ALN-AL00\",\"DeviceAlias\":\"\",\"CToken\":\"EmpjHDGXSVsg3svd-0EkcYqhbmlMP40mo2DJwiFkN0pfnh9AUweEywL_So_YcuLW-rx-swjDl4AgZSyS_vKf5Vc_ifrGb6dqTHUDpKunRwKVI-tlAZWyfUUCEI0gJziWw5JNvTPi4vH7uz8eVXzEN_RjljQ0JkCebYytJE-6858\",\"UToken\":\"FobyicMgeV6YaFbEE_7w_y_gKWwJPW3pEWsBwEv3KUKCGSz1ngF-fSAoQ06FtdAng-GhCE4gmWQgPUTFvkJ8kc7vsU73-66nimKij0twIcgAcsZOTxeFwsRNd8d5scD-0MmIO0ifyIN3GWvYSeW3kqJ3N4nTBQsawLnxTCqCkM0biLmLCRNdhaDYpzRzdgZCyiBXYiMgqwLUPr5d2dCmKH5UEGjaULsOEt4ALovVmsQ0p1Qxt_l4tCDFaesPQlUTfBnIj_KLYo46U8AEAxlg0sC9hOMFWN1pDc3StO9OUnvzW-c-g6LOmvLEdDgUfwl79WNSUIvoLl2DHSUV1LUn7R_rBDWhIWI9\",\"UID\":\"4913117782603738\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:56.259234+00:00",
+        "host": "empointcpf.eastmoney.com",
+        "path": "/TaskServiceForApp/GetGuideList",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:56.262433+00:00",
+        "host": "myfavor-collect.eastmoney.com",
+        "path": "/my-favorite/groupcolor/ver",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:56.275671+00:00",
+        "host": "myfavor-cm.eastmoney.com",
+        "path": "/customize-common/api/ver",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:56.278386+00:00",
+        "host": "myfavor-collect.eastmoney.com",
+        "path": "/my-favorite/l2/getL2",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:56.280944+00:00",
+        "host": "myfavor-header.eastmoney.com",
+        "path": "/customize-header/api/header/ver",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:56.283670+00:00",
+        "host": "myfavor-cm.eastmoney.com",
+        "path": "/customize-common/univer/get?bids=kline",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:56.296471+00:00",
+        "host": "gbapi-pj.emhudong.cn",
+        "path": "/follow/api/Follow/GetFollowsBriefInfo?from=",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "ctoken=l24XUjHRVKLLpu8bEe2I1dLCOSkldIZdo7ktjlGd7HLgozYWv_1Kgl_g3_OLbelLq6eqtAlOwR4nnI1JKwum_oifwSj7eIY5ca4ZkcwObrBKcG6eWzOzGh6wmuJhtZjwbKK7csjiP-JzsnWMalNagBy_xjee68ntewFaJByW0dY&product=StockWay&randomtext=zSss03DrS-U-LA_LTtKC17ne04w6FxZ69QuJ-EM_G0rayNry7FxqBErGZGGHBp_E850zRKj0WmtCAO0uoX9WIgcDaBrM9bUKqMMHeDSS4xkvMYDjvzLQ6JcVmadOip5oSrDgGL5dETIBFybwbqN7SpJ_AJz_Um8pbPrL8GuR9wuUbK8yRTjncH3vjloiic6Ddh3GzhNTJyObqjm79FnzkyVah7zIfggFNK_9OPpFwna2Ah2Pd3kvS4QBvhhwblPMYhuarcfOU1XFAiiRgvmQYydYDh6iM-yL2CjbKseFpwQxoWIGMVcTn2SZtb1w5O2he_KFxVBIawuBl8krYXtZt-PJgklu0TgPbw38jeAYAGOr9X-YhXUAFLHiek0degJMEUT7ZfYyC5aFAXa9xTdAWD8aeBgdrfwX2pwU7RLTG3Bfy8dy7Vp8N24-B2Xb0IxjneR8UBNjsYN6Dtnu0rOx-6oKvWyRFVxGUBx8z6PU4z2AvwrP29z6q70kyGj-8QojXgukNtccAne6fPOOCZwnp0vfGFOIueXrJ0Xs8MqkxhHDNDTExrlc4q3wP2W0ZHOVONzse9bD_W8PtcKgO-L8foYoE-AHfbUDgD7NeHZmxGtzQP5LhXYI9SW12tAa-rM2clu5l1EiaiG0yK4yZM5BMaJrRBPgCv5IoYOjk6fYGVJH3ew8T8rxP4XgDc22-C841e8AQoiGdxo6hNo61ils0xaJ2Pnd0R62yxQa6BEOCXN1by2snhAAunCZkUJDzxx5__IvjwErcDw&pi=49131177826037380023757515a646964476d524553704370726a52447962506d73457372475536354366306e7a507343584d6336644f465335777630736e6d5335585537615370623646447836486c714e6436737435384b412b52696472717636366e6862446c61566a32334642542b56582b593d&utoken=FobyicMgeV6YaFbEE_7w_y_gKWwJPW3pEWsBwEv3KUKCGSz1ngF-fSAoQ06FtdAng-GhCE4gmWQgPUTFvkJ8kc7vsU73-66nimKij0twIcgAcsZOTxeFwsRNd8d5scD-0MmIO0ifyIN3GWvYSeW3kqJ3N4nTBQsawLnxTCqCkM0biLmLCRNdhaDYpzRzdgZCyiBXYiMgqwLUPr5d2dCmKH5UEGjaULsOEt4ALovVmsQ0p1Qxt_l4tCDFaesPQlUTfBnIj_KLYo4h8nSUeDAhDKHbmbyxXponB6SVufkkPMLTmPGWQaaYF6rCaPQ8mMci0_FhEe-sRrVfSJOQk3wC5n4SWxhxwi4S&bizflag=0&plat=Android&sort=1&deviceid=e477f60b43de4b23abcb4b46b555454e&version=11001000",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:56.321288+00:00",
+        "host": "gbapi-pj.emhudong.cn",
+        "path": "/like/api/Like/UserLikeAction",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "ctoken=l24XUjHRVKLLpu8bEe2I1dLCOSkldIZdo7ktjlGd7HLgozYWv_1Kgl_g3_OLbelLq6eqtAlOwR4nnI1JKwum_oifwSj7eIY5ca4ZkcwObrBKcG6eWzOzGh6wmuJhtZjwbKK7csjiP-JzsnWMalNagBy_xjee68ntewFaJByW0dY&uid=4913117782603738&product=StockWay&randomtext=zSss03DrS-U-LA_LTtKC17ne04w6FxZ69QuJ-EM_G0rayNry7FxqBErGZGGHBp_E850zRKj0WmtCAO0uoX9WIgcDaBrM9bUKqMMHeDSS4xkvMYDjvzLQ6JcVmadOip5oSrDgGL5dETIBFybwbqN7SpJ_AJz_Um8pbPrL8GuR9wuUbK8yRTjncH3vjloiic6Ddh3GzhNTJyObqjm79FnzkyVah7zIfggFNK_9OPpFwna2Ah2Pd3kvS4QBvhhwblPMYhuarcfOU1XFAiiRgvmQYydYDh6iM-yL2CjbKseFpwQxoWIGMVcTn2SZtb1w5O2he_KFxVBIawuBl8krYXtZt-PJgklu0TgPbw38jeAYAGOr9X-YhXUAFLHiek0degJMEUT7ZfYyC5aFAXa9xTdAWD8aeBgdrfwX2pwU7RLTG3Bfy8dy7Vp8N24-B2Xb0IxjneR8UBNjsYN6Dtnu0rOx-6oKvWyRFVxGUBx8z6PU4z2AvwrP29z6q70kyGj-8QojXgukNtccAne6fPOOCZwnp0vfGFOIueXrJ0Xs8MqkxhHDNDTExrlc4q3wP2W0ZHOVONzse9bD_W8PtcKgO-L8foYoE-AHfbUDgD7NeHZmxGtzQP5LhXYI9SW12tAa-rM2clu5l1EiaiG0yK4yZM5BMaJrRBPgCv5IoYOjk6fYGVJH3ew8T8rxP4XgDc22-C841e8AQoiGdxo6hNo61ils0xaJ2Pnd0R62yxQa6BEOCXN1by2snhAAunCZkUJDzxx5__IvjwErcDw&pi=49131177826037380023757515a646964476d524553704370726a52447962506d73457372475536354366306e7a507343584d6336644f465335777630736e6d5335585537615370623646447836486c714e6436737435384b412b52696472717636366e6862446c61566a32334642542b56582b593d&utoken=FobyicMgeV6YaFbEE_7w_y_gKWwJPW3pEWsBwEv3KUKCGSz1ngF-fSAoQ06FtdAng-GhCE4gmWQgPUTFvkJ8kc7vsU73-66nimKij0twIcgAcsZOTxeFwsRNd8d5scD-0MmIO0ifyIN3GWvYSeW3kqJ3N4nTBQsawLnxTCqCkM0biLmLCRNdhaDYpzRzdgZCyiBXYiMgqwLUPr5d2dCmKH5UEGjaULsOEt4ALovVmsQ0p1Qxt_l4tCDFaesPQlUTfBnIj_KLYo4h8nSUeDAhDKHbmbyxXponB6SVufkkPMLTmPGWQaaYF6rCaPQ8mMci0_FhEe-sRrVfSJOQk3wC5n4SWxhxwi4S&plat=Android&deviceid=e477f60b43de4b23abcb4b46b555454e&version=11001000",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:56.325367+00:00",
+        "host": "gbapi-pj.emhudong.cn",
+        "path": "/userinfo/api/UserBlackList/BlackUserAllUids",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "ctoken=l24XUjHRVKLLpu8bEe2I1dLCOSkldIZdo7ktjlGd7HLgozYWv_1Kgl_g3_OLbelLq6eqtAlOwR4nnI1JKwum_oifwSj7eIY5ca4ZkcwObrBKcG6eWzOzGh6wmuJhtZjwbKK7csjiP-JzsnWMalNagBy_xjee68ntewFaJByW0dY&product=StockWay&rev=1&randomtext=zSss03DrS-U-LA_LTtKC17ne04w6FxZ69QuJ-EM_G0rayNry7FxqBErGZGGHBp_E850zRKj0WmtCAO0uoX9WIgcDaBrM9bUKqMMHeDSS4xkvMYDjvzLQ6JcVmadOip5oSrDgGL5dETIBFybwbqN7SpJ_AJz_Um8pbPrL8GuR9wuUbK8yRTjncH3vjloiic6Ddh3GzhNTJyObqjm79FnzkyVah7zIfggFNK_9OPpFwna2Ah2Pd3kvS4QBvhhwblPMYhuarcfOU1XFAiiRgvmQYydYDh6iM-yL2CjbKseFpwQxoWIGMVcTn2SZtb1w5O2he_KFxVBIawuBl8krYXtZt-PJgklu0TgPbw38jeAYAGOr9X-YhXUAFLHiek0degJMEUT7ZfYyC5aFAXa9xTdAWD8aeBgdrfwX2pwU7RLTG3Bfy8dy7Vp8N24-B2Xb0IxjneR8UBNjsYN6Dtnu0rOx-6oKvWyRFVxGUBx8z6PU4z2AvwrP29z6q70kyGj-8QojXgukNtccAne6fPOOCZwnp0vfGFOIueXrJ0Xs8MqkxhHDNDTExrlc4q3wP2W0ZHOVONzse9bD_W8PtcKgO-L8foYoE-AHfbUDgD7NeHZmxGtzQP5LhXYI9SW12tAa-rM2clu5l1EiaiG0yK4yZM5BMaJrRBPgCv5IoYOjk6fYGVJH3ew8T8rxP4XgDc22-C841e8AQoiGdxo6hNo61ils0xaJ2Pnd0R62yxQa6BEOCXN1by2snhAAunCZkUJDzxx5__IvjwErcDw&pi=49131177826037380023757515a646964476d524553704370726a52447962506d73457372475536354366306e7a507343584d6336644f465335777630736e6d5335585537615370623646447836486c714e6436737435384b412b52696472717636366e6862446c61566a32334642542b56582b593d&utoken=FobyicMgeV6YaFbEE_7w_y_gKWwJPW3pEWsBwEv3KUKCGSz1ngF-fSAoQ06FtdAng-GhCE4gmWQgPUTFvkJ8kc7vsU73-66nimKij0twIcgAcsZOTxeFwsRNd8d5scD-0MmIO0ifyIN3GWvYSeW3kqJ3N4nTBQsawLnxTCqCkM0biLmLCRNdhaDYpzRzdgZCyiBXYiMgqwLUPr5d2dCmKH5UEGjaULsOEt4ALovVmsQ0p1Qxt_l4tCDFaesPQlUTfBnIj_KLYo4h8nSUeDAhDKHbmbyxXponB6SVufkkPMLTmPGWQaaYF6rCaPQ8mMci0_FhEe-sRrVfSJOQk3wC5n4SWxhxwi4S&plat=Android&deviceid=e477f60b43de4b23abcb4b46b555454e&version=11001000",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:56.335119+00:00",
+        "host": "roadshow.lvb.eastmoney.com",
+        "path": "/LVB//api/Permission/AV",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "ctoken=&product=EastMoney&emutoken=FobyicMgeV6YaFbEE_7w_y_gKWwJPW3pEWsBwEv3KUKCGSz1ngF-fSAoQ06FtdAng-GhCE4gmWQgPUTFvkJ8kc7vsU73-66nimKij0twIcgAcsZOTxeFwsRNd8d5scD-0MmIO0ifyIN3GWvYSeW3kqJ3N4nTBQsawLnxTCqCkM0biLmLCRNdhaDYpzRzdgZCyiBXYiMgqwLUPr5d2dCmKH5UEGjaULsOEt4ALovVmsQ0p1Qxt_l4tCDFaesPQlUTfBnIj_KLYo4h8nSUeDAhDKHbmbyxXponB6SVufkkPMLTmPGWQaaYF6rCaPQ8mMci0_FhEe-sRrVfSJOQk3wC5n4SWxhxwi4S&utoken=&dn=Ycc7fmJhNmE0YTYyY2E0ZTdlYTE2YmQxM2NjOWRjZmQ2NTh8fGllbWlfdGx1YWZlZF9tZQ%3Ddea5%3D&model=ALN-AL00&emctoken=l24XUjHRVKLLpu8bEe2I1dLCOSkldIZdo7ktjlGd7HLgozYWv_1Kgl_g3_OLbelLq6eqtAlOwR4nnI1JKwum_oifwSj7eIY5ca4ZkcwObrBKcG6eWzOzGh6wmuJhtZjwbKK7csjiP-JzsnWMalNagBy_xjee68ntewFaJByW0dY&plat=Android&version=11.1&network=Wifi",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:56.342551+00:00",
+        "host": "gboperation.eastmoney.com",
+        "path": "/api/User/UserInfo/4913117782603738",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:56.348994+00:00",
+        "host": "myfavor1.eastmoney.com",
+        "path": "/v4/mobile_fund/gs",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:56.358282+00:00",
+        "host": "myfavor1.eastmoney.com",
+        "path": "/v4/mobile/gstate",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"login\":\"auto\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:56.387794+00:00",
+        "host": "myfavor1.eastmoney.com",
+        "path": "/v4/mobile/gslot",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"gis\":\"1,11,16\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:56.568092+00:00",
+        "host": "premiumauthwg.eastmoney.com",
+        "path": "/businessAuthority/auth/checkModuleAuthByToken",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"moduleCodes\":\"StockOperationLifeline,MainMonitor,RNGDD,ZNCS,STZF,ZSYJX,SQJZ\",\"cToken\":\"l24XUjHRVKLLpu8bEe2I1dLCOSkldIZdo7ktjlGd7HLgozYWv_1Kgl_g3_OLbelLq6eqtAlOwR4nnI1JKwum_oifwSj7eIY5ca4ZkcwObrBKcG6eWzOzGh6wmuJhtZjwbKK7csjiP-JzsnWMalNagBy_xjee68ntewFaJByW0dY\",\"uToken\":\"FobyicMgeV6YaFbEE_7w_y_gKWwJPW3pEWsBwEv3KUKCGSz1ngF-fSAoQ06FtdAng-GhCE4gmWQgPUTFvkJ8kc7vsU73-66nimKij0twIcgAcsZOTxeFwsRNd8d5scD-0MmIO0ifyIN3GWvYSeW3kqJ3N4nTBQsawLnxTCqCkM0biLmLCRNdhaDYpzRzdgZCyiBXYiMgqwLUPr5d2dCmKH5UEGjaULsOEt4ALovVmsQ0p1Qxt_l4tCDFaesPQlUTfBnIj_KLYo4h8nSUeDAhDKHbmbyxXponB6SVufkkPMLTmPGWQaaYF6rCaPQ8mMci0_FhEe-sRrVfSJOQk3wC5n4SWxhxwi4S\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:26:58.960013+00:00",
+        "host": "bdrt.eastmoney.com",
+        "path": "/bd-blink-server/asyncbapi/rt_common",
+        "method": "POST",
+        "scheme": "http",
+        "request_body": "QäðéÊ£pý1Íý}ç¥wSjO-á7Ð\u0014[Éð;_\r\u0014¥¼\u0002OÞd×c¹Ð\u0005Ý#~]Bà«4TõÅ²Áõ5\rÍé×­\u0011,'Þ´ÈÌÀj7\\Xv0äì\tÍµ.<ï$¤Áì½¯VèGðxY»Ò.S\u0010k{\u0016Ð´è:)¸añ6Q×®'·±Ñ¹\"Õ\u0006ÜG\u0001Ô-÷ëÓí\u001fôä¿Âjâ[Í¼NÀ\u0018À=\u0005 ¨5)¹kShI;·)}¸öälã¿\u0019ÜÈÝÆ)P\u0018\t\b©B:;¢a\u0015Äÿê(Ó0ìÑ&\t\u001c§­JáE ñÕÒ®ÎJë\u00040C-l;\"Õ?ðÔ®k«ÎÁÀ1ÆIçAJxhMûµµµò\u0010Ü`ìg±÷ðÍI#\u0018\u0004ÞY[üKê\u0014±NÙ«Nz$§JÈA|\u001d\tËrâ¾\u000f\bm\u0003üîq\u0005\u0001Bëvê½\u0019òb½PúyNÈz!ýÌg${\u0004Ö6B ß6:aÞ¸f°ÚT~\u0017W-Xê£³\u0007P/å\u001cf}Ø5ÀP*Îc#ÔN·OóìÏ\tÁoOT·@:ÅuîÃ\u0015L]ÔÁÚÿsÀè\bµ÷HÚ¤/R\u0019 Èn#ï\"ÌBvzyÛÝKti©ûXZeó]D\u001fAÏ\u000eòÛ¡½÷?|\u0012ÿ×\u0014#_¦Zsä\nc¤g\u001cïm\u000eøêV.Ïqò °¼\u0010B¼§³­\u000féÔ\u0015òáyI\u0006ì|üþ,S;y\u0018\u001dìE\u0001æ2]n<\u001fëêG\u001f\u0016wÆRYs£VJÍ\u0015\u0019\"\u0017[k\u0000÷¤\fôÈ\u0010QkýEs×.e´ZXÛÀ,´\u000bwj§PÉÓYøÄ&¨ Ø\u000eJr©\u0007¢\u001d\u0012>l\u001aÐ¶\u0000Ìâþÿ±zÌÄ>VýÂ\u0019K\r5\fhåè»1ÆY9? Dkû?{ÄÓþI½¼¼s\u0005Ø¬¨PJ(s\u0007G9F\u001aGÐ¬Q½æÀ3»(²³H&«DX äZY´ÈÜå¡\u0002\r`ïeÌOÝ×¤\u0002ðÄ\n;äZ?ê¬Ae\u0007Ù7ÑÙÌÝGärÛ¡ ½åLEÉ&ÝoTe[\u000e\rX%Zfq3G«\u0018}« |IøD¾&r(\u0010æ±\u0015­ó)ø³ü49ô\u00155dÃ5Ó=ØdY\u0006ìÃ,¶S\u001céT#ç\u001f¸/õ,\u0016®:3~P×)¶2\fkØw¿3G­\u0018.Ë/Éñán\u0006\u001fï\fö[5©k\u001eï hli«gú\t)\u0004O\u001d3\u0019{Í¶\u0017·ôâéèÀdy\u001c@(+û/?ÊÇá\u0000\u0006\u001fúÝXã{Çæb¼÷¿\u0000x«©¬Êw\u0007.s±Tùr\u000b\u0005\u000foñ$ªoWÀ>Ó6W_þg¡\u0013Üìä1h\u000eS\u001ct&ö¦in,©5=\u001bå.R\u0019J\u000fÖõºyC7nB\u001bþ¸S?u*%>ù»wµ}=?\u001cS\u001e¥5Àth\u0013¢\u001a\t÷_GV¼ý+WÞü:´Aþì®®\u0013*\u000e¸:'s¨ßÑv[ï¿\u000fÜüæ\u0012\u000fo?¸ªöd*\u0018¡\u001bIAæþ­ ahö¦X8® \u0002#ñ \u0017\u0013WHÛd0\u001eU^\u000fZ¼Â´Æ5þþ\u001fòÄ\u000fq®\u001cxÆ\n.-öôe[\u0000«!ø\u0002²\u0010áØ\u0006vóýì5Uÿ³ñ÷\u001a\u000b\bÔR8çÊÖ7¤,ü1\u001bº¹Uà\u000bÞ\u0019xKL\u000fMQÿõ\u001d»ÿ\u0012_\n£lb\fh[3\u0007=7»mRa?\u00181ãÏëa¸ ªví¿z/ÜË8·O-g6Ú\u0000ö2«6¦sæ>eò\u000bY\fyÌÝ¦Üe\"¬Lö@\u0001¾ï¹\u001aX\u0001PT´c\u0018Þí®||(Ðp6m\u0011\u0003Æ9\u0014Z;\u0003eaÁp\u0002oaJ\u0005ÒÖ\u0016_\"¥õUUa4ñæ&á\u0005¤ût©zìzq\u000f·Ì4)\"\\)÷Á\u001c¸\r40ÜÐ\u0000¶°°\"{^Ââ8÷éMH¯SyåÏÉ\u0010©\u000bÍTÿbÄUAb¹aÆ·Ú@S\r]-T4×13g\u0018³këuVl\u0004}:\u0016[¬5ù\u001d\b¨Ýì§C&HI,ÇÑ:\u0001\u0018è\u0017I\u0010ÙÂHä[XGmællãÚ}áu¦8ñÍ(ä¼BÛP\f\u001e½\u0014ÎÈ²l§Òia¥òC\\oì5Þªi:\u0011^\u000b\t.jù¶&·çÜ]ÇhNW\bÍO57æ-Ñ)Ìú8^c\u001aV£ÛÎ&TûÆ¸\u000bK o|ý¼çÿ3np¹\u001c\u0016»j¶¶\u0017ÊçBhË5¬ ¹Êª\u0019d-_\u0018l©tf8­¤D wáWê\u001b",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:03.003980+00:00",
+        "host": "avator.eastmoney.com",
+        "path": "//qface/4913117782603738/180?1781216814944",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:03.074964+00:00",
+        "host": "emdcadvertise.eastmoney.com",
+        "path": "/infoService/v2",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"appKey\":\"cfw\",\"args\":{\"customerId\":\"\",\"fundLogin\":false,\"hkFundLogin\":false,\"line\":5,\"pageId\":\"app_grzx\",\"positions\":\"\",\"switchMap\":{\"shilaohua\":\"0\"},\"uid\":\"4913117782603738\"},\"client\":\"android\",\"clientType\":\"cfw\",\"clientVersion\":\"11.1\",\"deviceId\":\"bba6a4a62ca4e7ea16bd13cc9dcfd658||iemi_tluafed_me\",\"method\":\"marketad\",\"randomCode\":\"a187dd8d-dad9-4f36-8169-c768cf866f06\",\"reserve\":\"\",\"timestamp\":1781216821778}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:03.082219+00:00",
+        "host": "empointcpf.eastmoney.com",
+        "path": "/QueryServiceV2/WillBeExpiredCount",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"WillBeExpiredHours\":72}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:03.086906+00:00",
+        "host": "emdcadvertise.eastmoney.com",
+        "path": "/infoService/v2",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"appKey\":\"cfw\",\"args\":{\"customerId\":\"\",\"fundLogin\":false,\"hkFundLogin\":false,\"switchMap\":{\"shilaohua\":\"0\"},\"uid\":\"4913117782603738\"},\"client\":\"android\",\"clientType\":\"cfw\",\"clientVersion\":\"11.1\",\"deviceId\":\"bba6a4a62ca4e7ea16bd13cc9dcfd658||iemi_tluafed_me\",\"method\":\"activitycenter\",\"randomCode\":\"4e1be4ee-72d8-4c4d-8a17-9e10c72a87c3\",\"reserve\":\"\",\"timestamp\":1781216821777}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:03.091941+00:00",
+        "host": "gbapi-pj.emhudong.cn",
+        "path": "/userinfo/api/user/UserInfo",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "ctoken=l24XUjHRVKLLpu8bEe2I1dLCOSkldIZdo7ktjlGd7HLgozYWv_1Kgl_g3_OLbelLq6eqtAlOwR4nnI1JKwum_oifwSj7eIY5ca4ZkcwObrBKcG6eWzOzGh6wmuJhtZjwbKK7csjiP-JzsnWMalNagBy_xjee68ntewFaJByW0dY&product=StockWay&randomtext=zSss03DrS-U-LA_LTtKC17ne04w6FxZ69QuJ-EM_G0rayNry7FxqBErGZGGHBp_E850zRKj0WmtCAO0uoX9WIgcDaBrM9bUKqMMHeDSS4xkvMYDjvzLQ6JcVmadOip5oSrDgGL5dETIBFybwbqN7SpJ_AJz_Um8pbPrL8GuR9wuUbK8yRTjncH3vjloiic6Ddh3GzhNTJyObqjm79FnzkyVah7zIfggFNK_9OPpFwna2Ah2Pd3kvS4QBvhhwblPMYhuarcfOU1XFAiiRgvmQYydYDh6iM-yL2CjbKseFpwQxoWIGMVcTn2SZtb1w5O2he_KFxVBIawuBl8krYXtZt-PJgklu0TgPbw38jeAYAGOr9X-YhXUAFLHiek0degJMEUT7ZfYyC5aFAXa9xTdAWD8aeBgdrfwX2pwU7RLTG3Bfy8dy7Vp8N24-B2Xb0IxjneR8UBNjsYN6Dtnu0rOx-6oKvWyRFVxGUBx8z6PU4z2AvwrP29z6q70kyGj-8QojXgukNtccAne6fPOOCZwnp0vfGFOIueXrJ0Xs8MqkxhHDNDTExrlc4q3wP2W0ZHOVONzse9bD_W8PtcKgO-L8foYoE-AHfbUDgD7NeHZmxGtzQP5LhXYI9SW12tAa-rM2clu5l1EiaiG0yK4yZM5BMaJrRBPgCv5IoYOjk6fYGVJH3ew8T8rxP4XgDc22-C84Sxwuq16BEdg6hNo61ils0xaJ2Pnd0R62yxQa6BEOCXN1by2snhAAunCZkUJDzxx5__IvjwErcDw&followuid=4913117782603738&medal=1&pi=49131177826037380023757515a646964476d524553704370726a52447962506d73457372475536354366306e7a507343584d6336644f465335777630736e6d5335585537615370623646447836486c714e6436737435384b412b52696472717636366e6862446c61566a32334642542b56582b593d&utoken=FobyicMgeV6YaFbEE_7w_y_gKWwJPW3pEWsBwEv3KUKCGSz1ngF-fSAoQ06FtdAng-GhCE4gmWQgPUTFvkJ8kc7vsU73-66nimKij0twIcgAcsZOTxeFwsRNd8d5scD-0MmIO0ifyIN3GWvYSeW3kqJ3N4nTBQsawLnxTCqCkM0biLmLCRNdhaDYpzRzdgZCyiBXYiMgqwLUPr5d2dCmKH5UEGjaULsOEt4ALovVmsQ0p1Qxt_l4tCDFaesPQlUTfBnIj_KLYo4h8nSUeDAhDKHbmbyxXponB6SVufkkPMLTmPGWQaaYF6rCaPQ8mMci0_FhEe-sRrVfSJOQk3wC5n4SWxhxwi4S&plat=Android&deviceid=e477f60b43de4b23abcb4b46b555454e&version=11001000&isreflesh=false",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:03.095191+00:00",
+        "host": "gbapi-pj.emhudong.cn",
+        "path": "/userinfo/api/user/UserInfo",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "ctoken=l24XUjHRVKLLpu8bEe2I1dLCOSkldIZdo7ktjlGd7HLgozYWv_1Kgl_g3_OLbelLq6eqtAlOwR4nnI1JKwum_oifwSj7eIY5ca4ZkcwObrBKcG6eWzOzGh6wmuJhtZjwbKK7csjiP-JzsnWMalNagBy_xjee68ntewFaJByW0dY&product=StockWay&randomtext=zSss03DrS-U-LA_LTtKC17ne04w6FxZ69QuJ-EM_G0rayNry7FxqBErGZGGHBp_E850zRKj0WmtCAO0uoX9WIgcDaBrM9bUKqMMHeDSS4xkvMYDjvzLQ6JcVmadOip5oSrDgGL5dETIBFybwbqN7SpJ_AJz_Um8pbPrL8GuR9wuUbK8yRTjncH3vjloiic6Ddh3GzhNTJyObqjm79FnzkyVah7zIfggFNK_9OPpFwna2Ah2Pd3kvS4QBvhhwblPMYhuarcfOU1XFAiiRgvmQYydYDh6iM-yL2CjbKseFpwQxoWIGMVcTn2SZtb1w5O2he_KFxVBIawuBl8krYXtZt-PJgklu0TgPbw38jeAYAGOr9X-YhXUAFLHiek0degJMEUT7ZfYyC5aFAXa9xTdAWD8aeBgdrfwX2pwU7RLTG3Bfy8dy7Vp8N24-B2Xb0IxjneR8UBNjsYN6Dtnu0rOx-6oKvWyRFVxGUBx8z6PU4z2AvwrP29z6q70kyGj-8QojXgukNtccAne6fPOOCZwnp0vfGFOIueXrJ0Xs8MqkxhHDNDTExrlc4q3wP2W0ZHOVONzse9bD_W8PtcKgO-L8foYoE-AHfbUDgD7NeHZmxGtzQP5LhXYI9SW12tAa-rM2clu5l1EiaiG0yK4yZM5BMaJrRBPgCv5IoYOjk6fYGVJH3ew8T8rxP4XgDc22-C84Sxwuq16BEdg6hNo61ils0xaJ2Pnd0R62yxQa6BEOCXN1by2snhAAunCZkUJDzxx5__IvjwErcDw&followuid=4913117782603738&medal=1&pi=49131177826037380023757515a646964476d524553704370726a52447962506d73457372475536354366306e7a507343584d6336644f465335777630736e6d5335585537615370623646447836486c714e6436737435384b412b52696472717636366e6862446c61566a32334642542b56582b593d&utoken=FobyicMgeV6YaFbEE_7w_y_gKWwJPW3pEWsBwEv3KUKCGSz1ngF-fSAoQ06FtdAng-GhCE4gmWQgPUTFvkJ8kc7vsU73-66nimKij0twIcgAcsZOTxeFwsRNd8d5scD-0MmIO0ifyIN3GWvYSeW3kqJ3N4nTBQsawLnxTCqCkM0biLmLCRNdhaDYpzRzdgZCyiBXYiMgqwLUPr5d2dCmKH5UEGjaULsOEt4ALovVmsQ0p1Qxt_l4tCDFaesPQlUTfBnIj_KLYo4h8nSUeDAhDKHbmbyxXponB6SVufkkPMLTmPGWQaaYF6rCaPQ8mMci0_FhEe-sRrVfSJOQk3wC5n4SWxhxwi4S&plat=Android&deviceid=e477f60b43de4b23abcb4b46b555454e&version=11001000&isreflesh=false",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:03.114111+00:00",
+        "host": "msgcnt.eastmoney.com",
+        "path": "/msgcenter/my/getallbadges?uid=4913117782603738&ver=11.1&ext=734a8a1651a8868092da0f5e884998c8",
+        "method": "GET",
+        "scheme": "http",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:03.175961+00:00",
+        "host": "imapi-pj.emhudong.cn",
+        "path": "/groupchannel/groupChatApi/MsgCenter/GetMsgCenterUnReadCount",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:29.547574+00:00",
+        "host": "msgcnt.eastmoney.com",
+        "path": "/msgcenter/my/getallbadges?uid=4913117782603738&ver=11.1&ext=734a8a1651a8868092da0f5e884998c8",
+        "method": "GET",
+        "scheme": "http",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:29.643170+00:00",
+        "host": "imapi-hsy.emhudong.cn",
+        "path": "/groupchannel/groupChatApi/MsgCenter/GetMsgCenterUnReadCount",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:30.431695+00:00",
+        "host": "msgcnt.eastmoney.com",
+        "path": "/msgcenter/my/getallbadges?uid=4913117782603738&ver=11.1&ext=734a8a1651a8868092da0f5e884998c8",
+        "method": "GET",
+        "scheme": "http",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:30.450109+00:00",
+        "host": "emcfgdata.securities.eastmoney.com",
+        "path": "/exterApi/indexTab/getThemeNewsData",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:30.460663+00:00",
+        "host": "imapi-hsy.emhudong.cn",
+        "path": "/groupchannel/groupChatApi/MsgCenter/GetMsgCenterUnReadCount",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:33.433609+00:00",
+        "host": "emcfgdata.securities.eastmoney.com",
+        "path": "/exterApi/indexTab/getThemeNewsData",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:33.711880+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/lowCode/fjypz/feedback.json",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:33.838894+00:00",
+        "host": "appadvise.eastmoney.com",
+        "path": "/app/recommend",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"args\":{\"uid\":\"4913117782603738\",\"condition\":\"{\\\"tempEuid\\\":null,\\\"fixedInfoHash\\\":\\\"-1221249173\\\",\\\"preFixedTimestamp\\\":1781216815269,\\\"dynamicScore\\\":0}\",\"isReload\":true,\"euid\":\"bba6a4a62ca4e7ea16bd13cc9dcfd658||iemi_tluafed_me\",\"notExpos\":\"CF20260611173355196940420,NW202606123768733258,CF20260611225952342712510,CF20260611181526762774730,NW202606113768677310,NW202606113768672623,CF20260611230012359376050,CF20260611185131303685220,CF20260612020452605740990\",\"pageSize\":10,\"pageNum\":1},\"clientType\":\"cfw\",\"reserve\":\"\",\"client\":\"android\",\"appKey\":\"\",\"clientVersion\":\"11.1\",\"randomCode\":\"317b7d4d-9815-4344-9bef-83f365f5bcdb\",\"timestamp\":1781216852421}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:33.936738+00:00",
+        "host": "avator.eastmoney.com",
+        "path": "//qface/2968305922098286/180",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:33.965757+00:00",
+        "host": "gbres.dfcfw.com",
+        "path": "/Files/iimage/20260611/5672C9399E6C4387189A7D7ABD4CECBD_w150h150.jpg",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:34.302959+00:00",
+        "host": "avator.eastmoney.com",
+        "path": "//qface/7618355750062966/180",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:34.325454+00:00",
+        "host": "gbres.dfcfw.com",
+        "path": "/Files/iimage/20260611/D4AC9142827C1CAFD5EB5CAFEDC74A5A_w1200h675.jpg",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:34.330955+00:00",
+        "host": "gbres.dfcfw.com",
+        "path": "/Files/iimage/20260611/8A992298BEC4AD0EA98D799063D5DA4E_w1000h667.jpg",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:35.799533+00:00",
+        "host": "emcfgdata.securities.eastmoney.com",
+        "path": "/exterApi/indexTab/getThemeNewsData",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:36.005229+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/lowCode/fjypz/feedback.json",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:36.129630+00:00",
+        "host": "appadvise.eastmoney.com",
+        "path": "/app/recommend",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"args\":{\"uid\":\"4913117782603738\",\"condition\":\"{\\\"tempEuid\\\":null,\\\"fixedInfoHash\\\":\\\"429370239\\\",\\\"preFixedTimestamp\\\":1781216853198,\\\"dynamicScore\\\":0}\",\"isReload\":true,\"euid\":\"bba6a4a62ca4e7ea16bd13cc9dcfd658||iemi_tluafed_me\",\"notExpos\":\"CF20260611224243061810950,CF20260611225952342712510,NW202606123768733258,CF20260612020452605740990,CF20260611230012359376050,CF20260611185131303685220,NW202606113768672623,NW202606113768677310,CF20260611225748363079700,CF20260611171351714168780\",\"pageSize\":10,\"pageNum\":1},\"clientType\":\"cfw\",\"reserve\":\"\",\"client\":\"android\",\"appKey\":\"\",\"clientVersion\":\"11.1\",\"randomCode\":\"99456785-f217-4245-bf9d-330be3c4780c\",\"timestamp\":1781216854770}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:36.943064+00:00",
+        "host": "bdrt.eastmoney.com",
+        "path": "/bd-blink-server/asyncbapi/rt_common",
+        "method": "POST",
+        "scheme": "http",
+        "request_body": "¶Òó\u0017ÿ7ïBÇSÚh\u0019sÔXôØ\u000bÞ©WÅû`¦ÉÉQ]\u000f:¥Ì@»³Ä)ø\u0006ñæaê>ÝqðU\u0005®\u0019ºXÓMè\u0000a\u0004à<û\u001d¤!Ài1ÄÚ«7¬§DÈXÀKþT.àÏ\u0018\"ù\"\rEõ¾£¹a@ð?«Ê\u0014V\u0017Do:Hÿn\u0007\u0003Räªå\u0012wkjIÝ\u0010Ê`\u0005\u001en\fðz\"}J·\u0004FÃ\u0003a0®È×pã/S×Û¯I0Gm{ë+Æ3¦¶c¸U4×tDB±dýóÆ'¯úó\u0006Kî¡wÑhµ\u000bµ~U;d ùí\u0014m\u0019M¤(ÚåõÚ\u0010{çÚÛÏæZs|xýóoì¸L\\t{¯I\u0000{0ÍÊA[\u001cÄ%Ñ\fÞSi«©¢ªgè7¦\u001a3¨¸Rè¶ð:¤ìËÜ(£WBJ*q¥x­ÒÇ\u000eª\u0014\u001a\u0017NÆô\u0011â\u0001>´\u0010\u0017$¨¤gÿèsÜÝz\u0010,sº_Zo¤\u0006ÅÁÐd°ÆÕ\u0011¦\u0005\u0010¾Ý= ØJ\u0015ËkH îï!î\\Ï¯\u0005ÆeÑ^\u0011\u001aïùüõ¿øá?wç-ü\u0004óîô\u000f:kï\"Xl\u0016þ\u0003©ü2l¢öV{Ç*Ê2\tE! \n£îH<×!~9$9¤¥o.\u001c!4%Z]ï~!þB\u0010}\u001dØMDô3ÏÃß£Qß7ë)#\"'¨jµ2\u0016\u00038Ä§Õ\\Vü\u0014xÍ\u0011dh_\u0000îÞK\u001e®{èÏRûRÍ\u001b\u0005¦£\u0012%?ÉÖBÙ¿¢þ]É\u0019Ä(=Û@_ÿ\u0012#à4.\\Mó\u0005}\u0005ÊÈ\u0007¶,ÌèéxË7âý(ùð6\u001c='»F\u0004\u001dD\u0019eÝvÕþl¬<¿\u00014r\u0004#¥¡n\u0014yI¹}6RCÐBo¥²â]Vd\u0011ö\f·N´v\tI\\H*¤­ñ¥Û\u0012\u001dÚßÃWÒmOqµ\u001e¿§nî\u0019ärzmT¯£ÆX />:SKÍÜ·\fìªâb\u0003ûÈü:÷ág+\u0018Mï^IÀGª@è,\u0000Î}Ëv\u000b±Þ¹«®ªÐßÄKb<æ<n\t#&ÆS2ÞZÆ:À\u0007»J(èå|\u001cÒmâ\\\fñwU\u0010Rþ)\u0004[]<\u000b?ø³1ê,íîrrÒ]ô\u0015Z\u0007fe&·F\u00074bøK¢wí_R\u001cM/w±Ñ¯aOÖº\u0013ÛÚ¥\u0005\tQÈO.ß­\u001aâ.uÓø63«\u0004æ¯ç\t­\tÙ³[¹e8iXìVÖbwr>yÛÉ\u0000t(ÉÀH5LÁ½#üF\u0000úÛ\u000b°I3CÅ²æVÂ\u0003âå9æ\u0007Çy\u0007\u0019ñ\u001c\u0003kài\u001e\u0001»?\u0003±ÅëA\u0001i)Ær¼I¯]Àu\nu\u0000n\u000f­KOL\\,@Ë\u0017EçVwd\u0000O.\u0012¾_NµãÒD\u000fAü¼Ò¤=KéVÀê óåVÔpø­ßOl pf\\µz ­~\u0006CA¤ä©qC«'Ù÷!~Ýæâ4\rbBs çX\u001bR\u0001>V×mÅÈVtÌ½*Â\u000e0\u0001Äz'(¥\u0014\u001dq[¤ÕßÏN×é%ÌÅö*d\u001dy¨ÜC\u000f\u0013âmiô\u000e\u0010´y \u0016°³(\"^Õ\u0017°ãùÅO7+±¸äõs\u0011rÃý\u001aþ|N\u000bEòð:Þ}~@\u000b\u001cÆËÇýðh3Ü«Ù\u0015Ë\u000e\u001f\u0013!r¶ëÔÆïË\u001bzÜ\r¬½|E¡·\u0002ãÊì\u0004ÞSÞ\u0015l×î\u001añÂ¼\u0014ïå.2?]¬H\u0002R}?_ÍþrÚ¼Çø¸Ñ\u0014qé\u0010\u0006\u0000`ØO\u0006ý±ÿ\u0018ÞûÈc\u001aE¯¥ñÖ\u0014\tÁóÎ\u0005ä°¥ñ{ï&Ôkp¨#^\"\u001dL±´ÚÕðó2cW\u001f\u001a\u0017§Ð#=\r\u0002º®®äþ=wØ\u001a:µv}è_'Y£LÛi&É\u001cÿ(ó.\u0019\u0000²ß(\u0005+>«Aw ¬\u001fôÃQº\u0014\u001bT<1\u001dºDñä,ÌFhLQðþ/-)9«øÔ?ô#\u0004vÑf\u001eÕ\u001bÍNÆøûâ0¥à}M\t¯çI²ì\u0011¾÷Óæü½\u0010×Ç\u0005&+Ú\u0012Fðø0\u001fiÑ\u0013$ êcÔ9Z:\t*øx_\u0002p9¦°à®K%)×9§È^àcãW\u001a×<muYÂBîå\u0007uîÈ«#\u0019ÒC `}²°»ö¨ÁL\u00152w!þÿ¾aª\u0010Ï·òÿ_\u0003j\u0013\u000fN©Å¿í\r\\Ñù\u001cÔ¿\t(~áçËgNÎj³ßu×íb{j §ÄÞñSw)ðÜ_ê\u000fý\u0010ðÈ}wá÷'[sMâ×\u0019ùçÅâp¶ß­.GLÌÃ­Ñk(a?r;×*±k\u001b1ºý96äÝ\nÄ¼UÚ¸UJô\u0000Áiào|\u0016p\u0016æ»áw\u000f\u0001\u0007wf}\u0019âÉ¾yÙÝ¡¥¯Ò¯c\r\u0004Z¼#uªêyN¢6ýëñ ÍÇVòÖo8\u001cd=ºç5öÇöPo\u0007Ã\u000e\u001cD",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:54.726579+00:00",
+        "host": "swdlcdn.eastmoney.com",
+        "path": "/sj/android/V3/FileSum7.dat",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:54.744724+00:00",
+        "host": "swdlcdn.eastmoney.com",
+        "path": "/sj/android/autofiles/FileSumAuto.dat",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:55.353966+00:00",
+        "host": "codedictdata.eastmoney.com",
+        "path": "/api/maxallseq/get?Fl=-1&Sv=20211009&Ld=Mid:4438568|88404,Oid:4438594|90738,Bid:29826|14384,Uid:362754|7937",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:59.483652+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/6a9b0acf-9377-4d22-9c7d-707d95a3d6de.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:59.487285+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/28ce9545-8e8a-41da-aaee-7a65bfb0e5b2.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:27:59.491637+00:00",
+        "host": "mobappconfig.securities.eastmoney.com",
+        "path": "/appimg/43fbc263-fa1a-41c9-b60a-ea23f111aa84.png",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T22:28:01.679775+00:00",
+        "host": "bdrt.eastmoney.com",
+        "path": "/bd-blink-server/asyncbapi/rt_common",
+        "method": "POST",
+        "scheme": "http",
+        "request_body": "*Ø\u0004\u0015òg©&[\u001e³ófzÃ¹]­Æ]~lQÔ\u0006bBÁsÇ´\u0003'6í¤i³&z*G<\u0014F\f×èí:nË('g¬°VâxAO^0óh]ÄGVe\r~´v ­V`~<³\u0014®+mùs×Åå#ýò-Ã³Ð\u00137£å×ÑÆÊ\u0007gg4AÆØ\u0004ðØ\u000e\u0004WÊF/s×µMx°±\"þ¤$å\u0007P×&XõÓïM\tS\u0007Ì\t¨ÏZ)íªMó{ØàJ Ájk ó\r^v@ÍpLÁã\u0016>JZr÷Þ«hëX\u0012øå=Q ! \u0013H³ À&u8À\u0018\u0018¼0ýBS\u001e?\u0005ø;\u0010wa\\¬%%\u00069H>AÑ\u0019¯¤^ô\u001f\u0005\u00045Ðpå\u0004»\u000feZ~gL\u001458A+¸ó\tì)hæÀ\u0010ñ»zzÌgæ9\u000b±8¹'n(1÷ÚD\u0012ÍØÿ#ó/Ñ«Úl¦âwfW\u0000y¿¬Ò7î\u000e\u0002»ÖÖâ\u0017G\u001b¨ü7s\u0005q'Á¤þªR¢ñWèûnQX¬¦~ßðRÓ[¼¿Ì\u0011\u001e¢w-¼\u001dÙÌ:>ÇN\u00077{c}w¯_ÝÜrÚ¿\u0002ñÔ~6\u0004M\u001e{jÖ\u0010Gç\u0000|:\u0015Z´ß\fT)\u0002 îV¦\u0003¨¼¶ð7Úú]\fKôåe9ÙÒVS\t6\u001b,\nKèí47\u0017C\u0018Üv}éø)úD(0µ\u001dª\u0019'ÛR}\u000b),,\f ÿfv\u001aÀnþbÃ1$cEnWþ¢añWXùÏ£cDÚÿÀ0v\u0014\t#\u00050\u0001{é\"¼³eUsëÙ\u001c¹15\u0017|D\u001f§æÌy$¡fÏDTX´\u001aÒ²|Ýý­_·òuî}.ÛÃf\b¦ÃfþàdÃà\u0002 zÞ\u0015§/µ¥È+Ké/Ü2>¡\\¨ÑL9±÷\":¦lù°\u0011²j¢2n:¢ ,Ü£¬8ì Gµ;5!¾Åßÿ-Ú©\u0019\u001e;KÉª%Tr\u0019dØ\u0002o~Óª\u0004ñ+|\u001eºi¨\rä\t2æÄ­`Ö\u0016Z§¸9¡!Î#*tOà·V>Éì¬8õß®'¨s\u0003êð6ø\u0019[¶Òû&1Q)â¦é8\\ÕN³jÖ]1¿ké@uÒ~Yq½X¤D\u0003\u0006\u000e;ü\u0002>Æ>h)°Ù\u00042ô¤´1¶náIkó2Æ}þ9\u0018ÍY\u001d\u0001¯÷]\u001dp·\fCð~6´\f/³{\u0007¤'DïgVmr¡®ûJ¹âé°°:³J'gçþK7ê?L¶Ë?KáÅá¸´\u001eç±\u0011dý\u001e¯\u001dÔ«]\fÙÆ/ç<Qùz,=TÄrå©ôÁíM\u0018þbT;;\u0019E\u0005uà\u001c8zb¿ü¡\u0004Â&t\u001aÊ2\u001bøvi±uh4´qÊæÉûDðÂU_WCP\u0017m\u0004ÍP{ËÞèãÓGÔAÉS\b }IØÔWYê¨y\u0005ü÷{\u0014+ñ¤HY\u000b¢î¥7?7\u0004S)Xs³-\u0002 _o*0L­UQ/×\u0011R©ÿôöI]ì­\u0016\u0019{!D?\u0010\u001cÃ¥TòRüÂÜ1á7\u0002fCª&\u0014L5Û?ÊpxªÇýn\u0019»£_dBzÕ\u0006/Í\u001fc\u0013.M¤Ö/GÙp4á= ê´IèÕ\u00063ø(è@´²~`j;<a·e3ð&)ÃÔ¸:Í#=(@\u0007½Æý{Ø\u0007\u0010'jUEv»ÊWµK\f©\u000fz\u000b?ÑH0d³Àª[\u000e1@ðvß0Ò(Ñ.Þ\u0015Fv³Q¾^\u00118Ì,éb>B§Å\u0006ºçKñy\rY\u0018g{uÒÃdø\u0015mÈñ\u0011\r»lÉ\u000e7Æaþ=ì[¨(Æ\u0003ë=m\u0005V$g§Óâ×(=]þXÊ{³9÷a*Ý¼*>'eFÄª\u001cgÁ²Å\u0013SEÔ\u0010\u001aØ¨v±\u001f\f\u0004é®\u0018°\u0018#ö'\u0017\u0014\u0002{¥î\nrê>gEA®r]£`x¶}ÕG±Ô°|àÆx:{k/¸L;<=ûb\u0001\r¢ÀE«#¼¡q}¼±Ðª\u0001ÒA¿sÙ«z",
+        "response_status": 200
+      }
+    ],
+    "flow_count": 146,
+    "unique_hosts": [
+      "appadvise.eastmoney.com",
+      "appserverlistal.eastmoney.com",
+      "avator.eastmoney.com",
+      "avsvc.lvb.eastmoney.com",
+      "awebapi2-account.eastmoney.com",
+      "bd-fireworks.eastmoney.com",
+      "bdrt.eastmoney.com",
+      "bdstatics.eastmoney.com",
+      "codedictdata.eastmoney.com",
+      "datacenter.eastmoney.com",
+      "emav-cos.lvb.eastmoney.com",
+      "emcfgdata.securities.eastmoney.com",
+      "emdcadvertise.eastmoney.com",
+      "eminterservice.securities.eastmoney.com",
+      "emisdatacentercdn.eastmoney.com",
+      "empointcpf.eastmoney.com",
+      "gbapi-pj.emhudong.cn",
+      "gbapi.emhudong.cn",
+      "gbfek.dfcfw.com",
+      "gboperation.eastmoney.com",
+      "gbres.dfcfw.com",
+      "httpdns5.eastmoney.com",
+      "imapi-hsy.emhudong.cn",
+      "imapi-pj.emhudong.cn",
+      "l2qx2.eastmoney.com",
+      "mobappconfig.securities.eastmoney.com",
+      "msgcnt.eastmoney.com",
+      "myfavor-cm.eastmoney.com",
+      "myfavor-collect.eastmoney.com",
+      "myfavor-header.eastmoney.com",
+      "myfavor.eastmoney.com",
+      "myfavor1.eastmoney.com",
+      "premiumauthwg.eastmoney.com",
+      "premiumauthzp.eastmoney.com",
+      "roadshow.lvb.eastmoney.com",
+      "swdlcdn.eastmoney.com"
+    ],
+    "mitm_blocked": null,
+    "stderr_tail": "",
+    "dry_run": false
+  },
+  "network_result": {
+    "schema_version": 1,
+    "adapter": "traffic_checker",
+    "flow_count": 146,
+    "unique_hosts": [
+      "appadvise.eastmoney.com",
+      "appserverlistal.eastmoney.com",
+      "avator.eastmoney.com",
+      "avsvc.lvb.eastmoney.com",
+      "awebapi2-account.eastmoney.com",
+      "bd-fireworks.eastmoney.com",
+      "bdrt.eastmoney.com",
+      "bdstatics.eastmoney.com",
+      "codedictdata.eastmoney.com",
+      "datacenter.eastmoney.com",
+      "emav-cos.lvb.eastmoney.com",
+      "emcfgdata.securities.eastmoney.com",
+      "emdcadvertise.eastmoney.com",
+      "eminterservice.securities.eastmoney.com",
+      "emisdatacentercdn.eastmoney.com",
+      "empointcpf.eastmoney.com",
+      "gbapi-pj.emhudong.cn",
+      "gbapi.emhudong.cn",
+      "gbfek.dfcfw.com",
+      "gboperation.eastmoney.com",
+      "gbres.dfcfw.com",
+      "httpdns5.eastmoney.com",
+      "imapi-hsy.emhudong.cn",
+      "imapi-pj.emhudong.cn",
+      "l2qx2.eastmoney.com",
+      "mobappconfig.securities.eastmoney.com",
+      "msgcnt.eastmoney.com",
+      "myfavor-cm.eastmoney.com",
+      "myfavor-collect.eastmoney.com",
+      "myfavor-header.eastmoney.com",
+      "myfavor.eastmoney.com",
+      "myfavor1.eastmoney.com",
+      "premiumauthwg.eastmoney.com",
+      "premiumauthzp.eastmoney.com",
+      "roadshow.lvb.eastmoney.com",
+      "swdlcdn.eastmoney.com"
+    ],
+    "mitm_blocked": null,
+    "mitm_duration_sec": 130.78,
+    "flows_source": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\output\\stage3_lab42_before\\东方财富\\mitm_flows.json",
+    "tracker_hits": [],
+    "pii_key_hits": [
+      {
+        "pii_type": "location",
+        "network_key": "lat",
+        "host": "gbapi.emhudong.cn",
+        "path": "/follow/api/Follow/GetFollowsBriefInfo?from=",
+        "timestamp_utc": "2026-06-11T22:26:04.445670+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "location",
+        "network_key": "lng",
+        "host": "gbapi.emhudong.cn",
+        "path": "/follow/api/Follow/GetFollowsBriefInfo?from=",
+        "timestamp_utc": "2026-06-11T22:26:04.445670+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "location",
+        "network_key": "lat",
+        "host": "gbapi.emhudong.cn",
+        "path": "/like/api/Like/UserLikeAction",
+        "timestamp_utc": "2026-06-11T22:26:04.447863+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "location",
+        "network_key": "lng",
+        "host": "gbapi.emhudong.cn",
+        "path": "/like/api/Like/UserLikeAction",
+        "timestamp_utc": "2026-06-11T22:26:04.447863+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "location",
+        "network_key": "lat",
+        "host": "gbapi.emhudong.cn",
+        "path": "/userinfo/api/UserBlackList/BlackUserAllUids",
+        "timestamp_utc": "2026-06-11T22:26:04.455806+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "location",
+        "network_key": "lng",
+        "host": "gbapi.emhudong.cn",
+        "path": "/userinfo/api/UserBlackList/BlackUserAllUids",
+        "timestamp_utc": "2026-06-11T22:26:04.455806+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "location",
+        "network_key": "lat",
+        "host": "roadshow.lvb.eastmoney.com",
+        "path": "/LVB//api/Permission/AV",
+        "timestamp_utc": "2026-06-11T22:26:04.464999+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "log",
+        "host": "myfavor.eastmoney.com",
+        "path": "/v4/mobile/gstate",
+        "timestamp_utc": "2026-06-11T22:26:04.500687+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "log",
+        "host": "emdcadvertise.eastmoney.com",
+        "path": "/infoService/v2",
+        "timestamp_utc": "2026-06-11T22:26:05.946836+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "security_info",
+        "network_key": "security",
+        "host": "datacenter.eastmoney.com",
+        "path": "/securities/api/data/v1/get?filter=%28TYPE_CODE%20in%20%28%221%22%2C%222%22%29%29&reportName=RPT_IPO_UNLISTING&quoteColumns=&sortColumns=APPLY_DATE&columns=SECUCODE%2CSECURITY_INNER_CODE%2CSECURITY_CODE%2CSECURITY_NAME_ABBR%2CAPPLY_CODE%2CAPPLY_NAME_ABBR%2CAPPLY_DATE%2CISSUE_PRICE%2CLISTING_DATE%2CTRADE_MARKET_CODE&client=APP&sortTypes=-1&source=securities",
+        "timestamp_utc": "2026-06-11T22:26:54.449462+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "location",
+        "network_key": "lat",
+        "host": "datacenter.eastmoney.com",
+        "path": "/securities/api/data/v1/get?reportName=RPT_FUND_YRELATED_A&columns=SECURITY_CODE,SECURITY_NAME_ABBR,RELATED_NAME,SECUCODE,RELATED_CODE&quoteColumns=&filter=&sortTypes=&sortColumns=",
+        "timestamp_utc": "2026-06-11T22:26:54.754732+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "security_info",
+        "network_key": "security",
+        "host": "datacenter.eastmoney.com",
+        "path": "/securities/api/data/v1/get?reportName=RPT_FUND_YRELATED_A&columns=SECURITY_CODE,SECURITY_NAME_ABBR,RELATED_NAME,SECUCODE,RELATED_CODE&quoteColumns=&filter=&sortTypes=&sortColumns=",
+        "timestamp_utc": "2026-06-11T22:26:54.754732+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "location",
+        "network_key": "lat",
+        "host": "datacenter.eastmoney.com",
+        "path": "/securities/api/data/get?type=RPT_PUBLIC_TYPERELATED_SIX&sty=ALL&source=SECURITIES&client=Android&st=SECUCODE,TYPE,LISTING_DATE&sr=1,1,-1&tag=v2",
+        "timestamp_utc": "2026-06-11T22:26:54.764572+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "location",
+        "network_key": "lat",
+        "host": "gbapi.emhudong.cn",
+        "path": "/userpostlist/api/Follow/UserPostIncCount",
+        "timestamp_utc": "2026-06-11T22:26:55.141089+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "location",
+        "network_key": "lng",
+        "host": "gbapi.emhudong.cn",
+        "path": "/userpostlist/api/Follow/UserPostIncCount",
+        "timestamp_utc": "2026-06-11T22:26:55.141089+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "location",
+        "network_key": "lat",
+        "host": "gbapi-pj.emhudong.cn",
+        "path": "/follow/api/Follow/GetFollowsBriefInfo?from=",
+        "timestamp_utc": "2026-06-11T22:26:56.296471+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "location",
+        "network_key": "lat",
+        "host": "gbapi-pj.emhudong.cn",
+        "path": "/like/api/Like/UserLikeAction",
+        "timestamp_utc": "2026-06-11T22:26:56.321288+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "location",
+        "network_key": "lat",
+        "host": "gbapi-pj.emhudong.cn",
+        "path": "/userinfo/api/UserBlackList/BlackUserAllUids",
+        "timestamp_utc": "2026-06-11T22:26:56.325367+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "log_info",
+        "network_key": "log",
+        "host": "myfavor1.eastmoney.com",
+        "path": "/v4/mobile/gstate",
+        "timestamp_utc": "2026-06-11T22:26:56.358282+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "location",
+        "network_key": "lat",
+        "host": "gbapi-pj.emhudong.cn",
+        "path": "/userinfo/api/user/UserInfo",
+        "timestamp_utc": "2026-06-11T22:27:03.091941+00:00",
+        "evidence_level": "S3_network_pii_key"
+      }
+    ],
+    "summary": {
+      "tracker_hit_count": 0,
+      "tracker_company_count": 0,
+      "tracker_companies": [],
+      "tracker_hosts": [],
+      "pii_key_hit_count": 20,
+      "pii_types_observed": [
+        "location",
+        "log_info",
+        "security_info"
+      ]
+    }
+  },
+  "path_suggestions": [
+    "当您同意本指引后，仍可以通过东方财富APP中\"我的-设置-隐私管理\"的路径或访问东方财富网在最底部隐私保护页面中再次浏览。",
+    "经您同意后，为了方便您下载使用，我们会备份您关于我们产品的部分业务功能设置信息：软件功能设置（K线、自选、推送、行情、资讯、显示、股票、股吧）、浏览记录，方便您下载使用；为了满足首页信息流推送功能，我们会收集您的浏览记录软件优化及数据采集、关注记录 ；当您确认同意隐私协议，我们会默认开启个性化推送开关，如您想控制推送接收机制，您可以在通过\"我的-设置-个性化推送\" 来管理您是否接收个性化广告、及内容推送。",
+    "若您拒绝提供或希望关闭无线数据，您也可以通过您终端设备上的设置菜单，找到更多应用中的东方财富，在权限管理中，关闭\"WLAN与蜂窝移动网\"或仅关闭\"WLAN\"，若您选择同时关闭\"WLAN与蜂窝移动网\"将会影响您使用我们的服务。",
+    "3)相应设备权限不会默认开启。若您已经同意我们获取您设备的以上权限，当涉及敏感的设备权限时，或在为您提供除前文所述各项服务之外的新服务时，我们将在您使用到相应业务功能时再次征得您的同意后开启；若您不希望我们继续获取您的各项权限，您可以随时前往您设备的权限设置菜单中关闭系统获取的相应权限。",
+    "在使用我们的产品或服务时所提供的所有个人信息，除非您删除或通过系统设置拒绝我们收集，否则将在您使用我们的产品或服务期间持续授权我们使用。在您注销账号时，我们将停止使用并删除您的个人信息或对您的个人信息进行匿名化处理。",
+    "登录通行证账户，在\"设置-账号设置\"中；",
+    "如您想通过硬件设备进行修改、或在APP相关功能设置界面进行操作处理，更改相关权限的授权（例如：通知、存储、相机、麦克风、日历、位置），可以参照\"一.3实现业务功能可选择授权的场景\"描述的方式操作，也可以通过\"我的-设置-隐私管理-隐私权限管理\"进行设置。",
+    "UI observed steps: adb_foreground_before=com.eastmoney.android.berlin | session_created_attempt1=ok | session_created",
+    "Check path for pii_type=imei",
+    "Check path for pii_type=android_id"
+  ],
+  "explanation": "Collected dynamic evidence for 东方财富: candidate_pii=10, ui_steps=48, screenshots=5, frida_registered_types=9, frida_events=19. This explanation is descriptive only and does not produce verdict.",
+  "evidence_items": [
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\东方财富\\screenshots\\东方财富_20260612_062610_launch.png",
+      "timestamp_utc": "2026-06-11T22:28:14.402718+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\东方财富\\screenshots\\东方财富_20260612_062652_path1.png",
+      "timestamp_utc": "2026-06-11T22:28:14.402718+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\东方财富\\screenshots\\东方财富_20260612_062704_path2.png",
+      "timestamp_utc": "2026-06-11T22:28:14.402718+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\东方财富\\screenshots\\东方财富_20260612_062728_path2.png",
+      "timestamp_utc": "2026-06-11T22:28:14.402718+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_before\\东方财富\\screenshots\\东方财富_20260612_062757_trigger_tabs.png",
+      "timestamp_utc": "2026-06-11T22:28:14.402718+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.frida",
+      "signal": "hook_imei",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:28:14.501238+00:00",
+      "pii_type": "imei",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.frida",
+      "signal": "hook_android_id",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:28:14.501253+00:00",
+      "pii_type": "android_id",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.frida",
+      "signal": "hook_oaid",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:28:14.501258+00:00",
+      "pii_type": "android_id",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.frida",
+      "signal": "hook_location",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:28:14.501260+00:00",
+      "pii_type": "location",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.frida",
+      "signal": "hook_mac_ip",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:28:14.501262+00:00",
+      "pii_type": "ip_address",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.frida",
+      "signal": "hook_mac_ip",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:28:14.501264+00:00",
+      "pii_type": "mac_address",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.frida",
+      "signal": "hook_phone",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:28:14.501266+00:00",
+      "pii_type": "phone_number",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.frida",
+      "signal": "hook_contacts",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:28:14.501268+00:00",
+      "pii_type": "contact_list",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.frida",
+      "signal": "hook_clipboard",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:28:14.501270+00:00",
+      "pii_type": "clipboard",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.frida",
+      "signal": "hook_network_okhttp",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T22:28:14.501272+00:00",
+      "pii_type": "network_transmission",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.frida",
+      "signal": "OkHttp.execute",
+      "value": "dry_run_network",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:28:14.501274+00:00",
+      "pii_type": "network_transmission",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getImei",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:28:14.501276+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getMeid",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:28:14.501278+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getDeviceId",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:28:14.501280+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getDeviceSoftwareVersion",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:28:14.501283+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getSimSerialNumber",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:28:14.501284+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.frida",
+      "signal": "android.provider.Settings$Secure.getString",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:28:14.501285+00:00",
+      "pii_type": "android_id",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.frida",
+      "signal": "android.provider.Settings$System.getString",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:28:14.501287+00:00",
+      "pii_type": "android_id",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.frida",
+      "signal": "android.location.LocationManager.getLastKnownLocation",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T22:28:14.501288+00:00",
+      "pii_type": "location",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lat",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:26:04.445670+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lng",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:26:04.445670+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lat",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:26:04.447863+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lng",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:26:04.447863+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lat",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:26:04.455806+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lng",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:26:04.455806+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lat",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:26:04.464999+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "log",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T22:26:04.500687+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "log",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T22:26:05.946836+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "security",
+      "pii_type": "security_info",
+      "timestamp_utc": "2026-06-11T22:26:54.449462+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lat",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:26:54.754732+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "security",
+      "pii_type": "security_info",
+      "timestamp_utc": "2026-06-11T22:26:54.754732+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lat",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:26:54.764572+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lat",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:26:55.141089+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lng",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:26:55.141089+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lat",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:26:56.296471+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lat",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:26:56.321288+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lat",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:26:56.325367+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "log",
+      "pii_type": "log_info",
+      "timestamp_utc": "2026-06-11T22:26:56.358282+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "东方财富",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lat",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T22:27:03.091941+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    }
+  ],
+  "capture_meta": {
+    "sync_mode": true,
+    "frida_grace_sec": 30,
+    "frida_tail_sec": 60,
+    "frida_launch_mode": "attach",
+    "frida_code_prefixes": [
+      "com.eastmoney.android.berlin"
+    ],
+    "frida_tier": "tier3",
+    "spawn_fallback_attach": true,
+    "dynamic_track": {
+      "dynamic_track_requested": "lab42",
+      "dynamic_track_resolved": "mitm",
+      "enable_frida": false,
+      "enable_mitm": true,
+      "java_bridge": "",
+      "tier": "tier3",
+      "preferred_dynamic_tracks": [],
+      "mitm_primary": true,
+      "probe_path": "output\\frida_probe\\dongfangcaifu.json"
+    },
+    "enable_mitm": true,
+    "frida_enabled": false,
+    "frida_runtime_events": 0,
+    "frida_java_active_count": 0,
+    "mitm_flow_count": 146,
+    "tracker_hit_count": 0,
+    "post_run_app_closed": true
+  },
+  "summary": {
+    "ui_steps": 48,
+    "screenshots": 5,
+    "keyword_checks": 3,
+    "keyword_match_count": 3,
+    "registered_hook_types": 9,
+    "frida_events": 19,
+    "frida_runtime_events": 0,
+    "frida_java_active_count": 0,
+    "candidate_pii_count": 10,
+    "mitm_flow_count": 146,
+    "tracker_hit_count": 0,
+    "pii_key_hit_count": 20
+  }
+}

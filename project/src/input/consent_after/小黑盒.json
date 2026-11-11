@@ -1,0 +1,893 @@
+{
+  "schema_version": 2,
+  "stage": "stage3_dynamic",
+  "app_name": "小黑盒",
+  "app_package": "com.max.xiaoheihe",
+  "dry_run": false,
+  "generated_at_utc": "2026-06-11T23:26:21.517434+00:00",
+  "candidate_pii": [
+    "imei",
+    "android_id",
+    "location",
+    "ip_address",
+    "mac_address",
+    "phone_number",
+    "contact_list",
+    "clipboard",
+    "sdk_info",
+    "network_transmission"
+  ],
+  "ui_result": {
+    "runner": "appium",
+    "mode": "real",
+    "timestamp_utc": "2026-06-11T23:26:21.320103+00:00",
+    "steps": [
+      "adb_foreground_before=com.max.xiaoheihe",
+      "session_created_attempt1=ok",
+      "session_created",
+      "foreground_ok[com.max.xiaoheihe]=attempt1",
+      "foreground_package=com.max.xiaoheihe",
+      "navigate_path_1=我 > 您随时可以通过我的 > 设置",
+      "me_entry_bottom_tab_detected",
+      "bottom_tab_me[bounds]=ok(972,1870,我)",
+      "me_entry_bottom_tab_tapped",
+      "tap[我]=me_entry_avatar",
+      "tap[我]=ok",
+      "tap[您随时可以通过我的]=miss_try_me_first",
+      "tap[您随时可以通过我的]=miss_try_sidebar_fallback",
+      "sidebar_xml_before:xml_drawer_open=False xml_trigger=False menu=-",
+      "sidebar_skip=no_drawer_trigger_in_xml",
+      "tap[您随时可以通过我的]=miss_try_llm_bridge",
+      "llm_nav[您随时可以通过我的]=request labels=26",
+      "llm_nav[您随时可以通过我的]=error(bridge not on screen: 设置)",
+      "tap[您随时可以通过我的]=miss",
+      "nav_path_1_stopped_at=您随时可以通过我的",
+      "screenshot_captured",
+      "function_triggers=start",
+      "grant[ACCESS_FINE_LOCATION]=skip",
+      "grant[ACCESS_COARSE_LOCATION]=skip",
+      "grant[READ_PHONE_STATE]=ok",
+      "grant[READ_CONTACTS]=skip",
+      "trigger_perms_granted=1",
+      "reset_back_presses=3",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.max.xiaoheihe",
+      "foreground_ok[com.max.xiaoheihe]=post_activate1",
+      "trigger_tab[首页]=ok",
+      "trigger_swipe_up=ok",
+      "trigger_swipe_up=ok",
+      "trigger_swipe_down=ok",
+      "function_triggers=budget_exhausted",
+      "function_triggers=done"
+    ],
+    "policy_path_hints": [
+      "本《隐私政策》适用于武汉鱼爪互动信息技术有限公司旗下的 【游戏小黑盒】（下称“本产品”）服务。欢迎您使用本产品服务，本《隐私政策》将努力通过通俗易懂、简明扼要的文字表达，向您说明本产品在收集、使用、管理及保护您的个人信息方面的政策及措施，以及我们为您提供的访问、更新、删除和保护这些信息的方式",
+      "【游戏小黑盒】（以下简称“我们”），将按照法律法规的相关规定，收集、使用并保护您的个人信息。为保障您能更好地使用我们提供的服务，我们建议您认真阅读本《隐私政策》（尤其与您权益直接相关、涉及您个人敏感信息的加粗条款），并在确认充分理解后再决定是否使用我们向您提供的本产品服务，如有任何问题请于同意本政策前通过本政策提供的联系方式与我们取得联系",
+      "尽管已经采取了上述合理有效措施，并已经遵守了相关法律规定要求的标准，但受限于现有技术限制等，本产品仍然无法保证您的个人信息通过不安全途径或非我们可以控制的环节进行交流时的安全性。因此，建议您采取积极措施保证个人信息的安全，如：设置复杂密码、定期修改账号密码，不将自己的账号密码等个人信息透露给他人等。您在向本产品以外的网站提交个人信息时应尽量避免提供个人敏感信息，并审慎决定。如果您发现自己的个人信息泄密，尤其是您的账号密码发生泄露，请您立即根据本隐私政策中提供的联系方式联络我们，以便我们采取相应措施",
+      "您可以随时登陆自己的账号查看、更正账号设置和信息。如果您发现信息有错误、不准确或不完整，希望更正、补充我们系统中保留的您的个人信息，您可以登录账号在您的账号设置中修改您的账号信息以更正、补充或者通过本政策列明的联系方式提出异议并请求我们进行更正、补充。但出于安全性和身份识别（如号码申诉服务）的考虑，您可能无法修改注册时提供的某些初始注册信息及验证信息。如您无法通过上述方式更正，您可以按照第九条约定的联系方式联系我们（一般情况下，我们将在15个工作日内回复您的请求）",
+      "您随时可以通过我的->设置->注销账号方式注销您注册的账户，但一旦您注销账户，将无法使用账户对应产品服务且您的信息、账户相关数据将在账号注销后予以删除或进行匿名化处理，因此请您谨慎操作。如果您无法通过上述方式注销，您可以按照第九条约定的联系方式联系我们，向我们提出注销账户的请求（一般情况下，我们将在15个工作日内回复您的请求）",
+      "欢迎您选择【游戏小黑盒】（以下简称：本产品）服务。除上述《隐私政策》中规定的内容外，我们还将通过《儿童隐私政策》（“本政策”）帮助您和孩子（本政策中的“孩子”，是指不满十四周岁的未成年人）进一步了解我们收集、使用、存储和共享您孩子个人信息的情况，以及您和您的孩子所享有的相关权利"
+    ],
+    "navigation_paths": [
+      [
+        "我",
+        "您随时可以通过我的",
+        "设置"
+      ]
+    ],
+    "navigation_path_records": [
+      {
+        "source_hint": "您随时可以通过我的->设置->注销账号方式注销您注册的账户，但一旦您注销账户，将无法使用账户对应产品服务且您的信息、账户相关数据将在账号注销后予以删除或进行匿名化处理，因此请您谨慎操作。如果您无法通过上述方式注销，您可以按照第九条约定的联系方式联系我们，向我们提出注销账户的请求（一般情况下，我们将在15个工作日内回复您的请求）",
+        "original_path": [
+          "我",
+          "您随时可以通过我的",
+          "设置"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我",
+          "您随时可以通过我的",
+          "设置"
+        ],
+        "would_have_inserted_at": null,
+        "path_index": 1,
+        "matched_hint": "您随时可以通过我的->设置->注销账号方式注销您注册的账户，但一旦您注销账户，将无法使用账户对应产品服务且您的信息、账户相关数据将在账号注销后予以删除或进行匿名化处理，因此请您谨慎操作。如果您无法通过上述方式注销，您可以按照第九条约定的联系方式联系我们，向我们提出注销账户的请求（一般情况下，我们将在15个工作日内回复您的请求）",
+        "expanded_path": [
+          "我",
+          "您随时可以通过我的",
+          "设置"
+        ]
+      }
+    ],
+    "navigation_bridges": {
+      "不把我推荐给可能认识的人": [
+        "找到我的方式"
+      ],
+      "把我推荐给可能认识的人": [
+        "找到我的方式"
+      ],
+      "用户保护中心": [
+        "设置"
+      ]
+    },
+    "llm_nav_enabled": true,
+    "screenshots": [
+      "output\\stage3_lab42_after\\小黑盒\\screenshots\\小黑盒_20260612_072519_launch.png",
+      "output\\stage3_lab42_after\\小黑盒\\screenshots\\小黑盒_20260612_072524_path1.png",
+      "output\\stage3_lab42_after\\小黑盒\\screenshots\\小黑盒_20260612_072535_path1.png",
+      "output\\stage3_lab42_after\\小黑盒\\screenshots\\小黑盒_20260612_072609_trigger_tabs.png"
+    ],
+    "keyword_checks": [
+      {
+        "path_index": 1,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": true,
+          "我的": true,
+          "个人": false,
+          "主页": false,
+          "用户": true,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": false,
+          "profile_page": false,
+          "profile_resource_marker": false
+        }
+      },
+      {
+        "path_index": 1,
+        "step_token": "您随时可以通过我的",
+        "matched": true,
+        "checks": {
+          "您随时可以通过我的": false,
+          "我的": true,
+          "隐私": false,
+          "设置": false,
+          "我": true
+        }
+      }
+    ],
+    "error": ""
+  },
+  "frida_result": {
+    "runner": "frida",
+    "mode": "dry_run",
+    "launch_mode": "spawn",
+    "package": "com.max.xiaoheihe",
+    "registered_hooks": {
+      "imei": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js"
+      ],
+      "android_id": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js"
+      ],
+      "location": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js"
+      ],
+      "ip_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "mac_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "phone_number": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js"
+      ],
+      "contact_list": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js"
+      ],
+      "clipboard": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js"
+      ],
+      "network_transmission": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js"
+      ]
+    },
+    "global_hooks": [
+      "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js"
+    ],
+    "papi_target_count": 28,
+    "events": [
+      {
+        "timestamp_utc": "2026-06-11T23:26:21.418544+00:00",
+        "pii_type": "imei",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js",
+        "api_name": "hook_imei",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:26:21.418566+00:00",
+        "pii_type": "android_id",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "api_name": "hook_android_id",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:26:21.418569+00:00",
+        "pii_type": "android_id",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js",
+        "api_name": "hook_oaid",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:26:21.418572+00:00",
+        "pii_type": "location",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js",
+        "api_name": "hook_location",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:26:21.418574+00:00",
+        "pii_type": "ip_address",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+        "api_name": "hook_mac_ip",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:26:21.418575+00:00",
+        "pii_type": "mac_address",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+        "api_name": "hook_mac_ip",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:26:21.418577+00:00",
+        "pii_type": "phone_number",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js",
+        "api_name": "hook_phone",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:26:21.418579+00:00",
+        "pii_type": "contact_list",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js",
+        "api_name": "hook_contacts",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:26:21.418581+00:00",
+        "pii_type": "clipboard",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js",
+        "api_name": "hook_clipboard",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:26:21.418583+00:00",
+        "pii_type": "network_transmission",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+        "api_name": "hook_network_okhttp",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:26:21.418585+00:00",
+        "pii_type": "network_transmission",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+        "api_name": "OkHttp.execute",
+        "args_summary": "dry_run_network",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:26:21.418587+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getImei",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:26:21.418590+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getMeid",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:26:21.418592+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getDeviceId",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:26:21.418594+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getDeviceSoftwareVersion",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:26:21.418596+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getSimSerialNumber",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:26:21.418597+00:00",
+        "pii_type": "android_id",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.provider.Settings$Secure.getString",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:26:21.418599+00:00",
+        "pii_type": "android_id",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.provider.Settings$System.getString",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:26:21.418601+00:00",
+        "pii_type": "location",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.location.LocationManager.getLastKnownLocation",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      }
+    ],
+    "error": "frida_disabled",
+    "skipped": true
+  },
+  "mitm_result": {
+    "adapter": "mitm_runner",
+    "started_at_utc": "2026-06-11T23:26:21.398534+00:00",
+    "duration_sec": 69.44,
+    "listen_port": 8080,
+    "flows_source": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\output\\stage3_lab42_after\\小黑盒\\mitm_flows.json",
+    "flows": [
+      {
+        "timestamp_utc": "2026-06-11T23:25:12.689000+00:00",
+        "host": "cdn-api-auth.zztfly.com",
+        "path": "/api/initSecCdn/1/1e9f34e4ce014/com.max.xiaoheihe/c8ae33e35eed663f13f263872ca28d7b",
+        "method": "GET",
+        "scheme": "http",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:25:12.712727+00:00",
+        "host": "cfgc.zztfly.com",
+        "path": "/v6/gcf?v6=-1&duid=s_12ad6143c5512eabfc31e59e6300b1eabe987829&isAgreePp=true&appver=1.3.388&appkey=1e9f34e4ce014&psid=s_12ad6143c5512eabfc31e59e6300b1eabe987829com.max.xiaoheihe&plat=1&networktype=wifi&ait=1781157573718&nbs=1&apppkg=com.max.xiaoheihe&ts=1781220311442",
+        "method": "GET",
+        "scheme": "http",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:25:12.769108+00:00",
+        "host": "log-auth.zztfly.com",
+        "path": "/api/log",
+        "method": "POST",
+        "scheme": "http",
+        "request_body": "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",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:25:13.215619+00:00",
+        "host": "119.29.29.88",
+        "path": "/conf?id=14037&alg=aes",
+        "method": "GET",
+        "scheme": "http",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:25:13.264424+00:00",
+        "host": "license.vod2.myqcloud.com",
+        "path": "/license/v2/1251007209_1/v_cube.license",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 304
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:25:13.280796+00:00",
+        "host": "fp-it.fengkongcloud.com",
+        "path": "/v3/cloudconf",
+        "method": "POST",
+        "scheme": "http",
+        "request_body": "{\"organization\":\"0yD85BjYvGFAvHaSQ1mc\",\"data\":{\"os\":\"android\",\"sdkver\":\"3.8.0\",\"md5\":\"a9e34a9cb43d5273b4cdc62989eba089\",\"enc\":1,\"bb\":\"hQtqXWhhhKDiEqMLVNzu36qV9KMNMjgTE7tpDvL37x0NEnZUudNXxpt4a8L4t7nowNJwnRLRci1OE4UOfhEXiw==\",\"sid\":\"1781220311850-46870\"}}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:25:13.324759+00:00",
+        "host": "utoken.umeng.com",
+        "path": "/anti/updateZdata",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "(ÏI1tdvT1h´Ã½äô+7¤\u0014×pUK«6ÔKL¥úWæ^Xw}Ò\u001c\u0012¹kÒ\u001f/#³h\tpäuÛö\u0000ãÍ<R¦¾ËÃÞXþ<ø°e¸\fgmðD\t±ee\rÈkU½Ú\u000e\u0003¿\u0002_{ÍäßlibÝ 3ÀÚÊ1SW\u0010á\u001a©¡Mßhü\u001aF\u0011¢s«¿\u0004Òz?ØSËM\u0001Ö\u0006Û\u0001«LAØ\u000eæ\u0014e*¢ýHL#x\fcø\u0012iÛ§w®qçG`ÓwÛõ`O;6uÈÑ­vc§}8\u0019¼`RçÚrvÅã`\u0001ê¤ T1ü©ÕË/ÝÝËáPä\u000f\u0019\u0017°Ñ\"pàï¶Ð¡\u0015/=î¥fê@S\u0005#\u0019K Çx\fáä\u001d\u0014ÚrvTÅ¤ç\u0018\u000fZ1Ö\u0000,+¬dK\u0000*\"Aè\u001eî*ÁÉ\no¸eOÝ=Ø¹þ\u0004l1ãÄÅDe¬\bú\u000f2éúÚ`\u000fºI¡@If±tøÞ\u0003Ý\u001cÅÉÕù;Ò$Uö\u0017gqý\u0001¾,\u0017.ýH<\"J\"¬Ñ¦Î\u0000R¬¦\u0003á\u0003\u001c¨T\bKLÃ·;®ÛV\u0013âRo,øòèÖâÑ ñs¬*1\u001aÂ\u0006ÑKÍËYÚñü3sÜñµëõfSYBÏoÑr\u000b¯Kîâ%fej¹sö\f}ÐVø\u000eè¡FCÊi\u001f4W\u0011=Y\u001a÷Í×|½ïo\t:Ó\n±®NoòÁ8Â,M_>ÆÂJ\u0004\u0006gj;\u0013÷3\u000b\u000eÖ\n¶|Â§\u0007§Ñïã\\« NËu¸\b/¾È=¾>Yò×~^QÑÂ^%JJ×)§f\u001e±)¥ºq>b-»Ms(bmøÚy L§¿gÙRBù\\Æû!lÇ\u0011}L;ÏY\u0000ouEJ>Ô\u001aK\u0019ýâog·\u000fÔdpç*s¦\f»Lý¬\n5\u0005æ.\\óI²&Ä­æÄ\u00069-*ISI\u001a\"É1¹±Râ­K0R¶¬#¨Ó\u0011\":Åèß=¢àÞ\u0004äÇås³Þ@\u0010§>m\u0019dW.LamH28Fr®»i^Ý/g»k;\u001f.3Íf3³Uä¹öbp\u0014Ã,÷¿³\bI®v4Ì¶6 fNbcQ\u00019\u001aìú©î&6e`_æ¢l%µ-L\r¼Ä2UÞ}|àöIì\u0000Yz.è?êðbªÖñÿÂ~ê1ØTÌ~k´Éef\u0011[h\u001f¾a¯\u0003¯¥Çy¸ßZª¥u»¹ëk6ó\u0002c?\u0006î¿\u001dV\n@_ûÏÍÌüleAÀe4lVQ*ë@$èT±«îh!k©æ\u0000ê¡ÃZ=n\\{;\u0017ºß°¡\\^z$÷QkA?Z²¤¶",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:25:13.448637+00:00",
+        "host": "sdk.open.phone.igexin.com",
+        "path": "/api/addr.htm",
+        "method": "GET",
+        "scheme": "http",
+        "request_body": "",
+        "response_status": 200
+      }
+    ],
+    "flow_count": 8,
+    "unique_hosts": [
+      "119.29.29.88",
+      "cdn-api-auth.zztfly.com",
+      "cfgc.zztfly.com",
+      "fp-it.fengkongcloud.com",
+      "license.vod2.myqcloud.com",
+      "log-auth.zztfly.com",
+      "sdk.open.phone.igexin.com",
+      "utoken.umeng.com"
+    ],
+    "mitm_blocked": null,
+    "stderr_tail": "",
+    "dry_run": false
+  },
+  "network_result": {
+    "schema_version": 1,
+    "adapter": "traffic_checker",
+    "flow_count": 8,
+    "unique_hosts": [
+      "119.29.29.88",
+      "cdn-api-auth.zztfly.com",
+      "cfgc.zztfly.com",
+      "fp-it.fengkongcloud.com",
+      "license.vod2.myqcloud.com",
+      "log-auth.zztfly.com",
+      "sdk.open.phone.igexin.com",
+      "utoken.umeng.com"
+    ],
+    "mitm_blocked": null,
+    "mitm_duration_sec": 69.44,
+    "flows_source": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\output\\stage3_lab42_after\\小黑盒\\mitm_flows.json",
+    "tracker_hits": [
+      {
+        "tracker_id": "getui",
+        "tracker_company": "GeTui",
+        "purpose": "push_notifications",
+        "host": "sdk.open.phone.igexin.com",
+        "path": "/api/addr.htm",
+        "timestamp_utc": "2026-06-11T23:25:13.448637+00:00",
+        "method": "GET",
+        "evidence_level": "S3_network_mitm"
+      },
+      {
+        "tracker_id": "umeng",
+        "tracker_company": "Umeng",
+        "purpose": "analytics",
+        "host": "utoken.umeng.com",
+        "path": "/anti/updateZdata",
+        "timestamp_utc": "2026-06-11T23:25:13.324759+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      }
+    ],
+    "pii_key_hits": [
+      {
+        "pii_type": "location",
+        "network_key": "lat",
+        "host": "log-auth.zztfly.com",
+        "path": "/api/log",
+        "timestamp_utc": "2026-06-11T23:25:12.769108+00:00",
+        "evidence_level": "S3_network_pii_key"
+      }
+    ],
+    "summary": {
+      "tracker_hit_count": 2,
+      "tracker_company_count": 2,
+      "tracker_companies": [
+        "GeTui",
+        "Umeng"
+      ],
+      "tracker_hosts": [
+        "sdk.open.phone.igexin.com",
+        "utoken.umeng.com"
+      ],
+      "pii_key_hit_count": 1,
+      "pii_types_observed": [
+        "location"
+      ]
+    }
+  },
+  "path_suggestions": [
+    "为了更好地向您提供服务，改善产品体验，在您登录本产品时，我们会收集您的头像、昵称、ID以便用于产品内信息展示。我们可能会视产品具体情况为您提供相关权限，以便您可以对是否展示前述相关信息进行相应设置。",
+    "您理解并同意，本产品需要您在您的移动设备中开启特定的访问权限，以实现这些权限所涉及信息的收集和使用。例如相机（摄像头）、相册（图片库）等访问权限，以实现拍摄、扫码、上传图片、语音通话等功能所涉及的信息收集和使用。例如，当您希望通过图片、语音、视频与其他用户互动，在您授权同意后，我们会访问您的照片或存储文件、摄像头，为您提供截图保存、图片上传、语音聊天、以便与其互动等功能。您也可以在设备的设置功能中随时选择关闭部分或全部权限，从而撤回您授予我们某项权限的同意。在不同设备中，权限显示方式及关闭方式可能有所不同，大多数移动设备都会支持您的这项需求，具体方法请参考或联系您移动设备的服务商或生产商。详细权限信息参见附录1《设备权限说明》。",
+    "尽管已经采取了上述合理有效措施，并已经遵守了相关法律规定要求的标准，但受限于现有技术限制等，本产品仍然无法保证您的个人信息通过不安全途径或非我们可以控制的环节进行交流时的安全性。因此，建议您采取积极措施保证个人信息的安全，如：设置复杂密码、定期修改账号密码，不将自己的账号密码等个人信息透露给他人等。您在向本产品以外的网站提交个人信息时应尽量避免提供个人敏感信息，并审慎决定。如果您发现自己的个人信息泄密，尤其是您的账号密码发生泄露，请您立即根据本隐私政策中提供的联系方式联络我们，以便我们采取相应措施。",
+    "您可以随时登陆自己的账号查看、更正账号设置和信息。如果您发现信息有错误、不准确或不完整，希望更正、补充我们系统中保留的您的个人信息，您可以登录账号在您的账号设置中修改您的账号信息以更正、补充或者通过本政策列明的联系方式提出异议并请求我们进行更正、补充。但出于安全性和身份识别（如号码申诉服务）的考虑，您可能无法修改注册时提供的某些初始注册信息及验证信息。如您无法通过上述方式更正，您可以按照第九条约定的联系方式联系我们（一般情况下，我们将在15个工作日内回复您的请求）。",
+    "您随时可以通过我的->设置->注销账号方式注销您注册的账户，但一旦您注销账户，将无法使用账户对应产品服务且您的信息、账户相关数据将在账号注销后予以删除或进行匿名化处理，因此请您谨慎操作。如果您无法通过上述方式注销，您可以按照第九条约定的联系方式联系我们，向我们提出注销账户的请求（一般情况下，我们将在15个工作日内回复您的请求）。",
+    "您可以通过本产品或移动设备的设置（关闭对应权限、关闭部分功能选项）或根据法律法规规定，申请撤回您已作出的授权。如您撤回您已作出的授权，不影响您撤回之前已进行的个人信息处理，在您撤回之后我们可能无法继续为您提供对应的服务内容。如您无法通过上述方式撤回授权，您可以按照第九条约定的联系方式联系我们（一般情况下，我们将在15个工作日内回复您的请求）。",
+    "UI observed steps: adb_foreground_before=com.max.xiaoheihe | session_created_attempt1=ok | session_created",
+    "Check path for pii_type=imei",
+    "Check path for pii_type=android_id",
+    "Check path for pii_type=location"
+  ],
+  "explanation": "Collected dynamic evidence for 小黑盒: candidate_pii=10, ui_steps=36, screenshots=4, frida_registered_types=9, frida_events=19. This explanation is descriptive only and does not produce verdict.",
+  "evidence_items": [
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_after\\小黑盒\\screenshots\\小黑盒_20260612_072519_launch.png",
+      "timestamp_utc": "2026-06-11T23:26:21.320103+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_after\\小黑盒\\screenshots\\小黑盒_20260612_072524_path1.png",
+      "timestamp_utc": "2026-06-11T23:26:21.320103+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_after\\小黑盒\\screenshots\\小黑盒_20260612_072535_path1.png",
+      "timestamp_utc": "2026-06-11T23:26:21.320103+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_after\\小黑盒\\screenshots\\小黑盒_20260612_072609_trigger_tabs.png",
+      "timestamp_utc": "2026-06-11T23:26:21.320103+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.frida",
+      "signal": "hook_imei",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:26:21.418544+00:00",
+      "pii_type": "imei",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.frida",
+      "signal": "hook_android_id",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:26:21.418566+00:00",
+      "pii_type": "android_id",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.frida",
+      "signal": "hook_oaid",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:26:21.418569+00:00",
+      "pii_type": "android_id",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.frida",
+      "signal": "hook_location",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:26:21.418572+00:00",
+      "pii_type": "location",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.frida",
+      "signal": "hook_mac_ip",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:26:21.418574+00:00",
+      "pii_type": "ip_address",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.frida",
+      "signal": "hook_mac_ip",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:26:21.418575+00:00",
+      "pii_type": "mac_address",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.frida",
+      "signal": "hook_phone",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:26:21.418577+00:00",
+      "pii_type": "phone_number",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.frida",
+      "signal": "hook_contacts",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:26:21.418579+00:00",
+      "pii_type": "contact_list",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.frida",
+      "signal": "hook_clipboard",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:26:21.418581+00:00",
+      "pii_type": "clipboard",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.frida",
+      "signal": "hook_network_okhttp",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:26:21.418583+00:00",
+      "pii_type": "network_transmission",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.frida",
+      "signal": "OkHttp.execute",
+      "value": "dry_run_network",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:26:21.418585+00:00",
+      "pii_type": "network_transmission",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getImei",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:26:21.418587+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getMeid",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:26:21.418590+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getDeviceId",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:26:21.418592+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getDeviceSoftwareVersion",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:26:21.418594+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getSimSerialNumber",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:26:21.418596+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.frida",
+      "signal": "android.provider.Settings$Secure.getString",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:26:21.418597+00:00",
+      "pii_type": "android_id",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.frida",
+      "signal": "android.provider.Settings$System.getString",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:26:21.418599+00:00",
+      "pii_type": "android_id",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.frida",
+      "signal": "android.location.LocationManager.getLastKnownLocation",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:26:21.418601+00:00",
+      "pii_type": "location",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "sdk.open.phone.igexin.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T23:25:13.448637+00:00",
+      "context": "GeTui",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "utoken.umeng.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T23:25:13.324759+00:00",
+      "context": "Umeng",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "小黑盒",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lat",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T23:25:12.769108+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    }
+  ],
+  "capture_meta": {
+    "sync_mode": true,
+    "frida_grace_sec": 30,
+    "frida_tail_sec": 60,
+    "frida_launch_mode": "spawn",
+    "frida_code_prefixes": [
+      "com.max.xiaoheihe"
+    ],
+    "frida_tier": "unknown",
+    "spawn_fallback_attach": true,
+    "dynamic_track": {
+      "dynamic_track_requested": "lab42",
+      "dynamic_track_resolved": "mitm",
+      "enable_frida": false,
+      "enable_mitm": true,
+      "java_bridge": "",
+      "tier": "unknown",
+      "preferred_dynamic_tracks": [],
+      "mitm_primary": true,
+      "probe_path": "output\\frida_probe\\xiaoheihe.json"
+    },
+    "enable_mitm": true,
+    "frida_enabled": false,
+    "frida_runtime_events": 0,
+    "frida_java_active_count": 0,
+    "mitm_flow_count": 8,
+    "tracker_hit_count": 2,
+    "post_run_app_closed": true
+  },
+  "summary": {
+    "ui_steps": 36,
+    "screenshots": 4,
+    "keyword_checks": 2,
+    "keyword_match_count": 2,
+    "registered_hook_types": 9,
+    "frida_events": 19,
+    "frida_runtime_events": 0,
+    "frida_java_active_count": 0,
+    "candidate_pii_count": 10,
+    "mitm_flow_count": 8,
+    "tracker_hit_count": 2,
+    "pii_key_hit_count": 1
+  }
+}

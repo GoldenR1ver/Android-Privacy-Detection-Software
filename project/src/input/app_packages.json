@@ -6,7 +6,21 @@
   "LOFTER": "com.lofter.android",
   "智联招聘": "com.zhaopin.social",
   "好大夫医生版": "com.haodf.android.doctor",
-  "小荷健康": "com.lvsongguo",
+  "小荷健康": {
+    "package": "com.lvsongguo",
+    "code_prefixes": ["com.lvsongguo", "com.xiaohe", "com.bytedance.health"]
+  },
   "东方财富": "com.eastmoney.android.berlin",
-  "世纪佳缘": "com.jiayuan"
+  "世纪佳缘": "com.jiayuan",
+  "韭研公社": {
+    "package": "com.jiucaigongshe"
+  },
+  "韭菜公社": {
+    "package": "com.jiucaigongshe"
+  },
+  "咪噜游戏": "com.youhai.milu",
+  "钓鱼人": "com.lchr.diaoyu",
+  "快看漫画": "com.kuaikan.comic",
+  "杉果游戏": "com.sonkwoapp",
+  "小黑盒": "com.max.xiaoheihe"
 }

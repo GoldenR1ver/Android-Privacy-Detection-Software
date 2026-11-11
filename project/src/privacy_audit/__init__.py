@@ -1,1 +1,1 @@
-"""Privacy audit toolkit for Lab4."""
+"""Android privacy audit toolkit."""

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "flows": [
+    {
+      "timestamp_utc": "2026-06-11T16:00:00+00:00",
+      "host": "alog.umeng.com",
+      "path": "/api/v1/event?device_id=abc123",
+      "method": "POST",
+      "scheme": "https",
+      "request_body": "{\"oaid\":\"test-oaid\",\"android_id\":\"deadbeef\"}",
+      "response_status": 200
+    },
+    {
+      "timestamp_utc": "2026-06-11T16:00:05+00:00",
+      "host": "api.example.com",
+      "path": "/v1/config",
+      "method": "GET",
+      "scheme": "https",
+      "request_body": "",
+      "response_status": 200
+    }
+  ]
+}

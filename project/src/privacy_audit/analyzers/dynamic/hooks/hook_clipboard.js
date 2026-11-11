@@ -4,7 +4,7 @@ function sendEvent(apiName, argsSummary) {
     hook_file: "hook_clipboard.js",
     api_name: apiName,
     args_summary: argsSummary || "",
-    stack_summary: ""
+    stack_summary: (typeof __frida_stack_summary === "function" ? __frida_stack_summary() : "")
   });
 }
 

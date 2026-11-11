@@ -1,4 +1,4 @@
-"""Pre-flight checks for dynamic runs (adb / Appium / Frida)."""
+﻿"""Pre-flight checks for dynamic runs (adb / Appium / Frida)."""
 
 from __future__ import annotations
 
@@ -72,7 +72,7 @@ def check_appium_server(appium_server_url: str, timeout_sec: float = 5.0) -> dic
             "url": status_url,
             "error": (
                 f"{exc}. Is Appium Server running? "
-                f"Start it (e.g. appium -a 127.0.0.1 -p 4723) before stage3-dynamic."
+                f"Start it (e.g. appium -a 127.0.0.1 -p 4723) before capture-dynamic."
             ),
             "status": {},
         }
@@ -131,7 +131,7 @@ def log_preflight_results(
     return all_ok
 
 
-def run_stage3_preflight(
+def run_capture_preflight(
     appium_server_url: str,
     *,
     skip_appium: bool = False,
@@ -139,9 +139,10 @@ def run_stage3_preflight(
     appium_timeout_sec: float = 5.0,
     frida_timeout_sec: float = 8.0,
 ) -> dict[str, Any]:
-    """Run all stage3 preflight checks and return structured result."""
+    """Run all dynamic-capture preflight checks and return structured result."""
     adb = check_adb_devices()
     appium = None if skip_appium else check_appium_server(appium_server_url, appium_timeout_sec)
     frida = None if skip_frida else check_frida_usb(frida_timeout_sec)
     ok = log_preflight_results(adb=adb, appium=appium, frida=frida)
     return {"ok": ok, "adb": adb, "appium": appium, "frida": frida}
+

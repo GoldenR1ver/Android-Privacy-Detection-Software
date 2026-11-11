@@ -1,4 +1,4 @@
-"""Compare verdicts between two Lab4-1 batch jobs."""
+﻿"""Compare verdicts between two disclosure audit batch jobs."""
 
 from __future__ import annotations
 
@@ -47,8 +47,8 @@ def compare_batch_verdicts(
         if before_path is None or after_path is None:
             per_app[app] = {
                 "status": "missing_report",
-                "before": str(before_dir / f"{app}_lab4_1_report.json"),
-                "after": str(after_dir / f"{app}_lab4_1_report.json"),
+                "before": str(before_dir / f"{app}_disclosure_report.json"),
+                "after": str(after_dir / f"{app}_disclosure_report.json"),
             }
             continue
 
@@ -121,3 +121,5 @@ def compare_batch_verdicts(
 def export_verdict_compare(data: dict[str, Any], output_path: Path) -> None:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+

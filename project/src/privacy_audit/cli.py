@@ -14,7 +14,7 @@ from privacy_audit.utils.logger import configure_cli_logging
 from privacy_audit.ingestion.legacy_bridge import import_claims_from_review_bundle
 from privacy_audit.ingestion.unknown_label_refiner import refine_unknown_labels
 from privacy_audit.reporting.report_exporter import export_json_report
-from privacy_audit.workflows.batch_pipeline import (
+from privacy_audit.workflows.batch_runner import (
     BatchJobConfig,
     find_latest_job_dir,
     load_batch_manifest,
@@ -24,15 +24,24 @@ from privacy_audit.ingestion.evidence_loader import (
     build_and_export_evidence_bundles,
     list_legacy_dynamic_apps,
 )
-from privacy_audit.ingestion.oldsrc_evidence_importer import import_oldsrc_pipeline
-from privacy_audit.workflows.lab4_1_pipeline import run_lab4_1
-from privacy_audit.workflows.lab4_2_pipeline import run_lab4_2
-from privacy_audit.workflows.lab4_3_pipeline import run_lab4_3
-from privacy_audit.workflows.stage3_dynamic_pipeline import run_stage3_dynamic
-from privacy_audit.workflows.stage2_static_pipeline import (
-    run_stage2_for_apk,
-    run_stage2_for_directory,
+from privacy_audit.ingestion.legacy_importer import import_legacy_pipeline
+from privacy_audit.workflows.disclosure_audit import run_disclosure_audit
+from privacy_audit.workflows.consent_audit import run_consent_audit
+from privacy_audit.workflows.access_audit import run_access_audit
+from privacy_audit.analyzers.dynamic.frida_runner import (
+    load_app_frida_config,
+    resolve_code_prefixes,
+    resolve_frida_launch_mode,
 )
+from privacy_audit.workflows.dynamic_capture import (
+    _resolve_app_packages_file,
+    run_dynamic_capture,
+)
+from privacy_audit.workflows.static_scan import (
+    run_static_scan,
+    run_static_scan_directory,
+)
+from privacy_audit.workflows.excel_export import export_excel_evidence
 
 
 def _default_taxonomy_file() -> Path:
@@ -59,30 +68,30 @@ def _path_arg(value: str | None) -> Path | None:
     return Path(value) if value else None
 
 
-def _cmd_lab4_1(args: argparse.Namespace) -> dict[str, Any]:
+def _cmd_disclosure_audit(args: argparse.Namespace) -> dict[str, Any]:
     log = logging.getLogger("privacy_audit.cli")
     log.info(
-        "lab4-1 app=%s policy=%s evidence=%s",
+        "audit-disclosure app=%s policy=%s evidence=%s",
         args.app_name,
         args.policy_file,
         args.evidence_file or args.evidence_dir or "(merge)",
     )
-    return run_lab4_1(
+    return run_disclosure_audit(
         app_name=args.app_name,
         policy_file=Path(args.policy_file),
         output_dir=Path(args.output_dir),
         taxonomy_file=Path(args.taxonomy_file),
         rules_file=Path(args.rules_file),
         evidence_file=_path_arg(args.evidence_file),
-        evidence_dir=_path_arg(args.evidence_dir),
-        static_evidence_dir=_path_arg(args.static_evidence_dir),
+        evidence_dir=_path_arg(args.evidence_dir) or Path("output"),
+        static_evidence_dir=_path_arg(args.static_evidence_dir) or Path("output/static"),
         legacy_run_dir=_path_arg(args.legacy_run_dir),
         legacy_md_run_dir=_path_arg(args.legacy_md_run_dir),
     )
 
 
 def _cmd_build_evidence_bundles(args: argparse.Namespace) -> dict[str, Any]:
-    logging.getLogger("privacy_audit.cli").info("build-evidence-bundles output=%s", args.output_dir)
+    logging.getLogger("privacy_audit.cli").info("build-evidence output=%s", args.output_dir)
     if args.apps_file:
         apps = _resolve_batch_apps(argparse.Namespace(apps_file=args.apps_file, apps=""))
     else:
@@ -96,7 +105,7 @@ def _cmd_build_evidence_bundles(args: argparse.Namespace) -> dict[str, Any]:
         output_dir=Path(args.output_dir),
         taxonomy_file=Path(args.taxonomy_file),
         evidence_dir=dynamic_dir,
-        static_dir=_path_arg(args.static_evidence_dir) or Path("output/stage2_static_samples"),
+        static_dir=_path_arg(args.static_evidence_dir) or Path("output/static"),
         legacy_run_dir=legacy_run,
         legacy_md_run_dir=_path_arg(args.legacy_md_run_dir) or _default_legacy_md_run_dir(),
         use_knowledge_base=not bool(getattr(args, "no_knowledge_base", False)),
@@ -105,7 +114,7 @@ def _cmd_build_evidence_bundles(args: argparse.Namespace) -> dict[str, Any]:
 
 
 def _cmd_kb_build(args: argparse.Namespace) -> dict[str, Any]:
-    from privacy_knowledgebase.process_input import generate_outputs
+    from privacy_knowledgebase.build_kb import generate_outputs
 
     kb_dir = Path(__file__).resolve().parents[1] / "privacy_knowledgebase"
     input_path = Path(args.input) if args.input else kb_dir / "input.md"
@@ -163,7 +172,7 @@ def _cmd_import_oldsrc_evidence(args: argparse.Namespace) -> dict[str, Any]:
     legacy_run = _path_arg(args.legacy_run_dir) or _default_legacy_run_dir()
     if not apps:
         apps = list_legacy_dynamic_apps(legacy_run)
-    result = import_oldsrc_pipeline(
+    result = import_legacy_pipeline(
         app_names=apps,
         legacy_run_dir=legacy_run,
         static_out_dir=Path(args.static_out_dir),
@@ -176,7 +185,7 @@ def _cmd_import_oldsrc_evidence(args: argparse.Namespace) -> dict[str, Any]:
             output_dir=Path(args.bundles_output_dir),
             taxonomy_file=Path(args.taxonomy_file),
             evidence_dir=Path(args.dynamic_evidence_dir) or Path("output"),
-            static_dir=Path("output/stage2_static_samples"),
+            static_dir=Path("output/static"),
             legacy_run_dir=legacy_run,
             legacy_md_run_dir=_path_arg(args.legacy_md_run_dir) or _default_legacy_md_run_dir(),
             use_knowledge_base=not bool(getattr(args, "no_knowledge_base", False)),
@@ -186,14 +195,14 @@ def _cmd_import_oldsrc_evidence(args: argparse.Namespace) -> dict[str, Any]:
     return result
 
 
-def _cmd_lab4_2(args: argparse.Namespace) -> dict[str, Any]:
+def _cmd_consent_audit(args: argparse.Namespace) -> dict[str, Any]:
     logging.getLogger("privacy_audit.cli").info(
-        "lab4-2 app=%s before=%s after=%s",
+        "audit-consent app=%s before=%s after=%s",
         args.app_name,
         args.before_off_file,
         args.after_off_file,
     )
-    return run_lab4_2(
+    return run_consent_audit(
         app_name=args.app_name,
         before_off_file=Path(args.before_off_file) if args.before_off_file else None,
         after_off_file=Path(args.after_off_file) if args.after_off_file else None,
@@ -202,14 +211,14 @@ def _cmd_lab4_2(args: argparse.Namespace) -> dict[str, Any]:
     )
 
 
-def _cmd_lab4_3(args: argparse.Namespace) -> dict[str, Any]:
+def _cmd_access_audit(args: argparse.Namespace) -> dict[str, Any]:
     logging.getLogger("privacy_audit.cli").info(
-        "lab4-3 app=%s dynamic=%s copy=%s",
+        "audit-access app=%s dynamic=%s copy=%s",
         args.app_name,
         args.dynamic_evidence_file,
         args.copy_file,
     )
-    return run_lab4_3(
+    return run_access_audit(
         app_name=args.app_name,
         policy_file=Path(args.policy_file),
         taxonomy_file=Path(args.taxonomy_file),
@@ -233,17 +242,17 @@ def _resolve_batch_apps(args: argparse.Namespace) -> list[str]:
     return [name.strip() for name in args.apps.split(",") if name.strip()]
 
 
-def _resolve_lab4_1_batch_paths(
+def _resolve_disclosure_batch_paths(
     args: argparse.Namespace,
     app_name: str,
 ) -> dict[str, Path | None]:
     """
-    When --evidence-dir points at flat lab4_1_evidence bundles, still merge
+    When --evidence-dir points at flat evidence bundles, still merge
     static/dynamic/legacy via output/ roots and hydrate from bundle provenance.
     """
     evidence_file: Path | None = None
     evidence_dir = Path("output")
-    static_dir = Path("output/stage2_static_samples")
+    static_dir = Path("output/static")
     legacy_run = _path_arg(getattr(args, "legacy_run_dir", None)) or _default_legacy_run_dir()
     legacy_md = _path_arg(getattr(args, "legacy_md_run_dir", None)) or _default_legacy_md_run_dir()
 
@@ -252,7 +261,7 @@ def _resolve_lab4_1_batch_paths(
         flat_bundle = bundle_dir / f"{app_name}.json"
         if flat_bundle.exists():
             evidence_file = flat_bundle
-        if bundle_dir.name != "lab4_1_evidence" and bundle_dir.exists():
+        if bundle_dir.name not in {"evidence", "lab4_1_evidence"} and bundle_dir.exists():
             evidence_dir = bundle_dir
 
     if getattr(args, "static_evidence_dir", None):
@@ -272,10 +281,10 @@ def _make_batch_processor(args: argparse.Namespace, output_dir: Path):
     rules_file = Path(args.rules_file)
 
     def process_app(app_name: str) -> dict[str, Any]:
-        if args.mode == "lab4-1":
+        if args.mode == "disclosure":
             policy_file = Path(args.policy_dir) / f"{app_name}.txt"
-            paths = _resolve_lab4_1_batch_paths(args, app_name)
-            return run_lab4_1(
+            paths = _resolve_disclosure_batch_paths(args, app_name)
+            return run_disclosure_audit(
                 app_name=app_name,
                 policy_file=policy_file,
                 output_dir=output_dir,
@@ -289,10 +298,10 @@ def _make_batch_processor(args: argparse.Namespace, output_dir: Path):
                 use_knowledge_base=not bool(getattr(args, "no_knowledge_base", False)),
                 kb_min_confidence=float(getattr(args, "kb_min_confidence", 0.72)),
             )
-        if args.mode == "lab4-2":
+        if args.mode == "consent":
             before_file = Path(args.before_dir) / f"{app_name}.json" if args.before_dir else None
             after_file = Path(args.after_dir) / f"{app_name}.json" if args.after_dir else None
-            return run_lab4_2(
+            return run_consent_audit(
                 app_name=app_name,
                 before_off_file=before_file,
                 after_off_file=after_file,
@@ -302,7 +311,7 @@ def _make_batch_processor(args: argparse.Namespace, output_dir: Path):
         policy_file = Path(args.policy_dir) / f"{app_name}.txt"
         dynamic_file = Path(args.dynamic_dir) / f"{app_name}.json" if args.dynamic_dir else None
         copy_file = Path(args.copy_dir) / f"{app_name}.json" if args.copy_dir else None
-        return run_lab4_3(
+        return run_access_audit(
             app_name=app_name,
             policy_file=policy_file,
             taxonomy_file=taxonomy_file,
@@ -396,69 +405,141 @@ def _cmd_refine_stage1_mapping(args: argparse.Namespace) -> dict[str, Any]:
     )
 
 
-def _cmd_stage2_static(args: argparse.Namespace) -> dict[str, Any]:
+def _cmd_export_excel(args: argparse.Namespace) -> dict[str, Any]:
+    policy_text_dir = Path(args.policy_text_dir)
+    policy_file = Path(args.policy_file) if args.policy_file else policy_text_dir / f"{args.app_name}.txt"
+    output_dir = Path(args.output_dir)
+    output_path = output_dir / f"{args.app_name}_pma_evidence.xlsx"
+    return export_excel_evidence(
+        app_name=args.app_name,
+        output_path=output_path,
+        policy_file=policy_file,
+        taxonomy_file=Path(args.taxonomy_file),
+        static_evidence_dir=Path(args.static_evidence_dir),
+        dynamic_evidence_dir=Path(args.dynamic_evidence_dir),
+        probe_dir=Path(args.probe_dir),
+    )
+
+
+def _cmd_static_scan(args: argparse.Namespace) -> dict[str, Any]:
     import os
 
     if getattr(args, "fast", False):
         os.environ["PRIVACY_AUDIT_STATIC_FAST"] = "1"
     taxonomy_file = Path(args.taxonomy_file)
     output_dir = Path(args.output_dir)
+    tracker_blocklist_dir = (
+        Path(args.tracker_blocklist_dir)
+        if getattr(args, "tracker_blocklist_dir", None)
+        else None
+    )
     if args.apk_file:
-        return run_stage2_for_apk(
+        return run_static_scan(
             apk_path=Path(args.apk_file),
             taxonomy_file=taxonomy_file,
             output_dir=output_dir,
+            tracker_blocklist_dir=tracker_blocklist_dir,
         )
-    return run_stage2_for_directory(
+    return run_static_scan_directory(
         apk_dir=Path(args.apk_dir),
         taxonomy_file=taxonomy_file,
         output_dir=output_dir,
         limit=int(args.limit),
+        tracker_blocklist_dir=tracker_blocklist_dir,
     )
 
 
-def _cmd_stage3_dynamic(args: argparse.Namespace) -> dict[str, Any]:
+def _cmd_dynamic_capture(args: argparse.Namespace) -> dict[str, Any]:
     output_dir = Path(args.output_dir)
     if getattr(args, "log_file", None):
         log_file = Path(args.log_file)
     else:
-        log_file = output_dir / args.app_name / "stage3_run.log"
+        log_file = output_dir / args.app_name / "capture_run.log"
     configure_cli_logging(verbose=bool(getattr(args, "verbose", False)), log_file=log_file)
     log = logging.getLogger("privacy_audit.cli")
-    log.info("stage3-dynamic log_file=%s", log_file)
+    log.info("capture-dynamic log_file=%s", log_file)
 
-    pii_text_file: Path | None = None
-    if args.pii_text_file:
-        pii_text_file = Path(args.pii_text_file)
-    elif args.pii_text_dir:
-        pii_dir = Path(args.pii_text_dir)
-        candidate = pii_dir / f"{args.app_name}.txt"
+    policy_text_file: Path | None = None
+    if args.policy_text_file:
+        policy_text_file = Path(args.policy_text_file)
+    elif args.policy_text_dir:
+        policy_dir = Path(args.policy_text_dir)
+        candidate = policy_dir / f"{args.app_name}.txt"
         if candidate.exists():
-            pii_text_file = candidate
+            policy_text_file = candidate
         else:
             low_name = args.app_name.lower()
-            for txt_file in pii_dir.glob("*.txt"):
+            for txt_file in policy_dir.glob("*.txt"):
                 if txt_file.stem.lower() == low_name:
-                    pii_text_file = txt_file
+                    policy_text_file = txt_file
                     break
 
-    stage2_file = Path(args.stage2_evidence_file) if args.stage2_evidence_file else None
-    return run_stage3_dynamic(
+    static_file = Path(args.static_evidence_file) if args.static_evidence_file else None
+    code_prefixes = resolve_code_prefixes(args.app_package)
+    try:
+        packages_file = _resolve_app_packages_file(None)
+        mapped_pkg, mapped_prefixes, frida_options = load_app_frida_config(
+            args.app_name, packages_file
+        )
+        if mapped_pkg == args.app_package:
+            code_prefixes = mapped_prefixes
+    except (FileNotFoundError, KeyError, ValueError):
+        frida_options = {}
+
+    tier_file = Path(getattr(args, "frida_tier_file", "input/frida_tier.json"))
+    if not tier_file.is_absolute():
+        tier_file = Path(__file__).resolve().parents[1] / tier_file
+
+    dynamic_track = str(getattr(args, "dynamic_track", "auto"))
+    enable_mitm = bool(getattr(args, "enable_mitm", False))
+    if dynamic_track == "mitm":
+        enable_mitm = True
+
+    return run_dynamic_capture(
         app_name=args.app_name,
         app_package=args.app_package,
         taxonomy_file=Path(args.taxonomy_file),
-        pii_text_file=pii_text_file,
+        policy_text_file=policy_text_file,
         output_dir=output_dir,
-        stage2_evidence_file=stage2_file,
+        static_evidence_file=static_file,
         appium_server_url=args.appium_server_url,
         dry_run=not bool(args.real_run),
         duration_sec=int(args.duration_sec),
-        frida_launch_mode=args.frida_mode,
+        frida_launch_mode=resolve_frida_launch_mode(args.app_name, tier_file, args.frida_mode),
         frida_grace_sec=int(getattr(args, "frida_grace_sec", 5)),
         frida_tail_sec=int(getattr(args, "frida_tail_sec", 3)),
+        frida_tier_file=tier_file,
+        code_prefixes=code_prefixes,
         appium_no_reset=not bool(args.appium_reset),
         skip_preflight=bool(getattr(args, "skip_preflight", False)),
         appium_connect_timeout_sec=float(getattr(args, "appium_connect_timeout", 5.0)),
+        navigation_bridges_file=(
+            Path(args.navigation_bridges_file)
+            if getattr(args, "navigation_bridges_file", None)
+            else None
+        ),
+        enable_llm_nav=(
+            False
+            if getattr(args, "no_llm_nav", False)
+            else None
+        ),
+        llm_model=str(getattr(args, "llm_model", "deepseek-chat")),
+        llm_base_url=str(getattr(args, "llm_base_url", "https://api.deepseek.com")),
+        tap_attempt_timeout_sec=float(getattr(args, "tap_attempt_timeout", 40.0)),
+        fallback_budget_sec=float(getattr(args, "fallback_budget_sec", 3.0)),
+        llm_nav_timeout_sec=float(getattr(args, "llm_nav_timeout_sec", 20.0)),
+        enable_frida=bool(getattr(args, "enable_frida", False)),
+        enable_mitm=enable_mitm,
+        dynamic_track=dynamic_track,
+        frida_options=frida_options,
+        probe_dir=Path(getattr(args, "probe_dir", "output/frida_probe")),
+        tracker_blocklist_dir=Path(getattr(args, "tracker_blocklist_dir", "input/tracker_blocklist")),
+        mitm_port=int(getattr(args, "mitm_port", 8080)),
+        mitm_adb_proxy_host=str(getattr(args, "mitm_adb_proxy_host", "10.0.2.2")),
+        mitm_flows_file=(
+            Path(args.mitm_flows_file) if getattr(args, "mitm_flows_file", None) else None
+        ),
+        adb_serial=getattr(args, "adb_serial", None) or None,
     )
 
 
@@ -468,34 +549,34 @@ def _build_parser() -> argparse.ArgumentParser:
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=(
             "Logging: use -v for DEBUG; logs stream to stdout immediately. "
-            "stage3-dynamic also writes output/<dir>/<App>/stage3_run.log . "
-            "Example: python -m privacy_audit.cli -v stage3-dynamic --real-run ..."
+            "capture-dynamic also writes output/<dir>/<App>/capture_run.log . "
+            "Example: python -m privacy_audit.cli -v capture-dynamic --real-run ..."
         ),
     )
     parser.add_argument(
         "-v",
         "--verbose",
         action="store_true",
-        help="DEBUG logging to stdout (recommended for stage3-dynamic)",
+        help="DEBUG logging to stdout (recommended for capture-dynamic)",
     )
     parser.add_argument(
         "--log-file",
         default="",
-        help="Optional log file path (stage3-dynamic sets a default under output-dir)",
+        help="Optional log file path (capture-dynamic sets a default under output-dir)",
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
 
-    p1 = subparsers.add_parser("lab4-1", help="Run Lab4-1 minimal pipeline")
+    p1 = subparsers.add_parser("audit-disclosure", help="Run disclosure (informed-right) audit")
     p1.add_argument("--app-name", required=True, help="App display name")
     p1.add_argument("--policy-file", required=True, help="Policy text file path")
     p1.add_argument("--evidence-file", help="Optional prebuilt evidence bundle json path")
     p1.add_argument(
         "--evidence-dir",
-        help="Evidence root (flat <app>.json and/or stage3 <app>/dynamic_evidence.json)",
+        help="Evidence root (flat <app>.json and/or dynamic <app>/dynamic_evidence.json)",
     )
     p1.add_argument(
         "--static-evidence-dir",
-        help="Stage2 static evidence root (<alias>/static_evidence.json)",
+        help="Static evidence root (<alias>/static_evidence.json)",
     )
     p1.add_argument(
         "--legacy-run-dir",
@@ -517,19 +598,19 @@ def _build_parser() -> argparse.ArgumentParser:
     )
     p1.add_argument(
         "--output-dir",
-        default="output/lab4_1",
+        default="output/disclosure",
         help="Output report directory",
     )
 
-    p2 = subparsers.add_parser("lab4-2", help="Run Lab4-2 consent authenticity pipeline")
+    p2 = subparsers.add_parser("audit-consent", help="Run consent authenticity audit")
     p2.add_argument("--app-name", required=True, help="App display name")
     p2.add_argument(
         "--before-off-file",
-        help="Stage3 dynamic evidence before disabling consent/switch",
+        help="Dynamic evidence before disabling consent/switch",
     )
     p2.add_argument(
         "--after-off-file",
-        help="Stage3 dynamic evidence after disabling consent/switch",
+        help="Dynamic evidence after disabling consent/switch",
     )
     p2.add_argument(
         "--toggle-name",
@@ -538,16 +619,16 @@ def _build_parser() -> argparse.ArgumentParser:
     )
     p2.add_argument(
         "--output-dir",
-        default="output/lab4_2",
+        default="output/consent",
         help="Output report directory",
     )
 
-    p3 = subparsers.add_parser("lab4-3", help="Run Lab4-3 access authenticity pipeline")
+    p3 = subparsers.add_parser("audit-access", help="Run access authenticity audit")
     p3.add_argument("--app-name", required=True, help="App display name")
     p3.add_argument("--policy-file", required=True, help="Policy text file path")
     p3.add_argument(
         "--dynamic-evidence-file",
-        help="Stage3 dynamic evidence json path",
+        help="Dynamic evidence json path",
     )
     p3.add_argument(
         "--copy-file",
@@ -560,11 +641,11 @@ def _build_parser() -> argparse.ArgumentParser:
     )
     p3.add_argument(
         "--output-dir",
-        default="output/lab4_3",
+        default="output/access",
         help="Output report directory",
     )
 
-    p4 = subparsers.add_parser("batch", help="Run stage7 batch pipeline with retry/resume/logging")
+    p4 = subparsers.add_parser("batch", help="Run batch pipeline with retry/resume/logging")
     p4.add_argument("--apps", default="", help="Comma-separated app names")
     p4.add_argument(
         "--apps-file",
@@ -572,8 +653,8 @@ def _build_parser() -> argparse.ArgumentParser:
     )
     p4.add_argument(
         "--mode",
-        default="lab4-1",
-        choices=["lab4-1", "lab4-2", "lab4-3"],
+        default="disclosure",
+        choices=["disclosure", "consent", "access"],
         help="Batch mode",
     )
     p4.add_argument(
@@ -583,11 +664,11 @@ def _build_parser() -> argparse.ArgumentParser:
     )
     p4.add_argument(
         "--evidence-dir",
-        help="Evidence root: flat <app>.json bundles and/or stage3 dynamic paths",
+        help="Evidence root: flat <app>.json bundles and/or Dynamic paths",
     )
     p4.add_argument(
         "--static-evidence-dir",
-        help="Stage2 static evidence root for live merge during batch",
+        help="Static evidence root for live merge during batch",
     )
     p4.add_argument(
         "--legacy-run-dir",
@@ -609,29 +690,29 @@ def _build_parser() -> argparse.ArgumentParser:
     )
     p4.add_argument(
         "--output-dir",
-        default="output/lab4_1",
+        default="output/disclosure",
         help="Output report directory",
     )
     p4.add_argument(
         "--before-dir",
-        help="Batch input dir for lab4-2 before_off files, named <app>.json",
+        help="Batch input dir for audit-consent before_off files, named <app>.json",
     )
     p4.add_argument(
         "--after-dir",
-        help="Batch input dir for lab4-2 after_off files, named <app>.json",
+        help="Batch input dir for audit-consent after_off files, named <app>.json",
     )
     p4.add_argument(
         "--dynamic-dir",
-        help="Batch input dir for lab4-3 dynamic evidence files, named <app>.json",
+        help="Batch input dir for audit-access dynamic evidence files, named <app>.json",
     )
     p4.add_argument(
         "--copy-dir",
-        help="Batch input dir for lab4-3 copy files, named <app>.json",
+        help="Batch input dir for audit-access copy files, named <app>.json",
     )
     p4.add_argument(
         "--toggle-name",
         default="privacy_switch",
-        help="Toggle/switch label for lab4-2 reports",
+        help="Toggle/switch label for audit-consent reports",
     )
     p4.add_argument(
         "--job-id",
@@ -669,19 +750,19 @@ def _build_parser() -> argparse.ArgumentParser:
     p4.add_argument(
         "--no-knowledge-base",
         action="store_true",
-        help="Disable privacy_knowledgebase enrichment in lab4-1 batch",
+        help="Disable privacy_knowledgebase enrichment in audit-disclosure batch",
     )
     p4.add_argument(
         "--kb-min-confidence",
         default=0.72,
         type=float,
-        help="Min KB confidence for observed_pii merge (lab4-1)",
+        help="Min KB confidence for observed_pii merge (audit-disclosure)",
     )
 
     p4s = subparsers.add_parser("batch-status", help="Inspect batch job task state")
     p4s.add_argument(
         "--output-dir",
-        default="output/lab4_1",
+        default="output/disclosure",
         help="Batch output root directory",
     )
     p4s.add_argument("--job-id", default="", help="Batch job id under output/batch_jobs/")
@@ -696,8 +777,8 @@ def _build_parser() -> argparse.ArgumentParser:
     )
 
     p_ev = subparsers.add_parser(
-        "build-evidence-bundles",
-        help="Merge stage2/stage3/legacy evidence into flat bundles for Lab4-1 batch",
+        "build-evidence",
+        help="Merge static/dynamic/legacy evidence into flat bundles for disclosure audit batch",
     )
     p_ev.add_argument("--apps", default="", help="Comma-separated app names")
     p_ev.add_argument(
@@ -706,18 +787,18 @@ def _build_parser() -> argparse.ArgumentParser:
     )
     p_ev.add_argument(
         "--output-dir",
-        default="output/lab4_1_evidence",
+        default="output/evidence",
         help="Directory for <app>.json merged evidence bundles",
     )
     p_ev.add_argument(
         "--dynamic-evidence-dir",
         default="output",
-        help="Root to search stage3_dynamic_* and per-app dynamic_evidence.json",
+        help="Root to search dynamic evidence roots and per-app dynamic_evidence.json",
     )
     p_ev.add_argument(
         "--static-evidence-dir",
-        default="output/stage2_static_samples",
-        help="Stage2 static evidence root",
+        default="output/static",
+        help="Static evidence root",
     )
     p_ev.add_argument(
         "--legacy-run-dir",
@@ -774,26 +855,26 @@ def _build_parser() -> argparse.ArgumentParser:
     )
 
     p_cmp = subparsers.add_parser(
-        "compare-batch-verdicts",
-        help="Compare Lab4-1 verdicts between two report directories (e.g. no-KB vs KB)",
+        "compare-verdicts",
+        help="Compare disclosure verdicts between two report directories (e.g. no-KB vs KB)",
     )
     p_cmp.add_argument("--apps", default="", help="Comma-separated app names")
     p_cmp.add_argument("--apps-file", help="App list file")
     p_cmp.add_argument(
         "--before-reports-dir",
         required=True,
-        help="Directory with *_lab4_1_report.json (baseline, e.g. no-KB batch)",
+        help="Directory with *_disclosure_report.json (baseline, e.g. no-KB batch)",
     )
     p_cmp.add_argument(
         "--after-reports-dir",
         required=True,
-        help="Directory with *_lab4_1_report.json (comparison, e.g. KB batch)",
+        help="Directory with *_disclosure_report.json (comparison, e.g. KB batch)",
     )
     p_cmp.add_argument("--before-label", default="no_kb", help="Label for before column")
     p_cmp.add_argument("--after-label", default="with_kb", help="Label for after column")
     p_cmp.add_argument(
         "--output-dir",
-        default="output/lab4_1",
+        default="output/disclosure",
         help="Directory for comparison JSON output",
     )
     p_cmp.add_argument(
@@ -802,8 +883,8 @@ def _build_parser() -> argparse.ArgumentParser:
     )
 
     p_old = subparsers.add_parser(
-        "import-oldsrc-evidence",
-        help="Import oldsrc Lab3 audit/test_cases into stage2/stage3 derived evidence dirs",
+        "import-legacy",
+        help="Import legacy Lab3 audit/test_cases into static/dynamic derived evidence dirs",
     )
     p_old.add_argument("--apps", default="", help="Comma-separated app names")
     p_old.add_argument("--apps-file", help="App list file")
@@ -814,12 +895,12 @@ def _build_parser() -> argparse.ArgumentParser:
     )
     p_old.add_argument(
         "--static-out-dir",
-        default="output/stage2_oldsrc_derived",
+        default="output/static/legacy",
         help="Output root for derived static_evidence.json per app slug",
     )
     p_old.add_argument(
         "--dynamic-out-dir",
-        default="output/stage3_oldsrc_derived",
+        default="output/dynamic/legacy",
         help="Output root for derived dynamic_evidence.json per app",
     )
     p_old.add_argument(
@@ -830,11 +911,11 @@ def _build_parser() -> argparse.ArgumentParser:
     p_old.add_argument(
         "--rebuild-bundles",
         action="store_true",
-        help="After import, rebuild output/lab4_1_evidence bundles",
+        help="After import, rebuild output/evidence bundles",
     )
     p_old.add_argument(
         "--bundles-output-dir",
-        default="output/lab4_1_evidence",
+        default="output/evidence",
         help="Flat bundle output dir when --rebuild-bundles is set",
     )
     p_old.add_argument(
@@ -860,7 +941,7 @@ def _build_parser() -> argparse.ArgumentParser:
     )
 
     p5 = subparsers.add_parser(
-        "bridge-stage1",
+        "import-legacy-claims",
         help="Import legacy review labels to normalized claims",
     )
     p5.add_argument(
@@ -886,13 +967,13 @@ def _build_parser() -> argparse.ArgumentParser:
     )
 
     p6 = subparsers.add_parser(
-        "refine-stage1-mapping",
+        "refine-label-mapping",
         help="Cluster unknown labels and expand legacy mapping",
     )
     p6.add_argument(
         "--bridge-output-file",
         default="output/stage1/claims_from_review_bundle.json",
-        help="Output json from bridge-stage1 command",
+        help="Output json from import-legacy-claims command",
     )
     p6.add_argument(
         "--mapping-file",
@@ -929,8 +1010,8 @@ def _build_parser() -> argparse.ArgumentParser:
     )
 
     p7 = subparsers.add_parser(
-        "stage2-static",
-        help="Run stage2 static analysis (Exodus + Androguard)",
+        "scan-static",
+        help="Run Static analysis (Exodus + Androguard)",
     )
     p7.add_argument(
         "--apk-file",
@@ -938,7 +1019,7 @@ def _build_parser() -> argparse.ArgumentParser:
     )
     p7.add_argument(
         "--apk-dir",
-        default="input/apks",
+        default="input/apk",
         help="APK directory for batch scan",
     )
     p7.add_argument(
@@ -948,7 +1029,7 @@ def _build_parser() -> argparse.ArgumentParser:
     )
     p7.add_argument(
         "--output-dir",
-        default="output/stage2_static",
+        default="output/static",
         help="Output directory for static evidence reports",
     )
     p7.add_argument(
@@ -962,25 +1043,70 @@ def _build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Skip full Androguard AnalyzeAPK; use dex string scan (faster batch)",
     )
+    p7.add_argument(
+        "--tracker-blocklist-dir",
+        default="input/tracker_blocklist",
+        help="Tracker/SDK signature blocklist directory (R2 DEX scan)",
+    )
+
+    p_excel = subparsers.add_parser(
+        "export-excel",
+        help="Export PMA-style Excel evidence (API | stack | policy declaration)",
+    )
+    p_excel.add_argument("--app-name", required=True, help="App display name")
+    p_excel.add_argument(
+        "--policy-file",
+        help="Policy plaintext path (default: input/pii_text/<app-name>.txt)",
+    )
+    p_excel.add_argument(
+        "--policy-text-dir",
+        default="input/pii_text",
+        help="Policy plaintext directory",
+    )
+    p_excel.add_argument(
+        "--taxonomy-file",
+        default=str(_default_taxonomy_file()),
+        help="Personal info taxonomy yaml path",
+    )
+    p_excel.add_argument(
+        "--static-evidence-dir",
+        default="output/static",
+        help="Static evidence root directory",
+    )
+    p_excel.add_argument(
+        "--dynamic-evidence-dir",
+        default="output/dynamic",
+        help="Dynamic evidence root directory",
+    )
+    p_excel.add_argument(
+        "--probe-dir",
+        default="output/frida_probe",
+        help="Frida probe JSON directory (R1.5)",
+    )
+    p_excel.add_argument(
+        "--output-dir",
+        default="output/excel",
+        help="Excel output directory",
+    )
 
     p8 = subparsers.add_parser(
-        "stage3-dynamic",
-        help="Run stage3 dynamic evidence pipeline (Appium + Frida)",
+        "capture-dynamic",
+        help="Run Dynamic evidence pipeline (Appium + Frida)",
     )
     p8.add_argument("--app-name", required=True, help="App display name")
     p8.add_argument("--app-package", required=True, help="Android app package name")
     p8.add_argument(
-        "--pii-text-file",
+        "--policy-text-file",
         help="Optional policy/plaintext file for path suggestions",
     )
     p8.add_argument(
-        "--pii-text-dir",
+        "--policy-text-dir",
         default="input/pii_text",
         help="Policy plaintext directory; uses <app-name>.txt when present",
     )
     p8.add_argument(
-        "--stage2-evidence-file",
-        help="Optional stage2 static_evidence.json path",
+        "--static-evidence-file",
+        help="Optional static_evidence.json path",
     )
     p8.add_argument(
         "--taxonomy-file",
@@ -989,7 +1115,7 @@ def _build_parser() -> argparse.ArgumentParser:
     )
     p8.add_argument(
         "--output-dir",
-        default="output/stage3_dynamic",
+        default="output/dynamic",
         help="Output directory for dynamic evidence",
     )
     p8.add_argument(
@@ -1018,13 +1144,58 @@ def _build_parser() -> argparse.ArgumentParser:
     p8.add_argument(
         "--real-run",
         action="store_true",
-        help="Run real Appium/Frida instead of dry-run simulation",
+        help="Run real Appium UI capture (Frida off by default; use --enable-frida)",
+    )
+    p8.add_argument(
+        "--enable-frida",
+        action="store_true",
+        help="Attach Frida hooks during real-run (default: UI-only dynamic verification)",
+    )
+    p8.add_argument(
+        "--enable-mitm",
+        action="store_true",
+        help="Capture HTTP(S) via mitmproxy during real-run (R3 network track)",
+    )
+    p8.add_argument(
+        "--dynamic-track",
+        default="auto",
+        choices=["auto", "frida", "mitm", "consent", "ui"],
+        help="Dynamic track: auto/consent=mitm-primary; frida=opt-in Frida; mitm/ui explicit",
+    )
+    p8.add_argument(
+        "--probe-dir",
+        default="output/frida_probe",
+        help="Frida probe JSON directory for --dynamic-track auto",
+    )
+    p8.add_argument(
+        "--tracker-blocklist-dir",
+        default="input/tracker_blocklist",
+        help="Tracker domain blocklist for mitm matching",
+    )
+    p8.add_argument("--mitm-port", default=8080, type=int, help="mitmproxy listen port")
+    p8.add_argument(
+        "--mitm-adb-proxy-host",
+        default="10.0.2.2",
+        help="Host/IP passed to adb http_proxy (emulator default 10.0.2.2)",
+    )
+    p8.add_argument(
+        "--mitm-flows-file",
+        help="Replay mitm flows from JSON/HAR instead of live mitmdump",
+    )
+    p8.add_argument(
+        "--adb-serial",
+        help="adb -s device serial (default: ANDROID_SERIAL or auto-pick MuMu 16384)",
     )
     p8.add_argument(
         "--frida-mode",
-        default="attach",
-        choices=["attach", "spawn"],
-        help="Frida launch mode: attach to running app (default) or cold spawn",
+        default="auto",
+        choices=["auto", "attach", "spawn"],
+        help="Frida launch: auto=frida_tier.json preferred_launch_mode (default), attach, or spawn",
+    )
+    p8.add_argument(
+        "--frida-tier-file",
+        default="input/frida_tier.json",
+        help="Per-app Frida tier / spawn preferences (default: input/frida_tier.json)",
     )
     p8.add_argument(
         "--appium-reset",
@@ -1042,6 +1213,44 @@ def _build_parser() -> argparse.ArgumentParser:
         type=float,
         help="Seconds to wait for Appium /status before session (default: 5)",
     )
+    p8.add_argument(
+        "--navigation-bridges-file",
+        default="input/navigation_bridges.json",
+        help="JSON file for learned intermediate navigation bridges",
+    )
+    p8.add_argument(
+        "--no-llm-nav",
+        action="store_true",
+        help="Disable DeepSeek-assisted bridge discovery on navigation miss",
+    )
+    p8.add_argument(
+        "--llm-model",
+        default="deepseek-chat",
+        help="DeepSeek chat model for LLM navigation (default: deepseek-chat)",
+    )
+    p8.add_argument(
+        "--llm-base-url",
+        default="https://api.deepseek.com",
+        help="DeepSeek API base URL",
+    )
+    p8.add_argument(
+        "--tap-attempt-timeout",
+        default=40.0,
+        type=float,
+        help="Max seconds per navigation token (default: 40)",
+    )
+    p8.add_argument(
+        "--fallback-budget-sec",
+        default=3.0,
+        type=float,
+        help="Max seconds for me-tab/scroll retry fallbacks (default: 3)",
+    )
+    p8.add_argument(
+        "--llm-nav-timeout-sec",
+        default=20.0,
+        type=float,
+        help="Max seconds for DeepSeek bridge suggestion call (default: 20)",
+    )
 
     return parser
 
@@ -1056,32 +1265,34 @@ def main() -> int:
     cli_log = logging.getLogger("privacy_audit.cli")
     cli_log.info("Running command: %s", args.command)
 
-    if args.command == "lab4-1":
-        result = _cmd_lab4_1(args)
-    elif args.command == "lab4-2":
-        result = _cmd_lab4_2(args)
-    elif args.command == "lab4-3":
-        result = _cmd_lab4_3(args)
+    if args.command == "audit-disclosure":
+        result = _cmd_disclosure_audit(args)
+    elif args.command == "audit-consent":
+        result = _cmd_consent_audit(args)
+    elif args.command == "audit-access":
+        result = _cmd_access_audit(args)
     elif args.command == "batch":
         result = _cmd_batch(args)
     elif args.command == "batch-status":
         result = _cmd_batch_status(args)
-    elif args.command == "build-evidence-bundles":
+    elif args.command == "build-evidence":
         result = _cmd_build_evidence_bundles(args)
     elif args.command == "kb-build":
         result = _cmd_kb_build(args)
-    elif args.command == "compare-batch-verdicts":
+    elif args.command == "compare-verdicts":
         result = _cmd_compare_batch_verdicts(args)
-    elif args.command == "import-oldsrc-evidence":
+    elif args.command == "import-legacy":
         result = _cmd_import_oldsrc_evidence(args)
-    elif args.command == "bridge-stage1":
+    elif args.command == "import-legacy-claims":
         result = _cmd_bridge_stage1(args)
-    elif args.command == "refine-stage1-mapping":
+    elif args.command == "refine-label-mapping":
         result = _cmd_refine_stage1_mapping(args)
-    elif args.command == "stage2-static":
-        result = _cmd_stage2_static(args)
+    elif args.command == "scan-static":
+        result = _cmd_static_scan(args)
+    elif args.command == "export-excel":
+        result = _cmd_export_excel(args)
     else:
-        result = _cmd_stage3_dynamic(args)
+        result = _cmd_dynamic_capture(args)
 
     cli_log.info("Command finished: %s", args.command)
     try:
@@ -1095,3 +1306,10 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
+
+
+
+
+
+

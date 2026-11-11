@@ -1,0 +1,1916 @@
+{
+  "schema_version": 2,
+  "stage": "stage3_dynamic",
+  "app_name": "咪噜游戏",
+  "app_package": "com.youhai.milu",
+  "dry_run": false,
+  "generated_at_utc": "2026-06-11T23:51:23.159574+00:00",
+  "candidate_pii": [
+    "imei",
+    "android_id",
+    "location",
+    "ip_address",
+    "mac_address",
+    "phone_number",
+    "contact_list",
+    "clipboard",
+    "sdk_info",
+    "network_transmission"
+  ],
+  "ui_result": {
+    "runner": "appium",
+    "mode": "real",
+    "timestamp_utc": "2026-06-11T23:51:22.947866+00:00",
+    "steps": [
+      "adb_foreground_before=com.youhai.milu",
+      "session_created_attempt1=ok",
+      "session_created",
+      "foreground_ok[com.youhai.milu]=attempt1",
+      "foreground_package=com.youhai.milu",
+      "navigate_path_1=我 > 设置 > 隐私设置",
+      "tap[我]=miss_try_me_tab_fallback",
+      "tap[我]=timeout_40s",
+      "nav_path_1_stopped_at=我",
+      "path_2_reset_start",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.youhai.milu",
+      "foreground_ok[com.youhai.milu]=post_activate1",
+      "path_2_reset=terminate_activate",
+      "navigate_path_2=我 > 设置 > 账号与安全",
+      "me_entry_bottom_tab_detected",
+      "bottom_tab_me[bounds]=ok(972,1877,com.youhai.milu:id/five_radio_btn)",
+      "me_entry_bottom_tab_tapped",
+      "tap[我]=me_entry_avatar",
+      "tap[我]=ok",
+      "tap[设置]=miss_try_settings_gear(path_account_security)",
+      "settings_gear_coord=ok(1020,94)",
+      "tap[设置]=settings_open_sidebar",
+      "tap[设置]=timeout_40s",
+      "nav_path_2_stopped_at=设置",
+      "screenshot_captured",
+      "function_triggers=start",
+      "grant[ACCESS_FINE_LOCATION]=ok",
+      "grant[ACCESS_COARSE_LOCATION]=ok",
+      "grant[READ_PHONE_STATE]=ok",
+      "grant[READ_CONTACTS]=skip",
+      "trigger_perms_granted=3",
+      "reset_back_presses=3",
+      "foreground_launch_attempt1:was=app.lawnchair:target=com.youhai.milu",
+      "foreground_ok[com.youhai.milu]=post_activate1",
+      "trigger_tab[首页]=ok",
+      "function_triggers=budget_exhausted",
+      "function_triggers=done"
+    ],
+    "policy_path_hints": [],
+    "navigation_paths": [
+      [
+        "我",
+        "设置",
+        "隐私设置"
+      ],
+      [
+        "我",
+        "设置",
+        "账号与安全"
+      ]
+    ],
+    "navigation_path_records": [
+      {
+        "source_hint": "",
+        "original_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 1,
+        "matched_hint": "",
+        "expanded_path": [
+          "我",
+          "设置",
+          "隐私设置"
+        ]
+      },
+      {
+        "source_hint": "",
+        "original_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ],
+        "sidebar_injected": false,
+        "sidebar_reason": "runtime_fallback_only",
+        "sidebar_insert_index": null,
+        "policy_corner_marker": "",
+        "canonical_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ],
+        "would_have_inserted_at": 1,
+        "path_index": 2,
+        "matched_hint": "",
+        "expanded_path": [
+          "我",
+          "设置",
+          "账号与安全"
+        ]
+      }
+    ],
+    "navigation_bridges": {
+      "不把我推荐给可能认识的人": [
+        "找到我的方式"
+      ],
+      "把我推荐给可能认识的人": [
+        "找到我的方式"
+      ],
+      "用户保护中心": [
+        "设置"
+      ]
+    },
+    "llm_nav_enabled": true,
+    "screenshots": [
+      "output\\stage3_lab42_after\\咪噜游戏\\screenshots\\咪噜游戏_20260612_073320_launch.png",
+      "output\\stage3_lab42_after\\咪噜游戏\\screenshots\\咪噜游戏_20260612_074253_path1.png",
+      "output\\stage3_lab42_after\\咪噜游戏\\screenshots\\咪噜游戏_20260612_074301_path2.png",
+      "output\\stage3_lab42_after\\咪噜游戏\\screenshots\\咪噜游戏_20260612_074704_path2.png",
+      "output\\stage3_lab42_after\\咪噜游戏\\screenshots\\咪噜游戏_20260612_075122_trigger_tabs.png"
+    ],
+    "keyword_checks": [
+      {
+        "path_index": 1,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": true,
+          "我的": true,
+          "个人": false,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": false,
+          "profile_page": false,
+          "profile_resource_marker": false
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "我",
+        "matched": true,
+        "checks": {
+          "我": true,
+          "我的": true,
+          "个人": false,
+          "主页": false,
+          "用户": false,
+          "个人主页": false,
+          "用户主页": false,
+          "隐私": false,
+          "设置": false,
+          "profile_page": false,
+          "profile_resource_marker": false
+        }
+      },
+      {
+        "path_index": 2,
+        "step_token": "设置",
+        "matched": true,
+        "checks": {
+          "设置": true,
+          "settings_page": false,
+          "帐号与安全": false,
+          "账号与安全": false,
+          "隐私": true,
+          "关于小荷": false,
+          "关于小荷健康": false,
+          "我的": false
+        }
+      }
+    ],
+    "error": ""
+  },
+  "frida_result": {
+    "runner": "frida",
+    "mode": "dry_run",
+    "launch_mode": "spawn",
+    "package": "com.youhai.milu",
+    "registered_hooks": {
+      "imei": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js"
+      ],
+      "android_id": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js"
+      ],
+      "location": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js"
+      ],
+      "ip_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "mac_address": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js"
+      ],
+      "phone_number": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js"
+      ],
+      "contact_list": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js"
+      ],
+      "clipboard": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js"
+      ],
+      "network_transmission": [
+        "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js"
+      ]
+    },
+    "global_hooks": [
+      "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js"
+    ],
+    "papi_target_count": 28,
+    "events": [
+      {
+        "timestamp_utc": "2026-06-11T23:51:23.060686+00:00",
+        "pii_type": "imei",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js",
+        "api_name": "hook_imei",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:51:23.060704+00:00",
+        "pii_type": "android_id",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+        "api_name": "hook_android_id",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:51:23.060709+00:00",
+        "pii_type": "android_id",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js",
+        "api_name": "hook_oaid",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:51:23.060712+00:00",
+        "pii_type": "location",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js",
+        "api_name": "hook_location",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:51:23.060714+00:00",
+        "pii_type": "ip_address",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+        "api_name": "hook_mac_ip",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:51:23.060717+00:00",
+        "pii_type": "mac_address",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+        "api_name": "hook_mac_ip",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:51:23.060719+00:00",
+        "pii_type": "phone_number",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js",
+        "api_name": "hook_phone",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:51:23.060721+00:00",
+        "pii_type": "contact_list",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js",
+        "api_name": "hook_contacts",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:51:23.060723+00:00",
+        "pii_type": "clipboard",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js",
+        "api_name": "hook_clipboard",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:51:23.060725+00:00",
+        "pii_type": "network_transmission",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+        "api_name": "hook_network_okhttp",
+        "args_summary": "dry_run_args",
+        "stack_summary": "dry_run_stack"
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:51:23.060728+00:00",
+        "pii_type": "network_transmission",
+        "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+        "api_name": "OkHttp.execute",
+        "args_summary": "dry_run_network",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:51:23.060730+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getImei",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:51:23.060733+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getMeid",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:51:23.060735+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getDeviceId",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:51:23.060737+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getDeviceSoftwareVersion",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:51:23.060739+00:00",
+        "pii_type": "imei",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.telephony.TelephonyManager.getSimSerialNumber",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:51:23.060741+00:00",
+        "pii_type": "android_id",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.provider.Settings$Secure.getString",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:51:23.060743+00:00",
+        "pii_type": "android_id",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.provider.Settings$System.getString",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:51:23.060744+00:00",
+        "pii_type": "location",
+        "hook_file": "hook_papi.js",
+        "api_name": "android.location.LocationManager.getLastKnownLocation",
+        "args_summary": "dry_run_papi",
+        "stack_summary": ""
+      }
+    ],
+    "error": "frida_disabled",
+    "skipped": true
+  },
+  "mitm_result": {
+    "adapter": "mitm_runner",
+    "started_at_utc": "2026-06-11T23:51:23.036562+00:00",
+    "duration_sec": 1089.47,
+    "listen_port": 8080,
+    "flows_source": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\output\\stage3_lab42_after\\咪噜游戏\\mitm_flows.json",
+    "flows": [
+      {
+        "timestamp_utc": "2026-06-11T23:33:14.999704+00:00",
+        "host": "utoken.umeng.com",
+        "path": "/anti/updateZdata",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "(ÏI1tdvT1h´\u0005?ää+?êÚö)ÿQ\u0001jË¹Á\tJñp\u0011\u0007Â\u0004µB>«K2?¼¾\bÍZ#OÔGágH\u0011³>Ad6Rô\fKÙù¾ÞÂT'øtaï1:å7rp_\u0004Ã_y\u0002ÏàZ¥ÙO\"ýÊ¼¥ ÆD\u000fT`Âî0öùÜ\u0012eRÿYÏÓÅ×§\u0014]PQÂPen\u0012\td}PªÓÂtÉê×PA'3½ÒúÉv\u0018Ò\u0006CÞSêcöí\u0003B\u0001(â\u0016`Y´ibh­Ñ¯q\u001c\u0010\\XëÑ^ï¥º|F\u000bu\u0014\u0015\u0013½¦0vã?é´ºIë²ý\u0012×v`\u0004hÈ\u0007p\u0000\u0007©©W7­u(´3ùÖÜ­Ì4ÂØk´ó^7~\u001c6\nÄæÅ÷k¿%ïÓ7øX¸ª:¯ ¶I?\u0002KÈÐÏ´>\fY9<\u0016ìþi\u0005B½1¢s\\£(\u001bÝ8aNp^Ä»x$ ½ßæ3\u001bË;}\u000fW¤\u0001ððÿ©ÁOÜë\u0003º\u000eï\t#»þýªLY\u0011>º¼Kà_?\nË}°½²·#qj\"¢Q\"(Ñ·µ+\u000eU4ÕAa\n¯=ÏãÙ\tAÔa}rI½/\u000fC\u0017@\u0000SÜÛÍRá|Ã¯\r\u0011¢J\"\r_Ð?\\æý\u0007±¨©År'úæ:%MÙ6\u0018[ÖdõYLÜÕéô7Húñ\u0007b9Î1Õ\nÈx#hu<é\u001b5ÐoI3áb²|g,ù¸G!\u000fûsìn\u0016-ö)Ó|\u0005Øß±\u0018\u000fö7jþÊæÇß!_\u0001q=ÆKÖ(g\u0015o\bÙc½Ì\u0000oÃ\u000fòÕÃ&\u000fsºòÌ£X=\u0014æ<k\f\tü\nõ´OlÝÍÅYÚoäÞüÛ\u001døÊfxæñ}WX\f\u001c)FÅ=EWAÈú\u0007fÓªGUl/³\u0002^ZQ\u001cUÕ¥ð)»\u0002R\u001elôË.Å·Rø¤KÒx|M©7à¯WÊ\tõÑ\ff\u000b¨»Î¹!ð lÔj|ªfû5â6i®£\\¬o\u0007ªë^\u0001ÄÜ¼\u0010>º\tÜÕx¶²LTþ\"LÏø°\bßþã\u0010tç_7btõ\u0017])\r¿/h\u0015Õ©¯æÒx³~pE@I\bî\u001ej-¡x2oÅ\\þð\u0012l£pkÛ\u001dÊb\u0007 ÛV\u001b\u001dó\u0019\rØPXÔúmrTWY£6îçãyÞ|¾\"g\t\u0007(9B\u0017åÍWi¶eNæhBk\b¼@´iÑþÝ²4\u0004û§\u0006\u0014\u0017µ9\u0018§\u0004µ5\u001fi)¿\u001däd[F\u0000DÒy ~¤H?\u0011ÓT¥\u001e&_¯¿öùî\u0012\u0014^KU8\u0014p[¾~\b\u0010?Éd·0]\n\u000e\u001f¼o\u0015Ø-¨U*\u001a[èø§PW\u0012\u0016I ¤\rñF\u0006ºÎðjQðW/d¶æëi\u0013\u0019¼Ú£L`\u0017\u0007\\¦\u000333\u0005_üJY\fÍºÈ\bs\u0013tßèÏç¸ïõn\u001a\u0001¾Q5ú|va5'Ø\u0001Çß\u0013Ï\\\u0012ßðiêIW©IÆß¬º¿Vx¾ÿWj-¿¡>Ï.\u0006\u001eç«±ÁAör\u0005\r$rÄ\u0001\u0017&üþt\u0019á|§b¡aÉñb\u001dóìD±q`E{Õ©û+ø³ÒdÆ¼ó^Q3|ú&ø\u000e\t1",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:33:15.016515+00:00",
+        "host": "ggapi.9lk.cn",
+        "path": "/Bv2/OpenMore/index",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "content=yZJGk812GZDdc5T%2BWBeurux5ODwBXW0bR406xHnqBFQVbuBdk7SuEsyvEezBxMQih2YE2jdliMD7sELa38PmDdLGJN1f1lmyMx9Ig5R9U7SZmsCztNWv7qsmEbcF4uAnz2wq3mf6FdqawnuEb2vCmGcL8neVfpJwGLgkE%2ByxPO5frPp9gWAa65l%2B6W1uNJc7V5jCxwBasyFTCFGxn2i6iZ2NG5Zxi1jfcI0usMdJj5TBRbrp1e24%2FMNMAuZeWLpnL07freXcxP41MDMro8CnBF%2FYoBFi2j2zzDdG%2FY%2BnpRfKtzZgvIJ3DCJhJE9gbeKwL6stTIGLMr37pIu2%2BEehQUxvbI18RGjYXS5tYXFGOLQ%3D",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:33:15.052803+00:00",
+        "host": "abt-online.netease.im",
+        "path": "/v1/api/abt/client/getExperimentInfo",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"useLocalCache\":true,\"clientInfo\":{\"projectKey\":\"im_sdk_abtest_all\",\"appKey\":\"e743d85abdd4ef60e96c75d6c1909cec\",\"sdkVersion\":\"9.14.2\",\"deviceId\":\"dc122f4d-7af9-4b04-8500-f509cdb6292c\",\"manufacturer\":\"HUAWEI\",\"board\":\"ALN-AL00\",\"model\":\"ALN-AL00\",\"device\":\"Allen\",\"osType\":\"Android\",\"osVersion\":\"12\"}}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:33:15.058936+00:00",
+        "host": "dypnsapi-dualstack.aliyuncs.com",
+        "path": "/",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "&Ability=1&Action=QueryPnsDispatchInfo&Format=JSON&SceneCode=FC220000010880004&SdkVersion=V2&SignatureMethod=HMAC-SHA1&SignatureNonce=f4516017-93bd-4ca4-b37a-e40608a5484d&SignatureVersion=1.0&TerminalInfo=eyJjIjoiaU9oMXlBWlFQWlRVRDVlR2k4Z3RjeVExVlNtU3pPV25xdzMzbW1OR1dUd01GdzIyNHk0Z1BGVjdEVVE4dGh5TE9NdVJJdGpDWGp6Y1xuRGkyajd3aHJBaENZVmkwdTRnTzZkRGlHSjc3ZWFhVE85VzB3ZThGXC81NDRBRnFpZTF2cisrUmJSYjJVbnc5aG1xenRNa0hPZjA0aUhcbm9WME5lS0J5bFhlRnZKSFBmSmRRb1FPRUx3YzN5VG8zcEJISzlSVGtzV2RZNGxrcUVcL2hcL3JJWkt0emRsZEE9PVxuIiwiayI6ImZDNXJQaXgzajN4SWlOS2h0VVQ2VklteVE5YU1pRVd2ZkhaNDVOY1k1RjF5d2hpd0FjVmxmeDhvMWdyZHVZRG9rRHZzeFJMZlVBMlNheGlwakY0T0RCc0s3TnFcL1JFTERzSmJtUWd2Q0hGb1B5dStxUFd1NHc3WHhldTJFVkp3NDlwbjNwVUNHR0dNUTRCN3ZzdCtYazg0RXA3ZXJWVnhMZU4rdUh3cnJrMGM9IiwibyI6IkFuZHJvaWQiLCJyaWQiOiI0ZDcwOGIyNS0xNmE1LTRlZTEtYTNmYS05YTJhNjYzZGEyMTMifQ%3D%3D&Timestamp=2026-06-11T23%3A33%3A13Z&Version=2017-05-25",
+        "response_status": 400
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:33:15.080478+00:00",
+        "host": "dypnsapi-dualstack.aliyuncs.com",
+        "path": "/",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "&Ability=1&Action=QueryPnsDispatchInfo&Format=JSON&SceneCode=FC220000010880004&SdkVersion=V2&SignatureMethod=HMAC-SHA1&SignatureNonce=f4516017-93bd-4ca4-b37a-e40608a5484d&SignatureVersion=1.0&TerminalInfo=eyJjIjoiaU9oMXlBWlFQWlRVRDVlR2k4Z3RjeVExVlNtU3pPV25xdzMzbW1OR1dUd01GdzIyNHk0Z1BGVjdEVVE4dGh5TE9NdVJJdGpDWGp6Y1xuRGkyajd3aHJBaENZVmkwdTRnTzZkRGlHSjc3ZWFhVE85VzB3ZThGXC81NDRBRnFpZTF2cisrUmJSYjJVbnc5aG1xenRNa0hPZjA0aUhcbm9WME5lS0J5bFhlRnZKSFBmSmRRb1FPRUx3YzN5VG8zcEJISzlSVGtzV2RZNGxrcUVcL2hcL3JJWkt0emRsZEE9PVxuIiwiayI6ImZDNXJQaXgzajN4SWlOS2h0VVQ2VklteVE5YU1pRVd2ZkhaNDVOY1k1RjF5d2hpd0FjVmxmeDhvMWdyZHVZRG9rRHZzeFJMZlVBMlNheGlwakY0T0RCc0s3TnFcL1JFTERzSmJtUWd2Q0hGb1B5dStxUFd1NHc3WHhldTJFVkp3NDlwbjNwVUNHR0dNUTRCN3ZzdCtYazg0RXA3ZXJWVnhMZU4rdUh3cnJrMGM9IiwibyI6IkFuZHJvaWQiLCJyaWQiOiI0ZDcwOGIyNS0xNmE1LTRlZTEtYTNmYS05YTJhNjYzZGEyMTMifQ%3D%3D&Timestamp=2026-06-11T23%3A33%3A13Z&Version=2017-05-25",
+        "response_status": 400
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:33:15.137507+00:00",
+        "host": "wannos.127.net",
+        "path": "/lbs?version=1.0&bucketname=nim",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:33:15.287346+00:00",
+        "host": "change-api.netease.im",
+        "path": "/change-api/sdk/task/action/batch?eid=&sdk_type=IM&app_key=e743d85abdd4ef60e96c75d6c1909cec&device_id=dc122f4d-7af9-4b04-8500-f509cdb6292c&os_version=Android32&network_type=WIFI&sdk_ver=9.14.2&platform=Android",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:33:15.500574+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/common/updateApp",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:33:15.583817+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/getUnreadNumberMess",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:33:15.588564+00:00",
+        "host": "lbs.netease.im",
+        "path": "/lbs/conf.jsp?k=e743d85abdd4ef60e96c75d6c1909cec&sv=91402&pv=1&tp=1&networkType=0&lv=0",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:33:15.602438+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/common/getConfig",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":500}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:33:15.657463+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/user/user/getMemberInfo",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:33:15.670529+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/controlPackageName",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":500}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:33:15.940849+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/common/updateApp",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:33:16.034586+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/common/notice",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:33:16.288798+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/common/getConfig",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":500}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:33:16.461290+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/getHomeData",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXbAhyZBNIFMfSiiy+F2reVoVw1FQVxmxItmlgxGvdmrCr5S/YzgdiFBeUkrK+jsCXAk4eFDPEs2lB7e+PLQaYMW9+XK0wQVLG/jaHdvOaD2f\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:33:19.757852+00:00",
+        "host": "ulogs.umeng.com",
+        "path": "/unify_logs",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u0018\u00031.0\u0018\u0018672acffb7e5e6a4eeb8e8d33\u0018@b149e16fbc646ecb73526c81f28cba8b9927cfd4e3b4b0b47c7e292f43962a6a\u0015 \u0015üÚ¢\r\u0015(\u0018õ\fxmVé£H\u0012~{ìît¹ÉäFê\u001f`ªjË.l\u0017È\\\u0006Ì5`\u001bVÿ\u001f­´Ziþ´O°OÐ\u000f4=Ï1Y®ícW2ÎÈ/ãÊ£7éHù8zÓe»28\u0005@g\u0015\u0001(\u0013üÏ*¬L\u00041\u0014\u0015(©°@a\u0018E\u0007&+,7zK\f;-\u0005\u0004M9Eg\tTd °bBb`°\ng*¢¤\"ó\u0004Ô\u0014NWLA\u0011õ+\n\u0006ñÛ¢-\u001c}²wO\u0017uæ<ÆwO+!N\u001d¹bÞ\u0013-tÂJ+n,\u0001aOáH\u0001\"ÄTVFx\u0007Æ\u0000Ä(A,#$r\u001c\u001fIR,\u0002\u000fy\u0000yâmØ\u001c±º°OÒMÓÖaÜuu{ÓÆ§\u001bpóWÚ0\u0015¸¿\u0011è²ÂØ#BE\u0007L¸((â\u0003a=ÉSXãK}LQ6.³âH# j\u0015µu\u0016QCâ\u0012\u0000\u00002\u0011\u0003ø \u000e$3t£$SçV2T\u0010Ôè\u0007I\u0014`ÁÝR]\u001b÷Ô\u001bT\u001dH¨¢$ñ\u0010\b\"Ã0\u0014'ùN+Ê\"\u001e Þ/(_\u0011Ô¢+ÂÕ$w\u0000b²î¾w´-È\f¿\u0003F\"Ç¯±\u001f\"á5$¡M\u001c\"*PE\u00120¤\tQû¥¬#§}ùõ?_~û÷\u001f?ÿñË¿hÁ\bR%\u0019õàÇIP$¸&±DAë«¸¤\u001eÓøk\u0012\u0019ê¬®Â\u0002cYH\u001blE8Á\u0012\u001f³·(\tâ[NBü­\u0014$á-±$qq\f\u0004V£,Ú¶ñÏÇ¬£í!+ã«û])Àb*!\u00149½ÅõVxùíh '¨«hvw¦wþjÎ¸z<!60Ï^µ0ÛºX<²Ò\u001aÍe}Ò?ÏÓöÉ\n%;z>ä\u0000By6ìÏTC±L&¨¶ùÏÇ I\u000f º\u0015¸Y<¼Íä§Çä!Íæw+¶üÐÑ,à§\u0011¦$Íû³ð=¹y\"Da\u0004bÌÇ\u0002ÂÁ\u0006R,E,K\u0014%u\u001ee0¼ ñ¸q$\u000fäXä\u0019!\bB^d`\u0018ð<-GOª\\¡Cv){zí\u0002â\u0002$}Ð6¤UýR\u0013\u0019\u001cÙö\u0014·ÔCH=DWþµÝ\u0017Çì¸\u0014^y¬=\u00160?ü×þ%Ââ;¼OoGÛ¿ ¦L\nDºîãfw;Ü\u0005\u001bR¤Í(lQb\u001a¼Ò\u000fè¾å\u001d\u001aÎUªöJ5¯J\u0005º\"qy¥ªøp¥RþÛc]üÕ|\u0017_·º§bªVGqQï¾\"\u00161Ú\u0013î\u0013\t¼%3ìå=e^\r¦¬þ'[[;¥\u000fý½5©Ï¶npsÝè\u001dÝãlw>Øúþl?õX¾¼à=fæz½ßwvî]l×æ§ºÁÏt[@³ßT¡)Cÿùa@kùh©þÚpÜ47T­\\4¾)3áyçØnïÏÎ@\u0010ÕÞQU#ZÆ×v·Þ_¼á\u001e8ù\u000el*²;ÓCàåEµ{§|È¼aÉÚúCîåKà«êu¨\\]BXt7ÁÈª\u0001cÈ.ÒÀ:'Þ³Ö?³~}«&§\u0015\u001e3ÍwG{®Þy0M/\u0002mg v\u0007\u0003UåªzNí­ù£¿î=Í:pNÙ«õ\u0015uSùÉøÏ&X/=c¸ïq>\u000e¶\u001f×Øá¼\bö\u0010\nkãÈ&º[\u0014aºÓlUÕ¢tg:O\fºKUcµ\u000bÁØT\u0004Ew\rv¦\u001b8«!3Óç\u0017ä­z(| §¶û`çêÅÉ\u001e?gìû#ZóCd]`Ê9²ÌcP®:K]´*ÖýNU\u0017M´vrKëq¦CÊâöó\t®evV_ª`àLß³¡öª¶X\u0013­p\\-÷ÝUé»\u000f©íîøM5³ÌÂÎç«ÀvýÜ/³oyÀëÕ÷\u001b2à³m\u0017í·§o®âìÐÒÞú{«Ø\u0007ë9°4éâ»Ørmëñ³µ:ÃqÖsnf-¡7xÀÎgü0f7Ý¼Û¼;L×þy9QÕ\u0006×hqÁYÅþ\u0019?¦±ï\u0017Û÷¶»Êüµ}éûþ\u0007;m\u0013þø/sVUäv\u001cí\u001arF.åË\u0012\"º$\u0005]¶»(Ù¶tÞ4Ø\b\u000b\u000ei¹\u001d¾\u0015DÝ~K&R\u0017!2jB\n¶Ýa?j8H¦QN8ÂDøU¨±ÈS¦ÉÈXc°[]V%õmÑ7­\u0004\u0000/@Á\u000eD\u0017\u0015Çÿ'>é\n\u0018F\u0010\b×ÖäÍE¢\"ïeÈ@aó\u000eÿ\u0000¼ùýó?¾üó\u0017Q¡C¹Û&\u001dUë®a\u0019\"~ëÐé\"\u0019H`8I`\u0005\u0001ò$ó<Ø(àdÄH\u000fÝÕ\u00122¢,qcÀãD1\u0005ÈJ(±,ö\n{ÂÊ\f¿è7Ãÿ\u001a~úô'-÷én\u0018@0f0c236f76681fcb9f5eee815480d28bcf2b05d41cb857b4f372542f0d9a0100\u0018 42b9fb6d513735927c647123bd42ba5c\u0015\u0000\u0000",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:33:19.761571+00:00",
+        "host": "statistic.live.126.net",
+        "path": "/statics/report/xkit/action",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "[{\"imVersion\":\"9.14.2\",\"nertcVersion\":\"\",\"packageId\":\"com.youhai.milu\",\"appName\":\"咪噜游戏\",\"appVer\":\"V4.8.1\",\"deviceId\":\"048ae2f9997c435bbea3f6b2016fb55f\",\"model\":\"ALN-AL00\",\"manufacturer\":\"HUAWEI\",\"osVer\":\"12\",\"platform\":\"Android\",\"component\":\"TeamUIKit\",\"version\":\"9.6.2\",\"appKey\":\"e743d85abdd4ef60e96c75d6c1909cec\",\"reportType\":\"init\",\"timeStamp\":1781220798337},{\"imVersion\":\"9.14.2\",\"nertcVersion\":\"\",\"packageId\":\"com.youhai.milu\",\"appName\":\"咪噜游戏\",\"appVer\":\"V4.8.1\",\"deviceId\":\"048ae2f9997c435bbea3f6b2016fb55f\",\"model\":\"ALN-AL00\",\"manufacturer\":\"HUAWEI\",\"osVer\":\"12\",\"platform\":\"Android\",\"component\":\"ConversationUIKit\",\"version\":\"9.6.2\",\"appKey\":\"e743d85abdd4ef60e96c75d6c1909cec\",\"reportType\":\"init\",\"timeStamp\":1781220798337},{\"imVersion\":\"9.14.2\",\"nertcVersion\":\"\",\"packageId\":\"com.youhai.milu\",\"appName\":\"咪噜游戏\",\"appVer\":\"V4.8.1\",\"deviceId\":\"048ae2f9997c435bbea3f6b2016fb55f\",\"model\":\"ALN-AL00\",\"manufacturer\":\"HUAWEI\",\"osVer\":\"12\",\"platform\":\"Android\",\"component\":\"ChatUIKit\",\"version\":\"9.6.3\",\"appKey\":\"e743d85abdd4ef60e96c75d6c1909cec\",\"reportType\":\"init\",\"timeStamp\":1781220798337},{\"imVersion\":\"9.14.2\",\"nertcVersion\":\"\",\"packageId\":\"com.youhai.milu\",\"appName\":\"咪噜游戏\",\"appVer\":\"V4.8.1\",\"deviceId\":\"048ae2f9997c435bbea3f6b2016fb55f\",\"model\":\"ALN-AL00\",\"manufacturer\":\"HUAWEI\",\"osVer\":\"12\",\"platform\":\"Android\",\"component\":\"ChatKit\",\"version\":\"9.7.5\",\"appKey\":\"e743d85abdd4ef60e96c75d6c1909cec\",\"reportType\":\"init\",\"timeStamp\":1781220798337}]",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:33:19.853377+00:00",
+        "host": "errnewlog.umeng.com",
+        "path": "/apm_cc",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:39:01.192343+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/customer/getContactInformation",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"ryoI4E5jWp9UZeniuPF6ig==\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:39:01.253768+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/user/userDependent/getUserDependentData",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:39:01.272465+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/getUnreadNumberMess",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:39:01.368176+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/common/getConfig",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":500}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:39:01.381114+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/user/user/getMemberInfo",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:51.842455+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/eventSubmit",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"BEpUp8nOIgkcltpE9QCRze7XqbdI8jCCmg1xIsGFD1Jqs53DyZD5EW8TQ88bVNZ1efqWxTP9Jh8uiitJUwZUxOvlotQq84aDUuzbR3pbBQ7w3/9TbN9iFNszfnhWoAc8VSz3z+hH2aifosfDqJxFbfGX3Db0ekq38WHrMcQ+09Umpdas4KmUJHi1k7p46wa5Z8WpTTeBmgDW5P3df8imNL9hjq7Hd4QUqOp1dYSZ2SP3VCv6TNf6i6iYjASUhfRY7DbtmUuHHoeR1WWkcBChQYWZCP+a88O65LQ9/rU0hTU36qKuc6kKW2DNHPQiugXoStZ3iXAmuV9W4ZoOCzYm7xtZl6Q05rVpJU8yrnLKroZWSClB1kd8fWZuY5uHvxOciSoHgJJ7rbRk7YDyuP7ziqSh/kdpPkXHX/+k52LUIcwSpN2DqCcDDKZdWIe6Xtm9jifCziQXmuUSk9eLtR1cAiqgQ2Pl2v7bPuttNF3tfhtRMY2cQj/jwPhl/UEmDZFM6/taaPtsfZIqS3ZhYlPFZuaDq8cYPM4Y7NQpEjHPZ7egi9omUMv9PlNh2mV9W2awWg7PjpN5rL0vJZhQ+nX1bywspEysoc1LNonzTGt29oJOh9eODbWXe/jBcY4XvdmpU9BPZmqsSytjDxpid84UhOw27ZlLhx6HkdVlpHAQoUGFmQj/mvPDuuS0Pf61NIU1N+qirnOpCltgzRz0IroF6J54uFJnj0jIkEeDVLpRoPzu16m3SPIwgpoNcSLBhQ9SarOdw8mQ+RFvE0PPG1TWdXn6lsUz/SYfLoorSVMGVMS/KIb70TyUKnlLNv+Vm0Ux0www1RPJJYnhdEwTDlP1aPvpwuOWsWzL/d81dVLF19BFRkOucuMnQ1V1V1FMLD2LGsJ8+lW3V346tsQ84nP5Yg==\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:52.531970+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/getUnreadNumberMess",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:52.843689+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/user/tradeV2/getTradeList",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"IJCXkF8y02guZE8y8UWYf/uB8p4JtoB4CAuhWvd/9XbMuuQT/11LiYScWqkLJHDywUk7fG0yxjDSubI6QDRioJ3cUVs5Nb3SzpeTy17SFxOT7BN7XlmU4T7utXoKuqIbfsBhp6sQRSho19aKnLgJ3WFvii7Gg41R4abX8qk31REyJSnpDSTi0u/Oa7YbXPKF\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:52.852019+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/user/tradeV2/getTradeList",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"IJCXkF8y02guZE8y8UWYf/uB8p4JtoB4CAuhWvd/9XbMuuQT/11LiYScWqkLJHDywUk7fG0yxjDSubI6QDRioO5MMi8nduc1r18WbK5Zc64MHgP56SOyRodWaXEPux+QZGNCVqS+Xq1uY7v1pDzeWZGFlC+IRxnNoZAzSnrX9/E=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:52.862317+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/user/tradeV2/getTradeList",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"IJCXkF8y02guZE8y8UWYf/uB8p4JtoB4CAuhWvd/9XbMuuQT/11LiYScWqkLJHDywUk7fG0yxjDSubI6QDRioJ3cUVs5Nb3SzpeTy17SFxNXRX8h8XdI64PbIdxBmZyzfsBhp6sQRSho19aKnLgJ3WFvii7Gg41R4abX8qk31REyJSnpDSTi0u/Oa7YbXPKF\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.158776+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/ef9873b76ce115c3994ed0b95e1d8092.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.163305+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/a553f3a6cadd870c14f82db390de8ecb.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.166208+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/0e9dacfd26c7b71e8b51748a50968ca7.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.235712+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/user/userDependent/getUserDependentData",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.242246+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/getUnreadNumberMess",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.281214+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/9d00cb71e5f9236432af76459e243112.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.285397+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/common/getConfig",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":500}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.293069+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/66aed70d947f6e086173422de72c704d.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.298030+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/a20d34161faedf782b05a5e60775645a.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.306142+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/6b5067108e47e1367e4fd4d93401ce8e.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.360596+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/c2684695008b43e8703dd18801a107fd.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.368889+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/5e9ad1c5b03d4bfee35df69f3e1307bf.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.375067+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/19a5cbabbe133c22f52f32ee01523bfb.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.380065+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/user/user/getMemberInfo",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.394349+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/bcf8a9852dd0f851b96cefd113f78bd2.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.429326+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/a36515f3a2953d604cf2d2e33b6f37be.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.433063+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/ed7d06ed2f32988773ac2974fae35d81.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.442623+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/26acba5ae1ede6ec655db6dbcc4493c1.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.467056+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/1a861ff1bb93d6e0ab65388e870f6d9b.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.508342+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/8a4413a8a75f10b0691736fe385268ed.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.513370+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/9a42b910ee83036844606f865cf3bae5.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.532708+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/16dd51f815ba6274f15ac0e8a7493c7e.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.538195+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/837b7fdf89198b145566f0d507590933.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.549034+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/4dc8b600f56bbbfb82b16210e94214de.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.580543+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/4b942a181b059fb9469c4a79f3c77ce7.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.586786+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/5fb44143eb71a7c02346e47992035d75.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.599526+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/c76d18c96fde13a36dbd72b2a94c6453.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.608512+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/89b70d7b7796b291e3204706308fafd3.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.626520+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/31cf863a14c36da9b2f6791bb423d75e.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.652178+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/0287fd7ae5b1ecb62cbfa48b62b690e5.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.658007+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/9bf026d498c75f06f98d42be39ed3fc1.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.664212+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/c728b2129de73f39dd7d50e6f82e57af.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.675085+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/4ed2ef4890b5c42adf090b38244fc354.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:53.713328+00:00",
+        "host": "static-milu.mygmzhe.cn",
+        "path": "/trade/c55e449b5e9cf5a4c720b18d25257fb6.jpg!trade_thumb1",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:55.756830+00:00",
+        "host": "ggapi.9lk.cn",
+        "path": "/Bv2/OpenMore/index",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "content=yZJGk812GZDdc5T%2BWBeurux5ODwBXW0bR406xHnqBFQVbuBdk7SuEsyvEezBxMQih2YE2jdliMD7sELa38PmDdLGJN1f1lmyMx9Ig5R9U7SZmsCztNWv7qsmEbcF4uAnz2wq3mf6FdqawnuEb2vCmGcL8neVfpJwGLgkE%2ByxPO5frPp9gWAa65l%2B6W1uNJc7V5jCxwBasyFTCFGxn2i6iZ2NG5Zxi1jfcI0usMdJj5TBRbrp1e24%2FMNMAuZeWLpnMUNR8VMcoTLIPLZJm03SEPV9jkonnlraiNzlWCQo7yTPO7j46GpJzB1I84Y61pnTWJOJU%2FyychGucDNcTkfmi9J3%2FbdQCC2kj4pUTRyq3p0%3D",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:55.782663+00:00",
+        "host": "abt-online.netease.im",
+        "path": "/v1/api/abt/client/getExperimentInfo",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"useLocalCache\":true,\"clientInfo\":{\"projectKey\":\"im_sdk_abtest_all\",\"appKey\":\"e743d85abdd4ef60e96c75d6c1909cec\",\"sdkVersion\":\"9.14.2\",\"deviceId\":\"dc122f4d-7af9-4b04-8500-f509cdb6292c\",\"manufacturer\":\"HUAWEI\",\"board\":\"ALN-AL00\",\"model\":\"ALN-AL00\",\"device\":\"Allen\",\"osType\":\"Android\",\"osVersion\":\"12\"}}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:55.901930+00:00",
+        "host": "dypnsapi-dualstack.aliyuncs.com",
+        "path": "/",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "&Ability=1&Action=QueryPnsDispatchInfo&Format=JSON&SceneCode=FC220000010880004&SdkVersion=V2&SignatureMethod=HMAC-SHA1&SignatureNonce=e64e6561-afd5-4f87-9ebd-e7a9dab1b4aa&SignatureVersion=1.0&TerminalInfo=eyJjIjoib0lxMFowYUtyNTVOY0VpeVVmTlVSZCs5aytHdjJyN1Uxbm94Nm9HVDhSZUw0M1d2MjNDZ1pjeHBGbUZqdG1NQVl3UndmNjN5Z2VPTlxuclwvYzA3QWZkODY1SXpjTys5WFhwZ1EydGd6OUV3cTgzaWpmbzYrV3J1Q3JCSVZPSmZrRFV4b0pXXC9EalV2Ykc1Qk1weWRYOHFwQUJ1XG5zdlRaU0hPTndqWmxqazQrNEhqSXk2YUZMK2V4K2h4VzNBS21xVWM4K0NUVks1WXBJN0ZaK0ZuWE5ReTFNUT09XG4iLCJrIjoiTXBEOXFUbnd2Q2NkMTM1Ym1BcE0rWmk2eW1lQXk5QWRMWUFqWHpCRGN0T01SRHVXcVdaclgrWmhXRTc1Y2EyZXpSV2JsMVhCbkxySU5LY3prVlRBWHJnN0xZNllOa1wvMTdTUldcLzdLNUdkRlZNR1FrZ1U3aDh4d3RkTTM3VDFGNWdTaHpoQmk5bkJuaVNLTEwwU1RNVDNic0U1SUVxQmEzVmN3U2RRQzdwTUE9IiwibyI6IkFuZHJvaWQiLCJyaWQiOiIzZDMwYzM2Yi1hOGI2LTQ2MTktOGM2Yy0wY2E2NDBlZTRmZmMifQ%3D%3D&Timestamp=2026-06-11T23%3A42%3A54Z&Version=2017-05-25",
+        "response_status": 400
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:55.920302+00:00",
+        "host": "dypnsapi-dualstack.aliyuncs.com",
+        "path": "/",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "&Action=GetStsToken&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=efbd1634-1c95-444a-9860-da1f3f7754f3&SignatureVersion=1.0&TerminalInfo=eyJjIjoiTzRXbTNDdVA0bCtGNllMN2JqS3VtQ3BxN2xYWXp1QVwvXC9aM2taUjE3QVpmZEZGSlNtYW0yTnNuMkVVWEFGTXRCK3NOeHhmdzNFWW1HXG5hb1Z3YnFaVmdzb1hkMTNsZXRvTHgwcHdDVEhQN2h6SXZqZ2JZNXRIZk1Oa1I2YnZhbGZzTFdYTXRnUXU0YXBDdUdObWRmY2NNRks2XG5nOTBwOW8yMXJwRlo2NzJEVmNvWTcyR2xxSVc4YW1WTkI5dlozQlwvUlxuIiwiayI6IkZMSXFpeFwvUmFDY3dOelRINkNpRVk2THY4UEx6M0xLcU1EU3Q0dkhIOVFYN2F5Q3ZCbURGeHJnMnB2NjluRHFDWThBOHVBdVJ2bVBTQVBsU2p4REVJNG9wMngxc1lEZVg5dDFYa2F1TXozcGhtOVkyXC8xRkdMZFRtak9oMHN2bkdNNXAyXC85MUtNUFpPMkdqY1FMV2tKMnpwWm5sOFprUDBvRU40N0N1aWVBMD0iLCJvIjoiQW5kcm9pZCIsInJpZCI6IjBhMDU0ZDNiLWVmYjgtNGRhYi1hNTZmLWU4MzIwMGViNjBlYSJ9&Timestamp=2026-06-11T23%3A42%3A54Z&Version=2017-05-25",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:55.957248+00:00",
+        "host": "utoken.umeng.com",
+        "path": "/anti/updateZdata",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "(ÏI1tdvT1h´Ã½Ää+3Òä¿swäí\u0003 \u0007\u00164\u0016h\u0007ÁÁ\u001472\t@á0ø\u0010£SäM¦BCp´·9ï¿\u0017e$Ó\u001bC²ÛÛT9°ô0wæb \"uaºA!QÀ4Ç¼*mùotîk +|¶ºa\u0013§U\u001añ\u0015R@xn\u0006ûgü³qGÌ©è&^!Ü\u0016,\u000f%OÀ8 Å¯\u000bÅþMu\u0002ËÂ÷ %\\Æð©,ÌL£t9Ú*Fl$Ð0eä¢Ý\u0016,l°Ðî_B8ö\u001c-1\u001bÆ>Æõ_GúùÙå\t*ª(EÐYOá¸j\rÏ:©Õ\u000f±¥Jp/F¹©ìd\u00138\u001e\u0013è9à)ù\u0002ºÚdïC\u0007 Ë¶NiFÐÌ\u0002¸<7§LC(ÿ\u0018´%ß¹g\u0015<Örµ\fÍ×Md\u0011ßºÀ´Þuåéx\u000f§ÇâÏi\u001b\u001ea¾C£F ¢J\u0010¶ÿ\\\u0016\u0018[ ò\u0017\f®\u001anú !'v'\u0011Dº\u0003ï\u0004\u001fúLd\u0013äÀ»àDN`\nRn\u000f¼AÌ\u000f¢ÚR6ëï,í¨½Ý4¾£=Ú!¯¿^Ç\u0019â¡lcë¹>»+ã×\tßÞ]¢}RY\u000e°ug%\u000f]\u0004@*>4Qýàú-á¡Ëÿè¶ÁFÕ.áF¾0\bku\rÍQÇûÊ\u0015\u0016b÷ËíþÓà¥ö4+^ºYØÂxkf'a;¯\u0015r¿4ÿj\u001f|:¥ÙâÜ\u0015'ô<%!0Â×¯^º\u001b*?\u0003\u0010$n\u0014\u000f%w¢- }\\.\u000b\bºÑj²ø=\u0011v_òÄ`Ó;Æ\u0011¶ãNhKµ´B¼!þ\u0016\r²ÔÓTxrÈ\u0001(Û¤\u0018)bÊú\u000e©ì´\u0013ïÕ6£!\u0010Mï¢\u000f*@m\u0003f\"\u0012HjVÄ|½hñ-¦>\u0018Îýb¦[èx]Ì¬\u0003UpÕ\u0000²Æ\u000e¢\n*ö\u001eø\u0014\u000fÛ\u0001ErGºëqk/\u000bÿã~\u0016¡¸|¹9¿C\u0017\u0006\u0012ÛIâ\u00026Bù??ýf\u0001\u000e¤ï;1G2Æ\u0013Øå/%nÇ¬|Ià÷\u0017òÓnåðær²Ï´åvx¥g`àÇ¼Õ`\t`ä÷lçmÓÅ²Ì[·\u0013Z1¢­f½QZ+¦YöÕY\u001c\fÎ3=\u0017H×\u0010|\u0002\u001ecÊû\u001d*\u001f\u0004÷\n\u00135U0(º×ÖOs5ºK¢\u0010hÞPí¿\u001eq//Ò\u0006eË\u00186\u0003.j3{\bá9W\u000e<S\nêA\u000e{Mv¤@ÞÍÛn°»Aá]ØÎÆ_8éH\u0016hâ\u000b\"jw6¯\u000b\t<:\b\u000b®X¨{ä_\u001a\u001ffáK q¦ú5{=´æ,\nDk\u0018þL\u000e\u0013>\b°g¡&ÉHTPÕñ\\,\u0007°Æ\u001f\u0002\u001a£Á?çÔE\n¹Qo\u0015d\u0010\r´[wp\u0003v$^«'\nÝI¼Cl\u0006ò<\u0011Ì£\u000f2õÎ\fMA,\u0019ET-5\u0006V(£&r\u0015Í6\u0000\u0017WT¯B\u0011[0?\u000eæRµÆ Û\u001f\u0004¥Cl\u001fjq«åãæ\u0019&÷ÙMFfm\fl;§ñê[Úç\nÃBAçei\u001bM\u001f ÊÚ§Õ¤E\tðj¨Ø¥ÇHüÁñH¾Oé\fø\u0012\u0004\u0016",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:56.123184+00:00",
+        "host": "wannos.127.net",
+        "path": "/lbs?version=1.0&bucketname=nim",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:56.354710+00:00",
+        "host": "change-api.netease.im",
+        "path": "/change-api/sdk/task/action/batch?eid=&sdk_type=IM&app_key=e743d85abdd4ef60e96c75d6c1909cec&device_id=dc122f4d-7af9-4b04-8500-f509cdb6292c&os_version=Android32&network_type=WIFI&sdk_ver=9.14.2&platform=Android",
+        "method": "GET",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:56.484015+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/common/updateApp",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:56.523787+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/getUnreadNumberMess",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:56.561386+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/common/getConfig",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":500}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:56.642524+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/user/user/getMemberInfo",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:56.667898+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/controlPackageName",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":500}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:56.718019+00:00",
+        "host": "lbs.netease.im",
+        "path": "/lbs/conf.jsp?k=e743d85abdd4ef60e96c75d6c1909cec&sv=91402&pv=1&tp=1&networkType=0&lv=0",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:56.962781+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/common/updateApp",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:57.024988+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/common/notice",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:57.342814+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/common/getConfig",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":500}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:57.375739+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/getHomeData",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXbAhyZBNIFMfSiiy+F2reVoVw1FQVxmxItmlgxGvdmrCr5S/YzgdiFBeUkrK+jsCXAk4eFDPEs2lB7e+PLQaYMW9+XK0wQVLG/jaHdvOaD2f\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:59.319161+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/customer/getContactInformation",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"ryoI4E5jWp9UZeniuPF6ig==\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:59.380956+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/user/userDependent/getUserDependentData",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:59.432664+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/common/getConfig",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":500}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:59.459921+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/getUnreadNumberMess",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:42:59.528869+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/user/user/getMemberInfo",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:43:00.689380+00:00",
+        "host": "statistic.live.126.net",
+        "path": "/statics/report/xkit/action",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "[{\"imVersion\":\"9.14.2\",\"nertcVersion\":\"\",\"packageId\":\"com.youhai.milu\",\"appName\":\"咪噜游戏\",\"appVer\":\"V4.8.1\",\"deviceId\":\"048ae2f9997c435bbea3f6b2016fb55f\",\"model\":\"ALN-AL00\",\"manufacturer\":\"HUAWEI\",\"osVer\":\"12\",\"platform\":\"Android\",\"component\":\"TeamUIKit\",\"version\":\"9.6.2\",\"appKey\":\"e743d85abdd4ef60e96c75d6c1909cec\",\"reportType\":\"init\",\"timeStamp\":1781221379332},{\"imVersion\":\"9.14.2\",\"nertcVersion\":\"\",\"packageId\":\"com.youhai.milu\",\"appName\":\"咪噜游戏\",\"appVer\":\"V4.8.1\",\"deviceId\":\"048ae2f9997c435bbea3f6b2016fb55f\",\"model\":\"ALN-AL00\",\"manufacturer\":\"HUAWEI\",\"osVer\":\"12\",\"platform\":\"Android\",\"component\":\"ConversationUIKit\",\"version\":\"9.6.2\",\"appKey\":\"e743d85abdd4ef60e96c75d6c1909cec\",\"reportType\":\"init\",\"timeStamp\":1781221379332},{\"imVersion\":\"9.14.2\",\"nertcVersion\":\"\",\"packageId\":\"com.youhai.milu\",\"appName\":\"咪噜游戏\",\"appVer\":\"V4.8.1\",\"deviceId\":\"048ae2f9997c435bbea3f6b2016fb55f\",\"model\":\"ALN-AL00\",\"manufacturer\":\"HUAWEI\",\"osVer\":\"12\",\"platform\":\"Android\",\"component\":\"ChatUIKit\",\"version\":\"9.6.3\",\"appKey\":\"e743d85abdd4ef60e96c75d6c1909cec\",\"reportType\":\"init\",\"timeStamp\":1781221379332},{\"imVersion\":\"9.14.2\",\"nertcVersion\":\"\",\"packageId\":\"com.youhai.milu\",\"appName\":\"咪噜游戏\",\"appVer\":\"V4.8.1\",\"deviceId\":\"048ae2f9997c435bbea3f6b2016fb55f\",\"model\":\"ALN-AL00\",\"manufacturer\":\"HUAWEI\",\"osVer\":\"12\",\"platform\":\"Android\",\"component\":\"ChatKit\",\"version\":\"9.7.5\",\"appKey\":\"e743d85abdd4ef60e96c75d6c1909cec\",\"reportType\":\"init\",\"timeStamp\":1781221379332}]",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:43:00.830436+00:00",
+        "host": "ulogs.umeng.com",
+        "path": "/unify_logs",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "\u0018\u00031.0\u0018\u0018672acffb7e5e6a4eeb8e8d33\u0018@b149e16fbc646ecb73526c81f28cba8b9927cfd4e3b4b0b47c7e292f43962a6a\u0015\"\u0015 Ú¢\r\u0015(\u0018ó\fxmVÛâÊ\u0015ý\u0016$ç4ã*ß-ÍC\u0019\u001b\u000f\f6C·¶Ê70øÖ¶ÁàÑ¼\u001fE\"å-R¾ _0\u001f9ßªj:sÑÚí½wí½jí«ø4x³\u001fh\u0006ot7Ð\u0006 \u0001¨¼&\u0001mDþó©j#IãL\r\u0001M\u0019k<Ð8N3¦«\u001a/\f~¥\r DM®©fpÚ\bj*Ðx]\u001bC\u001a`ò0ÖdE\u0005M\u0015)¨©h¡%M6n(\u0004Ä¯³:sÑÑ=_ÑÜù\u0018¿\\IñÞQ\u000bî\u001dõÂgâ´\u0012Ê\u0010Põ\u001c\u000e4 C\"¥yDV`\f@\u0013,©*Æ² ¢ÄR(P\u0004P¤lÃêDüÐ}Vîªº\fã¦)ë»:>ß»?c\\{Iø\u000bÎ\u000b= RÔ\u0012ÁÅA\u0016·T­´Na\u000f¯åiÓaf'\u0001sDETiÄ\u0002)%\u0000\u0000ä\"\u000eA\u001c\u0002EåØBN\u001dgÎ=qÌ\u0010ø'K\u0014\u0010Ãû%Z\u0013Æ\u0006\u0017-MUV\u0014\u0011\u0002Iæ8á$?xEiÄÊ\u0003äÉ\u0003Ó\u000beqAµÖ\u000e@\"ÍDë®¨û+à\u0014º}þ{Û\u000f4¼CÚÈ¡¦\f\u0017´\u0000ý*!®_«6t·¯ÿüÏ×ýû÷/_~ÿí\u001f¬a\u0014©K1øyc\u0014M$¤ÔÔ¡4T\u0018hy3ç1Ë¿¤á¦OË\"Ì\u00180áÌC68t)\"\u0005VÄ¿ÇI\u0010ß\u000b\n\u0016ï \tï!\u0015Ec(%4±\u0012§Ñ¶Oi\u001dGÛ6Íã\u001bý¦&\u0012\u0010Pî^~k\u0012z¶\u0003¯©j.ÕêQòÀÎÉ}öè¨5zJ¦Ðs»ç\u0013¯^­Ëµ\u0013ÌÐ+Zc]¥Étú,W^Ü\u0015¨cXÜågkëgñ}rUø£t:Ï­Ë=Jx^Y9êÏ\nß¶æ|ß°*g\u0011îi\u0017é¥\nGúåÉ\u0010I\u0012È±\u0018K$\u001b(±\u0012ñ<u8å<Na\bEI\u0011Éà(²\u0018¨±,rR\u0010¢ÌÁ0\u0010EÖv¹Àmzz~\u0002J\u0001Ò9¨+ÚÁ¢|éÉ\u001e\u001céö\u001c×!d\fñMmgsÓå!?¤ÂN¼\u0012ÑûÿÇ¿dý÷ù×ÁöO¸Ê\fÓ©û´\u0019ÕLÁ6i3\bkÜì\f^å)>ãïu¥s³à¢¾IÕ«SoHyß¤\"noÒ^ü~e\u0013\u000bßÅ·¥ªì¹Q»oYTûL\u0013¯içL{9aÊkqÓ¼\"Õýbëk'÷¡´FåÅ6Laacxí.zÛ8^ìÇØW²ÆÍ]¯s\u000eÆ>xWÛµÅasÃF#8î6E8V¡ÿ4íñZ=YÈ_;#A\u001dL¤ç\u000f?V¹ð²sl7$ÈÓSDÔ9\bÑ\u001aT¾¾K½õñêõ\u0013à\u001cv`SÐÕ¹\u0011\u0002ïeÄ»sòiêõKÞ6¦\u0007ï°\u0004>B\u001f\u0002ÞI¢|u\rav\u000eö»\u0011AF&ÌN!ÿ°\u000f¬Kâ=éÝ\u0013ïg[áT\u0001\u0014<=ó¸Ùaw²\u0017è½\u0007÷û \u0017³@ßßÁ\u0000¡Y¯'èÞZ<ùëÎÓ­Vpò\u000eÖ7ÔMá[cÎz¨õÒ3ûIGêÑÚ\u0006y\\sGê\"Ù}(9®M2¯ªèýC\u0016îwº\u001eíwcç\u00033wt^¿RMAQ\f×äçIª\u001arscqµiÝiæ\u0003u\u001fé»\u000fö\u0001]ëÈs!Ü?âµØGÖ¸\tÆê\u0001[ãS¯\u001a\u000b=Ô\"6ü\u0006¡*Z;\u0007KïH¥CÊv\u0011éezA/]0I¥'¼c¢\u000eéË5Ò3ÇÕ\u000f¾»Ê}wº·Ý¸)æÖ8³\u000fÞ? `»þÁÏÍoyÀëÐ»\r=àÓm\u0013\u001d·çï>Å7i[³Ùú@f+;\u0006ë\u0005°tåê»$r=Î=×\u0013çëñÞé\u0017³^\bsk\t½Þ\u0003öay!\u000f7nf··ílí_#*Ò£+©\u0012ÌOä±tt!Ü¯¶µèlwúkû27ÝOqú\u0014ü\u001dåH>æ´(è×ýi°«è4hKöÊ_^!f¯$c¯í.J¶5;o*\u0012D\fí>ßöß\u001b¢æ¸¥'R\u0013azÔ\f\u001aovK~Ô\bF\u0005>SE\u0011¨\u0012«P\u0003CYdJÒc#´´HÊØ$e7­\u0002(A#?\u001d¨/ÎNd>ÑÓ\u0015p$Q­.éÍE³¢÷2ä ´yKþ\u0000¼ûï¿}ýûo2¡ÄNÄ¤anÍ\r\u0012r<§ðP&w\r;Ýq¤B\u0010I H¼$AQQTQä1\u001f\u0005\u0005iÛÜ\"!àeU\u0010\u0005\u00039nh\u0006ôÒ¼\"È\nÏ\u0013V\t¯\u0002\b\u0000ùU ýQàçÏÿ\u0003\u000e\u001cè\u0018@b201506fc7657ecbc6538281b18da98b732609d4a4b5e5b44d7fe72fa6970100\u0018 a9cf099141194d50b9dd93fd816b7923\u0015\u0000\u0000",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:43:00.856913+00:00",
+        "host": "errnewlog.umeng.com",
+        "path": "/apm_cc",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:43:06.174660+00:00",
+        "host": "ccs.umeng.com",
+        "path": "/sa",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:43:36.560565+00:00",
+        "host": "sss.umeng.com",
+        "path": "/api/v2/al",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": ")½8bgc`e?løÕ\u0003é,m´Õã\u0005ÞÌíIÕÄI­%\fßc©-À:Ð£+çeÜ{åÛÅ²å²\rÚ@d\u0003\tÐ\u0002lL|G)%Ø\u0010Cùæ.\u001fÈ\u0017Ö\u0007Û¿}»}\byvìyÜ¥ðJ¢ã-¸é>lå7\u0018?ü²<\u00159mÁÓ¡ß¹ö*\u0007½W\u0005i\f\u0010!\u0016\u000b1f\u0018ç+\u001cdi°s\u0001k\u001eïÎDÑÇí9oY\u0000»¿ B¨ºE½_?\\À+~\u0018A\u001e^\u0006\u0016é\u001cè\u000b¾S³Û;õ:<¹pâÇãïuª(&¸Y&zhÏ!$¤÷\u001bÁ*ã\u0017~§7ºs¡-sÚ/\u0002Î!¹B\fbÒx²ê\u0003Gä\u0011çò*øì\u0004dmnÆ¨Á¬è¬j0Ð\u0015¹î\u0007Ûò9Ë;s#}`:vHY6-G\u0000\u0011¢@\u0014\u0016ª§»×\u0010\u0005@µg¨x«\"¬y¼o)ãÑþ;¨d:ù­Yµ\u001d4A\u00112Äà-|yÛÁÕKj\u0012lRÂDßpþë\u0005«©Ø'þ.Ù+çuc´\u0003²>Éµ^®eÔ\u0019Î0Aª-\u00150\u0018%Î½\u0000Ä§}Ð·AiöJð_¯Tä²\u001c|\bO\u0012òZê8¼ª\u0019¡ãù\u0003äÈßô ÙÅ\u0016Í'k\u0000´^Gxé*ðÌþ\fþ9:À<²u&k¬­6ëïØ¢¤ÓGòåX¤\u0013^kÞÞmú ¡\u0005ù¡\u0011?\u001b_É·ÕµaGÈw{êÜ¹\u0012ZÀY95¸æOF¶c\u001eè­ó×H`§Ä`AqTç¬\u0001]\u0000HnòÿjeÚó~ åÑÜ\b¤l\u001e\u0019íÃeÈ@\u0004\u0001ÌWoè2ZRÉ-¨{[!#¡òýöC\u001a\u0006ê6>ÁK-^ÊÐkÔpþÍJæe;õ \f±yXW\b«\u0010\u000f\u0016f\u00030teC!]/I@j{8OÈúb\u0003.Ü6AÉI\u0017äÙt¤r³ \n{ü¾Û·\u0012p{Eî\u001e\u0011Â\u000fu'\u0019\u0019Ä#¨k\u0013L>öÑQmtã^b°éª¶\u0012?¦}~{¨í²2|B ÉÙ4\u000bq@Ú\u00024Á?\u0000n43Ó\u0004²\"0yhk­J\u001b&føêÞæA,\u0005X`×*ÓO:hÈÑ:{4wÍ2o¿¾\u0014¾=¢ó5Ûï\u0015d²dëûen\u0005ÎN;\u0006G\u001d[\u001a+#o{Þ\u000bÓ®@Î\u0017Ã,\u0014Êñrl\u001eñ\u0015¾\u0002pø_\u001c|é9b¬T\u0012\bV\u000fcEeº{gã³AÖn\u0003ÍF¿s´(0cZ\u001b\r$¤]9\u000bÊë¢®XïªØ©·ï(¯(Ao]ôL¯Á\u000bÃ\u00027uÚ<N£ ¾-i[Ïâùíþ\u001d[\bMk'1ùE\u000b\u001aRf7Á$Pý­\r¨áKçr/¢¨â© 4çÎ>I¸åE\u0004jXØS}6ÒåW{r\tõ_¤¤\u0015&õcß¦\u001d$9]ÚÙ667ARi£ð³%\u000f\u0015±\u0007¯#qÌe&­Òw\u0005Ö)c¤²ÞÓÇ£ âºa%¹Ó»0­\u0012a6ËãP1Ùg&QÑ=w%*%\u000fä°¿\u0019F¶!éßU/âéÆ\t7p\nô·ú¿\u000f'zY){¯N\nÎÄ( ¡\u0002,ýL\u0006KÉ4ýÅá*\u001e¥eqÚ¤ì2:ó[ÅÁ§j¤µ*ý}¶h|¼n;qÁ\u0012n\u0013P\n\u0003V-=Úwöõ¤ÖÄtß0Âi¡ð·Õ\u0005fî\u0013ù7{Z»\f=ÛùÉìï|sã)[U÷)Å)@Û8\u0015,\u0013âb@Ç²kÈ\u0004ù\u0013¦Ô0Ø¦2WáöbÌ:¾ :Ó\u0017ÙØ-ïîy#t%Ð\\:¢À1Ür\u000bÙMmøes­¬\u0018à`;ß\u000bs'â\u0018\u0004m\u00030Ð×õ²ZA©øèNZÓäÞ¯Z3Rtl\"ôáy\tÆÃ\u0017\u0002uCÕþ\u001e\rµó%¹*cÿ·~4Íøe\tùü¾Þ64ys\u0005@*\r|\nà?Óõìó1nF9\u000e2$\u0005¢\u0004gò¶<Õæ)«®=ØÁÆ£{¹ÔãÍSO³½1³Û vbÓ#\u001fË5DÛÑ",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:47:03.298117+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/common/updateApp",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:47:05.406074+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/user/userDependent/getUserDependentData",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:47:05.465710+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/getUnreadNumberMess",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:47:05.516149+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/common/getConfig",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":500}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:47:05.565948+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/user/user/getMemberInfo",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:47:08.698920+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/common/updateApp",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:47:08.747056+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/getUnreadNumberMess",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:47:08.772163+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/common/getConfig",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":500}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:47:08.816840+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/controlPackageName",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":500}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:47:08.913980+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/user/user/getMemberInfo",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:47:08.938105+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/common/updateApp",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:47:08.988508+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/common/notice",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXSjaQQbjwnoZnPlRT+GAg+c=\"}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:47:09.149783+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/base/common/getConfig",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":500}",
+        "response_status": 200
+      },
+      {
+        "timestamp_utc": "2026-06-11T23:47:09.267968+00:00",
+        "host": "api.mlgamebox.my16api.com",
+        "path": "/getHomeData",
+        "method": "POST",
+        "scheme": "https",
+        "request_body": "{\"data\":\"NdF8BXDtQ7ZqKpmwC8HRXbAhyZBNIFMfSiiy+F2reVoVw1FQVxmxItmlgxGvdmrCr5S/YzgdiFBeUkrK+jsCXAk4eFDPEs2lB7e+PLQaYMW9+XK0wQVLG/jaHdvOaD2f\"}",
+        "response_status": 200
+      }
+    ],
+    "flow_count": 105,
+    "unique_hosts": [
+      "abt-online.netease.im",
+      "api.mlgamebox.my16api.com",
+      "ccs.umeng.com",
+      "change-api.netease.im",
+      "dypnsapi-dualstack.aliyuncs.com",
+      "errnewlog.umeng.com",
+      "ggapi.9lk.cn",
+      "lbs.netease.im",
+      "sss.umeng.com",
+      "static-milu.mygmzhe.cn",
+      "statistic.live.126.net",
+      "ulogs.umeng.com",
+      "utoken.umeng.com",
+      "wannos.127.net"
+    ],
+    "mitm_blocked": null,
+    "stderr_tail": "",
+    "dry_run": false
+  },
+  "network_result": {
+    "schema_version": 1,
+    "adapter": "traffic_checker",
+    "flow_count": 105,
+    "unique_hosts": [
+      "abt-online.netease.im",
+      "api.mlgamebox.my16api.com",
+      "ccs.umeng.com",
+      "change-api.netease.im",
+      "dypnsapi-dualstack.aliyuncs.com",
+      "errnewlog.umeng.com",
+      "ggapi.9lk.cn",
+      "lbs.netease.im",
+      "sss.umeng.com",
+      "static-milu.mygmzhe.cn",
+      "statistic.live.126.net",
+      "ulogs.umeng.com",
+      "utoken.umeng.com",
+      "wannos.127.net"
+    ],
+    "mitm_blocked": null,
+    "mitm_duration_sec": 1089.47,
+    "flows_source": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\output\\stage3_lab42_after\\咪噜游戏\\mitm_flows.json",
+    "tracker_hits": [
+      {
+        "tracker_id": "umeng",
+        "tracker_company": "Umeng",
+        "purpose": "analytics",
+        "host": "ccs.umeng.com",
+        "path": "/sa",
+        "timestamp_utc": "2026-06-11T23:43:06.174660+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      },
+      {
+        "tracker_id": "umeng",
+        "tracker_company": "Umeng",
+        "purpose": "analytics",
+        "host": "errnewlog.umeng.com",
+        "path": "/apm_cc",
+        "timestamp_utc": "2026-06-11T23:33:19.853377+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      },
+      {
+        "tracker_id": "umeng",
+        "tracker_company": "Umeng",
+        "purpose": "analytics",
+        "host": "sss.umeng.com",
+        "path": "/api/v2/al",
+        "timestamp_utc": "2026-06-11T23:43:36.560565+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      },
+      {
+        "tracker_id": "umeng",
+        "tracker_company": "Umeng",
+        "purpose": "analytics",
+        "host": "ulogs.umeng.com",
+        "path": "/unify_logs",
+        "timestamp_utc": "2026-06-11T23:33:19.757852+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      },
+      {
+        "tracker_id": "umeng",
+        "tracker_company": "Umeng",
+        "purpose": "analytics",
+        "host": "utoken.umeng.com",
+        "path": "/anti/updateZdata",
+        "timestamp_utc": "2026-06-11T23:33:14.999704+00:00",
+        "method": "POST",
+        "evidence_level": "S3_network_mitm"
+      }
+    ],
+    "pii_key_hits": [
+      {
+        "pii_type": "mac_address",
+        "network_key": "mac",
+        "host": "dypnsapi-dualstack.aliyuncs.com",
+        "path": "/",
+        "timestamp_utc": "2026-06-11T23:33:15.058936+00:00",
+        "evidence_level": "S3_network_pii_key"
+      },
+      {
+        "pii_type": "location",
+        "network_key": "lat",
+        "host": "statistic.live.126.net",
+        "path": "/statics/report/xkit/action",
+        "timestamp_utc": "2026-06-11T23:33:19.761571+00:00",
+        "evidence_level": "S3_network_pii_key"
+      }
+    ],
+    "summary": {
+      "tracker_hit_count": 5,
+      "tracker_company_count": 1,
+      "tracker_companies": [
+        "Umeng"
+      ],
+      "tracker_hosts": [
+        "ccs.umeng.com",
+        "errnewlog.umeng.com",
+        "sss.umeng.com",
+        "ulogs.umeng.com",
+        "utoken.umeng.com"
+      ],
+      "pii_key_hit_count": 2,
+      "pii_types_observed": [
+        "location",
+        "mac_address"
+      ]
+    }
+  },
+  "path_suggestions": [
+    "UI observed steps: adb_foreground_before=com.youhai.milu | session_created_attempt1=ok | session_created",
+    "Check path for pii_type=imei",
+    "Check path for pii_type=android_id",
+    "Check path for pii_type=location"
+  ],
+  "explanation": "Collected dynamic evidence for 咪噜游戏: candidate_pii=10, ui_steps=37, screenshots=5, frida_registered_types=9, frida_events=19. This explanation is descriptive only and does not produce verdict.",
+  "evidence_items": [
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_after\\咪噜游戏\\screenshots\\咪噜游戏_20260612_073320_launch.png",
+      "timestamp_utc": "2026-06-11T23:51:22.947866+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_after\\咪噜游戏\\screenshots\\咪噜游戏_20260612_074253_path1.png",
+      "timestamp_utc": "2026-06-11T23:51:22.947866+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_after\\咪噜游戏\\screenshots\\咪噜游戏_20260612_074301_path2.png",
+      "timestamp_utc": "2026-06-11T23:51:22.947866+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_after\\咪噜游戏\\screenshots\\咪噜游戏_20260612_074704_path2.png",
+      "timestamp_utc": "2026-06-11T23:51:22.947866+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.ui",
+      "signal": "screenshot",
+      "value": "output\\stage3_lab42_after\\咪噜游戏\\screenshots\\咪噜游戏_20260612_075122_trigger_tabs.png",
+      "timestamp_utc": "2026-06-11T23:51:22.947866+00:00",
+      "evidence_fields": [
+        "ui_result.screenshots"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.frida",
+      "signal": "hook_imei",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:51:23.060686+00:00",
+      "pii_type": "imei",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_imei.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.frida",
+      "signal": "hook_android_id",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:51:23.060704+00:00",
+      "pii_type": "android_id",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_android_id.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.frida",
+      "signal": "hook_oaid",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:51:23.060709+00:00",
+      "pii_type": "android_id",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_oaid.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.frida",
+      "signal": "hook_location",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:51:23.060712+00:00",
+      "pii_type": "location",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_location.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.frida",
+      "signal": "hook_mac_ip",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:51:23.060714+00:00",
+      "pii_type": "ip_address",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.frida",
+      "signal": "hook_mac_ip",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:51:23.060717+00:00",
+      "pii_type": "mac_address",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_mac_ip.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.frida",
+      "signal": "hook_phone",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:51:23.060719+00:00",
+      "pii_type": "phone_number",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_phone.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.frida",
+      "signal": "hook_contacts",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:51:23.060721+00:00",
+      "pii_type": "contact_list",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_contacts.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.frida",
+      "signal": "hook_clipboard",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:51:23.060723+00:00",
+      "pii_type": "clipboard",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_clipboard.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.frida",
+      "signal": "hook_network_okhttp",
+      "value": "dry_run_args",
+      "stack_summary": "dry_run_stack",
+      "timestamp_utc": "2026-06-11T23:51:23.060725+00:00",
+      "pii_type": "network_transmission",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.frida",
+      "signal": "OkHttp.execute",
+      "value": "dry_run_network",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:51:23.060728+00:00",
+      "pii_type": "network_transmission",
+      "hook_file": "D:\\LEARNING_RESOURCE\\AndroidPDS\\gitRepository\\Android-Privacy-Detection-Software\\project\\src\\privacy_audit\\analyzers\\dynamic\\hooks\\hook_network_okhttp.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getImei",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:51:23.060730+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getMeid",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:51:23.060733+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getDeviceId",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:51:23.060735+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getDeviceSoftwareVersion",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:51:23.060737+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.frida",
+      "signal": "android.telephony.TelephonyManager.getSimSerialNumber",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:51:23.060739+00:00",
+      "pii_type": "imei",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.frida",
+      "signal": "android.provider.Settings$Secure.getString",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:51:23.060741+00:00",
+      "pii_type": "android_id",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.frida",
+      "signal": "android.provider.Settings$System.getString",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:51:23.060743+00:00",
+      "pii_type": "android_id",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.frida",
+      "signal": "android.location.LocationManager.getLastKnownLocation",
+      "value": "dry_run_papi",
+      "stack_summary": "",
+      "timestamp_utc": "2026-06-11T23:51:23.060744+00:00",
+      "pii_type": "location",
+      "hook_file": "hook_papi.js",
+      "evidence_fields": [
+        "frida_result.events"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "ccs.umeng.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T23:43:06.174660+00:00",
+      "context": "Umeng",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "errnewlog.umeng.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T23:33:19.853377+00:00",
+      "context": "Umeng",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "sss.umeng.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T23:43:36.560565+00:00",
+      "context": "Umeng",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "ulogs.umeng.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T23:33:19.757852+00:00",
+      "context": "Umeng",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.network",
+      "signal": "tracker_host",
+      "value": "utoken.umeng.com",
+      "pii_type": "sdk_info",
+      "timestamp_utc": "2026-06-11T23:33:14.999704+00:00",
+      "context": "Umeng",
+      "evidence_fields": [
+        "network_result.tracker_hits"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "mac",
+      "pii_type": "mac_address",
+      "timestamp_utc": "2026-06-11T23:33:15.058936+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    },
+    {
+      "app_name": "咪噜游戏",
+      "source": "dynamic.network",
+      "signal": "pii_network_key",
+      "value": "lat",
+      "pii_type": "location",
+      "timestamp_utc": "2026-06-11T23:33:19.761571+00:00",
+      "evidence_fields": [
+        "network_result.pii_key_hits"
+      ]
+    }
+  ],
+  "capture_meta": {
+    "sync_mode": true,
+    "frida_grace_sec": 30,
+    "frida_tail_sec": 60,
+    "frida_launch_mode": "spawn",
+    "frida_code_prefixes": [
+      "com.youhai.milu"
+    ],
+    "frida_tier": "unknown",
+    "spawn_fallback_attach": true,
+    "dynamic_track": {
+      "dynamic_track_requested": "lab42",
+      "dynamic_track_resolved": "mitm",
+      "enable_frida": false,
+      "enable_mitm": true,
+      "java_bridge": "",
+      "tier": "unknown",
+      "preferred_dynamic_tracks": [],
+      "mitm_primary": true,
+      "probe_path": "output\\frida_probe\\miluyouxi.json"
+    },
+    "enable_mitm": true,
+    "frida_enabled": false,
+    "frida_runtime_events": 0,
+    "frida_java_active_count": 0,
+    "mitm_flow_count": 105,
+    "tracker_hit_count": 5,
+    "post_run_app_closed": true
+  },
+  "summary": {
+    "ui_steps": 37,
+    "screenshots": 5,
+    "keyword_checks": 3,
+    "keyword_match_count": 3,
+    "registered_hook_types": 9,
+    "frida_events": 19,
+    "frida_runtime_events": 0,
+    "frida_java_active_count": 0,
+    "candidate_pii_count": 10,
+    "mitm_flow_count": 105,
+    "tracker_hit_count": 5,
+    "pii_key_hit_count": 2
+  }
+}
